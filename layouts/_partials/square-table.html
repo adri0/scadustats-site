@@ -1,0 +1,18 @@
+{{- /* Input: a slice of {text, game_type, known, boards, marks}, already ordered. */ -}}
+<div class="table-wrap">
+  <table class="stats-table square-table">
+    <thead>
+      <tr><th>Goal</th><th>On cards</th><th>Claimed</th><th>Claim rate</th></tr>
+    </thead>
+    <tbody>
+    {{- range . }}
+      <tr>
+        <td class="square-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</td>
+        <td>{{ .boards }}</td>
+        <td>{{ .marks }}</td>
+        <td>{{ if .boards }}{{ printf "%.0f%%" (mul 100.0 (div (float .marks) (float .boards))) }}{{ else }}—{{ end }}</td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+</div>

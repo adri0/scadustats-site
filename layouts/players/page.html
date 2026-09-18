@@ -1,0 +1,113 @@
+{{ define "main" }}
+{{- $p := .Params }}
+{{ partial "breadcrumb.html" . }}
+
+<header class="player-header">
+  {{- with $p.avatar }}
+  <img class="player-avatar" src="{{ . }}" alt="{{ $p.display_name }}" width="72" height="72" loading="lazy">
+  {{- end }}
+  <div>
+    <h1>{{ $p.display_name }}</h1>
+    <div class="player-links">
+      {{- with $p.twitch_url }}<a class="pill pill-sm pill-outline" href="{{ . }}" target="_blank" rel="noopener">Twitch</a>{{ end }}
+      {{- if $p.unregistered }}<span class="pill pill-sm pill-outline">no profile yet</span>{{ end }}
+    </div>
+  </div>
+</header>
+
+{{- with $p.bio }}<p class="player-bio">{{ . }}</p>{{ end }}
+
+<div class="stat-row">
+  <div class="stat">
+    <span class="stat-label">Matches</span>
+    <span class="stat-value">{{ $p.wins }} Win{{ if ne $p.wins 1 }}s{{ end }} – {{ $p.losses }} Loss{{ if ne $p.losses 1 }}es{{ end }} – {{ $p.draws }} Draw{{ if ne $p.draws 1 }}s{{ end }}</span>
+    {{- with $p.no_decision }}<span class="stat-note">{{ . }} undecided</span>{{ end }}
+  </div>
+  <div class="stat">
+    <span class="stat-label">Games</span>
+    <span class="stat-value">{{ $p.game_wins }}W – {{ $p.game_losses }}L</span>
+  </div>
+  {{- $decided := add $p.wins $p.losses }}
+  <div class="stat">
+    <span class="stat-label">Match win rate</span>
+    <span class="stat-value">{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</span>
+  </div>
+</div>
+
+<div class="split-columns">
+  {{- with $p.by_game_type }}
+  <section>
+    <h2>By game type</h2>
+    <div class="table-wrap">
+      <table class="stats-table">
+        <thead><tr><th>Type</th><th>Wins</th><th>Losses</th></tr></thead>
+        <tbody>
+        {{- range $type, $stats := . }}
+          <tr>
+            <td>{{ if eq $type "dlc" }}DLC{{ else }}{{ title $type }}{{ end }}</td>
+            <td>{{ $stats.wins }}</td>
+            <td>{{ $stats.losses }}</td>
+          </tr>
+        {{- end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {{- end }}
+
+  {{- with $p.by_season }}
+  <section>
+    <h2>By season</h2>
+    <div class="table-wrap">
+      <table class="stats-table">
+        <thead><tr><th>Season</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
+        <tbody>
+        {{- range $sid, $stats := . }}
+          <tr>
+            <td><a href="{{ printf "/seasons/%s/" $sid | relURL }}">Season {{ $sid }}</a></td>
+            <td>{{ $stats.wins }}</td>
+            <td>{{ $stats.losses }}</td>
+            <td>{{ $stats.draws }}</td>
+          </tr>
+        {{- end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+  {{- end }}
+</div>
+
+{{- if or $p.top_squares_base $p.top_squares_dlc }}
+<h2>Most claimed squares</h2>
+<div class="split-columns">
+  {{- with $p.top_squares_base }}
+  <section>
+    <h3>Base game</h3>
+    {{ partial "square-ranking.html" . }}
+  </section>
+  {{- end }}
+  {{- with $p.top_squares_dlc }}
+  <section>
+    <h3>DLC</h3>
+    {{ partial "square-ranking.html" . }}
+  </section>
+  {{- end }}
+</div>
+{{- end }}
+
+<h2>Match history</h2>
+<ul class="match-history">
+  {{- range $p.matches }}
+  {{- $own := cond (eq .color "red") .red_score .blue_score }}
+  {{- $opp := cond (eq .color "red") .blue_score .red_score }}
+  <li class="match-history-row result-{{ .result }}">
+    <a href="{{ .path | relURL }}">
+      <span class="result-badge">{{ substr .result 0 1 | upper }}</span>
+      <span class="match-history-date">{{ .match_date }}</span>
+      <span class="match-history-opponent">vs {{ .opponent.display_name }}</span>
+      <span class="match-history-score">{{ $own }}–{{ $opp }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{ end }}

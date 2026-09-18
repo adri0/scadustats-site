@@ -1,0 +1,20 @@
+{{- $id := printf "%v" . -}}
+{{- $found := false -}}
+{{- $result := dict -}}
+{{- range hugo.Data.seasons -}}
+  {{- if and (not $found) (eq (printf "%v" .id) $id) -}}
+    {{- $found = true -}}
+    {{- $result = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $found -}}
+  {{- $result = dict
+      "id" $id
+      "name" (printf "Season %s" $id)
+      "start_date" ""
+      "end_date" ""
+      "bracket_type" ""
+      "blurb" ""
+      "unregistered" true -}}
+{{- end -}}
+{{- return $result -}}

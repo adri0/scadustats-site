@@ -1,0 +1,77 @@
+{{- $allMatches := slice -}}
+{{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
+  {{- range $videoID, $match := $matchesInSeason -}}
+    {{- $allMatches = $allMatches | append (partial "lib/match-summary.html" $match) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $seasonIDs := slice -}}
+{{- range hugo.Data.seasons -}}
+  {{- $seasonIDs = $seasonIDs | append (printf "%v" .id) -}}
+{{- end -}}
+{{- range $allMatches -}}
+  {{- if not (in $seasonIDs .season_id) -}}
+    {{- $seasonIDs = $seasonIDs | append .season_id -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range $sid := $seasonIDs -}}
+  {{- $season := partial "lib/season-lookup.html" $sid -}}
+  {{- $seasonMatches := where $allMatches "season_id" $sid -}}
+
+  {{- $standings := dict -}}
+  {{- range $seasonMatches -}}
+    {{- $m := . -}}
+    {{- range slice $m.player_red $m.player_blue -}}
+      {{- $p := . -}}
+      {{- if not (index $standings $p.slug) -}}
+        {{- $standings = merge $standings (dict $p.slug (dict "player" $p "wins" 0 "losses" 0 "draws" 0)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if eq $m.winner "red" -}}
+      {{- $rs := index $standings $m.player_red.slug -}}
+      {{- $standings = merge $standings (dict $m.player_red.slug (dict "player" $rs.player "wins" (add $rs.wins 1) "losses" $rs.losses "draws" $rs.draws)) -}}
+      {{- $bs := index $standings $m.player_blue.slug -}}
+      {{- $standings = merge $standings (dict $m.player_blue.slug (dict "player" $bs.player "wins" $bs.wins "losses" (add $bs.losses 1) "draws" $bs.draws)) -}}
+    {{- else if eq $m.winner "blue" -}}
+      {{- $bs := index $standings $m.player_blue.slug -}}
+      {{- $standings = merge $standings (dict $m.player_blue.slug (dict "player" $bs.player "wins" (add $bs.wins 1) "losses" $bs.losses "draws" $bs.draws)) -}}
+      {{- $rs := index $standings $m.player_red.slug -}}
+      {{- $standings = merge $standings (dict $m.player_red.slug (dict "player" $rs.player "wins" $rs.wins "losses" (add $rs.losses 1) "draws" $rs.draws)) -}}
+    {{- else if eq $m.winner "draw" -}}
+      {{- $rs := index $standings $m.player_red.slug -}}
+      {{- $standings = merge $standings (dict $m.player_red.slug (dict "player" $rs.player "wins" $rs.wins "losses" $rs.losses "draws" (add $rs.draws 1))) -}}
+      {{- $bs := index $standings $m.player_blue.slug -}}
+      {{- $standings = merge $standings (dict $m.player_blue.slug (dict "player" $bs.player "wins" $bs.wins "losses" $bs.losses "draws" (add $bs.draws 1))) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $matchList := slice -}}
+  {{- range $seasonMatches -}}
+    {{- $matchList = $matchList | append (dict
+        "video_id" .video_id
+        "match_date" .match_date
+        "player_red" .player_red
+        "player_blue" .player_blue
+        "red_score" .red_score
+        "blue_score" .blue_score
+        "winner" .winner
+        "match_type" .match_type
+        "path" (printf "/matches/season-%s/%s/" .season_id (lower .video_id))) -}}
+  {{- end -}}
+
+  {{- $.AddPage (dict
+      "path" $sid
+      "title" ($season.name | default (printf "Season %s" $sid))
+      "kind" "page"
+      "params" (dict
+        "id" $sid
+        "name" ($season.name | default (printf "Season %s" $sid))
+        "start_date" ($season.start_date | default "")
+        "end_date" ($season.end_date | default "")
+        "bracket_type" ($season.bracket_type | default "")
+        "blurb" ($season.blurb | default "")
+        "unregistered" ($season.unregistered | default false)
+        "standings" $standings
+        "matches" (sort $matchList "match_date" "desc"))) -}}
+{{- end -}}

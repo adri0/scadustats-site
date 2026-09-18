@@ -1,0 +1,742 @@
+[
+  {
+    "id": "abductors_2",
+    "text": "Kill 2 Unique Abductor Virgins",
+    "game_type": "base"
+  },
+  {
+    "id": "abductors_3",
+    "text": "Kill 3 Unique Abductor Virgins",
+    "game_type": "base"
+  },
+  {
+    "id": "agheel_plus0",
+    "text": "Kill Agheel with a +0 Weapon Only",
+    "game_type": "base"
+  },
+  {
+    "id": "altus_bosses_4",
+    "text": "Kill 4 Bosses in Altus Plateau / Mt. Gelmir",
+    "game_type": "base"
+  },
+  {
+    "id": "altus_bosses_5",
+    "text": "Kill 5 Bosses in Altus Plateau / Mt. Gelmir",
+    "game_type": "base"
+  },
+  {
+    "id": "altus_bosses_6",
+    "text": "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
+    "game_type": "base"
+  },
+  {
+    "id": "altus_heros_grave",
+    "text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+    "game_type": "base"
+  },
+  {
+    "id": "ancestor_1",
+    "text": "Kill an Ancestor Spirit",
+    "game_type": "base"
+  },
+  {
+    "id": "arcane_30",
+    "text": "30 Arcane",
+    "game_type": "base"
+  },
+  {
+    "id": "bbk",
+    "text": "Kill a Black Blade Kindred",
+    "game_type": "base"
+  },
+  {
+    "id": "bell_bering_hunters_2",
+    "text": "Kill 2 Bell Bearing Hunters",
+    "game_type": "base"
+  },
+  {
+    "id": "bell_bering_hunters_4",
+    "text": "Kill 4 Bell Bearing Hunters",
+    "game_type": "base"
+  },
+  {
+    "id": "black_knife_assassins_2",
+    "text": "Kill 2 Unique Black Knife Assassins",
+    "game_type": "base"
+  },
+  {
+    "id": "black_knife_assassins_4",
+    "text": "Kill 4 Unique Black Knife Assassins",
+    "game_type": "base"
+  },
+  {
+    "id": "blueretta",
+    "text": "Kill Loretta (Blue Spirit)",
+    "game_type": "base"
+  },
+  {
+    "id": "borealis",
+    "text": "Kill Borealis",
+    "game_type": "base"
+  },
+  {
+    "id": "both_astels",
+    "text": "Kill Both Astel Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "caelid_bosses_4",
+    "text": "Kill 4 Bosses in Caelid Dragonbarrow",
+    "game_type": "base"
+  },
+  {
+    "id": "caelid_bosses_5",
+    "text": "Kill 5 Bosses in Caelid Dragonbarrow",
+    "game_type": "base"
+  },
+  {
+    "id": "catacombs_2",
+    "text": "Complete 2 Catacombs",
+    "game_type": "base"
+  },
+  {
+    "id": "caves_2",
+    "text": "Complete 2 Caves",
+    "game_type": "base"
+  },
+  {
+    "id": "caves_3",
+    "text": "Complete 3 Caves",
+    "game_type": "base"
+  },
+  {
+    "id": "caves_grottos_3",
+    "text": "Complete 3 Caves or Grottos",
+    "game_type": "base"
+  },
+  {
+    "id": "cemetery_shades_3",
+    "text": "Kill 3 Unique Cemetery Shades",
+    "game_type": "base"
+  },
+  {
+    "id": "cracked_pots_10",
+    "text": "Acquire 10 Cracked Pots",
+    "game_type": "base"
+  },
+  {
+    "id": "crucible_knight_misbegotten_duo",
+    "text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+    "game_type": "base"
+  },
+  {
+    "id": "crucible_knights_2",
+    "text": "Kill 2 Unique Crucible Knights",
+    "game_type": "base"
+  },
+  {
+    "id": "crucible_knights_3",
+    "text": "Kill 3 Unique Crucible Knights",
+    "game_type": "base"
+  },
+  {
+    "id": "crucible_knights_4",
+    "text": "Kill 4 Unique Crucible Knights",
+    "game_type": "base"
+  },
+  {
+    "id": "darriwil",
+    "text": "Kill Darriwil while Summoning Blaidd",
+    "game_type": "base"
+  },
+  {
+    "id": "deathbirds_2_deathrite_1",
+    "text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+    "game_type": "base"
+  },
+  {
+    "id": "dragon_heart_bosses_3",
+    "text": "Kill 3 Dragon Heart Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "dragon_heart_bosses_4",
+    "text": "Kill 4 Dragon Heart Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "dragonkin_soldier",
+    "text": "Kill a Dragonkin Soldier Boss",
+    "game_type": "base"
+  },
+  {
+    "id": "dropped_aow_5",
+    "text": "Acquire 5 Dropped Ashes of War",
+    "game_type": "base"
+  },
+  {
+    "id": "dropped_aow_6",
+    "text": "Acquire 6 Dropped Ashes of War",
+    "game_type": "base"
+  },
+  {
+    "id": "duelist_1",
+    "text": "Kill 1 Duelist Boss",
+    "game_type": "base"
+  },
+  {
+    "id": "duelist_2",
+    "text": "Kill 2 Duelist Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "duo_3",
+    "text": "Kill 3 Duo Trio Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "elder_lions_2",
+    "text": "Kill 2 Unique Elder Lions",
+    "game_type": "base"
+  },
+  {
+    "id": "elder_lions_4",
+    "text": "Kill 4 Unique Elder Lions",
+    "game_type": "base"
+  },
+  {
+    "id": "elemer",
+    "text": "Kill Elemer of the Briar",
+    "game_type": "base"
+  },
+  {
+    "id": "erdtree_avatar_2",
+    "text": "Kill 2 Unique Erdtree or Putrid Avatars",
+    "game_type": "base"
+  },
+  {
+    "id": "erdtree_avatar_3",
+    "text": "Kill 3 Unique Erdtree or Putrid Avatars",
+    "game_type": "base"
+  },
+  {
+    "id": "erdtree_avatar_4",
+    "text": "Kill 4 Unique Erdtree or Putrid Avatars",
+    "game_type": "base"
+  },
+  {
+    "id": "evergaols_2",
+    "text": "Complete 2 Evergaols",
+    "game_type": "base"
+  },
+  {
+    "id": "evergaols_4",
+    "text": "Complete 4 Evergaols",
+    "game_type": "base"
+  },
+  {
+    "id": "explosive_physick",
+    "text": "Finish off a Boss with the Explosive Physick",
+    "game_type": "base"
+  },
+  {
+    "id": "faith_30",
+    "text": "30 Faith",
+    "game_type": "base"
+  },
+  {
+    "id": "fallingstar_beast_1",
+    "text": "Kill 1 Fallingstar Beast",
+    "game_type": "base"
+  },
+  {
+    "id": "fallingstar_beast_2",
+    "text": "Kill 2 Fallingstar Beasts",
+    "game_type": "base"
+  },
+  {
+    "id": "fia_champs",
+    "text": "Kill Fia's Champions",
+    "game_type": "base"
+  },
+  {
+    "id": "fingerslayer_blade",
+    "text": "Acquire the Fingerslayer Blade",
+    "game_type": "base"
+  },
+  {
+    "id": "fire_giant",
+    "text": "Kill Fire Giant",
+    "game_type": "base"
+  },
+  {
+    "id": "friendly_npcs_3",
+    "text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+    "game_type": "base"
+  },
+  {
+    "id": "gargoyles_4",
+    "text": "Kill 4 Unique Gargoyles / BBK",
+    "game_type": "base"
+  },
+  {
+    "id": "god_bosses_3",
+    "text": "Kill 3 Bosses with \"God\" in their name",
+    "game_type": "base"
+  },
+  {
+    "id": "god_bosses_4",
+    "text": "Kill 4 Bosses with \"God\" in their name",
+    "game_type": "base"
+  },
+  {
+    "id": "godrick_great_rune",
+    "text": "Restore Godrick's Great Rune",
+    "game_type": "base"
+  },
+  {
+    "id": "godrick_nepheli",
+    "text": "Kill Godrick while Summoning Nepheli Loux",
+    "game_type": "base"
+  },
+  {
+    "id": "godskin_apostle",
+    "text": "Kill a Godskin Apostle",
+    "game_type": "base"
+  },
+  {
+    "id": "goldfrey",
+    "text": "Kill Godfrey (Gold Spirit)",
+    "game_type": "base"
+  },
+  {
+    "id": "grafted_scion",
+    "text": "Kill Grafted Scion (Chapel)",
+    "game_type": "base"
+  },
+  {
+    "id": "grave_ghost_glovewort_bell_berings_1",
+    "text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+    "game_type": "base"
+  },
+  {
+    "id": "greyoll",
+    "text": "Kill Greyoll without Status Effects",
+    "game_type": "base"
+  },
+  {
+    "id": "gurranq",
+    "text": "Kill Gurranq",
+    "game_type": "base"
+  },
+  {
+    "id": "haligtree_medallion",
+    "text": "Acquire the Full Haligtree Medallion",
+    "game_type": "base"
+  },
+  {
+    "id": "horse_bosses_5",
+    "text": "Kill 5 Bosses that Ride a Horse",
+    "game_type": "base"
+  },
+  {
+    "id": "hyetta_grapes_3",
+    "text": "Give Hyetta 3 Shabriri Grapes",
+    "game_type": "base"
+  },
+  {
+    "id": "imbued_sword_keys_2",
+    "text": "acquire 2 Imbued Sword Keys",
+    "game_type": "base"
+  },
+  {
+    "id": "incantations_14",
+    "text": "Acquire 14 Unique Incantations",
+    "game_type": "base"
+  },
+  {
+    "id": "intelligence_30",
+    "text": "30 Intelligence",
+    "game_type": "base"
+  },
+  {
+    "id": "lansseax",
+    "text": "Kill Ancient Dragon Lansseax",
+    "game_type": "base"
+  },
+  {
+    "id": "larval_tears_4",
+    "text": "Acquire 4 Larval Tears from Transforming Enemies",
+    "game_type": "base"
+  },
+  {
+    "id": "legendary_talismans_3",
+    "text": "Acquire 3 Legendary Talismans",
+    "game_type": "base"
+  },
+  {
+    "id": "leonine",
+    "text": "Kill Leonine Misbegotten",
+    "game_type": "base"
+  },
+  {
+    "id": "limgrave_bosses_4",
+    "text": "Kill 4 Bosses in Limgrave / Weeping",
+    "game_type": "base"
+  },
+  {
+    "id": "limgrave_bosses_5",
+    "text": "Kill 5 Bosses in Limgrave / Weeping",
+    "game_type": "base"
+  },
+  {
+    "id": "liurnia_bosses_4",
+    "text": "Kill 4 Bosses in Liurnia",
+    "game_type": "base"
+  },
+  {
+    "id": "magma_wyrm_1",
+    "text": "Kill 1 Magma Wyrm",
+    "game_type": "base"
+  },
+  {
+    "id": "magma_wyrms_2",
+    "text": "Kill 2 Magma Wyrms",
+    "game_type": "base"
+  },
+  {
+    "id": "magma_wyrms_3",
+    "text": "Kill 3 Magma Wyrms",
+    "game_type": "base"
+  },
+  {
+    "id": "magnus",
+    "text": "Kill Magnus the Beast Claw",
+    "game_type": "base"
+  },
+  {
+    "id": "makar",
+    "text": "Kill Magma Wyrm Makar",
+    "game_type": "base"
+  },
+  {
+    "id": "malenia",
+    "text": "Kill Malenia",
+    "game_type": "base"
+  },
+  {
+    "id": "margit_parries6",
+    "text": "Kill Margit with 6+ Parries",
+    "game_type": "base"
+  },
+  {
+    "id": "margit_plus0",
+    "text": "Kill Margit with a +0 Weapon Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_bows",
+    "text": "Kill a Remembrance Boss with Bows Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_daggers",
+    "text": "Kill a Remembrance Boss with Daggers Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_incatations",
+    "text": "Killa Remembrance Boss with incantations Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_memb",
+    "text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_sorceries",
+    "text": "Kill a Remembrance Boss with Sorceries Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_whips",
+    "text": "Kill a Remembrance Boss with Whips Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memory_stones_3",
+    "text": "Acquire 3 Memory Stones",
+    "game_type": "base"
+  },
+  {
+    "id": "memory_stones_5",
+    "text": "Acquire 5 Memory Stones",
+    "game_type": "base"
+  },
+  {
+    "id": "millicent_arm",
+    "text": "Give Millicent her Prosthetic Arm",
+    "game_type": "base"
+  },
+  {
+    "id": "miriam",
+    "text": "Kill Preceptor Miriam",
+    "game_type": "base"
+  },
+  {
+    "id": "misbegotten_bosses_2",
+    "text": "Kill 2 Misbegotten Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "misbegotten_crusader",
+    "text": "Kill Misbegotten Crusader",
+    "game_type": "base"
+  },
+  {
+    "id": "mog_100k",
+    "text": "Memory of Grace with 100k+ Runes",
+    "game_type": "base"
+  },
+  {
+    "id": "mohg_lord_of_blood",
+    "text": "Kill Mohg Lord of Blood",
+    "game_type": "base"
+  },
+  {
+    "id": "mohg_the_omen",
+    "text": "Kill Mohg the Omen",
+    "game_type": "base"
+  },
+  {
+    "id": "moon_of_nokstella",
+    "text": "Acquire the Moon of Nokstella",
+    "game_type": "base"
+  },
+  {
+    "id": "morgott",
+    "text": "Kill Morgott",
+    "game_type": "base"
+  },
+  {
+    "id": "morgott_great_rune",
+    "text": "Restore Morgott's Great Rune",
+    "game_type": "base"
+  },
+  {
+    "id": "nights_calv_2",
+    "text": "Kill 2 Unique Night's Cavalry",
+    "game_type": "base"
+  },
+  {
+    "id": "npc_bosses_4",
+    "text": "Kill 4 NPC Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "npc_invaders_4",
+    "text": "Kill 4 NPC Invaders",
+    "game_type": "base"
+  },
+  {
+    "id": "omenkiller_bosses_2",
+    "text": "Kill 2 Omenkiller Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "oneil",
+    "text": "Kill Commander O'Neil",
+    "game_type": "base"
+  },
+  {
+    "id": "painting_rewards_3",
+    "text": "Acquire 3 Painting Rewards",
+    "game_type": "base"
+  },
+  {
+    "id": "putrid_trio",
+    "text": "Kill Putrid Crystalian Trio Boss",
+    "game_type": "base"
+  },
+  {
+    "id": "radahn_great_rune",
+    "text": "Restore Radahn's Great Rune",
+    "game_type": "base"
+  },
+  {
+    "id": "radahn_no_status",
+    "text": "Kill Radahn without Status Effects and Summons",
+    "game_type": "base"
+  },
+  {
+    "id": "red_wolves_2",
+    "text": "Kill 2 Unique Red Wolves",
+    "game_type": "base"
+  },
+  {
+    "id": "rennala_summons_4",
+    "text": "Kill Rennala after she Summons 4 Spirits",
+    "game_type": "base"
+  },
+  {
+    "id": "rick_bare_fists",
+    "text": "Kill Soldier of Godrick with Bare Fists Only",
+    "game_type": "base"
+  },
+  {
+    "id": "ritual_pots_5",
+    "text": "Acquire 5 Ritual Pots",
+    "game_type": "base"
+  },
+  {
+    "id": "ryas_hand",
+    "text": "Take Rya's hand to Volcano Manor",
+    "game_type": "base"
+  },
+  {
+    "id": "rykard",
+    "text": "Kill Rykard",
+    "game_type": "base"
+  },
+  {
+    "id": "rykard_great_rune",
+    "text": "Restore Rykard s Great Rune",
+    "game_type": "base"
+  },
+  {
+    "id": "sacred_flask_charges_10",
+    "text": "Acquire 10 Sacred Flask Charges",
+    "game_type": "base"
+  },
+  {
+    "id": "sacred_flask_plus7",
+    "text": "Acquire Sacred Flask +7",
+    "game_type": "base"
+  },
+  {
+    "id": "scarseals",
+    "text": "Acquire Both Scarseal Talismans",
+    "game_type": "base"
+  },
+  {
+    "id": "seals_3",
+    "text": "Acquire 3 Unique Seals",
+    "game_type": "base"
+  },
+  {
+    "id": "shackles",
+    "text": "Acquire Margit's and Mohg's Shackles",
+    "game_type": "base"
+  },
+  {
+    "id": "sheep_lightning_aow_10",
+    "text": "Kill 10 Sheep with AoW Lightning Ram Only",
+    "game_type": "base"
+  },
+  {
+    "id": "sleeping_golem",
+    "text": "Kill the Sleeping Golem in Leyndell",
+    "game_type": "base"
+  },
+  {
+    "id": "smithing_bell_bearing_1_and_2",
+    "text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+    "game_type": "base"
+  },
+  {
+    "id": "somber_bell_bearing_1_and_2",
+    "text": "Acquire Somberstone Bell Bearing [1] and [2]",
+    "game_type": "base"
+  },
+  {
+    "id": "staves_6",
+    "text": "Acquire 6 Unique Staves",
+    "game_type": "base"
+  },
+  {
+    "id": "thops_key",
+    "text": "Return Thops's Academy Key",
+    "game_type": "base"
+  },
+  {
+    "id": "tibia_2",
+    "text": "Kill 2 Unique Tibia Mariners",
+    "game_type": "base"
+  },
+  {
+    "id": "tibia_3",
+    "text": "Kill 3 Unique Tibia Mariners",
+    "game_type": "base"
+  },
+  {
+    "id": "tibia_4",
+    "text": "Kill 4 Unique Tibia Mariners",
+    "game_type": "base"
+  },
+  {
+    "id": "tree_bosses_5",
+    "text": "Kill 5 Bosses with \"Tree\" in their name",
+    "game_type": "base"
+  },
+  {
+    "id": "tree_sentinal_plus0",
+    "text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+    "game_type": "base"
+  },
+  {
+    "id": "tree_sentinel_duo",
+    "text": "Kill Tree Sentinel Duo",
+    "game_type": "base"
+  },
+  {
+    "id": "tree_spirits_3",
+    "text": "Kill 3 Unique Tree Spirits",
+    "game_type": "base"
+  },
+  {
+    "id": "tunnels_2",
+    "text": "Complete 2 Tunnels",
+    "game_type": "base"
+  },
+  {
+    "id": "tunnels_3",
+    "text": "Complete 3 Tunnels or Precipices",
+    "game_type": "base"
+  },
+  {
+    "id": "valiant_gargs",
+    "text": "Kill Valiant Gargoyles",
+    "game_type": "base"
+  },
+  {
+    "id": "volcano_godskin_noble_without_status",
+    "text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+    "game_type": "base"
+  },
+  {
+    "id": "vyke",
+    "text": "Kill Roundtable Knight Vyke",
+    "game_type": "base"
+  },
+  {
+    "id": "watchdogs_3",
+    "text": "Kill 3 Unique Watchdogs",
+    "game_type": "base"
+  },
+  {
+    "id": "watchdogs_4",
+    "text": "Kill 4 Unique Watchdogs",
+    "game_type": "base"
+  },
+  {
+    "id": "whetstone_3",
+    "text": "Acquire 3 Whetstone Knives",
+    "game_type": "base"
+  },
+  {
+    "id": "wormface",
+    "text": "Kill Wormface",
+    "game_type": "base"
+  }
+]

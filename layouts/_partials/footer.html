@@ -1,0 +1,27 @@
+{{- /*
+  Overrides kopi's footer.html: the cookie-consent banner and the placeholder
+  social links are dropped. The toast container stays -- interactions.js uses
+  it for the "link copied" toast.
+*/ -}}
+<div id="toastContainer" class="toast-container"></div>
+
+<footer class="site-footer">
+    <div class="container footer-content">
+        <div>
+            <strong class="footer-title">{{ site.Title }}</strong>
+            {{- with site.Params.subtitle }}
+            <span class="footer-subtitle">{{ . }}</span>
+            {{- end }}
+            <p>Every number on this site is recomputed from the transcribed VODs in <code>data/matches</code>.</p>
+        </div>
+        <div class="footer-links">
+            <a href="{{ "/matches/" | relURL }}">Matches</a>
+            <a href="{{ "/players/" | relURL }}">Players</a>
+            <a href="{{ "/rules/" | relURL }}">Rules</a>
+        </div>
+    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to Top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+</button>

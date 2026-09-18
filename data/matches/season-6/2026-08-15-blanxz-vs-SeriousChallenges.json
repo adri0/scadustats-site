@@ -1,0 +1,243 @@
+{
+  "video_id": "2026-08-15-blanxz-vs-SeriousChallenges",
+  "video_url": "https://www.youtube.com/watch?v=GhBs26IE0Lo",
+  "match_date": "2026-08-15",
+  "season": 6,
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "SeriousChallenges",
+  "extracted_at": "2026-09-13",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 173.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "square_texts": [
+        [
+          "Acquire 3 Memory Stones",
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Acquire the Full Haligtree Medallion",
+          "Kill Wormface",
+          "Take Rya's hand to Volcano Manor"
+        ],
+        [
+          "Kill 10 Sheep with AoW Lightning Ram Only",
+          "Kill 4 Bosses with God in their name",
+          "Kill Greyoll without Status Effects",
+          "Return Thops's Academy Key",
+          "Acquire 14 Unique incantations"
+        ],
+        [
+          "Acquire 6 Unique Staves",
+          "Kill Margit with a +0 Weapon Only",
+          "Kill an Ancestor Spirit",
+          "Acquire 3 Unique Seals",
+          "Restore Morgott's Great Rune"
+        ],
+        [
+          "Finish off a Boss with the Explosive Physick",
+          "Killa Godskin Apostle",
+          "Kill 3 Unique Tree Spirits",
+          "Kil Godskin Noble (Volcano Manor) without Status Effects",
+          "Acquire 4 Larval Tears from Transforming Enemies"
+        ],
+        [
+          "Kill 4 Bosses in Altus Plateau Mt. Gelmir",
+          "Killa Remembrance Boss with Daggers Only",
+          "Kill 4 NPC Invaders",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Restore Rykard's Great Rune"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 7.0
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:42",
+          "video_ts_s": 28.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:10",
+          "video_ts_s": 30.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:33",
+          "video_ts_s": 33.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:33",
+          "video_ts_s": 39.0
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:34",
+          "video_ts_s": 40.0
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:23",
+          "video_ts_s": 50.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:24",
+          "video_ts_s": 56.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:22",
+          "video_ts_s": 61.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:39",
+          "video_ts_s": 68.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:44",
+          "video_ts_s": 73.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:36",
+          "video_ts_s": 82.0
+        },
+        {
+          "row": 0,
+          "col": 0,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:42",
+          "video_ts_s": 88.0
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:14",
+          "video_ts_s": 96.0
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:21",
+          "video_ts_s": 103.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:33",
+          "video_ts_s": 117.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:41",
+          "video_ts_s": 125.0
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:36",
+          "video_ts_s": 135.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:40",
+          "video_ts_s": 139.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:56",
+          "video_ts_s": 141.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:27",
+          "video_ts_s": 147.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:33",
+          "video_ts_s": 153.0
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:31",
+          "video_ts_s": 165.0
+        }
+      ]
+    }
+  ]
+}

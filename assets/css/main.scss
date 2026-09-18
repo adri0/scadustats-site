@@ -1,0 +1,18 @@
+/*
+ * Site CSS entry point. Overrides kopi's assets/css/main.scss so the theme's
+ * radio-player and search styles can be left out -- those features are not
+ * enabled here. Everything else is the theme's, with our own bingo/stats
+ * components last in `partials/scadu`.
+ */
+@import "partials/variables";
+@import "partials/base";
+@import "partials/layout";
+@import "partials/header";
+@import "partials/components";
+@import "partials/codeblock";
+@import "partials/tags";
+@import "partials/image";
+@import "partials/table";
+@import "partials/widgets";
+@import "partials/post";
+@import "partials/scadu";

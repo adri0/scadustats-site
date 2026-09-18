@@ -1,0 +1,47 @@
+id: 1
+slug: blanxz
+display_name: blanxz
+twitch: blanxz
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 2
+    losses: 1
+    draws: 0
+game_record:
+  wins: 4
+  losses: 1
+game_type_records:
+  base:
+    wins: 2
+    losses: 1
+  dlc:
+    wins: 2
+    losses: 0
+all_matches:
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+top_squares_base_game:
+- text: Kill 2 Fallingstar Beasts
+  marks: 2
+- text: Take Rya's hand to Volcano Manor
+  marks: 2
+- text: Acquire 3 Memory Stones
+  marks: 1
+- text: Acquire 3 Whetstone Knives
+  marks: 1
+- text: Acquire 6 Dropped Ashes of War
+  marks: 1
+top_squares_dlc:
+- text: Put Florissax to Sleep
+  marks: 2
+- text: Acquire 2 Full DLC Armor Sets
+  marks: 1
+- text: Acquire 2 Unique Max Upgrade Materials
+  marks: 1
+- text: Acquire 3 DLC Ashes of War
+  marks: 1
+- text: Acquire 3 Non Merchant Sorceries
+  marks: 1

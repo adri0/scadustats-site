@@ -1,0 +1,13 @@
+<ol class="event-timeline">
+{{- range . }}
+  {{- if eq .event_type "mark" }}
+  <li class="event event-mark event-{{ .color }}">{{ .game_timer }} — {{ .color }} claimed &ldquo;{{ .square_text }}&rdquo; (r{{ .row }}c{{ .col }})</li>
+  {{- else if eq .event_type "unmark" }}
+  <li class="event event-unmark">{{ .game_timer }} — {{ .color }} unmarked &ldquo;{{ .square_text }}&rdquo;</li>
+  {{- else if eq .event_type "game_start" }}
+  <li class="event event-meta">{{ .game_timer }} — Game start</li>
+  {{- else if eq .event_type "game_end" }}
+  <li class="event event-meta">{{ .game_timer }} — Game end</li>
+  {{- end }}
+{{- end }}
+</ol>

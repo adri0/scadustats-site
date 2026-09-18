@@ -1,0 +1,508 @@
+{
+  "video_id": "2026-07-19-Raydans-vs-Parkenharbor",
+  "match_date": "2026-07-19",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Raydans",
+  "player_blue_name": "Parkenharbor",
+  "commentators": [
+    "starOchris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=RuPF_fU6o6w",
+    "duration_s": 14410.25,
+    "published_at": "2026-07-23",
+    "source_path": "/Users/adri0/code/scadustats/downloads/RuPF_fU6o6w.mp4",
+    "extracted_at": "2026-09-16"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4532.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 4 Bosses in Liurnia",
+          "Restore Godrick's Great Rune",
+          "Kill Grafted Scion (Chapel)",
+          "Kill Margit with 6+ Parries",
+          "Kill 2 Omenkiller Bosses"
+        ],
+        [
+          "Kill 4 Unique Watchdogs",
+          "Kill 4 NPC Bosses",
+          "Return Thops's Academy Key",
+          "Acquire 5 Ritual Pots",
+          "Kill Valiant Gargoyles"
+        ],
+        [
+          "Kill a Black Blade Kindred",
+          "Killa Remembrance Boss with Daggers Only",
+          "Kill Elemer of the Briar",
+          "Restore Rykard's Great Rune",
+          "Kill Both Astel Bosses"
+        ],
+        [
+          "Kill 1 Duelist Boss",
+          "Killa Remembrance Boss with Remembrance Weapons Only",
+          "Kill2 Deathbirds and 1 Death Rite Bird",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "30 Intelligence"
+        ],
+        [
+          "Give Hyetta 3 Shabriri Grapes",
+          "Acquire Both Scarseal Talismans",
+          "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "Kill 4 NPC Invaders",
+          "Kill Fia's Champions"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 187.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:29",
+          "video_ts_s": 1056.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:26",
+          "video_ts_s": 1173.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Killa Remembrance Boss with Daggers Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:03",
+          "video_ts_s": 1270.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:07",
+          "video_ts_s": 1514.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 1 Duelist Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:30",
+          "video_ts_s": 1657.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:36",
+          "video_ts_s": 1843.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:18",
+          "video_ts_s": 2305.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "30 Intelligence",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:45",
+          "video_ts_s": 2692.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Killa Remembrance Boss with Remembrance Weapons Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:07",
+          "video_ts_s": 2774.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:32",
+          "video_ts_s": 2859.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Return Thops's Academy Key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:18",
+          "video_ts_s": 3085.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 4 Bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:59",
+          "video_ts_s": 3306.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:01",
+          "video_ts_s": 3428.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:26",
+          "video_ts_s": 3573.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 4 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:58",
+          "video_ts_s": 4085.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:24",
+          "video_ts_s": 4231.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 4 Unique Watchdogs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:37",
+          "video_ts_s": 4364.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Grafted Scion (Chapel)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:13",
+          "video_ts_s": 4400.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:10:13",
+          "video_ts_s": 4400.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4533.0,
+      "end_video_ts_s": 10138.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Lamenter",
+          "Kill 3 Bosses with Knight in their name",
+          "Drain the Water in the Church District",
+          "Kill 2 Demi Human Swordmasters",
+          "x Kill the Ancient Dragon Man"
+        ],
+        [
+          "Kill 3 Unique Curseblade Assassins",
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Acquire 3 Full DLC Armor Sets",
+          "Complete 2 Catacombs",
+          "Kill Promised Consort Radahn"
+        ],
+        [
+          "Acquire 3 Blessings of Marika",
+          "Level 10 Scadu",
+          "Kill Ancient Dragon Senessax",
+          "Give the Secret Rite Scroll to Ansbach",
+          "Acquire the Full Gravebird Armor Set"
+        ],
+        [
+          "Rune Level 85",
+          "Kill 1 Boss of each Bear Lion Hippo",
+          "Kill Romina",
+          "Acquire Jolan Summon",
+          "Kill a Boss after Inflicting 4 Different Status Effects"
+        ],
+        [
+          "Acquire the Two Headed Turtle Talisman",
+          "Killa Remembrance Boss with Remembrance Weapons Only",
+          "Acquire 3 Different Max Upgrade Materials",
+          "Kill 3 Trolls",
+          "Craft 2 Unique Hefty Pots"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4715.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:31",
+          "video_ts_s": 5466.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Craft 2 Unique Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:45",
+          "video_ts_s": 5480.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "x Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:44",
+          "video_ts_s": 5959.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 3 Full DLC Armor Sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:51",
+          "video_ts_s": 5966.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:36",
+          "video_ts_s": 6131.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire the Two Headed Turtle Talisman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:19",
+          "video_ts_s": 6594.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:51",
+          "video_ts_s": 6686.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:00",
+          "video_ts_s": 6755.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 3 Different Max Upgrade Materials",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:59",
+          "video_ts_s": 7544.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Killa Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:42",
+          "video_ts_s": 7587.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Trolls",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:47",
+          "video_ts_s": 7747.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Bosses with Knight in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:01",
+          "video_ts_s": 7761.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:39",
+          "video_ts_s": 8322.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 1 Boss of each Bear Lion Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:05:56",
+          "video_ts_s": 8339.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:17",
+          "video_ts_s": 8360.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Rune Level 85",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:34",
+          "video_ts_s": 8377.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:41",
+          "video_ts_s": 8504.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:45",
+          "video_ts_s": 8868.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire the Full Gravebird Armor Set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:21:45",
+          "video_ts_s": 9288.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 2 Demi Human Swordmasters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:22:19",
+          "video_ts_s": 9322.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Promised Consort Radahn",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:37:05",
+          "video_ts_s": 10100.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:37:05",
+          "video_ts_s": 10100.0
+        }
+      ]
+    }
+  ]
+}

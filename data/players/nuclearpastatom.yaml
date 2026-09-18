@@ -1,0 +1,46 @@
+id: 7
+slug: nuclearpastatom
+display_name: NuclearPastaTom
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 2
+    losses: 0
+    draws: 0
+game_record:
+  wins: 4
+  losses: 0
+game_type_records:
+  base:
+    wins: 2
+    losses: 0
+  dlc:
+    wins: 2
+    losses: 0
+all_matches:
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+top_squares_base_game:
+- text: Acquire 3 Painting Rewards
+  marks: 2
+- text: Kill 5 Bosses in Limgrave Weeping
+  marks: 2
+- text: Acquire 10 Cracked Pots
+  marks: 1
+- text: Acquire 14 Unique Incantations
+  marks: 1
+- text: Acquire 3 Legendary Talismans
+  marks: 1
+top_squares_dlc:
+- text: Kill Moonrithyll Carian Knight
+  marks: 2
+- text: Acquire 2 Blessings of Marika
+  marks: 1
+- text: Acquire 2 Dragon Hearts
+  marks: 1
+- text: Acquire 2 Non Merchant Sorceries
+  marks: 1
+- text: Acquire 3 DLC Spirit Ashes
+  marks: 1

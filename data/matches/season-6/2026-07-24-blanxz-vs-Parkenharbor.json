@@ -1,0 +1,445 @@
+{
+  "video_id": "2026-07-24-blanxz-vs-Parkenharbor",
+  "match_date": "2026-07-24",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "Parkenharbor",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=xRRWyfZ3wec",
+    "duration_s": 14416.133333333333,
+    "published_at": "2026-07-27",
+    "source_path": "/Users/adri0/code/scadustats/downloads/xRRWyfZ3wec.mp4",
+    "extracted_at": "2026-09-16"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3514.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Kill Misbegotten Crusader",
+          "Kill Rennala after she Summons 4 Spirits",
+          "Acquire 10 Sacred Flask Charges",
+          "Kill Malenia",
+          "Kill Godfrey (Gold Spirit)"
+        ],
+        [
+          "Kill S Bosses in Altus Plateau Mt. Gelmir",
+          "Complete 4 Evergaols",
+          "Kill 2 Duelist Bosses",
+          "Kill 2 Fallingstar Beasts",
+          "Kill 3 Unique Tree Spirits"
+        ],
+        [
+          "Acquire 6 Unique Staves",
+          "30 Intelligence",
+          "Acquire 3 Whetstone Knives",
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Restore Godrick's Great Rune"
+        ],
+        [
+          "Kill Commander O'Neil",
+          "Killa Remembrance Boss with Bows Only",
+          "Complete 2 Catacombs",
+          "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "Kill 4 Bell Bearing Hunters"
+        ],
+        [
+          "Kill2 Unique Night's Cavalry",
+          "x Kill Borealis",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Kill 4 Unique Tibia Mariners",
+          "Kill 4 Bosses in Caelid Dragonbarrow"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 188.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill2 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:15",
+          "video_ts_s": 563.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Complete 2 Catacombs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:30",
+          "video_ts_s": 1058.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:57",
+          "video_ts_s": 1265.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "30 Intelligence",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:57",
+          "video_ts_s": 1445.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Commander O'Neil",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:53",
+          "video_ts_s": 1561.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 3 Whetstone Knives",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:40",
+          "video_ts_s": 2208.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 2 Fallingstar Beasts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:48",
+          "video_ts_s": 2336.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 Bosses in Caelid Dragonbarrow",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:28",
+          "video_ts_s": 2556.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Killa Remembrance Boss with Bows Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:10",
+          "video_ts_s": 2778.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 4 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:34",
+          "video_ts_s": 2982.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:18",
+          "video_ts_s": 3206.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:50",
+          "video_ts_s": 3478.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:54:50",
+          "video_ts_s": 3478.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3515.0,
+      "end_video_ts_s": 8152.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Complete 2 Catacombs",
+          "Kill Moonrithyll Carian Knight",
+          "Kill Ancient Dragon Senessax",
+          "Memory of Grace with 500k+ Runes",
+          "Acquire Death Mask Helm Winged Serpent Helm and Salza s Hood"
+        ],
+        [
+          "Kill 3 Unique NPC Invaders",
+          "Acquire Commander Gaius s Pants",
+          "Kill Madding Hand",
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Kill 1 Unique Divine Bird Warrior"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill Rellana",
+          "Kill Messmer",
+          "Kill Curseblade Labirith",
+          "Acquire 2 Painting Rewards"
+        ],
+        [
+          "Acquire 3 DLC Ashes of War",
+          "Kill Leda and her Allies",
+          "Acquire 3 NPC Dropped Weapons",
+          "Blow a Finger",
+          "Kill Midra"
+        ],
+        [
+          "Acquire Jolan Summon",
+          "Level 11 Scadu",
+          "Kill Chief Bloodfiend",
+          "Kill the Rolling Giant Lightning Ram",
+          "Give an lris of Grace"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3705.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:47",
+          "video_ts_s": 4292.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Moonrithyll Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:12",
+          "video_ts_s": 4377.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:38",
+          "video_ts_s": 4823.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:50",
+          "video_ts_s": 4835.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Rellana",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:33",
+          "video_ts_s": 5058.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:16",
+          "video_ts_s": 5161.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:11",
+          "video_ts_s": 5276.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Unique Divine Bird Warrior",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:10",
+          "video_ts_s": 5395.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Curseblade Labirith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:39",
+          "video_ts_s": 5484.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Blow a Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:02",
+          "video_ts_s": 5687.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:50",
+          "video_ts_s": 5855.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Commander Gaius s Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:59",
+          "video_ts_s": 6164.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Give an lris of Grace",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:29",
+          "video_ts_s": 6194.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:11",
+          "video_ts_s": 6596.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Death Mask Helm Winged Serpent Helm and Salza s Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:12",
+          "video_ts_s": 6717.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:50:12",
+          "video_ts_s": 6717.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:47",
+          "video_ts_s": 6812.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Level 11 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:14",
+          "video_ts_s": 7019.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:12",
+          "video_ts_s": 7257.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:52",
+          "video_ts_s": 7537.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Midra",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:33",
+          "video_ts_s": 8118.0
+        }
+      ]
+    }
+  ]
+}

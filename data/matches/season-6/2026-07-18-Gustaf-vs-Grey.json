@@ -1,0 +1,472 @@
+{
+  "video_id": "2026-07-18-Gustaf-vs-Grey",
+  "match_date": "2026-07-18",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "Gustaf",
+  "player_blue_name": "Grey",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=7dgwbTF0RAU",
+    "duration_s": 14403.383333333333,
+    "published_at": null,
+    "source_path": "downloads/7dgwbTF0RAU.mp4",
+    "extracted_at": "2026-09-15"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 2934.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_2",
+      "square_texts": [
+        [
+          "Kill Agheel with a +0 Weapon Only",
+          "Wake Rya's hand to Volcano Manor",
+          "Kill 4 Dragon Heart Bosses",
+          "Kill Margit with 6+ Parries",
+          "Complete 2 Caves"
+        ],
+        [
+          "Killa Remembrance Boss with Daggers Only",
+          "Memory of Grace with 100k + Runes",
+          "Complete 2 Evergaols",
+          "Kill 2 Unique Crucible Knights",
+          "Restore Radahn's Great Rune"
+        ],
+        [
+          "Kill 3 Bosses with God in their name",
+          "Give Millicent her Prosthetic Arm",
+          "Kill2 Unique Tibia Mariners",
+          "Killa Remembrance Boss with Whips Only",
+          "Kill Greyoll without Status Effects"
+        ],
+        [
+          "Kill Godrick while Summoning Nephell Loux",
+          "Kill 4 Unique Elder Lions",
+          "Kill 3 Duo Trio Bosses",
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill Loretta (Blue Spirit)"
+        ],
+        [
+          "Acquire the Moon of Nokstella",
+          "Kill Morgott",
+          "Kill 4 Bosses in Caelid Dragonbarrow",
+          "Kill Godfrey (Gold Spirit)",
+          "Kill an Ancestor Spirit"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 182.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 2 Caves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:58",
+          "video_ts_s": 480.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:16",
+          "video_ts_s": 498.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:30",
+          "video_ts_s": 812.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill2 Unique Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:55",
+          "video_ts_s": 957.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:37",
+          "video_ts_s": 1179.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Godrick while Summoning Nephell Loux",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:59",
+          "video_ts_s": 1501.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Memory of Grace with 100k + Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:28",
+          "video_ts_s": 1890.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:23",
+          "video_ts_s": 2065.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Complete 2 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:46",
+          "video_ts_s": 2148.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 2 Unique Crucible Knights",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:34",
+          "video_ts_s": 2256.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:23",
+          "video_ts_s": 2605.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Killa Remembrance Boss with Daggers Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:35",
+          "video_ts_s": 2858.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:44:35",
+          "video_ts_s": 2858.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 2936.0,
+      "end_video_ts_s": 8690.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Rakshasa",
+          "Acquire 2 Painting Rewards",
+          "Acquire Jolan Summon",
+          "Acquire 2 Hanging Pot Bell Bearings",
+          "Kill Lamenter"
+        ],
+        [
+          "Kill Putrescent Knight",
+          "Level 9 Scadu",
+          "Kill 3 Dragon Bosses",
+          "Acquire Death Mask Heim Winged Serpent Helm and Saiza's Hood",
+          "Kill 3 NPC Bosses"
+        ],
+        [
+          "Killa Death Knight",
+          "Acquire 3 DLC Ashes of War",
+          "Kill Bayle",
+          "Level 5 Revered Spirit Ash",
+          "Acquire 4 Kindred Cookbooks"
+        ],
+        [
+          "Kill the Colossal Fingercreeper",
+          "Kill Leda and her Allies",
+          "Kill a Boss with Sorceries Only",
+          "Kill Chief Bloodfiend",
+          "Give the Secret Rite Scroll to Ansbach"
+        ],
+        [
+          "Acquire 4 Enemy NPC Dropped Talismans",
+          "Put Florissax to Sleep",
+          "Duplicate a Remembrance 1 time",
+          "Kill Crucible Knight Devonia",
+          "Use a Transformation"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3129.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:07",
+          "video_ts_s": 3736.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:12",
+          "video_ts_s": 4221.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:06",
+          "video_ts_s": 4455.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Rakshasa",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:13",
+          "video_ts_s": 4582.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:19",
+          "video_ts_s": 4888.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:56",
+          "video_ts_s": 5045.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Level 9 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:27",
+          "video_ts_s": 5196.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:42",
+          "video_ts_s": 5211.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:43",
+          "video_ts_s": 5392.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:18",
+          "video_ts_s": 5607.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Duplicate a Remembrance 1 time",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:09",
+          "video_ts_s": 6138.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:10",
+          "video_ts_s": 6199.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:02",
+          "video_ts_s": 6311.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:18",
+          "video_ts_s": 6387.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Killa Death Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:57",
+          "video_ts_s": 6666.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Death Mask Heim Winged Serpent Helm and Saiza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:00",
+          "video_ts_s": 6669.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:16",
+          "video_ts_s": 6925.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:40",
+          "video_ts_s": 7369.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Boss with Sorceries Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:14:54",
+          "video_ts_s": 7623.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 4 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:53",
+          "video_ts_s": 7802.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:19:32",
+          "video_ts_s": 7901.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 4 Enemy NPC Dropped Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:28:41",
+          "video_ts_s": 8450.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:28:41",
+          "video_ts_s": 8450.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Leda and her Allies",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:31:41",
+          "video_ts_s": 8630.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{{- /*
+  Input: a player name as spelled in a match file.
+  Output: a normalized profile dict {slug, display_name, twitch_url, avatar,
+  bio, unregistered}. Only identity/profile fields are read from
+  `data/players/*.yaml`; the stat fields those files also carry
+  (season_records, game_record, top_squares_*) are deliberately ignored --
+  every stat on the site is recomputed from `data/matches` so it can't drift.
+
+  Matching is case-insensitive against display_name, slug, and any `aliases`,
+  which is the hook for folding a mis-transcribed name into one profile.
+*/ -}}
+{{- $name := . -}}
+{{- $needle := lower $name -}}
+{{- $found := false -}}
+{{- $result := dict -}}
+{{- range hugo.Data.players -}}
+  {{- if not $found -}}
+    {{- $entry := . -}}
+    {{- $isMatch := or
+        (eq (lower ($entry.display_name | default "")) $needle)
+        (eq (lower ($entry.slug | default "")) $needle) -}}
+    {{- range $entry.aliases -}}
+      {{- if eq (lower .) $needle -}}
+        {{- $isMatch = true -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $isMatch -}}
+      {{- $found = true -}}
+      {{- $twitchURL := $entry.twitch_url | default "" -}}
+      {{- if and (not $twitchURL) $entry.twitch -}}
+        {{- $twitchURL = printf "https://www.twitch.tv/%s" $entry.twitch -}}
+      {{- end -}}
+      {{- $result = dict
+          "slug" ($entry.slug | default (urlize $needle))
+          "display_name" ($entry.display_name | default $name)
+          "twitch_url" $twitchURL
+          "avatar" ($entry.avatar | default "")
+          "bio" ($entry.bio | default "")
+          "unregistered" false -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $found -}}
+  {{- $result = dict
+      "slug" (urlize $needle)
+      "display_name" $name
+      "twitch_url" ""
+      "avatar" ""
+      "bio" ""
+      "unregistered" true -}}
+{{- end -}}
+{{- return $result -}}

@@ -1,0 +1,81 @@
+baseURL = "/"
+locale = "en-us"
+title = "Scadustats"
+
+# No tags or categories: pages come from data/, not from front matter.
+[taxonomies]
+
+[params]
+  # subtitle = "Statistics from Elden Ring Bingo Brawlers league"
+  description = "Community-base repository for match history, player records, and square stats for the Elden Ring Bingo Brawlers league, transcribed from the VODs."
+
+# Kopi renders no post-card images, so the sidebar/feed image lookups stay empty.
+# mainSections is unused by our layouts but kopi partials read it.
+  mainSections = ["matches"]
+
+[[menus.main]]
+  name = "Matches"
+  pageRef = "/matches"
+  weight = 10
+
+[[menus.main]]
+  name = "Players"
+  pageRef = "/players"
+  weight = 20
+
+[[menus.main]]
+  name = "Seasons"
+  pageRef = "/seasons"
+  weight = 30
+
+[[menus.main]]
+  name = "Squares"
+  pageRef = "/squares"
+  weight = 40
+
+[[menus.main]]
+  name = "Rules"
+  pageRef = "/rules"
+  weight = 50
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"
+
+  # The kopi theme (themes/kopi) is imported as a module rather than via
+  # `theme = "kopi"` so we can pick the mounts: its layouts/assets/static only.
+  # Its own content/ (a demo home page, /search/, /library/) and data/radio.yaml
+  # are deliberately left unmounted -- those are features we don't use.
+  [[module.imports]]
+    path = "kopi"
+    [[module.imports.mounts]]
+      source = "layouts"
+      target = "layouts"
+    [[module.imports.mounts]]
+      source = "assets"
+      target = "assets"
+    [[module.imports.mounts]]
+      source = "static"
+      target = "static"
+    [[module.imports.mounts]]
+      source = "i18n"
+      target = "i18n"

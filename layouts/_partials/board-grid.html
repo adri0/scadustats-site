@@ -1,0 +1,34 @@
+{{- $board := .board -}}
+{{- $winLine := .win_line -}}
+{{- $highlightRow := 0 -}}
+{{- $highlightCol := 0 -}}
+{{- $diagTLBR := false -}}
+{{- $diagBLTR := false -}}
+{{- if $winLine -}}
+  {{- if strings.HasPrefix $winLine "row_" -}}
+    {{- $highlightRow = int (strings.TrimPrefix "row_" $winLine) -}}
+  {{- else if strings.HasPrefix $winLine "col_" -}}
+    {{- $highlightCol = int (strings.TrimPrefix "col_" $winLine) -}}
+  {{- else if eq $winLine "diagonal_tl_br" -}}
+    {{- $diagTLBR = true -}}
+  {{- else if eq $winLine "diagonal_bl_tr" -}}
+    {{- $diagBLTR = true -}}
+  {{- end -}}
+{{- end -}}
+<div class="board-wrap">
+<table class="bingo-board">
+  <tbody>
+  {{- range $r := seq 5 }}
+    <tr>
+    {{- range $c := seq 5 }}
+      {{- $cell := index $board (printf "%d_%d" $r $c) -}}
+      {{- $isHighlight := or (eq $r $highlightRow) (eq $c $highlightCol) (and $diagTLBR (eq $r $c)) (and $diagBLTR (eq (add $r $c) 6)) -}}
+      <td class="cell cell-{{ $cell.color }}{{ if $isHighlight }} cell-winline{{ end }}">
+        <span class="cell-text">{{ $cell.text }}</span>
+      </td>
+    {{- end }}
+    </tr>
+  {{- end }}
+  </tbody>
+</table>
+</div>

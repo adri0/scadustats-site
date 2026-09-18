@@ -1,0 +1,46 @@
+id: 13
+slug: twistiet
+display_name: TwistieT
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 0
+    losses: 1
+    draws: 0
+game_record:
+  wins: 0
+  losses: 2
+game_type_records:
+  base:
+    wins: 0
+    losses: 1
+  dlc:
+    wins: 0
+    losses: 1
+all_matches:
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-19-Vswed-vs-TwistieT
+top_squares_base_game:
+- text: Acquire Sacred Flask +7
+  marks: 1
+- text: Finish off a Boss with the Explosive Physick
+  marks: 1
+- text: Kill 1 Duelist Boss
+  marks: 1
+- text: Kill 4 NPC Invaders
+  marks: 1
+- text: Kill Preceptor Miriam
+  marks: 1
+top_squares_dlc:
+- text: Complete 2 Gaols
+  marks: 1
+- text: Drain the Water in the Church District
+  marks: 1
+- text: Drink Thiollier's Concoction
+  marks: 1
+- text: Give an Iris of Occultation
+  marks: 1
+- text: Kill Queelign in Belurat
+  marks: 1

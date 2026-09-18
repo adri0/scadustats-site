@@ -1,0 +1,22 @@
+{{- /*
+  Output: a dict keyed by normalized square text (lowercase, alphanumerics only)
+  -> {id, text, game_type}, built from every file under `data/squares/`.
+
+  Normalizing on text rather than id is what makes the catalog usable: match
+  events carry only `square_text`, transcribed per VOD, so the same goal shows
+  up with varying punctuation ("Limgrave / Weeping" vs "Limgrave Weeping").
+  Call through `partialCached` -- the index is identical for every lookup.
+*/ -}}
+{{- $index := dict -}}
+{{- range $file, $squares := hugo.Data.squares -}}
+  {{- range $squares -}}
+    {{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" .text) -}}
+    {{- if and $key (not (index $index $key)) -}}
+      {{- $index = merge $index (dict $key (dict
+          "id" .id
+          "text" .text
+          "game_type" (.game_type | default $file))) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $index -}}

@@ -1,0 +1,47 @@
+id: 2
+slug: grey
+display_name: Grey
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 1
+    losses: 1
+    draws: 0
+game_record:
+  wins: 2
+  losses: 2
+game_type_records:
+  base:
+    wins: 1
+    losses: 1
+  dlc:
+    wins: 1
+    losses: 1
+all_matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-18-Gustaf-vs-Grey
+top_squares_base_game:
+- text: Complete 2 Caves
+  marks: 2
+- text: 30 Faith
+  marks: 1
+- text: Acquire the Moon of Nokstella
+  marks: 1
+- text: Complete 2 Evergaols
+  marks: 1
+- text: Kill 2 Deathbirds and 1 Death Rite Bird
+  marks: 1
+top_squares_dlc:
+- text: Kill 3 NPC Bosses
+  marks: 2
+- text: Kill Crucible Knight Devonia
+  marks: 2
+- text: Level 5 Revered Spirit Ash
+  marks: 2
+- text: Acquire 3 DLC Ashes of War
+  marks: 1
+- text: Acquire Death Mask Heim Winged Serpent Helm and Saiza's Hood
+  marks: 1

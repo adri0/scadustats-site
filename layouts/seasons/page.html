@@ -1,0 +1,49 @@
+{{ define "main" }}
+{{- $s := .Params }}
+{{ partial "breadcrumb.html" . }}
+
+<header class="season-header">
+  <h1>{{ $s.name }}</h1>
+  <div class="season-card-meta">
+    {{- with $s.start_date }}<span>{{ . }}{{ with $s.end_date }} – {{ . }}{{ end }}</span>{{ end }}
+    {{- with $s.bracket_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
+  </div>
+  {{- if $s.unregistered }}<p class="notice">This season isn't described in <code>data/seasons.json</code> yet — everything below is derived from its matches.</p>{{ end }}
+  {{- with $s.blurb }}<p class="season-blurb">{{ . }}</p>{{ end }}
+</header>
+
+<h2>Standings</h2>
+<div class="table-wrap">
+  <table class="stats-table">
+    <thead><tr><th>#</th><th>Player</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
+    <tbody>
+    {{- range $i, $row := sort $s.standings "wins" "desc" }}
+      <tr>
+        <td class="rank">{{ add $i 1 }}</td>
+        <td><a href="{{ printf "/players/%s/" $row.player.slug | relURL }}">{{ $row.player.display_name }}</a></td>
+        <td>{{ $row.wins }}</td>
+        <td>{{ $row.losses }}</td>
+        <td>{{ $row.draws }}</td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+</div>
+
+<h2>Matches</h2>
+<ul class="match-history">
+  {{- range $s.matches }}
+  <li class="match-history-row">
+    <a href="{{ .path | relURL }}">
+      <span class="match-history-date">{{ .match_date }}</span>
+      <span class="match-history-opponent">
+        <span class="{{ if eq .winner "red" }}is-winner{{ end }}">{{ .player_red.display_name }}</span>
+        vs
+        <span class="{{ if eq .winner "blue" }}is-winner{{ end }}">{{ .player_blue.display_name }}</span>
+      </span>
+      <span class="match-history-score">{{ .red_score }}–{{ .blue_score }}</span>
+    </a>
+  </li>
+  {{- end }}
+</ul>
+{{ end }}

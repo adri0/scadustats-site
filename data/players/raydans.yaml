@@ -1,0 +1,47 @@
+id: 10
+slug: raydans
+display_name: Raydans
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 2
+    losses: 1
+    draws: 0
+game_record:
+  wins: 4
+  losses: 2
+game_type_records:
+  base:
+    wins: 2
+    losses: 1
+  dlc:
+    wins: 2
+    losses: 1
+all_matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-07-26-Raydans-vs-lronyeu
+- 2026-07-19-Raydans-vs-Parkenharbor
+top_squares_base_game:
+- text: Acquire Both Scarseal Talismans
+  marks: 2
+- text: Killa Remembrance Boss with Daggers Only
+  marks: 2
+- text: 30 Intelligence
+  marks: 1
+- text: Acquire 10 Cracked Pots
+  marks: 1
+- text: Acquire 10 Sacred Flask Charges
+  marks: 1
+top_squares_dlc:
+- text: Kill Romina
+  marks: 2
+- text: Acquire 3 Blessings of Marika
+  marks: 1
+- text: Acquire 3 Kindred Cookbooks
+  marks: 1
+- text: Acquire 3 Unique Max Upgrade Materials
+  marks: 1
+- text: Acquire 4 Enemy NPC Dropped Talismans
+  marks: 1

@@ -1,0 +1,18 @@
+{{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
+  {{- range $videoID, $match := $matchesInSeason -}}
+    {{- $summary := partial "lib/match-summary.html" $match -}}
+    {{- $slug := lower $videoID -}}
+    {{- $page := dict
+        "path" (printf "season-%s/%s" $summary.season_id $slug)
+        "title" (printf "%s vs %s" $summary.player_red.display_name $summary.player_blue.display_name)
+        "kind" "page"
+        "params" $summary -}}
+    {{- /* AddPage takes dates under "dates", not a top-level "date" -- a
+           top-level key is silently ignored and every page keeps a zero .Date,
+           which then breaks every sort/ByDate over these pages. */ -}}
+    {{- with $summary.match_date -}}
+      {{- $page = merge $page (dict "dates" (dict "date" (time.AsTime .))) -}}
+    {{- end -}}
+    {{- $.AddPage $page -}}
+  {{- end -}}
+{{- end -}}

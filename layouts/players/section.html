@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{ partial "breadcrumb.html" . }}
+<h1>{{ .Title }}</h1>
+{{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
+
+<div class="table-wrap">
+  <table class="stats-table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Player</th>
+        <th>Matches W–L–D</th>
+        <th>Win rate</th>
+        <th>Games W–L</th>
+        <th>Base W–L</th>
+        <th>DLC W–L</th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- range $i, $page := sort (where site.RegularPages "Section" "players") ".Params.wins" "desc" }}
+      {{- $p := $page.Params }}
+      {{- $base := index $p.by_game_type "base" }}
+      {{- $dlc := index $p.by_game_type "dlc" }}
+      {{- $decided := add $p.wins $p.losses }}
+      <tr>
+        <td class="rank">{{ add $i 1 }}</td>
+        <td><a href="{{ $page.RelPermalink }}">{{ $p.display_name }}</a></td>
+        <td>{{ $p.wins }}–{{ $p.losses }}–{{ $p.draws }}</td>
+        <td>{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</td>
+        <td>{{ $p.game_wins }}–{{ $p.game_losses }}</td>
+        <td>{{ if $base }}{{ $base.wins }}–{{ $base.losses }}{{ else }}—{{ end }}</td>
+        <td>{{ if $dlc }}{{ $dlc.wins }}–{{ $dlc.losses }}{{ else }}—{{ end }}</td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+</div>
+{{ end }}

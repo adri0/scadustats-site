@@ -1,0 +1,41 @@
+id: 4
+slug: kemist
+display_name: KEMIST
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 0
+    losses: 1
+    draws: 0
+game_record:
+  wins: 0
+  losses: 2
+game_type_records:
+  base:
+    wins: 0
+    losses: 1
+  dlc:
+    wins: 0
+    losses: 1
+all_matches:
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+top_squares_base_game:
+- text: Kill 3 Dragon Heart Bosses
+  marks: 1
+- text: Kill Radahn without Status Effects and Summons
+  marks: 1
+- text: Kill a Godskin Apostle
+  marks: 1
+- text: Restore Godrick's Great Rune
+  marks: 1
+top_squares_dlc:
+- text: Kill Jori Elder Inquisitor
+  marks: 1
+- text: Kill the Golden Hippo
+  marks: 1
+- text: Killa Remembrance Boss Hitless
+  marks: 1
+- text: Memory of Grace with 500k+ Runes
+  marks: 1

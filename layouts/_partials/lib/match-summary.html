@@ -1,0 +1,67 @@
+{{- /*
+  Input: one raw match dict (a full match JSON file).
+  Output: a dict of derived Params for a match page. Scores/winner are always
+  RECOMPUTED from games[].winner_color/win_type -- the file's own top-level
+  num_games/red_score/blue_score/winner are never trusted (some files omit
+  them entirely; the extraction tool itself treats them as derived values).
+*/ -}}
+{{- $match := . -}}
+{{- $meta := $match.metadata -}}
+{{- if not $meta -}}
+  {{- $meta = $match -}}
+{{- end -}}
+
+{{- $games := slice -}}
+{{- $redWins := 0 -}}
+{{- $blueWins := 0 -}}
+{{- $undetermined := false -}}
+{{- range $g := ($match.games | default slice) -}}
+  {{- $board := partial "lib/board-state.html" $g -}}
+  {{- $wt := $g.win_type -}}
+  {{- $wc := $g.winner_color -}}
+  {{- if eq $wt "none" -}}
+    {{- $undetermined = true -}}
+  {{- else if eq $wc "red" -}}
+    {{- $redWins = add $redWins 1 -}}
+  {{- else if eq $wc "blue" -}}
+    {{- $blueWins = add $blueWins 1 -}}
+  {{- else if not $wt -}}
+    {{- $undetermined = true -}}
+  {{- end -}}
+  {{- $games = $games | append (dict
+      "index" $g.game_index
+      "game_type" ($g.game_type | default "")
+      "win_type" ($wt | default "")
+      "win_line" ($g.win_line | default "")
+      "winner_color" ($wc | default "")
+      "board" $board
+      "events" (sort ($g.events | default slice) "video_ts_s")) -}}
+{{- end -}}
+
+{{- $winner := "" -}}
+{{- if not $undetermined -}}
+  {{- if gt $redWins $blueWins -}}
+    {{- $winner = "red" -}}
+  {{- else if gt $blueWins $redWins -}}
+    {{- $winner = "blue" -}}
+  {{- else -}}
+    {{- $winner = "draw" -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $seasonID := printf "%v" $match.season -}}
+
+{{- return (dict
+    "video_id" $match.video_id
+    "match_date" $match.match_date
+    "season_id" $seasonID
+    "match_type" ($match.match_type | default "")
+    "commentators" ($match.commentators | default slice)
+    "video_url" ($meta.video_url | default "")
+    "player_red" (partial "lib/player-lookup.html" $match.player_red_name)
+    "player_blue" (partial "lib/player-lookup.html" $match.player_blue_name)
+    "num_games" (len ($match.games | default slice))
+    "red_score" $redWins
+    "blue_score" $blueWins
+    "winner" $winner
+    "games" $games) -}}

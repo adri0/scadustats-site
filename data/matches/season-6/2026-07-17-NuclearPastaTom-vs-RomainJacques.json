@@ -1,0 +1,535 @@
+{
+  "video_id": "2026-07-17-NuclearPastaTom-vs-RomainJacques",
+  "match_date": "2026-07-17",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=DwrnlwNqgUQ",
+    "duration_s": 14400.4,
+    "published_at": "2026-07-19",
+    "source_path": "/Users/adri0/code/scadustats/downloads/DwrnlwNqgUQ.mp4",
+    "extracted_at": "2026-09-15"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 23.0,
+      "end_video_ts_s": 5066.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Malenia",
+          "Kill Magnus the Beast Claw",
+          "Kill Margit with 6+ Parries",
+          "Kill Fire Giant",
+          "Killa Remembrance Boss Hitless"
+        ],
+        [
+          "Kill Putrid Crystalian Trio Boss",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Kill a Black Blade Kindred",
+          "Kill 2 Misbegotten Bosses",
+          "Kill 2 Unique Erdtree or Putrid Avatars"
+        ],
+        [
+          "Killa Remembrance Boss with Whips Only",
+          "Kill 2 Bell Bearing Hunters",
+          "Acquire 4 Larval Tears from Transforming Enemies",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill 5 Bosses with Tree in their name"
+        ],
+        [
+          "Kill 2 Fallingstar Beasts",
+          "Kil 4 Unique Gargoyles B8K",
+          "Kill Tree Sentinel Duo",
+          "Kill Magma Wyrm Makar",
+          "Kill Fia's Champions"
+        ],
+        [
+          "Acquire 3 Painting Rewards",
+          "Acquire 10 Cracked Pots",
+          "Acquire 5 Dropped Ashes of War",
+          "Kill Darriwil while Summoning Blaidd",
+          "Memory of Grace with 100k+ Runes"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 248.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 5 Dropped Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:09",
+          "video_ts_s": 617.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:52",
+          "video_ts_s": 840.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Magnus the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:19",
+          "video_ts_s": 1167.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:47",
+          "video_ts_s": 1435.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:27",
+          "video_ts_s": 1475.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:04",
+          "video_ts_s": 1512.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:01",
+          "video_ts_s": 1929.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 2 Unique Erdtree or Putrid Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:37",
+          "video_ts_s": 2205.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 4 Larval Tears from Transforming Enemies",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:14",
+          "video_ts_s": 2302.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 2 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:26",
+          "video_ts_s": 2614.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:16",
+          "video_ts_s": 2664.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 5 Bosses with Tree in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:02",
+          "video_ts_s": 2830.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:05",
+          "video_ts_s": 2953.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 2 Fallingstar Beasts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:13",
+          "video_ts_s": 3261.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 2 Misbegotten Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:50",
+          "video_ts_s": 3538.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Killa Remembrance Boss with Whips Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:11",
+          "video_ts_s": 3619.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:25",
+          "video_ts_s": 3933.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Give Hyetta 3 Shabriri Grapes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:03",
+          "video_ts_s": 4211.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Putrid Crystalian Trio Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:54",
+          "video_ts_s": 4382.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Darriwil while Summoning Blaidd",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:45",
+          "video_ts_s": 4433.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:09:45",
+          "video_ts_s": 4433.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Malenia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:59",
+          "video_ts_s": 4927.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Magma Wyrm Makar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:13",
+          "video_ts_s": 5001.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5068.0,
+      "end_video_ts_s": 9203.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Burn the Sealing Tree",
+          "Kill 3 Dragon Bosses",
+          "Kill Romina",
+          "Kill Moonrithyll Carian Knight",
+          "Acquire a Leda Rune"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill Crucible Knight Devonia",
+          "Kill 1 Dancing Lion",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Killa Remembrance Boss Hitless"
+        ],
+        [
+          "Complete 2 Forges",
+          "Acquire Jolan Summon",
+          "Use a Transformation",
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Kill Scadutree Avatar"
+        ],
+        [
+          "Kill Leda and her Allies",
+          "Complete 2 Nameless Mausoleums",
+          "Acquire 2 Dragon Hearts",
+          "Acquire Igon's Furled Finger",
+          "Kill 3 NPC Bosses"
+        ],
+        [
+          "Duplicate a Remembrance 3 times",
+          "Kill 1 Boss of each Bear Lion Hippo",
+          "Kill 3 Unique NPC Invaders",
+          "Acquire 2 Non Merchant Sorceries",
+          "Acquire 3 DLC Spirit Ashes"
+        ]
+      ],
+      "events": [
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:27",
+          "video_ts_s": 5907.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Moonrithyll Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:37",
+          "video_ts_s": 6037.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:18",
+          "video_ts_s": 6258.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:36",
+          "video_ts_s": 6576.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:37",
+          "video_ts_s": 6697.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:41",
+          "video_ts_s": 6761.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:19",
+          "video_ts_s": 6859.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 1 Dancing Lion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:29",
+          "video_ts_s": 7229.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 1 Boss of each Bear Lion Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:30",
+          "video_ts_s": 7230.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Non Merchant Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:52",
+          "video_ts_s": 7492.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:46",
+          "video_ts_s": 7606.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:07",
+          "video_ts_s": 7747.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:28",
+          "video_ts_s": 7888.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:53",
+          "video_ts_s": 7973.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Complete 2 Forges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:43",
+          "video_ts_s": 8263.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:38",
+          "video_ts_s": 8318.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:26",
+          "video_ts_s": 8426.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:43",
+          "video_ts_s": 8623.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:00:43",
+          "video_ts_s": 8623.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:45",
+          "video_ts_s": 8685.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:46",
+          "video_ts_s": 8806.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Duplicate a Remembrance 3 times",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:53",
+          "video_ts_s": 9053.0
+        }
+      ]
+    }
+  ]
+}

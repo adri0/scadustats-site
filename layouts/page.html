@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{- /*
+  Overrides kopi's page.html for hand-written pages (currently /rules/).
+  The theme's byline, share/bookmark buttons and prev/next post navigation are
+  dropped -- there are no authors or a chronological feed here.
+*/ -}}
+{{ partial "breadcrumb.html" . }}
+<article class="prose">
+  <h1>{{ .Title }}</h1>
+  <div class="article-body">{{ .Content }}</div>
+</article>
+{{ end }}

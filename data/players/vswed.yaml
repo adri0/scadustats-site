@@ -1,0 +1,47 @@
+id: 14
+slug: vswed
+display_name: Vswed
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 2
+    losses: 1
+    draws: 0
+game_record:
+  wins: 4
+  losses: 2
+game_type_records:
+  base:
+    wins: 2
+    losses: 1
+  dlc:
+    wins: 2
+    losses: 1
+all_matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Vswed-vs-TwistieT
+top_squares_base_game:
+- text: Kill Crucible Knight and Misbegotten Warrior Duo
+  marks: 2
+- text: Kill Misbegotten Crusader
+  marks: 2
+- text: Memory of Grace with 100k+ Runes
+  marks: 2
+- text: 30 Intelligence
+  marks: 1
+- text: Acquire 10 Sacred Flask Charges
+  marks: 1
+top_squares_dlc:
+- text: Acquire 3 NPC Dropped Weapons
+  marks: 2
+- text: Kill 3 Bosses with Knight in their name
+  marks: 2
+- text: Kill Moonrithyll Carian Knight
+  marks: 2
+- text: Kill Rakshasa
+  marks: 2
+- text: Kill the Ancient Dragon Man
+  marks: 2

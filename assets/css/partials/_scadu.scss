@@ -1,0 +1,660 @@
+/* --- Bingo Brawlers components ---------------------------------------------
+   Built on kopi's tokens (--bg-body, --text-main, --text-muted, --accent,
+   --border, --radius-*). Only the red/blue player colours and a card surface
+   are added here, in both themes.
+---------------------------------------------------------------------------- */
+
+:root {
+    --red: #c0394f;
+    --blue: #1f6fb2;
+    --red-soft: rgba(192, 57, 79, 0.12);
+    --blue-soft: rgba(31, 111, 178, 0.12);
+    --surface: #fafafa;
+    --surface-strong: #f4f4f5;
+}
+
+[data-theme="dark"] {
+    --red: #e5637a;
+    --blue: #5aa9e6;
+    --red-soft: rgba(229, 99, 122, 0.16);
+    --blue-soft: rgba(90, 169, 230, 0.16);
+    --surface: #101012;
+    --surface-strong: #18181b;
+}
+
+/* --- Shared bits --- */
+
+/* "Elden Ring Bingo Brawlers" is a long wordmark for kopi's 1.4rem uppercase
+   logo; it overflows the header on narrow phones. */
+@media (max-width: 480px) {
+    .logo { font-size: 1rem; gap: 6px; }
+    .logo::before { width: 12px; height: 12px; }
+}
+
+.notice {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* kopi's reset zeroes all margins, which the theme's own layouts make up for
+   inside .article-body. Data pages are headings + tables, so they need their
+   own rhythm. :where() keeps this at zero specificity: anything more specific
+   (.section-head h2, .article-body h2) still wins. */
+:where(.main-wrapper) {
+    h1 { margin-bottom: 1rem; }
+    h2 { margin: 2.5rem 0 1rem; }
+    h3 { margin: 1.5rem 0 0.75rem; }
+    p { margin-bottom: 1rem; }
+}
+
+.section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2.5rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+
+    h2, h3 { margin: 0; }
+
+    > a {
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    > a:hover { color: var(--accent); }
+}
+
+.split-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem 2rem;
+
+    @include md { grid-template-columns: 1fr 1fr; }
+}
+
+.prose { max-width: 70ch; }
+
+/* --- Home hero --- */
+
+.hero {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.hero-title {
+    font-size: 2rem;
+    letter-spacing: -0.03em;
+
+    @include md { font-size: 3rem; }
+}
+
+.hero-subtitle {
+    margin-top: 0.5rem;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.hero-body {
+    margin-top: 1rem;
+    max-width: 60ch;
+    color: var(--text-muted);
+}
+
+/* --- Tables --- */
+
+/* kopi's base sets `table { display: block }` for horizontal scrolling; our
+   data tables need real table layout, so they scroll via .table-wrap instead. */
+.table-wrap {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0 2rem;
+}
+
+.stats-table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    overflow: visible;
+
+    th, td {
+        padding: 0.6rem 0.9rem;
+        text-align: left;
+        border-bottom: 1px solid var(--border);
+        white-space: nowrap;
+    }
+
+    th {
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--text-muted);
+    }
+
+    tbody tr:hover { background-color: var(--surface); }
+    td a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    tbody tr:last-child td { border-bottom: none; }
+
+    td:not(:first-child):not(.square-text) { font-variant-numeric: tabular-nums; }
+
+    .rank {
+        color: var(--text-muted);
+        font-variant-numeric: tabular-nums;
+        width: 2.5rem;
+    }
+}
+
+.square-table {
+    td.square-text { white-space: normal; min-width: 18rem; }
+    td:not(:first-child) { width: 7rem; }
+}
+
+.square-unknown {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* --- Pills (kopi .pill variants for the two player colours) --- */
+
+.pill-red, .pill-blue {
+    border-color: currentColor;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.pill-red { color: var(--red); background-color: var(--red-soft); }
+.pill-blue { color: var(--blue); background-color: var(--blue-soft); }
+
+/* --- Match cards --- */
+
+.match-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    @include md { grid-template-columns: 1fr 1fr; }
+}
+
+.match-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem 1.15rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-container);
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+        border-color: var(--accent);
+        transform: translateY(-2px);
+        color: var(--text-main);
+    }
+}
+
+.match-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.match-card-score {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 0.75rem;
+
+    /* min-width:0 so a long name shrinks the 1fr track instead of widening
+       the card past the viewport. */
+    .side { font-weight: 700; line-height: 1.25; min-width: 0; overflow-wrap: anywhere; }
+    .side-red { text-align: left; }
+    .side-blue { text-align: right; }
+
+    .score {
+        font-size: 1.35rem;
+        font-weight: 800;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+}
+
+.match-card-foot {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.side-red { color: var(--red); }
+.side-blue { color: var(--blue); }
+
+.is-winner {
+    position: relative;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+}
+
+.score-sep {
+    color: var(--text-muted);
+    margin: 0 0.35rem;
+    font-weight: 500;
+}
+
+/* --- Match page scoreboard --- */
+
+/* A match page is a column of 5x5 boards; full container width would stretch
+   the cells well past what the goal text needs. */
+.match {
+    max-width: 62rem;
+    margin-inline: auto;
+}
+
+.scoreboard {
+    margin-bottom: 2rem;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-container);
+    background-color: var(--surface);
+}
+
+.scoreboard-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+}
+
+.scoreboard-main {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1rem;
+
+    .side {
+        font-size: 1.15rem;
+        font-weight: 800;
+        line-height: 1.2;
+        min-width: 0;
+        overflow-wrap: anywhere;
+
+        @include md { font-size: 1.75rem; }
+    }
+
+    .side-red { text-align: left; }
+    .side-blue { text-align: right; }
+}
+
+.scoreboard-score {
+    font-size: 1.75rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+
+    @include md { font-size: 2.5rem; }
+}
+
+.scoreboard-result,
+.scoreboard-credits {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.scoreboard-credits { margin-top: 0.35rem; font-size: 0.8rem; }
+
+/* --- Games --- */
+
+.game {
+    margin: 2.5rem 0;
+}
+
+.game-badges {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.board-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1rem 0;
+}
+
+.bingo-board {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    min-width: 30rem;
+    border-collapse: separate;
+    border-spacing: 4px;
+    overflow: visible;
+
+    .cell {
+        width: 20%;
+        height: 5.5rem;
+        padding: 0.5rem;
+        vertical-align: top;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-element);
+        background-color: var(--surface-strong);
+    }
+
+    .cell-text {
+        font-size: 0.7rem;
+        line-height: 1.3;
+        color: var(--text-muted);
+    }
+
+    .cell-red {
+        background-color: var(--red-soft);
+        border-color: var(--red);
+    }
+
+    .cell-blue {
+        background-color: var(--blue-soft);
+        border-color: var(--blue);
+    }
+
+    .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
+
+    .cell-winline { box-shadow: inset 0 0 0 2px var(--accent); }
+}
+
+/* --- Event timeline --- */
+
+.timeline-toggle {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-element);
+    padding: 0.5rem 0.9rem;
+
+    > summary {
+        cursor: pointer;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text-muted);
+        list-style-position: inside;
+    }
+
+    > summary:hover { color: var(--accent); }
+    &[open] > summary { margin-bottom: 0.5rem; }
+}
+
+.event-timeline {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+
+    .event {
+        padding: 0.3rem 0;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .event:last-child { border-bottom: none; }
+    .event-red { color: var(--red); }
+    .event-blue { color: var(--blue); }
+    .event-unmark { color: var(--text-muted); font-style: italic; }
+    .event-meta { color: var(--text-muted); }
+}
+
+/* --- Player page --- */
+
+.player-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    h1 { margin-bottom: 0.4rem; }
+}
+
+.player-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.player-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.player-bio {
+    max-width: 65ch;
+    color: var(--text-muted);
+}
+
+.stat-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-container);
+    background-color: var(--surface);
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+}
+
+.stat-value {
+    font-size: 1.25rem;
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-note { font-size: 0.8rem; color: var(--text-muted); }
+
+.square-ranking {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: square;
+
+    li {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.45rem 0;
+        border-bottom: 1px solid var(--border);
+        counter-increment: square;
+    }
+
+    li::before {
+        content: counter(square) ".";
+        color: var(--text-muted);
+        font-size: 0.8rem;
+        font-variant-numeric: tabular-nums;
+    }
+
+    li:last-child { border-bottom: none; }
+
+    .square-text { flex: 1; }
+}
+
+.square-marks {
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+}
+
+/* --- Match history rows (player + season pages) --- */
+
+.match-history {
+    list-style: none;
+    margin: 0 0 2rem;
+    padding: 0;
+}
+
+.match-history-row {
+    border-bottom: 1px solid var(--border);
+
+    > a {
+        display: grid;
+        grid-template-columns: auto auto 1fr auto;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.6rem 0.25rem;
+        color: var(--text-main);
+    }
+
+    > a:hover { background-color: var(--surface); color: var(--text-main); }
+
+    .match-history-date {
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+
+    .match-history-opponent { font-weight: 600; }
+    .match-history-score {
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        white-space: nowrap;
+    }
+}
+
+/* Season pages list matches without a result badge: drop the empty column. */
+.match-history-row > a:not(:has(.result-badge)) {
+    grid-template-columns: auto 1fr auto;
+}
+
+.result-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+}
+
+.result-win .result-badge { color: #ffffff; background-color: #16a34a; border-color: #16a34a; }
+.result-loss .result-badge { color: #ffffff; background-color: var(--red); border-color: var(--red); }
+.result-draw .result-badge { color: var(--text-main); }
+
+/* --- Season cards --- */
+
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1.5rem 0;
+
+    @include md { grid-template-columns: 1fr 1fr; }
+}
+
+.season-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-container);
+    color: var(--text-main);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+
+    h2 { margin: 0; font-size: 1.35rem; }
+    p { color: var(--text-muted); font-size: 0.9rem; }
+
+    &:hover {
+        border-color: var(--accent);
+        transform: translateY(-2px);
+        color: var(--text-main);
+    }
+}
+
+.season-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.season-card-counts {
+    display: flex;
+    gap: 1.25rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-top: auto;
+    padding-top: 0.5rem;
+}
+
+.season-header {
+    margin-bottom: 1.5rem;
+
+    h1 { margin-bottom: 0.5rem; }
+    .season-blurb { margin-top: 0.75rem; max-width: 65ch; color: var(--text-muted); }
+}
+
+/* --- Sidebar & footer extras --- */
+
+.widget-list-plain li {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+}
+
+.widget-list-plain li span:last-child {
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.goal-text { color: var(--text-main); }
+
+.widget-more {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.widget-more:hover { color: var(--accent); }
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}

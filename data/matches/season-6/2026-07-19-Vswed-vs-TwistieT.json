@@ -1,0 +1,526 @@
+{
+  "video_id": "2026-07-19-Vswed-vs-TwistieT",
+  "match_date": "2026-07-19",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Vswed",
+  "player_blue_name": "TwistieT",
+  "commentators": [
+    "starOchris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=D9sIUU2XnQY",
+    "duration_s": 14401.583333333334,
+    "published_at": "2026-07-23",
+    "source_path": "/Users/adri0/code/scadustats/downloads/D9sIUU2XnQY.mp4",
+    "extracted_at": "2026-09-16"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5767.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire Sacred Flask +7",
+          "Restore Morgott's Great Rune",
+          "Finish off a Boss with the Explosive Physick",
+          "Kill 3 Unique Crucible Knights",
+          "Acquire 5 Memory Stones"
+        ],
+        [
+          "Kill Borealis",
+          "Acquire Somberstone Bell Bearing (1) and (2)",
+          "Kitt Margit with 6+ Parries",
+          "Complete 2 Tunnels",
+          "Kill 4 NPC Invaders"
+        ],
+        [
+          "Memory of Grace with 100k+ Runes",
+          "Acquire 10 Sacred Flask Charges",
+          "Complete 3 Caves",
+          "Restore Rykard s Great Rune",
+          "x Acquire the Moon of Nokstella"
+        ],
+        [
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "acquire 2 Imbued Sword Keys",
+          "Acquire 6 Unique Staves",
+          "Kill Godfrey (Gold Spirit)",
+          "Kill 2 Omenkiller Bosses"
+        ],
+        [
+          "Kill Wormface",
+          "Killa Remembrance Boss with Remembrance Weapons Only",
+          "Kill 1 Duelist Boss",
+          "Kill Preceptor Miriam",
+          "Kill Valiant Gargoyles"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 198.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Somberstone Bell Bearing (1) and (2)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:27",
+          "video_ts_s": 885.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Complete 2 Tunnels",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:27",
+          "video_ts_s": 885.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 1 Duelist Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:04",
+          "video_ts_s": 1222.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Borealis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:48",
+          "video_ts_s": 1446.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:50",
+          "video_ts_s": 1448.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:58",
+          "video_ts_s": 1516.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kitt Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:12",
+          "video_ts_s": 1830.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Complete 3 Caves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:48",
+          "video_ts_s": 1866.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Complete 3 Caves",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:28:14",
+          "video_ts_s": 1892.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:44",
+          "video_ts_s": 2282.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:05",
+          "video_ts_s": 2663.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:22",
+          "video_ts_s": 2980.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:34",
+          "video_ts_s": 3172.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Killa Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:27",
+          "video_ts_s": 3525.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 10 Sacred Flask Charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:13",
+          "video_ts_s": 3871.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "acquire 2 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:35",
+          "video_ts_s": 4073.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:17",
+          "video_ts_s": 4295.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:14",
+          "video_ts_s": 4352.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:30",
+          "video_ts_s": 4788.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "x Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:19:42",
+          "video_ts_s": 4980.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 3 Unique Crucible Knights",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:46",
+          "video_ts_s": 4984.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:19:46",
+          "video_ts_s": 4984.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:23:40",
+          "video_ts_s": 5218.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Restore Morgott's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:32:24",
+          "video_ts_s": 5742.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5768.0,
+      "end_video_ts_s": 9857.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire all 4 Non Merchant Perfume Bottles",
+          "Give an Iris of Occultation",
+          "Kill Romina",
+          "Acquire 3 NPC Dropped Weapons",
+          "Kill Crucible Knight Devonia"
+        ],
+        [
+          "Kill the Death Rite Bird",
+          "Kill Queelign in Belurat",
+          "Kill Bayle",
+          "Kill 1 Dancing Lion",
+          "Acquire 4 Hefty Pots"
+        ],
+        [
+          "Kill Rakshasa",
+          "Kill Moonrithyll Carian Knight",
+          "Complete 2 Gaols",
+          "Memory of Grace with 500k+ Runes",
+          "Kill the Ancient Dragon Man"
+        ],
+        [
+          "Kill 3 Bosses with Knight in their name",
+          "Acquire 3 DLC Spirit Ashes",
+          "Drain the Water in the Church District",
+          "Kill Messmer",
+          "Drink Thiollier's Concoction"
+        ],
+        [
+          "Level 11 Scadu",
+          "Kill Lamenter",
+          "Acquire the Two Headed Turtle Talisman",
+          "Kill Promised Consort Radahn",
+          "Acquire the Golden Braid"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5949.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 4 Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:11",
+          "video_ts_s": 6320.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:42",
+          "video_ts_s": 6531.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:46",
+          "video_ts_s": 6835.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:56",
+          "video_ts_s": 6905.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:27",
+          "video_ts_s": 7236.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:17",
+          "video_ts_s": 7466.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:16",
+          "video_ts_s": 7645.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Moonrithyll Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:07",
+          "video_ts_s": 7816.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:44",
+          "video_ts_s": 8033.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:46",
+          "video_ts_s": 8515.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:11",
+          "video_ts_s": 8540.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:44",
+          "video_ts_s": 8813.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rakshasa",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:34",
+          "video_ts_s": 8923.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:39",
+          "video_ts_s": 8928.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 1 Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:06",
+          "video_ts_s": 9315.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Complete 2 Gaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:54",
+          "video_ts_s": 9483.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:28",
+          "video_ts_s": 9637.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire the Two Headed Turtle Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:17",
+          "video_ts_s": 9806.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:04:17",
+          "video_ts_s": 9806.0
+        }
+      ]
+    }
+  ]
+}

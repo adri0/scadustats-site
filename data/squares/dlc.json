@@ -1,0 +1,622 @@
+[
+  {
+    "id": "ancient",
+    "text": "Kill Ancient Dragon Senessax",
+    "game_type": "dlc"
+  },
+  {
+    "id": "ancient_2",
+    "text": "Kill the Ancient Dragon Man",
+    "game_type": "dlc"
+  },
+  {
+    "id": "base_1",
+    "text": "Kill 1 Unique Base Game Boss in the DLC",
+    "game_type": "dlc"
+  },
+  {
+    "id": "base_2",
+    "text": "Kill 2 Unique Base Game Bosses in the DLC",
+    "game_type": "dlc"
+  },
+  {
+    "id": "bayle",
+    "text": "Kill Bayle",
+    "game_type": "dlc"
+  },
+  {
+    "id": "black",
+    "text": "Kill Black Knight Garrew",
+    "game_type": "dlc"
+  },
+  {
+    "id": "blessings_2",
+    "text": "Acquire 2 Blessings of Marika",
+    "game_type": "dlc"
+  },
+  {
+    "id": "blessings_3",
+    "text": "Acquire 3 Blessings of Marika",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss",
+    "text": "Kill a Boss with Sorceries Only",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_1",
+    "text": "Kill 1 Boss of each Bear Lion Hippo",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_2",
+    "text": "Kill a Boss with incantations Only",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_3",
+    "text": "Kill a Boss after Inflicting 3 Unique Status Effects",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_3_2",
+    "text": "Kill a Boss after inflicting 3 Unique Status Effects",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_4",
+    "text": "Kill a Boss after Inflicting 4 Different Status Effects",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_4_2",
+    "text": "Kill a Boss after inflicting 4 Unique Status Effects",
+    "game_type": "dlc"
+  },
+  {
+    "id": "bosses_3",
+    "text": "Kill 3 Bosses with Knight in their name",
+    "game_type": "dlc"
+  },
+  {
+    "id": "chief",
+    "text": "Kill Chief Bloodfiend",
+    "game_type": "dlc"
+  },
+  {
+    "id": "colossal",
+    "text": "Kill the Colossal Fingercreeper",
+    "game_type": "dlc"
+  },
+  {
+    "id": "commander",
+    "text": "Acquire Commander Gaius s Pants",
+    "game_type": "dlc"
+  },
+  {
+    "id": "crucible",
+    "text": "Kill Crucible Knight Devonia",
+    "game_type": "dlc"
+  },
+  {
+    "id": "curseblade",
+    "text": "Kill Curseblade Labirith",
+    "game_type": "dlc"
+  },
+  {
+    "id": "curseblade_3",
+    "text": "Kill 3 Unique Curseblade Assassins",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dancing_1",
+    "text": "Kill 1 Dancing Lion",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dancing_2",
+    "text": "Kill 2 Dancing Lions",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death",
+    "text": "Acquire Death Mask Heim Winged Serpent Heim and Saiza s Hood",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_2",
+    "text": "Acquire Death Mask Heim Winged Serpent Helm and Saiza's Hood",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_3",
+    "text": "Acquire Death Mask Heim Winged Serpent Helm and Satza's Hood",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_4",
+    "text": "Acquire Death Mask Helm Winged Serpent Heim and Satza's Hood",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_5",
+    "text": "Acquire Death Mask Helm Winged Serpent Helm and Saiza's Hood",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_6",
+    "text": "Acquire Death Mask Helm Winged Serpent Helm and Salza s Hood",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_7",
+    "text": "Kill a Death Knight",
+    "game_type": "dlc"
+  },
+  {
+    "id": "death_8",
+    "text": "Kill the Death Rite Bird",
+    "game_type": "dlc"
+  },
+  {
+    "id": "demi_1",
+    "text": "Kill 1 Demi Human Swordmaster",
+    "game_type": "dlc"
+  },
+  {
+    "id": "demi_2",
+    "text": "Kill 2 Demi Human Swordmasters",
+    "game_type": "dlc"
+  },
+  {
+    "id": "divine_1",
+    "text": "Kill 1 Unique Divine Bird Warrior",
+    "game_type": "dlc"
+  },
+  {
+    "id": "divine_2",
+    "text": "Kill 2 Unique Divine Bird Warriors",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dlc_3",
+    "text": "Acquire 3 DLC Ashes of War",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dlc_3_2",
+    "text": "Acquire 3 DLC Spirit Ashes",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dragon_2",
+    "text": "Acquire 2 Dragon Hearts",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dragon_3",
+    "text": "Kill 3 Dragon Bosses",
+    "game_type": "dlc"
+  },
+  {
+    "id": "enemy_4",
+    "text": "Acquire 4 Enemy NPC Dropped Talismans",
+    "game_type": "dlc"
+  },
+  {
+    "id": "fallingstar",
+    "text": "Kill the Fallingstar Beast",
+    "game_type": "dlc"
+  },
+  {
+    "id": "finger",
+    "text": "Blow a Finger",
+    "game_type": "dlc"
+  },
+  {
+    "id": "florissax",
+    "text": "Put Florissax to Sleep",
+    "game_type": "dlc"
+  },
+  {
+    "id": "forges_2",
+    "text": "Complete 2 Forges",
+    "game_type": "dlc"
+  },
+  {
+    "id": "full",
+    "text": "Acquire the Full Gravebird Armor Set",
+    "game_type": "dlc"
+  },
+  {
+    "id": "full_2",
+    "text": "Acquire 2 Full DLC Armor Sets",
+    "game_type": "dlc"
+  },
+  {
+    "id": "full_3",
+    "text": "Acquire 3 Full DLC Armor Sets",
+    "game_type": "dlc"
+  },
+  {
+    "id": "gaols_2",
+    "text": "Complete 2 Gaols",
+    "game_type": "dlc"
+  },
+  {
+    "id": "golden",
+    "text": "Acquire the Golden Braid",
+    "game_type": "dlc"
+  },
+  {
+    "id": "golden_2",
+    "text": "Kill the Golden Hippo",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hanging_2",
+    "text": "Acquire 2 Hanging Pot Bell Bearings",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hanging_3",
+    "text": "Acquire 3 Hanging Pot Bell Bearings",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hefty_2",
+    "text": "Craft 2 Unique Hefty Pots",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hefty_3",
+    "text": "Craft 3 Unique Hefty Pots",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hefty_3_2",
+    "text": "craft 3 Unique Hefty Pots",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hefty_4",
+    "text": "Acquire 4 Hefty Pots",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hefty_5",
+    "text": "Acquire 5 Hefty Pots 3",
+    "game_type": "dlc"
+  },
+  {
+    "id": "hippos_2",
+    "text": "Kill 2 Hippos",
+    "game_type": "dlc"
+  },
+  {
+    "id": "horned_3",
+    "text": "Kill 3 Unique Horned Warriors",
+    "game_type": "dlc"
+  },
+  {
+    "id": "horned_4",
+    "text": "Kill 4 Unique Horned Warriors",
+    "game_type": "dlc"
+  },
+  {
+    "id": "igon",
+    "text": "Acquire Igon's Furled Finger",
+    "game_type": "dlc"
+  },
+  {
+    "id": "iris",
+    "text": "Give an Iris of Occultation",
+    "game_type": "dlc"
+  },
+  {
+    "id": "jolan",
+    "text": "Acquire Jolan Summon",
+    "game_type": "dlc"
+  },
+  {
+    "id": "jori",
+    "text": "Kill Jori Elder Inquisitor",
+    "game_type": "dlc"
+  },
+  {
+    "id": "kb",
+    "text": "KB a Remembrance Boss with Remembrance Weapons Only",
+    "game_type": "dlc"
+  },
+  {
+    "id": "killa",
+    "text": "Killa Death Knight",
+    "game_type": "dlc"
+  },
+  {
+    "id": "killa_2",
+    "text": "Killa Remembrance Boss Hitless",
+    "game_type": "dlc"
+  },
+  {
+    "id": "kindred",
+    "text": "Acquire the Kindred Cookbook from Moore",
+    "game_type": "dlc"
+  },
+  {
+    "id": "kindred_2",
+    "text": "acquire 2 Kindred Cookbooks",
+    "game_type": "dlc"
+  },
+  {
+    "id": "kindred_3",
+    "text": "Acquire 3 Kindred Cookbooks",
+    "game_type": "dlc"
+  },
+  {
+    "id": "kindred_4",
+    "text": "Acquire 4 Kindred Cookbooks",
+    "game_type": "dlc"
+  },
+  {
+    "id": "lamenter",
+    "text": "Kill Lamenter",
+    "game_type": "dlc"
+  },
+  {
+    "id": "leda",
+    "text": "Acquire a Leda Rune",
+    "game_type": "dlc"
+  },
+  {
+    "id": "leda_2",
+    "text": "Kill Leda and her Allies",
+    "game_type": "dlc"
+  },
+  {
+    "id": "lris",
+    "text": "Give an lris of Grace",
+    "game_type": "dlc"
+  },
+  {
+    "id": "madding",
+    "text": "Kill Madding Hand",
+    "game_type": "dlc"
+  },
+  {
+    "id": "max_2",
+    "text": "Acquire 2 Different Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "max_2_2",
+    "text": "Acquire 2 Unique Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "max_3",
+    "text": "Acquire 3 Different Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "max_3_2",
+    "text": "Acquire 3 Unique Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "memory",
+    "text": "Memory of Grace with 500k+ Runes",
+    "game_type": "dlc"
+  },
+  {
+    "id": "merchant_2",
+    "text": "Acquire 2 Non Merchant Sorceries",
+    "game_type": "dlc"
+  },
+  {
+    "id": "merchant_3",
+    "text": "Acquire 3 Non Merchant Perfume Bottles",
+    "game_type": "dlc"
+  },
+  {
+    "id": "merchant_3_2",
+    "text": "Acquire 3 Non Merchant Sorceries",
+    "game_type": "dlc"
+  },
+  {
+    "id": "merchant_4",
+    "text": "Acquire all 4 Non Merchant Perfume Bottles",
+    "game_type": "dlc"
+  },
+  {
+    "id": "merchant_5",
+    "text": "Acquire 5 Non Merchant incantations",
+    "game_type": "dlc"
+  },
+  {
+    "id": "messmer",
+    "text": "Kill Messmer",
+    "game_type": "dlc"
+  },
+  {
+    "id": "midra",
+    "text": "Kill Midra",
+    "game_type": "dlc"
+  },
+  {
+    "id": "moonrithyll",
+    "text": "Kill Moonrithyll Carian Knight",
+    "game_type": "dlc"
+  },
+  {
+    "id": "nameless_2",
+    "text": "Complete 2 Nameless Mausoleums",
+    "game_type": "dlc"
+  },
+  {
+    "id": "nameless_4",
+    "text": "Complete all 4 Nameless Mausoleums",
+    "game_type": "dlc"
+  },
+  {
+    "id": "npc_3",
+    "text": "Acquire 3 NPC Dropped Weapons",
+    "game_type": "dlc"
+  },
+  {
+    "id": "npc_3_2",
+    "text": "Kill 3 NPC Bosses",
+    "game_type": "dlc"
+  },
+  {
+    "id": "npc_3_3",
+    "text": "Kill 3 Unique NPC Invaders",
+    "game_type": "dlc"
+  },
+  {
+    "id": "painting_2",
+    "text": "Acquire 2 Painting Rewards",
+    "game_type": "dlc"
+  },
+  {
+    "id": "promised",
+    "text": "Kill Promised Consort Radahn",
+    "game_type": "dlc"
+  },
+  {
+    "id": "putrescent",
+    "text": "Kill Putrescent Knight",
+    "game_type": "dlc"
+  },
+  {
+    "id": "queelign",
+    "text": "Kill Queelign in Belurat",
+    "game_type": "dlc"
+  },
+  {
+    "id": "rakshasa",
+    "text": "Kill Rakshasa",
+    "game_type": "dlc"
+  },
+  {
+    "id": "red_1",
+    "text": "Kill 1 Red Bear",
+    "game_type": "dlc"
+  },
+  {
+    "id": "red_3",
+    "text": "Kill all 3 Red Bears",
+    "game_type": "dlc"
+  },
+  {
+    "id": "rellana",
+    "text": "Kill Rellana",
+    "game_type": "dlc"
+  },
+  {
+    "id": "remembrance_1",
+    "text": "Duplicate a Remembrance 1 time",
+    "game_type": "dlc"
+  },
+  {
+    "id": "remembrance_3",
+    "text": "Duplicate a Remembrance 3 times",
+    "game_type": "dlc"
+  },
+  {
+    "id": "revered_5",
+    "text": "Level 5 Revered Spirit Ash",
+    "game_type": "dlc"
+  },
+  {
+    "id": "rolling",
+    "text": "Kill the Rolling Giant Lightning Ram",
+    "game_type": "dlc"
+  },
+  {
+    "id": "romina",
+    "text": "Kill Romina",
+    "game_type": "dlc"
+  },
+  {
+    "id": "rune_85",
+    "text": "Rune Level 85",
+    "game_type": "dlc"
+  },
+  {
+    "id": "scadu_10",
+    "text": "Level 10 Scadu",
+    "game_type": "dlc"
+  },
+  {
+    "id": "scadu_11",
+    "text": "Level 11 Scadu",
+    "game_type": "dlc"
+  },
+  {
+    "id": "scadu_9",
+    "text": "Level 9 Scadu",
+    "game_type": "dlc"
+  },
+  {
+    "id": "scadutree",
+    "text": "Kill Scadutree Avatar",
+    "game_type": "dlc"
+  },
+  {
+    "id": "scorpion",
+    "text": "Acquire the Scorpion Stew",
+    "game_type": "dlc"
+  },
+  {
+    "id": "sealing",
+    "text": "Burn the Sealing Tree",
+    "game_type": "dlc"
+  },
+  {
+    "id": "secret",
+    "text": "Give the Secret Rite Scroll to Ansbach",
+    "game_type": "dlc"
+  },
+  {
+    "id": "thiollier",
+    "text": "Drink Thiollier's Concoction",
+    "game_type": "dlc"
+  },
+  {
+    "id": "transformation",
+    "text": "Use a Transformation",
+    "game_type": "dlc"
+  },
+  {
+    "id": "trolls_3",
+    "text": "Kill 3 Trolls",
+    "game_type": "dlc"
+  },
+  {
+    "id": "two",
+    "text": "Acquire the Two Handed Sword Talisman",
+    "game_type": "dlc"
+  },
+  {
+    "id": "two_2",
+    "text": "Acquire the Two Headed Turtle Talisman",
+    "game_type": "dlc"
+  },
+  {
+    "id": "ulcerated_3",
+    "text": "Kill 3 Ulcerated Tree Spirits",
+    "game_type": "dlc"
+  },
+  {
+    "id": "water",
+    "text": "Drain the Water in the Church District",
+    "game_type": "dlc"
+  },
+  {
+    "id": "x",
+    "text": "x Kill the Ancient Dragon Man",
+    "game_type": "dlc"
+  }
+]

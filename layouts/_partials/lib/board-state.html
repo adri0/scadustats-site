@@ -1,0 +1,54 @@
+{{- /*
+  Input: one raw `games[]` entry.
+  Output: a dict keyed "row_col" (1-based, e.g. "3_4") -> {row,col,text,color},
+  reflecting the FINAL state after replaying all mark/unmark events
+  chronologically (video_ts_s asc). Row/col are bounds-checked to [1,5] since
+  at least one known source file uses 0-based indices instead of the
+  documented 1-based convention.
+
+  A flat dict-of-dicts (updated via `merge`) is used instead of a nested
+  slice-of-slices because Hugo's `append` flattens any slice argument
+  (recursively), making it impossible to append a "row" slice as a single
+  nested element of a "grid" slice.
+*/ -}}
+{{- $game := . -}}
+{{- $texts := $game.square_texts -}}
+
+{{- $grid := dict -}}
+{{- range $r := seq 5 -}}
+  {{- range $c := seq 5 -}}
+    {{- $text := "" -}}
+    {{- if $texts -}}
+      {{- if le $r (len $texts) -}}
+        {{- $textsRow := index $texts (sub $r 1) -}}
+        {{- if and $textsRow (le $c (len $textsRow)) -}}
+          {{- $text = index $textsRow (sub $c 1) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $key := printf "%d_%d" $r $c -}}
+    {{- $grid = merge $grid (dict $key (dict "row" $r "col" $c "text" $text "color" "unclaimed")) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $events := sort ($game.events | default slice) "video_ts_s" -}}
+{{- range $events -}}
+  {{- $et := .event_type -}}
+  {{- if or (eq $et "mark") (eq $et "unmark") -}}
+    {{- if and .row .col -}}
+      {{- $r := int .row -}}
+      {{- $c := int .col -}}
+      {{- if and (ge $r 1) (le $r 5) (ge $c 1) (le $c 5) -}}
+        {{- $newColor := "unclaimed" -}}
+        {{- if eq $et "mark" -}}
+          {{- $newColor = (.color | default "unclaimed") -}}
+        {{- end -}}
+        {{- $key := printf "%d_%d" $r $c -}}
+        {{- $old := index $grid $key -}}
+        {{- $grid = merge $grid (dict $key (dict "row" $old.row "col" $old.col "text" $old.text "color" $newColor)) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $grid -}}

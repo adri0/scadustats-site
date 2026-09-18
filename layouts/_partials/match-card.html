@@ -1,0 +1,21 @@
+{{- /*
+  Input: {page: a match page, show_season: bool}. The season pill is dropped
+  where the surrounding list is already grouped by season.
+*/ -}}
+{{- $page := .page -}}
+{{- $p := $page.Params -}}
+<a class="match-card" href="{{ $page.RelPermalink }}">
+  <div class="match-card-meta">
+    <span>{{ $p.match_date }}</span>
+    {{- if .show_season }}<span class="pill pill-sm pill-outline">Season {{ $p.season_id }}</span>{{ end }}
+    {{- with $p.match_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
+  </div>
+  <div class="match-card-score">
+    <span class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}">{{ $p.player_red.display_name }}</span>
+    <span class="score">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</span>
+    <span class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}">{{ $p.player_blue.display_name }}</span>
+  </div>
+  <div class="match-card-foot">
+    {{- if eq $p.winner "" }}undecided{{ else if eq $p.winner "draw" }}drawn{{ else }}{{ $p.num_games }} game{{ if ne $p.num_games 1 }}s{{ end }}{{ end }}
+  </div>
+</a>

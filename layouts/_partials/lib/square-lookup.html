@@ -1,0 +1,18 @@
+{{- /*
+  Input: a raw `square_text` string from a match file.
+  Output: {id, text, game_type, known} -- the catalog entry whose text matches
+  after normalization, or the raw text with `known: false` when the
+  transcription has no catalog counterpart (typos, blank square_text).
+  `text` is always the canonical spelling when known, so counts of the same
+  goal across matches collapse into one bucket.
+*/ -}}
+{{- $text := . | default "" -}}
+{{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" $text) -}}
+{{- $found := "" -}}
+{{- if $key -}}
+  {{- $found = index (partialCached "lib/square-index.html" "") $key -}}
+{{- end -}}
+{{- if $found -}}
+  {{- return (merge $found (dict "known" true)) -}}
+{{- end -}}
+{{- return (dict "id" "" "text" $text "game_type" "" "known" false) -}}

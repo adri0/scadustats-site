@@ -1,0 +1,46 @@
+id: 3
+slug: gustaf
+display_name: Gustaf
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 0
+    losses: 1
+    draws: 1
+game_record:
+  wins: 1
+  losses: 3
+game_type_records:
+  base:
+    wins: 1
+    losses: 1
+  dlc:
+    wins: 0
+    losses: 2
+all_matches:
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-07-18-Gustaf-vs-Grey
+top_squares_base_game:
+- text: Acquire Grave and Ghost Glovewort Bell Bearings [2]
+  marks: 1
+- text: Acquire the Fingerslayer Blade
+  marks: 1
+- text: Complete 3 Catacombs
+  marks: 1
+- text: Kill 2 Deathbirds and 1 Death Rite Bird
+  marks: 1
+- text: Kill 2 Unique Black Knife Assassins
+  marks: 1
+top_squares_dlc:
+- text: Acquire 2 Hanging Pot Bell Bearings
+  marks: 1
+- text: Acquire 2 Painting Rewards
+  marks: 1
+- text: Acquire 4 Enemy NPC Dropped Talismans
+  marks: 1
+- text: Acquire 4 Kindred Cookbooks
+  marks: 1
+- text: Drink Thiollier s Concoction
+  marks: 1

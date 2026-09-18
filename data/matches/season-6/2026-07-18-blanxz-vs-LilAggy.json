@@ -1,0 +1,571 @@
+{
+  "video_id": "2026-07-18-blanxz-vs-LilAggy",
+  "match_date": "2026-07-18",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=BhPitiVR43I",
+    "duration_s": 14408.383333333333,
+    "published_at": null,
+    "source_path": "downloads/blanxz vs Lilaggy.mp4",
+    "extracted_at": "2026-09-15"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5299.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Kill 2 Fallingstar Beasts",
+          "Kill 4 Unique Tibia Mariners",
+          "Kill 4 NPC Bosses"
+        ],
+        [
+          "Kill 4 NPC Invaders",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "Complete 2 Catacombs",
+          "Take Rya's hand to Volcano Manor",
+          "Kill Mohg Lord of Blood"
+        ],
+        [
+          "Kill Misbegotten Crusader",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "Kill Fia's Champions",
+          "Killa Remembrance Boss Hitless",
+          "Kill Fire Giant"
+        ],
+        [
+          "Kill 2 Unique Red Wolves",
+          "Kill 3 Unique Cemetery Shades",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill Tree Sentinel Duo",
+          "Acquire 6 Dropped Ashes of War"
+        ],
+        [
+          "30 Arcane",
+          "Kill 10 Sheep with AoW Lightning Ram Only",
+          "Kill 1 Duelist Boss",
+          "Acquire the Fingerslayer Blade",
+          "Kill Preceptor Miriam"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 205.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:04",
+          "video_ts_s": 569.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 1 Duelist Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:27",
+          "video_ts_s": 652.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:00",
+          "video_ts_s": 805.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Complete 2 Catacombs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:42",
+          "video_ts_s": 847.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 6 Dropped Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:58",
+          "video_ts_s": 983.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:28",
+          "video_ts_s": 1433.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "30 Arcane",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:51",
+          "video_ts_s": 1456.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:16",
+          "video_ts_s": 1721.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:49",
+          "video_ts_s": 2174.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Fallingstar Beasts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:10",
+          "video_ts_s": 2375.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 10 Sheep with AoW Lightning Ram Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:15",
+          "video_ts_s": 2620.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Unique Cemetery Shades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:09",
+          "video_ts_s": 2734.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:12",
+          "video_ts_s": 2977.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 2 Unique Red Wolves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:42",
+          "video_ts_s": 3127.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:09",
+          "video_ts_s": 3334.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 4 Unique Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:14",
+          "video_ts_s": 3399.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:52",
+          "video_ts_s": 3617.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:39",
+          "video_ts_s": 3724.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:50",
+          "video_ts_s": 3975.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 4 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:07",
+          "video_ts_s": 4412.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Fia's Champions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:26",
+          "video_ts_s": 4431.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:10:26",
+          "video_ts_s": 4431.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Fire Giant",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:14:35",
+          "video_ts_s": 4680.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Mohg Lord of Blood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:14",
+          "video_ts_s": 4779.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire the Fingerslayer Blade",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:04",
+          "video_ts_s": 5249.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5301.0,
+      "end_video_ts_s": 10044.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Moonrithyll Carian Knight",
+          "Kill the Colossal Fingercreeper",
+          "Rune Level 85",
+          "Kill 3 Unique Horned Warriors",
+          "Kill Chief Bloodfiend"
+        ],
+        [
+          "Kill the Fallingstar Beast",
+          "Kill Midra",
+          "Put Florissax to Sleep",
+          "Acquire 2 Unique Max Upgrade Materials",
+          "Kill Promised Consort Radahn"
+        ],
+        [
+          "Acquire 3 Non Merchant Sorceries",
+          "Kill Putrescent Knight",
+          "Kill Scadutree Avatar",
+          "Use a Transformation",
+          "Acquire 3 DLC Spirit Ashes"
+        ],
+        [
+          "",
+          "Kill Lamenter",
+          "Kill Madding Hand",
+          "Acquire 2 Full DLC Armor Sets",
+          "Kill 2 Demi Human Swordmasters"
+        ],
+        [
+          "Complete 2 Nameless Mausoleums",
+          "Give an lris of Grace",
+          "craft 3 Unique Hefty Pots",
+          "Kill 3 Trolls",
+          "Kill Crucible Knight Devonia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5505.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Full DLC Armor Sets",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:12",
+          "video_ts_s": 5937.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "craft 3 Unique Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:35",
+          "video_ts_s": 6020.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Moonrithyll Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:13",
+          "video_ts_s": 6118.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 2 Unique Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:10",
+          "video_ts_s": 6535.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:14",
+          "video_ts_s": 7079.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:16",
+          "video_ts_s": 7201.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:47",
+          "video_ts_s": 7472.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:56",
+          "video_ts_s": 7601.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:27",
+          "video_ts_s": 7752.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 3 Non Merchant Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:32",
+          "video_ts_s": 7757.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Trolls",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:07",
+          "video_ts_s": 8152.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:31",
+          "video_ts_s": 8176.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Demi Human Swordmasters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:00",
+          "video_ts_s": 8385.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:11",
+          "video_ts_s": 8516.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:30",
+          "video_ts_s": 8775.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:42",
+          "video_ts_s": 8787.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:38",
+          "video_ts_s": 8843.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Rune Level 85",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:03",
+          "video_ts_s": 9108.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 3 Unique Horned Warriors",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:44",
+          "video_ts_s": 9209.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:38",
+          "video_ts_s": 9563.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Give an lris of Grace",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:09",
+          "video_ts_s": 9654.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Putrescent Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:14:57",
+          "video_ts_s": 10002.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:14:57",
+          "video_ts_s": 10002.0
+        }
+      ]
+    }
+  ]
+}

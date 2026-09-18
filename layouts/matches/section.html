@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "breadcrumb.html" . }}
+<div class="content-grid">
+  <main>
+    <h1>{{ .Title }}</h1>
+    {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
+
+    {{- range (where site.RegularPages "Section" "matches").GroupByParam "season_id" "desc" }}
+    <section class="season-group">
+      <div class="section-head">
+        <h2>Season {{ .Key }}</h2>
+        <a href="{{ printf "/seasons/%s/" .Key | relURL }}">Season page →</a>
+      </div>
+      <div class="match-list">
+        {{- range .Pages.ByDate.Reverse }}
+          {{ partial "match-card.html" (dict "page" . "show_season" false) }}
+        {{- end }}
+      </div>
+    </section>
+    {{- end }}
+  </main>
+
+  <div id="persistent-sidebar" data-turbo-permanent>
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,427 @@
+{
+  "video_id": "2026-07-17-KEMIST-vs-SeriousChallenges",
+  "match_date": "2026-07-17",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "KEMIST",
+  "player_blue_name": "SeriousChallenges",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=YCOd8fDz8Ow",
+    "duration_s": 14403.566666666668,
+    "published_at": null,
+    "source_path": "downloads/kemist vs seriouschallenges.mp4",
+    "extracted_at": "2026-09-15"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3425.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "col_2",
+      "square_texts": [
+        [
+          "Kill 3 Unique Abductor Virgins",
+          "Kill a Remembrance Boss with Whips Only",
+          "Restore Radahn's Great Rune",
+          "Kill 3 Unique Tree Spirits",
+          "Complete 3 Caves"
+        ],
+        [
+          "Kill 2 Fallingstar Beasts",
+          "Acquire 5 Dropped Ashes of War",
+          "Kill Fia's Champions",
+          "Kill 3 Magma Wyrms",
+          "Kill Radahn without Status Effects and Summons"
+        ],
+        [
+          "Kill Agheel with a +0 Weapon Only",
+          "Kill Wormface",
+          "Kill 3 Unique Tibia Mariners",
+          "Acquire Both Scarseal Talismans",
+          "Restore Godrick's Great Rune"
+        ],
+        [
+          "Kill 4 Bosses with \"God\" in their name",
+          "Kill Preceptor Miriam",
+          "Kill a Godskin Apostle",
+          "Kill a Remembrance Boss with Sorceries Only",
+          "Finish off a Boss with the Explosive Physick"
+        ],
+        [
+          "Kill Borealis",
+          "Acquire the Moon of Nokstella",
+          "Kill 3 Unique Cemetery Shades",
+          "Kill 3 Dragon Heart Bosses",
+          "Acquire 10 Sacred Flask Charges"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 180.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 5 Dropped Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:16",
+          "video_ts_s": 556.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 2 Fallingstar Beasts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:10",
+          "video_ts_s": 1090.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:27",
+          "video_ts_s": 1227.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:05",
+          "video_ts_s": 1505.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:11",
+          "video_ts_s": 1751.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Unique Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:14",
+          "video_ts_s": 1814.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Radahn without Status Effects and Summons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:34",
+          "video_ts_s": 1954.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:08",
+          "video_ts_s": 2168.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 3 Caves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:35",
+          "video_ts_s": 2435.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:09",
+          "video_ts_s": 2589.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:23",
+          "video_ts_s": 2603.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Borealis",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:00",
+          "video_ts_s": 2760.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:46",
+          "video_ts_s": 2986.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:30",
+          "video_ts_s": 3030.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:47:34",
+          "video_ts_s": 3034.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with Whips Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:40",
+          "video_ts_s": 3340.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:52:40",
+          "video_ts_s": 3340.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3427.0,
+      "end_video_ts_s": 7192.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Kill 2 Unique Divine Bird Warriors",
+          "Acquire 4 Kindred Cookbooks",
+          "Killa Remembrance Boss Hitless",
+          "Blow a Finger",
+          "Acquire a Leda Rune"
+        ],
+        [
+          "Kill Midra",
+          "Kill Lamenter",
+          "Kill Scadutree Avatar",
+          "Kill Jori Elder Inquisitor",
+          "Acquire the Scorpion Stew"
+        ],
+        [
+          "Kill 3 NPC Bosses",
+          "Kill Rakshasa",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill 3 Unique Curseblade Assassins",
+          "KB a Remembrance Boss with Remembrance Weapons Only"
+        ],
+        [
+          "Memory of Grace with 500k+ Runes",
+          "Acquire 3 DLC Ashes of War",
+          "Acquire 3 DLC Spirit Ashes",
+          "Put Florissax to Sleep",
+          "Acquire Death Mask Helm Winged Serpent Heim and Satza's Hood"
+        ],
+        [
+          "Complete 2 Gaols",
+          "Kill 3 Unique NPC Invaders",
+          "Kill the Golden Hippo",
+          "Complete 2 Forges",
+          "Acquire 2 Different Max Upgrade Materials"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3603.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 2 Different Max Upgrade Materials",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:27",
+          "video_ts_s": 4290.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:21",
+          "video_ts_s": 4404.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:51",
+          "video_ts_s": 4614.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:22",
+          "video_ts_s": 4765.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:48",
+          "video_ts_s": 5151.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:33",
+          "video_ts_s": 5556.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Jori Elder Inquisitor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:38",
+          "video_ts_s": 5921.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:07",
+          "video_ts_s": 6250.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:55",
+          "video_ts_s": 6298.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:00",
+          "video_ts_s": 6303.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:01",
+          "video_ts_s": 6364.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:09",
+          "video_ts_s": 6672.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:01",
+          "video_ts_s": 6964.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Unique Divine Bird Warriors",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:24",
+          "video_ts_s": 7107.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:58:24",
+          "video_ts_s": 7107.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "themes/kopi"]
+	path = themes/kopi
+	url = https://github.com/bect/kopi.git

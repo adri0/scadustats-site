@@ -1,0 +1,508 @@
+{
+  "video_id": "2026-07-25-TwistieT-vs-Grey",
+  "match_date": "2026-07-25",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "TwistieT",
+  "player_blue_name": "Grey",
+  "commentators": [
+    "PepeJack",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=7Bfg7f53QwI",
+    "duration_s": 14339.041383333333,
+    "published_at": "2026-07-29",
+    "source_path": "/Users/Shared/code/scadustats/downloads/7Bfg7f53QwI.mp4",
+    "extracted_at": "2026-09-16"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 0,
+  "winner": null,
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 71.00426666666667,
+      "end_video_ts_s": 5074.002266666666,
+      "game_type": "base",
+      "winner_color": null,
+      "win_type": "none",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 5 Ritual Pots",
+          "Kill Preceptor Miriam",
+          "Kill 4 Unique Gargoyles B8K",
+          "Acquire 14 Unique Incantations",
+          "Kill 3 Duo Trio Bosses"
+        ],
+        [
+          "Kila Remembrance Boss with Remembrance Weapons Only",
+          "Complete 3 Tunnels or Precipices",
+          "Acquire Margit's and Mohg's Shackles",
+          "30 Arcane",
+          "Killa Godskin Apostle"
+        ],
+        [
+          "Kill Fire Giant",
+          "Restore Rykard's Great Rune",
+          "Kill 4 Unique Crucible Knights",
+          "Kill Tree Sentinel Duo",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave"
+        ],
+        [
+          "Kill Roundtable Knight Vyke",
+          "Kill 1 Magma Wyrm",
+          "Kill 2 Unique Elder Lions",
+          "Kill Rykard",
+          "Kill 3 Unique Erdtree or Putrid Avatars"
+        ],
+        [
+          "Acquire the Full Haligtree Medallion",
+          "Return Thops's Academy Key",
+          "Kilt 3 Friendly NPCs (No Hermit Merchants)",
+          "Kill Magnus the Beast Claw",
+          "Kill Commander O'Neil"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 326.0090166666667
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:24",
+          "video_ts_s": 342.0083333333333
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kilt 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:25",
+          "video_ts_s": 657.00635
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 1 Magma Wyrm",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:32",
+          "video_ts_s": 1324.0060166666667
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 3 Tunnels or Precipices",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:24",
+          "video_ts_s": 1556.0044500000001
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Magnus the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:20",
+          "video_ts_s": 1792.0068833333335
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Killa Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:43",
+          "video_ts_s": 1935.0164166666666
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:08",
+          "video_ts_s": 2080.011266666667
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:04",
+          "video_ts_s": 2256.00375
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Unique Erdtree or Putrid Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:03",
+          "video_ts_s": 2555.00245
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 3 Duo Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:37",
+          "video_ts_s": 2889.0027833333334
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "30 Arcane",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:08",
+          "video_ts_s": 2980.010366666667
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 2 Unique Elder Lions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:59",
+          "video_ts_s": 3151.0145333333335
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:30",
+          "video_ts_s": 3362.00865
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:38",
+          "video_ts_s": 3610.0064
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kila Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:43",
+          "video_ts_s": 3855.00115
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Return Thops's Academy Key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:31",
+          "video_ts_s": 4083.0122666666666
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:01",
+          "video_ts_s": 4293.005383333333
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:45",
+          "video_ts_s": 4817.0122
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 4 Unique Crucible Knights",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:09",
+          "video_ts_s": 5021.0160000000005
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5075.003266666667,
+      "end_video_ts_s": 10693.015666666666,
+      "game_type": "dlc",
+      "winner_color": null,
+      "win_type": "none",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Hippos",
+          "Acquire 2 Non Merchant Sorceries",
+          "Kill Promised Consort Radahn",
+          "Acquire 4 Enemy NPC Dropped Talismans",
+          "Kill Black Knight Garrew"
+        ],
+        [
+          "Kill Putrescent Knight",
+          "Complete 2 Catacombs",
+          "Kill a Boss after inflicting 4 Unique Status Effects",
+          "Acquire the Golden Braid",
+          "Kill the Ancient Dragon Man"
+        ],
+        [
+          "Acquire 4 Hefty Pots",
+          "Kill Lamenter",
+          "Acquire Igon's Furled Finger",
+          "Kill 3 Trolls",
+          "Kill Ancient Dragon Senessax"
+        ],
+        [
+          "Kill Romina",
+          "Acquire 3 DLC Spirit Ashes",
+          "Level 5 Revered Spirit Ash",
+          "Kill Rellana",
+          "Kill Bayle"
+        ],
+        [
+          "Kill Rakshasa",
+          "Acquire Death Mask Heim Winged Serpent Heim and Saiza s Hood",
+          "Kill 3 Unique NPC Invaders",
+          "Kill the Death Rite Bird",
+          "Kill 1 Unique Divine Bird Warrior"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5272.0000666666665
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Black Knight Garrew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:55",
+          "video_ts_s": 5807.0012
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 4 Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:59",
+          "video_ts_s": 5931.008416666667
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 1 Unique Divine Bird Warrior",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:23",
+          "video_ts_s": 6135.012216666667
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:55",
+          "video_ts_s": 6287.014066666667
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:17",
+          "video_ts_s": 6849.008833333333
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Hippos",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:55",
+          "video_ts_s": 6947.006733333334
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Rakshasa",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:26",
+          "video_ts_s": 7508.0005
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:16",
+          "video_ts_s": 7558.0004500000005
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:44",
+          "video_ts_s": 7706.0149833333335
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 2 Non Merchant Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:20",
+          "video_ts_s": 7862.00415
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:50",
+          "video_ts_s": 8132.007216666667
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Death Mask Heim Winged Serpent Heim and Saiza s Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:37",
+          "video_ts_s": 8299.007383333334
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:41",
+          "video_ts_s": 8663.00435
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Trolls",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:01",
+          "video_ts_s": 8743.000933333333
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:21",
+          "video_ts_s": 8943.000733333334
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 4 Enemy NPC Dropped Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:34",
+          "video_ts_s": 9376.01665
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:19",
+          "video_ts_s": 9481.004866666666
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:19",
+          "video_ts_s": 9661.00135
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:31",
+          "video_ts_s": 9793.016566666667
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Boss after inflicting 4 Unique Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:06",
+          "video_ts_s": 10068.007950000001
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 2 Catacombs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:06",
+          "video_ts_s": 10488.010866666667
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:26:50",
+          "video_ts_s": 10652.008033333334
+        }
+      ]
+    }
+  ]
+}

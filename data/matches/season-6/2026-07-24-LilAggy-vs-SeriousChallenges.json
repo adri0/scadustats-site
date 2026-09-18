@@ -1,0 +1,598 @@
+{
+  "video_id": "2026-07-24-LilAggy-vs-SeriousChallenges",
+  "match_date": "2026-07-24",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "SeriousChallenges",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=Zz6U9NsSL_4",
+    "duration_s": 14405.266666666666,
+    "published_at": "2026-07-27",
+    "source_path": "/Users/adri0/code/scadustats/downloads/Zz6U9NsSL_4.mp4",
+    "extracted_at": "2026-09-16"
+  },
+  "num_games": 2,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 6024.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Killa Remembrance Boss with incantations Only",
+          "Kill 2 Magma Wyrms",
+          "Kill 2 Omenkiller Bosses",
+          "Kill2 Unique Night's Cavalry",
+          "Kill S Bosses with Tree in their name"
+        ],
+        [
+          "Kill 2 Unique Black Knife Assassins",
+          "Acquire the Fingerslayer Blade",
+          "Kill 4 Unique Erdtree or Putrid Avatars",
+          "Kill Gurrang",
+          "Kill 4 Bosses in Limgrave Weeping"
+        ],
+        [
+          "Complete 2 Catacombs",
+          "Kill2 Deathbirds and 1 Death Rite Bird",
+          "Complete 2 Evergaols",
+          "Acquire Grave and Ghost Glovewort Bell Bearings 1",
+          "Kill 3 Unique Watchdogs"
+        ],
+        [
+          "Kill S Bosses in Altus Plateau Mt. Gelmir",
+          "Acquire 3 Painting Rewards",
+          "Killa Remembrance Boss with Bows Only",
+          "Kill 2 Duelist Bosses",
+          "Acquire the Full Haligtree Medallion"
+        ],
+        [
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill Mohg the Omen",
+          "Kill Ancient Dragon Lansseax",
+          "Kill Both Astel Bosses",
+          "Kill 4 Bell Bearing Hunters"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 191.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill2 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:38",
+          "video_ts_s": 829.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Complete 2 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:48",
+          "video_ts_s": 839.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 4 Bosses in Limgrave Weeping",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:03",
+          "video_ts_s": 1094.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:54",
+          "video_ts_s": 1265.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 2 Unique Black Knife Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:30",
+          "video_ts_s": 1301.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Complete 2 Catacombs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:25",
+          "video_ts_s": 1776.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:22",
+          "video_ts_s": 1833.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill S Bosses in Altus Plateau Mt. Gelmir",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:38",
+          "video_ts_s": 2029.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Gurrang",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:38",
+          "video_ts_s": 2269.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill S Bosses with Tree in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:28",
+          "video_ts_s": 2319.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Unique Watchdogs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:02",
+          "video_ts_s": 2713.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:13",
+          "video_ts_s": 2784.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire the Full Haligtree Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:02",
+          "video_ts_s": 3313.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Killa Remembrance Boss with Bows Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:15",
+          "video_ts_s": 3686.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:08",
+          "video_ts_s": 3799.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:42",
+          "video_ts_s": 3893.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings 1",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:06:33",
+          "video_ts_s": 4184.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Ancient Dragon Lansseax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:13",
+          "video_ts_s": 4464.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 2 Magma Wyrms",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:05",
+          "video_ts_s": 4936.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:54",
+          "video_ts_s": 5045.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "01:20:58",
+          "video_ts_s": 5049.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 4 Unique Erdtree or Putrid Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:22:59",
+          "video_ts_s": 5170.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Both Astel Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:04",
+          "video_ts_s": 5415.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Killa Remembrance Boss with incantations Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:32:12",
+          "video_ts_s": 5723.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Mohg the Omen",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:36:43",
+          "video_ts_s": 5994.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:36:43",
+          "video_ts_s": 5994.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 6025.0,
+      "end_video_ts_s": 10723.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 2 Painting Rewards",
+          "Drain the Water in the Church District",
+          "Level 5 Revered Spirit Ash",
+          "Kill 4 Unique Horned Warriors",
+          "Kill Moonrithyll Carian Knight"
+        ],
+        [
+          "Acquire the Kindred Cookbook from Moore",
+          "Kill 3 Trolls",
+          "Acquire 3 Unique Max Upgrade Materials",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kila Remembrance Boss with Remembrance Weapons Only"
+        ],
+        [
+          "Kill Rakshasa",
+          "Use a Transformation",
+          "Kill 3 Unique Curseblade Assassins",
+          "Killa Death Knight",
+          "Memory of Grace with 500k+ Runes"
+        ],
+        [
+          "Kill Crucible Knight Devonia",
+          "acquire 2 Kindred Cookbooks",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill a Boss after Inflicting 3 Unique Status Effects",
+          "Acquire 3 Non Merchant Sorceries"
+        ],
+        [
+          "Kill Lamenter",
+          "Kill 1 Unique Divine Bird Warrior",
+          "Acquire 3 Non Merchant Perfume Bottles",
+          "Kill Madding Hand",
+          "Give the Secret Rite Scroll to Ansbach"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 6208.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "acquire 2 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:28",
+          "video_ts_s": 6536.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:30",
+          "video_ts_s": 6778.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Moonrithyll Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:43",
+          "video_ts_s": 6791.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:59",
+          "video_ts_s": 7047.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 1 Unique Divine Bird Warrior",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:27",
+          "video_ts_s": 7195.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Boss after Inflicting 3 Unique Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:26",
+          "video_ts_s": 7314.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:24",
+          "video_ts_s": 7552.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 3 Trolls",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:13",
+          "video_ts_s": 7781.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:34",
+          "video_ts_s": 8042.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:31",
+          "video_ts_s": 8339.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:47",
+          "video_ts_s": 8355.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 3 Non Merchant Perfume Bottles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:39",
+          "video_ts_s": 8467.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:10",
+          "video_ts_s": 8618.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:33",
+          "video_ts_s": 8701.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:04",
+          "video_ts_s": 8792.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 3 Non Merchant Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:21",
+          "video_ts_s": 8929.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:08",
+          "video_ts_s": 9096.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 4 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:49",
+          "video_ts_s": 9377.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rakshasa",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:42",
+          "video_ts_s": 9490.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 3 Unique Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:37",
+          "video_ts_s": 9605.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:01",
+          "video_ts_s": 9869.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Killa Death Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:10",
+          "video_ts_s": 9878.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:10",
+          "video_ts_s": 9878.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:08",
+          "video_ts_s": 10416.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:29",
+          "video_ts_s": 10677.0
+        }
+      ]
+    }
+  ]
+}

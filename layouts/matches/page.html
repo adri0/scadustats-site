@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{- $p := .Params }}
+{{ partial "breadcrumb.html" . }}
+
+<article class="match">
+  <header class="scoreboard">
+    <div class="scoreboard-meta">
+      <span>{{ $p.match_date }}</span>
+      <a class="pill pill-sm pill-outline" href="{{ printf "/seasons/%s/" $p.season_id | relURL }}">Season {{ $p.season_id }}</a>
+      {{- with $p.match_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
+      {{- with $p.video_url }}<a class="pill pill-sm pill-accent" href="{{ . }}" target="_blank" rel="noopener">Watch VOD</a>{{ end }}
+    </div>
+
+    <div class="scoreboard-main">
+      <a class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_red.slug | relURL }}">
+        {{ $p.player_red.display_name }}
+      </a>
+      <div class="scoreboard-score">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</div>
+      <a class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_blue.slug | relURL }}">
+        {{ $p.player_blue.display_name }}
+      </a>
+    </div>
+
+    <div class="scoreboard-result">
+      {{- if eq $p.winner "" }}
+        <span class="notice">Undecided — not every game in this match was transcribed.</span>
+      {{- else if eq $p.winner "draw" }}
+        Drawn series
+      {{- else if eq $p.winner "red" }}
+        <strong>{{ $p.player_red.display_name }}</strong> takes the series
+      {{- else }}
+        <strong>{{ $p.player_blue.display_name }}</strong> takes the series
+      {{- end }}
+    </div>
+
+    {{- with $p.commentators }}
+    <div class="scoreboard-credits">Commentary: {{ delimit . ", " }}</div>
+    {{- end }}
+  </header>
+
+  {{- range $p.games }}
+  <section class="game">
+    <div class="section-head">
+      <h2>Game {{ .index }}</h2>
+      <div class="game-badges">
+        {{- with .game_type }}<span class="pill pill-sm pill-outline">{{ if eq . "dlc" }}DLC{{ else }}Base game{{ end }}</span>{{ end }}
+        {{- if .winner_color }}
+          <span class="pill pill-sm pill-{{ .winner_color }}">{{ if eq .winner_color "red" }}Red{{ else }}Blue{{ end }} wins</span>
+          <span class="pill pill-sm pill-outline">{{ .win_type }}{{ with .win_line }} · {{ humanize (replace . "_" " ") }}{{ end }}</span>
+        {{- else }}
+          <span class="pill pill-sm pill-outline">undecided</span>
+        {{- end }}
+      </div>
+    </div>
+
+    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line) }}
+
+    {{- with .events }}
+    <details class="timeline-toggle">
+      <summary>Timeline ({{ len . }} events)</summary>
+      {{ partial "event-timeline.html" . }}
+    </details>
+    {{- end }}
+  </section>
+  {{- end }}
+</article>
+{{ end }}

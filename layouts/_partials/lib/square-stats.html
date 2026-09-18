@@ -1,0 +1,47 @@
+{{- /*
+  Output: a dict keyed by canonical square id (or normalized text, for goals
+  the catalog doesn't know) -> {id, text, game_type, known, boards, marks}.
+
+  `boards` counts how often the goal was dealt onto a card, `marks` how often
+  it was actually claimed -- together they give a claim rate, which is the
+  point of reading data/squares/ at all: without the catalog, per-VOD
+  transcription differences would split one goal across several buckets.
+  Call through `partialCached`; it scans every match.
+*/ -}}
+{{- $stats := dict -}}
+{{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
+  {{- range $file, $match := $matchesInSeason -}}
+    {{- range $g := ($match.games | default slice) -}}
+      {{- $gt := $g.game_type | default "" -}}
+
+      {{- range $row := ($g.square_texts | default slice) -}}
+        {{- range $cell := ($row | default slice) -}}
+          {{- $sq := partial "lib/square-lookup.html" $cell -}}
+          {{- if $sq.text -}}
+            {{- $key := $sq.id | default (lower $sq.text) -}}
+            {{- $entry := index $stats $key -}}
+            {{- if not $entry -}}
+              {{- $entry = dict "id" $sq.id "text" $sq.text "game_type" ($sq.game_type | default $gt) "known" $sq.known "boards" 0 "marks" 0 -}}
+            {{- end -}}
+            {{- $stats = merge $stats (dict $key (merge $entry (dict "boards" (add $entry.boards 1)))) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- range $g.events -}}
+        {{- if and (eq .event_type "mark") .color -}}
+          {{- $sq := partial "lib/square-lookup.html" .square_text -}}
+          {{- if $sq.text -}}
+            {{- $key := $sq.id | default (lower $sq.text) -}}
+            {{- $entry := index $stats $key -}}
+            {{- if not $entry -}}
+              {{- $entry = dict "id" $sq.id "text" $sq.text "game_type" ($sq.game_type | default $gt) "known" $sq.known "boards" 0 "marks" 0 -}}
+            {{- end -}}
+            {{- $stats = merge $stats (dict $key (merge $entry (dict "marks" (add $entry.marks 1)))) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $stats -}}

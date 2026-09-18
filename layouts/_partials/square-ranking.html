@@ -1,0 +1,9 @@
+{{- /* Input: a slice of {text, marks, known} square counts, already ordered. */ -}}
+<ol class="square-ranking">
+  {{- range . }}
+  <li>
+    <span class="square-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</span>
+    <span class="square-marks">{{ .marks }}</span>
+  </li>
+  {{- end }}
+</ol>

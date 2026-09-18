@@ -1,0 +1,42 @@
+{{- /*
+  Overrides kopi's sidebar.html. The theme's search box, radio player, tag
+  cloud and newsletter widgets are dropped; these are league stats instead.
+  Rendered inside a [data-turbo-permanent] wrapper, so it must render the same
+  markup on every page that includes it.
+*/ -}}
+{{- $matches := where site.RegularPages "Section" "matches" }}
+{{- $players := where site.RegularPages "Section" "players" }}
+{{- $seasons := where site.RegularPages "Section" "seasons" }}
+{{- $games := 0 }}
+{{- range $matches }}{{ $games = add $games (.Params.num_games | default 0) }}{{ end }}
+{{- $topGoals := first 5 (sort (partialCached "lib/square-stats.html" "") "marks" "desc") }}
+<aside class="sidebar">
+    <div class="widget">
+        <div class="widget-title">League at a glance</div>
+        <ul class="widget-list">
+            <li><a href="{{ "/matches/" | relURL }}">Matches<span>{{ len $matches }}</span></a></li>
+            <li><a href="{{ "/matches/" | relURL }}">Games<span>{{ $games }}</span></a></li>
+            <li><a href="{{ "/players/" | relURL }}">Players<span>{{ len $players }}</span></a></li>
+            <li><a href="{{ "/seasons/" | relURL }}">Seasons<span>{{ len $seasons }}</span></a></li>
+        </ul>
+    </div>
+
+    <div class="widget">
+        <div class="widget-title">Most match wins</div>
+        <ul class="widget-list">
+            {{- range first 5 (sort $players ".Params.wins" "desc") }}
+            <li><a href="{{ .RelPermalink }}">{{ .Params.display_name }}<span>{{ .Params.wins }}W–{{ .Params.losses }}L</span></a></li>
+            {{- end }}
+        </ul>
+    </div>
+
+    <div class="widget">
+        <div class="widget-title">Most claimed goals</div>
+        <ul class="widget-list widget-list-plain">
+            {{- range $topGoals }}
+            <li><span class="goal-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</span><span>{{ .marks }}</span></li>
+            {{- end }}
+        </ul>
+        <a class="widget-more" href="{{ "/squares/" | relURL }}">All bingo goals →</a>
+    </div>
+</aside>

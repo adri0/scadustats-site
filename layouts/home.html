@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{- $matches := sort (where site.RegularPages "Section" "matches") "Date" "desc" }}
+<div class="content-grid">
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">{{ site.Title }}</h1>
+      {{- with site.Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
+      {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Latest matches</h2>
+        <a href="{{ "/matches/" | relURL }}">All matches →</a>
+      </div>
+      <div class="match-list">
+        {{- range first 6 $matches }}
+          {{ partial "match-card.html" (dict "page" . "show_season" true) }}
+        {{- end }}
+      </div>
+    </section>
+  </main>
+
+  <div id="persistent-sidebar" data-turbo-permanent>
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}
