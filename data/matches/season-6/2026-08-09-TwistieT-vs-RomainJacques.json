@@ -1,0 +1,480 @@
+{
+  "match_id": "2026-08-09-TwistieT-vs-RomainJacques",
+  "match_date": "2026-08-09",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "TwistieT",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=4ayEsCgnxnk",
+    "duration_s": 14405.966666666667,
+    "published_at": "2026-08-17",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 37.0,
+      "end_video_ts_s": 3613.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_5",
+      "square_texts": [
+        [
+          "Kill 2 Omenkiller Bosses",
+          "Kill 2 Unique Tibia Mariners",
+          "Kill 2 Unique Abductor Virgins",
+          "30 Arcane",
+          "Kill a Black Blade Kindred"
+        ],
+        [
+          "Acquire 12 Unique Sorceries",
+          "Kill 5 Bosses with \"Tree\" in their name",
+          "Kill Gurranq",
+          "Acquire 3 Legendary Talismans",
+          "Acquire 10 Sacred Flask Charges"
+        ],
+        [
+          "Kill 1 Magma Wyrm",
+          "Kill 3 Unique Tree Spirits",
+          "Kill Darriwil while Summoning Blaidd",
+          "Kill Borealis",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects"
+        ],
+        [
+          "Duplicate a Remembrance",
+          "Kill Mohg Lord of Blood",
+          "Kill 4 Bosses in Caelid / Dragonbarrow",
+          "Acquire 4 Memory Stones",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]"
+        ],
+        [
+          "Kill Grafted Scion (Chapel)",
+          "Kill Wormface",
+          "Acquire 6 Unique Staves",
+          "Kill Elemer of the Briar",
+          "Acquire Somberstone Bell Bearing [1] and [2]"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 291.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:54",
+          "video_ts_s": 1005.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Darriwil while Summoning Blaidd",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:32",
+          "video_ts_s": 1043.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Mohg Lord of Blood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:38",
+          "video_ts_s": 1709.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "30 Arcane",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:07",
+          "video_ts_s": 1738.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:09",
+          "video_ts_s": 1800.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Duplicate a Remembrance",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:17",
+          "video_ts_s": 1988.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 2 Unique Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:02",
+          "video_ts_s": 2393.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 Unique Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:02",
+          "video_ts_s": 2393.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Borealis",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:36",
+          "video_ts_s": 2607.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 Legendary Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:36",
+          "video_ts_s": 2667.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 4 Memory Stones",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:14",
+          "video_ts_s": 3305.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:37",
+          "video_ts_s": 3388.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Grafted Scion (Chapel)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:46",
+          "video_ts_s": 3457.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:46",
+          "video_ts_s": 3578.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:54:46",
+          "video_ts_s": 3578.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3614.0,
+      "end_video_ts_s": 9086.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Use a Transformation",
+          "Give an lris of Grace",
+          "Level 5 Revered Spirit Ash",
+          "Kill 3 Trolls",
+          "Acquire 3 Hanging Pot Bell Bearings"
+        ],
+        [
+          "Kill 1 Furnace Golem",
+          "Kill Messmer",
+          "Acquire the Scorpion Stew",
+          "Put Florissax to Sleep",
+          "Kill Chief Bloodfiend"
+        ],
+        [
+          "Acquire 2 Non-Merchant Sorceries",
+          "Kill the Fallingstar Beast",
+          "Acquire the Two-Headed Turtle Talisman",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Acquire 3 Kindred Cookbooks"
+        ],
+        [
+          "Acquire 2 Blessings of Marika",
+          "Kill 3 NPC Bosses",
+          "Kill Metyr",
+          "Kill Bayle",
+          "Kill 2 Hippos"
+        ],
+        [
+          "Acquire 3 DLC Ashes of War",
+          "Burn the Sealing Tree",
+          "Acquire 2 Dragon Hearts",
+          "Complete 2 Gaols",
+          "Kill all 3 Red Bears"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3808.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:54",
+          "video_ts_s": 4042.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:25",
+          "video_ts_s": 4433.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 3 Hanging Pot Bell Bearings",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:08",
+          "video_ts_s": 4716.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:08",
+          "video_ts_s": 5076.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:03",
+          "video_ts_s": 5191.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:28",
+          "video_ts_s": 5516.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:35",
+          "video_ts_s": 5883.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Non-Merchant Sorceries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:06",
+          "video_ts_s": 6154.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:32",
+          "video_ts_s": 6540.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:46:39",
+          "video_ts_s": 6607.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 3 Trolls",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:48",
+          "video_ts_s": 6976.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:35",
+          "video_ts_s": 7083.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:54",
+          "video_ts_s": 7222.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:06",
+          "video_ts_s": 7594.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:44",
+          "video_ts_s": 7692.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:17",
+          "video_ts_s": 7845.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 1 Furnace Golem",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:15",
+          "video_ts_s": 8023.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Give an lris of Grace",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:01",
+          "video_ts_s": 8129.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Hippos",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:24",
+          "video_ts_s": 8452.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:39",
+          "video_ts_s": 8527.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Complete 2 Gaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:25",
+          "video_ts_s": 8693.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Burn the Sealing Tree",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:27:06",
+          "video_ts_s": 9034.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:27:06",
+          "video_ts_s": 9034.0
+        }
+      ]
+    }
+  ]
+}

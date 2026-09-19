@@ -210,7 +210,12 @@
     "game_type": "dlc"
   },
   {
-    "id": "furnace_golems_2",
+    "id": "furnace_golem_1",
+    "text": "Kill 1 Furnace Golem",
+    "game_type": "dlc"
+  },
+  {
+    "id": "furnace_golem_2",
     "text": "Kill 2 Furnace Golems",
     "game_type": "dlc"
   },

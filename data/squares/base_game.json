@@ -91,12 +91,12 @@
   },
   {
     "id": "caelid_bosses_4",
-    "text": "Kill 4 Bosses in Caelid Dragonbarrow",
+    "text": "Kill 4 Bosses in Caelid / Dragonbarrow",
     "game_type": "base"
   },
   {
     "id": "caelid_bosses_5",
-    "text": "Kill 5 Bosses in Caelid Dragonbarrow",
+    "text": "Kill 5 Bosses in Caelid / Dragonbarrow",
     "game_type": "base"
   },
   {
@@ -315,6 +315,16 @@
     "game_type": "base"
   },
   {
+    "id": "glovewort_bb_1",
+    "text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+    "game_type": "base"
+  },
+  {
+    "id": "glovewort_bb_2",
+    "text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+    "game_type": "base"
+  },
+  {
     "id": "god_bosses_3",
     "text": "Kill 3 Bosses with \"God\" in their name",
     "game_type": "base"
@@ -352,16 +362,6 @@
   {
     "id": "grafted_scion",
     "text": "Kill Grafted Scion (Chapel)",
-    "game_type": "base"
-  },
-  {
-    "id": "glovewort_bb_2",
-    "text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
-    "game_type": "base"
-  },
-  {
-    "id": "glovewort_bb_1",
-    "text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
     "game_type": "base"
   },
   {
@@ -532,6 +532,11 @@
   {
     "id": "memory_stones_3",
     "text": "Acquire 3 Memory Stones",
+    "game_type": "base"
+  },
+  {
+    "id": "memory_stones_4",
+    "text": "Acquire 4 Memory Stones",
     "game_type": "base"
   },
   {
