@@ -7,19 +7,20 @@ bio: null
 season_records:
   '6':
     wins: 0
-    losses: 2
+    losses: 3
     draws: 0
 game_record:
   wins: 0
-  losses: 4
+  losses: 6
 game_type_records:
   base:
     wins: 0
-    losses: 2
+    losses: 3
   dlc:
     wins: 0
-    losses: 2
+    losses: 3
 all_matches:
+- 2026-08-09-TwistieT-vs-RomainJacques
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
@@ -28,20 +29,20 @@ top_squares_base_game:
   marks: 2
 - text: Acquire 2 Imbued Sword Keys
   marks: 1
+- text: Acquire 3 Legendary Talismans
+  marks: 1
+- text: Acquire 4 Memory Stones
+  marks: 1
 - text: Acquire 6 Unique Staves
   marks: 1
-- text: Acquire Grave and Ghost Glovewort Bell Bearings [1]
-  marks: 1
-- text: Acquire Sacred Flask +7
-  marks: 1
 top_squares_dlc:
+- text: Level 5 Revered Spirit Ash
+  marks: 2
 - text: Acquire 2 Different Max Upgrade Materials
   marks: 1
 - text: Acquire 2 Painting Rewards
   marks: 1
+- text: Acquire 3 Hanging Pot Bell Bearings
+  marks: 1
 - text: Acquire 5 Non-Merchant Incantations
-  marks: 1
-- text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
-  marks: 1
-- text: Acquire the Scorpion Stew
   marks: 1
