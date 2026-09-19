@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://scadustats.com/"
 locale = "en-us"
 title = "Scadustats"
 
