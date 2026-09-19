@@ -1,4 +1,4 @@
-id: 13
+id: 12
 slug: twistiet
 display_name: TwistieT
 twitch: null
@@ -7,40 +7,41 @@ bio: null
 season_records:
   '6':
     wins: 0
-    losses: 1
+    losses: 2
     draws: 0
 game_record:
   wins: 0
-  losses: 2
+  losses: 4
 game_type_records:
   base:
     wins: 0
-    losses: 1
+    losses: 2
   dlc:
     wins: 0
-    losses: 1
+    losses: 2
 all_matches:
+- 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
 top_squares_base_game:
+- text: Kill 1 Duelist Boss
+  marks: 2
+- text: Acquire 2 Imbued Sword Keys
+  marks: 1
+- text: Acquire 6 Unique Staves
+  marks: 1
+- text: Acquire Grave and Ghost Glovewort Bell Bearings [1]
+  marks: 1
 - text: Acquire Sacred Flask +7
   marks: 1
-- text: Finish off a Boss with the Explosive Physick
-  marks: 1
-- text: Kill 1 Duelist Boss
-  marks: 1
-- text: Kill 4 NPC Invaders
-  marks: 1
-- text: Kill Preceptor Miriam
-  marks: 1
 top_squares_dlc:
-- text: Complete 2 Gaols
+- text: Acquire 2 Different Max Upgrade Materials
   marks: 1
-- text: Drain the Water in the Church District
+- text: Acquire 2 Painting Rewards
   marks: 1
-- text: Drink Thiollier's Concoction
+- text: Acquire 5 Non-Merchant Incantations
   marks: 1
-- text: Give an Iris of Occultation
+- text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
   marks: 1
-- text: Kill Queelign in Belurat
+- text: Acquire the Scorpion Stew
   marks: 1

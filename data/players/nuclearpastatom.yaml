@@ -6,41 +6,43 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 2
+    wins: 4
     losses: 0
     draws: 0
 game_record:
-  wins: 4
+  wins: 8
   losses: 0
 game_type_records:
   base:
-    wins: 2
+    wins: 4
     losses: 0
   dlc:
-    wins: 2
+    wins: 4
     losses: 0
 all_matches:
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 top_squares_base_game:
+- text: Kill 5 Bosses in Limgrave / Weeping
+  marks: 3
+- text: Acquire 14 Unique Incantations
+  marks: 2
+- text: Acquire 3 Legendary Talismans
+  marks: 2
 - text: Acquire 3 Painting Rewards
   marks: 2
-- text: Kill 5 Bosses in Limgrave Weeping
+- text: Kill 2 Unique Erdtree or Putrid Avatars
   marks: 2
-- text: Acquire 10 Cracked Pots
-  marks: 1
-- text: Acquire 14 Unique Incantations
-  marks: 1
-- text: Acquire 3 Legendary Talismans
-  marks: 1
 top_squares_dlc:
+- text: Acquire 2 Blessings of Marika
+  marks: 3
+- text: Acquire Commander Gaius's Pants
+  marks: 2
+- text: Kill 3 Unique Horned Warriors
+  marks: 2
+- text: Kill Messmer
+  marks: 2
 - text: Kill Moonrithyll Carian Knight
   marks: 2
-- text: Acquire 2 Blessings of Marika
-  marks: 1
-- text: Acquire 2 Dragon Hearts
-  marks: 1
-- text: Acquire 2 Non Merchant Sorceries
-  marks: 1
-- text: Acquire 3 DLC Spirit Ashes
-  marks: 1

@@ -1,4 +1,4 @@
-id: 14
+id: 13
 slug: vswed
 display_name: Vswed
 twitch: null
@@ -6,42 +6,43 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 2
+    wins: 1
     losses: 1
-    draws: 0
+    draws: 2
 game_record:
   wins: 4
-  losses: 2
+  losses: 4
 game_type_records:
   base:
     wins: 2
-    losses: 1
+    losses: 2
   dlc:
     wins: 2
-    losses: 1
+    losses: 2
 all_matches:
-- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-19-Vswed-vs-TwistieT
 top_squares_base_game:
 - text: Kill Crucible Knight and Misbegotten Warrior Duo
-  marks: 2
-- text: Kill Misbegotten Crusader
-  marks: 2
+  marks: 3
 - text: Memory of Grace with 100k+ Runes
+  marks: 3
+- text: Acquire 6 Unique Staves
   marks: 2
-- text: 30 Intelligence
-  marks: 1
-- text: Acquire 10 Sacred Flask Charges
-  marks: 1
+- text: Complete 3 Caves
+  marks: 2
+- text: Kill Borealis
+  marks: 2
 top_squares_dlc:
 - text: Acquire 3 NPC Dropped Weapons
   marks: 2
-- text: Kill 3 Bosses with Knight in their name
+- text: Kill Chief Bloodfiend
   marks: 2
 - text: Kill Moonrithyll Carian Knight
   marks: 2
 - text: Kill Rakshasa
   marks: 2
-- text: Kill the Ancient Dragon Man
-  marks: 2
+- text: Acquire 2 Different Max Upgrade Materials
+  marks: 1

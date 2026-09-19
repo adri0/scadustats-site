@@ -1,4 +1,4 @@
-id: 11
+id: 10
 slug: romainjacques
 display_name: RomainJacques
 twitch: null
@@ -8,39 +8,40 @@ season_records:
   '6':
     wins: 0
     losses: 1
-    draws: 1
+    draws: 2
 game_record:
-  wins: 1
-  losses: 3
+  wins: 2
+  losses: 4
 game_type_records:
   base:
     wins: 0
-    losses: 2
+    losses: 3
   dlc:
-    wins: 1
+    wins: 2
     losses: 1
 all_matches:
 - 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 top_squares_base_game:
+- text: Give Hyetta 3 Shabriri Grapes
+  marks: 2
+- text: Kill Godskin Noble (Volcano Manor) without Status Effects
+  marks: 2
+- text: Acquire 10 Cracked Pots
+  marks: 1
 - text: Acquire 3 Legendary Talismans
   marks: 1
 - text: Acquire 4 Larval Tears from Transforming Enemies
   marks: 1
-- text: Acquire Grave and Ghost Glovewort Bell Bearings (1)
-  marks: 1
-- text: Give Hyetta 3 Shabriri Grapes
-  marks: 1
-- text: Kill 2 Bell Bearing Hunters
-  marks: 1
 top_squares_dlc:
+- text: Kill 3 NPC Bosses
+  marks: 2
 - text: Kill 3 Ulcerated Tree Spirits
+  marks: 2
+- text: Kill Crucible Knight Devonia
   marks: 2
 - text: Acquire 3 DLC Spirit Ashes
   marks: 1
-- text: Acquire the Kindred Cookbook from Moore
-  marks: 1
-- text: Complete 2 Forges
-  marks: 1
-- text: Complete 2 Nameless Mausoleums
+- text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
   marks: 1

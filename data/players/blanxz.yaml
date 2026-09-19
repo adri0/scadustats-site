@@ -6,42 +6,44 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 2
+    wins: 4
     losses: 1
     draws: 0
 game_record:
-  wins: 4
+  wins: 8
   losses: 1
 game_type_records:
   base:
-    wins: 2
+    wins: 4
     losses: 1
   dlc:
-    wins: 2
+    wins: 4
     losses: 0
 all_matches:
 - 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
 top_squares_base_game:
+- text: Kill 3 Friendly NPCs (No Hermit Merchants)
+  marks: 3
+- text: Acquire Smithing Stone Bell Bearing [1] and [2]
+  marks: 2
+- text: Complete an Altus Plateau or Mt. Gelmir Hero's Grave
+  marks: 2
 - text: Kill 2 Fallingstar Beasts
   marks: 2
-- text: Take Rya's hand to Volcano Manor
+- text: Kill 2 Unique Night's Cavalry
   marks: 2
-- text: Acquire 3 Memory Stones
-  marks: 1
-- text: Acquire 3 Whetstone Knives
-  marks: 1
-- text: Acquire 6 Dropped Ashes of War
-  marks: 1
 top_squares_dlc:
+- text: Blow a Finger
+  marks: 3
 - text: Put Florissax to Sleep
+  marks: 3
+- text: Acquire Commander Gaius's Pants
   marks: 2
-- text: Acquire 2 Full DLC Armor Sets
-  marks: 1
-- text: Acquire 2 Unique Max Upgrade Materials
-  marks: 1
-- text: Acquire 3 DLC Ashes of War
-  marks: 1
-- text: Acquire 3 Non Merchant Sorceries
-  marks: 1
+- text: Kill 1 Unique Base Game Boss in the DLC
+  marks: 2
+- text: Kill Jori, Elder Inquisitor
+  marks: 2

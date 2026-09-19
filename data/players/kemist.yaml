@@ -1,4 +1,4 @@
-id: 4
+id: 5
 slug: kemist
 display_name: KEMIST
 twitch: null
@@ -31,7 +31,7 @@ top_squares_base_game:
 - text: Restore Godrick's Great Rune
   marks: 1
 top_squares_dlc:
-- text: Kill Jori Elder Inquisitor
+- text: Kill Jori, Elder Inquisitor
   marks: 1
 - text: Kill the Golden Hippo
   marks: 1

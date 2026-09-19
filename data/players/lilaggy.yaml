@@ -1,4 +1,4 @@
-id: 5
+id: 6
 slug: lilaggy
 display_name: LilAggy
 twitch: null
@@ -8,40 +8,41 @@ season_records:
   '6':
     wins: 1
     losses: 1
-    draws: 1
+    draws: 2
 game_record:
-  wins: 3
-  losses: 3
+  wins: 4
+  losses: 4
 game_type_records:
   base:
     wins: 2
-    losses: 1
+    losses: 2
   dlc:
-    wins: 1
+    wins: 2
     losses: 2
 all_matches:
-- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-blanxz-vs-LilAggy
 top_squares_base_game:
-- text: Kill Mohg Lord of Blood
+- text: Acquire the Full Haligtree Medallion
+  marks: 2
+- text: Kill 2 Deathbirds and 1 Death Rite Bird
+  marks: 2
+- text: Kill Ancient Dragon Lansseax
   marks: 2
 - text: 30 Arcane
   marks: 1
-- text: Acquire 10 Cracked Pots
-  marks: 1
-- text: Acquire 10 Sacred Flask Charges
-  marks: 1
-- text: Acquire 6 Unique Staves
+- text: 30 Intelligence
   marks: 1
 top_squares_dlc:
 - text: Kill Crucible Knight Devonia
+  marks: 3
+- text: Kill 1 Unique Divine Bird Warrior
   marks: 2
-- text: Acquire 2 Blessings of Marika
+- text: Kill Madding Hand
+  marks: 2
+- text: Acquire 2 Different Max Upgrade Materials
   marks: 1
-- text: Acquire 2 Full DLC Armor Sets
-  marks: 1
-- text: Acquire 2 Painting Rewards
-  marks: 1
-- text: Acquire 3 DLC Spirit Ashes
+- text: Acquire 3 DLC Ashes of War
   marks: 1
