@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-24-LilAggy-vs-SeriousChallenges",
+  "match_id": "2026-07-24-LilAggy-vs-SeriousChallenges",
   "match_date": "2026-07-24",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=Zz6U9NsSL_4",
     "duration_s": 14405.266666666666,
     "published_at": "2026-07-27",
-    "source_path": "/Users/adri0/code/scadustats/downloads/Zz6U9NsSL_4.mp4",
     "extracted_at": "2026-09-16"
   },
   "num_games": 2,
@@ -34,27 +33,27 @@
           "Killa Remembrance Boss with incantations Only",
           "Kill 2 Magma Wyrms",
           "Kill 2 Omenkiller Bosses",
-          "Kill2 Unique Night's Cavalry",
-          "Kill S Bosses with Tree in their name"
+          "Kill 2 Unique Night's Cavalry",
+          "Kill 5 Bosses with \"Tree\" in their name"
         ],
         [
           "Kill 2 Unique Black Knife Assassins",
           "Acquire the Fingerslayer Blade",
           "Kill 4 Unique Erdtree or Putrid Avatars",
-          "Kill Gurrang",
-          "Kill 4 Bosses in Limgrave Weeping"
+          "Kill Gurranq",
+          "Kill 4 Bosses in Limgrave / Weeping"
         ],
         [
           "Complete 2 Catacombs",
-          "Kill2 Deathbirds and 1 Death Rite Bird",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
           "Complete 2 Evergaols",
-          "Acquire Grave and Ghost Glovewort Bell Bearings 1",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
           "Kill 3 Unique Watchdogs"
         ],
         [
-          "Kill S Bosses in Altus Plateau Mt. Gelmir",
+          "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
           "Acquire 3 Painting Rewards",
-          "Killa Remembrance Boss with Bows Only",
+          "Kill a Remembrance Boss with Bows Only",
           "Kill 2 Duelist Bosses",
           "Acquire the Full Haligtree Medallion"
         ],
@@ -79,7 +78,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Kill2 Unique Night's Cavalry",
+          "square_text": "Kill 2 Unique Night's Cavalry",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:10:38",
@@ -97,7 +96,7 @@
         {
           "row": 2,
           "col": 5,
-          "square_text": "Kill 4 Bosses in Limgrave Weeping",
+          "square_text": "Kill 4 Bosses in Limgrave / Weeping",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:15:03",
@@ -106,7 +105,7 @@
         {
           "row": 3,
           "col": 2,
-          "square_text": "Kill2 Deathbirds and 1 Death Rite Bird",
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:17:54",
@@ -142,7 +141,7 @@
         {
           "row": 4,
           "col": 1,
-          "square_text": "Kill S Bosses in Altus Plateau Mt. Gelmir",
+          "square_text": "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:30:38",
@@ -151,7 +150,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Kill Gurrang",
+          "square_text": "Kill Gurranq",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:34:38",
@@ -160,7 +159,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill S Bosses with Tree in their name",
+          "square_text": "Kill 5 Bosses with \"Tree\" in their name",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:35:28",
@@ -196,7 +195,7 @@
         {
           "row": 4,
           "col": 3,
-          "square_text": "Killa Remembrance Boss with Bows Only",
+          "square_text": "Kill a Remembrance Boss with Bows Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:58:15",
@@ -223,7 +222,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings 1",
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:06:33",
@@ -333,13 +332,13 @@
           "Kill 3 Trolls",
           "Acquire 3 Unique Max Upgrade Materials",
           "Kill the Rolling Giant Lightning Ram",
-          "Kila Remembrance Boss with Remembrance Weapons Only"
+          "Kill a Remembrance Boss with Remembrance Weapons Only"
         ],
         [
           "Kill Rakshasa",
           "Use a Transformation",
           "Kill 3 Unique Curseblade Assassins",
-          "Killa Death Knight",
+          "Kill a Death Knight",
           "Memory of Grace with 500k+ Runes"
         ],
         [
@@ -347,12 +346,12 @@
           "acquire 2 Kindred Cookbooks",
           "Kill 3 Ulcerated Tree Spirits",
           "Kill a Boss after Inflicting 3 Unique Status Effects",
-          "Acquire 3 Non Merchant Sorceries"
+          "Acquire 3 Non-Merchant Sorceries"
         ],
         [
           "Kill Lamenter",
           "Kill 1 Unique Divine Bird Warrior",
-          "Acquire 3 Non Merchant Perfume Bottles",
+          "Acquire 3 Non-Merchant Perfume Bottles",
           "Kill Madding Hand",
           "Give the Secret Rite Scroll to Ansbach"
         ]
@@ -469,7 +468,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "Acquire 3 Non Merchant Perfume Bottles",
+          "square_text": "Acquire 3 Non-Merchant Perfume Bottles",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:37:39",
@@ -505,7 +504,7 @@
         {
           "row": 4,
           "col": 5,
-          "square_text": "Acquire 3 Non Merchant Sorceries",
+          "square_text": "Acquire 3 Non-Merchant Sorceries",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:45:21",
@@ -559,7 +558,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Killa Death Knight",
+          "square_text": "Kill a Death Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:01:10",

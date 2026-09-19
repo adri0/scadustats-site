@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-19-Raydans-vs-Parkenharbor",
+  "match_id": "2026-07-19-Raydans-vs-Parkenharbor",
   "match_date": "2026-07-19",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=RuPF_fU6o6w",
     "duration_s": 14410.25,
     "published_at": "2026-07-23",
-    "source_path": "/Users/adri0/code/scadustats/downloads/RuPF_fU6o6w.mp4",
     "extracted_at": "2026-09-16"
   },
   "num_games": 2,

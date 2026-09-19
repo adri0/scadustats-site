@@ -1,0 +1,435 @@
+{
+  "match_id": "2026-08-24-Gustaf-vs-RomainJacques",
+  "match_date": "2026-08-24",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Gustaf",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "NuclearPastaTom",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=MS0rjxdH4gs",
+    "duration_s": 14405.366666666667,
+    "published_at": "2026-08-27",
+    "extracted_at": "2026-09-17"
+  },
+  "num_games": 2,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4696.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Unique Elder Lions",
+          "Killa Remembrance Boss Hitless",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Return Thops's Academy Key",
+          "Kill Tree Sentinel Duo"
+        ],
+        [
+          "Acquire Sacred Flask +7",
+          "Kill a Black Blade Kindred",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Acquire 3 Legendary Talismans",
+          "Kill 2 Unique Cemetery Shades"
+        ],
+        [
+          "Take Rya s hand to Volcano Manor",
+          "Complete 3 Catacombs",
+          "Kill 2 Unique Black Knife Assassins",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill 4 Bell Bearing Hunters"
+        ],
+        [
+          "Acquire the Fingerslayer Blade",
+          "Kill Misbegotten Crusader",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Kill 4 NPC Bosses"
+        ],
+        [
+          "Kill Margit with a +0 Weapon Only",
+          "Kill 4 Unique Gargoyles/BBK",
+          "Kill 2 Unique Night's Cavalry",
+          "Kill Preceptor Miriam",
+          "Acquire Grave and Ghost Glovewort Bell Bearings (1)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 188.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Take Rya s hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:52",
+          "video_ts_s": 540.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Margit with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:29",
+          "video_ts_s": 757.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:45",
+          "video_ts_s": 1313.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Unique Elder Lions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:42",
+          "video_ts_s": 1430.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:20",
+          "video_ts_s": 1528.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:50",
+          "video_ts_s": 1678.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 Unique Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:35",
+          "video_ts_s": 2023.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Return Thops's Academy Key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:30",
+          "video_ts_s": 2078.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 2 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:12",
+          "video_ts_s": 2240.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 Legendary Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:08",
+          "video_ts_s": 2356.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 2 Unique Cemetery Shades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:27",
+          "video_ts_s": 2435.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Complete 3 Catacombs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:28",
+          "video_ts_s": 2436.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:01",
+          "video_ts_s": 2529.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:31",
+          "video_ts_s": 2559.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:09",
+          "video_ts_s": 2657.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Give Hyetta 3 Shabriri Grapes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:38",
+          "video_ts_s": 3106.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:08",
+          "video_ts_s": 3256.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:10",
+          "video_ts_s": 3498.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:40",
+          "video_ts_s": 3708.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings (1)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:01",
+          "video_ts_s": 4029.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 4 Unique Gargoyles/BBK",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:09",
+          "video_ts_s": 4037.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 4 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:45",
+          "video_ts_s": 4433.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire the Fingerslayer Blade",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:14:26",
+          "video_ts_s": 4654.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:14:26",
+          "video_ts_s": 4654.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4697.0,
+      "end_video_ts_s": 7077.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "col_5",
+      "square_texts": [
+        [
+          "Kill 3 Unique Curseblade Assassins",
+          "Kill Bayle",
+          "Acquire Jolan Summon",
+          "Acquire 5 Non-Merchant incantations",
+          "Acquire the Kindred Cookbook from Moore"
+        ],
+        [
+          "Kill Lamenter",
+          "Acquire 2 Dragon Hearts",
+          "Kill a Boss with incantations Only",
+          "Complete 2 Gaols",
+          "Kill 3 Ulcerated Tree Spirits"
+        ],
+        [
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill Putrescent Knight",
+          "Acquire the Scorpion Stew",
+          "Drink Thiollier s Concoction",
+          "Acquire 3 DLC Spirit Ashes"
+        ],
+        [
+          "Acquire 3 Hanging Pot Bell Bearings",
+          "Rune Level 80",
+          "Kill Ancient Dragon Senessax",
+          "Kill Chief Bloodfiend",
+          "Kill the Colossal Fingercreeper"
+        ],
+        [
+          "Give the Secret Rite Scroll to Ansbach",
+          "Kill 3 Unique NPC Invaders",
+          "Kill Queelign in Belurat",
+          "Kill Midra",
+          "Drain the Water in the Church District"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4884.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:03",
+          "video_ts_s": 5367.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:07",
+          "video_ts_s": 5671.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:57",
+          "video_ts_s": 6441.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Drink Thiollier s Concoction",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:54",
+          "video_ts_s": 6558.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:22",
+          "video_ts_s": 6586.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:23",
+          "video_ts_s": 6707.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:27",
+          "video_ts_s": 6711.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:28",
+          "video_ts_s": 7012.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:35:28",
+          "video_ts_s": 7012.0
+        }
+      ]
+    }
+  ]
+}

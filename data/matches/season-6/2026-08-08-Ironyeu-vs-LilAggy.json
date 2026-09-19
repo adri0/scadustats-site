@@ -1,0 +1,291 @@
+{
+  "match_id": "2026-08-08-Ironyeu-vs-LilAggy",
+  "match_date": "2026-08-08",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Ironyeu",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=T_BO_6GF_SM",
+    "duration_s": 14458.566666666668,
+    "published_at": "2026-08-12",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3272.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Acquire Margit's and Mohg's Shackles",
+          "Kill Mohg, the Omen",
+          "Kill Preceptor Miriam",
+          "Kill a Remembrance Boss with Daggers Only",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave"
+        ],
+        [
+          "30 Faith",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Acquire 10 Cracked Pots",
+          "Acquire 14 Unique Incantations",
+          "Acquire 3 Unique Seals"
+        ],
+        [
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill Loretta (Blue Spirit)",
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Acquire Sacred Flask +7",
+          "Kill 2 Deathbirds and 1 Death Rite Bird"
+        ],
+        [
+          "Kill 3 Dragon Heart Bosses",
+          "Kill 1 Fallingstar Beast",
+          "Kill Greyoll without Status Effects",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill 3 Unique Abductor Virgins"
+        ],
+        [
+          "30 Arcane",
+          "Kill 2 Duelist Bosses",
+          "Kill Roundtable Knight Vyke",
+          "Kill Magnus the Beast Claw",
+          "Acquire the Full Haligtree Medallion"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 180.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:43",
+          "video_ts_s": 583.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:20",
+          "video_ts_s": 800.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:53",
+          "video_ts_s": 953.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 Unique Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:19",
+          "video_ts_s": 1699.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Soldier of Godrick with Bare Fists Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:50",
+          "video_ts_s": 1730.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:22",
+          "video_ts_s": 2002.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Unique Abductor Virgins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:30",
+          "video_ts_s": 2010.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire the Full Haligtree Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:09",
+          "video_ts_s": 2289.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:21",
+          "video_ts_s": 3203.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:50:21",
+          "video_ts_s": 3203.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3274.0,
+      "end_video_ts_s": 5570.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_5",
+      "square_texts": [
+        [
+          "Kill 3 Bosses with Knight in their name",
+          "Acquire 2 Painting Rewards",
+          "Acquire the Scorpion Stew",
+          "Kill Messmer",
+          "Complete 2 Forges"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill Rakshasa",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill Metyr",
+          "Kill Promised Consort Radahn"
+        ],
+        [
+          "Kill the Golden Hippo",
+          "Kill 3 Trolls",
+          "Acquire Jolan Summon",
+          "Kill Moonrithyll, Carian Knight",
+          "Complete all 4 Nameless Mausoleums"
+        ],
+        [
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill a Boss with Incantations Only",
+          "Kill Curseblade Labirith",
+          "Acquire 3 NPC Dropped Weapons",
+          "Kill the Death Rite Bird"
+        ],
+        [
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Kill the Fallingstar Beast",
+          "Kill the Colossal Fingercreeper",
+          "Kill Madding Hand",
+          "Acquire 3 Hanging Pot Bell Bearings"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3452.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:45",
+          "video_ts_s": 4397.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:38",
+          "video_ts_s": 4570.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:03",
+          "video_ts_s": 4775.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:32",
+          "video_ts_s": 4924.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:34",
+          "video_ts_s": 5106.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Madding Hand",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:28",
+          "video_ts_s": 5538.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:34:28",
+          "video_ts_s": 5538.0
+        }
+      ]
+    }
+  ]
+}

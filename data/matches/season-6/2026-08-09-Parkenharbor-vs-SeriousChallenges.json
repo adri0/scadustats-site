@@ -1,0 +1,507 @@
+{
+  "match_id": "2026-08-09-Parkenharbor-vs-SeriousChallenges",
+  "match_date": "2026-08-09",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Parkenharbor",
+  "player_blue_name": "SeriousChallenges",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=FfZmmPqx024",
+    "duration_s": 14420.783333333333,
+    "published_at": "2026-08-15",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5661.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Mohg Lord of Blood",
+          "Kill Malenia",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Complete 2 Evergaols",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects"
+        ],
+        [
+          "Kill Elemer of the Briar",
+          "Kill a Remembrance Boss with Whips Only",
+          "Kill Rykard",
+          "Kill 3 Unique Tree Spirits",
+          "Kill Wormface"
+        ],
+        [
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill 2 Omenkiller Bosses",
+          "Kill Mohg, the Omen",
+          "Acquire 3 Larval Tears from Transforming Enemies",
+          "Kill 2 Unique Black Knife Assassins"
+        ],
+        [
+          "Kill a Remembrance Boss with Daggers Only",
+          "Return Thops's Academy Key",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Acquire 2 Imbued Sword Keys"
+        ],
+        [
+          "Kill 5 Bosses in Caelid Dragonbarrow",
+          "Kill 3 Bell Bearing Hunters",
+          "Restore Rykard's Great Rune",
+          "Kill Magnus the Beast Claw",
+          "Kill Fire Giant"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 182.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 2 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:40",
+          "video_ts_s": 882.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Magnus the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:52",
+          "video_ts_s": 1134.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:33",
+          "video_ts_s": 1535.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Return Thops's Academy Key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:38",
+          "video_ts_s": 2020.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:00",
+          "video_ts_s": 2102.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:15",
+          "video_ts_s": 2237.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 3 Larval Tears from Transforming Enemies",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:40",
+          "video_ts_s": 2562.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:10",
+          "video_ts_s": 2772.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:36",
+          "video_ts_s": 2918.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 2 Unique Black Knife Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:36",
+          "video_ts_s": 2918.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Rykard",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:45",
+          "video_ts_s": 3707.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with Whips Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:45",
+          "video_ts_s": 4007.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:44",
+          "video_ts_s": 4186.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 5 Bosses in Caelid Dragonbarrow",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:16",
+          "video_ts_s": 4218.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Restore Rykard's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:11",
+          "video_ts_s": 4273.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:06",
+          "video_ts_s": 4328.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "01:11:49",
+          "video_ts_s": 4491.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:23",
+          "video_ts_s": 4585.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:42",
+          "video_ts_s": 4844.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:25:54",
+          "video_ts_s": 5336.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Fire Giant",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:30:01",
+          "video_ts_s": 5583.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:30:01",
+          "video_ts_s": 5583.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5663.0,
+      "end_video_ts_s": 9566.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_4",
+      "square_texts": [
+        [
+          "Acquire Commander Gaius's Pants",
+          "Kill 2 Hippos",
+          "Acquire 2 Blessings of Marika",
+          "Kill Messmer",
+          "Kill 2 Red Bears"
+        ],
+        [
+          "Kill Rellana",
+          "Kill Leda and her Allies",
+          "Kill a Death Knight",
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Kill 3 Bosses with Knight in their name"
+        ],
+        [
+          "Kill the Rolling Giant Lightning Ram",
+          "Drink Thiollier's Concoction",
+          "Acquire 2 Dragon Hearts",
+          "Kill the Ancient Dragon Man",
+          "Acquire 2 Full DLC Armor Sets"
+        ],
+        [
+          "Kill Scadutree Avatar",
+          "Kill Lamenter",
+          "Acquire a Leda Rune",
+          "Acquire 3 DLC Ashes of War",
+          "Acquire the Kindred Cookbook from Moore"
+        ],
+        [
+          "Kill 3 Dragon Bosses",
+          "Kill the Fallingstar Beast",
+          "Acquire 3 Non-Merchant Perfume Bottles",
+          "Acquire 2 Kindred Cookbooks",
+          "Blow a Finger"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5842.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:21",
+          "video_ts_s": 6102.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:28",
+          "video_ts_s": 6349.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:54",
+          "video_ts_s": 6435.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:36",
+          "video_ts_s": 6537.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 2 Full DLC Armor Sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:24",
+          "video_ts_s": 6645.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:49",
+          "video_ts_s": 6850.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:28",
+          "video_ts_s": 7249.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Rellana",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:00",
+          "video_ts_s": 7641.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:09",
+          "video_ts_s": 7710.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:25",
+          "video_ts_s": 7846.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Death Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:26",
+          "video_ts_s": 8087.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:39",
+          "video_ts_s": 8340.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:03",
+          "video_ts_s": 8604.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Bosses with Knight in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:30",
+          "video_ts_s": 8691.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Blow a Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:10",
+          "video_ts_s": 8851.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 3 Non-Merchant Perfume Bottles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:15",
+          "video_ts_s": 8916.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:47",
+          "video_ts_s": 9308.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:33",
+          "video_ts_s": 9534.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:33",
+          "video_ts_s": 9534.0
+        }
+      ]
+    }
+  ]
+}

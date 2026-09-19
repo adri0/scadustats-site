@@ -6,42 +6,43 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 2
+    wins: 3
     losses: 0
     draws: 1
 game_record:
-  wins: 4
+  wins: 6
   losses: 1
 game_type_records:
   base:
-    wins: 2
+    wins: 3
     losses: 1
   dlc:
-    wins: 2
+    wins: 3
     losses: 0
 all_matches:
 - 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-17-KEMIST-vs-SeriousChallenges
 top_squares_base_game:
 - text: Kill Wormface
+  marks: 3
+- text: Complete 2 Evergaols
+  marks: 2
+- text: Kill 2 Unique Black Knife Assassins
+  marks: 2
+- text: Kill a Remembrance Boss with Whips Only
   marks: 2
 - text: Acquire 14 Unique incantations
   marks: 1
-- text: Acquire 3 Painting Rewards
-  marks: 1
-- text: Acquire 3 Unique Seals
-  marks: 1
-- text: Acquire 4 Larval Tears from Transforming Enemies
-  marks: 1
 top_squares_dlc:
-- text: Kill 3 Unique Curseblade Assassins
-  marks: 2
 - text: Kill Lamenter
-  marks: 2
+  marks: 3
 - text: Kill the Rolling Giant Lightning Ram
+  marks: 3
+- text: Acquire 3 DLC Ashes of War
   marks: 2
-- text: Acquire 2 Different Max Upgrade Materials
-  marks: 1
-- text: Acquire 2 Painting Rewards
-  marks: 1
+- text: Acquire a Leda Rune
+  marks: 2
+- text: Acquire the Kindred Cookbook from Moore
+  marks: 2

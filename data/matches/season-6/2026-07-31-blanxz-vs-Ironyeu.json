@@ -1,0 +1,435 @@
+{
+  "match_id": "2026-07-31-blanxz-vs-Ironyeu",
+  "match_date": "2026-07-31",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "Ironyeu",
+  "commentators": [
+    "Adef",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=k-b2h9HMI1c",
+    "duration_s": 14433.116666666667,
+    "published_at": "2026-08-03",
+    "extracted_at": "2026-09-18"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3725.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_1",
+      "square_texts": [
+        [
+          "Acquire 14 Unique Incantations",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill 2 Unique Night's Cavalry",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "30 Arcane"
+        ],
+        [
+          "Kill Misbegotten Crusader",
+          "Kill 4 Unique Erdtree or Putrid Avatars",
+          "Kill 4 Unique Gargoyles / BBK",
+          "Acquire Both Scarseal Talismans",
+          "Kill 2 Unique Black Knife Assassins"
+        ],
+        [
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Kill Malenia",
+          "Kill a Remembrance Boss with Bows Only",
+          "Kill Gurranq",
+          "Kill 1 Duelist Boss"
+        ],
+        [
+          "Restore Rykard s Great Rune",
+          "Kill Morgott",
+          "Acquire the Fingerslayer Blade",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill Greyoll without Status Effects"
+        ],
+        [
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Kill Leonine Misbegotten",
+          "Kill Fia's Champions",
+          "Kill 4 Unique Elder Lions"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 183.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 1 Duelist Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:21",
+          "video_ts_s": 504.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:01",
+          "video_ts_s": 664.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:40",
+          "video_ts_s": 1123.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:26",
+          "video_ts_s": 1229.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:17",
+          "video_ts_s": 1460.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:37",
+          "video_ts_s": 1840.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "30 Arcane",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:53",
+          "video_ts_s": 1976.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 Unique Elder Lions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:26",
+          "video_ts_s": 2249.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:33",
+          "video_ts_s": 2736.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:57",
+          "video_ts_s": 2940.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Gurranq",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:43",
+          "video_ts_s": 3046.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:59",
+          "video_ts_s": 3122.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 4 Unique Erdtree or Putrid Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:12",
+          "video_ts_s": 3195.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:09",
+          "video_ts_s": 3312.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:00",
+          "video_ts_s": 3483.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:27",
+          "video_ts_s": 3690.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:58:27",
+          "video_ts_s": 3690.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3726.0,
+      "end_video_ts_s": 7341.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_1",
+      "square_texts": [
+        [
+          "Acquire Commander Gaius's Pants",
+          "Acquire 3 DLC Spirit Ashes",
+          "Kill Queelign in Belurat",
+          "Kill the Golden Hippo",
+          "Kill Lamenter"
+        ],
+        [
+          "Kill Madding Hand",
+          "Kill 2 Red Bears",
+          "Acquire Igon's Furled Finger",
+          "Acquire 2 Painting Rewards",
+          "Level 5 Revered Spirit Ash"
+        ],
+        [
+          "Kill Jori, Elder Inquisitor",
+          "Kill 3 NPC Bosses",
+          "Kill the Rolling Giant Lightning Ram",
+          "Complete 2 Catacombs",
+          "Kill 3 Bosses with Knight in their name"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill 4 Unique Horned Warriors",
+          "Kill Crucible Knight Devonia",
+          "Kill Putrescent Knight",
+          "Blow a Finger"
+        ],
+        [
+          "Craft 2 Unique Hefty Pots",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Duplicate a Remembrance 1 time",
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Complete 2 Forges"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3916.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Craft 2 Unique Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:51",
+          "video_ts_s": 4387.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:33",
+          "video_ts_s": 4849.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:02",
+          "video_ts_s": 4998.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:20",
+          "video_ts_s": 5076.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Duplicate a Remembrance 1 time",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:48",
+          "video_ts_s": 5344.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:18",
+          "video_ts_s": 5674.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:25",
+          "video_ts_s": 5861.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Blow a Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:16",
+          "video_ts_s": 6032.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Bosses with Knight in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:06",
+          "video_ts_s": 6322.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:05",
+          "video_ts_s": 6381.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:33",
+          "video_ts_s": 6529.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:18",
+          "video_ts_s": 6814.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:29",
+          "video_ts_s": 6885.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Jori, Elder Inquisitor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:33",
+          "video_ts_s": 7189.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:03",
+          "video_ts_s": 7279.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:56:03",
+          "video_ts_s": 7279.0
+        }
+      ]
+    }
+  ]
+}

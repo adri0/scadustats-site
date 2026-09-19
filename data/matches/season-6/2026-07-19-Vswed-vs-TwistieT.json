@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-19-Vswed-vs-TwistieT",
+  "match_id": "2026-07-19-Vswed-vs-TwistieT",
   "match_date": "2026-07-19",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=D9sIUU2XnQY",
     "duration_s": 14401.583333333334,
     "published_at": "2026-07-23",
-    "source_path": "/Users/adri0/code/scadustats/downloads/D9sIUU2XnQY.mp4",
     "extracted_at": "2026-09-16"
   },
   "num_games": 2,
@@ -39,8 +38,8 @@
         ],
         [
           "Kill Borealis",
-          "Acquire Somberstone Bell Bearing (1) and (2)",
-          "Kitt Margit with 6+ Parries",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Kill Margit with 6+ Parries",
           "Complete 2 Tunnels",
           "Kill 4 NPC Invaders"
         ],
@@ -48,19 +47,19 @@
           "Memory of Grace with 100k+ Runes",
           "Acquire 10 Sacred Flask Charges",
           "Complete 3 Caves",
-          "Restore Rykard s Great Rune",
-          "x Acquire the Moon of Nokstella"
+          "Restore Rykard's Great Rune",
+          "Acquire the Moon of Nokstella"
         ],
         [
           "Kill Crucible Knight and Misbegotten Warrior Duo",
-          "acquire 2 Imbued Sword Keys",
+          "Acquire 2 Imbued Sword Keys",
           "Acquire 6 Unique Staves",
           "Kill Godfrey (Gold Spirit)",
           "Kill 2 Omenkiller Bosses"
         ],
         [
           "Kill Wormface",
-          "Killa Remembrance Boss with Remembrance Weapons Only",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
           "Kill 1 Duelist Boss",
           "Kill Preceptor Miriam",
           "Kill Valiant Gargoyles"
@@ -79,7 +78,7 @@
         {
           "row": 2,
           "col": 2,
-          "square_text": "Acquire Somberstone Bell Bearing (1) and (2)",
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:11:27",
@@ -133,7 +132,7 @@
         {
           "row": 2,
           "col": 3,
-          "square_text": "Kitt Margit with 6+ Parries",
+          "square_text": "Kill Margit with 6+ Parries",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:27:12",
@@ -196,7 +195,7 @@
         {
           "row": 5,
           "col": 2,
-          "square_text": "Killa Remembrance Boss with Remembrance Weapons Only",
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:55:27",
@@ -214,7 +213,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "acquire 2 Imbued Sword Keys",
+          "square_text": "Acquire 2 Imbued Sword Keys",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:04:35",
@@ -250,7 +249,7 @@
         {
           "row": 3,
           "col": 5,
-          "square_text": "x Acquire the Moon of Nokstella",
+          "square_text": "Acquire the Moon of Nokstella",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:19:42",
@@ -304,7 +303,7 @@
       "win_line": null,
       "square_texts": [
         [
-          "Acquire all 4 Non Merchant Perfume Bottles",
+          "Acquire all 4 Non-Merchant Perfume Bottles",
           "Give an Iris of Occultation",
           "Kill Romina",
           "Acquire 3 NPC Dropped Weapons",
@@ -334,7 +333,7 @@
         [
           "Level 11 Scadu",
           "Kill Lamenter",
-          "Acquire the Two Headed Turtle Talisman",
+          "Acquire the Two-Headed Turtle Talisman",
           "Kill Promised Consort Radahn",
           "Acquire the Golden Braid"
         ]
@@ -505,7 +504,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "Acquire the Two Headed Turtle Talisman",
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:04:17",

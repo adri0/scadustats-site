@@ -1,0 +1,435 @@
+{
+  "match_id": "2026-08-08-NuclearPastaTom-vs-Gustaf",
+  "match_date": "2026-08-08",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "Gustaf",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=pj1Bwvp3i1U",
+    "duration_s": 14419.8,
+    "published_at": "2026-08-13",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4027.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 10 Sacred Flask Charges",
+          "Kill Morgott",
+          "Kill Fire Giant",
+          "Kill 5 Bosses that Ride a Horse",
+          "Memory of Grace with 100k+ Runes"
+        ],
+        [
+          "Acquire Margit's and Mohg's Shackles",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Acquire the Full Haligtree Medallion",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Acquire 3 Painting Rewards"
+        ],
+        [
+          "30 Arcane",
+          "Kill 2 Omenkiller Bosses",
+          "Kill Mohg, the Omen",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Return Thops's Academy Key"
+        ],
+        [
+          "Kill 3 Unique Gargoyles / BBK",
+          "Kill the Sleeping Golem in Leyndell",
+          "Kill 4 NPC Bosses",
+          "Kill 3 Unique Tibia Mariners",
+          "Kill Crucible Knight and Misbegotten Warrior Duo"
+        ],
+        [
+          "Kill Elemer of the Briar",
+          "Kill Borealis",
+          "Kill 2 Unique Erdtree or Putrid Avatars",
+          "Kill 4 NPC Invaders",
+          "Kill 5 Bosses in Limgrave / Weeping"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 182.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Borealis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:11",
+          "video_ts_s": 853.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "30 Arcane",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:12",
+          "video_ts_s": 914.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:19",
+          "video_ts_s": 1281.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 2 Unique Erdtree or Putrid Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:35",
+          "video_ts_s": 1357.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:32",
+          "video_ts_s": 1474.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:39",
+          "video_ts_s": 1721.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 5 Bosses in Limgrave / Weeping",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:00",
+          "video_ts_s": 1802.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:01",
+          "video_ts_s": 1983.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:00",
+          "video_ts_s": 2102.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Unique Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:34",
+          "video_ts_s": 2376.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 10 Sacred Flask Charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:46",
+          "video_ts_s": 2628.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:10",
+          "video_ts_s": 2712.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:05",
+          "video_ts_s": 3427.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Morgott",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:15",
+          "video_ts_s": 3737.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:15",
+          "video_ts_s": 3737.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:15",
+          "video_ts_s": 3737.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire the Full Haligtree Medallion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:07",
+          "video_ts_s": 3909.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Mohg, the Omen",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:20",
+          "video_ts_s": 3988.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:03:20",
+          "video_ts_s": 3988.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4029.0,
+      "end_video_ts_s": 7435.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_4",
+      "square_texts": [
+        [
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill 2 Furnace Golems",
+          "Kill Bayle",
+          "Acquire 3 DLC Ashes of War",
+          "Kill the Fallingstar Beast"
+        ],
+        [
+          "Kill the Rolling Giant Lightning Ram",
+          "Acquire 2 Painting Rewards",
+          "Kill 2 Hippos",
+          "Kill Lamenter",
+          "Acquire 5 Non-Merchant Incantations"
+        ],
+        [
+          "Acquire 2 Blessings of Marika",
+          "Kill Ancient Dragon Senessax",
+          "Put Florissax to Sleep",
+          "Kill a Remembrance Boss Hitless",
+          "Kill Crucible Knight Devonia"
+        ],
+        [
+          "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "Kill Messmer",
+          "Kill Leda and her Allies",
+          "Acquire Commander Gaius's Pants",
+          "Acquire 2 Full DLC Armor Sets"
+        ],
+        [
+          "Acquire 3 DLC Spirit Ashes",
+          "Acquire 5 Hefty Pots",
+          "Kill 3 Trolls",
+          "Kill Scadutree Avatar",
+          "Acquire 3 Hanging Pot Bell Bearings"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4208.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:02",
+          "video_ts_s": 4450.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:34",
+          "video_ts_s": 4902.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:13",
+          "video_ts_s": 5481.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:30",
+          "video_ts_s": 5558.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 2 Full DLC Armor Sets",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:21",
+          "video_ts_s": 5669.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:33",
+          "video_ts_s": 5981.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:47",
+          "video_ts_s": 6295.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:47",
+          "video_ts_s": 6475.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:34",
+          "video_ts_s": 6642.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:14",
+          "video_ts_s": 6742.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:53",
+          "video_ts_s": 6961.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Leda and her Allies",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:19",
+          "video_ts_s": 7409.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:19",
+          "video_ts_s": 7409.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:53:19",
+          "video_ts_s": 7409.0
+        }
+      ]
+    }
+  ]
+}

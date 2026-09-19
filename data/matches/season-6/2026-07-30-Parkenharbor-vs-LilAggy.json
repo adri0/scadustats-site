@@ -1,0 +1,453 @@
+{
+  "match_id": "2026-07-30-Parkenharbor-vs-LilAggy",
+  "match_date": "2026-07-30",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Parkenharbor",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=2CAUuk_kqFo",
+    "duration_s": 14438.45,
+    "published_at": "2026-08-01",
+    "extracted_at": "2026-09-18"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5829.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Memory of Grace with 100k+ Runes",
+          "Kill Radahn without Status Effects and Summons",
+          "Complete 3 Evergaols",
+          "Acquire 3 Unique Seals",
+          "Give Millicent her Prosthetic Arm"
+        ],
+        [
+          "30 Intelligence",
+          "Acquire the Full Haligtree Medallion",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Return Thops's Academy Key",
+          "Acquire 6 Unique Staves"
+        ],
+        [
+          "Kill Rykard",
+          "Kill 3 Magma Wyrms",
+          "Restore Rykard s Great Rune",
+          "Kill the Sleeping Golem in Leyndell",
+          "Kill Soldier of Godrick with Bare Fists Only"
+        ],
+        [
+          "Acquire Both Scarseal Talismans",
+          "Kill Margit with a +0 Weapon Only",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Take Rya's hand to Volcano Manor",
+          "Kill Commander O'Neil"
+        ],
+        [
+          "Kill a Godskin Apostle",
+          "Kill Magnus the Beast Claw",
+          "Kill Ancient Dragon Lansseax",
+          "Acquire 14 Unique Incantations",
+          "Kill Rennala after she Summons 4 Spirits"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 190.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "30 Intelligence",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:16",
+          "video_ts_s": 506.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:08",
+          "video_ts_s": 558.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Margit with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:58",
+          "video_ts_s": 848.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Commander O'Neil",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:01",
+          "video_ts_s": 1271.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:00",
+          "video_ts_s": 1570.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Give Hyetta 3 Shabriri Grapes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:21",
+          "video_ts_s": 1771.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:52",
+          "video_ts_s": 2042.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Radahn without Status Effects and Summons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:25",
+          "video_ts_s": 2315.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Return Thops's Academy Key",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:29",
+          "video_ts_s": 2379.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:19",
+          "video_ts_s": 2549.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:38",
+          "video_ts_s": 2568.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 Unique Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:31",
+          "video_ts_s": 2681.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Soldier of Godrick with Bare Fists Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:17",
+          "video_ts_s": 2967.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:53",
+          "video_ts_s": 3003.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Rennala after she Summons 4 Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:55",
+          "video_ts_s": 3785.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Give Millicent her Prosthetic Arm",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:53",
+          "video_ts_s": 3903.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Magnus the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:46",
+          "video_ts_s": 4016.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete 3 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:49",
+          "video_ts_s": 4319.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rykard",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:49",
+          "video_ts_s": 4319.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:11",
+          "video_ts_s": 4521.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:42",
+          "video_ts_s": 4552.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Ancient Dragon Lansseax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:19:58",
+          "video_ts_s": 4988.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Restore Rykard s Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:25:30",
+          "video_ts_s": 5320.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Full Haligtree Medallion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:33:17",
+          "video_ts_s": 5787.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:33:17",
+          "video_ts_s": 5787.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5831.0,
+      "end_video_ts_s": 8369.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_2",
+      "square_texts": [
+        [
+          "Complete all 4 Nameless Mausoleums",
+          "Acquire 2 Painting Rewards",
+          "Kill the Fallingstar Beast",
+          "Acquire 3 DLC Spirit Ashes",
+          "Kill a Remembrance Boss with Remembrance Weapons Only"
+        ],
+        [
+          "Kill Crucible Knight Devonia",
+          "Acquire 2 Different Max Upgrade Materials",
+          "Kill the Golden Hippo",
+          "Acquire Commander Gaius's Pants",
+          "Kill 1 Unique Divine Bird Warrior"
+        ],
+        [
+          "Acquire 3 DLC Ashes of War",
+          "Acquire the Golden Braid",
+          "Acquire 5 Non-Merchant Incantations",
+          "Acquire 2 Non-Merchant Sorceries",
+          "Kill Ancient Dragon Senessax"
+        ],
+        [
+          "Kill a Death Knight",
+          "Acquire the Full Gravebird Armor Set",
+          "Kill 3 Unique Horned Warriors",
+          "Kill 2 Demi-Human Swordmasters",
+          "Kill 3 Ulcerated Tree Spirits"
+        ],
+        [
+          "Acquire the Two-Headed Turtle Talisman",
+          "Kill 3 Dragon Bosses",
+          "Kill Rakshasa",
+          "Kill Metyr",
+          "Put Florissax to Sleep"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 6109.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:12",
+          "video_ts_s": 6841.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 2 Different Max Upgrade Materials",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:48",
+          "video_ts_s": 6997.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:18",
+          "video_ts_s": 7087.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Golden Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:25",
+          "video_ts_s": 7214.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:27",
+          "video_ts_s": 7516.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:47",
+          "video_ts_s": 7896.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:11",
+          "video_ts_s": 7920.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Unique Divine Bird Warrior",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:17",
+          "video_ts_s": 8166.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:43",
+          "video_ts_s": 8312.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:36:43",
+          "video_ts_s": 8312.0
+        }
+      ]
+    }
+  ]
+}

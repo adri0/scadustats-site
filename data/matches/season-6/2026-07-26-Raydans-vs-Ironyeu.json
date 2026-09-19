@@ -1,10 +1,10 @@
 {
-  "video_id": "2026-07-26-Raydans-vs-lronyeu",
+  "match_id": "2026-07-26-Raydans-vs-Ironyeu",
   "match_date": "2026-07-26",
   "season": "6",
   "match_type": "round_robin",
   "player_red_name": "Raydans",
-  "player_blue_name": "lronyeu",
+  "player_blue_name": "Ironyeu",
   "commentators": [
     "Mitchriz",
     "Captain_Domo"
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=f-LpsSOYllA",
     "duration_s": 14492.316666666668,
     "published_at": "2026-07-29",
-    "source_path": "/Users/Shared/code/scadustats/downloads/f-LpsSOYllA.mp4",
     "extracted_at": "2026-09-17"
   },
   "num_games": 2,
@@ -31,35 +30,35 @@
       "win_line": "col_3",
       "square_texts": [
         [
-          "Kill Tree Sentinel (imgrave) with a +0 Weapon Only",
+          "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
           "Kill Godfrey (Gold Spirit)",
           "Acquire 10 Sacred Flask Charges",
-          "Killa Remembrance Boss with Sorceries Only",
-          "Kill 4 Bosses in Limgrave Weeping"
+          "Kill a Remembrance Boss with Sorceries Only",
+          "Kill 4 Bosses in Limgrave / Weeping"
         ],
         [
-          "Kil Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
           "Kill Malenia",
-          "Killa Remembrance Boss with Daggers Only",
+          "Kill a Remembrance Boss with Daggers Only",
           "Kill Radahn without Status Effects and Summons",
           "Kill the Sleeping Golem in Leyndell"
         ],
         [
           "Acquire Both Scarseal Talismans",
           "Kill Magma Wyrm Makar",
-          "Acquire 14 Unique incantations",
+          "Acquire 14 Unique Incantations",
           "Kill Putrid Crystalian Trio Boss",
           "Kill 2 Unique Abductor Virgins"
         ],
         [
           "Kill 4 NPC Bosses",
-          "Acquire Grave and Ghost Glovewort Bell Bearings (1)",
-          "Killa Dragonkin Soldier Boss",
-          "Kia Remembrance Boss with Remembrance Weapons Only",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill a Dragonkin Soldier Boss",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
           "Kill Godrick while Summoning Nepheli Loux"
         ],
         [
-          "Kill 3 Bosses with God in their name",
+          "Kill 3 Bosses with \"God\" in their name",
           "Kill Margit with a +0 Weapon Only",
           "Kill 3 Unique Cemetery Shades",
           "Complete 2 Evergaols",
@@ -79,7 +78,7 @@
         {
           "row": 1,
           "col": 1,
-          "square_text": "Kill Tree Sentinel (imgrave) with a +0 Weapon Only",
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:05:58",
@@ -97,7 +96,7 @@
         {
           "row": 4,
           "col": 3,
-          "square_text": "Killa Dragonkin Soldier Boss",
+          "square_text": "Kill a Dragonkin Soldier Boss",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:11:51",
@@ -133,7 +132,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill 4 Bosses in Limgrave Weeping",
+          "square_text": "Kill 4 Bosses in Limgrave / Weeping",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:20:58",
@@ -169,7 +168,7 @@
         {
           "row": 3,
           "col": 3,
-          "square_text": "Acquire 14 Unique incantations",
+          "square_text": "Acquire 14 Unique Incantations",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:36:16",
@@ -178,7 +177,7 @@
         {
           "row": 5,
           "col": 1,
-          "square_text": "Kill 3 Bosses with God in their name",
+          "square_text": "Kill 3 Bosses with \"God\" in their name",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:43:18",
@@ -187,7 +186,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings (1)",
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:44:52",
@@ -196,7 +195,7 @@
         {
           "row": 4,
           "col": 4,
-          "square_text": "Kia Remembrance Boss with Remembrance Weapons Only",
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:47:27",
@@ -205,7 +204,7 @@
         {
           "row": 2,
           "col": 3,
-          "square_text": "Killa Remembrance Boss with Daggers Only",
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:49:10",
@@ -214,7 +213,7 @@
         {
           "row": 2,
           "col": 1,
-          "square_text": "Kil Godskin Noble (Volcano Manor) without Status Effects",
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:52:57",
@@ -282,14 +281,14 @@
           "Kill Crucible Knight Devonia"
         ],
         [
-          "Kill a Boss after inflicting 3 Unique Status Effects",
+          "Kill a Boss after Inflicting 3 Unique Status Effects",
           "Complete 2 Forges",
           "Kill Bayle",
           "Killa Remembrance Boss Hitless",
           "Acquire 3 Kindred Cookbooks"
         ],
         [
-          "Acquire 5 Non Merchant incantations",
+          "Acquire 5 Non-Merchant Incantations",
           "Acquire 4 Enemy NPC Dropped Talismans",
           "Burn the Sealing Tree",
           "Acquire 3 Unique Max Upgrade Materials",
@@ -298,7 +297,7 @@
         [
           "Kill Leda and her Allies",
           "Kill Romina",
-          "Acquire 2 Non Merchant Sorceries",
+          "Acquire 2 Non-Merchant Sorceries",
           "Give an Iris of Occultation",
           "Kill 2 Hippos"
         ]
@@ -325,7 +324,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "Acquire 2 Non Merchant Sorceries",
+          "square_text": "Acquire 2 Non-Merchant Sorceries",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:17:17",
@@ -343,7 +342,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Kill a Boss after inflicting 3 Unique Status Effects",
+          "square_text": "Kill a Boss after Inflicting 3 Unique Status Effects",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:25:13",
@@ -388,7 +387,7 @@
         {
           "row": 4,
           "col": 1,
-          "square_text": "Acquire 5 Non Merchant incantations",
+          "square_text": "Acquire 5 Non-Merchant Incantations",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:39:29",

@@ -1,0 +1,516 @@
+{
+  "match_id": "2026-08-07-blanxz-vs-Raydans",
+  "match_date": "2026-08-07",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "Raydans",
+  "commentators": [
+    "starOchris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=zEtSRCFdXG8",
+    "duration_s": 14420.0,
+    "published_at": "2026-08-10",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 4.0,
+      "end_video_ts_s": 4870.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Acquire the Moon of Nokstella",
+          "Kill 3 Unique Elder Lions",
+          "Kill a Dragonkin Soldier Boss",
+          "Kill 6 Bosses in Limgrave / Weeping",
+          "Kill a Remembrance Boss Hitless"
+        ],
+        [
+          "Acquire 4 Unique Seals",
+          "Acquire Margit's and Mohg's Shackles",
+          "Complete 2 Caves",
+          "Kill a Remembrance Boss with Incantations Only",
+          "Kill 3 Magma Wyrms"
+        ],
+        [
+          "Kill 4 Dragon Heart Bosses",
+          "Acquire 3 Memory Stones",
+          "Kill 4 Unique Gargoyles / BBK",
+          "Acquire Sacred Flask +7",
+          "Acquire 3 Painting Rewards"
+        ],
+        [
+          "Acquire the Fingerslayer Blade",
+          "Kill a Black Blade Kindred",
+          "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
+          "Restore Morgott's Great Rune",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)"
+        ],
+        [
+          "Kill 3 Misbegotten Bosses",
+          "Kill 3 Bosses with \"God\" in their name",
+          "Kill Misbegotten Crusader",
+          "30 Intelligence",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 178.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Complete 2 Caves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:49",
+          "video_ts_s": 767.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Dragonkin Soldier Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:57",
+          "video_ts_s": 835.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:10",
+          "video_ts_s": 1028.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:47",
+          "video_ts_s": 1125.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:52",
+          "video_ts_s": 1490.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "30 Intelligence",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:18",
+          "video_ts_s": 1516.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:40",
+          "video_ts_s": 1898.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:57",
+          "video_ts_s": 1975.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Bosses with \"God\" in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:16",
+          "video_ts_s": 2474.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 6 Bosses in Limgrave / Weeping",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:04",
+          "video_ts_s": 2582.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Misbegotten Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:03",
+          "video_ts_s": 2701.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 Memory Stones",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:57",
+          "video_ts_s": 2755.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Unique Elder Lions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:32",
+          "video_ts_s": 2910.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:07",
+          "video_ts_s": 3245.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:22",
+          "video_ts_s": 3500.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Sacred Flask +7",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:53",
+          "video_ts_s": 3891.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss with Incantations Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:32",
+          "video_ts_s": 4170.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 4 Unique Gargoyles / BBK",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:47",
+          "video_ts_s": 4856.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:17:47",
+          "video_ts_s": 4856.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4872.0,
+      "end_video_ts_s": 9493.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Drain the Water in the Church District",
+          "Acquire 2 Dragon Hearts",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill 1 Red Bear",
+          "Blow a Finger"
+        ],
+        [
+          "Kill 3 Unique NPC Invaders",
+          "Kill the Golden Hippo",
+          "Drink Thiollier's Concoction",
+          "Acquire 3 Blessings of Marika",
+          "Kill Midra"
+        ],
+        [
+          "Duplicate a Remembrance 3 times",
+          "Memory of Grace with 500k+ Runes",
+          "Kill Promised Consort Radahn",
+          "Kill 1 Dancing Lion",
+          "Kill Queelign in Belurat"
+        ],
+        [
+          "Kill Scadutree Avatar",
+          "Kill Jori, Elder Inquisitor",
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Kill 2 Furnace Golems",
+          "Complete 2 Gaols"
+        ],
+        [
+          "Acquire 3 NPC Dropped Weapons",
+          "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "Kill Messmer",
+          "Acquire all 4 Non-Merchant Perfume Bottles",
+          "Kill the Colossal Fingercreeper"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5092.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:16",
+          "video_ts_s": 5588.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Blow a Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:12",
+          "video_ts_s": 6064.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill the Golden Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:12",
+          "video_ts_s": 6064.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:12",
+          "video_ts_s": 6064.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 1 Red Bear",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:24",
+          "video_ts_s": 6256.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:42",
+          "video_ts_s": 6454.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:49",
+          "video_ts_s": 6461.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:49",
+          "video_ts_s": 6581.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:46",
+          "video_ts_s": 6638.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:02",
+          "video_ts_s": 6654.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:45",
+          "video_ts_s": 6997.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:11",
+          "video_ts_s": 7023.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 1 Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:22",
+          "video_ts_s": 7274.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:39",
+          "video_ts_s": 7471.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Duplicate a Remembrance 3 times",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:05",
+          "video_ts_s": 7797.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Jori, Elder Inquisitor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:50",
+          "video_ts_s": 7962.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 2 Furnace Golems",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:54",
+          "video_ts_s": 8626.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 2 Gaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:26",
+          "video_ts_s": 8658.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:45",
+          "video_ts_s": 8857.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:30",
+          "video_ts_s": 9202.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:56",
+          "video_ts_s": 9228.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Midra",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:13",
+          "video_ts_s": 9485.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:13:13",
+          "video_ts_s": 9485.0
+        }
+      ]
+    }
+  ]
+}

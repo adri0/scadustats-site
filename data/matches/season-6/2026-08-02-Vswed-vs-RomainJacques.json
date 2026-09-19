@@ -1,0 +1,543 @@
+{
+  "match_id": "2026-08-02-Vswed-vs-RomainJacques",
+  "match_date": "2026-08-02",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Vswed",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=9dWyb3AOUKM",
+    "duration_s": 14410.25,
+    "published_at": "2026-08-06",
+    "extracted_at": "2026-09-18"
+  },
+  "num_games": 2,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 6251.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Complete 3 Catacombs",
+          "Acquire 10 Unique Talismans",
+          "Rune Level 65",
+          "Kill Malenia",
+          "Give Hyetta 3 Shabriri Grapes"
+        ],
+        [
+          "Kill a Remembrance Boss with Bows Only",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill Misbegotten Crusader",
+          "Kill Grafted Scion (Chapel)",
+          "Kill 2 Unique Red Wolves"
+        ],
+        [
+          "Kill 3 Bell Bearing Hunters",
+          "Complete 3 Caves",
+          "Kill Putrid Crystalian Trio Boss",
+          "Kill Godfrey (Gold Spirit)",
+          "Kill 4 NPC Bosses"
+        ],
+        [
+          "Acquire 10 Cracked Pots",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Finish off a Boss with the Explosive Physick",
+          "Duplicate a Remembrance",
+          "Kill Darriwil while Summoning Blaidd"
+        ],
+        [
+          "Restore Morgott's Great Rune",
+          "Kill Greyoll without Status Effects",
+          "Acquire 5 Ritual Pots",
+          "Acquire 4 Whetstone Knives",
+          "Acquire Somberstone Bell Bearing [1] and [2]"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 202.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:54",
+          "video_ts_s": 916.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Darriwil while Summoning Blaidd",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:24",
+          "video_ts_s": 1486.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:17",
+          "video_ts_s": 1659.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:27",
+          "video_ts_s": 1669.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:24:28",
+          "video_ts_s": 1670.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Duplicate a Remembrance",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:32",
+          "video_ts_s": 2094.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Putrid Crystalian Trio Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:46",
+          "video_ts_s": 2228.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:21",
+          "video_ts_s": 2503.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Complete 3 Caves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:04",
+          "video_ts_s": 2666.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Grafted Scion (Chapel)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:36",
+          "video_ts_s": 2998.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:19",
+          "video_ts_s": 3041.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Malenia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:12",
+          "video_ts_s": 3214.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Rune Level 65",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:24",
+          "video_ts_s": 3226.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Give Hyetta 3 Shabriri Grapes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:25",
+          "video_ts_s": 3527.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:28",
+          "video_ts_s": 3650.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:03",
+          "video_ts_s": 3985.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:09",
+          "video_ts_s": 4231.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:56",
+          "video_ts_s": 4518.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Complete 3 Catacombs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:27",
+          "video_ts_s": 5029.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Restore Morgott's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:21:48",
+          "video_ts_s": 5110.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 4 Whetstone Knives",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:28:17",
+          "video_ts_s": 5499.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:40:31",
+          "video_ts_s": 6233.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:40:31",
+          "video_ts_s": 6233.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 6253.0,
+      "end_video_ts_s": 11531.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Metyr",
+          "Acquire the Scorpion Stew",
+          "Give an lris of Grace",
+          "Level 11 Scadu",
+          "Kill the Colossal Fingercreeper"
+        ],
+        [
+          "Acquire a Leda Rune",
+          "Kill the Ancient Dragon Man",
+          "Kill 4 Unique Horned Warriors",
+          "Killa Remembrance Boss Hitless",
+          "Kill Promised Consort Radahn"
+        ],
+        [
+          "Acquire the Full Gravebird Armor Set",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill Bayle",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Kill Crucible Knight Devonia"
+        ],
+        [
+          "Drink Thiollier's Concoction",
+          "Kill 3 NPC Bosses",
+          "Kill 2 Demi Human Swordmasters",
+          "Acquire 2 Dragon Hearts",
+          "Kill 3 Trolls"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill Scadutree Avatar",
+          "Kill the Golden Hippo",
+          "Kill Black Knight Garrew",
+          "Acquire 2 Different Max Upgrade Materials"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:49",
+          "video_ts_s": 6382.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 2 Different Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:29",
+          "video_ts_s": 6940.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:45",
+          "video_ts_s": 7196.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:35",
+          "video_ts_s": 7906.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:09",
+          "video_ts_s": 7940.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:26",
+          "video_ts_s": 8137.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:28",
+          "video_ts_s": 8259.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Black Knight Garrew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:18",
+          "video_ts_s": 8309.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:02",
+          "video_ts_s": 8533.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:13",
+          "video_ts_s": 8664.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:10",
+          "video_ts_s": 8932.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill the Golden Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:10",
+          "video_ts_s": 8933.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:32",
+          "video_ts_s": 9397.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:11",
+          "video_ts_s": 9736.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Give an lris of Grace",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:35",
+          "video_ts_s": 9760.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 4 Unique Horned Warriors",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:04",
+          "video_ts_s": 10029.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:18",
+          "video_ts_s": 10043.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Level 11 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:38",
+          "video_ts_s": 10123.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:43",
+          "video_ts_s": 10188.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire the Full Gravebird Armor Set",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:12",
+          "video_ts_s": 11028.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Promised Consort Radahn",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:18:03",
+          "video_ts_s": 11507.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:03",
+          "video_ts_s": 11507.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:18:03",
+          "video_ts_s": 11507.0
+        }
+      ]
+    }
+  ]
+}

@@ -10,7 +10,7 @@
     "game_type": "base"
   },
   {
-    "id": "agheel_plus0",
+    "id": "agheel_plus_0",
     "text": "Kill Agheel with a +0 Weapon Only",
     "game_type": "base"
   },
@@ -47,6 +47,11 @@
   {
     "id": "bbk",
     "text": "Kill a Black Blade Kindred",
+    "game_type": "base"
+  },
+  {
+    "id": "bell_3",
+    "text": "Kill 3 Bell Bearing Hunters",
     "game_type": "base"
   },
   {
@@ -100,6 +105,11 @@
     "game_type": "base"
   },
   {
+    "id": "catacombs_3",
+    "text": "Complete 3 Catacombs",
+    "game_type": "base"
+  },
+  {
     "id": "caves_2",
     "text": "Complete 2 Caves",
     "game_type": "base"
@@ -107,6 +117,11 @@
   {
     "id": "caves_3",
     "text": "Complete 3 Caves",
+    "game_type": "base"
+  },
+  {
+    "id": "caves_grottos_2",
+    "text": "Complete 2 Caves or Grottos",
     "game_type": "base"
   },
   {
@@ -170,6 +185,11 @@
     "game_type": "base"
   },
   {
+    "id": "dropped_aow_4",
+    "text": "Acquire 4 Dropped Ashes of War",
+    "game_type": "base"
+  },
+  {
     "id": "dropped_aow_5",
     "text": "Acquire 5 Dropped Ashes of War",
     "game_type": "base"
@@ -190,13 +210,18 @@
     "game_type": "base"
   },
   {
-    "id": "duo_3",
-    "text": "Kill 3 Duo Trio Bosses",
+    "id": "duo_trio_3",
+    "text": "Kill 3 Duo/Trio Bosses",
     "game_type": "base"
   },
   {
     "id": "elder_lions_2",
     "text": "Kill 2 Unique Elder Lions",
+    "game_type": "base"
+  },
+  {
+    "id": "elder_lions_3",
+    "text": "Kill 3 Unique Elder Lions",
     "game_type": "base"
   },
   {
@@ -227,6 +252,11 @@
   {
     "id": "evergaols_2",
     "text": "Complete 2 Evergaols",
+    "game_type": "base"
+  },
+  {
+    "id": "evergaols_3",
+    "text": "Complete 3 Evergaols",
     "game_type": "base"
   },
   {
@@ -275,6 +305,11 @@
     "game_type": "base"
   },
   {
+    "id": "gargoyles_3",
+    "text": "Kill 3 Unique Gargoyles / BBK",
+    "game_type": "base"
+  },
+  {
     "id": "gargoyles_4",
     "text": "Kill 4 Unique Gargoyles / BBK",
     "game_type": "base"
@@ -305,6 +340,11 @@
     "game_type": "base"
   },
   {
+    "id": "godskin_noble_no_status",
+    "text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+    "game_type": "base"
+  },
+  {
     "id": "goldfrey",
     "text": "Kill Godfrey (Gold Spirit)",
     "game_type": "base"
@@ -315,7 +355,12 @@
     "game_type": "base"
   },
   {
-    "id": "grave_ghost_glovewort_bell_berings_1",
+    "id": "glovewort_bb_2",
+    "text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+    "game_type": "base"
+  },
+  {
+    "id": "glovewort_bb_1",
     "text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
     "game_type": "base"
   },
@@ -345,8 +390,13 @@
     "game_type": "base"
   },
   {
-    "id": "imbued_sword_keys_2",
-    "text": "acquire 2 Imbued Sword Keys",
+    "id": "imbued_key_2",
+    "text": "Acquire 2 Imbued Sword Keys",
+    "game_type": "base"
+  },
+  {
+    "id": "imbued_key_3",
+    "text": "Acquire 3 Imbued Sword Keys",
     "game_type": "base"
   },
   {
@@ -362,6 +412,11 @@
   {
     "id": "lansseax",
     "text": "Kill Ancient Dragon Lansseax",
+    "game_type": "base"
+  },
+  {
+    "id": "larval_tears_3",
+    "text": "Acquire 3 Larval Tears from Transforming Enemies",
     "game_type": "base"
   },
   {
@@ -387,6 +442,11 @@
   {
     "id": "limgrave_bosses_5",
     "text": "Kill 5 Bosses in Limgrave / Weeping",
+    "game_type": "base"
+  },
+  {
+    "id": "limgrave_bosses_6",
+    "text": "Kill 6 Bosses in Limgrave / Weeping",
     "game_type": "base"
   },
   {
@@ -445,8 +505,13 @@
     "game_type": "base"
   },
   {
-    "id": "memb_incatations",
-    "text": "Killa Remembrance Boss with incantations Only",
+    "id": "memb_hitless",
+    "text": "Kill a Remembrance Boss Hitless",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_incantations",
+    "text": "Kill a Remembrance Boss with Incantations Only",
     "game_type": "base"
   },
   {
@@ -490,6 +555,11 @@
     "game_type": "base"
   },
   {
+    "id": "misbegotten_bosses_3",
+    "text": "Kill 3 Misbegotten Bosses",
+    "game_type": "base"
+  },
+  {
     "id": "misbegotten_crusader",
     "text": "Kill Misbegotten Crusader",
     "game_type": "base"
@@ -506,7 +576,7 @@
   },
   {
     "id": "mohg_the_omen",
-    "text": "Kill Mohg the Omen",
+    "text": "Kill Mohg, the Omen",
     "game_type": "base"
   },
   {
@@ -530,6 +600,11 @@
     "game_type": "base"
   },
   {
+    "id": "nights_calv_3",
+    "text": "Kill 3 Unique Night's Cavalry",
+    "game_type": "base"
+  },
+  {
     "id": "npc_bosses_4",
     "text": "Kill 4 NPC Bosses",
     "game_type": "base"
@@ -540,7 +615,12 @@
     "game_type": "base"
   },
   {
-    "id": "omenkiller_bosses_2",
+    "id": "omenkiller_1",
+    "text": "Kill 1 Omenkiller Boss",
+    "game_type": "base"
+  },
+  {
+    "id": "omenkiller_2",
     "text": "Kill 2 Omenkiller Bosses",
     "game_type": "base"
   },
@@ -575,6 +655,11 @@
     "game_type": "base"
   },
   {
+    "id": "remembrance",
+    "text": "Duplicate a Remembrance",
+    "game_type": "base"
+  },
+  {
     "id": "rennala_summons_4",
     "text": "Kill Rennala after she Summons 4 Spirits",
     "game_type": "base"
@@ -590,6 +675,16 @@
     "game_type": "base"
   },
   {
+    "id": "rune_60",
+    "text": "Rune Level 60",
+    "game_type": "base"
+  },
+  {
+    "id": "rune_65",
+    "text": "Rune Level 65",
+    "game_type": "base"
+  },
+  {
     "id": "ryas_hand",
     "text": "Take Rya's hand to Volcano Manor",
     "game_type": "base"
@@ -601,7 +696,7 @@
   },
   {
     "id": "rykard_great_rune",
-    "text": "Restore Rykard s Great Rune",
+    "text": "Restore Rykard's Great Rune",
     "game_type": "base"
   },
   {
@@ -622,6 +717,11 @@
   {
     "id": "seals_3",
     "text": "Acquire 3 Unique Seals",
+    "game_type": "base"
+  },
+  {
+    "id": "seals_4",
+    "text": "Acquire 4 Unique Seals",
     "game_type": "base"
   },
   {
@@ -650,8 +750,18 @@
     "game_type": "base"
   },
   {
+    "id": "sorceries_12",
+    "text": "Acquire 12 Unique Sorceries",
+    "game_type": "base"
+  },
+  {
     "id": "staves_6",
     "text": "Acquire 6 Unique Staves",
+    "game_type": "base"
+  },
+  {
+    "id": "talismans_10",
+    "text": "Acquire 10 Unique Talismans",
     "game_type": "base"
   },
   {
@@ -710,11 +820,6 @@
     "game_type": "base"
   },
   {
-    "id": "volcano_godskin_noble_without_status",
-    "text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
-    "game_type": "base"
-  },
-  {
     "id": "vyke",
     "text": "Kill Roundtable Knight Vyke",
     "game_type": "base"
@@ -732,6 +837,11 @@
   {
     "id": "whetstone_3",
     "text": "Acquire 3 Whetstone Knives",
+    "game_type": "base"
+  },
+  {
+    "id": "whetstone_4",
+    "text": "Acquire 4 Whetstone Knives",
     "game_type": "base"
   },
   {

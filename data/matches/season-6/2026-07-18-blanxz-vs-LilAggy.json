@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-18-blanxz-vs-LilAggy",
+  "match_id": "2026-07-18-blanxz-vs-LilAggy",
   "match_date": "2026-07-18",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=BhPitiVR43I",
     "duration_s": 14408.383333333333,
     "published_at": null,
-    "source_path": "downloads/blanxz vs Lilaggy.mp4",
     "extracted_at": "2026-09-15"
   },
   "num_games": 2,

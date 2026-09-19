@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-24-blanxz-vs-Parkenharbor",
+  "match_id": "2026-07-24-blanxz-vs-Parkenharbor",
   "match_date": "2026-07-24",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=xRRWyfZ3wec",
     "duration_s": 14416.133333333333,
     "published_at": "2026-07-27",
-    "source_path": "/Users/adri0/code/scadustats/downloads/xRRWyfZ3wec.mp4",
     "extracted_at": "2026-09-16"
   },
   "num_games": 2,
@@ -38,7 +37,7 @@
           "Kill Godfrey (Gold Spirit)"
         ],
         [
-          "Kill S Bosses in Altus Plateau Mt. Gelmir",
+          "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
           "Complete 4 Evergaols",
           "Kill 2 Duelist Bosses",
           "Kill 2 Fallingstar Beasts",
@@ -53,14 +52,14 @@
         ],
         [
           "Kill Commander O'Neil",
-          "Killa Remembrance Boss with Bows Only",
+          "Kill a Remembrance Boss with Bows Only",
           "Complete 2 Catacombs",
-          "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
           "Kill 4 Bell Bearing Hunters"
         ],
         [
-          "Kill2 Unique Night's Cavalry",
-          "x Kill Borealis",
+          "Kill 2 Unique Night's Cavalry",
+          "Kill Borealis",
           "Give Hyetta 3 Shabriri Grapes",
           "Kill 4 Unique Tibia Mariners",
           "Kill 4 Bosses in Caelid Dragonbarrow"
@@ -79,7 +78,7 @@
         {
           "row": 5,
           "col": 1,
-          "square_text": "Kill2 Unique Night's Cavalry",
+          "square_text": "Kill 2 Unique Night's Cavalry",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:06:15",
@@ -151,7 +150,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Killa Remembrance Boss with Bows Only",
+          "square_text": "Kill a Remembrance Boss with Bows Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:43:10",
@@ -178,7 +177,7 @@
         {
           "row": 4,
           "col": 4,
-          "square_text": "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:54:50",
@@ -209,11 +208,11 @@
           "Kill Moonrithyll Carian Knight",
           "Kill Ancient Dragon Senessax",
           "Memory of Grace with 500k+ Runes",
-          "Acquire Death Mask Helm Winged Serpent Helm and Salza s Hood"
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood"
         ],
         [
           "Kill 3 Unique NPC Invaders",
-          "Acquire Commander Gaius s Pants",
+          "Acquire Commander Gaius's Pants",
           "Kill Madding Hand",
           "Kill 2 Unique Base Game Bosses in the DLC",
           "Kill 1 Unique Divine Bird Warrior"
@@ -352,7 +351,7 @@
         {
           "row": 2,
           "col": 2,
-          "square_text": "Acquire Commander Gaius s Pants",
+          "square_text": "Acquire Commander Gaius's Pants",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:40:59",
@@ -379,7 +378,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Acquire Death Mask Helm Winged Serpent Helm and Salza s Hood",
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:50:12",

@@ -1,0 +1,552 @@
+{
+  "match_id": "2026-08-07-Vswed-vs-Grey",
+  "match_date": "2026-08-07",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Vswed",
+  "player_blue_name": "Grey",
+  "commentators": [
+    "starOchris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=4daAL1EuI6I",
+    "duration_s": 14405.066666666668,
+    "published_at": "2026-08-12",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4280.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Unique Abductor Virgins",
+          "Kill 1 Omenkiller Boss",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "30 Arcane",
+          "Acquire 6 Unique Staves"
+        ],
+        [
+          "Acquire 4 Dropped Ashes of War",
+          "Kill 4 Unique Gargoyles / BBK",
+          "Kill 3 Unique Tree Spirits",
+          "Acquire 4 Whetstone Knives",
+          "Give Hyetta 3 Shabriri Grapes"
+        ],
+        [
+          "Kill Grafted Scion (Chapel)",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "30 Faith",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Kill the Sleeping Golem in Leyndell"
+        ],
+        [
+          "Kill a Remembrance Boss with Whips Only",
+          "Kill 3 Duo Trio Bosses",
+          "Kill Greyoll without Status Effects",
+          "Duplicate a Remembrance",
+          "Acquire Both Scarseal Talismans"
+        ],
+        [
+          "Memory of Grace with 100k+ Runes",
+          "Kill 3 Unique Erdtree or Putrid Avatars",
+          "Kill Tree Sentinel Duo",
+          "Kill Borealis",
+          "Acquire 10 Unique Talismans"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 183.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "30 Faith",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:47",
+          "video_ts_s": 470.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 4 Dropped Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:56",
+          "video_ts_s": 1139.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Borealis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:37",
+          "video_ts_s": 1180.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:26",
+          "video_ts_s": 1229.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:56",
+          "video_ts_s": 1379.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:50",
+          "video_ts_s": 1613.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 1 Omenkiller Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:54",
+          "video_ts_s": 1797.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Duo Trio Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:54",
+          "video_ts_s": 1797.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:40",
+          "video_ts_s": 2083.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Unique Erdtree or Putrid Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:29",
+          "video_ts_s": 2132.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:36",
+          "video_ts_s": 2319.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Whips Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:13",
+          "video_ts_s": 2536.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:58",
+          "video_ts_s": 2761.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:02",
+          "video_ts_s": 2825.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Duplicate a Remembrance",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:41",
+          "video_ts_s": 2864.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Unique Abductor Virgins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:42",
+          "video_ts_s": 3105.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 3 Unique Tree Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:48",
+          "video_ts_s": 3171.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:17",
+          "video_ts_s": 3440.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Grafted Scion (Chapel)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:01",
+          "video_ts_s": 3664.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "30 Arcane",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:58",
+          "video_ts_s": 3961.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:16",
+          "video_ts_s": 4099.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 10 Unique Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:25",
+          "video_ts_s": 4228.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:07:25",
+          "video_ts_s": 4228.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4282.0,
+      "end_video_ts_s": 8785.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Promised Consort Radahn",
+          "Kill 3 Trolls",
+          "Kill Putrescent Knight",
+          "Kill Romina",
+          "Kill a Remembrance Boss with Remembrance Weapons Only"
+        ],
+        [
+          "Kill Moonrithyll Carian Knight",
+          "Kill Rellana",
+          "Acquire 3 Unique Max Upgrade Materials",
+          "Acquire 3 NPC Dropped Weapons",
+          "Kill 2 Red Bears"
+        ],
+        [
+          "Acquire the Golden Braid",
+          "Acquire 3 DLC Ashes of War",
+          "Kill Midra",
+          "Kill Lamenter",
+          "Use a Transformation"
+        ],
+        [
+          "Level 5 Revered Spirit Ash",
+          "Acquire a Leda Rune",
+          "Acquire the Scorpion Stew",
+          "Kill a Death Knight",
+          "Duplicate a Remembrance 2 time"
+        ],
+        [
+          "Acquire 5 Non-Merchant Incantations",
+          "Give an Iris of Occultation",
+          "Kill Chief Bloodfiend",
+          "Acquire 5 Hefty Pots",
+          "Kill Ancient Dragon Senessax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4460.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Rellana",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:46",
+          "video_ts_s": 5106.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:07",
+          "video_ts_s": 5307.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Moonrithyll Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:40",
+          "video_ts_s": 5460.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:34",
+          "video_ts_s": 5754.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:40",
+          "video_ts_s": 5760.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 3 Unique Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:52",
+          "video_ts_s": 6132.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 2 Red Bears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:51",
+          "video_ts_s": 6251.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Duplicate a Remembrance 2 time",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:09",
+          "video_ts_s": 6449.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:46",
+          "video_ts_s": 6546.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:48",
+          "video_ts_s": 6668.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Lamenter",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:23",
+          "video_ts_s": 6883.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:32",
+          "video_ts_s": 6892.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:09",
+          "video_ts_s": 7169.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Trolls",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:01",
+          "video_ts_s": 7461.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Death Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:02",
+          "video_ts_s": 7522.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:45",
+          "video_ts_s": 7805.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:13",
+          "video_ts_s": 7953.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:28",
+          "video_ts_s": 8028.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:44",
+          "video_ts_s": 8224.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:29",
+          "video_ts_s": 8509.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:21",
+          "video_ts_s": 8681.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Putrescent Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:36",
+          "video_ts_s": 8756.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:11:36",
+          "video_ts_s": 8756.0
+        }
+      ]
+    }
+  ]
+}

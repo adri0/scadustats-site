@@ -1,0 +1,462 @@
+{
+  "match_id": "2026-08-01-NuclearPastaTom-vs-Grey",
+  "match_date": "2026-08-01",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "Grey",
+  "commentators": [
+    "PepeJack",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=bO_fw6wjpa4",
+    "duration_s": 14414.366666666667,
+    "published_at": "2026-08-03",
+    "extracted_at": "2026-09-18"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3572.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Kill Misbegotten Crusader",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "Kill Fire Giant",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill 4 Bosses with \"God\" in their name"
+        ],
+        [
+          "Acquire Sacred Flask +7",
+          "Kill Rykard",
+          "Restore Radahn's Great Rune",
+          "Kill 3 Duo Trio Bosses",
+          "Acquire 12 Unique Sorceries"
+        ],
+        [
+          "Kill a Black Blade Kindred",
+          "Kill 3 Unique Gargoyles / BBK",
+          "Acquire 3 Legendary Talismans",
+          "Kill Magnus the Beast Claw",
+          "Acquire 14 Unique Incantations"
+        ],
+        [
+          "Kill 4 NPC Bosses",
+          "Kill 2 Unique Night's Cavalry",
+          "Acquire 5 Ritual Pots",
+          "Kill 5 Bosses with \"Tree\" in their name",
+          "Restore Morgott's Great Rune"
+        ],
+        [
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill Ancient Dragon Lansseax",
+          "Kill Tree Sentinel Duo",
+          "Complete 3 Caves",
+          "Kill Magma Wyrm Makar"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 208.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 2 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:04",
+          "video_ts_s": 1112.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Magnus the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:03",
+          "video_ts_s": 1291.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:59",
+          "video_ts_s": 1527.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Duo Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:31",
+          "video_ts_s": 1739.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:08",
+          "video_ts_s": 1776.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Complete 3 Caves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:09",
+          "video_ts_s": 1837.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 3 Legendary Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:19",
+          "video_ts_s": 2147.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:12",
+          "video_ts_s": 2380.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:46",
+          "video_ts_s": 2474.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:05",
+          "video_ts_s": 2793.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 4 Bosses with \"God\" in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:44",
+          "video_ts_s": 3132.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:38",
+          "video_ts_s": 3246.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:46",
+          "video_ts_s": 3495.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:54:46",
+          "video_ts_s": 3495.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3574.0,
+      "end_video_ts_s": 7629.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Trolls",
+          "Complete 3 Nameless Mausoleums",
+          "Kill Putrescent Knight",
+          "Acquire 3 Kindred Cookbooks",
+          "Put Florissax to Sleep"
+        ],
+        [
+          "Kill Rellana",
+          "Acquire 6 Non-Merchant Incantations",
+          "Complete 2 Catacombs",
+          "Kill Messmer",
+          "Acquire Commander Gaius's Pants"
+        ],
+        [
+          "Acquire 3 NPC Dropped Weapons",
+          "Level 10 Scadu",
+          "Kill 2 Furnace Golems",
+          "Kill Metyr",
+          "Kill 1 Dancing Lion"
+        ],
+        [
+          "Kill 2 Unique Divine Bird Warriors",
+          "Kill Jori Elder Inquisitor",
+          "Killa Remembrance Boss Hitless",
+          "Give an lris of Grace",
+          "Acquire the Golden Braid"
+        ],
+        [
+          "Kill 3 Unique Horned Warriors",
+          "Kill Promised Consort Radahn",
+          "Acquire 2 Different Max Upgrade Materials",
+          "Acquire 2 Blessings of Marika",
+          "Kill 3 Unique NPC Invaders"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3745.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 2 Different Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:58",
+          "video_ts_s": 4223.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:04",
+          "video_ts_s": 4289.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:12",
+          "video_ts_s": 4657.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Killa Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:26",
+          "video_ts_s": 4791.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:07",
+          "video_ts_s": 4832.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:58",
+          "video_ts_s": 5063.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:12",
+          "video_ts_s": 5137.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:57",
+          "video_ts_s": 5602.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 6 Non-Merchant Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:38",
+          "video_ts_s": 5643.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 2 Unique Divine Bird Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:19",
+          "video_ts_s": 5804.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:03",
+          "video_ts_s": 5908.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:55",
+          "video_ts_s": 5960.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:56",
+          "video_ts_s": 6141.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:04",
+          "video_ts_s": 6389.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 1 Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:14",
+          "video_ts_s": 6459.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:12",
+          "video_ts_s": 6517.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Jori Elder Inquisitor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:12",
+          "video_ts_s": 6877.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 Furnace Golems",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:19",
+          "video_ts_s": 6884.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Complete 3 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:02",
+          "video_ts_s": 7287.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Trolls",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:57",
+          "video_ts_s": 7522.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Putrescent Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:15",
+          "video_ts_s": 7600.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:04:15",
+          "video_ts_s": 7600.0
+        }
+      ]
+    }
+  ]
+}

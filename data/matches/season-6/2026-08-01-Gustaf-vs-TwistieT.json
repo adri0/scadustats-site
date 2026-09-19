@@ -1,0 +1,534 @@
+{
+  "match_id": "2026-08-01-Gustaf-vs-TwistieT",
+  "match_date": "2026-08-01",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Gustaf",
+  "player_blue_name": "TwistieT",
+  "commentators": [
+    "PepeJack",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=_hqb5zylZlY",
+    "duration_s": 14496.216666666667,
+    "published_at": "2026-08-05",
+    "extracted_at": "2026-09-18"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5518.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill the Sleeping Golem in Leyndell",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill an Ancestor Spirit",
+          "Kill Morgott",
+          "Kill 2 Omenkiller Bosses"
+        ],
+        [
+          "Restore Radahn's Great Rune",
+          "Kill Ancient Dragon Lansseax",
+          "Kill 4 Unique Elder Lions",
+          "Kill a Remembrance Boss with Whips Only",
+          "Kill 5 Bosses in Caelid Dragonbarrow"
+        ],
+        [
+          "Kill a Remembrance Boss with Sorceries Only",
+          "Acquire 4 Unique Seals",
+          "Kill Rykard",
+          "Kill 1 Duelist Boss",
+          "Rune Level 60"
+        ],
+        [
+          "Restore Morgott's Great Rune",
+          "Kill Magnus the Beast Claw",
+          "Kill 4 Bosses in Altus Plateau / Mt. Gelmir",
+          "Kill 1 Magma Wyrm",
+          "Acquire 6 Unique Staves"
+        ],
+        [
+          "Kill a Godskin Apostle",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "Complete 2 Caves or Grottos",
+          "Acquire 10 Unique Talismans",
+          "Kill 3 Unique Night's Cavalry"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 184.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Complete 2 Caves or Grottos",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:16",
+          "video_ts_s": 500.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 1 Duelist Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:46",
+          "video_ts_s": 830.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:22",
+          "video_ts_s": 986.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:19",
+          "video_ts_s": 1283.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:22",
+          "video_ts_s": 1346.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Magnus the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:33",
+          "video_ts_s": 1537.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:09",
+          "video_ts_s": 1693.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:33",
+          "video_ts_s": 2377.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 4 Bosses in Altus Plateau / Mt. Gelmir",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:34",
+          "video_ts_s": 2378.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 1 Magma Wyrm",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:32",
+          "video_ts_s": 2676.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 4 Unique Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:54",
+          "video_ts_s": 2878.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss with Whips Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:30",
+          "video_ts_s": 2974.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Ancient Dragon Lansseax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:45",
+          "video_ts_s": 3229.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:26",
+          "video_ts_s": 3630.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Morgott",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:25",
+          "video_ts_s": 4349.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:38",
+          "video_ts_s": 4362.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Rune Level 60",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:13",
+          "video_ts_s": 4397.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:15:04",
+          "video_ts_s": 4688.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 4 Unique Elder Lions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:19",
+          "video_ts_s": 4823.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:58",
+          "video_ts_s": 5162.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Restore Morgott's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:28:25",
+          "video_ts_s": 5489.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:28:25",
+          "video_ts_s": 5489.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5519.0,
+      "end_video_ts_s": 10801.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Duplicate a Remembrance 2 time",
+          "Acquire the Two-Handed Sword Talisman",
+          "Acquire 2 Different Max Upgrade Materials",
+          "Acquire 5 Hefty Pots"
+        ],
+        [
+          "Kill Messmer",
+          "Kill a Death Knight",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Acquire the Scorpion Stew",
+          "Craft 2 Unique Hefty Pots"
+        ],
+        [
+          "Kill Madding Hand",
+          "Give the Secret Rite Scroll to Ansbach",
+          "Acquire 2 Painting Rewards",
+          "Kill 3 Unique Horned Warriors",
+          "Complete 3 Nameless Mausoleums"
+        ],
+        [
+          "Kill Lamenter",
+          "Rune Level 85",
+          "Acquire Jolan Summon",
+          "Acquire 5 Non-Merchant Incantations",
+          "Kill 2 Dancing Lions"
+        ],
+        [
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill Bayle",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Level 5 Revered Spirit Ash",
+          "Give an lris of Grace"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5701.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Craft 2 Unique Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:03:09",
+          "video_ts_s": 5890.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 2 Different Max Upgrade Materials",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:52",
+          "video_ts_s": 6293.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire the Two-Handed Sword Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:52",
+          "video_ts_s": 6473.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:18",
+          "video_ts_s": 7099.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:41",
+          "video_ts_s": 7242.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:56",
+          "video_ts_s": 7437.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:58",
+          "video_ts_s": 7679.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:18",
+          "video_ts_s": 8059.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:52",
+          "video_ts_s": 8153.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:03",
+          "video_ts_s": 8224.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Duplicate a Remembrance 2 time",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:47",
+          "video_ts_s": 8328.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:29",
+          "video_ts_s": 8610.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:16",
+          "video_ts_s": 8837.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:31",
+          "video_ts_s": 8852.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Rune Level 85",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:20",
+          "video_ts_s": 9081.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:30",
+          "video_ts_s": 9151.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:24",
+          "video_ts_s": 9505.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Give an lris of Grace",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:35",
+          "video_ts_s": 9516.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:53",
+          "video_ts_s": 10014.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Complete 3 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:44",
+          "video_ts_s": 10065.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:29",
+          "video_ts_s": 10770.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:29",
+          "video_ts_s": 10770.0
+        }
+      ]
+    }
+  ]
+}

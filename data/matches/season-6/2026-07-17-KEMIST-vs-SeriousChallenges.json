@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-17-KEMIST-vs-SeriousChallenges",
+  "match_id": "2026-07-17-KEMIST-vs-SeriousChallenges",
   "match_date": "2026-07-17",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=YCOd8fDz8Ow",
     "duration_s": 14403.566666666668,
     "published_at": null,
-    "source_path": "downloads/kemist vs seriouschallenges.mp4",
     "extracted_at": "2026-09-15"
   },
   "num_games": 2,
@@ -251,7 +250,7 @@
           "Kill Midra",
           "Kill Lamenter",
           "Kill Scadutree Avatar",
-          "Kill Jori Elder Inquisitor",
+          "Kill Jori, Elder Inquisitor",
           "Acquire the Scorpion Stew"
         ],
         [
@@ -259,14 +258,14 @@
           "Kill Rakshasa",
           "Kill the Rolling Giant Lightning Ram",
           "Kill 3 Unique Curseblade Assassins",
-          "KB a Remembrance Boss with Remembrance Weapons Only"
+          "Kill a Remembrance Boss with Remembrance Weapons Only"
         ],
         [
           "Memory of Grace with 500k+ Runes",
           "Acquire 3 DLC Ashes of War",
           "Acquire 3 DLC Spirit Ashes",
           "Put Florissax to Sleep",
-          "Acquire Death Mask Helm Winged Serpent Heim and Satza's Hood"
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood"
         ],
         [
           "Complete 2 Gaols",
@@ -343,7 +342,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Kill Jori Elder Inquisitor",
+          "square_text": "Kill Jori, Elder Inquisitor",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:38:38",

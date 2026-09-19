@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-18-Gustaf-vs-Grey",
+  "match_id": "2026-07-18-Gustaf-vs-Grey",
   "match_date": "2026-07-18",
   "season": "6",
   "match_type": "double_elimination",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=7dgwbTF0RAU",
     "duration_s": 14403.383333333333,
     "published_at": null,
-    "source_path": "downloads/7dgwbTF0RAU.mp4",
     "extracted_at": "2026-09-15"
   },
   "num_games": 2,

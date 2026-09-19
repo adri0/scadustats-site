@@ -1,5 +1,5 @@
 {
-  "video_id": "2026-07-26-NuclearPastaTom-vs-Vswed",
+  "match_id": "2026-07-26-NuclearPastaTom-vs-Vswed",
   "match_date": "2026-07-26",
   "season": "6",
   "match_type": "round_robin",
@@ -13,7 +13,6 @@
     "video_url": "https://www.youtube.com/watch?v=suQSiSmVsfk",
     "duration_s": 14419.1,
     "published_at": "2026-07-30",
-    "source_path": "/Users/Shared/code/scadustats/downloads/suQSiSmVsfk.mp4",
     "extracted_at": "2026-09-17"
   },
   "num_games": 2,
@@ -35,13 +34,13 @@
           "Acquire Both Scarseal Talismans",
           "Kill an Ancestor Spirit",
           "Kill Loretta (Blue Spirit)",
-          "Kill 5 Bosses in Limgrave Weeping"
+          "Kill 5 Bosses in Limgrave / Weeping"
         ],
         [
           "Acquire 14 Unique Incantations",
           "Acquire 3 Legendary Talismans",
           "Kill 3 Unique Tree Spirits",
-          "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
           "Complete 3 Caves or Grottos"
         ],
         [
@@ -55,13 +54,13 @@
           "Kill Crucible Knight and Misbegotten Warrior Duo",
           "30 Intelligence",
           "Acquire 3 Painting Rewards",
-          "Kill S Bosses that Ride a Horse",
+          "Kill 5 Bosses that Ride a Horse",
           "Kill Misbegotten Crusader"
         ],
         [
           "Complete 4 Evergaols",
           "Kill Agheel with a +0 Weapon Only",
-          "Killa Remembrance Boss with Bows Only",
+          "Kill a Remembrance Boss with Bows Only",
           "Kill Commander O'Neil",
           "Restore Godrick's Great Rune"
         ]
@@ -124,7 +123,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill 5 Bosses in Limgrave Weeping",
+          "square_text": "Kill 5 Bosses in Limgrave / Weeping",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:18:41",
@@ -169,7 +168,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill 5 Bosses in Limgrave Weeping",
+          "square_text": "Kill 5 Bosses in Limgrave / Weeping",
           "color": "red",
           "event_type": "unmark",
           "game_timer": "00:37:14",
@@ -178,7 +177,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill 5 Bosses in Limgrave Weeping",
+          "square_text": "Kill 5 Bosses in Limgrave / Weeping",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:37:20",
@@ -196,7 +195,7 @@
         {
           "row": 4,
           "col": 4,
-          "square_text": "Kill S Bosses that Ride a Horse",
+          "square_text": "Kill 5 Bosses that Ride a Horse",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:39:03",
@@ -259,7 +258,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "Killa Remembrance Boss with Bows Only",
+          "square_text": "Kill a Remembrance Boss with Bows Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:00:23",
@@ -324,8 +323,8 @@
         [
           "Kill Putrescent Knight",
           "Kill Moonrithyll Carian Knight",
-          "Kill a Boss with incantations Only",
-          "Acquire Death Mask Helm Winged Serpent Helm and Saiza's Hood",
+          "Kill a Boss with Incantations Only",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
           "Acquire the Kindred Cookbook from Moore"
         ],
         [
@@ -343,7 +342,7 @@
           "Kill Chief Bloodfiend"
         ],
         [
-          "Acquire 3 Non Merchant Sorceries",
+          "Acquire 3 Non-Merchant Sorceries",
           "Complete 2 Gaols",
           "Kill 3 Bosses with Knight in their name",
           "Kill 3 Unique Horned Warriors",
@@ -478,7 +477,7 @@
         {
           "row": 4,
           "col": 1,
-          "square_text": "Acquire 3 Non Merchant Sorceries",
+          "square_text": "Acquire 3 Non-Merchant Sorceries",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:45:11",
@@ -487,7 +486,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Acquire Death Mask Helm Winged Serpent Helm and Saiza's Hood",
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:50:19",
@@ -532,7 +531,7 @@
         {
           "row": 1,
           "col": 3,
-          "square_text": "Kill a Boss with incantations Only",
+          "square_text": "Kill a Boss with Incantations Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:00:39",
