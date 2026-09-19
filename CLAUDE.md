@@ -1,31 +1,34 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Project state
 
-A Hugo static site over transcribed Elden Ring "Scadutree" bingo duels. There is no package manifest
-and no test suite; `hugo` builds the site and `hugo server` serves it locally. Everything under
-`public/` is build output.
+A Hugo static site for a fan-made website (wiki-style) for Elden Ring Bingo Brawlers league (https://bingobrawlers.com/).
+ 
+There is no package manifest and no test suite; `hugo` builds the site and `hugo server` 
+serves it locally. Everything under `public/` is build output.
 
 The site is themed with [kopi](https://github.com/bect/kopi), a git submodule at `themes/kopi` —
 a fresh clone needs `git submodule update --init` before it will build, and Hugo **Extended**
 (>= 0.157) is required, because the theme's CSS is SCSS.
 
-Pages are generated from data, not from Markdown: each section in `content/` has a
+Pages are generated from data files, which is a mix from JSON and Markdown: each section in `content/` has a
 `_content.gotmpl` content adapter that reads `data/` and calls `.AddPage`. The only hand-written
 content files are `content/_index.md`, `content/rules.md`, and the section `_index.md` stubs.
 
 ## Data: `data/`
 
-All source data lives under `data/`, which Hugo exposes as `hugo.Data`.
+All source data lives under `data/`, which Hugo exposes as `hugo.Data`. It's populated by
+[scadustats](../scadustats), a separate CLI tool/checkout (its own `pyproject.toml`, no relation
+to this Hugo project) that transcribes match VODs into `data/matches/` and rebuilds
+`data/squares/` and `data/players/` from them. `scripts/scadustats` wraps `uv run --project` so it
+runs against this repo's `data/` without needing a shell in the other checkout — see the README.
 
 ### `data/matches/season-<N>/<date>-<player_red>-vs-<player_blue>.json`
 
-One file per recorded 1v1 match, transcribed from a YouTube VOD.
+One file per recorded 1v1 match series, transcribed from a YouTube VOD.
 
 Top-level match fields:
-- `video_id`, `match_date`, `season`, `match_type` (e.g. `double_elimination`, `playoffs`)
+- `match_id`, `match_date`, `season`, `match_type` (e.g. `double_elimination`, `playoffs`)
 - `player_red_name`, `player_blue_name`, `commentators`
 - `metadata`: `video_url`, `duration_s`, `source_path`, `extracted_at`, `published_at`
 - `num_games`, `red_score`, `blue_score`, `winner` (`"red"` / `"blue"`) — these can be `null` when a
@@ -33,7 +36,7 @@ Top-level match fields:
   for an example with only one game and no recorded scores/winner)
 - `games`: an array of per-game records (a match is usually best-of-N games)
 
-Each entry in `games` is a 5x5 bingo card:
+Each entry in `games` is a 5x5 board:
 - `game_index`, `start_video_ts_s`, `end_video_ts_s`, `game_type` (`base` or `dlc`)
 - `winner_color`, `win_type` (`line`, `majority`, or `none` if undecided/unfinished), `win_line`
   (e.g. `"row_2"`, only set when `win_type` is `line`)
