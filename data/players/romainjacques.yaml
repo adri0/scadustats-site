@@ -6,25 +6,28 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 1
+    wins: 2
     losses: 1
     draws: 2
 game_record:
-  wins: 4
+  wins: 6
   losses: 4
 game_type_records:
   base:
-    wins: 1
+    wins: 2
     losses: 3
   dlc:
-    wins: 3
+    wins: 4
     losses: 1
 all_matches:
 - 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-12-RomainJacques-vs-Grey
 - 2026-08-09-TwistieT-vs-RomainJacques
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 top_squares_base_game:
+- text: 30 Arcane
+  marks: 2
 - text: Acquire Somberstone Bell Bearing [1] and [2]
   marks: 2
 - text: Give Hyetta 3 Shabriri Grapes
@@ -33,16 +36,14 @@ top_squares_base_game:
   marks: 2
 - text: Kill Grafted Scion (Chapel)
   marks: 2
-- text: 30 Arcane
-  marks: 1
 top_squares_dlc:
+- text: Acquire 3 DLC Spirit Ashes
+  marks: 2
+- text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
+  marks: 2
 - text: Acquire the Scorpion Stew
   marks: 2
-- text: Kill 3 NPC Bosses
+- text: 'Kill 1 Boss of each: Bear / Lion / Hippo'
   marks: 2
-- text: Kill 3 Ulcerated Tree Spirits
+- text: Kill 1 Dancing Lion
   marks: 2
-- text: Kill Crucible Knight Devonia
-  marks: 2
-- text: Acquire 2 Blessings of Marika
-  marks: 1

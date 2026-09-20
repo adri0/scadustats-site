@@ -1,0 +1,570 @@
+{
+  "match_id": "2026-08-16-Gustaf-vs-Vswed",
+  "match_date": "2026-08-16",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Gustaf",
+  "player_blue_name": "Vswed",
+  "commentators": [
+    "Blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=tkho37Y3dUQ",
+    "duration_s": 14405.266666666666,
+    "published_at": "2026-08-23",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 2,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 6068.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Unique Gargoyles / BBK",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Acquire 6 Unique Staves",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill 2 Unique Tibia Mariners"
+        ],
+        [
+          "Kill Godfrey (Gold Spirit)",
+          "Acquire Both Scarseal Talismans",
+          "Kill Gurranq",
+          "Acquire 2 Imbued Sword Keys",
+          "Kill an Ancestor Spirit"
+        ],
+        [
+          "Memory of Grace with 100k+ Runes",
+          "Acquire 3 Memory Stones",
+          "Kill Misbegotten Crusader",
+          "Kill Malenia",
+          "Kill Crucible Knight and Misbegotten Warrior Duo"
+        ],
+        [
+          "30 Faith",
+          "Acquire 14 Unique Incantations",
+          "Kill Rennala after she Summons 4 Spirits",
+          "Kill Morgott",
+          "Kill 5 Bosses in Caelid / Dragonbarrow"
+        ],
+        [
+          "Acquire 3 Painting Rewards",
+          "Kill 3 Unique Erdtree or Putrid Avatars",
+          "Kill 4 NPC Bosses",
+          "Kill a Remembrance Boss with Bows Only",
+          "Kill 4 Dragon Heart Bosses"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 190.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:09",
+          "video_ts_s": 799.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:08",
+          "video_ts_s": 918.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:58",
+          "video_ts_s": 968.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:34",
+          "video_ts_s": 1004.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 Memory Stones",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:10",
+          "video_ts_s": 1280.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:10",
+          "video_ts_s": 1700.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 Unique Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:27",
+          "video_ts_s": 2017.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:17",
+          "video_ts_s": 2127.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "30 Faith",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:14",
+          "video_ts_s": 2904.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:05",
+          "video_ts_s": 3075.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 5 Bosses in Caelid / Dragonbarrow",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:47",
+          "video_ts_s": 3357.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 Dragon Heart Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:47",
+          "video_ts_s": 3597.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:08",
+          "video_ts_s": 3678.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:41",
+          "video_ts_s": 4011.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss with Bows Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:13",
+          "video_ts_s": 4163.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Unique Erdtree or Putrid Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:51",
+          "video_ts_s": 4501.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:16:25",
+          "video_ts_s": 4775.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:28",
+          "video_ts_s": 5258.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:27:22",
+          "video_ts_s": 5432.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Morgott",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:40",
+          "video_ts_s": 5450.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Gurranq",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:44",
+          "video_ts_s": 5574.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Rennala after she Summons 4 Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:36:28",
+          "video_ts_s": 5978.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Malenia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:36:39",
+          "video_ts_s": 5989.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:36:39",
+          "video_ts_s": 5989.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 6069.0,
+      "end_video_ts_s": 11675.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 2 Dragon Hearts",
+          "Acquire 3 DLC Ashes of War",
+          "Kill Rellana",
+          "Kill Romina",
+          "Kill Moonrithyll, Carian Knight"
+        ],
+        [
+          "Acquire the Golden Braid",
+          "Level 5 Revered Spirit Ash",
+          "Give an Iris of Occultation",
+          "Give the Secret Rite Scroll to Ansbach",
+          "Acquire 5 Hefty Pots"
+        ],
+        [
+          "Kill Scadutree Avatar",
+          "Kill the Colossal Fingercreeper",
+          "Kill 2 Hippos",
+          "Acquire 2 Painting Rewards",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood"
+        ],
+        [
+          "Acquire a Leda Rune",
+          "Kill a Death Knight",
+          "Kill Leda and her Allies",
+          "Acquire 2 Kindred Cookbooks",
+          "Kill the Death Rite Bird"
+        ],
+        [
+          "Kill Crucible Knight Devonia",
+          "Acquire 5 Non-Merchant Incantations",
+          "Kill Curseblade Labirith",
+          "Kill 3 Trolls",
+          "Acquire 3 Non-Merchant Sorceries"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 6286.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:46",
+          "video_ts_s": 6812.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:36",
+          "video_ts_s": 7222.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:19",
+          "video_ts_s": 7385.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:03",
+          "video_ts_s": 7429.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:02",
+          "video_ts_s": 7728.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 Hippos",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:43",
+          "video_ts_s": 7829.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:57",
+          "video_ts_s": 8023.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:50",
+          "video_ts_s": 8436.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:17",
+          "video_ts_s": 8463.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:48",
+          "video_ts_s": 8854.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:39",
+          "video_ts_s": 8905.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:51",
+          "video_ts_s": 8977.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:25",
+          "video_ts_s": 9131.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Curseblade Labirith",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:34",
+          "video_ts_s": 9260.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:31",
+          "video_ts_s": 9497.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Non-Merchant Sorceries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:43",
+          "video_ts_s": 9749.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:46",
+          "video_ts_s": 9812.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Trolls",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:37",
+          "video_ts_s": 10103.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:15",
+          "video_ts_s": 10141.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:21",
+          "video_ts_s": 10447.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Death Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:05",
+          "video_ts_s": 10731.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:05",
+          "video_ts_s": 11151.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:14",
+          "video_ts_s": 11640.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:29:14",
+          "video_ts_s": 11640.0
+        }
+      ]
+    }
+  ]
+}

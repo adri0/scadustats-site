@@ -8,41 +8,42 @@ season_records:
   '6':
     wins: 1
     losses: 1
-    draws: 2
+    draws: 3
 game_record:
-  wins: 4
-  losses: 4
+  wins: 5
+  losses: 5
 game_type_records:
   base:
     wins: 2
-    losses: 2
+    losses: 3
   dlc:
-    wins: 2
+    wins: 3
     losses: 2
 all_matches:
+- 2026-08-16-Gustaf-vs-Vswed
 - 2026-08-07-Vswed-vs-Grey
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-19-Vswed-vs-TwistieT
 top_squares_base_game:
+- text: Memory of Grace with 100k+ Runes
+  marks: 4
 - text: Kill Crucible Knight and Misbegotten Warrior Duo
   marks: 3
-- text: Memory of Grace with 100k+ Runes
+- text: Kill Godfrey (Gold Spirit)
+  marks: 3
+- text: Kill Misbegotten Crusader
   marks: 3
 - text: Acquire 6 Unique Staves
   marks: 2
-- text: Complete 3 Caves
-  marks: 2
-- text: Kill Borealis
-  marks: 2
 top_squares_dlc:
+- text: Acquire 2 Dragon Hearts
+  marks: 2
 - text: Acquire 3 NPC Dropped Weapons
   marks: 2
-- text: Kill Chief Bloodfiend
+- text: Acquire 3 Non-Merchant Sorceries
   marks: 2
-- text: Kill Moonrithyll Carian Knight
+- text: Acquire a Leda Rune
   marks: 2
-- text: Kill Rakshasa
+- text: Kill 3 Trolls
   marks: 2
-- text: Acquire 2 Different Max Upgrade Materials
-  marks: 1

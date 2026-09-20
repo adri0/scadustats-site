@@ -1,0 +1,45 @@
+id: 15
+slug: lronyeu
+display_name: lronyeu
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 1
+    losses: 0
+    draws: 0
+game_record:
+  wins: 2
+  losses: 0
+game_type_records:
+  base:
+    wins: 1
+    losses: 0
+  dlc:
+    wins: 1
+    losses: 0
+all_matches:
+- 2026-08-15-lronyeu-vs-Parkenharbor
+top_squares_base_game:
+- text: Acquire 3 Larval Tears from Transforming Enemies
+  marks: 1
+- text: Kill 1 Fallingstar Beast
+  marks: 1
+- text: Kill 10 Sheep with AoW Lightning Ram Only
+  marks: 1
+- text: Kill 2 Misbegotten Bosses
+  marks: 1
+- text: Kill 5 Bosses with "Tree" in their name
+  marks: 1
+top_squares_dlc:
+- text: Acquire 3 DLC Ashes of War
+  marks: 1
+- text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
+  marks: 1
+- text: Give an Iris of Occultation
+  marks: 1
+- text: Kill 1 Unique Divine Bird Warrior
+  marks: 1
+- text: Kill 3 NPC Bosses
+  marks: 1

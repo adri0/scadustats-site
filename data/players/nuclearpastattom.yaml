@@ -1,0 +1,45 @@
+id: 14
+slug: nuclearpastattom
+display_name: NuclearPastaTtom
+twitch: null
+avatar: null
+bio: null
+season_records:
+  '6':
+    wins: 1
+    losses: 0
+    draws: 0
+game_record:
+  wins: 2
+  losses: 0
+game_type_records:
+  base:
+    wins: 1
+    losses: 0
+  dlc:
+    wins: 1
+    losses: 0
+all_matches:
+- 2026-08-14-NuclearPastaTtom-vs-TwistieT
+top_squares_base_game:
+- text: Acquire 5 Dropped Ashes of War
+  marks: 1
+- text: Acquire Margit's and Mohg's Shackles
+  marks: 1
+- text: Kill 2 Unique Crucible Knights
+  marks: 1
+- text: Kill 4 Unique Elder Lions
+  marks: 1
+- text: Kill Godskin Noble (Volcano Manor) without Status Effects
+  marks: 1
+top_squares_dlc:
+- text: Drain the Water in the Church District
+  marks: 1
+- text: Give an lris of Grace
+  marks: 1
+- text: Kill Crucible Knight Devonia
+  marks: 1
+- text: Kill Moonrithyll, Carian Knight
+  marks: 1
+- text: Kill Rellana
+  marks: 1

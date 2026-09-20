@@ -1,0 +1,390 @@
+{
+  "match_id": "2026-08-14-NuclearPastaTom-vs-TwistieT",
+  "match_date": "2026-08-14",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "TwistieT",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=sNhby0T84iQ",
+    "duration_s": 14408.133333333333,
+    "published_at": "2026-08-17",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5117.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_1",
+      "square_texts": [
+        [
+          "Kill a Dragonkin Soldier Boss",
+          "Kill Gurranq",
+          "Acquire Margit's and Mohg's Shackles",
+          "Restore Rykard's Great Rune",
+          "Kill Roundtable Knight Vyke"
+        ],
+        [
+          "Restore Morgott's Great Rune",
+          "Kill 3 Unique Black Knife Assassins",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill 4 Bosses in Liurnia",
+          "Kill 2 Unique Erdtree or Putrid Avatars"
+        ],
+        [
+          "Acquire the Fingerslayer Blade",
+          "Kill Mohg, the Omen",
+          "Kill Tree Sentinel Duo",
+          "Kill Magma Wyrm Makar",
+          "Kill 1 Fallingstar Beast"
+        ],
+        [
+          "Acquire Sacred Flask +7",
+          "Kill Margit with a +0 Weapon Only",
+          "Kill Borealis",
+          "Kill 2 Unique Crucible Knights",
+          "Acquire 5 Dropped Ashes of War"
+        ],
+        [
+          "Kill 4 NPC Bosses",
+          "Kill a Godskin Apostle",
+          "Kill 4 Unique Elder Lions",
+          "Restore Radahn's Great Rune",
+          "30 Faith"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 185.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:14",
+          "video_ts_s": 919.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:33",
+          "video_ts_s": 1058.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Margit with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:40",
+          "video_ts_s": 1185.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Dragonkin Soldier Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:54",
+          "video_ts_s": 1319.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 5 Dropped Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:21",
+          "video_ts_s": 1466.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 2 Unique Erdtree or Putrid Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:23",
+          "video_ts_s": 1468.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Borealis",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:31",
+          "video_ts_s": 1716.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 2 Unique Crucible Knights",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:26",
+          "video_ts_s": 1771.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 4 Bosses in Liurnia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:13",
+          "video_ts_s": 2058.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:02",
+          "video_ts_s": 2527.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "30 Faith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:33",
+          "video_ts_s": 2678.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:11",
+          "video_ts_s": 2716.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 3 Unique Black Knife Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:46",
+          "video_ts_s": 2991.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Gurranq",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:52",
+          "video_ts_s": 2997.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 Unique Elder Lions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:21",
+          "video_ts_s": 3266.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:33",
+          "video_ts_s": 3878.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:28",
+          "video_ts_s": 4353.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:57",
+          "video_ts_s": 4562.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Restore Rykard's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:21:38",
+          "video_ts_s": 5084.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:21:38",
+          "video_ts_s": 5084.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5119.0,
+      "end_video_ts_s": 7247.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_5",
+      "square_texts": [
+        [
+          "Kill 3 NPC Bosses",
+          "Kill Messmer",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill Metyr",
+          "Kill Moonrithyll, Carian Knight"
+        ],
+        [
+          "Acquire a Leda Rune",
+          "Acquire 3 NPC Dropped Weapons",
+          "Kill 1 Demi-Human Swordmaster",
+          "Acquire 3 DLC Spirit Ashes",
+          "Give an lris of Grace"
+        ],
+        [
+          "Complete 2 Catacombs",
+          "Kill Romina",
+          "Kill the Rolling Giant Lightning Ram",
+          "Memory of Grace with 500k+ Runes",
+          "Kill a Remembrance Boss Hitless"
+        ],
+        [
+          "Use a Transformation",
+          "Put Florissax to Sleep",
+          "Drain the Water in the Church District",
+          "Acquire the Kindred Cookbook from Moore",
+          "Kill Rellana"
+        ],
+        [
+          "Acquire Igon's Furled Finger",
+          "Acquire 2 Blessings of Marika",
+          "Acquire 2 Dragon Hearts",
+          "Kill Bayle",
+          "Kill Crucible Knight Devonia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5306.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:49",
+          "video_ts_s": 5595.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:08",
+          "video_ts_s": 5914.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:08",
+          "video_ts_s": 6094.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Rellana",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:08",
+          "video_ts_s": 6094.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:54",
+          "video_ts_s": 6380.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:53",
+          "video_ts_s": 6859.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Give an lris of Grace",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:55",
+          "video_ts_s": 7222.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:31:55",
+          "video_ts_s": 7222.0
+        }
+      ]
+    }
+  ]
+}

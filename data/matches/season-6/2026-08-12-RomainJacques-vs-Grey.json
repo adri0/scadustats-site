@@ -1,0 +1,453 @@
+{
+  "match_id": "2026-08-12-RomainJacques-vs-Grey",
+  "match_date": "2026-08-12",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "RomainJacques",
+  "player_blue_name": "Grey",
+  "commentators": [
+    "Adef",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=YZpOLoTGdCw",
+    "duration_s": 14407.433333333332,
+    "published_at": "2026-08-17",
+    "extracted_at": "2026-09-19"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 5.0,
+      "end_video_ts_s": 3309.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_5",
+      "square_texts": [
+        [
+          "30 Faith",
+          "Acquire 6 Unique Staves",
+          "Acquire 14 Unique Incantations",
+          "30 Arcane",
+          "Complete 2 Tunnels or Precipices"
+        ],
+        [
+          "Rune Level 65",
+          "Kill 4 Unique Black Knife Assassins",
+          "Kill Both Astel Bosses",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Kill a Remembrance Boss with Whips Only"
+        ],
+        [
+          "Kill 2 Duelist Bosses",
+          "Kill a Remembrance Boss with Bows Only",
+          "Kill Mohg Lord of Blood",
+          "Acquire the Fingerslayer Blade",
+          "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only"
+        ],
+        [
+          "Restore Rykard's Great Rune",
+          "Acquire 10 Sacred Flask Charges",
+          "Kill 4 Bosses in Caelid / Dragonbarrow",
+          "Finish off a Boss with the Explosive Physick",
+          "Kill 4 Bosses in Liurnia"
+        ],
+        [
+          "Kill a Dragonkin Soldier Boss",
+          "Kill Mohg, the Omen",
+          "Kill Greyoll without Status Effects",
+          "Acquire 3 Painting Rewards",
+          "Kill Godfrey (Gold Spirit)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:27",
+          "video_ts_s": 80.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "30 Faith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:03",
+          "video_ts_s": 776.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:03",
+          "video_ts_s": 1076.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Dragonkin Soldier Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:32",
+          "video_ts_s": 1105.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Mohg Lord of Blood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:21",
+          "video_ts_s": 1274.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 2 Tunnels or Precipices",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:40",
+          "video_ts_s": 1293.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "30 Arcane",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:19",
+          "video_ts_s": 1392.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Rune Level 65",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:20",
+          "video_ts_s": 1393.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 4 Bosses in Liurnia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:51",
+          "video_ts_s": 1784.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss with Whips Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:43",
+          "video_ts_s": 2196.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:14",
+          "video_ts_s": 2407.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:07",
+          "video_ts_s": 2880.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:10",
+          "video_ts_s": 2943.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Mohg, the Omen",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:12",
+          "video_ts_s": 3245.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:53:12",
+          "video_ts_s": 3245.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3311.0,
+      "end_video_ts_s": 7691.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill 5 Unique Horned Warriors",
+          "Kill the Fallingstar Beast",
+          "Kill the Ancient Dragon Man",
+          "Acquire 3 Enemy/NPC Dropped Talismans"
+        ],
+        [
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill 2 Unique Base Game Bosses in the DLC",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill 1 Dancing Lion",
+          "Acquire 3 Full DLC Armor Sets"
+        ],
+        [
+          "Blow a Finger",
+          "Craft 3 Unique Hefty Pots",
+          "Kill Ancient Dragon Senessax",
+          "Acquire 3 DLC Spirit Ashes",
+          "Acquire 2 Painting Rewards"
+        ],
+        [
+          "Give an Iris of Occultation",
+          "Kill the Colossal Fingercreeper",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Kill the Death Rite Bird",
+          "Kill 2 Unique Divine Bird Warriors"
+        ],
+        [
+          "Acquire Jolan Summon",
+          "Kill Madding Hand",
+          "Kill 3 Unique NPC Invaders",
+          "Complete 2 Catacombs",
+          "Put Florissax to Sleep"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3488.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:27",
+          "video_ts_s": 3755.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:06",
+          "video_ts_s": 4754.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Blow a Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:31",
+          "video_ts_s": 5079.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:32",
+          "video_ts_s": 5080.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:47",
+          "video_ts_s": 5275.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 Full DLC Armor Sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:33",
+          "video_ts_s": 5321.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:01",
+          "video_ts_s": 5529.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 3 Enemy/NPC Dropped Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:22",
+          "video_ts_s": 5970.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:23",
+          "video_ts_s": 6031.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Unique Divine Bird Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:46",
+          "video_ts_s": 6354.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:03",
+          "video_ts_s": 6371.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:34",
+          "video_ts_s": 6462.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 2 Unique Base Game Bosses in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:00",
+          "video_ts_s": 6548.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:18",
+          "video_ts_s": 6626.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 1 Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:04",
+          "video_ts_s": 6852.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:16",
+          "video_ts_s": 7104.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:47",
+          "video_ts_s": 7135.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:41",
+          "video_ts_s": 7249.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 5 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:44",
+          "video_ts_s": 7372.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:26",
+          "video_ts_s": 7654.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:09:26",
+          "video_ts_s": 7654.0
+        }
+      ]
+    }
+  ]
+}

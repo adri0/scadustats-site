@@ -7,19 +7,20 @@ bio: null
 season_records:
   '6':
     wins: 1
-    losses: 1
+    losses: 2
     draws: 1
 game_record:
   wins: 3
-  losses: 3
+  losses: 5
 game_type_records:
   base:
     wins: 2
-    losses: 1
+    losses: 2
   dlc:
     wins: 1
-    losses: 2
+    losses: 3
 all_matches:
+- 2026-08-12-RomainJacques-vs-Grey
 - 2026-08-07-Vswed-vs-Grey
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-25-TwistieT-vs-Grey
@@ -27,22 +28,22 @@ all_matches:
 top_squares_base_game:
 - text: Acquire Smithing Stone Bell Bearing [1] and [2]
   marks: 2
+- text: Kill a Remembrance Boss with Whips Only
+  marks: 2
 - text: 30 Arcane
   marks: 1
+- text: 30 Faith
+  marks: 1
 - text: Acquire 10 Unique Talismans
-  marks: 1
-- text: Acquire 3 Imbued Sword Keys
-  marks: 1
-- text: Acquire 4 Dropped Ashes of War
   marks: 1
 top_squares_dlc:
 - text: Acquire the Golden Braid
   marks: 2
+- text: Put Florissax to Sleep
+  marks: 2
+- text: Acquire 2 Painting Rewards
+  marks: 1
 - text: Acquire 3 DLC Ashes of War
   marks: 1
-- text: Acquire 3 NPC Dropped Weapons
-  marks: 1
-- text: Acquire 5 Hefty Pots
-  marks: 1
-- text: Acquire 5 Non-Merchant Incantations
+- text: Acquire 3 Enemy/NPC Dropped Talismans
   marks: 1
