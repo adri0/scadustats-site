@@ -1,0 +1,561 @@
+{
+  "match_id": "2026-08-16-Raydans-vs-LilAggy",
+  "match_date": "2026-08-16",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Raydans",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=hj8TlAwF7kI",
+    "duration_s": 14432.35,
+    "published_at": "2026-08-22",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5417.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Wormface",
+          "Kill Roundtable Knight Vyke",
+          "Complete 3 Catacombs",
+          "Kill Ancient Dragon Lansseax",
+          "Complete 2 Caves"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill 3 Unique Abductor Virgins",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Acquire 6 Unique Staves",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave"
+        ],
+        [
+          "30 Intelligence",
+          "Kill 3 Unique Gargoyles / BBK",
+          "Kill 2 Unique Tibia Mariners",
+          "Acquire 2 Imbued Sword Keys",
+          "Acquire the Moon of Nokstella"
+        ],
+        [
+          "Kill 10 Sheep with AoW Lightning Ram Only",
+          "Kill 2 Omenkiller Bosses",
+          "Memory of Grace with 100k+ Runes",
+          "Acquire 10 Sacred Flask Charges",
+          "Kill the Sleeping Golem in Leyndell"
+        ],
+        [
+          "Acquire 3 Unique Seals",
+          "Kill Godfrey (Gold Spirit)",
+          "Acquire the Full Haligtree Medallion",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill 4 Unique Erdtree or Putrid Avatars"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 192.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 Unique Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:01",
+          "video_ts_s": 553.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:12",
+          "video_ts_s": 564.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 2 Caves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:00",
+          "video_ts_s": 732.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:05",
+          "video_ts_s": 1217.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:43",
+          "video_ts_s": 1315.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:59",
+          "video_ts_s": 1571.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 Unique Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:14",
+          "video_ts_s": 1766.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "30 Intelligence",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:27",
+          "video_ts_s": 1779.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 3 Unique Abductor Virgins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:19",
+          "video_ts_s": 1951.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:19",
+          "video_ts_s": 2311.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:47",
+          "video_ts_s": 2399.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:17",
+          "video_ts_s": 2489.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 10 Sheep with AoW Lightning Ram Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:40",
+          "video_ts_s": 2752.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:38",
+          "video_ts_s": 2930.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:46",
+          "video_ts_s": 2998.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Ancient Dragon Lansseax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:50",
+          "video_ts_s": 3122.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 10 Sacred Flask Charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:23",
+          "video_ts_s": 3215.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:35",
+          "video_ts_s": 3407.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:15",
+          "video_ts_s": 3567.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:29",
+          "video_ts_s": 3761.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 Unique Erdtree or Putrid Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:13",
+          "video_ts_s": 3865.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire the Full Haligtree Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:07",
+          "video_ts_s": 4519.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 Unique Gargoyles / BBK",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:58",
+          "video_ts_s": 5050.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:22:32",
+          "video_ts_s": 5144.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete 3 Catacombs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:26:11",
+          "video_ts_s": 5363.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:26:11",
+          "video_ts_s": 5363.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5418.0,
+      "end_video_ts_s": 9552.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Give an Iris of Occultation",
+          "Kill 2 Demi-Human Swordmasters",
+          "Kill a Death Knight",
+          "Kill 1 Dancing Lion",
+          "Use a Transformation"
+        ],
+        [
+          "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "Kill Jori, Elder Inquisitor",
+          "Kill the Golden Hippo",
+          "Give the Secret Rite Scroll to Ansbach",
+          "Drain the Water in the Church District"
+        ],
+        [
+          "Acquire 3 Hanging Pot Bell Bearings",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill Promised Consort Radahn",
+          "Complete 2 Catacombs",
+          "Kill the Ancient Dragon Man"
+        ],
+        [
+          "Complete all 4 Nameless Mausoleums",
+          "Acquire all 4 Non-Merchant Perfume Bottles",
+          "Kill Ancient Dragon Senessax",
+          "Acquire 5 Non-Merchant Incantations",
+          "Kill Chief Bloodfiend"
+        ],
+        [
+          "Kill Madding Hand",
+          "Duplicate a Remembrance 1 time",
+          "Kill 4 Unique Horned Warriors",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Memory of Grace with 500k+ Runes"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5604.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:05",
+          "video_ts_s": 6089.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:44",
+          "video_ts_s": 6428.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:56",
+          "video_ts_s": 6500.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:24",
+          "video_ts_s": 6708.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:53",
+          "video_ts_s": 7097.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:46",
+          "video_ts_s": 7450.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:52",
+          "video_ts_s": 7636.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Jori, Elder Inquisitor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:52",
+          "video_ts_s": 7636.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Death Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:38",
+          "video_ts_s": 7982.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Complete 2 Catacombs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:39",
+          "video_ts_s": 7983.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Madding Hand",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:35",
+          "video_ts_s": 8159.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:50",
+          "video_ts_s": 8294.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:43",
+          "video_ts_s": 8527.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:25",
+          "video_ts_s": 8629.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire all 4 Non-Merchant Perfume Bottles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:03",
+          "video_ts_s": 8727.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Duplicate a Remembrance 1 time",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:11",
+          "video_ts_s": 8735.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 1 Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:35",
+          "video_ts_s": 8879.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 3 Hanging Pot Bell Bearings",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:16",
+          "video_ts_s": 9220.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:14",
+          "video_ts_s": 9278.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:55",
+          "video_ts_s": 9499.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:04:55",
+          "video_ts_s": 9499.0
+        }
+      ]
+    }
+  ]
+}

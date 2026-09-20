@@ -6,20 +6,21 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 4
+    wins: 5
     losses: 0
     draws: 0
 game_record:
-  wins: 8
+  wins: 10
   losses: 0
 game_type_records:
   base:
-    wins: 4
+    wins: 5
     losses: 0
   dlc:
-    wins: 4
+    wins: 5
     losses: 0
 all_matches:
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-26-NuclearPastaTom-vs-Vswed
@@ -27,22 +28,22 @@ all_matches:
 top_squares_base_game:
 - text: Kill 5 Bosses in Limgrave / Weeping
   marks: 3
+- text: Kill Tree Sentinel Duo
+  marks: 3
 - text: Acquire 14 Unique Incantations
   marks: 2
 - text: Acquire 3 Legendary Talismans
   marks: 2
 - text: Acquire 3 Painting Rewards
   marks: 2
-- text: Kill 2 Unique Erdtree or Putrid Avatars
-  marks: 2
 top_squares_dlc:
 - text: Acquire 2 Blessings of Marika
+  marks: 3
+- text: Kill a Remembrance Boss Hitless
   marks: 3
 - text: Acquire Commander Gaius's Pants
   marks: 2
 - text: Kill 3 Unique Horned Warriors
   marks: 2
 - text: Kill Messmer
-  marks: 2
-- text: Kill Moonrithyll Carian Knight
   marks: 2

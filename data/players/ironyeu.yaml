@@ -6,25 +6,28 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 0
+    wins: 1
     losses: 2
     draws: 1
 game_record:
-  wins: 1
+  wins: 3
   losses: 5
 game_type_records:
   base:
-    wins: 1
+    wins: 2
     losses: 2
   dlc:
-    wins: 0
+    wins: 1
     losses: 3
 all_matches:
+- 2026-08-15-Ironyeu-vs-Parkenharbor
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-26-Raydans-vs-Ironyeu
 top_squares_base_game:
 - text: Acquire 10 Cracked Pots
+  marks: 1
+- text: Acquire 3 Larval Tears from Transforming Enemies
   marks: 1
 - text: Acquire Margit's and Mohg's Shackles
   marks: 1
@@ -32,16 +35,14 @@ top_squares_base_game:
   marks: 1
 - text: Acquire the Full Haligtree Medallion
   marks: 1
-- text: Kill 2 Deathbirds and 1 Death Rite Bird
-  marks: 1
 top_squares_dlc:
+- text: Kill Bayle
+  marks: 2
+- text: Kill Queelign in Belurat
+  marks: 2
+- text: Kill a Remembrance Boss Hitless
+  marks: 2
 - text: Acquire 2 Non-Merchant Sorceries
   marks: 1
 - text: Acquire 2 Painting Rewards
-  marks: 1
-- text: Acquire 4 Hefty Pots
-  marks: 1
-- text: Complete 2 Forges
-  marks: 1
-- text: Duplicate a Remembrance 1 time
   marks: 1

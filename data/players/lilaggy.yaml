@@ -6,43 +6,44 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 1
+    wins: 2
     losses: 1
     draws: 2
 game_record:
-  wins: 4
+  wins: 6
   losses: 4
 game_type_records:
   base:
-    wins: 2
+    wins: 3
     losses: 2
   dlc:
-    wins: 2
+    wins: 3
     losses: 2
 all_matches:
+- 2026-08-16-Raydans-vs-LilAggy
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-blanxz-vs-LilAggy
 top_squares_base_game:
+- text: Kill Ancient Dragon Lansseax
+  marks: 3
+- text: Acquire 3 Unique Seals
+  marks: 2
 - text: Acquire the Full Haligtree Medallion
   marks: 2
 - text: Kill 2 Deathbirds and 1 Death Rite Bird
   marks: 2
-- text: Kill Ancient Dragon Lansseax
+- text: Kill 2 Omenkiller Bosses
   marks: 2
-- text: 30 Arcane
-  marks: 1
-- text: 30 Intelligence
-  marks: 1
 top_squares_dlc:
 - text: Kill Crucible Knight Devonia
   marks: 3
+- text: Kill Madding Hand
+  marks: 3
 - text: Kill 1 Unique Divine Bird Warrior
   marks: 2
-- text: Kill Madding Hand
+- text: Kill a Death Knight
   marks: 2
-- text: Acquire 2 Different Max Upgrade Materials
-  marks: 1
-- text: Acquire 3 DLC Ashes of War
-  marks: 1
+- text: Use a Transformation
+  marks: 2

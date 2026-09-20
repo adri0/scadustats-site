@@ -8,41 +8,42 @@ season_records:
   '6':
     wins: 1
     losses: 2
-    draws: 1
+    draws: 2
 game_record:
-  wins: 3
-  losses: 5
+  wins: 4
+  losses: 6
 game_type_records:
   base:
-    wins: 2
+    wins: 3
     losses: 2
   dlc:
     wins: 1
-    losses: 3
+    losses: 4
 all_matches:
 - 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-18-Gustaf-vs-Grey
 top_squares_base_game:
 - text: Kill 2 Omenkiller Bosses
   marks: 2
-- text: Acquire 3 Painting Rewards
-  marks: 1
-- text: Acquire 4 Unique Seals
-  marks: 1
-- text: Acquire Grave and Ghost Glovewort Bell Bearings [2]
-  marks: 1
-- text: Acquire the Fingerslayer Blade
+- text: Kill Crucible Knight and Misbegotten Warrior Duo
+  marks: 2
+- text: Kill Morgott
+  marks: 2
+- text: Kill an Ancestor Spirit
+  marks: 2
+- text: 30 Faith
   marks: 1
 top_squares_dlc:
+- text: Acquire 5 Hefty Pots
+  marks: 2
+- text: Kill the Colossal Fingercreeper
+  marks: 2
 - text: Put Florissax to Sleep
   marks: 2
 - text: Acquire 2 Hanging Pot Bell Bearings
   marks: 1
-- text: Acquire 2 Painting Rewards
-  marks: 1
-- text: Acquire 3 DLC Spirit Ashes
-  marks: 1
-- text: Acquire 4 Enemy NPC Dropped Talismans
+- text: Acquire 2 Kindred Cookbooks
   marks: 1

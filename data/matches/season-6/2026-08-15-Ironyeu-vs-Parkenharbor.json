@@ -1,0 +1,462 @@
+{
+  "match_id": "2026-08-15-Ironyeu-vs-Parkenharbor",
+  "match_date": "2026-08-15",
+  "season": "6",
+  "match_type": "round_robin",
+  "player_red_name": "Ironyeu",
+  "player_blue_name": "Parkenharbor",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=cT06uU1wOpE",
+    "duration_s": 14450.25,
+    "published_at": "2026-08-20",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3272.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Kill 10 Sheep with AoW Lightning Ram Only",
+          "Kill 2 Unique Tibia Mariners",
+          "Kill Commander O'Neil",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill Ancient Dragon Lansseax"
+        ],
+        [
+          "Duplicate a Remembrance",
+          "Complete 3 Catacombs",
+          "Kill 4 Bosses in Limgrave / Weeping",
+          "Kill an Ancestor Spirit",
+          "Kill Elemer of the Briar"
+        ],
+        [
+          "Kill Fire Giant",
+          "Kill 5 Bosses in Liurnia",
+          "Acquire 3 Larval Tears from Transforming Enemies",
+          "Kill a Remembrance Boss with Daggers Only",
+          "Kill Preceptor Miriam"
+        ],
+        [
+          "Kill 1 Fallingstar Beast",
+          "Kill 5 Bosses with \"Tree\" in their name",
+          "Restore Godrick's Great Rune",
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Kill the Sleeping Golem in Leyndell"
+        ],
+        [
+          "Kill 2 Misbegotten Bosses",
+          "Kill a Godskin Apostle",
+          "Complete 2 Caves",
+          "30 Intelligence",
+          "Kill 4 Bosses in Caelid / Dragonbarrow"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 180.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:31",
+          "video_ts_s": 631.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:34",
+          "video_ts_s": 634.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "30 Intelligence",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:21",
+          "video_ts_s": 921.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Complete 2 Caves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:25",
+          "video_ts_s": 1345.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 10 Sheep with AoW Lightning Ram Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:36",
+          "video_ts_s": 1416.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 4 Bosses in Limgrave / Weeping",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:10",
+          "video_ts_s": 1570.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Duplicate a Remembrance",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:37",
+          "video_ts_s": 1717.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 3 Larval Tears from Transforming Enemies",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:01",
+          "video_ts_s": 1861.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:18",
+          "video_ts_s": 1878.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Soldier of Godrick with Bare Fists Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:29",
+          "video_ts_s": 2129.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:39",
+          "video_ts_s": 2319.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:28",
+          "video_ts_s": 2668.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 2 Misbegotten Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:53",
+          "video_ts_s": 2813.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Lansseax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:00",
+          "video_ts_s": 2940.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 5 Bosses with \"Tree\" in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:03",
+          "video_ts_s": 3123.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:20",
+          "video_ts_s": 3200.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:50:20",
+          "video_ts_s": 3200.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3273.0,
+      "end_video_ts_s": 7910.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_4",
+      "square_texts": [
+        [
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill Queelign in Belurat",
+          "Kill Midra",
+          "Acquire the Full Gravebird Armor Set",
+          "Acquire Igon's Furled Finger"
+        ],
+        [
+          "Kill Chief Bloodfiend",
+          "Drink Thiollier's Concoction",
+          "Kill a Death Knight",
+          "Rune Level 80",
+          "Kill 3 NPC Bosses"
+        ],
+        [
+          "Kill Rakshasa",
+          "Kill Metyr",
+          "Kill a Remembrance Boss Hitless",
+          "Kill Lamenter",
+          "Acquire Jolan Summon"
+        ],
+        [
+          "Kill Bayle",
+          "Give an Iris of Occultation",
+          "Kill Madding Hand",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Kill 1 Unique Divine Bird Warrior"
+        ],
+        [
+          "Complete 2 Forges",
+          "Acquire 3 DLC Ashes of War",
+          "Kill the Ancient Dragon Man",
+          "Craft 3 Unique Hefty Pots",
+          "Acquire 3 Kindred Cookbooks"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3446.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:51",
+          "video_ts_s": 3737.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:49",
+          "video_ts_s": 4275.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:12",
+          "video_ts_s": 4358.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:12",
+          "video_ts_s": 4478.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:27",
+          "video_ts_s": 4853.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:49",
+          "video_ts_s": 5175.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rakshasa",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:44",
+          "video_ts_s": 5530.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:29",
+          "video_ts_s": 5755.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:50",
+          "video_ts_s": 6196.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Death Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:10",
+          "video_ts_s": 6216.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Rune Level 80",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:03",
+          "video_ts_s": 6449.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:17",
+          "video_ts_s": 6523.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 1 Unique Divine Bird Warrior",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:29",
+          "video_ts_s": 7015.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:07",
+          "video_ts_s": 7233.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:50",
+          "video_ts_s": 7336.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:17",
+          "video_ts_s": 7603.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:03",
+          "video_ts_s": 7649.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Bayle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:44",
+          "video_ts_s": 7877.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:13:44",
+          "video_ts_s": 7877.0
+        }
+      ]
+    }
+  ]
+}

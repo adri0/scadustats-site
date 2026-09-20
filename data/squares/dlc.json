@@ -180,6 +180,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "dropped_talisman_3",
+    "text": "Acquire 3 Enemy/NPC Dropped Talismans",
+    "game_type": "dlc"
+  },
+  {
     "id": "dupe_memb_1",
     "text": "Duplicate a Remembrance 1 time",
     "game_type": "dlc"
@@ -272,6 +277,11 @@
   {
     "id": "horned_warriors_4",
     "text": "Kill 4 Unique Horned Warriors",
+    "game_type": "dlc"
+  },
+  {
+    "id": "horned_warriors_5",
+    "text": "Kill 5 Unique Horned Warriors",
     "game_type": "dlc"
   },
   {
@@ -456,7 +466,7 @@
   },
   {
     "id": "npc_dropped_talismans_4",
-    "text": "Acquire 4 Enemy NPC Dropped Talismans",
+    "text": "Acquire 4 Enemy/NPC Dropped Talismans",
     "game_type": "dlc"
   },
   {
@@ -517,6 +527,11 @@
   {
     "id": "romina",
     "text": "Kill Romina",
+    "game_type": "dlc"
+  },
+  {
+    "id": "rune_80",
+    "text": "Rune Level 80",
     "game_type": "dlc"
   },
   {
