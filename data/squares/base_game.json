@@ -135,6 +135,11 @@
     "game_type": "base"
   },
   {
+    "id": "cemetery_shades_2",
+    "text": "Kill 2 Unique Cemetery Shades",
+    "game_type": "base"
+  },
+  {
     "id": "cemetery_shades_3",
     "text": "Kill 3 Unique Cemetery Shades",
     "game_type": "base"

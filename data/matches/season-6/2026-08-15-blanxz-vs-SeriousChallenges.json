@@ -1,20 +1,33 @@
 {
   "match_id": "2026-08-15-blanxz-vs-SeriousChallenges",
-  "video_url": "https://www.youtube.com/watch?v=GhBs26IE0Lo",
   "match_date": "2026-08-15",
-  "season": 6,
+  "season": "6",
   "match_type": "round_robin",
   "player_red_name": "blanxz",
   "player_blue_name": "SeriousChallenges",
-  "extracted_at": "2026-09-13",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=GhBs26IE0Lo",
+    "duration_s": 14410.783333333333,
+    "published_at": "2026-08-22",
+    "extracted_at": "2026-09-21"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
   "games": [
     {
       "game_index": 1,
-      "start_video_ts_s": 0.0,
-      "end_video_ts_s": 173.0,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3946.0,
       "game_type": "base",
       "winner_color": "blue",
       "win_type": "majority",
+      "win_line": null,
       "square_texts": [
         [
           "Acquire 3 Memory Stones",
@@ -25,10 +38,10 @@
         ],
         [
           "Kill 10 Sheep with AoW Lightning Ram Only",
-          "Kill 4 Bosses with God in their name",
+          "Kill 4 Bosses with \"God\" in their name",
           "Kill Greyoll without Status Effects",
           "Return Thops's Academy Key",
-          "Acquire 14 Unique incantations"
+          "Acquire 14 Unique Incantations"
         ],
         [
           "Acquire 6 Unique Staves",
@@ -39,14 +52,14 @@
         ],
         [
           "Finish off a Boss with the Explosive Physick",
-          "Killa Godskin Apostle",
+          "Kill a Godskin Apostle",
           "Kill 3 Unique Tree Spirits",
-          "Kil Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
           "Acquire 4 Larval Tears from Transforming Enemies"
         ],
         [
-          "Kill 4 Bosses in Altus Plateau Mt. Gelmir",
-          "Killa Remembrance Boss with Daggers Only",
+          "Kill 4 Bosses in Altus Plateau / Mt. Gelmir",
+          "Kill a Remembrance Boss with Daggers Only",
           "Kill 4 NPC Invaders",
           "Kill 3 Friendly NPCs (No Hermit Merchants)",
           "Restore Rykard's Great Rune"
@@ -56,186 +69,509 @@
         {
           "row": null,
           "col": null,
+          "square_text": null,
           "color": null,
           "event_type": "game_start",
           "game_timer": "00:00:00",
-          "video_ts_s": 7.0
-        },
-        {
-          "row": 0,
-          "col": 4,
-          "color": "red",
-          "event_type": "mark",
-          "game_timer": "00:09:42",
-          "video_ts_s": 28.0
-        },
-        {
-          "row": 2,
-          "col": 1,
-          "color": "red",
-          "event_type": "mark",
-          "game_timer": "00:13:10",
-          "video_ts_s": 30.0
-        },
-        {
-          "row": 4,
-          "col": 3,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:16:33",
-          "video_ts_s": 33.0
-        },
-        {
-          "row": 3,
-          "col": 1,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:18:33",
-          "video_ts_s": 39.0
-        },
-        {
-          "row": 0,
-          "col": 3,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:18:34",
-          "video_ts_s": 40.0
-        },
-        {
-          "row": 4,
-          "col": 0,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:21:23",
-          "video_ts_s": 50.0
-        },
-        {
-          "row": 2,
-          "col": 3,
-          "color": "red",
-          "event_type": "mark",
-          "game_timer": "00:28:24",
-          "video_ts_s": 56.0
+          "video_ts_s": 169.0
         },
         {
           "row": 1,
-          "col": 2,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
           "color": "red",
           "event_type": "mark",
-          "game_timer": "00:29:22",
-          "video_ts_s": 61.0
+          "game_timer": "00:05:54",
+          "video_ts_s": 523.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Margit with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:46",
+          "video_ts_s": 755.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:17",
+          "video_ts_s": 966.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:39",
+          "video_ts_s": 1168.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:48",
+          "video_ts_s": 1237.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 4 Bosses in Altus Plateau / Mt. Gelmir",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:44",
+          "video_ts_s": 1293.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 3 Unique Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:29",
+          "video_ts_s": 1458.0
         },
         {
           "row": 2,
-          "col": 2,
-          "color": "blue",
+          "col": 3,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "red",
           "event_type": "mark",
-          "game_timer": "00:32:39",
-          "video_ts_s": 68.0
+          "game_timer": "00:28:29",
+          "video_ts_s": 1878.0
         },
         {
           "row": 3,
           "col": 3,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:29",
+          "video_ts_s": 1938.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:32:44",
-          "video_ts_s": 73.0
+          "video_ts_s": 2133.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:55",
+          "video_ts_s": 2144.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 3 Memory Stones",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:42",
+          "video_ts_s": 2311.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Soldier of Godrick with Bare Fists Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:33",
+          "video_ts_s": 2362.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 10 Sheep with AoW Lightning Ram Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:21",
+          "video_ts_s": 2590.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Return Thops's Academy Key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:21",
+          "video_ts_s": 2770.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 4 Bosses with \"God\" in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:41",
+          "video_ts_s": 2790.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:17",
+          "video_ts_s": 2826.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 3 Unique Tree Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:40",
+          "video_ts_s": 3149.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:47",
+          "video_ts_s": 3276.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:02",
+          "video_ts_s": 3531.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 4 Larval Tears from Transforming Enemies",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:33",
+          "video_ts_s": 3742.0
         },
         {
           "row": 4,
           "col": 1,
-          "color": "red",
-          "event_type": "mark",
-          "game_timer": "00:35:36",
-          "video_ts_s": 82.0
-        },
-        {
-          "row": 0,
-          "col": 0,
+          "square_text": "Finish off a Boss with the Explosive Physick",
           "color": "blue",
           "event_type": "mark",
-          "game_timer": "00:35:42",
-          "video_ts_s": 88.0
+          "game_timer": "01:02:31",
+          "video_ts_s": 3920.0
         },
         {
-          "row": 0,
-          "col": 1,
-          "color": "red",
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:02:31",
+          "video_ts_s": 3920.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3948.0,
+      "end_video_ts_s": 9506.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire the Two-Headed Turtle Talisman",
+          "Memory of Grace with 500k+ Runes",
+          "Use a Transformation",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Complete 2 Nameless Mausoleums"
+        ],
+        [
+          "Give the Secret Rite Scroll to Ansbach",
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Acquire 4 Enemy/NPC Dropped Talismans",
+          "Kill Metyr",
+          "Kill 1 Unique Divine Bird Warrior"
+        ],
+        [
+          "Kill 2 Hippos",
+          "Level 5 Revered Spirit Ash",
+          "Craft 3 Unique Hefty Pots",
+          "Kill 3 Bosses with \"Knight\" in their name",
+          "Acquire 3 DLC Spirit Ashes"
+        ],
+        [
+          "Kill Crucible Knight Devonia",
+          "Kill the Colossal Fingercreeper",
+          "Acquire 2 Blessings of Marika",
+          "Kill 3 Dragon Bosses",
+          "Level 9 Scadu"
+        ],
+        [
+          "Kill Curseblade Labirith",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Acquire a Leda Rune",
+          "Acquire 5 Non-Merchant Incantations",
+          "Kill Ancient Dragon Senessax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4127.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Craft 3 Unique Hefty Pots",
+          "color": "blue",
           "event_type": "mark",
-          "game_timer": "00:40:14",
-          "video_ts_s": 96.0
+          "game_timer": "00:04:32",
+          "video_ts_s": 4399.0
         },
         {
           "row": 1,
-          "col": 0,
+          "col": 1,
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:14",
+          "video_ts_s": 4441.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 2 Blessings of Marika",
           "color": "red",
           "event_type": "mark",
-          "game_timer": "00:40:21",
-          "video_ts_s": 103.0
+          "game_timer": "00:05:43",
+          "video_ts_s": 4470.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:42",
+          "video_ts_s": 5009.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:01",
+          "video_ts_s": 5868.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 2 Hippos",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:05",
+          "video_ts_s": 5872.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Level 9 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:00",
+          "video_ts_s": 5987.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Unique Divine Bird Warrior",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:45",
+          "video_ts_s": 6092.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:50",
+          "video_ts_s": 6097.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:16",
+          "video_ts_s": 6303.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:29",
+          "video_ts_s": 6376.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:58",
+          "video_ts_s": 6585.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:39",
+          "video_ts_s": 6626.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:32",
+          "video_ts_s": 6979.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:38",
+          "video_ts_s": 7105.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Curseblade Labirith",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:10",
+          "video_ts_s": 7257.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:22",
+          "video_ts_s": 7329.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:32",
+          "video_ts_s": 7399.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Bosses with \"Knight\" in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:02",
+          "video_ts_s": 7609.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:03",
+          "video_ts_s": 7970.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:53",
+          "video_ts_s": 8140.0
         },
         {
           "row": 1,
           "col": 3,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:43:33",
-          "video_ts_s": 117.0
-        },
-        {
-          "row": 1,
-          "col": 1,
+          "square_text": "Use a Transformation",
           "color": "red",
           "event_type": "mark",
-          "game_timer": "00:43:41",
-          "video_ts_s": 125.0
+          "game_timer": "01:11:24",
+          "video_ts_s": 8411.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:00",
+          "video_ts_s": 8747.0
         },
         {
           "row": 2,
-          "col": 0,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:49:36",
-          "video_ts_s": 135.0
-        },
-        {
-          "row": 3,
-          "col": 2,
+          "col": 4,
+          "square_text": "Kill Metyr",
           "color": "red",
           "event_type": "mark",
-          "game_timer": "00:49:40",
-          "video_ts_s": 139.0
+          "game_timer": "01:23:32",
+          "video_ts_s": 9139.0
         },
         {
-          "row": 1,
-          "col": 4,
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 4 Enemy/NPC Dropped Talismans",
           "color": "blue",
           "event_type": "mark",
-          "game_timer": "00:55:56",
-          "video_ts_s": 141.0
+          "game_timer": "01:28:32",
+          "video_ts_s": 9439.0
         },
         {
-          "row": 4,
-          "col": 2,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:59:27",
-          "video_ts_s": 147.0
-        },
-        {
-          "row": 3,
-          "col": 4,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:59:33",
-          "video_ts_s": 153.0
-        },
-        {
-          "row": 3,
-          "col": 0,
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "01:02:31",
-          "video_ts_s": 165.0
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:28:32",
+          "video_ts_s": 9439.0
         }
       ]
     }

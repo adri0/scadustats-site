@@ -52,7 +52,7 @@
         ],
         [
           "Duplicate a Remembrance",
-          "Kill Mohg Lord of Blood",
+          "Kill Mohg, Lord of Blood",
           "Kill 4 Bosses in Caelid / Dragonbarrow",
           "Acquire 4 Memory Stones",
           "Acquire Grave and Ghost Glovewort Bell Bearings [2]"
@@ -96,7 +96,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Kill Mohg Lord of Blood",
+          "square_text": "Kill Mohg, Lord of Blood",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:23:38",

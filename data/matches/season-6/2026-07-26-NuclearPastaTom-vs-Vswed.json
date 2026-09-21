@@ -322,7 +322,7 @@
       "square_texts": [
         [
           "Kill Putrescent Knight",
-          "Kill Moonrithyll Carian Knight",
+          "Kill Moonrithyll, Carian Knight",
           "Kill a Boss with Incantations Only",
           "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
           "Acquire the Kindred Cookbook from Moore"
@@ -337,14 +337,14 @@
         [
           "Kill Romina",
           "Kill 3 Dragon Bosses",
-          "Killa Remembrance Boss Hitless",
+          "Kill a Remembrance Boss Hitless",
           "Kill the Fallingstar Beast",
           "Kill Chief Bloodfiend"
         ],
         [
           "Acquire 3 Non-Merchant Sorceries",
           "Complete 2 Gaols",
-          "Kill 3 Bosses with Knight in their name",
+          "Kill 3 Bosses with \"Knight\" in their name",
           "Kill 3 Unique Horned Warriors",
           "Kill all 3 Red Bears"
         ],
@@ -396,7 +396,7 @@
         {
           "row": 1,
           "col": 2,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:18:41",
@@ -459,7 +459,7 @@
         {
           "row": 3,
           "col": 3,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:41:32",
@@ -495,7 +495,7 @@
         {
           "row": 4,
           "col": 3,
-          "square_text": "Kill 3 Bosses with Knight in their name",
+          "square_text": "Kill 3 Bosses with \"Knight\" in their name",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:50:50",

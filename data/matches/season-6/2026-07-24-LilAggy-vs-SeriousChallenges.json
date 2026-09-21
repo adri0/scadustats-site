@@ -30,7 +30,7 @@
       "win_line": null,
       "square_texts": [
         [
-          "Killa Remembrance Boss with incantations Only",
+          "Kill a Remembrance Boss with Incantations Only",
           "Kill 2 Magma Wyrms",
           "Kill 2 Omenkiller Bosses",
           "Kill 2 Unique Night's Cavalry",
@@ -59,7 +59,7 @@
         ],
         [
           "Kill a Remembrance Boss with Remembrance Weapons Only",
-          "Kill Mohg the Omen",
+          "Kill Mohg, the Omen",
           "Kill Ancient Dragon Lansseax",
           "Kill Both Astel Bosses",
           "Kill 4 Bell Bearing Hunters"
@@ -285,7 +285,7 @@
         {
           "row": 1,
           "col": 1,
-          "square_text": "Killa Remembrance Boss with incantations Only",
+          "square_text": "Kill a Remembrance Boss with Incantations Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:32:12",
@@ -294,7 +294,7 @@
         {
           "row": 5,
           "col": 2,
-          "square_text": "Kill Mohg the Omen",
+          "square_text": "Kill Mohg, the Omen",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:36:43",
@@ -325,7 +325,7 @@
           "Drain the Water in the Church District",
           "Level 5 Revered Spirit Ash",
           "Kill 4 Unique Horned Warriors",
-          "Kill Moonrithyll Carian Knight"
+          "Kill Moonrithyll, Carian Knight"
         ],
         [
           "Acquire the Kindred Cookbook from Moore",
@@ -343,7 +343,7 @@
         ],
         [
           "Kill Crucible Knight Devonia",
-          "acquire 2 Kindred Cookbooks",
+          "Acquire 2 Kindred Cookbooks",
           "Kill 3 Ulcerated Tree Spirits",
           "Kill a Boss after Inflicting 3 Unique Status Effects",
           "Acquire 3 Non-Merchant Sorceries"
@@ -369,7 +369,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "acquire 2 Kindred Cookbooks",
+          "square_text": "Acquire 2 Kindred Cookbooks",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:05:28",
@@ -387,7 +387,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:09:43",

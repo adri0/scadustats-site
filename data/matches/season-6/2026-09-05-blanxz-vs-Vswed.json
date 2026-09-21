@@ -1,0 +1,570 @@
+{
+  "match_id": "2026-09-05-blanxz-vs-Vswed",
+  "match_date": "2026-09-05",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "blanxz",
+  "player_blue_name": "Vswed",
+  "commentators": [
+    "starOchris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=VFLmStMQ0B0",
+    "duration_s": 15674.3,
+    "published_at": "2026-09-06",
+    "extracted_at": "2026-09-21"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2275.0,
+      "end_video_ts_s": 8659.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 4 Unique Crucible Knights",
+          "Acquire 4 Unique Seals",
+          "Kill 3 Dragon Heart Bosses",
+          "Restore Morgott's Great Rune",
+          "Kill Fia's Champions"
+        ],
+        [
+          "Kill Morgott",
+          "Kill 4 Bell Bearing Hunters",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "30 Arcane",
+          "Kill Fire Giant"
+        ],
+        [
+          "Kill Leonine Misbegotten",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Kill Roundtable Knight Vyke",
+          "Kill 4 Bosses in Caelid / Dragonbarrow",
+          "Kill Preceptor Miriam"
+        ],
+        [
+          "Acquire 14 Unique Incantations",
+          "Kill 3 Duo/Trio Bosses",
+          "Acquire 4 Whetstone Knives",
+          "Kill 3 Magma Wyrms",
+          "Kill a Remembrance Boss with Sorceries Only"
+        ],
+        [
+          "Kill the Sleeping Golem in Leyndell",
+          "Restore Radahn's Great Rune",
+          "Kill 3 Unique Tree Spirits",
+          "Kill Mohg, Lord of Blood",
+          "Kill Mohg, the Omen"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 2471.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "30 Arcane",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:17",
+          "video_ts_s": 2848.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:44",
+          "video_ts_s": 3355.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:17",
+          "video_ts_s": 3868.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:56",
+          "video_ts_s": 3967.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 4 Bosses in Caelid / Dragonbarrow",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:48",
+          "video_ts_s": 4079.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:22",
+          "video_ts_s": 4173.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:52",
+          "video_ts_s": 4503.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:55",
+          "video_ts_s": 4746.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:06",
+          "video_ts_s": 4817.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Mohg, Lord of Blood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:14",
+          "video_ts_s": 5185.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:00",
+          "video_ts_s": 5231.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 4 Unique Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:54",
+          "video_ts_s": 5405.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss with Sorceries Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:44",
+          "video_ts_s": 5575.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:25",
+          "video_ts_s": 5796.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Morgott",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:46",
+          "video_ts_s": 6297.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Mohg, the Omen",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:14",
+          "video_ts_s": 6445.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:34",
+          "video_ts_s": 6585.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Fire Giant",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:19",
+          "video_ts_s": 6930.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:14:19",
+          "video_ts_s": 6930.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 4 Whetstone Knives",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:14",
+          "video_ts_s": 7105.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 4 Unique Crucible Knights",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:50",
+          "video_ts_s": 7321.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Restore Morgott's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:25:42",
+          "video_ts_s": 7613.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 4 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:34:21",
+          "video_ts_s": 8132.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Magma Wyrms",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:40:15",
+          "video_ts_s": 8486.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Fia's Champions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:42:26",
+          "video_ts_s": 8617.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:42:26",
+          "video_ts_s": 8617.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 9340.0,
+      "end_video_ts_s": 14126.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Duplicate a Remembrance 3 times",
+          "Acquire the Two-Headed Turtle Talisman",
+          "Kill 5 Unique Horned Warriors",
+          "Acquire 3 Enemy/NPC Dropped Talismans",
+          "Kill Scadutree Avatar"
+        ],
+        [
+          "Give an lris of Grace",
+          "Level 5 Revered Spirit Ash",
+          "Acquire 2 Kindred Cookbooks",
+          "Craft 3 Unique Hefty Pots",
+          "Kill 1 Demi-Human Swordmaster"
+        ],
+        [
+          "Kill the Colossal Fingercreeper",
+          "Kill Queelign in Belurat",
+          "Memory of Grace with 500k+ Runes",
+          "Acquire 2 Dragon Hearts",
+          "Kill Bayle"
+        ],
+        [
+          "Give the Secret Rite Scroll to Ansbach",
+          "Kill Lamenter",
+          "Kill 3 Dragon Bosses",
+          "Acquire 3 Unique Max Upgrade Materials",
+          "Acquire 3 Non-Merchant Sorceries"
+        ],
+        [
+          "Level 11 Scadu",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill 1 Furnace Golem",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Kill 2 Unique Divine Bird Warriors"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 9556.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:26",
+          "video_ts_s": 9823.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:40",
+          "video_ts_s": 10077.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Craft 3 Unique Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:08",
+          "video_ts_s": 10165.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Level 5 Revered Spirit Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:07",
+          "video_ts_s": 10464.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:51",
+          "video_ts_s": 11108.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:09",
+          "video_ts_s": 11306.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:57",
+          "video_ts_s": 11414.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:57",
+          "video_ts_s": 11534.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Unique Max Upgrade Materials",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:29",
+          "video_ts_s": 11566.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:54",
+          "video_ts_s": 11891.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:15",
+          "video_ts_s": 12152.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 1 Furnace Golem",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:14",
+          "video_ts_s": 12271.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Level 11 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:10",
+          "video_ts_s": 12327.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Give an lris of Grace",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:44",
+          "video_ts_s": 12481.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:23",
+          "video_ts_s": 12820.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Duplicate a Remembrance 3 times",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:17",
+          "video_ts_s": 13054.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Demi-Human Swordmaster",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:22",
+          "video_ts_s": 13179.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:11",
+          "video_ts_s": 13348.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 2 Unique Divine Bird Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:26",
+          "video_ts_s": 13603.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 5 Unique Horned Warriors",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:40",
+          "video_ts_s": 13977.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 Enemy/NPC Dropped Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:15:21",
+          "video_ts_s": 14078.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:15:21",
+          "video_ts_s": 14078.0
+        }
+      ]
+    }
+  ]
+}

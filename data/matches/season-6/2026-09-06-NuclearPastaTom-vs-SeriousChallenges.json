@@ -311,7 +311,7 @@
         ],
         [
           "Kill Lamenter",
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Put Florissax to Sleep",
           "Acquire 3 DLC Ashes of War",
           "Rune Level 85"
@@ -378,7 +378,7 @@
         {
           "row": 2,
           "col": 2,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:15:10",

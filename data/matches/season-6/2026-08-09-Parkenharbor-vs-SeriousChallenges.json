@@ -30,7 +30,7 @@
       "win_line": null,
       "square_texts": [
         [
-          "Kill Mohg Lord of Blood",
+          "Kill Mohg, Lord of Blood",
           "Kill Malenia",
           "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
           "Complete 2 Evergaols",
@@ -58,7 +58,7 @@
           "Acquire 2 Imbued Sword Keys"
         ],
         [
-          "Kill 5 Bosses in Caelid Dragonbarrow",
+          "Kill 5 Bosses in Caelid / Dragonbarrow",
           "Kill 3 Bell Bearing Hunters",
           "Restore Rykard's Great Rune",
           "Kill Magnus the Beast Claw",
@@ -195,7 +195,7 @@
         {
           "row": 5,
           "col": 1,
-          "square_text": "Kill 5 Bosses in Caelid Dragonbarrow",
+          "square_text": "Kill 5 Bosses in Caelid / Dragonbarrow",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:07:16",
@@ -296,13 +296,13 @@
           "Kill Leda and her Allies",
           "Kill a Death Knight",
           "Kill 2 Unique Base Game Bosses in the DLC",
-          "Kill 3 Bosses with Knight in their name"
+          "Kill 3 Bosses with \"Knight\" in their name"
         ],
         [
           "Kill the Rolling Giant Lightning Ram",
           "Drink Thiollier's Concoction",
           "Acquire 2 Dragon Hearts",
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Acquire 2 Full DLC Armor Sets"
         ],
         [
@@ -342,7 +342,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:08:28",
@@ -450,7 +450,7 @@
         {
           "row": 2,
           "col": 5,
-          "square_text": "Kill 3 Bosses with Knight in their name",
+          "square_text": "Kill 3 Bosses with \"Knight\" in their name",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:47:30",

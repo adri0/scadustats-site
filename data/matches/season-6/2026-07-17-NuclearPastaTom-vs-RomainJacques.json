@@ -297,7 +297,7 @@
           "Burn the Sealing Tree",
           "Kill 3 Dragon Bosses",
           "Kill Romina",
-          "Kill Moonrithyll Carian Knight",
+          "Kill Moonrithyll, Carian Knight",
           "Acquire a Leda Rune"
         ],
         [
@@ -342,7 +342,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:17:37",

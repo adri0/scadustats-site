@@ -40,7 +40,7 @@
           "Acquire Sacred Flask +7",
           "Kill Rykard",
           "Restore Radahn's Great Rune",
-          "Kill 3 Duo Trio Bosses",
+          "Kill 3 Duo/Trio Bosses",
           "Acquire 12 Unique Sorceries"
         ],
         [
@@ -105,7 +105,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Kill 3 Duo Trio Bosses",
+          "square_text": "Kill 3 Duo/Trio Bosses",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:25:31",
@@ -235,8 +235,8 @@
         ],
         [
           "Kill 2 Unique Divine Bird Warriors",
-          "Kill Jori Elder Inquisitor",
-          "Killa Remembrance Boss Hitless",
+          "Kill Jori, Elder Inquisitor",
+          "Kill a Remembrance Boss Hitless",
           "Give an lris of Grace",
           "Acquire the Golden Braid"
         ],
@@ -288,7 +288,7 @@
         {
           "row": 4,
           "col": 3,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:17:26",
@@ -405,7 +405,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Kill Jori Elder Inquisitor",
+          "square_text": "Kill Jori, Elder Inquisitor",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:52:12",

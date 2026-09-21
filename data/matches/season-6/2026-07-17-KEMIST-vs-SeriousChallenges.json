@@ -242,7 +242,7 @@
         [
           "Kill 2 Unique Divine Bird Warriors",
           "Acquire 4 Kindred Cookbooks",
-          "Killa Remembrance Boss Hitless",
+          "Kill a Remembrance Boss Hitless",
           "Blow a Finger",
           "Acquire a Leda Rune"
         ],
@@ -351,7 +351,7 @@
         {
           "row": 1,
           "col": 3,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:44:07",

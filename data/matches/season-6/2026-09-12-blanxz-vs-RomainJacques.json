@@ -1,0 +1,453 @@
+{
+  "match_id": "2026-09-12-blanxz-vs-RomainJacques",
+  "match_date": "2026-09-12",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "blanxz",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=cpf8i1x16d4",
+    "duration_s": 14435.154066666666,
+    "published_at": "2026-09-15",
+    "extracted_at": "2026-09-21"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0020000000000002,
+      "end_video_ts_s": 2923.003416666667,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Kill Fia's Champions",
+          "Restore Morgott's Great Rune",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "Kill Magma Wyrm Makar",
+          "Kill Mohg, Lord of Blood"
+        ],
+        [
+          "Complete 2 Caves",
+          "Kill Rykard",
+          "Acquire 4 Whetstone Knives",
+          "Restore Rykard's Great Rune",
+          "Kill Borealis"
+        ],
+        [
+          "Complete 3 Catacombs",
+          "Acquire 3 Painting Rewards",
+          "Kill a Remembrance Boss with Sorceries Only",
+          "Kill Grafted Scion (Chapel)",
+          "Kill 3 Unique Watchdogs"
+        ],
+        [
+          "Acquire 2 Imbued Sword Keys",
+          "Acquire Both Scarseal Talismans",
+          "Acquire 4 Memory Stones",
+          "Kill Greyoll without Status Effects",
+          "Duplicate a Remembrance"
+        ],
+        [
+          "Kill 4 Unique Tibia Mariners",
+          "Kill 2 Magma Wyrms",
+          "Kill 10 Sheep with AoW Lightning Ram Only",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Acquire the Full Haligtree Medallion"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 188.00448333333333
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Grafted Scion (Chapel)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:01:13",
+          "video_ts_s": 261.01075000000003
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Complete 2 Caves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:14",
+          "video_ts_s": 502.0015
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:57",
+          "video_ts_s": 785.0008833333334
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Borealis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:53",
+          "video_ts_s": 1441.0062333333333
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:17",
+          "video_ts_s": 1705.0033
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Mohg, Lord of Blood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:23",
+          "video_ts_s": 1891.0057833333333
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:23",
+          "video_ts_s": 2251.0154333333335
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Complete 3 Catacombs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:13",
+          "video_ts_s": 2481.0118666666667
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Unique Watchdogs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:14",
+          "video_ts_s": 2482.012866666667
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Sorceries Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:20",
+          "video_ts_s": 2608.0054
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:57",
+          "video_ts_s": 2888.0017833333336
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:44:57",
+          "video_ts_s": 2888.0017833333336
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 2924.0044166666667,
+      "end_video_ts_s": 6934.010416666667,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 2 Full DLC Armor Sets",
+          "Give an Iris of Occultation",
+          "Kill Queelign in Belurat",
+          "Kill 1 Red Bear",
+          "Kill a Remembrance Boss Hitless"
+        ],
+        [
+          "Acquire 2 Kindred Cookbooks",
+          "Kill Moonrithyll, Carian Knight",
+          "Complete all 4 Nameless Mausoleums",
+          "Kill Crucible Knight Devonia",
+          "Kill the Golden Hippo"
+        ],
+        [
+          "Kill Curseblade Labirith",
+          "Give an lris of Grace",
+          "Kill a Boss with Sorceries Only",
+          "Kill the Ancient Dragon-Man",
+          "Acquire the Kindred Cookbook from Moore"
+        ],
+        [
+          "Blow a Finger",
+          "Acquire Jolan Summon",
+          "Kill Romina",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill 1 Demi-Human Swordmaster"
+        ],
+        [
+          "Kill Scadutree Avatar",
+          "Kill 2 Dancing Lions",
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Acquire the Golden Braid"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3109.0059
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill the Ancient Dragon-Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:49",
+          "video_ts_s": 3398.0112833333333
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 2 Full DLC Armor Sets",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:37",
+          "video_ts_s": 3746.0089333333335
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill the Golden Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:46",
+          "video_ts_s": 3815.0112
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 1 Red Bear",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:26",
+          "video_ts_s": 3855.00115
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:07",
+          "video_ts_s": 3956.00205
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 1 Demi-Human Swordmaster",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:30",
+          "video_ts_s": 4339.001333333334
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:47",
+          "video_ts_s": 4416.0116
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:11",
+          "video_ts_s": 4560.00545
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Blow a Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:37",
+          "video_ts_s": 4706.0013
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:48",
+          "video_ts_s": 4717.0123
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Curseblade Labirith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:22",
+          "video_ts_s": 4931.009416666667
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:26",
+          "video_ts_s": 4935.013416666667
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:05",
+          "video_ts_s": 5154.015533333333
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:02",
+          "video_ts_s": 5211.0058
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:40",
+          "video_ts_s": 5429.006916666667
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:20",
+          "video_ts_s": 5709.0033
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:29",
+          "video_ts_s": 5838.015516666666
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:45",
+          "video_ts_s": 5914.0081
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Give an lris of Grace",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:45",
+          "video_ts_s": 6574.000766666667
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Jolan Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:57",
+          "video_ts_s": 6586.012766666667
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:36",
+          "video_ts_s": 6805.014883333333
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 2 Dancing Lions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:12",
+          "video_ts_s": 6901.010783333333
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:03:12",
+          "video_ts_s": 6901.010783333333
+        }
+      ]
+    }
+  ]
+}

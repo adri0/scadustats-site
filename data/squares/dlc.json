@@ -11,7 +11,7 @@
   },
   {
     "id": "adm",
-    "text": "Kill the Ancient Dragon Man",
+    "text": "Kill the Ancient Dragon-Man",
     "game_type": "dlc"
   },
   {
@@ -326,7 +326,7 @@
   },
   {
     "id": "knight_bosses_3",
-    "text": "Kill 3 Bosses with Knight in their name",
+    "text": "Kill 3 Bosses with \"Knight\" in their name",
     "game_type": "dlc"
   },
   {

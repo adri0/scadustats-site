@@ -339,7 +339,7 @@
           "Kill the Rolling Giant Lightning Ram",
           "Kill Promised Consort Radahn",
           "Complete 2 Catacombs",
-          "Kill the Ancient Dragon Man"
+          "Kill the Ancient Dragon-Man"
         ],
         [
           "Complete all 4 Nameless Mausoleums",
@@ -396,7 +396,7 @@
         {
           "row": 3,
           "col": 5,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:18:24",

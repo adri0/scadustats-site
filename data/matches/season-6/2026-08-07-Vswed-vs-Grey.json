@@ -52,7 +52,7 @@
         ],
         [
           "Kill a Remembrance Boss with Whips Only",
-          "Kill 3 Duo Trio Bosses",
+          "Kill 3 Duo/Trio Bosses",
           "Kill Greyoll without Status Effects",
           "Duplicate a Remembrance",
           "Acquire Both Scarseal Talismans"
@@ -141,7 +141,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Kill 3 Duo Trio Bosses",
+          "square_text": "Kill 3 Duo/Trio Bosses",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:26:54",
@@ -301,7 +301,7 @@
           "Kill a Remembrance Boss with Remembrance Weapons Only"
         ],
         [
-          "Kill Moonrithyll Carian Knight",
+          "Kill Moonrithyll, Carian Knight",
           "Kill Rellana",
           "Acquire 3 Unique Max Upgrade Materials",
           "Acquire 3 NPC Dropped Weapons",
@@ -360,7 +360,7 @@
         {
           "row": 2,
           "col": 1,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:16:40",

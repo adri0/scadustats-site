@@ -46,7 +46,7 @@
         [
           "Kill 2 Duelist Bosses",
           "Kill a Remembrance Boss with Bows Only",
-          "Kill Mohg Lord of Blood",
+          "Kill Mohg, Lord of Blood",
           "Acquire the Fingerslayer Blade",
           "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only"
         ],
@@ -105,7 +105,7 @@
         {
           "row": 3,
           "col": 3,
-          "square_text": "Kill Mohg Lord of Blood",
+          "square_text": "Kill Mohg, Lord of Blood",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:20:21",
@@ -216,7 +216,7 @@
           "Kill a Remembrance Boss Hitless",
           "Kill 5 Unique Horned Warriors",
           "Kill the Fallingstar Beast",
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Acquire 3 Enemy/NPC Dropped Talismans"
         ],
         [
@@ -261,7 +261,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:04:27",

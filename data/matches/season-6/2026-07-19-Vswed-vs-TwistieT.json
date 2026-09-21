@@ -318,13 +318,13 @@
         ],
         [
           "Kill Rakshasa",
-          "Kill Moonrithyll Carian Knight",
+          "Kill Moonrithyll, Carian Knight",
           "Complete 2 Gaols",
           "Memory of Grace with 500k+ Runes",
-          "Kill the Ancient Dragon Man"
+          "Kill the Ancient Dragon-Man"
         ],
         [
-          "Kill 3 Bosses with Knight in their name",
+          "Kill 3 Bosses with \"Knight\" in their name",
           "Acquire 3 DLC Spirit Ashes",
           "Drain the Water in the Church District",
           "Kill Messmer",
@@ -414,7 +414,7 @@
         {
           "row": 3,
           "col": 2,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:31:07",
@@ -423,7 +423,7 @@
         {
           "row": 3,
           "col": 5,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:34:44",

@@ -178,7 +178,7 @@
       "square_texts": [
         [
           "Acquire 3 NPC Dropped Weapons",
-          "Kill 3 Bosses with Knight in their name",
+          "Kill 3 Bosses with \"Knight\" in their name",
           "Use a Transformation",
           "Kill Moonrithyll, Carian Knight",
           "Kill 3 Ulcerated Tree Spirits"
@@ -198,7 +198,7 @@
           "Kill Crucible Knight Devonia"
         ],
         [
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Acquire Igon's Furled Finger",
           "Give an Iris of Occultation",
           "Give an lris of Grace",
@@ -243,7 +243,7 @@
         {
           "row": 4,
           "col": 1,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:16:21",
@@ -297,7 +297,7 @@
         {
           "row": 1,
           "col": 2,
-          "square_text": "Kill 3 Bosses with Knight in their name",
+          "square_text": "Kill 3 Bosses with \"Knight\" in their name",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:33:33",

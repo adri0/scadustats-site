@@ -284,12 +284,12 @@
           "Kill a Boss after Inflicting 3 Unique Status Effects",
           "Complete 2 Forges",
           "Kill Bayle",
-          "Killa Remembrance Boss Hitless",
+          "Kill a Remembrance Boss Hitless",
           "Acquire 3 Kindred Cookbooks"
         ],
         [
           "Acquire 5 Non-Merchant Incantations",
-          "Acquire 4 Enemy NPC Dropped Talismans",
+          "Acquire 4 Enemy/NPC Dropped Talismans",
           "Burn the Sealing Tree",
           "Acquire 3 Unique Max Upgrade Materials",
           "Acquire 2 Painting Rewards"
@@ -369,7 +369,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:33:28",
@@ -513,7 +513,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Acquire 4 Enemy NPC Dropped Talismans",
+          "square_text": "Acquire 4 Enemy/NPC Dropped Talismans",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:36:22",
