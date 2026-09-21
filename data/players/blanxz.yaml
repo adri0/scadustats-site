@@ -6,20 +6,22 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 4
+    wins: 6
     losses: 1
     draws: 0
 game_record:
-  wins: 9
-  losses: 2
+  wins: 13
+  losses: 3
 game_type_records:
   base:
-    wins: 5
+    wins: 7
     losses: 1
   dlc:
-    wins: 4
-    losses: 1
+    wins: 6
+    losses: 2
 all_matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-15-blanxz-vs-SeriousChallenges
 - 2026-08-07-blanxz-vs-Raydans
@@ -27,24 +29,24 @@ all_matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
 top_squares_base_game:
-- text: Kill 3 Friendly NPCs (No Hermit Merchants)
-  marks: 4
 - text: Acquire Both Scarseal Talismans
+  marks: 3
+- text: Kill 3 Friendly NPCs (No Hermit Merchants)
+  marks: 3
+- text: 30 Arcane
   marks: 2
 - text: Acquire Smithing Stone Bell Bearing [1] and [2]
   marks: 2
 - text: Complete 2 Catacombs
   marks: 2
-- text: Complete an Altus Plateau or Mt. Gelmir Hero's Grave
-  marks: 2
 top_squares_dlc:
 - text: Blow a Finger
-  marks: 3
+  marks: 4
 - text: Kill 1 Unique Base Game Boss in the DLC
-  marks: 3
+  marks: 4
+- text: Kill Scadutree Avatar
+  marks: 4
 - text: Memory of Grace with 500k+ Runes
+  marks: 4
+- text: Kill 1 Demi-Human Swordmaster
   marks: 3
-- text: Put Florissax to Sleep
-  marks: 3
-- text: Acquire Commander Gaius's Pants
-  marks: 2

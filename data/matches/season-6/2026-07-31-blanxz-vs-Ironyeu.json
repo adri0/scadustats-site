@@ -51,7 +51,7 @@
           "Kill 1 Duelist Boss"
         ],
         [
-          "Restore Rykard s Great Rune",
+          "Restore Rykard's Great Rune",
           "Kill Morgott",
           "Acquire the Fingerslayer Blade",
           "Acquire 3 Imbued Sword Keys",
@@ -258,7 +258,7 @@
           "Kill 3 NPC Bosses",
           "Kill the Rolling Giant Lightning Ram",
           "Complete 2 Catacombs",
-          "Kill 3 Bosses with Knight in their name"
+          "Kill 3 Bosses with \"Knight\" in their name"
         ],
         [
           "Put Florissax to Sleep",
@@ -360,7 +360,7 @@
         {
           "row": 3,
           "col": 5,
-          "square_text": "Kill 3 Bosses with Knight in their name",
+          "square_text": "Kill 3 Bosses with \"Knight\" in their name",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:40:06",

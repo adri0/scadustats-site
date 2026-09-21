@@ -45,22 +45,22 @@
         ],
         [
           "Kill a Black Blade Kindred",
-          "Killa Remembrance Boss with Daggers Only",
+          "Kill a Remembrance Boss with Daggers Only",
           "Kill Elemer of the Briar",
           "Restore Rykard's Great Rune",
           "Kill Both Astel Bosses"
         ],
         [
           "Kill 1 Duelist Boss",
-          "Killa Remembrance Boss with Remembrance Weapons Only",
-          "Kill2 Deathbirds and 1 Death Rite Bird",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
           "Kill Crucible Knight and Misbegotten Warrior Duo",
           "30 Intelligence"
         ],
         [
           "Give Hyetta 3 Shabriri Grapes",
           "Acquire Both Scarseal Talismans",
-          "Acquire Smithing Stone Bell Bearing 1 and 2",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
           "Kill 4 NPC Invaders",
           "Kill Fia's Champions"
         ]
@@ -96,7 +96,7 @@
         {
           "row": 3,
           "col": 2,
-          "square_text": "Killa Remembrance Boss with Daggers Only",
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:18:03",
@@ -150,7 +150,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Killa Remembrance Boss with Remembrance Weapons Only",
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:43:07",
@@ -186,7 +186,7 @@
         {
           "row": 4,
           "col": 3,
-          "square_text": "Kill2 Deathbirds and 1 Death Rite Bird",
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:54:01",
@@ -259,10 +259,10 @@
       "square_texts": [
         [
           "Kill Lamenter",
-          "Kill 3 Bosses with Knight in their name",
+          "Kill 3 Bosses with \"Knight\" in their name",
           "Drain the Water in the Church District",
-          "Kill 2 Demi Human Swordmasters",
-          "x Kill the Ancient Dragon Man"
+          "Kill 2 Demi-Human Swordmasters",
+          "Kill the Ancient Dragon-Man"
         ],
         [
           "Kill 3 Unique Curseblade Assassins",
@@ -280,14 +280,14 @@
         ],
         [
           "Rune Level 85",
-          "Kill 1 Boss of each Bear Lion Hippo",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
           "Kill Romina",
           "Acquire Jolan Summon",
-          "Kill a Boss after Inflicting 4 Different Status Effects"
+          "Kill a Boss after Inflicting 4 Unique Status Effects"
         ],
         [
-          "Acquire the Two Headed Turtle Talisman",
-          "Killa Remembrance Boss with Remembrance Weapons Only",
+          "Acquire the Two-Headed Turtle Talisman",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
           "Acquire 3 Different Max Upgrade Materials",
           "Kill 3 Trolls",
           "Craft 2 Unique Hefty Pots"
@@ -324,7 +324,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "x Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:20:44",
@@ -351,7 +351,7 @@
         {
           "row": 5,
           "col": 1,
-          "square_text": "Acquire the Two Headed Turtle Talisman",
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:31:19",
@@ -387,7 +387,7 @@
         {
           "row": 5,
           "col": 2,
-          "square_text": "Killa Remembrance Boss with Remembrance Weapons Only",
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:48:42",
@@ -405,7 +405,7 @@
         {
           "row": 1,
           "col": 2,
-          "square_text": "Kill 3 Bosses with Knight in their name",
+          "square_text": "Kill 3 Bosses with \"Knight\" in their name",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:52:01",
@@ -423,7 +423,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Kill 1 Boss of each Bear Lion Hippo",
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:05:56",
@@ -477,7 +477,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Kill 2 Demi Human Swordmasters",
+          "square_text": "Kill 2 Demi-Human Swordmasters",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:22:19",

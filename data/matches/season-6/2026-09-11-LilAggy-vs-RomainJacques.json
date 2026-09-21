@@ -1,0 +1,570 @@
+{
+  "match_id": "2026-09-11-LilAggy-vs-RomainJacques",
+  "match_date": "2026-09-11",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "Vswed",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=LNbRBBuydGY",
+    "duration_s": 18009.333333333332,
+    "published_at": "2026-09-15",
+    "extracted_at": "2026-09-21"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4517.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill a Remembrance Boss with Sorceries Only",
+          "Kill 2 Misbegotten Bosses",
+          "Kill Gurranq",
+          "Kill Roundtable Knight Vyke"
+        ],
+        [
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Complete 2 Tunnels",
+          "Kill Tree Sentinel Duo",
+          "Kill 3 Duo/Trio Bosses",
+          "Acquire 3 Larval Tears from Transforming Enemies"
+        ],
+        [
+          "Acquire Sacred Flask +7",
+          "Acquire 3 Unique Seals",
+          "Kill Preceptor Miriam",
+          "Kill a Black Blade Kindred",
+          "Kill 3 Unique Abductor Virgins"
+        ],
+        [
+          "30 Faith",
+          "Kill Rennala after she Summons 4 Spirits",
+          "Acquire 5 Ritual Pots",
+          "Acquire 3 Imbued Sword Keys",
+          "Acquire 4 Memory Stones"
+        ],
+        [
+          "Kill a Remembrance Boss with Daggers Only",
+          "Kill Elemer of the Briar",
+          "Kill 1 Magma Wyrm",
+          "Kill 4 NPC Bosses",
+          "Kill Malenia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 183.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 2 Tunnels",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:01",
+          "video_ts_s": 784.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:06",
+          "video_ts_s": 1329.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:34",
+          "video_ts_s": 1477.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 Unique Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:28",
+          "video_ts_s": 1711.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:23",
+          "video_ts_s": 1766.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Misbegotten Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:24",
+          "video_ts_s": 1767.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:44",
+          "video_ts_s": 1907.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Unique Abductor Virgins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:58",
+          "video_ts_s": 1921.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 1 Magma Wyrm",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:36",
+          "video_ts_s": 2139.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Soldier of Godrick with Bare Fists Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:40",
+          "video_ts_s": 2143.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:10",
+          "video_ts_s": 2353.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 Larval Tears from Transforming Enemies",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:58",
+          "video_ts_s": 2401.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:36",
+          "video_ts_s": 2559.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:42",
+          "video_ts_s": 3045.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Malenia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:49",
+          "video_ts_s": 3052.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "30 Faith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:18",
+          "video_ts_s": 3081.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 4 Memory Stones",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:39",
+          "video_ts_s": 3522.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Rennala after she Summons 4 Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:43",
+          "video_ts_s": 3526.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:42",
+          "video_ts_s": 3645.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:41",
+          "video_ts_s": 3824.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Gurranq",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:54",
+          "video_ts_s": 3897.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:10",
+          "video_ts_s": 4033.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:24",
+          "video_ts_s": 4468.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:11:24",
+          "video_ts_s": 4468.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4518.0,
+      "end_video_ts_s": 9353.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 3 Unique Max Upgrade Materials",
+          "Acquire 2 Blessings of Marika",
+          "Duplicate a Remembrance 1 time",
+          "Kill Rellana",
+          "Kill 1 Boss of each: Bear / Lion / Hippo"
+        ],
+        [
+          "Kill the Colossal Fingercreeper",
+          "Acquire Igon's Furled Finger",
+          "Acquire the Golden Braid",
+          "Kill 3 Unique NPC Invaders",
+          "Acquire 3 Enemy/NPC Dropped Talismans"
+        ],
+        [
+          "Kill 2 Dancing Lions",
+          "Kill Lamenter",
+          "Kill Putrescent Knight",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Kill the Golden Hippo"
+        ],
+        [
+          "Give an Iris of Occultation",
+          "Kill Bayle",
+          "Give the Secret Rite Scroll to Ansbach",
+          "Kill the Death Rite Bird",
+          "Acquire 2 Painting Rewards"
+        ],
+        [
+          "Acquire 5 Non-Merchant Incantations",
+          "Kill the Ancient Dragon-Man",
+          "Kill a Boss with Incantations Only",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill a Boss after Inflicting 4 Unique Status Effects"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4741.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:04",
+          "video_ts_s": 4985.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill the Ancient Dragon-Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:55",
+          "video_ts_s": 5396.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:56",
+          "video_ts_s": 5397.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill the Golden Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:10",
+          "video_ts_s": 5891.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 3 Unique Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:50",
+          "video_ts_s": 5991.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:24",
+          "video_ts_s": 6205.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:49",
+          "video_ts_s": 6290.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:19",
+          "video_ts_s": 6740.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:48",
+          "video_ts_s": 6769.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:35",
+          "video_ts_s": 6996.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:59",
+          "video_ts_s": 7080.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Duplicate a Remembrance 1 time",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:20",
+          "video_ts_s": 7161.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:20",
+          "video_ts_s": 7281.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:13",
+          "video_ts_s": 7514.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:48",
+          "video_ts_s": 7549.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:07",
+          "video_ts_s": 7808.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:27",
+          "video_ts_s": 7948.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Lamenter",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:42",
+          "video_ts_s": 8203.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:11",
+          "video_ts_s": 8232.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:42",
+          "video_ts_s": 8383.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 Enemy/NPC Dropped Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:12",
+          "video_ts_s": 8773.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 2 Dancing Lions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:54",
+          "video_ts_s": 8935.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Bayle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:49",
+          "video_ts_s": 9290.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:15:49",
+          "video_ts_s": 9290.0
+        }
+      ]
+    }
+  ]
+}

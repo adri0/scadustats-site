@@ -10,14 +10,14 @@ season_records:
     losses: 1
     draws: 1
 game_record:
-  wins: 8
+  wins: 9
   losses: 4
 game_type_records:
   base:
     wins: 3
     losses: 3
   dlc:
-    wins: 5
+    wins: 6
     losses: 1
 all_matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -29,13 +29,13 @@ all_matches:
 top_squares_base_game:
 - text: Kill Wormface
   marks: 3
+- text: Acquire 14 Unique Incantations
+  marks: 2
 - text: Acquire the Moon of Nokstella
   marks: 2
 - text: Complete 2 Evergaols
   marks: 2
 - text: Kill 2 Unique Black Knife Assassins
-  marks: 2
-- text: Kill 4 NPC Invaders
   marks: 2
 top_squares_dlc:
 - text: Kill Lamenter
@@ -46,5 +46,5 @@ top_squares_dlc:
   marks: 3
 - text: Acquire the Kindred Cookbook from Moore
   marks: 3
-- text: Kill the Rolling Giant Lightning Ram
+- text: Give the Secret Rite Scroll to Ansbach
   marks: 3

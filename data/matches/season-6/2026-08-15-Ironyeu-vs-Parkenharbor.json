@@ -270,7 +270,7 @@
         [
           "Complete 2 Forges",
           "Acquire 3 DLC Ashes of War",
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Craft 3 Unique Hefty Pots",
           "Acquire 3 Kindred Cookbooks"
         ]
@@ -333,7 +333,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:28:49",

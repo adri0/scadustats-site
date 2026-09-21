@@ -306,7 +306,7 @@
           "Kill Crucible Knight Devonia",
           "Use a Transformation",
           "Kill the Golden Hippo",
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Burn the Sealing Tree"
         ],
         [
@@ -414,7 +414,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:21:39",

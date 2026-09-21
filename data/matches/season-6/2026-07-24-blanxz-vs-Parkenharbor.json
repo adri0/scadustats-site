@@ -62,7 +62,7 @@
           "Kill Borealis",
           "Give Hyetta 3 Shabriri Grapes",
           "Kill 4 Unique Tibia Mariners",
-          "Kill 4 Bosses in Caelid Dragonbarrow"
+          "Kill 4 Bosses in Caelid / Dragonbarrow"
         ]
       ],
       "events": [
@@ -141,7 +141,7 @@
         {
           "row": 5,
           "col": 5,
-          "square_text": "Kill 4 Bosses in Caelid Dragonbarrow",
+          "square_text": "Kill 4 Bosses in Caelid / Dragonbarrow",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:39:28",
@@ -205,7 +205,7 @@
       "square_texts": [
         [
           "Complete 2 Catacombs",
-          "Kill Moonrithyll Carian Knight",
+          "Kill Moonrithyll, Carian Knight",
           "Kill Ancient Dragon Senessax",
           "Memory of Grace with 500k+ Runes",
           "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood"
@@ -261,7 +261,7 @@
         {
           "row": 1,
           "col": 2,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:11:12",

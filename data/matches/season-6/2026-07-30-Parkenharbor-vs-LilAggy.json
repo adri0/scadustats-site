@@ -46,7 +46,7 @@
         [
           "Kill Rykard",
           "Kill 3 Magma Wyrms",
-          "Restore Rykard s Great Rune",
+          "Restore Rykard's Great Rune",
           "Kill the Sleeping Golem in Leyndell",
           "Kill Soldier of Godrick with Bare Fists Only"
         ],
@@ -276,7 +276,7 @@
         {
           "row": 3,
           "col": 3,
-          "square_text": "Restore Rykard s Great Rune",
+          "square_text": "Restore Rykard's Great Rune",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:25:30",

@@ -31,36 +31,36 @@
       "square_texts": [
         [
           "Kill Agheel with a +0 Weapon Only",
-          "Wake Rya's hand to Volcano Manor",
+          "Take Rya's hand to Volcano Manor",
           "Kill 4 Dragon Heart Bosses",
           "Kill Margit with 6+ Parries",
           "Complete 2 Caves"
         ],
         [
-          "Killa Remembrance Boss with Daggers Only",
-          "Memory of Grace with 100k + Runes",
+          "Kill a Remembrance Boss with Daggers Only",
+          "Memory of Grace with 100k+ Runes",
           "Complete 2 Evergaols",
           "Kill 2 Unique Crucible Knights",
           "Restore Radahn's Great Rune"
         ],
         [
-          "Kill 3 Bosses with God in their name",
+          "Kill 3 Bosses with \"God\" in their name",
           "Give Millicent her Prosthetic Arm",
-          "Kill2 Unique Tibia Mariners",
-          "Killa Remembrance Boss with Whips Only",
+          "Kill 2 Unique Tibia Mariners",
+          "Kill a Remembrance Boss with Whips Only",
           "Kill Greyoll without Status Effects"
         ],
         [
-          "Kill Godrick while Summoning Nephell Loux",
+          "Kill Godrick while Summoning Nepheli Loux",
           "Kill 4 Unique Elder Lions",
-          "Kill 3 Duo Trio Bosses",
+          "Kill 3 Duo/Trio Bosses",
           "Kill 5 Bosses that Ride a Horse",
           "Kill Loretta (Blue Spirit)"
         ],
         [
           "Acquire the Moon of Nokstella",
           "Kill Morgott",
-          "Kill 4 Bosses in Caelid Dragonbarrow",
+          "Kill 4 Bosses in Caelid / Dragonbarrow",
           "Kill Godfrey (Gold Spirit)",
           "Kill an Ancestor Spirit"
         ]
@@ -105,7 +105,7 @@
         {
           "row": 3,
           "col": 3,
-          "square_text": "Kill2 Unique Tibia Mariners",
+          "square_text": "Kill 2 Unique Tibia Mariners",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:12:55",
@@ -123,7 +123,7 @@
         {
           "row": 4,
           "col": 1,
-          "square_text": "Kill Godrick while Summoning Nephell Loux",
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:21:59",
@@ -132,7 +132,7 @@
         {
           "row": 2,
           "col": 2,
-          "square_text": "Memory of Grace with 100k + Runes",
+          "square_text": "Memory of Grace with 100k+ Runes",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:28:28",
@@ -177,7 +177,7 @@
         {
           "row": 2,
           "col": 1,
-          "square_text": "Killa Remembrance Boss with Daggers Only",
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:44:35",
@@ -214,11 +214,11 @@
           "Kill Putrescent Knight",
           "Level 9 Scadu",
           "Kill 3 Dragon Bosses",
-          "Acquire Death Mask Heim Winged Serpent Helm and Saiza's Hood",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
           "Kill 3 NPC Bosses"
         ],
         [
-          "Killa Death Knight",
+          "Kill a Death Knight",
           "Acquire 3 DLC Ashes of War",
           "Kill Bayle",
           "Level 5 Revered Spirit Ash",
@@ -232,7 +232,7 @@
           "Give the Secret Rite Scroll to Ansbach"
         ],
         [
-          "Acquire 4 Enemy NPC Dropped Talismans",
+          "Acquire 4 Enemy/NPC Dropped Talismans",
           "Put Florissax to Sleep",
           "Duplicate a Remembrance 1 time",
           "Kill Crucible Knight Devonia",
@@ -378,7 +378,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Killa Death Knight",
+          "square_text": "Kill a Death Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:58:57",
@@ -387,7 +387,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Acquire Death Mask Heim Winged Serpent Helm and Saiza's Hood",
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:59:00",
@@ -441,7 +441,7 @@
         {
           "row": 5,
           "col": 1,
-          "square_text": "Acquire 4 Enemy NPC Dropped Talismans",
+          "square_text": "Acquire 4 Enemy/NPC Dropped Talismans",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:28:41",

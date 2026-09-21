@@ -559,7 +559,7 @@
           "Kill Putrescent Knight",
           "Complete 2 Forges",
           "Acquire the Two-Handed Sword Talisman",
-          "Kill the Ancient Dragon Man",
+          "Kill the Ancient Dragon-Man",
           "Kill Romina"
         ],
         [
@@ -615,7 +615,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Kill the Ancient Dragon Man",
+          "square_text": "Kill the Ancient Dragon-Man",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:15:20",

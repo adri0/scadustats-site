@@ -41,13 +41,13 @@
           "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
           "Complete 2 Catacombs",
           "Take Rya's hand to Volcano Manor",
-          "Kill Mohg Lord of Blood"
+          "Kill Mohg, Lord of Blood"
         ],
         [
           "Kill Misbegotten Crusader",
           "Acquire Smithing Stone Bell Bearing [1] and [2]",
           "Kill Fia's Champions",
-          "Killa Remembrance Boss Hitless",
+          "Kill a Remembrance Boss Hitless",
           "Kill Fire Giant"
         ],
         [
@@ -141,7 +141,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:25:16",
@@ -285,7 +285,7 @@
         {
           "row": 2,
           "col": 5,
-          "square_text": "Kill Mohg Lord of Blood",
+          "square_text": "Kill Mohg, Lord of Blood",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:16:14",
@@ -312,7 +312,7 @@
       "win_line": null,
       "square_texts": [
         [
-          "Kill Moonrithyll Carian Knight",
+          "Kill Moonrithyll, Carian Knight",
           "Kill the Colossal Fingercreeper",
           "Rune Level 85",
           "Kill 3 Unique Horned Warriors",
@@ -322,11 +322,11 @@
           "Kill the Fallingstar Beast",
           "Kill Midra",
           "Put Florissax to Sleep",
-          "Acquire 2 Unique Max Upgrade Materials",
+          "Acquire 2 Different Max Upgrade Materials",
           "Kill Promised Consort Radahn"
         ],
         [
-          "Acquire 3 Non Merchant Sorceries",
+          "Acquire 3 Non-Merchant Sorceries",
           "Kill Putrescent Knight",
           "Kill Scadutree Avatar",
           "Use a Transformation",
@@ -337,12 +337,12 @@
           "Kill Lamenter",
           "Kill Madding Hand",
           "Acquire 2 Full DLC Armor Sets",
-          "Kill 2 Demi Human Swordmasters"
+          "Kill 2 Demi-Human Swordmasters"
         ],
         [
           "Complete 2 Nameless Mausoleums",
           "Give an lris of Grace",
-          "craft 3 Unique Hefty Pots",
+          "Craft 3 Unique Hefty Pots",
           "Kill 3 Trolls",
           "Kill Crucible Knight Devonia"
         ]
@@ -369,7 +369,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "craft 3 Unique Hefty Pots",
+          "square_text": "Craft 3 Unique Hefty Pots",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:08:35",
@@ -378,7 +378,7 @@
         {
           "row": 1,
           "col": 1,
-          "square_text": "Kill Moonrithyll Carian Knight",
+          "square_text": "Kill Moonrithyll, Carian Knight",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:10:13",
@@ -387,7 +387,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Acquire 2 Unique Max Upgrade Materials",
+          "square_text": "Acquire 2 Different Max Upgrade Materials",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:17:10",
@@ -441,7 +441,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Acquire 3 Non Merchant Sorceries",
+          "square_text": "Acquire 3 Non-Merchant Sorceries",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:37:32",
@@ -468,7 +468,7 @@
         {
           "row": 4,
           "col": 5,
-          "square_text": "Kill 2 Demi Human Swordmasters",
+          "square_text": "Kill 2 Demi-Human Swordmasters",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:48:00",

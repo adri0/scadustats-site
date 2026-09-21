@@ -31,7 +31,7 @@
       "square_texts": [
         [
           "Kill 2 Unique Elder Lions",
-          "Killa Remembrance Boss Hitless",
+          "Kill a Remembrance Boss Hitless",
           "Kill Crucible Knight and Misbegotten Warrior Duo",
           "Return Thops's Academy Key",
           "Kill Tree Sentinel Duo"
@@ -44,7 +44,7 @@
           "Kill 2 Unique Cemetery Shades"
         ],
         [
-          "Take Rya s hand to Volcano Manor",
+          "Take Rya's hand to Volcano Manor",
           "Complete 3 Catacombs",
           "Kill 2 Unique Black Knife Assassins",
           "Kill Godskin Noble (Volcano Manor) without Status Effects",
@@ -59,10 +59,10 @@
         ],
         [
           "Kill Margit with a +0 Weapon Only",
-          "Kill 4 Unique Gargoyles/BBK",
+          "Kill 4 Unique Gargoyles / BBK",
           "Kill 2 Unique Night's Cavalry",
           "Kill Preceptor Miriam",
-          "Acquire Grave and Ghost Glovewort Bell Bearings (1)"
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]"
         ]
       ],
       "events": [
@@ -78,7 +78,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Take Rya s hand to Volcano Manor",
+          "square_text": "Take Rya's hand to Volcano Manor",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:05:52",
@@ -96,7 +96,7 @@
         {
           "row": 1,
           "col": 2,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:18:45",
@@ -249,7 +249,7 @@
         {
           "row": 5,
           "col": 5,
-          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings (1)",
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:04:01",
@@ -258,7 +258,7 @@
         {
           "row": 5,
           "col": 2,
-          "square_text": "Kill 4 Unique Gargoyles/BBK",
+          "square_text": "Kill 4 Unique Gargoyles / BBK",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:04:09",
@@ -306,13 +306,13 @@
           "Kill 3 Unique Curseblade Assassins",
           "Kill Bayle",
           "Acquire Jolan Summon",
-          "Acquire 5 Non-Merchant incantations",
+          "Acquire 5 Non-Merchant Incantations",
           "Acquire the Kindred Cookbook from Moore"
         ],
         [
           "Kill Lamenter",
           "Acquire 2 Dragon Hearts",
-          "Kill a Boss with incantations Only",
+          "Kill a Boss with Incantations Only",
           "Complete 2 Gaols",
           "Kill 3 Ulcerated Tree Spirits"
         ],
@@ -320,7 +320,7 @@
           "Kill 1 Boss of each: Bear / Lion / Hippo",
           "Kill Putrescent Knight",
           "Acquire the Scorpion Stew",
-          "Drink Thiollier s Concoction",
+          "Drink Thiollier's Concoction",
           "Acquire 3 DLC Spirit Ashes"
         ],
         [
@@ -378,7 +378,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Drink Thiollier s Concoction",
+          "square_text": "Drink Thiollier's Concoction",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:27:54",
