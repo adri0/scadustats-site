@@ -33,6 +33,8 @@
 {{- $js := resources.Get "js/main.js" | js.Build (dict "minify" true) | fingerprint }}
 <script type="module" src="{{ $js.RelPermalink }}"></script>
 
+<script defer src="https://cloud.umami.is/script.js" data-website-id="a323814a-9c91-42c3-bd1d-4358aa38f055"></script>
+
 <script>
     (function() {
         const getPreferredTheme = () => {
