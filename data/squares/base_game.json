@@ -90,11 +90,6 @@
     "game_type": "base"
   },
   {
-    "id": "liurnia_bosses_5",
-    "text": "Kill 5 Bosses in Liurnia",
-    "game_type": "base"
-  },
-  {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
     "game_type": "base"
@@ -465,6 +460,11 @@
     "game_type": "base"
   },
   {
+    "id": "liurnia_bosses_5",
+    "text": "Kill 5 Bosses in Liurnia",
+    "game_type": "base"
+  },
+  {
     "id": "magma_wyrm_1",
     "text": "Kill 1 Magma Wyrm",
     "game_type": "base"
@@ -586,7 +586,7 @@
   },
   {
     "id": "mohg_lord_of_blood",
-    "text": "Kill Mohg Lord of Blood",
+    "text": "Kill Mohg, Lord of Blood",
     "game_type": "base"
   },
   {

@@ -1,0 +1,726 @@
+{
+  "match_id": "2026-08-28-NuclearPastaTom-vs-blanxz",
+  "match_date": "2026-08-28",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=sp39oIHq3G8",
+    "duration_s": 18010.0,
+    "published_at": "2026-08-31",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 3,
+  "red_score": 1,
+  "blue_score": 1,
+  "winner": null,
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5575.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Both Astel Bosses",
+          "Kill Borealis",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Kill Mohg, Lord of Blood",
+          "Acquire 6 Unique Staves"
+        ],
+        [
+          "Complete 2 Catacombs",
+          "Kill Wormface",
+          "30 Faith",
+          "Kill a Remembrance Boss with Daggers Only",
+          "Complete 3 Caves"
+        ],
+        [
+          "Kill 3 Duo/Trio Bosses",
+          "Kill a Remembrance Boss with Whips Only",
+          "Kill Tree Sentinel Duo",
+          "Acquire the Fingerslayer Blade",
+          "Kill 5 Bosses in Caelid / Dragonbarrow"
+        ],
+        [
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Acquire 5 Ritual Pots",
+          "Kill Mohg, the Omen",
+          "Kill 3 Unique Abductor Virgins"
+        ],
+        [
+          "Kill Rykard",
+          "Acquire Both Scarseal Talismans",
+          "Kill 4 Bell Bearing Hunters",
+          "Kill a Remembrance Boss Hitless",
+          "Kill Darriwil while Summoning Blaidd"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 188.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:23",
+          "video_ts_s": 811.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:28",
+          "video_ts_s": 1056.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:37",
+          "video_ts_s": 1185.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Borealis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:52",
+          "video_ts_s": 1320.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:50",
+          "video_ts_s": 1498.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "30 Faith",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:58",
+          "video_ts_s": 1506.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:20",
+          "video_ts_s": 1648.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Complete 3 Caves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:27",
+          "video_ts_s": 1715.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Darriwil while Summoning Blaidd",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:51",
+          "video_ts_s": 1859.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:19",
+          "video_ts_s": 2247.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss with Daggers Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:01",
+          "video_ts_s": 2289.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:01",
+          "video_ts_s": 2529.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Rykard",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:42",
+          "video_ts_s": 3050.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 5 Bosses in Caelid / Dragonbarrow",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:50",
+          "video_ts_s": 3178.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Complete 2 Catacombs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:00",
+          "video_ts_s": 3308.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Unique Abductor Virgins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:48",
+          "video_ts_s": 3476.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:15",
+          "video_ts_s": 3743.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:12",
+          "video_ts_s": 3920.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:05:24",
+          "video_ts_s": 4112.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Mohg, the Omen",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:16",
+          "video_ts_s": 4524.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with Whips Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:31",
+          "video_ts_s": 4659.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Give Hyetta 3 Shabriri Grapes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:09",
+          "video_ts_s": 5057.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Both Astel Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:28:46",
+          "video_ts_s": 5514.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:28:46",
+          "video_ts_s": 5514.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5577.0,
+      "end_video_ts_s": 7862.0,
+      "game_type": "dlc",
+      "winner_color": null,
+      "win_type": "none",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Crucible Knight Devonia",
+          "Use a Transformation",
+          "Kill the Golden Hippo",
+          "Kill the Ancient Dragon Man",
+          "Burn the Sealing Tree"
+        ],
+        [
+          "Kill Black Knight Garrew",
+          "Drain the Water in the Church District",
+          "Kill 1 Demi-Human Swordmaster",
+          "Kill the Death Rite Bird",
+          "Acquire Igon's Furled Finger"
+        ],
+        [
+          "Acquire 2 Blessings of Marika",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill Leda and her Allies",
+          "Kill Chief Bloodfiend",
+          "Kill 1 Boss of each: Bear / Lion / Hippo"
+        ],
+        [
+          "Acquire Commander Gaius's Pants",
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Kill Bayle",
+          "Kill Jori, Elder Inquisitor",
+          "Acquire 2 Full DLC Armor Sets"
+        ],
+        [
+          "Kill 1 Unique Divine Bird Warrior",
+          "Acquire 3 NPC Dropped Weapons",
+          "Acquire the Golden Braid",
+          "Acquire 3 DLC Ashes of War",
+          "Acquire a Leda Rune"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5760.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:03:54",
+          "video_ts_s": 5994.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:23",
+          "video_ts_s": 6263.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:21",
+          "video_ts_s": 6681.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:51",
+          "video_ts_s": 6711.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:52",
+          "video_ts_s": 6712.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:37",
+          "video_ts_s": 6877.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Black Knight Garrew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:42",
+          "video_ts_s": 6882.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:39",
+          "video_ts_s": 7059.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:02",
+          "video_ts_s": 7082.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 1 Demi-Human Swordmaster",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:42",
+          "video_ts_s": 7422.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:09",
+          "video_ts_s": 7569.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:18",
+          "video_ts_s": 7578.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:09",
+          "video_ts_s": 7838.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:34:09",
+          "video_ts_s": 7838.0
+        }
+      ]
+    },
+    {
+      "game_index": 3,
+      "start_video_ts_s": 7894.0,
+      "end_video_ts_s": 11925.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 2 Painting Rewards",
+          "Kill Midra",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Acquire the Full Gravebird Armor Set",
+          "Kill 1 Unique Base Game Boss in the DLC"
+        ],
+        [
+          "Acquire 2 Full DLC Armor Sets",
+          "Kill the Rolling Giant Lightning Ram",
+          "Acquire 5 Non-Merchant Incantations",
+          "Put Florissax to Sleep",
+          "Acquire Commander Gaius's Pants"
+        ],
+        [
+          "Burn the Sealing Tree",
+          "Kill Black Knight Garrew",
+          "Memory of Grace with 500k+ Runes",
+          "Acquire 2 Dragon Hearts",
+          "Use a Transformation"
+        ],
+        [
+          "Kill the Fallingstar Beast",
+          "Kill Rellana",
+          "Kill 2 Furnace Golems",
+          "Give an Iris of Occultation",
+          "Kill 1 Demi-Human Swordmaster"
+        ],
+        [
+          "Kill Moonrithyll, Carian Knight",
+          "Acquire 3 NPC Dropped Weapons",
+          "Acquire 3 DLC Ashes of War",
+          "Acquire the Kindred Cookbook from Moore",
+          "Kill 3 Unique NPC Invaders"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 8084.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:57",
+          "video_ts_s": 8621.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:43",
+          "video_ts_s": 8787.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Black Knight Garrew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:03",
+          "video_ts_s": 8927.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:12",
+          "video_ts_s": 9116.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 Full DLC Armor Sets",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:15",
+          "video_ts_s": 9239.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 1 Demi-Human Swordmaster",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:16",
+          "video_ts_s": 9360.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:40",
+          "video_ts_s": 9444.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:04",
+          "video_ts_s": 9648.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:40",
+          "video_ts_s": 10044.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:28",
+          "video_ts_s": 10272.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:39",
+          "video_ts_s": 10583.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:02",
+          "video_ts_s": 10606.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:51",
+          "video_ts_s": 10895.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:23",
+          "video_ts_s": 10987.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:50",
+          "video_ts_s": 11194.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 5 Non-Merchant Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:34",
+          "video_ts_s": 11238.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:29",
+          "video_ts_s": 11413.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 2 Furnace Golems",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:51",
+          "video_ts_s": 11735.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:15",
+          "video_ts_s": 11819.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:20",
+          "video_ts_s": 11824.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:02:20",
+          "video_ts_s": 11824.0
+        }
+      ]
+    }
+  ]
+}

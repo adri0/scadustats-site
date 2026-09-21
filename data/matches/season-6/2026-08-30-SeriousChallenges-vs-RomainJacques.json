@@ -1,0 +1,789 @@
+{
+  "match_id": "2026-08-30-SeriousChallenges-vs-RomainJacques",
+  "match_date": "2026-08-30",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "SeriousChallenges",
+  "player_blue_name": "RomainJacques",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=sU2XGSAN-QU",
+    "duration_s": 18000.1,
+    "published_at": "2026-09-04",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 3,
+  "red_score": 2,
+  "blue_score": 1,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4300.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Tree Sentinel Duo",
+          "Acquire 4 Dropped Ashes of War",
+          "Kill 2 Unique Tibia Mariners",
+          "Kill 4 NPC Invaders",
+          "Kill Roundtable Knight Vyke"
+        ],
+        [
+          "Kill Rennala after she Summons 4 Spirits",
+          "Complete 4 Evergaols",
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Acquire the Moon of Nokstella",
+          "Kill a Remembrance Boss with Bows Only"
+        ],
+        [
+          "Kill Greyoll without Status Effects",
+          "Kill a Godskin Apostle",
+          "Kill Fire Giant",
+          "Kill Preceptor Miriam",
+          "Kill an Ancestor Spirit"
+        ],
+        [
+          "Kill the Sleeping Golem in Leyndell",
+          "Kill Agheel with a +0 Weapon Only",
+          "Kill a Remembrance Boss Hitless",
+          "Acquire 4 Whetstone Knives",
+          "Restore Godrick's Great Rune"
+        ],
+        [
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Acquire 10 Cracked Pots",
+          "Acquire 14 Unique Incantations",
+          "Kill 3 Unique Night's Cavalry",
+          "30 Arcane"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 187.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:24",
+          "video_ts_s": 571.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:43",
+          "video_ts_s": 830.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 4 Dropped Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:44",
+          "video_ts_s": 891.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Unique Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:42",
+          "video_ts_s": 1249.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:11",
+          "video_ts_s": 1398.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:04",
+          "video_ts_s": 1451.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:22",
+          "video_ts_s": 1589.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:09",
+          "video_ts_s": 1816.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:50",
+          "video_ts_s": 1857.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:52",
+          "video_ts_s": 2339.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Rennala after she Summons 4 Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:53",
+          "video_ts_s": 2340.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:39",
+          "video_ts_s": 2446.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "30 Arcane",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:02",
+          "video_ts_s": 2589.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:28",
+          "video_ts_s": 2675.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:33",
+          "video_ts_s": 2920.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 4 Whetstone Knives",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:02",
+          "video_ts_s": 3249.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Preceptor Miriam",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:28",
+          "video_ts_s": 3275.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 14 Unique Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:16",
+          "video_ts_s": 3383.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:12",
+          "video_ts_s": 3499.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:49",
+          "video_ts_s": 3656.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss with Bows Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:42",
+          "video_ts_s": 3769.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Soldier of Godrick with Bare Fists Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:23",
+          "video_ts_s": 3870.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:24",
+          "video_ts_s": 4051.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Fire Giant",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:40",
+          "video_ts_s": 4262.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:07:40",
+          "video_ts_s": 4262.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4302.0,
+      "end_video_ts_s": 8205.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_5",
+      "square_texts": [
+        [
+          "Kill Putrescent Knight",
+          "Kill Crucible Knight Devonia",
+          "Kill 2 Furnace Golems",
+          "Give the Secret Rite Scroll to Ansbach",
+          "Acquire 4 Hefty Pots"
+        ],
+        [
+          "Kill Queelign in Belurat",
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Kill Rakshasa",
+          "Acquire Commander Gaius's Pants",
+          "Acquire the Two-Headed Turtle Talisman"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill Bayle",
+          "Acquire the Scorpion Stew",
+          "Kill Leda and her Allies",
+          "Kill Lamenter"
+        ],
+        [
+          "Acquire the Kindred Cookbook from Moore",
+          "Complete 2 Gaols",
+          "Kill 3 NPC Bosses",
+          "Acquire 3 Blessings of Marika",
+          "Kill Jori, Elder Inquisitor"
+        ],
+        [
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill Midra",
+          "Acquire a Leda Rune",
+          "Acquire Igon's Furled Finger",
+          "Kill Madding Hand"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4485.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 4 Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:47",
+          "video_ts_s": 4892.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire the Two-Headed Turtle Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:25",
+          "video_ts_s": 5050.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:01",
+          "video_ts_s": 5446.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:44",
+          "video_ts_s": 5849.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:51",
+          "video_ts_s": 5856.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:52",
+          "video_ts_s": 5857.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:23:08",
+          "video_ts_s": 5873.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:17",
+          "video_ts_s": 5882.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:24:30",
+          "video_ts_s": 5955.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:59",
+          "video_ts_s": 6344.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:19",
+          "video_ts_s": 6424.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:59",
+          "video_ts_s": 6644.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:15",
+          "video_ts_s": 6900.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:22",
+          "video_ts_s": 6967.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:26",
+          "video_ts_s": 7151.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:20",
+          "video_ts_s": 7445.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Lamenter",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:30",
+          "video_ts_s": 7695.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Jori, Elder Inquisitor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:55",
+          "video_ts_s": 8080.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:31",
+          "video_ts_s": 8177.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:31",
+          "video_ts_s": 8177.0
+        }
+      ]
+    },
+    {
+      "game_index": 3,
+      "start_video_ts_s": 8252.0,
+      "end_video_ts_s": 12961.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Drink Thiollier's Concoction",
+          "Blow a Finger",
+          "Kill 1 Furnace Golem",
+          "Kill a Remembrance Boss Hitless",
+          "Kill Leda and her Allies"
+        ],
+        [
+          "Kill Putrescent Knight",
+          "Complete 2 Forges",
+          "Acquire the Two-Handed Sword Talisman",
+          "Kill the Ancient Dragon Man",
+          "Kill Romina"
+        ],
+        [
+          "Give the Secret Rite Scroll to Ansbach",
+          "Kill 3 Unique NPC Invaders",
+          "Acquire the Full Gravebird Armor Set",
+          "Acquire 2 Painting Rewards",
+          "Kill 1 Boss of each: Bear / Lion / Hippo"
+        ],
+        [
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Acquire a Leda Rune",
+          "Kill the Colossal Fingercreeper",
+          "Acquire 2 Blessings of Marika",
+          "Kill 3 Trolls"
+        ],
+        [
+          "Kill Queelign in Belurat",
+          "Kill all 3 Red Bears",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Level 10 Scadu",
+          "Kill Promised Consort Radahn"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 8440.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:59",
+          "video_ts_s": 8679.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:23",
+          "video_ts_s": 9123.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:20",
+          "video_ts_s": 9360.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:40",
+          "video_ts_s": 9680.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Give the Secret Rite Scroll to Ansbach",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:41",
+          "video_ts_s": 9741.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:51",
+          "video_ts_s": 9811.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:43",
+          "video_ts_s": 9983.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:21",
+          "video_ts_s": 10021.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire the Two-Handed Sword Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:31",
+          "video_ts_s": 10211.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Blow a Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:36",
+          "video_ts_s": 10336.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:23",
+          "video_ts_s": 10563.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:56",
+          "video_ts_s": 10716.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 2 Forges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:56",
+          "video_ts_s": 11016.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Trolls",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:57",
+          "video_ts_s": 11257.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:22",
+          "video_ts_s": 11702.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:23",
+          "video_ts_s": 11703.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 1 Furnace Golem",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:15",
+          "video_ts_s": 11875.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire the Full Gravebird Armor Set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:00",
+          "video_ts_s": 12100.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Leda and her Allies",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:11",
+          "video_ts_s": 12231.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Promised Consort Radahn",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:30",
+          "video_ts_s": 12852.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:13:30",
+          "video_ts_s": 12852.0
+        }
+      ]
+    }
+  ]
+}

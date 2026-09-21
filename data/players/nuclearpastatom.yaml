@@ -6,29 +6,31 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 5
+    wins: 6
     losses: 0
     draws: 0
 game_record:
-  wins: 10
-  losses: 0
+  wins: 13
+  losses: 1
 game_type_records:
   base:
-    wins: 5
-    losses: 0
+    wins: 6
+    losses: 1
   dlc:
-    wins: 5
+    wins: 7
     losses: 0
 all_matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 top_squares_base_game:
-- text: Kill 5 Bosses in Limgrave / Weeping
-  marks: 3
 - text: Kill Tree Sentinel Duo
+  marks: 4
+- text: Kill 5 Bosses in Limgrave / Weeping
   marks: 3
 - text: Acquire 14 Unique Incantations
   marks: 2
@@ -37,13 +39,13 @@ top_squares_base_game:
 - text: Acquire 3 Painting Rewards
   marks: 2
 top_squares_dlc:
+- text: Acquire Commander Gaius's Pants
+  marks: 4
 - text: Acquire 2 Blessings of Marika
   marks: 3
 - text: Kill a Remembrance Boss Hitless
   marks: 3
-- text: Acquire Commander Gaius's Pants
+- text: Acquire 2 Dragon Hearts
   marks: 2
-- text: Kill 3 Unique Horned Warriors
-  marks: 2
-- text: Kill Messmer
+- text: Acquire 2 Full DLC Armor Sets
   marks: 2
