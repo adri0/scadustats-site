@@ -18,10 +18,11 @@ content files are `content/_index.md`, `content/rules.md`, and the section `_ind
 ## Data: `data/`
 
 All source data lives under `data/`, which Hugo exposes as `hugo.Data`. It's populated by
-[scadustats](../scadustats), a separate CLI tool/checkout (its own `pyproject.toml`, no relation
-to this Hugo project) that transcribes match VODs into `data/matches/` and rebuilds
-`data/squares/` and `data/players/` from them. `scripts/scadustats` wraps `uv run --project` so it
-runs against this repo's `data/` without needing a shell in the other checkout — see the README.
+[scadustats](../scadustats), a separate CLI tool published on PyPI (no relation to this Hugo
+project) that transcribes match VODs into `data/matches/` and rebuilds `data/squares/` and
+`data/players/` from them. It must be installed separately (`pip install scadustats` or `uvx
+scadustats`) and run from this repo's root so its `data_dir` options default to `./data` — see the
+README.
 
 ### `data/matches/season-<N>/<date>-<player_red>-vs-<player_blue>.json`
 

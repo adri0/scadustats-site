@@ -17,17 +17,16 @@ hugo server
 ## Populating `data/`
 
 Match data under `data/matches/` isn't hand-written (but may be hand-updated if any inconsistency is found) 
-— it's transcribed from YouTube VODs by [scadustats](../scadustats), a separate CLI tool/checkout 
-with its own Python environment. This repo has no Python tooling of its own; 
-`scripts/scadustats` wraps `uv run --project` so you don't need to juggle two checkouts by hand:
+— it's transcribed from YouTube VODs by [scadustats](../scadustats), a separate CLI tool published on
+PyPI. This repo has no Python tooling of its own, so `scadustats` must be installed separately —
+either `pip install scadustats` or, to run it without installing, `uvx scadustats`. Then, from this
+repo's root (so its `data_dir` options default to `./data`):
 
 ```
-scripts/scadustats extract <youtube-url>       # transcribe a match VOD into data/matches/
-scripts/scadustats square consolidate          # rebuild data/squares/{base_game,dlc}.json
-scripts/scadustats player consolidate          # rebuild data/players/<slug>.yaml
-scripts/scadustats match validate              # sanity-check everything under data/matches/
+scadustats extract <youtube-url>       # transcribe a match VOD into data/matches/
+scadustats square consolidate          # rebuild data/squares/{base_game,dlc}.json
+scadustats player consolidate          # rebuild data/players/<slug>.yaml
+scadustats match validate              # sanity-check everything under data/matches/
 ```
 
-By default this assumes a sibling checkout at `../scadustats`; set `SCADUSTATS_DIR` to point
-elsewhere (e.g. a scadustats worktree). See scadustats' own README for its prerequisites
-and full command reference.
+See scadustats' own README for its prerequisites and full command reference.
