@@ -10,16 +10,17 @@ season_records:
     losses: 1
     draws: 0
 game_record:
-  wins: 8
-  losses: 1
+  wins: 9
+  losses: 2
 game_type_records:
   base:
-    wins: 4
+    wins: 5
     losses: 1
   dlc:
     wins: 4
-    losses: 0
+    losses: 1
 all_matches:
+- 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-15-blanxz-vs-SeriousChallenges
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-31-blanxz-vs-Ironyeu
@@ -27,23 +28,23 @@ all_matches:
 - 2026-07-18-blanxz-vs-LilAggy
 top_squares_base_game:
 - text: Kill 3 Friendly NPCs (No Hermit Merchants)
-  marks: 3
+  marks: 4
+- text: Acquire Both Scarseal Talismans
+  marks: 2
 - text: Acquire Smithing Stone Bell Bearing [1] and [2]
   marks: 2
+- text: Complete 2 Catacombs
+  marks: 2
 - text: Complete an Altus Plateau or Mt. Gelmir Hero's Grave
-  marks: 2
-- text: Kill 2 Fallingstar Beasts
-  marks: 2
-- text: Kill 2 Unique Night's Cavalry
   marks: 2
 top_squares_dlc:
 - text: Blow a Finger
   marks: 3
+- text: Kill 1 Unique Base Game Boss in the DLC
+  marks: 3
+- text: Memory of Grace with 500k+ Runes
+  marks: 3
 - text: Put Florissax to Sleep
   marks: 3
 - text: Acquire Commander Gaius's Pants
-  marks: 2
-- text: Kill 1 Unique Base Game Boss in the DLC
-  marks: 2
-- text: Kill Jori, Elder Inquisitor
   marks: 2

@@ -7,19 +7,20 @@ bio: null
 season_records:
   '6':
     wins: 2
-    losses: 2
+    losses: 3
     draws: 0
 game_record:
   wins: 4
-  losses: 4
+  losses: 6
 game_type_records:
   base:
     wins: 2
-    losses: 2
+    losses: 3
   dlc:
     wins: 2
-    losses: 2
+    losses: 3
 all_matches:
+- 2026-09-01-Vswed-vs-Raydans
 - 2026-08-16-Raydans-vs-LilAggy
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-26-Raydans-vs-Ironyeu

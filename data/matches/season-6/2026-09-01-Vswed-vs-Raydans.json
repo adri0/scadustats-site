@@ -1,0 +1,345 @@
+{
+  "match_id": "2026-09-01-Vswed-vs-Raydans",
+  "match_date": "2026-09-01",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "Vswed",
+  "player_blue_name": "Raydans",
+  "commentators": [
+    "RomainJacques_",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=i-CPKaJLsD0",
+    "duration_s": 14410.55,
+    "published_at": "2026-09-06",
+    "extracted_at": "2026-09-20"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3354.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_2",
+      "square_texts": [
+        [
+          "Kill Leonine Misbegotten",
+          "Restore Godrick's Great Rune",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Acquire 3 Painting Rewards",
+          "Acquire 5 Ritual Pots"
+        ],
+        [
+          "Kill 3 Bosses with \"God\" in their name",
+          "Acquire the Moon of Nokstella",
+          "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
+          "Kill Misbegotten Crusader",
+          "Kill 1 Fallingstar Beast"
+        ],
+        [
+          "Kill 5 Bosses in Caelid / Dragonbarrow",
+          "Kill 4 NPC Bosses",
+          "Kill 10 Sheep with AoW Lightning Ram Only",
+          "Acquire the Full Haligtree Medallion",
+          "Kill Ancient Dragon Lansseax"
+        ],
+        [
+          "Kill 3 Magma Wyrms",
+          "Acquire 10 Cracked Pots",
+          "Kill a Black Blade Kindred",
+          "Kill 4 Unique Black Knife Assassins",
+          "Kill Both Astel Bosses"
+        ],
+        [
+          "Kill the Sleeping Golem in Leyndell",
+          "Acquire Sacred Flask +7",
+          "Kill Soldier of Godrick with Bare Fists Only",
+          "Kill 5 Bosses that Ride a Horse",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 189.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:01",
+          "video_ts_s": 550.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 10 Sheep with AoW Lightning Ram Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:30",
+          "video_ts_s": 819.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:26",
+          "video_ts_s": 1295.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:35",
+          "video_ts_s": 1484.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:24",
+          "video_ts_s": 1773.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:57",
+          "video_ts_s": 2226.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:49",
+          "video_ts_s": 2578.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Bosses with \"God\" in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:32",
+          "video_ts_s": 3041.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:03",
+          "video_ts_s": 3315.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:52:03",
+          "video_ts_s": 3315.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3363.0,
+      "end_video_ts_s": 6596.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_1",
+      "square_texts": [
+        [
+          "Acquire 3 NPC Dropped Weapons",
+          "Kill 3 Bosses with Knight in their name",
+          "Use a Transformation",
+          "Kill Moonrithyll, Carian Knight",
+          "Kill 3 Ulcerated Tree Spirits"
+        ],
+        [
+          "Kill Rellana",
+          "Drain the Water in the Church District",
+          "Kill the Fallingstar Beast",
+          "Kill the Colossal Fingercreeper",
+          "Kill Ancient Dragon Senessax"
+        ],
+        [
+          "Kill Chief Bloodfiend",
+          "Acquire 5 Hefty Pots",
+          "Complete all 4 Nameless Mausoleums",
+          "Kill 1 Demi-Human Swordmaster",
+          "Kill Crucible Knight Devonia"
+        ],
+        [
+          "Kill the Ancient Dragon Man",
+          "Acquire Igon's Furled Finger",
+          "Give an Iris of Occultation",
+          "Give an lris of Grace",
+          "Kill 2 Dancing Lions"
+        ],
+        [
+          "Kill the Rolling Giant Lightning Ram",
+          "Craft 3 Unique Hefty Pots",
+          "Kill 3 Unique Curseblade Assassins",
+          "Kill Bayle",
+          "Acquire the Golden Braid"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 3550.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:40",
+          "video_ts_s": 4130.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:01",
+          "video_ts_s": 4450.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:21",
+          "video_ts_s": 4531.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:50",
+          "video_ts_s": 4740.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill the Colossal Fingercreeper",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:57",
+          "video_ts_s": 4807.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:55",
+          "video_ts_s": 4864.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:12",
+          "video_ts_s": 5122.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:08",
+          "video_ts_s": 5417.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Bosses with Knight in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:33",
+          "video_ts_s": 5562.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:07",
+          "video_ts_s": 5777.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:44",
+          "video_ts_s": 6053.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:48",
+          "video_ts_s": 6538.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:49:48",
+          "video_ts_s": 6538.0
+        }
+      ]
+    }
+  ]
+}

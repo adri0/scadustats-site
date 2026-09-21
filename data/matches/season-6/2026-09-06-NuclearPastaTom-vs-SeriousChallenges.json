@@ -1,0 +1,561 @@
+{
+  "match_id": "2026-09-06-NuclearPastaTom-vs-SeriousChallenges",
+  "match_date": "2026-09-06",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "SeriousChallenges",
+  "commentators": [
+    "starOchris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=bWko4qsCqj4",
+    "duration_s": 18027.216666666667,
+    "published_at": "2026-09-11",
+    "extracted_at": "2026-09-21"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5168.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Omenkiller Bosses",
+          "Acquire Sacred Flask +7",
+          "Kill 4 Unique Black Knife Assassins",
+          "Kill an Ancestor Spirit",
+          "Return Thops's Academy Key"
+        ],
+        [
+          "Complete 2 Evergaols",
+          "Kill Commander O'Neil",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "Kill Elemer of the Briar",
+          "Kill Margit with 6+ Parries"
+        ],
+        [
+          "Kill a Godskin Apostle",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Kill Malenia",
+          "Kill Fire Giant",
+          "Kill 10 Sheep with AoW Lightning Ram Only"
+        ],
+        [
+          "Acquire 4 Whetstone Knives",
+          "Kill Both Astel Bosses",
+          "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "Acquire 6 Unique Staves",
+          "Kill Morgott"
+        ],
+        [
+          "Kill 3 Bosses with \"God\" in their name",
+          "Restore Morgott's Great Rune",
+          "Kill a Remembrance Boss with Bows Only",
+          "Kill Roundtable Knight Vyke",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 192.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:02:58",
+          "video_ts_s": 370.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:32",
+          "video_ts_s": 644.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:55",
+          "video_ts_s": 1087.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Omenkiller Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:07",
+          "video_ts_s": 1339.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:28",
+          "video_ts_s": 1420.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:58",
+          "video_ts_s": 1450.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:08",
+          "video_ts_s": 1640.0
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:58",
+          "video_ts_s": 1750.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 10 Sheep with AoW Lightning Ram Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:47",
+          "video_ts_s": 1979.0
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Bows Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:41",
+          "video_ts_s": 2093.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Complete 2 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:07",
+          "video_ts_s": 2179.0
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Bosses with \"God\" in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:04",
+          "video_ts_s": 2236.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Roundtable Knight Vyke",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:08",
+          "video_ts_s": 2600.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:41",
+          "video_ts_s": 2873.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Return Thops's Academy Key",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:12",
+          "video_ts_s": 2964.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:06",
+          "video_ts_s": 3138.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:01",
+          "video_ts_s": 3373.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Malenia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:24",
+          "video_ts_s": 3636.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 4 Whetstone Knives",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:01",
+          "video_ts_s": 4153.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Morgott",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:36",
+          "video_ts_s": 4368.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:39",
+          "video_ts_s": 4551.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Fire Giant",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:54",
+          "video_ts_s": 4686.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Both Astel Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:19",
+          "video_ts_s": 5131.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:22:19",
+          "video_ts_s": 5131.0
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5169.0,
+      "end_video_ts_s": 9682.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Kill Bayle",
+          "Give an Iris of Occultation",
+          "Kill the Fallingstar Beast",
+          "Acquire Commander Gaius's Pants"
+        ],
+        [
+          "Kill Lamenter",
+          "Kill the Ancient Dragon Man",
+          "Put Florissax to Sleep",
+          "Acquire 3 DLC Ashes of War",
+          "Rune Level 85"
+        ],
+        [
+          "Acquire Jolan Summon",
+          "Acquire 3 Unique Max Upgrade Materials",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Drink Thiollier's Concoction",
+          "Kill 3 Ulcerated Tree Spirits"
+        ],
+        [
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill Queelign in Belurat",
+          "Kill Moonrithyll, Carian Knight",
+          "Kill a Boss with Incantations Only",
+          "Kill 3 NPC Bosses"
+        ],
+        [
+          "Kill all 3 Red Bears",
+          "Kill Rellana",
+          "Burn the Sealing Tree",
+          "Acquire the Kindred Cookbook from Moore",
+          "Kill Ancient Dragon Senessax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 5353.0
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:57",
+          "video_ts_s": 5590.0
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:51",
+          "video_ts_s": 5944.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:26",
+          "video_ts_s": 6099.0
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill the Ancient Dragon Man",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:10",
+          "video_ts_s": 6263.0
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:12",
+          "video_ts_s": 6505.0
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:08",
+          "video_ts_s": 6681.0
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:24",
+          "video_ts_s": 6697.0
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:37",
+          "video_ts_s": 7010.0
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Rellana",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:09",
+          "video_ts_s": 7222.0
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:58",
+          "video_ts_s": 7331.0
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:13",
+          "video_ts_s": 7466.0
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:14",
+          "video_ts_s": 7647.0
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:40",
+          "video_ts_s": 7733.0
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Rune Level 85",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:32",
+          "video_ts_s": 8025.0
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:50",
+          "video_ts_s": 8223.0
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:52",
+          "video_ts_s": 8225.0
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 Unique Max Upgrade Materials",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:58",
+          "video_ts_s": 8591.0
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:30",
+          "video_ts_s": 8623.0
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Boss with Incantations Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:44",
+          "video_ts_s": 8937.0
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:04",
+          "video_ts_s": 9017.0
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Lamenter",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:18",
+          "video_ts_s": 9271.0
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Bayle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:31",
+          "video_ts_s": 9644.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:11:31",
+          "video_ts_s": 9644.0
+        }
+      ]
+    }
+  ]
+}

@@ -6,20 +6,21 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 2
+    wins: 3
     losses: 1
     draws: 2
 game_record:
-  wins: 6
+  wins: 8
   losses: 4
 game_type_records:
   base:
-    wins: 3
+    wins: 4
     losses: 2
   dlc:
-    wins: 3
+    wins: 4
     losses: 2
 all_matches:
+- 2026-09-03-LilAggy-vs-Grey
 - 2026-08-16-Raydans-vs-LilAggy
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-30-Parkenharbor-vs-LilAggy
@@ -28,13 +29,13 @@ all_matches:
 top_squares_base_game:
 - text: Kill Ancient Dragon Lansseax
   marks: 3
+- text: Acquire 10 Cracked Pots
+  marks: 2
 - text: Acquire 3 Unique Seals
   marks: 2
+- text: Acquire 6 Unique Staves
+  marks: 2
 - text: Acquire the Full Haligtree Medallion
-  marks: 2
-- text: Kill 2 Deathbirds and 1 Death Rite Bird
-  marks: 2
-- text: Kill 2 Omenkiller Bosses
   marks: 2
 top_squares_dlc:
 - text: Kill Crucible Knight Devonia
@@ -43,7 +44,7 @@ top_squares_dlc:
   marks: 3
 - text: Kill 1 Unique Divine Bird Warrior
   marks: 2
-- text: Kill a Death Knight
+- text: Kill a Boss after Inflicting 4 Unique Status Effects
   marks: 2
-- text: Use a Transformation
+- text: Kill a Death Knight
   marks: 2
