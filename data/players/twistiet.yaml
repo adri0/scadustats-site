@@ -7,18 +7,18 @@ bio: null
 season_records:
   '6':
     wins: 0
-    losses: 4
+    losses: 5
     draws: 0
 game_record:
   wins: 0
-  losses: 8
+  losses: 10
 game_type_records:
   base:
     wins: 0
-    losses: 4
+    losses: 5
   dlc:
     wins: 0
-    losses: 4
+    losses: 5
 all_matches:
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
 - 2026-08-09-TwistieT-vs-RomainJacques
@@ -38,12 +38,12 @@ top_squares_base_game:
   marks: 1
 top_squares_dlc:
 - text: Level 5 Revered Spirit Ash
-  marks: 2
+  marks: 3
 - text: Acquire 2 Blessings of Marika
   marks: 1
 - text: Acquire 2 Different Max Upgrade Materials
   marks: 1
-- text: Acquire 2 Painting Rewards
+- text: Acquire 2 Non-Merchant Sorceries
   marks: 1
-- text: Acquire 3 Hanging Pot Bell Bearings
+- text: Acquire 2 Painting Rewards
   marks: 1

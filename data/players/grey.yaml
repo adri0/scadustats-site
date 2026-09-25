@@ -6,18 +6,18 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 1
+    wins: 2
     losses: 3
     draws: 1
 game_record:
-  wins: 3
+  wins: 5
   losses: 7
 game_type_records:
   base:
-    wins: 2
+    wins: 3
     losses: 3
   dlc:
-    wins: 1
+    wins: 2
     losses: 4
 all_matches:
 - 2026-09-03-LilAggy-vs-Grey
@@ -27,24 +27,24 @@ all_matches:
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-18-Gustaf-vs-Grey
 top_squares_base_game:
+- text: 30 Arcane
+  marks: 2
 - text: 30 Faith
   marks: 2
 - text: Acquire Smithing Stone Bell Bearing [1] and [2]
   marks: 2
 - text: Complete 2 Caves
   marks: 2
-- text: Kill a Remembrance Boss with Whips Only
+- text: Complete an Altus Plateau or Mt. Gelmir Hero's Grave
   marks: 2
-- text: 30 Arcane
-  marks: 1
 top_squares_dlc:
 - text: Acquire the Golden Braid
+  marks: 3
+- text: Kill 3 Trolls
+  marks: 3
+- text: Kill Rellana
+  marks: 3
+- text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
   marks: 2
 - text: Kill 3 NPC Bosses
-  marks: 2
-- text: Kill 3 Trolls
-  marks: 2
-- text: Kill Crucible Knight Devonia
-  marks: 2
-- text: Kill Rellana
   marks: 2
