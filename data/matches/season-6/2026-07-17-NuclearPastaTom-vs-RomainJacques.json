@@ -13,7 +13,7 @@
     "video_url": "https://www.youtube.com/watch?v=DwrnlwNqgUQ",
     "duration_s": 14400.4,
     "published_at": "2026-07-19",
-    "extracted_at": "2026-09-22"
+    "extracted_at": "2026-09-15"
   },
   "num_games": 2,
   "red_score": 2,
@@ -34,7 +34,7 @@
           "Kill Magnus the Beast Claw",
           "Kill Margit with 6+ Parries",
           "Kill Fire Giant",
-          "Killa Remembrance Boss Hitless"
+          "Kill a Remembrance Boss Hitless"
         ],
         [
           "Kill Putrid Crystalian Trio Boss",
@@ -44,15 +44,15 @@
           "Kill 2 Unique Erdtree or Putrid Avatars"
         ],
         [
-          "Killa Remembrance Boss with Whips Only",
+          "Kill a Remembrance Boss with Whips Only",
           "Kill 2 Bell Bearing Hunters",
           "Acquire 4 Larval Tears from Transforming Enemies",
           "Kill Crucible Knight and Misbegotten Warrior Duo",
-          "Kill 5 Bosses with Tree in their name"
+          "Kill 5 Bosses with \"Tree\" in their name"
         ],
         [
           "Kill 2 Fallingstar Beasts",
-          "Kil 4 Unique Gargoyles/B8K",
+          "Kill 4 Unique Gargoyles / BBK",
           "Kill Tree Sentinel Duo",
           "Kill Magma Wyrm Makar",
           "Kill Fia's Champions"
@@ -105,7 +105,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:19:47",
@@ -177,7 +177,7 @@
         {
           "row": 3,
           "col": 5,
-          "square_text": "Kill 5 Bosses with Tree in their name",
+          "square_text": "Kill 5 Bosses with \"Tree\" in their name",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:43:02",
@@ -213,7 +213,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Killa Remembrance Boss with Whips Only",
+          "square_text": "Kill a Remembrance Boss with Whips Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:56:11",
@@ -256,6 +256,15 @@
           "video_ts_s": 4433.0
         },
         {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:09:45",
+          "video_ts_s": 4433.0
+        },
+        {
           "row": 1,
           "col": 1,
           "square_text": "Kill Malenia",
@@ -270,15 +279,6 @@
           "square_text": "Kill Magma Wyrm Makar",
           "color": "red",
           "event_type": "mark",
-          "game_timer": "01:19:13",
-          "video_ts_s": 5001.0
-        },
-        {
-          "row": null,
-          "col": null,
-          "square_text": null,
-          "color": null,
-          "event_type": "game_end",
           "game_timer": "01:19:13",
           "video_ts_s": 5001.0
         }
@@ -305,7 +305,7 @@
           "Kill Crucible Knight Devonia",
           "Kill 1 Dancing Lion",
           "Kill 3 Ulcerated Tree Spirits",
-          "Killa Remembrance Boss Hitless"
+          "Kill a Remembrance Boss Hitless"
         ],
         [
           "Complete 2 Forges",
@@ -330,15 +330,6 @@
         ]
       ],
       "events": [
-        {
-          "col": null,
-          "row": null,
-          "square_text": null,
-          "color": null,
-          "event_type": "game_start",
-          "game_timer": "00:00:21",
-          "video_ts_s": 5066.0
-        },
         {
           "row": 4,
           "col": 3,
@@ -502,6 +493,15 @@
           "video_ts_s": 8623.0
         },
         {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:00:43",
+          "video_ts_s": 8623.0
+        },
+        {
           "row": 5,
           "col": 3,
           "square_text": "Kill 3 Unique NPC Invaders",
@@ -513,7 +513,7 @@
         {
           "row": 2,
           "col": 5,
-          "square_text": "Killa Remembrance Boss Hitless",
+          "square_text": "Kill a Remembrance Boss Hitless",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:03:46",
@@ -525,15 +525,6 @@
           "square_text": "Duplicate a Remembrance 3 times",
           "color": "red",
           "event_type": "mark",
-          "game_timer": "01:07:53",
-          "video_ts_s": 9053.0
-        },
-        {
-          "row": null,
-          "col": null,
-          "square_text": null,
-          "color": null,
-          "event_type": "game_end",
           "game_timer": "01:07:53",
           "video_ts_s": 9053.0
         }
