@@ -13,7 +13,7 @@
     "video_url": "https://www.youtube.com/watch?v=DwrnlwNqgUQ",
     "duration_s": 14400.4,
     "published_at": "2026-07-19",
-    "extracted_at": "2026-09-15"
+    "extracted_at": "2026-09-22"
   },
   "num_games": 2,
   "red_score": 2,
@@ -256,15 +256,6 @@
           "video_ts_s": 4433.0
         },
         {
-          "row": null,
-          "col": null,
-          "square_text": null,
-          "color": null,
-          "event_type": "game_end",
-          "game_timer": "01:09:45",
-          "video_ts_s": 4433.0
-        },
-        {
           "row": 1,
           "col": 1,
           "square_text": "Kill Malenia",
@@ -279,6 +270,15 @@
           "square_text": "Kill Magma Wyrm Makar",
           "color": "red",
           "event_type": "mark",
+          "game_timer": "01:19:13",
+          "video_ts_s": 5001.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
           "game_timer": "01:19:13",
           "video_ts_s": 5001.0
         }
@@ -330,6 +330,15 @@
         ]
       ],
       "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:21",
+          "video_ts_s": 5066.0
+        },
         {
           "row": 4,
           "col": 3,
@@ -493,15 +502,6 @@
           "video_ts_s": 8623.0
         },
         {
-          "row": null,
-          "col": null,
-          "square_text": null,
-          "color": null,
-          "event_type": "game_end",
-          "game_timer": "01:00:43",
-          "video_ts_s": 8623.0
-        },
-        {
           "row": 5,
           "col": 3,
           "square_text": "Kill 3 Unique NPC Invaders",
@@ -525,6 +525,15 @@
           "square_text": "Duplicate a Remembrance 3 times",
           "color": "red",
           "event_type": "mark",
+          "game_timer": "01:07:53",
+          "video_ts_s": 9053.0
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
           "game_timer": "01:07:53",
           "video_ts_s": 9053.0
         }
