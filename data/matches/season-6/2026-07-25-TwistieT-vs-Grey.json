@@ -13,35 +13,35 @@
     "video_url": "https://www.youtube.com/watch?v=7Bfg7f53QwI",
     "duration_s": 14339.041383333333,
     "published_at": "2026-07-29",
-    "extracted_at": "2026-09-16"
+    "extracted_at": "2026-09-22"
   },
   "num_games": 2,
   "red_score": 0,
-  "blue_score": 0,
-  "winner": null,
+  "blue_score": 2,
+  "winner": "blue",
   "games": [
     {
       "game_index": 1,
       "start_video_ts_s": 71.00426666666667,
       "end_video_ts_s": 5074.002266666666,
       "game_type": "base",
-      "winner_color": null,
-      "win_type": "none",
+      "winner_color": "blue",
+      "win_type": "majority",
       "win_line": null,
       "square_texts": [
         [
           "Acquire 5 Ritual Pots",
           "Kill Preceptor Miriam",
-          "Kill 4 Unique Gargoyles / BBK",
+          "Kill 4 Unique Gargoyles/B8K",
           "Acquire 14 Unique Incantations",
           "Kill 3 Duo/Trio Bosses"
         ],
         [
-          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Kila Remembrance Boss with Remembrance Weapons Only",
           "Complete 3 Tunnels or Precipices",
           "Acquire Margit's and Mohg's Shackles",
           "30 Arcane",
-          "Kill a Godskin Apostle"
+          "Killa Godskin Apostle"
         ],
         [
           "Kill Fire Giant",
@@ -60,7 +60,7 @@
         [
           "Acquire the Full Haligtree Medallion",
           "Return Thops's Academy Key",
-          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Kilt 3 Friendly NPCs (No Hermit Merchants)",
           "Kill Magnus the Beast Claw",
           "Kill Commander O'Neil"
         ]
@@ -87,7 +87,7 @@
         {
           "row": 5,
           "col": 3,
-          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "square_text": "Kilt 3 Friendly NPCs (No Hermit Merchants)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:11:25",
@@ -123,7 +123,7 @@
         {
           "row": 2,
           "col": 5,
-          "square_text": "Kill a Godskin Apostle",
+          "square_text": "Killa Godskin Apostle",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:32:43",
@@ -204,7 +204,7 @@
         {
           "row": 2,
           "col": 1,
-          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "square_text": "Kila Remembrance Boss with Remembrance Weapons Only",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:04:43",
@@ -245,6 +245,15 @@
           "event_type": "mark",
           "game_timer": "01:24:09",
           "video_ts_s": 5021.0160000000005
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:09",
+          "video_ts_s": 5021.0160000000005
         }
       ]
     },
@@ -253,8 +262,8 @@
       "start_video_ts_s": 5075.003266666667,
       "end_video_ts_s": 10693.015666666666,
       "game_type": "dlc",
-      "winner_color": null,
-      "win_type": "none",
+      "winner_color": "blue",
+      "win_type": "majority",
       "win_line": null,
       "square_texts": [
         [
@@ -267,7 +276,7 @@
         [
           "Kill Putrescent Knight",
           "Complete 2 Catacombs",
-          "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "Kill a Boss after inflicting 4 Unique Status Effects",
           "Acquire the Golden Braid",
           "Kill the Ancient Dragon-Man"
         ],
@@ -287,7 +296,7 @@
         ],
         [
           "Kill Rakshasa",
-          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Acquire Death Mask Heim, Winged Serpent Heim, and Saiza s Hood",
           "Kill 3 Unique NPC Invaders",
           "Kill the Death Rite Bird",
           "Kill 1 Unique Divine Bird Warrior"
@@ -405,7 +414,7 @@
         {
           "row": 5,
           "col": 2,
-          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "square_text": "Acquire Death Mask Heim, Winged Serpent Heim, and Saiza s Hood",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:47:37",
@@ -477,7 +486,7 @@
         {
           "row": 2,
           "col": 3,
-          "square_text": "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "square_text": "Kill a Boss after inflicting 4 Unique Status Effects",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:17:06",
@@ -498,6 +507,15 @@
           "square_text": "Kill Putrescent Knight",
           "color": "blue",
           "event_type": "mark",
+          "game_timer": "01:26:50",
+          "video_ts_s": 10652.008033333334
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
           "game_timer": "01:26:50",
           "video_ts_s": 10652.008033333334
         }

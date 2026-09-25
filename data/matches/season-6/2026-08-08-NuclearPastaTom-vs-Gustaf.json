@@ -13,7 +13,7 @@
     "video_url": "https://www.youtube.com/watch?v=pj1Bwvp3i1U",
     "duration_s": 14419.8,
     "published_at": "2026-08-13",
-    "extracted_at": "2026-09-19"
+    "extracted_at": "2026-09-25"
   },
   "num_games": 2,
   "red_score": 2,
@@ -403,19 +403,19 @@
           "video_ts_s": 6961.0
         },
         {
-          "row": 4,
-          "col": 3,
-          "square_text": "Kill Leda and her Allies",
-          "color": "red",
-          "event_type": "mark",
-          "game_timer": "00:53:19",
-          "video_ts_s": 7409.0
-        },
-        {
           "row": 5,
           "col": 1,
           "square_text": "Acquire 3 DLC Spirit Ashes",
           "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:18",
+          "video_ts_s": 7408.0
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Leda and her Allies",
+          "color": "red",
           "event_type": "mark",
           "game_timer": "00:53:19",
           "video_ts_s": 7409.0
@@ -426,8 +426,8 @@
           "square_text": null,
           "color": null,
           "event_type": "game_end",
-          "game_timer": "00:53:19",
-          "video_ts_s": 7409.0
+          "game_timer": "00:53:20",
+          "video_ts_s": 7410.0
         }
       ]
     }

@@ -304,6 +304,15 @@
       ],
       "events": [
         {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_ts_s": 4348.0
+        },
+        {
           "row": 1,
           "col": 1,
           "square_text": "Acquire 4 Hefty Pots",
