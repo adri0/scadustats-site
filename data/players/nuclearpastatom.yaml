@@ -6,18 +6,18 @@ avatar: null
 bio: null
 season_records:
   '6':
-    wins: 6
+    wins: 7
     losses: 0
     draws: 0
 game_record:
-  wins: 13
+  wins: 14
   losses: 1
 game_type_records:
   base:
     wins: 6
     losses: 1
   dlc:
-    wins: 7
+    wins: 8
     losses: 0
 all_matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -41,11 +41,11 @@ top_squares_base_game:
 top_squares_dlc:
 - text: Acquire Commander Gaius's Pants
   marks: 4
+- text: Kill Moonrithyll, Carian Knight
+  marks: 4
+- text: Kill a Remembrance Boss Hitless
+  marks: 4
 - text: Acquire 2 Blessings of Marika
   marks: 3
-- text: Kill a Remembrance Boss Hitless
-  marks: 3
 - text: Acquire 2 Dragon Hearts
-  marks: 2
-- text: Acquire 2 Full DLC Armor Sets
   marks: 2

@@ -13,20 +13,20 @@
     "video_url": "https://www.youtube.com/watch?v=7Bfg7f53QwI",
     "duration_s": 14339.041383333333,
     "published_at": "2026-07-29",
-    "extracted_at": "2026-09-16"
+    "extracted_at": "2026-09-22"
   },
   "num_games": 2,
   "red_score": 0,
-  "blue_score": 0,
-  "winner": null,
+  "blue_score": 2,
+  "winner": "blue",
   "games": [
     {
       "game_index": 1,
       "start_video_ts_s": 71.00426666666667,
       "end_video_ts_s": 5074.002266666666,
       "game_type": "base",
-      "winner_color": null,
-      "win_type": "none",
+      "winner_color": "blue",
+      "win_type": "majority",
       "win_line": null,
       "square_texts": [
         [
@@ -245,6 +245,15 @@
           "event_type": "mark",
           "game_timer": "01:24:09",
           "video_ts_s": 5021.0160000000005
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:09",
+          "video_ts_s": 5021.0160000000005
         }
       ]
     },
@@ -253,8 +262,8 @@
       "start_video_ts_s": 5075.003266666667,
       "end_video_ts_s": 10693.015666666666,
       "game_type": "dlc",
-      "winner_color": null,
-      "win_type": "none",
+      "winner_color": "blue",
+      "win_type": "majority",
       "win_line": null,
       "square_texts": [
         [
@@ -498,6 +507,15 @@
           "square_text": "Kill Putrescent Knight",
           "color": "blue",
           "event_type": "mark",
+          "game_timer": "01:26:50",
+          "video_ts_s": 10652.008033333334
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
           "game_timer": "01:26:50",
           "video_ts_s": 10652.008033333334
         }

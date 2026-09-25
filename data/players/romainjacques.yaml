@@ -31,22 +31,22 @@ all_matches:
 top_squares_base_game:
 - text: Kill Godskin Noble (Volcano Manor) without Status Effects
   marks: 3
+- text: Kill Mohg, Lord of Blood
+  marks: 3
 - text: 30 Arcane
   marks: 2
 - text: Acquire 5 Ritual Pots
   marks: 2
 - text: Acquire Somberstone Bell Bearing [1] and [2]
   marks: 2
-- text: Give Hyetta 3 Shabriri Grapes
-  marks: 2
 top_squares_dlc:
+- text: Kill a Remembrance Boss Hitless
+  marks: 4
 - text: Acquire the Scorpion Stew
   marks: 3
 - text: 'Kill 1 Boss of each: Bear / Lion / Hippo'
   marks: 3
 - text: Kill Crucible Knight Devonia
-  marks: 3
-- text: Kill a Remembrance Boss Hitless
   marks: 3
 - text: Kill the Golden Hippo
   marks: 3

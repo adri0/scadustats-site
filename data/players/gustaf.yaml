@@ -28,14 +28,14 @@ all_matches:
 top_squares_base_game:
 - text: Kill 2 Omenkiller Bosses
   marks: 2
+- text: Kill 2 Unique Tibia Mariners
+  marks: 2
 - text: Kill Crucible Knight and Misbegotten Warrior Duo
   marks: 2
 - text: Kill Morgott
   marks: 2
 - text: Kill an Ancestor Spirit
   marks: 2
-- text: 30 Faith
-  marks: 1
 top_squares_dlc:
 - text: Acquire 5 Hefty Pots
   marks: 2
