@@ -1,9 +1,5 @@
-id: 4
 slug: ironyeu
 display_name: Ironyeu
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 1

@@ -1,9 +1,5 @@
-id: 2
 slug: grey
 display_name: Grey
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 2

@@ -1,9 +1,5 @@
-id: 8
 slug: parkenharbor
 display_name: Parkenharbor
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 0
@@ -34,9 +30,11 @@ top_squares_base_game:
   marks: 2
 - text: Kill Soldier of Godrick with Bare Fists Only
   marks: 2
-- text: Return Thops's Academy Key
+- text: Kill a Remembrance Boss with Remembrance Weapons Only
   marks: 2
 top_squares_dlc:
+- text: Acquire the Two-Headed Turtle Talisman
+  marks: 2
 - text: Kill a Death Knight
   marks: 2
 - text: Acquire 2 Dragon Hearts
@@ -44,6 +42,4 @@ top_squares_dlc:
 - text: Acquire 3 DLC Spirit Ashes
   marks: 1
 - text: Acquire 3 Different Max Upgrade Materials
-  marks: 1
-- text: Acquire 3 Full DLC Armor Sets
   marks: 1
