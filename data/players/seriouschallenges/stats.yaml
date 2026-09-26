@@ -1,25 +1,22 @@
-id: 11
 slug: seriouschallenges
 display_name: SeriousChallenges
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
-    wins: 4
+    wins: 5
     losses: 1
     draws: 1
 game_record:
-  wins: 9
-  losses: 4
+  wins: 11
+  losses: 5
 game_type_records:
   base:
-    wins: 3
+    wins: 4
     losses: 3
   dlc:
-    wins: 6
-    losses: 1
+    wins: 7
+    losses: 2
 all_matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-15-blanxz-vs-SeriousChallenges
@@ -27,24 +24,24 @@ all_matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-17-KEMIST-vs-SeriousChallenges
 top_squares_base_game:
+- text: Acquire the Moon of Nokstella
+  marks: 3
+- text: Kill 4 NPC Invaders
+  marks: 3
+- text: Kill Margit with 6+ Parries
+  marks: 3
+- text: Kill Tree Sentinel (Limgrave) with a +0 Weapon Only
+  marks: 3
 - text: Kill Wormface
   marks: 3
-- text: Acquire 14 Unique Incantations
-  marks: 2
-- text: Acquire the Moon of Nokstella
-  marks: 2
-- text: Complete 2 Evergaols
-  marks: 2
-- text: Kill 2 Unique Black Knife Assassins
-  marks: 2
 top_squares_dlc:
+- text: Acquire a Leda Rune
+  marks: 4
+- text: Acquire the Kindred Cookbook from Moore
+  marks: 4
 - text: Kill Lamenter
   marks: 4
+- text: Kill the Rolling Giant Lightning Ram
+  marks: 4
 - text: Acquire 3 DLC Ashes of War
-  marks: 3
-- text: Acquire a Leda Rune
-  marks: 3
-- text: Acquire the Kindred Cookbook from Moore
-  marks: 3
-- text: Give the Secret Rite Scroll to Ansbach
   marks: 3

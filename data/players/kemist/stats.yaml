@@ -1,9 +1,5 @@
-id: 5
 slug: kemist
 display_name: KEMIST
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 0
@@ -33,9 +29,9 @@ top_squares_base_game:
 top_squares_dlc:
 - text: Kill Jori, Elder Inquisitor
   marks: 1
-- text: Kill the Golden Hippo
+- text: Kill a Remembrance Boss Hitless
   marks: 1
-- text: Killa Remembrance Boss Hitless
+- text: Kill the Golden Hippo
   marks: 1
 - text: Memory of Grace with 500k+ Runes
   marks: 1

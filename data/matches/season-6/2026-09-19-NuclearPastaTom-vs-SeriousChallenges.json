@@ -1,0 +1,1005 @@
+{
+  "match_id": "2026-09-19-NuclearPastaTom-vs-SeriousChallenges",
+  "match_date": "2026-09-19",
+  "season": "6",
+  "match_type": "double_elimination",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "SeriousChallenges",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=xFyCvsNeucw",
+    "duration_s": 19538.9194,
+    "published_at": null,
+    "extracted_at": "2026-09-26"
+  },
+  "num_games": 3,
+  "red_score": 1,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 471.0038666666667,
+      "end_video_ts_s": 4719.0143,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "30 Faith",
+          "Kill 2 Unique Erdtree or Putrid Avatars",
+          "Kill Leonine Misbegotten",
+          "Kill 4 Unique Elder Lions",
+          "Acquire 3 Memory Stones"
+        ],
+        [
+          "Kill Fia's Champions",
+          "Kill 5 Bosses with \"Tree\" in their name",
+          "30 Intelligence",
+          "Give Hyetta 3 Shabriri Grapes",
+          "Kill 1 Fallingstar Beast"
+        ],
+        [
+          "Acquire 2 Imbued Sword Keys",
+          "Acquire the Moon of Nokstella",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "Kill Margit with 6+ Parries",
+          "Memory of Grace with 100k+ Runes"
+        ],
+        [
+          "Kill Fire Giant",
+          "Kill 4 NPC Invaders",
+          "Acquire 3 Painting Rewards",
+          "Kill Godfrey (Gold Spirit)",
+          "Complete 2 Tunnels"
+        ],
+        [
+          "Restore Radahn's Great Rune",
+          "Acquire 6 Unique Staves",
+          "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "Kill Tree Sentinel Duo",
+          "Take Rya's hand to Volcano Manor"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:16:54.013"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:02:45",
+          "video_timestamp": "00:19:39.011"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:52",
+          "video_timestamp": "00:23:46.008"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:49",
+          "video_timestamp": "00:26:43.001"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:11:35",
+          "video_timestamp": "00:28:29.007"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 2 Tunnels",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:39",
+          "video_timestamp": "00:28:33.011"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:30",
+          "video_timestamp": "00:29:24.012"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:25",
+          "video_timestamp": "00:30:19.001"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:10",
+          "video_timestamp": "00:33:04.015"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "30 Faith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:48",
+          "video_timestamp": "00:36:42.016"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:30",
+          "video_timestamp": "00:40:24.005"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "30 Faith",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 2 Tunnels",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:23:48",
+          "video_timestamp": "00:40:42.006"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "30 Faith",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Memory of Grace with 100k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 2 Tunnels",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:41:16.007"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 2 Unique Erdtree or Putrid Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:38",
+          "video_timestamp": "00:43:32.009"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 3 Memory Stones",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:53",
+          "video_timestamp": "00:46:47.004"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:26",
+          "video_timestamp": "00:48:20.014"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 5 Bosses with \"Tree\" in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:32",
+          "video_timestamp": "00:51:26.016"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 4 Unique Elder Lions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:46",
+          "video_timestamp": "00:54:40.010"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:56",
+          "video_timestamp": "00:56:50.007"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:35",
+          "video_timestamp": "01:00:29.009"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 6 Unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:12",
+          "video_timestamp": "01:08:06.015"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:11",
+          "video_timestamp": "01:09:05.008"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:19",
+          "video_timestamp": "01:13:13.005"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "30 Intelligence",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:35",
+          "video_timestamp": "01:14:29.015"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:59",
+          "video_timestamp": "01:16:53.008"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:58",
+          "video_timestamp": "01:17:52.001"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:00:58",
+          "video_timestamp": "01:17:52.001"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5785.012566666666,
+      "end_video_ts_s": 12263.000750000001,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire the Scorpion Stew",
+          "Kill Leda and her Allies",
+          "Complete 2 Nameless Mausoleums",
+          "Rune Level 80",
+          "Acquire 3 NPC Dropped Weapons"
+        ],
+        [
+          "Kill 1 Red Bear",
+          "Drink Thiollier's Concoction",
+          "Kill 3 NPC Bosses",
+          "Kill Midra",
+          "Acquire a Leda Rune"
+        ],
+        [
+          "Kill 1 Unique Base Game Boss in the DLC",
+          "Kill the Fallingstar Beast",
+          "Acquire the Kindred Cookbook from Moore",
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill Madding Hand"
+        ],
+        [
+          "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill Black Knight Garrew",
+          "Acquire 2 Painting Rewards",
+          "Kill Moonrithyll, Carian Knight"
+        ],
+        [
+          "Kill Promised Consort Radahn",
+          "Acquire 3 Non-Merchant Sorceries",
+          "Kill Ancient Dragon Senessax",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill a Remembrance Boss Hitless"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:40:08.002"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:06",
+          "video_timestamp": "01:47:14.011"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 1 Red Bear",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:22",
+          "video_timestamp": "01:50:30.007"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Boss after Inflicting 4 Unique Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:22",
+          "video_timestamp": "01:50:30.007"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:42",
+          "video_timestamp": "02:01:50.003"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Black Knight Garrew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:03",
+          "video_timestamp": "02:02:11.007"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:10",
+          "video_timestamp": "02:04:18.001"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 1 Unique Base Game Boss in the DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:13",
+          "video_timestamp": "02:05:21.014"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill the Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:14",
+          "video_timestamp": "02:05:22.014"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:16",
+          "video_timestamp": "02:11:24.009"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:08",
+          "video_timestamp": "02:12:16.011"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:41",
+          "video_timestamp": "02:12:49.011"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire the Kindred Cookbook from Moore",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:34",
+          "video_timestamp": "02:17:42.004"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Rune Level 80",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:44",
+          "video_timestamp": "02:21:52.004"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:41",
+          "video_timestamp": "02:22:49.010"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 Non-Merchant Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:10",
+          "video_timestamp": "02:25:18.009"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:18",
+          "video_timestamp": "02:28:26.014"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:55",
+          "video_timestamp": "02:36:03.004"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:00",
+          "video_timestamp": "02:42:08.002"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:57",
+          "video_timestamp": "02:43:05.009"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Madding Hand",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:10",
+          "video_timestamp": "02:49:18.015"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:32",
+          "video_timestamp": "02:53:40.010"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:41",
+          "video_timestamp": "02:57:49.008"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Leda and her Allies",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:26",
+          "video_timestamp": "03:07:34.009"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Promised Consort Radahn",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:38:35",
+          "video_timestamp": "03:18:43.011"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Midra",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:44:07",
+          "video_timestamp": "03:24:15.009"
+        }
+      ]
+    },
+    {
+      "game_index": 3,
+      "start_video_ts_s": 13245.015116666667,
+      "end_video_ts_s": 18769.00025,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Moonrithyll, Carian Knight",
+          "Blow a Finger",
+          "Kill Messmer",
+          "Kill Chief Bloodfiend",
+          "Kill 2 Furnace Golems"
+        ],
+        [
+          "Kill a Boss with Incantations Only",
+          "Kill Madding Hand",
+          "Kill 2 Dancing Lions",
+          "Give an Iris of Occultation",
+          "Kill a Death Knight"
+        ],
+        [
+          "Give an lris of Grace",
+          "Acquire 2 Painting Rewards",
+          "Acquire the Golden Braid",
+          "Kill 4 Unique Horned Warriors",
+          "Duplicate a Remembrance 1 time"
+        ],
+        [
+          "Acquire 3 Hanging Pot Bell Bearings",
+          "Kill Rakshasa",
+          "Acquire 5 Hefty Pots",
+          "Memory of Grace with 500k+ Runes",
+          "Kill Crucible Knight Devonia"
+        ],
+        [
+          "Kill the Ancient Dragon-Man",
+          "Kill 2 Red Bears",
+          "Acquire Jolan Summon",
+          "Kill Promised Consort Radahn",
+          "Kill 3 Trolls"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "03:43:59.009"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:04",
+          "video_timestamp": "03:56:03.016"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:40",
+          "video_timestamp": "03:56:39.001"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Ancient Dragon-Man",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:15",
+          "video_timestamp": "04:01:14.010"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Ancient Dragon-Man",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:15",
+          "video_timestamp": "04:01:14.010"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 3 Hanging Pot Bell Bearings",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:06",
+          "video_timestamp": "04:08:04"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Blow a Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:07",
+          "video_timestamp": "04:11:05"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:22",
+          "video_timestamp": "04:11:21.016"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Memory of Grace with 500k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:44",
+          "video_timestamp": "04:11:43.005"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Duplicate a Remembrance 1 time",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:24",
+          "video_timestamp": "04:13:23.004"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:47",
+          "video_timestamp": "04:14:46.004"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Crucible Knight Devonia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:30",
+          "video_timestamp": "04:18:29.010"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:46",
+          "video_timestamp": "04:24:45.002"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Trolls",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:35",
+          "video_timestamp": "04:30:34.001"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:10",
+          "video_timestamp": "04:32:09.013"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Rakshasa",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:52",
+          "video_timestamp": "04:33:51.015"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Madding Hand",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:39",
+          "video_timestamp": "04:41:38.014"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Death Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:59",
+          "video_timestamp": "04:43:58.004"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Boss with Incantations Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:53",
+          "video_timestamp": "04:46:52.011"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 4 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:26",
+          "video_timestamp": "04:51:25.001"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 2 Red Bears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:17",
+          "video_timestamp": "04:55:16.015"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Give an lris of Grace",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:01",
+          "video_timestamp": "04:59:00.005"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:22:58",
+          "video_timestamp": "05:06:57.015"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 Furnace Golems",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:26:33",
+          "video_timestamp": "05:10:32.013"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 2 Dancing Lions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:28:15",
+          "video_timestamp": "05:12:14.015"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:28:15",
+          "video_timestamp": "05:12:14.015"
+        }
+      ]
+    }
+  ]
+}
