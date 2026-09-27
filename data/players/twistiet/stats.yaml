@@ -1,9 +1,5 @@
-id: 12
 slug: twistiet
 display_name: TwistieT
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 0

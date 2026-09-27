@@ -73,7 +73,7 @@
           "color": null,
           "event_type": "game_start",
           "game_timer": "00:00:00",
-          "video_ts_s": 183.0
+          "video_timestamp": "00:03:03"
         },
         {
           "row": 3,
@@ -82,7 +82,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:05:21",
-          "video_ts_s": 504.0
+          "video_timestamp": "00:08:24"
         },
         {
           "row": 5,
@@ -91,7 +91,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:08:01",
-          "video_ts_s": 664.0
+          "video_timestamp": "00:11:04"
         },
         {
           "row": 1,
@@ -100,7 +100,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:15:40",
-          "video_ts_s": 1123.0
+          "video_timestamp": "00:18:43"
         },
         {
           "row": 3,
@@ -109,7 +109,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:17:26",
-          "video_ts_s": 1229.0
+          "video_timestamp": "00:20:29"
         },
         {
           "row": 2,
@@ -118,7 +118,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:21:17",
-          "video_ts_s": 1460.0
+          "video_timestamp": "00:24:20"
         },
         {
           "row": 5,
@@ -127,7 +127,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:27:37",
-          "video_ts_s": 1840.0
+          "video_timestamp": "00:30:40"
         },
         {
           "row": 1,
@@ -136,7 +136,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:29:53",
-          "video_ts_s": 1976.0
+          "video_timestamp": "00:32:56"
         },
         {
           "row": 5,
@@ -145,7 +145,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:34:26",
-          "video_ts_s": 2249.0
+          "video_timestamp": "00:37:29"
         },
         {
           "row": 4,
@@ -154,7 +154,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:42:33",
-          "video_ts_s": 2736.0
+          "video_timestamp": "00:45:36"
         },
         {
           "row": 4,
@@ -163,7 +163,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:45:57",
-          "video_ts_s": 2940.0
+          "video_timestamp": "00:49:00"
         },
         {
           "row": 3,
@@ -172,7 +172,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:47:43",
-          "video_ts_s": 3046.0
+          "video_timestamp": "00:50:46"
         },
         {
           "row": 1,
@@ -181,7 +181,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:48:59",
-          "video_ts_s": 3122.0
+          "video_timestamp": "00:52:02"
         },
         {
           "row": 2,
@@ -190,7 +190,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:50:12",
-          "video_ts_s": 3195.0
+          "video_timestamp": "00:53:15"
         },
         {
           "row": 1,
@@ -199,7 +199,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:52:09",
-          "video_ts_s": 3312.0
+          "video_timestamp": "00:55:12"
         },
         {
           "row": 2,
@@ -208,7 +208,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:55:00",
-          "video_ts_s": 3483.0
+          "video_timestamp": "00:58:03"
         },
         {
           "row": 1,
@@ -217,7 +217,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:58:27",
-          "video_ts_s": 3690.0
+          "video_timestamp": "01:01:30"
         },
         {
           "row": null,
@@ -226,7 +226,7 @@
           "color": null,
           "event_type": "game_end",
           "game_timer": "00:58:27",
-          "video_ts_s": 3690.0
+          "video_timestamp": "01:01:30"
         }
       ]
     },
@@ -283,7 +283,7 @@
           "color": null,
           "event_type": "game_start",
           "game_timer": "00:00:00",
-          "video_ts_s": 3916.0
+          "video_timestamp": "01:05:16"
         },
         {
           "row": 5,
@@ -292,7 +292,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:07:51",
-          "video_ts_s": 4387.0
+          "video_timestamp": "01:13:07"
         },
         {
           "row": 3,
@@ -301,7 +301,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:15:33",
-          "video_ts_s": 4849.0
+          "video_timestamp": "01:20:49"
         },
         {
           "row": 5,
@@ -310,7 +310,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:18:02",
-          "video_ts_s": 4998.0
+          "video_timestamp": "01:23:18"
         },
         {
           "row": 4,
@@ -319,7 +319,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:19:20",
-          "video_ts_s": 5076.0
+          "video_timestamp": "01:24:36"
         },
         {
           "row": 5,
@@ -328,7 +328,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:23:48",
-          "video_ts_s": 5344.0
+          "video_timestamp": "01:29:04"
         },
         {
           "row": 1,
@@ -337,7 +337,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:29:18",
-          "video_ts_s": 5674.0
+          "video_timestamp": "01:34:34"
         },
         {
           "row": 4,
@@ -346,7 +346,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:32:25",
-          "video_ts_s": 5861.0
+          "video_timestamp": "01:37:41"
         },
         {
           "row": 4,
@@ -355,7 +355,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:35:16",
-          "video_ts_s": 6032.0
+          "video_timestamp": "01:40:32"
         },
         {
           "row": 3,
@@ -364,7 +364,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:40:06",
-          "video_ts_s": 6322.0
+          "video_timestamp": "01:45:22"
         },
         {
           "row": 3,
@@ -373,7 +373,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:41:05",
-          "video_ts_s": 6381.0
+          "video_timestamp": "01:46:21"
         },
         {
           "row": 1,
@@ -382,7 +382,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:43:33",
-          "video_ts_s": 6529.0
+          "video_timestamp": "01:48:49"
         },
         {
           "row": 1,
@@ -391,7 +391,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:48:18",
-          "video_ts_s": 6814.0
+          "video_timestamp": "01:53:34"
         },
         {
           "row": 1,
@@ -400,7 +400,7 @@
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:49:29",
-          "video_ts_s": 6885.0
+          "video_timestamp": "01:54:45"
         },
         {
           "row": 3,
@@ -409,7 +409,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:54:33",
-          "video_ts_s": 7189.0
+          "video_timestamp": "01:59:49"
         },
         {
           "row": 2,
@@ -418,7 +418,7 @@
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:56:03",
-          "video_ts_s": 7279.0
+          "video_timestamp": "02:01:19"
         },
         {
           "row": null,
@@ -427,7 +427,7 @@
           "color": null,
           "event_type": "game_end",
           "game_timer": "00:56:03",
-          "video_ts_s": 7279.0
+          "video_timestamp": "02:01:19"
         }
       ]
     }

@@ -1,9 +1,5 @@
-id: 3
 slug: gustaf
 display_name: Gustaf
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 1

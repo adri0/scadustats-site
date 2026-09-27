@@ -1,24 +1,20 @@
-id: 1
 slug: blanxz
 display_name: blanxz
-twitch: blanxz
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 6
-    losses: 1
+    losses: 2
     draws: 0
 game_record:
   wins: 13
-  losses: 3
+  losses: 4
 game_type_records:
   base:
     wins: 7
     losses: 1
   dlc:
     wins: 6
-    losses: 2
+    losses: 3
 all_matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-05-blanxz-vs-Vswed
@@ -33,11 +29,11 @@ top_squares_base_game:
   marks: 3
 - text: Kill 3 Friendly NPCs (No Hermit Merchants)
   marks: 3
+- text: Kill a Remembrance Boss Hitless
+  marks: 3
 - text: 30 Arcane
   marks: 2
 - text: Acquire Smithing Stone Bell Bearing [1] and [2]
-  marks: 2
-- text: Complete 2 Catacombs
   marks: 2
 top_squares_dlc:
 - text: Blow a Finger

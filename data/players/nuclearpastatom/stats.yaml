@@ -1,25 +1,22 @@
-id: 7
 slug: nuclearpastatom
 display_name: NuclearPastaTom
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 7
-    losses: 0
+    losses: 1
     draws: 0
 game_record:
-  wins: 14
-  losses: 1
+  wins: 15
+  losses: 3
 game_type_records:
   base:
     wins: 6
-    losses: 1
+    losses: 2
   dlc:
-    wins: 8
-    losses: 0
+    wins: 9
+    losses: 1
 all_matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
@@ -30,22 +27,22 @@ all_matches:
 top_squares_base_game:
 - text: Kill Tree Sentinel Duo
   marks: 4
+- text: Acquire 3 Painting Rewards
+  marks: 3
 - text: Kill 5 Bosses in Limgrave / Weeping
   marks: 3
 - text: Acquire 14 Unique Incantations
   marks: 2
-- text: Acquire 3 Legendary Talismans
-  marks: 2
-- text: Acquire 3 Painting Rewards
+- text: Acquire 2 Imbued Sword Keys
   marks: 2
 top_squares_dlc:
+- text: Kill a Remembrance Boss Hitless
+  marks: 5
 - text: Acquire Commander Gaius's Pants
   marks: 4
 - text: Kill Moonrithyll, Carian Knight
   marks: 4
-- text: Kill a Remembrance Boss Hitless
-  marks: 4
 - text: Acquire 2 Blessings of Marika
   marks: 3
-- text: Acquire 2 Dragon Hearts
-  marks: 2
+- text: Acquire 3 NPC Dropped Weapons
+  marks: 3

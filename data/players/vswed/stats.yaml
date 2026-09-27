@@ -1,9 +1,5 @@
-id: 13
 slug: vswed
 display_name: Vswed
-twitch: null
-avatar: null
-bio: null
 season_records:
   '6':
     wins: 2
@@ -39,6 +35,8 @@ top_squares_base_game:
 - text: Restore Morgott's Great Rune
   marks: 3
 top_squares_dlc:
+- text: Kill Moonrithyll, Carian Knight
+  marks: 4
 - text: Acquire 2 Dragon Hearts
   marks: 3
 - text: Acquire 3 NPC Dropped Weapons
@@ -46,6 +44,4 @@ top_squares_dlc:
 - text: Acquire 3 Non-Merchant Sorceries
   marks: 2
 - text: Acquire 3 Unique Max Upgrade Materials
-  marks: 2
-- text: Acquire a Leda Rune
   marks: 2
