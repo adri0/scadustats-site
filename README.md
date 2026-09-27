@@ -25,7 +25,7 @@ must be installed separately — either `pip install scadustats` or, to run it w
 ```
 scadustats extract <youtube-url>       # transcribe a match VOD into data/matches/
 scadustats square consolidate          # rebuild data/squares/{base_game,dlc}.json
-scadustats player consolidate          # rebuild data/players/<slug>.yaml
+scadustats player consolidate          # rebuild data/players/<slug>/stats.yaml (and info.yaml for new players)
 scadustats match validate              # sanity-check everything under data/matches/
 ```
 

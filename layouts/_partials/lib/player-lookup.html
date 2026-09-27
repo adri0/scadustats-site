@@ -1,13 +1,18 @@
 {{- /*
   Input: a player name as spelled in a match file.
   Output: a normalized profile dict {slug, display_name, twitch_url, avatar,
-  bio, unregistered}. Only identity/profile fields are read from
-  `data/players/*.yaml`; the stat fields those files also carry
-  (season_records, game_record, top_squares_*) are deliberately ignored --
-  every stat on the site is recomputed from `data/matches` so it can't drift.
+  bio, unregistered}. Each `data/players/<slug>/` splits into `info.yaml`
+  (hand-curated identity: slug, twitch, avatar, bio -- never touched by
+  `scadustats player consolidate` once it exists) and `stats.yaml` (wholly
+  regenerated every run: slug, display_name, plus the precomputed stat fields
+  those files also carry -- season_records, game_record, top_squares_*, etc).
+  Only info's identity fields and stats' display_name are read here; the
+  precomputed stats are deliberately ignored -- every stat on the site is
+  recomputed from `data/matches` so it can't drift.
 
-  Matching is case-insensitive against display_name, slug, and any `aliases`,
-  which is the hook for folding a mis-transcribed name into one profile.
+  Matching is case-insensitive against stats.display_name and info.slug.
+  There's no `aliases` field: `scadustats` itself folds mis-transcribed name
+  variants into one slug before this site ever sees them.
 */ -}}
 {{- $name := . -}}
 {{- $needle := lower $name -}}
@@ -15,27 +20,25 @@
 {{- $result := dict -}}
 {{- range hugo.Data.players -}}
   {{- if not $found -}}
-    {{- $entry := . -}}
+    {{- $info := .info | default dict -}}
+    {{- $stats := .stats | default dict -}}
+    {{- $slug := $info.slug | default $stats.slug -}}
+    {{- $displayName := $stats.display_name -}}
     {{- $isMatch := or
-        (eq (lower ($entry.display_name | default "")) $needle)
-        (eq (lower ($entry.slug | default "")) $needle) -}}
-    {{- range $entry.aliases -}}
-      {{- if eq (lower .) $needle -}}
-        {{- $isMatch = true -}}
-      {{- end -}}
-    {{- end -}}
+        (eq (lower ($displayName | default "")) $needle)
+        (eq (lower ($slug | default "")) $needle) -}}
     {{- if $isMatch -}}
       {{- $found = true -}}
-      {{- $twitchURL := $entry.twitch_url | default "" -}}
-      {{- if and (not $twitchURL) $entry.twitch -}}
-        {{- $twitchURL = printf "https://www.twitch.tv/%s" $entry.twitch -}}
+      {{- $twitchURL := "" -}}
+      {{- if $info.twitch -}}
+        {{- $twitchURL = printf "https://www.twitch.tv/%s" $info.twitch -}}
       {{- end -}}
       {{- $result = dict
-          "slug" ($entry.slug | default (urlize $needle))
-          "display_name" ($entry.display_name | default $name)
+          "slug" ($slug | default (urlize $needle))
+          "display_name" ($displayName | default $name)
           "twitch_url" $twitchURL
-          "avatar" ($entry.avatar | default "")
-          "bio" ($entry.bio | default "")
+          "avatar" ($info.avatar | default "")
+          "bio" ($info.bio | default "")
           "unregistered" false -}}
     {{- end -}}
   {{- end -}}

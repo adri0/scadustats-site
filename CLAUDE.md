@@ -53,18 +53,26 @@ Fields are frequently `null`/missing for matches that weren't fully commentated,
 transcribed — don't assume any field beyond `video_id`, `match_date`, `season`, and the player names
 is always populated.
 
-### `data/players/<slug>.yaml`
+### `data/players/<slug>/`
 
-One file per player. Only the identity fields are read by the site: `slug`, `display_name`,
-`twitch` (a bare handle; some files still use a full `twitch_url`), `avatar`, `bio`, and optional
-`aliases`. Matches are joined to players by name via `partials/lib/player-lookup.html`, which
-compares case-insensitively against `display_name`, `slug`, and `aliases`.
+Two files per player, both under the same directory:
 
-These files also carry precomputed stats (`season_records`, `game_record`, `game_type_records`,
-`all_matches`, `top_squares_*`). **The site ignores them** — every number on the site is recomputed
-from `data/matches`, because the precomputed values go stale as matches are added and some already
-disagree with the match files. The stat fields are also not uniformly shaped across files
-(`top_squares_*` is a list of strings in some, a list of `{text, marks}` in others).
+- `info.yaml` — hand-curated identity, written once by `scadustats player consolidate` and never
+  touched again after that: `id` (assigned once), `slug`, `twitch` (a bare handle), `avatar`,
+  `bio`. Safe to hand-edit; reruns won't overwrite it.
+- `stats.yaml` — wholly regenerated from `data/matches` on every `scadustats player consolidate`
+  run: `slug`, `display_name` (the exact spelling seen most often across that player's matches),
+  plus precomputed stats (`season_records`, `game_record`, `game_type_records`, `all_matches`,
+  `top_squares_base_game`, `top_squares_dlc`).
+
+Only `info`'s identity fields and `stats.display_name` are read by the site. **The precomputed stat
+fields are ignored** — every number on the site is recomputed from `data/matches`, because the
+precomputed values go stale as matches are added and some already disagree with the match files.
+
+Matches are joined to players by name via `partials/lib/player-lookup.html`, which compares
+case-insensitively against `stats.display_name` and `info.slug`. There is no `aliases` field:
+`scadustats` itself folds mis-transcribed name variants into one slug before this site ever sees
+the data.
 
 ### `data/squares/{base_game,dlc}.json`
 
