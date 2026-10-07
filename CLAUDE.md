@@ -87,6 +87,20 @@ A list of `{id, name, start_date, end_date, bracket_type, blurb}`. Most fields a
 layouts must tolerate that. `partials/lib/season-lookup.html` synthesises an entry for any season
 that appears in a match file but not here.
 
+A season entry may also carry `rules`, a Markdown summary of its format shown on the season page.
+
+### `data/groups/season-<N>.yaml` and `data/brackets/season-<N>.yaml`
+
+Hand-curated tournament structure, which the match files don't carry (`scadustats` never touches
+these). `groups` lists each round-robin group's players in final placing order (used only to break
+ties on points) plus `qualify`, where each placing went next; an entry written as a list or as
+`{players, note}` is one slot shared by several players (e.g. a replacement), summed into one row
+via `lib/season-slots.html`. `brackets` places each playoff match on a col/row grid with its `next`
+match and the match file it refers to (or hand-entered scores when there is no transcription).
+Both are optional per season; the season page's round-robin grids, bracket diagram and final
+placings (`lib/group-tables.html`, `lib/bracket-results.html`, `lib/final-placings.html`) only
+appear when they exist. Results are still recomputed from `data/matches`.
+
 ## Layout conventions
 
 Layouts use Hugo's current names: `layouts/baseof.html`, `layouts/home.html`, `layouts/page.html`,

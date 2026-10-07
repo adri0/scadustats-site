@@ -1,3 +1,3 @@
 [
-  { "id": "6", "name": "Season 6", "start_date": "", "end_date": "", "bracket_type": "", "blurb": "" }
+  {"id": "6", "name": "Season 6", "start_date": "", "end_date": "", "bracket_type": "", "blurb": "", "rules": "**Round robin.** Players are split into two groups, and each plays every other player in their group once. A match is two games, one base game and one DLC game, and every game counts: a player's points are the games they won. The top two of each group go to the upper bracket of the playoffs, 3rd and 4th go to the lower bracket, and everyone else is eliminated.\n\n**Double elimination.** Each match is a best of three. Losing in the upper bracket drops a player to the lower bracket (blanxz lost Match 1 to NuclearPastaTom, then played Match 6); losing in the lower bracket eliminates them. The Grand Final is between the player who won the upper bracket without losing and the winner of the lower bracket."}
 ]

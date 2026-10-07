@@ -1,0 +1,23 @@
+# Hand-curated round-robin groups for season 6.
+# Rendered as one results grid per group on the season page by
+# _partials/season-groups.html.
+#
+# Results are read from data/matches/season-6/: any match between two players
+# of the same group counts, except the playoff matches listed in
+# data/brackets/season-6.yaml. Each game won is one point.
+#
+# Players are listed in their final placing; that order only breaks ties on
+# points. `qualify` says where each placing went next (by position, 1st first);
+# placings past the end of the list were eliminated.
+#
+# A list in place of a name ([A, B]), or {players: [A, B], note: ...}, is one
+# tournament slot shared by several players: their results add up into a
+# single row in the grid, standings and final placings. The note shows behind
+# an info icon next to the names.
+title: Round robin
+qualify: [upper, upper, lower, lower]
+groups:
+  - name: Group 1
+    players: [blanxz, SeriousChallenges, LilAggy, Raydans, {players: [KEMIST, Ironyeu], note: "KEMIST dropped out of the tournament after one match; Ironyeu replaced him."}, Parkenharbor]
+  - name: Group 2
+    players: [NuclearPastaTom, RomainJacques, Vswed, Grey, Gustaf, TwistieT]

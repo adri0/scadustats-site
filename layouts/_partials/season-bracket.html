@@ -1,0 +1,104 @@
+{{- /*
+  Input: dict {season_id, bracket} where bracket is a data/brackets/season-<N>.yaml
+  entry. Renders the playoff bracket as an inline SVG: one card per match laid
+  out on a col/row grid, with elbow connectors from each match to its `next`.
+  Players, scores and winners come from lib/bracket-results.html.
+*/ -}}
+{{- $bracket := .bracket -}}
+
+{{- /* Geometry, in SVG user units. A card is a header line plus two player rows. */ -}}
+{{- $cardW := 200 -}}
+{{- $headH := 18 -}}
+{{- $rowH := 26 -}}
+{{- $rowGap := 4 -}}
+{{- $cardH := add $headH $rowH $rowGap $rowH -}}
+{{- $midY := add $headH $rowH (div $rowGap 2) -}}
+{{- $colGap := 56 -}}
+{{- $rowUnit := 96 -}}
+{{- $left := 32 -}}
+{{- $pad := 8 -}}
+
+{{- $cards := dict -}}
+{{- $maxCol := 0 -}}
+{{- $maxRow := 0.0 -}}
+{{- range partial "lib/bracket-results.html" . -}}
+  {{- $e := .entry -}}
+  {{- $x := add $left (mul $e.col (add $cardW $colGap)) -}}
+  {{- $y := add $pad (mul (float $e.row) $rowUnit) -}}
+  {{- $maxCol = cond (gt $e.col $maxCol) $e.col $maxCol -}}
+  {{- $maxRow = cond (gt (float $e.row) $maxRow) (float $e.row) $maxRow -}}
+  {{- $cards = merge $cards (dict (string $e.id) (merge . (dict "m" $e "x" $x "y" $y))) -}}
+{{- end -}}
+
+{{- $width := add $left (mul (add $maxCol 1) $cardW) (mul $maxCol $colGap) -}}
+{{- $height := add $pad (mul $maxRow $rowUnit) $cardH $pad -}}
+
+<figure class="bracket">
+  {{- with $bracket.title }}<figcaption>{{ . }}</figcaption>{{ end }}
+  <div class="bracket-wrap">
+    <svg class="bracket-svg" viewBox="0 0 {{ $width }} {{ $height }}" width="{{ $width }}" height="{{ $height }}"
+         role="img" aria-label="{{ $bracket.title | default "Playoff bracket" }}">
+
+      {{- /* Upper / Lower labels down the left edge, spanning their matches. */}}
+      {{- range $b := slice "upper" "lower" }}
+        {{- $rows := slice }}
+        {{- range where $bracket.matches "bracket" $b }}{{ $rows = $rows | append (float .row) }}{{ end }}
+        {{- with $rows }}
+          {{- $y1 := add $pad $headH (mul (index (sort .) 0) $rowUnit) }}
+          {{- $y2 := add $pad $cardH (mul (index (sort . "value" "desc") 0) $rowUnit) }}
+          {{- $ym := div (add $y1 $y2) 2 }}
+      <line class="bracket-section-rule" x1="22" y1="{{ $y1 }}" x2="22" y2="{{ $y2 }}" />
+      <text class="bracket-section-label" x="12" y="{{ $ym }}" transform="rotate(-90 12 {{ $ym }})" text-anchor="middle">{{ $b }}</text>
+        {{- end }}
+      {{- end }}
+
+      {{- /* Connectors: an elbow to a later column, or a straight line within one. */}}
+      {{- range $id, $c := $cards }}
+        {{- with $c.m.next }}{{ with index $cards (string .) }}
+          {{- $t := . }}
+          {{- if eq $c.m.col $t.m.col }}
+            {{- $cx := add $c.x (div $cardW 2) }}
+            {{- $fromY := cond (gt $c.y $t.y) $c.y (add $c.y $cardH) }}
+            {{- $toY := cond (gt $c.y $t.y) (add $t.y $cardH) $t.y }}
+      <path class="bracket-link" d="M{{ $cx }} {{ $fromY }} V{{ $toY }}" />
+          {{- else }}
+            {{- $x1 := add $c.x $cardW }}
+            {{- $xm := add $x1 (div $colGap 2) }}
+      <path class="bracket-link" d="M{{ $x1 }} {{ add $c.y $midY }} H{{ $xm }} V{{ add $t.y $midY }} H{{ $t.x }}" />
+          {{- end }}
+        {{- end }}{{ end }}
+      {{- end }}
+
+      {{- range $id, $c := $cards }}
+        {{- $m := $c.m }}
+        {{- $date := "" }}{{ with $m.date }}{{ $date = time.Format "Jan 2" (time.AsTime .) }}{{ end }}
+      <g class="bracket-match{{ if eq $m.bracket "final" }} is-final{{ end }}" transform="translate({{ $c.x }} {{ $c.y }})">
+        {{- if $c.path }}<a href="{{ $c.path | relURL }}">{{ end }}
+        <title>{{ $m.label }}{{ with $date }} · {{ . }}{{ end }}{{ if not $c.path }} · not transcribed{{ end }}</title>
+        {{- if eq $m.bracket "final" }}
+        <rect class="bracket-final-frame" x="-6" y="-4" width="{{ add $cardW 12 }}" height="{{ add $cardH 10 }}" rx="6" />
+        {{- end }}
+        <text class="bracket-head" x="0" y="12">{{ $date }}</text>
+        <text class="bracket-head" x="{{ $cardW }}" y="12" text-anchor="end">{{ $m.label }}</text>
+        {{- range $i, $side := slice "red" "blue" }}
+          {{- $p := index $c $side }}
+          {{- $score := index $c (printf "%s_score" $side) }}
+          {{- $ry := add $headH (mul $i (add $rowH $rowGap)) }}
+          {{- $state := "" }}
+          {{- if $c.winner }}{{ $state = cond (eq $c.winner $side) "is-winner" "is-loser" }}{{ end }}
+        <g class="bracket-slot {{ $state }}" transform="translate(0 {{ $ry }})">
+          <rect class="bracket-slot-bg" width="{{ $cardW }}" height="{{ $rowH }}" rx="3" />
+          <rect class="bracket-slot-{{ $side }}" width="4" height="{{ $rowH }}" />
+          <text class="bracket-name" x="12" y="{{ sub $rowH 8 }}">{{ with $p }}{{ .display_name }}{{ else }}TBD{{ end }}</text>
+          <text class="bracket-score bracket-score-{{ $side }}" x="{{ sub $cardW 10 }}" y="{{ sub $rowH 8 }}" text-anchor="end">{{ $score }}</text>
+          {{- if eq $state "is-loser" }}
+          <line class="bracket-strike" x1="8" y1="{{ sub $rowH 4 }}" x2="{{ sub $cardW 30 }}" y2="4" />
+          {{- end }}
+        </g>
+        {{- end }}
+        {{- if $c.path }}</a>{{ end }}
+      </g>
+      {{- end }}
+    </svg>
+  </div>
+</figure>

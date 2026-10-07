@@ -1,0 +1,36 @@
+{{- /*
+  Input: a season id. Output: a dict of player slug -> slot, where a slot is
+  {slug, display_name, members (player-lookup dicts), note}: a place in the
+  season's tournament. Usually one player; a group entry in
+  data/groups/season-<N>.yaml written as a list, or as {players, note} (e.g. a
+  player who dropped out and their replacement), is one slot shared by
+  everyone in it, so their results add up into one row. Shared slots get slug "a+b" and display name
+  "A / B". Players not in any group (or seasons without groups) are absent:
+  callers fall back to the player itself.
+*/ -}}
+{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%v" .) -}}
+{{- $slots := dict -}}
+{{- with $groupsCfg -}}
+  {{- range .groups -}}
+    {{- range .players -}}
+      {{- $names := slice }}{{ $note := "" -}}
+      {{- if reflect.IsMap . }}{{ $names = .players }}{{ $note = .note | default "" -}}
+      {{- else if reflect.IsSlice . }}{{ $names = . -}}
+      {{- else }}{{ $names = slice . }}{{ end -}}
+      {{- $members := slice }}{{ $slugs := slice }}{{ $displayNames := slice -}}
+      {{- range $names -}}
+        {{- $p := partial "lib/player-lookup.html" . -}}
+        {{- $members = $members | append $p -}}
+        {{- $slugs = $slugs | append $p.slug -}}
+        {{- $displayNames = $displayNames | append $p.display_name -}}
+      {{- end -}}
+      {{- $slot := dict
+          "slug" (delimit $slugs "+")
+          "display_name" (delimit $displayNames " / ")
+          "members" $members
+          "note" $note -}}
+      {{- range $members }}{{ $slots = merge $slots (dict .slug $slot) }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $slots -}}
