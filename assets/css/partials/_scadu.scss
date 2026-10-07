@@ -979,10 +979,13 @@ h1 { color: var(--accent); }
         font-size: 0.7rem;
         font-weight: 400;
     }
-    &.rr-win { background-color: rgba(22, 163, 74, 0.14); }
+    &.rr-win { background-color: color-mix(in srgb, var(--accent) 30%, transparent); }
     &.rr-loss { background-color: var(--red-soft); }
     &.rr-draw { background-color: var(--surface-strong); }
-    &.rr-self { background-color: var(--border); }
+    /* A player's own cell: hatched, so it can't be mistaken for a result. */
+    &.rr-self {
+        background: repeating-linear-gradient(135deg, var(--border) 0 1px, transparent 1px 7px);
+    }
 }
 
 .rr-missing { color: var(--text-muted); }
