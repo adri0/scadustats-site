@@ -10,22 +10,29 @@
   {{- with .Params.meta_description }}{{ $description = . }}{{ end }}
 {{- end }}
 <meta name="description" content="{{ $description }}">
-<title>{{ if .IsHome }}{{ site.Title }} · {{ site.Params.subtitle }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}Bingo Brawlers · {{ site.Params.subtitle }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
-<link rel="icon" href="{{ "favicon.ico" | relURL }}">
+{{- $logo := resources.Get "images/logo.png" }}
+{{- $favicon := $logo.Resize "64x png" | fingerprint }}
+<link rel="icon" type="image/png" href="{{ $favicon.RelPermalink }}">
+<link rel="apple-touch-icon" href="{{ ($logo.Resize "180x png").RelPermalink }}">
 {{- with .OutputFormats.Get "rss" }}
 <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">
 {{- end }}
 
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0c0b09">
 
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:description" content="{{ $description }}">
+<meta property="og:image" content="{{ $logo.Permalink }}">
 <meta name="twitter:card" content="summary">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
 
 {{- $css := resources.Get "css/main.scss" | toCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
@@ -35,13 +42,12 @@
 
 <script defer src="https://cloud.umami.is/script.js" data-website-id="a323814a-9c91-42c3-bd1d-4358aa38f055"></script>
 
+{{- /* Dark unless the visitor chose light with the toggle; the OS colour
+  scheme is deliberately ignored (see assets/js/modules/theme.js). */}}
 <script>
     (function() {
-        const getPreferredTheme = () => {
-            const storedTheme = localStorage.getItem('theme');
-            if (storedTheme) return storedTheme;
-            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
-        document.documentElement.setAttribute('data-theme', getPreferredTheme());
+        let theme = 'dark';
+        try { if (localStorage.getItem('theme') === 'light') theme = 'light'; } catch (e) {}
+        document.documentElement.setAttribute('data-theme', theme);
     })();
 </script>

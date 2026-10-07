@@ -6,7 +6,7 @@ title = "Scadustats"
 [taxonomies]
 
 [params]
-  # subtitle = "Statistics from Elden Ring Bingo Brawlers league"
+  subtitle = "Scadustats fan-site"
   description = "Community-base repository for match history, player records, and square stats for the Elden Ring Bingo Brawlers league, transcribed from the VODs."
 
 # Kopi renders no post-card images, so the sidebar/feed image lookups stay empty.

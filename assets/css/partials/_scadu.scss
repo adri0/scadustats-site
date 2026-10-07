@@ -1,34 +1,214 @@
 /* --- Bingo Brawlers components ---------------------------------------------
    Built on kopi's tokens (--bg-body, --text-main, --text-muted, --accent,
-   --border, --radius-*). Only the red/blue player colours and a card surface
-   are added here, in both themes.
+   --border, --radius-*), which are re-pointed here at an Elden Ring palette:
+   parchment and umber in light mode, ash-black and Erdtree gold in dark. On
+   top of those, only the red/blue player colours, a card surface and a soft
+   gold glow are added, in both themes.
 ---------------------------------------------------------------------------- */
 
 :root {
-    --red: #c0394f;
-    --blue: #1f6fb2;
-    --red-soft: rgba(192, 57, 79, 0.12);
-    --blue-soft: rgba(31, 111, 178, 0.12);
-    --surface: #fafafa;
-    --surface-strong: #f4f4f5;
+    --bg-body: #f3ecdc;
+    --bg-card: #f8f3e6;
+    --bg-nav: #f3ecdc;
+    --text-main: #2a2318;
+    --text-muted: #6b604c;
+    --accent: #7a5a14;
+    --border: #d6c8a8;
+
+    --radius-container: 3px;
+    --radius-element: 2px;
+
+    --red: #a3313d;
+    --blue: #2a5d92;
+    --red-soft: rgba(163, 49, 61, 0.1);
+    --blue-soft: rgba(42, 93, 146, 0.1);
+    --surface: #eee5cf;
+    --surface-strong: #e8ddc2;
+    --gold-soft: rgba(122, 90, 20, 0.08);
+    --gold-glow: rgba(176, 134, 44, 0.28);
+
+    --font-display: "Cinzel", "Trajan Pro", Georgia, serif;
+    --font-body: "EB Garamond", Garamond, Georgia, serif;
 }
 
 [data-theme="dark"] {
-    --red: #e5637a;
-    --blue: #5aa9e6;
-    --red-soft: rgba(229, 99, 122, 0.16);
-    --blue-soft: rgba(90, 169, 230, 0.16);
-    --surface: #101012;
-    --surface-strong: #18181b;
+    --bg-body: #0c0b09;
+    --bg-card: #13110d;
+    --bg-nav: #0c0b09;
+    --text-main: #e6dcc3;
+    --text-muted: #9d927b;
+    --accent: #d2ad62;
+    --border: #2f291e;
+
+    --red: #db6a64;
+    --blue: #6fa3dc;
+    --red-soft: rgba(219, 106, 100, 0.14);
+    --blue-soft: rgba(111, 163, 220, 0.14);
+    --surface: #12100c;
+    --surface-strong: #1a1712;
+    --gold-soft: rgba(210, 173, 98, 0.08);
+    --gold-glow: rgba(210, 173, 98, 0.22);
 }
 
-/* --- Shared bits --- */
+/* --- Type & atmosphere --- */
 
-/* "Elden Ring Bingo Brawlers" is a long wordmark for kopi's 1.4rem uppercase
-   logo; it overflows the header on narrow phones. */
+body {
+    font-family: var(--font-body);
+    font-size: 1.075rem;
+    font-variant-numeric: lining-nums;
+    /* A faint wash of grace-light from the top of the page. */
+    background-image:
+        radial-gradient(ellipse 80% 45% at 50% -5%, var(--gold-glow), transparent 70%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4,
+.hero-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+h1 { color: var(--accent); }
+
+/* Small-caps labels share the display face. */
+.widget-title,
+.stat-label,
+.stats-table th,
+.footer-title,
+.nav-links a,
+.pill,
+.timeline-toggle > summary {
+    font-family: var(--font-display);
+    letter-spacing: 0.08em;
+}
+
+::selection { background-color: var(--gold-glow); }
+
+/* --- Header --- */
+
+.site-header,
+[data-theme="dark"] .site-header {
+    background-color: color-mix(in srgb, var(--bg-body) 92%, transparent);
+    border-bottom: none;
+}
+
+/* A gold rule under the header that fades out towards both edges. */
+.site-header::after {
+    content: "";
+    position: absolute;
+    inset: auto 0 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--accent) 20%, var(--accent) 80%, transparent);
+    opacity: 0.55;
+}
+
+.logo {
+    gap: 0.55rem;
+    font-family: var(--font-display);
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--text-main);
+}
+
+.logo::before { content: none; }
+
+/* The Bingo Brawlers wordmark is white-on-transparent; in light mode it is
+   inverted to dark ink so it reads on parchment. */
+.brand-wordmark { display: block; height: auto; }
+
+:root:not([data-theme="dark"]) .brand-wordmark { filter: invert(0.88) sepia(0.35); }
+
+.logo-wordmark {
+    width: auto;
+    height: 38px;
+}
+
+.logo-subtitle {
+    align-self: center;
+    padding-left: 0.65rem;
+    border-left: 1px solid var(--border);
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    max-width: 7.5rem;
+}
+
+.logo-mark {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    filter: drop-shadow(0 0 4px var(--gold-glow)) drop-shadow(0 0 10px var(--gold-glow));
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logo:hover { color: var(--accent); }
+.logo:hover .logo-mark {
+    filter: drop-shadow(0 0 10px var(--accent));
+    transform: rotate(-6deg) scale(1.05);
+}
+
 @media (max-width: 480px) {
-    .logo { font-size: 1rem; gap: 6px; }
-    .logo::before { width: 12px; height: 12px; }
+    .logo { gap: 0.4rem; }
+    .logo-mark { width: 32px; height: 32px; }
+    .logo-wordmark { height: 32px; }
+    .logo-subtitle { font-size: 0.6rem; padding-left: 0.45rem; max-width: 6rem; }
+}
+
+.nav-links a { font-size: 0.85rem; text-transform: uppercase; }
+
+.nav-links a:hover,
+.header-icon:hover,
+.btn:hover,
+.pill-outline:hover {
+    background-color: var(--gold-soft);
+}
+
+@media (min-width: 900px) {
+    .nav-links a { font-size: 0.8rem; }
+    .nav-links a:hover { background-color: transparent; }
+
+    /* Underline becomes a short gold bar with tapered ends. */
+    .nav-links > li > a::after {
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--accent), transparent);
+    }
+}
+
+.pill-accent { color: var(--bg-body); }
+
+.back-to-top:hover { box-shadow: 0 0 18px var(--gold-glow); }
+
+/* --- Ornament: a gold rule with a lozenge at its centre --- */
+
+.ornament {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1.25rem 0;
+    color: var(--accent);
+
+    &::before, &::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, currentColor);
+        opacity: 0.6;
+    }
+
+    &::after { background: linear-gradient(90deg, currentColor, transparent); }
+
+    span {
+        width: 7px;
+        height: 7px;
+        transform: rotate(45deg);
+        border: 1px solid currentColor;
+    }
 }
 
 .notice {
@@ -55,7 +235,8 @@
     flex-wrap: wrap;
     margin: 2.5rem 0 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--border);
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, var(--accent), var(--border) 45%, transparent) 1;
 
     h2, h3 { margin: 0; }
 
@@ -82,30 +263,40 @@
 /* --- Home hero --- */
 
 .hero {
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border);
+    padding: 1rem 0 0.5rem;
+    text-align: center;
 }
 
-.hero-title {
-    font-size: 2rem;
-    letter-spacing: -0.03em;
+.hero-title { margin: 0.5rem 0 0; }
 
-    @include md { font-size: 3rem; }
+.hero-wordmark {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+
+    @include md { max-width: 360px; }
 }
+
+[data-theme="dark"] .hero-wordmark { filter: drop-shadow(0 0 22px var(--gold-glow)); }
 
 .hero-subtitle {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     color: var(--accent);
-    font-weight: 700;
-    font-size: 0.9rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.2em;
+
+    @include md { font-size: 1.15rem; }
 }
 
 .hero-body {
-    margin-top: 1rem;
+    margin: 1rem auto 0;
     max-width: 60ch;
     color: var(--text-muted);
+    font-size: 1.15rem;
+    font-style: italic;
 }
 
 /* --- Tables --- */
@@ -194,11 +385,12 @@
     border-radius: var(--radius-container);
     background-color: var(--bg-card);
     color: var(--text-main);
-    transition: border-color 0.2s ease, transform 0.2s ease;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 
     &:hover {
         border-color: var(--accent);
         transform: translateY(-2px);
+        box-shadow: 0 0 0 1px var(--gold-soft), 0 6px 24px -8px var(--gold-glow);
         color: var(--text-main);
     }
 }
@@ -225,8 +417,9 @@
     .side-blue { text-align: right; }
 
     .score {
+        font-family: var(--font-display);
         font-size: 1.35rem;
-        font-weight: 800;
+        font-weight: 700;
         font-variant-numeric: tabular-nums;
         white-space: nowrap;
     }
@@ -263,11 +456,27 @@
 }
 
 .scoreboard {
+    position: relative;
     margin-bottom: 2rem;
     padding: 1.25rem;
     border: 1px solid var(--border);
     border-radius: var(--radius-container);
-    background-color: var(--surface);
+    background:
+        radial-gradient(ellipse at 50% 0%, var(--gold-soft), transparent 70%),
+        var(--surface);
+
+    /* Gold brackets on two opposite corners. */
+    &::before, &::after {
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border: 1px solid var(--accent);
+        pointer-events: none;
+    }
+
+    &::before { top: -1px; left: -1px; border-right: none; border-bottom: none; }
+    &::after { bottom: -1px; right: -1px; border-left: none; border-top: none; }
 }
 
 .scoreboard-meta {
@@ -287,8 +496,9 @@
     gap: 1rem;
 
     .side {
+        font-family: var(--font-display);
         font-size: 1.15rem;
-        font-weight: 800;
+        font-weight: 700;
         line-height: 1.2;
         min-width: 0;
         overflow-wrap: anywhere;
@@ -301,8 +511,10 @@
 }
 
 .scoreboard-score {
+    font-family: var(--font-display);
     font-size: 1.75rem;
-    font-weight: 800;
+    font-weight: 700;
+    color: var(--accent);
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
 
@@ -358,8 +570,9 @@
     }
 
     .cell-text {
-        font-size: 0.7rem;
-        line-height: 1.3;
+        display: block;
+        font-size: 0.8rem;
+        line-height: 1.25;
         color: var(--text-muted);
     }
 
@@ -375,7 +588,7 @@
 
     .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
 
-    .cell-winline { box-shadow: inset 0 0 0 2px var(--accent); }
+    .cell-winline { box-shadow: inset 0 0 0 2px var(--accent), 0 0 12px var(--gold-glow); }
 }
 
 /* --- Event timeline --- */
@@ -459,6 +672,7 @@
     gap: 0.2rem;
     padding: 0.9rem 1.1rem;
     border: 1px solid var(--border);
+    border-top: 2px solid var(--accent);
     border-radius: var(--radius-container);
     background-color: var(--surface);
 }
@@ -472,8 +686,9 @@
 }
 
 .stat-value {
-    font-size: 1.25rem;
-    font-weight: 800;
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 700;
     font-variant-numeric: tabular-nums;
 }
 
@@ -564,13 +779,14 @@
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
+    font-family: var(--font-display);
     font-size: 0.7rem;
-    font-weight: 800;
+    font-weight: 700;
     border: 1px solid var(--border);
     color: var(--text-muted);
 }
 
-.result-win .result-badge { color: #ffffff; background-color: #16a34a; border-color: #16a34a; }
+.result-win .result-badge { color: var(--bg-body); background-color: var(--accent); border-color: var(--accent); }
 .result-loss .result-badge { color: #ffffff; background-color: var(--red); border-color: var(--red); }
 .result-draw .result-badge { color: var(--text-main); }
 
@@ -593,7 +809,7 @@
     border: 1px solid var(--border);
     border-radius: var(--radius-container);
     color: var(--text-main);
-    transition: border-color 0.2s ease, transform 0.2s ease;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 
     h2 { margin: 0; font-size: 1.35rem; }
     p { color: var(--text-muted); font-size: 0.9rem; }
@@ -601,6 +817,7 @@
     &:hover {
         border-color: var(--accent);
         transform: translateY(-2px);
+        box-shadow: 0 0 0 1px var(--gold-soft), 0 6px 24px -8px var(--gold-glow);
         color: var(--text-main);
     }
 }
@@ -664,7 +881,9 @@
 .footer-disclaimer {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
-    border-top: 1px solid var(--border);
+    border-top: 1px solid;
+    border-image: linear-gradient(90deg, transparent, var(--border), transparent) 1;
+    font-style: italic;
     font-size: 0.8rem;
     max-width: 75ch;
 }
@@ -760,10 +979,13 @@
         font-size: 0.7rem;
         font-weight: 400;
     }
-    &.rr-win { background-color: rgba(22, 163, 74, 0.14); }
+    &.rr-win { background-color: color-mix(in srgb, var(--accent) 30%, transparent); }
     &.rr-loss { background-color: var(--red-soft); }
     &.rr-draw { background-color: var(--surface-strong); }
-    &.rr-self { background-color: var(--border); }
+    /* A player's own cell: hatched, so it can't be mistaken for a result. */
+    &.rr-self {
+        background: repeating-linear-gradient(135deg, var(--border) 0 1px, transparent 1px 7px);
+    }
 }
 
 .rr-missing { color: var(--text-muted); }
