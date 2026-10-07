@@ -20,8 +20,7 @@
 <link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">
 {{- end }}
 
-<meta name="theme-color" content="#f3ecdc" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0c0b09" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#0c0b09">
 
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -43,13 +42,12 @@
 
 <script defer src="https://cloud.umami.is/script.js" data-website-id="a323814a-9c91-42c3-bd1d-4358aa38f055"></script>
 
+{{- /* Dark unless the visitor chose light with the toggle; the OS colour
+  scheme is deliberately ignored (see assets/js/modules/theme.js). */}}
 <script>
     (function() {
-        const getPreferredTheme = () => {
-            const storedTheme = localStorage.getItem('theme');
-            if (storedTheme) return storedTheme;
-            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
-        document.documentElement.setAttribute('data-theme', getPreferredTheme());
+        let theme = 'dark';
+        try { if (localStorage.getItem('theme') === 'light') theme = 'light'; } catch (e) {}
+        document.documentElement.setAttribute('data-theme', theme);
     })();
 </script>

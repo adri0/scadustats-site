@@ -3,7 +3,7 @@
  * bookmark/library and PWA (service worker) modules are left out -- those
  * features aren't enabled on this site, and dropping the imports keeps them
  * out of the bundle. The modules themselves still come from the theme,
- * except sortable-tables.js, which is ours.
+ * except sortable-tables.js and theme.js (dark by default), which are ours.
  */
 import { initNavigation } from './modules/navigation.js';
 import { initTheme } from './modules/theme.js';

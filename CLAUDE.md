@@ -127,7 +127,9 @@ be chosen: only `layouts`, `assets`, `static` and `i18n` are mounted. The theme'
 
 Anything the project puts at the same path wins, which is how the theme is trimmed:
 
-- `layouts/baseof.html` — the theme's, minus the Mermaid bootstrap.
+- `layouts/baseof.html` — the theme's, minus the Mermaid bootstrap, with `data-theme="dark"` on
+  `<html>`. The site is dark by default: the inline script in `head.html` only switches to light when
+  `localStorage.theme` is `"light"` (set by the toggle), and the OS colour scheme is ignored.
 - `_partials/head.html` — no PWA manifest, no service worker, no blog JSON-LD, no `@params`;
   adds the Google Fonts (Cinzel, EB Garamond) and a favicon resized from `assets/images/logo.png`.
 - `_partials/header.html` — no Library (bookmarks) icon; the dark-mode toggle stays; the brand is
@@ -138,6 +140,7 @@ Anything the project puts at the same path wins, which is how the theme is trimm
 - `_partials/sidebar.html` — league stat widgets instead of search/radio/tags/newsletter.
 - `assets/js/main.js` — imports only the navigation, theme, interactions and prefetch modules, so
   search, the radio player, bookmarks and the service worker never reach the bundle.
+- `assets/js/modules/theme.js` — the toggle only; kopi's `prefers-color-scheme` listener is dropped.
 - `assets/css/main.scss` — the theme's partials minus `radio` and `search`, plus our own
   `assets/css/partials/_scadu.scss` (boards, scoreboards, stat tiles, tables) last.
 
