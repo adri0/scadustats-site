@@ -1,0 +1,59 @@
+{{- /*
+  Input: dict {season_id, groups, bracket} where groups is a
+  data/groups/season-<N>.yaml entry and bracket the matching
+  data/brackets/season-<N>.yaml entry (or nil).
+  Output: {results, groups}. `results` holds every non-playoff match keyed
+  "slugA|slugB" (both directions) as {for, against, path, date} from slugA's
+  side, where slugs are slot slugs (lib/season-slots.html: players sharing a
+  slot count as one); playoff matches (those named in the bracket) are left out even when
+  both players share a group. `groups` is one {name, rows} per group, rows
+  sorted by points (games won) as {player, points, w, d, l}; `player` is the
+  slot, with `members` for linking each player in it. The sort is
+  stable, so ties keep the curated (final placing) order of the YAML.
+*/ -}}
+{{- $sid := .season_id -}}
+{{- $seasonMatches := index hugo.Data.matches (printf "season-%s" $sid) | default dict -}}
+
+{{- $playoffKeys := slice -}}
+{{- with .bracket -}}
+  {{- range .matches }}{{ with .match }}{{ $playoffKeys = $playoffKeys | append . }}{{ end }}{{ end -}}
+{{- end -}}
+
+{{- $slots := partial "lib/season-slots.html" $sid -}}
+
+{{- $results := dict -}}
+{{- range $key, $raw := $seasonMatches -}}
+  {{- if not (in $playoffKeys $key) -}}
+    {{- $s := partial "lib/match-summary.html" $raw -}}
+    {{- $path := printf "/matches/season-%s/%s/" $sid (lower $key) -}}
+    {{- $r := (index $slots $s.player_red.slug | default $s.player_red).slug -}}
+    {{- $b := (index $slots $s.player_blue.slug | default $s.player_blue).slug -}}
+    {{- $results = merge $results (dict
+        (printf "%s|%s" $r $b) (dict "for" $s.red_score "against" $s.blue_score "path" $path "date" $s.match_date)
+        (printf "%s|%s" $b $r) (dict "for" $s.blue_score "against" $s.red_score "path" $path "date" $s.match_date)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $groups := slice -}}
+{{- range $g := .groups.groups -}}
+  {{- $players := slice -}}
+  {{- range $g.players -}}
+    {{- $name := . -}}
+    {{- if reflect.IsMap . }}{{ $name = index .players 0 }}{{ else if reflect.IsSlice . }}{{ $name = index . 0 }}{{ end -}}
+    {{- $first := partial "lib/player-lookup.html" $name -}}
+    {{- $players = $players | append (index $slots $first.slug) -}}
+  {{- end -}}
+  {{- $rows := slice -}}
+  {{- range $p := $players -}}
+    {{- $pts := 0 }}{{ $w := 0 }}{{ $d := 0 }}{{ $l := 0 -}}
+    {{- range $o := $players -}}
+      {{- with index $results (printf "%s|%s" $p.slug $o.slug) -}}
+        {{- $pts = add $pts .for -}}
+        {{- if gt .for .against }}{{ $w = add $w 1 }}{{ else if lt .for .against }}{{ $l = add $l 1 }}{{ else }}{{ $d = add $d 1 }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $rows = $rows | append (dict "player" $p "points" $pts "w" $w "d" $d "l" $l) -}}
+  {{- end -}}
+  {{- $groups = $groups | append (dict "name" $g.name "rows" (sort $rows "points" "desc")) -}}
+{{- end -}}
+{{- return (dict "results" $results "groups" $groups) -}}
