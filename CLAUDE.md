@@ -114,8 +114,12 @@ be chosen: only `layouts`, `assets`, `static` and `i18n` are mounted. The theme'
 Anything the project puts at the same path wins, which is how the theme is trimmed:
 
 - `layouts/baseof.html` — the theme's, minus the Mermaid bootstrap.
-- `_partials/head.html` — no PWA manifest, no service worker, no blog JSON-LD, no `@params`.
-- `_partials/header.html` — no Library (bookmarks) icon; the dark-mode toggle stays.
+- `_partials/head.html` — no PWA manifest, no service worker, no blog JSON-LD, no `@params`;
+  adds the Google Fonts (Cinzel, EB Garamond) and a favicon resized from `assets/images/logo.png`.
+- `_partials/header.html` — no Library (bookmarks) icon; the dark-mode toggle stays; the brand is
+  the Scadutree Fragment (`assets/images/logo.png`) plus the Bingo Brawlers wordmark
+  (`assets/images/bingo-brawlers.png`, background removed, also the home hero) and
+  `params.subtitle`. The wordmark is white, so `.brand-wordmark` inverts it in light mode.
 - `_partials/footer.html` — no cookie banner, no placeholder social links.
 - `_partials/sidebar.html` — league stat widgets instead of search/radio/tags/newsletter.
 - `assets/js/main.js` — imports only the navigation, theme, interactions and prefetch modules, so
@@ -129,7 +133,9 @@ Re-enabling a theme feature means restoring its import/partial *and* whatever co
 pages come from `data/`, not front matter, so tags/categories pages would be empty.
 
 `_scadu.scss` styles everything with the theme's tokens (`--bg-body`, `--text-main`,
-`--text-muted`, `--accent`, `--border`, `--radius-*`) and adds only `--red`/`--blue` (the two
-players), `--surface` and their dark-mode values, so both colour schemes stay in sync. One thing to
-know: kopi's base sets `table { display: block; overflow-x: auto }`, so data tables set
+`--text-muted`, `--accent`, `--border`, `--radius-*`), and re-points those tokens at an Elden Ring
+palette (parchment/umber in light mode, ash-black/gold in dark). On top it adds only `--red`/`--blue`
+(the two players), `--surface*` and `--gold-soft`/`--gold-glow`, each with a dark-mode value so
+both colour schemes stay in sync, plus the `--font-display` (Cinzel) and `--font-body` (EB Garamond)
+stacks. One thing to know: kopi's base sets `table { display: block; overflow-x: auto }`, so data tables set
 `display: table` and scroll inside a `.table-wrap` instead.

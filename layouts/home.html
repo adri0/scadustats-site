@@ -3,8 +3,12 @@
 <div class="content-grid">
   <main>
     <section class="hero">
-      <h1 class="hero-title">{{ site.Title }}</h1>
+      {{- $wordmark := (resources.Get "images/bingo-brawlers.png").Resize "720x png" }}
+      <h1 class="hero-title">
+        <img class="hero-wordmark brand-wordmark" src="{{ $wordmark.RelPermalink }}" width="{{ div $wordmark.Width 2 }}" height="{{ div $wordmark.Height 2 }}" alt="Bingo Brawlers">
+      </h1>
       {{- with site.Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
+      <div class="ornament" aria-hidden="true"><span></span></div>
       {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
     </section>
 

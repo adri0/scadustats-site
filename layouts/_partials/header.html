@@ -1,11 +1,19 @@
-{{- /* Overrides kopi's header.html: the Library (bookmarks) icon is dropped. */ -}}
+{{- /* Overrides kopi's header.html: the Library (bookmarks) icon is dropped and
+  the brand is the Scadutree fragment plus the Bingo Brawlers wordmark, with
+  site.Params.subtitle under it. */ -}}
 <header class="site-header">
     <div class="header-inner">
         <button class="menu-toggle" id="menuToggle" aria-label="Menu">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </button>
 
-        <a href="{{ site.Home.RelPermalink }}" class="logo">{{ site.Title }}</a>
+        {{- $logo := (resources.Get "images/logo.png").Resize "96x png" }}
+        {{- $wordmark := (resources.Get "images/bingo-brawlers.png").Resize "x96 png" }}
+        <a href="{{ site.Home.RelPermalink }}" class="logo">
+            <img class="logo-mark" src="{{ $logo.RelPermalink }}" width="48" height="48" alt="">
+            <img class="logo-wordmark brand-wordmark" src="{{ $wordmark.RelPermalink }}" width="{{ div $wordmark.Width 2 }}" height="48" alt="Bingo Brawlers">
+            {{- with site.Params.subtitle }}<span class="logo-subtitle">{{ . }}</span>{{ end }}
+        </a>
 
         <nav>
             <ul class="nav-links" id="navLinks">
