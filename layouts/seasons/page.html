@@ -12,18 +12,85 @@
   {{- with $s.blurb }}<p class="season-blurb">{{ . }}</p>{{ end }}
 </header>
 
+{{- with $s.rules }}
+<h2>Format</h2>
+<div class="season-rules">{{ . | markdownify }}</div>
+{{- end }}
+
+{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $s.id) }}
+{{- with index (hugo.Data.groups | default dict) (printf "season-%s" $s.id) }}
+<h2>{{ .title | default "Groups" }}</h2>
+{{ partial "season-groups.html" (dict "season_id" $s.id "groups" . "bracket" $bracket) }}
+{{- end }}
+
+{{- with $bracket }}
+<h2>Double elimination</h2>
+{{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}
+{{- end }}
+
 <h2>Standings</h2>
+{{- /* Default order: match wins, then game wins (sort is stable). Column
+       headers re-sort in the browser via assets/js/modules/sortable-tables.js. */}}
+{{- /* Players sharing a tournament slot (lib/season-slots.html, e.g. a
+       replacement) are summed into one row. */}}
+{{- $slots := partial "lib/season-slots.html" $s.id }}
+{{- $merged := dict }}
+{{- range $cur := $s.standings }}
+  {{- $slot := index $slots $cur.player.slug | default $cur.player }}
+  {{- $acc := index $merged $slot.slug | default (dict "player" $slot
+      "wins" 0 "losses" 0 "draws" 0 "game_wins" 0 "game_losses" 0 "game_draws" 0) }}
+  {{- range $k := slice "wins" "losses" "draws" "game_wins" "game_losses" "game_draws" }}
+    {{- $acc = merge $acc (dict $k (add (index $acc $k) (index $cur $k))) }}
+  {{- end }}
+  {{- $merged = merge $merged (dict $slot.slug $acc) }}
+{{- end }}
+{{- $standings := sort (sort $merged "game_wins" "desc") "wins" "desc" }}
+{{- /* Final placings, when the season has groups/bracket data to derive them
+       from; the table then starts in placing order. */}}
+{{- $placings := partial "lib/final-placings.html" $s.id }}
+{{- if $placings }}
+  {{- $placed := slice }}
+  {{- range $standings }}{{ $placed = $placed | append (merge . (dict "place" (index $placings .player.slug | default 999))) }}{{ end }}
+  {{- $standings = sort $placed "place" }}
+{{- end }}
 <div class="table-wrap">
-  <table class="stats-table">
-    <thead><tr><th>#</th><th>Player</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
+  <table class="stats-table standings-table" data-sortable>
+    <thead>
+      <tr>
+        <th rowspan="2">#</th>
+        <th rowspan="2" data-sort="text">Player</th>
+        {{- if $placings }}
+        <th rowspan="2" data-sort="number" data-sort-first="asc" title="Final placing in the season">Final</th>
+        {{- end }}
+        <th colspan="3" class="col-group">Matches</th>
+        <th colspan="3" class="col-group">Games</th>
+      </tr>
+      <tr>
+        <th data-sort="number" title="Matches won">Win</th>
+        <th data-sort="number" title="Matches lost">Loss</th>
+        <th data-sort="number" title="Matches drawn">Draw</th>
+        <th data-sort="number" title="Games won">Win</th>
+        <th data-sort="number" title="Games lost">Loss</th>
+        <th data-sort="number" title="Games drawn (undecided)">Draw</th>
+      </tr>
+    </thead>
     <tbody>
-    {{- range $i, $row := sort $s.standings "wins" "desc" }}
+    {{- range $i, $row := $standings }}
       <tr>
         <td class="rank">{{ add $i 1 }}</td>
-        <td><a href="{{ printf "/players/%s/" $row.player.slug | relURL }}">{{ $row.player.display_name }}</a></td>
-        <td>{{ $row.wins }}</td>
-        <td>{{ $row.losses }}</td>
-        <td>{{ $row.draws }}</td>
+        <td>{{ partial "player-links.html" $row.player }}</td>
+        {{- if $placings }}
+          {{- $place := index $placings $row.player.slug }}
+        <td class="num place{{ with $place }} place-{{ . }}{{ end }}" data-sort-value="{{ $place | default 999 }}">
+          {{- with $place }}{{ . }}{{ if and (in (slice 11 12 13) (mod . 100)) }}th{{ else if eq (mod . 10) 1 }}st{{ else if eq (mod . 10) 2 }}nd{{ else if eq (mod . 10) 3 }}rd{{ else }}th{{ end }}{{ else }}—{{ end -}}
+        </td>
+        {{- end }}
+        <td class="num">{{ $row.wins }}</td>
+        <td class="num">{{ $row.losses }}</td>
+        <td class="num">{{ $row.draws }}</td>
+        <td class="num">{{ $row.game_wins }}</td>
+        <td class="num">{{ $row.game_losses }}</td>
+        <td class="num">{{ $row.game_draws }}</td>
       </tr>
     {{- end }}
     </tbody>

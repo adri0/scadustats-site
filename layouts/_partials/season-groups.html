@@ -1,0 +1,62 @@
+{{- /*
+  Input: dict {season_id, groups, bracket} where groups is a
+  data/groups/season-<N>.yaml entry and bracket the matching
+  data/brackets/season-<N>.yaml entry (or nil). Renders one round-robin grid
+  per group: each row is a player, each column an opponent, each cell that
+  match's score from the row player's side. Results and points come from
+  lib/group-tables.html.
+*/ -}}
+{{- $cfg := .groups -}}
+{{- $tables := partial "lib/group-tables.html" . -}}
+{{- $results := $tables.results -}}
+
+<div class="rr-groups">
+{{- range $g := $tables.groups }}
+  {{- $rows := $g.rows }}
+
+  <div class="rr-group">
+    <h3>{{ $g.name }}</h3>
+    <div class="table-wrap">
+      <table class="stats-table rr-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Player</th>
+            {{- range $j, $_ := $rows }}<th class="rr-col" title="{{ .player.display_name }}">{{ add $j 1 }}</th>{{ end }}
+            <th title="Games won">Pts</th>
+            <th title="Matches won–lost–drawn">Win–Loss–Draw</th>
+          </tr>
+        </thead>
+        <tbody>
+        {{- range $i, $row := $rows }}
+          {{- $q := index $cfg.qualify $i | default "out" }}
+          <tr class="rr-{{ $q }}">
+            <td class="rank">{{ add $i 1 }}</td>
+            <td>{{ partial "player-links.html" $row.player }}</td>
+            {{- range $j, $opp := $rows }}
+              {{- $m := index $results (printf "%s|%s" $row.player.slug $opp.player.slug) }}
+              {{- if eq $i $j }}
+            <td class="rr-cell rr-self"></td>
+              {{- else if $m }}
+                {{- $res := cond (gt $m.for $m.against) "win" (cond (lt $m.for $m.against) "loss" "draw") }}
+            <td class="rr-cell rr-{{ $res }}"><a href="{{ $m.path | relURL }}" title="{{ $row.player.display_name }} vs {{ $opp.player.display_name }} · {{ $m.date }}">{{ $m.for }}–{{ $m.against }}{{ with $m.date }}<span class="rr-date">{{ time.Format "Jan 2" (time.AsTime .) }}</span>{{ end }}</a></td>
+              {{- else }}
+            <td class="rr-cell rr-missing" title="{{ $row.player.display_name }} vs {{ $opp.player.display_name }} · not transcribed">·</td>
+              {{- end }}
+            {{- end }}
+            <td class="rr-points">{{ $row.points }}</td>
+            <td class="rr-record">{{ $row.w }}–{{ $row.l }}–{{ $row.d }}</td>
+          </tr>
+        {{- end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+{{- end }}
+  <p class="rr-legend">
+    <span class="rr-key rr-key-upper"></span> Upper bracket
+    <span class="rr-key rr-key-lower"></span> Lower bracket
+    <span class="rr-key rr-key-out"></span> Eliminated
+    · Pts = games won · <span class="rr-missing">·</span> = not transcribed
+  </p>
+</div>

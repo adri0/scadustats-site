@@ -1,0 +1,40 @@
+{{- /*
+  Input: dict {season_id, bracket} where bracket is a
+  data/brackets/season-<N>.yaml entry.
+  Output: one dict per bracket match, in file order: {entry (the YAML entry),
+  red, blue (player-lookup dicts, or "" when unknown), red_score, blue_score,
+  winner ("red"/"blue"/"draw"/""), path ("" when there's no match page)}.
+  Matches with a `match` file are recomputed through lib/match-summary.html;
+  untranscribed ones use the hand-entered red/blue/red_score/blue_score.
+*/ -}}
+{{- $sid := .season_id -}}
+{{- $seasonMatches := index hugo.Data.matches (printf "season-%s" $sid) | default dict -}}
+{{- $out := slice -}}
+{{- range $entry := .bracket.matches -}}
+  {{- $red := "" -}}{{- $blue := "" -}}
+  {{- $redScore := "" -}}{{- $blueScore := "" -}}
+  {{- $winner := "" -}}{{- $path := "" -}}
+  {{- with and $entry.match (index $seasonMatches $entry.match) -}}
+    {{- $s := partial "lib/match-summary.html" . -}}
+    {{- $red = $s.player_red -}}
+    {{- $blue = $s.player_blue -}}
+    {{- $redScore = $s.red_score -}}
+    {{- $blueScore = $s.blue_score -}}
+    {{- $winner = $s.winner -}}
+    {{- $path = printf "/matches/season-%s/%s/" $sid (lower $entry.match) -}}
+  {{- else -}}
+    {{- with $entry.red }}{{ $red = partial "lib/player-lookup.html" . }}{{ end -}}
+    {{- with $entry.blue }}{{ $blue = partial "lib/player-lookup.html" . }}{{ end -}}
+    {{- $redScore = $entry.red_score -}}
+    {{- $blueScore = $entry.blue_score -}}
+    {{- if and (ne $redScore nil) (ne $blueScore nil) -}}
+      {{- if gt $redScore $blueScore }}{{ $winner = "red" }}{{ else if gt $blueScore $redScore }}{{ $winner = "blue" }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $out = $out | append (dict
+      "entry" $entry
+      "red" $red "blue" $blue
+      "red_score" $redScore "blue_score" $blueScore
+      "winner" $winner "path" $path) -}}
+{{- end -}}
+{{- return $out -}}

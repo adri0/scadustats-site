@@ -1,0 +1,74 @@
+{{- /*
+  Input: a season id. Output: a dict of slot slug (lib/season-slots.html;
+  a player's own slug unless they share a slot) -> final placing (int),
+  from data/groups/season-<N>.yaml and data/brackets/season-<N>.yaml; empty
+  when the season has neither.
+
+  Placings go by elimination, latest first, and players knocked out at the
+  same point share a placing (two players out in the same lower-bracket round
+  are both 5th, and the next placing is 7th):
+    1. the Grand Final (`bracket: final`): winner 1st, loser 2nd;
+    2. lower-bracket losers, by column, rightmost (latest round) first;
+    3. players who didn't qualify from the groups, by their group position.
+  Players still in a bracket that isn't finished get no placing.
+*/ -}}
+{{- $sid := printf "%v" . -}}
+{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $sid) -}}
+{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%s" $sid) -}}
+
+{{- /* Tiers best first, each {slugs}; everyone in a tier shares a placing.
+       (Dicts, because append flattens a slice of slices.) */ -}}
+{{- $tiers := slice -}}
+{{- with $bracket -}}
+  {{- $matches := partial "lib/bracket-results.html" (dict "season_id" $sid "bracket" .) -}}
+  {{- $slots := partial "lib/season-slots.html" $sid -}}
+  {{- $loserOf := dict -}}
+  {{- $winnerOf := dict -}}
+  {{- range $matches -}}
+    {{- if and .red .blue (in (slice "red" "blue") .winner) -}}
+      {{- $w := cond (eq .winner "red") .red .blue -}}
+      {{- $l := cond (eq .winner "red") .blue .red -}}
+      {{- $winnerOf = merge $winnerOf (dict (string .entry.id) (index $slots $w.slug | default $w).slug) -}}
+      {{- $loserOf = merge $loserOf (dict (string .entry.id) (index $slots $l.slug | default $l).slug) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- range where $matches "entry.bracket" "final" -}}
+    {{- with index $winnerOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ end -}}
+    {{- with index $loserOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ end -}}
+  {{- end -}}
+
+  {{- $lower := where $matches "entry.bracket" "lower" -}}
+  {{- $cols := slice -}}
+  {{- range $lower }}{{ $cols = $cols | append .entry.col }}{{ end -}}
+  {{- range $col := sort (uniq $cols) "value" "desc" -}}
+    {{- $tier := slice -}}
+    {{- range where $lower "entry.col" $col -}}
+      {{- with index $loserOf (string .entry.id) }}{{ $tier = $tier | append . }}{{ end -}}
+    {{- end -}}
+    {{- with $tier }}{{ $tiers = $tiers | append (dict "slugs" .) }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $groupsCfg -}}
+  {{- $tables := partial "lib/group-tables.html" (dict "season_id" $sid "groups" . "bracket" $bracket) -}}
+  {{- $maxSize := 0 -}}
+  {{- range $tables.groups }}{{ $maxSize = cond (gt (len .rows) $maxSize) (len .rows) $maxSize }}{{ end -}}
+  {{- /* seq counts down when start > end, so guard groups no one left. */ -}}
+  {{- $first := len .qualify -}}
+  {{- range $pos := cond (lt $first $maxSize) (seq $first (sub $maxSize 1)) slice -}}
+    {{- $tier := slice -}}
+    {{- range $tables.groups -}}
+      {{- with index .rows $pos }}{{ $tier = $tier | append .player.slug }}{{ end -}}
+    {{- end -}}
+    {{- with $tier }}{{ $tiers = $tiers | append (dict "slugs" .) }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $placings := dict -}}
+{{- $placed := 0 -}}
+{{- range $tiers -}}
+  {{- range .slugs }}{{ $placings = merge $placings (dict . (add $placed 1)) }}{{ end -}}
+  {{- $placed = add $placed (len .slugs) -}}
+{{- end -}}
+{{- return $placings -}}

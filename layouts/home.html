@@ -8,16 +8,37 @@
       {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
     </section>
 
+    {{- with index hugo.Data.brackets "season-6" }}
+    <section>
+      <div class="section-head">
+        <h2>Season 6 double elimination</h2>
+        <a href="{{ "/seasons/6/" | relURL }}">Season 6 →</a>
+      </div>
+      {{ partial "season-bracket.html" (dict "season_id" "6" "bracket" (merge . (dict "title" ""))) }}
+    </section>
+    {{- end }}
+
     <section>
       <div class="section-head">
         <h2>Latest matches</h2>
         <a href="{{ "/matches/" | relURL }}">All matches →</a>
       </div>
-      <div class="match-list">
+      <ul class="match-history">
         {{- range first 6 $matches }}
-          {{ partial "match-card.html" (dict "page" . "show_season" true) }}
+          {{- $p := .Params }}
+        <li class="match-history-row">
+          <a href="{{ .RelPermalink }}">
+            <span class="match-history-date">{{ $p.match_date }}<span class="pill pill-sm pill-outline">Season {{ $p.season_id }}</span></span>
+            <span class="match-history-opponent">
+              <span class="{{ if eq $p.winner "red" }}is-winner{{ end }}">{{ $p.player_red.display_name }}</span>
+              vs
+              <span class="{{ if eq $p.winner "blue" }}is-winner{{ end }}">{{ $p.player_blue.display_name }}</span>
+            </span>
+            <span class="match-history-score">{{ $p.red_score }}–{{ $p.blue_score }}</span>
+          </a>
+        </li>
         {{- end }}
-      </div>
+      </ul>
     </section>
   </main>
 

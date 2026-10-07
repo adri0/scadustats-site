@@ -1,0 +1,23 @@
+# Hand-curated playoff bracket for season 6 (double elimination).
+# Rendered as an SVG diagram on the season page by _partials/season-bracket.html.
+#
+# Each match sits at a grid position: `col` (0 = leftmost round) and `row`
+# (vertical slot, fractions allowed to centre a match between its feeders).
+# `bracket` is upper, lower or final; `next` is the id of the match the winner
+# advances to, which draws the connector line.
+#
+# `match` names a file under data/matches/season-6/ (without .json): players,
+# scores and the winner are read from it. A match with no transcribed VOD
+# gives `red`/`blue` player names and `red_score`/`blue_score` by hand instead.
+title: Playoffs
+matches:
+  - { id: 1, label: Match 1, bracket: upper, col: 0, row: 0,   date: "2026-08-28", next: 5, match: 2026-08-28-NuclearPastaTom-vs-blanxz }
+  - { id: 2, label: Match 2, bracket: upper, col: 0, row: 1,   date: "2026-08-30", next: 5, match: 2026-08-30-SeriousChallenges-vs-RomainJacques }
+  - { id: 5, label: Match 5, bracket: upper, col: 1, row: 0.5, date: "2026-09-06", next: 10, match: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges }
+  - { id: 3, label: Match 3, bracket: lower, col: 0, row: 2.5, date: "2026-09-01", next: 6, match: 2026-09-01-Vswed-vs-Raydans }
+  - { id: 4, label: Match 4, bracket: lower, col: 0, row: 3.5, date: "2026-09-03", next: 7, match: 2026-09-03-LilAggy-vs-Grey }
+  - { id: 6, label: Match 6, bracket: lower, col: 1, row: 2.5, date: "2026-09-05", next: 8, match: 2026-09-05-blanxz-vs-Vswed }
+  - { id: 7, label: Match 7, bracket: lower, col: 1, row: 3.5, date: "2026-09-11", next: 8, match: 2026-09-11-LilAggy-vs-RomainJacques }
+  - { id: 8, label: Match 8, bracket: lower, col: 2, row: 3,   date: "2026-09-12", next: 9, match: 2026-09-12-blanxz-vs-RomainJacques }
+  - { id: 9, label: Match 9, bracket: lower, col: 3, row: 3,   date: "2026-09-13", next: 10, red: SeriousChallenges, blue: blanxz, red_score: 2, blue_score: 1 }
+  - { id: 10, label: Grand Final, bracket: final, col: 3, row: 0.5, date: "2026-09-19", match: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges }
