@@ -8,6 +8,7 @@ title = "Scadustats"
 [params]
   subtitle = "Scadustats | Bingo Brawlers"
   description = "Community-base repository for match history, player records, and square stats for the Elden Ring Bingo Brawlers league, transcribed from the VODs."
+  repo = "https://github.com/adri0/scadustats-site"
 
 # Kopi renders no post-card images, so the sidebar/feed image lookups stay empty.
 # mainSections is unused by our layouts but kopi partials read it.
@@ -34,8 +35,8 @@ title = "Scadustats"
   weight = 40
 
 [[menus.main]]
-  name = "Rules"
-  pageRef = "/rules"
+  name = "About"
+  pageRef = "/about"
   weight = 50
 
 [module]

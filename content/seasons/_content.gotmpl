@@ -69,6 +69,7 @@
         "blurb" ($season.blurb | default "")
         "rules" ($season.rules | default "")
         "unregistered" ($season.unregistered | default false)
+        "source" "data/seasons.json"
         "standings" $standings
         "matches" (sort $matchList "match_date" "desc"))) -}}
 {{- end -}}

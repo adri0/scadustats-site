@@ -1,0 +1,30 @@
+{{- /*
+  {{< example-board >}}: one finished board, picked at random from every
+  decided game in data/matches -- a new pick on every build. The board shows
+  who won that game, so the match it came from is blurred in no-spoilers mode;
+  without the players' names the board alone gives nothing away.
+*/ -}}
+{{- $picks := slice -}}
+{{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
+  {{- range $key, $match := $matchesInSeason -}}
+    {{- $m := partial "lib/match-summary.html" $match -}}
+    {{- range $m.games -}}
+      {{- if .winner_color -}}
+        {{- $picks = $picks | append (dict "match" $m "game" . "path" (printf "/matches/season-%s/%s/" $m.season_id (lower $key))) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with index (shuffle $picks) 0 -}}
+  {{- $g := .game -}}
+  {{- $m := .match -}}
+<figure class="example-board">
+  {{ partial "board-grid.html" (dict "board" $g.board "win_line" $g.win_line) }}
+  <figcaption>
+    A {{ if eq $g.game_type "dlc" }}DLC{{ else }}base game{{ end }} board at the end of a game,
+    won by <strong class="text-{{ $g.winner_color }}">{{ $g.winner_color }}</strong>
+    {{- if eq $g.win_type "line" }} on a line ({{ index (dict "diagonal_tl_br" "the top-left to bottom-right diagonal" "diagonal_bl_tr" "the bottom-left to top-right diagonal") $g.win_line | default (replace $g.win_line "_" " ") }}), highlighted{{ else }} on majority{{ end }}.
+    From <a class="spoiler" href="{{ .path | relURL }}">{{ $m.player_red.display_name }} vs {{ $m.player_blue.display_name }}, game {{ $g.index }}</a>.
+  </figcaption>
+</figure>
+{{- end -}}

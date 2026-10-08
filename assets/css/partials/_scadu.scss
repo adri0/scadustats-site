@@ -26,6 +26,7 @@
     --surface-strong: #e8ddc2;
     --gold-soft: rgba(122, 90, 20, 0.08);
     --gold-glow: rgba(176, 134, 44, 0.28);
+    --link: #a3460c;
 
     --font-display: "Cinzel", "Trajan Pro", Georgia, serif;
     --font-body: "EB Garamond", Garamond, Georgia, serif;
@@ -48,6 +49,7 @@
     --surface-strong: #1a1712;
     --gold-soft: rgba(210, 173, 98, 0.08);
     --gold-glow: rgba(210, 173, 98, 0.22);
+    --link: #ffc94d;
 }
 
 /* --- Type & atmosphere --- */
@@ -71,6 +73,21 @@ h1, h2, h3, h4,
 }
 
 h1 { color: var(--accent); }
+
+/* Links in running text: a brighter, warmer hue than --accent, which sits too
+   close to --text-main to read as a link. kopi leaves links outside
+   .article-body undecorated, so .prose-links opts a paragraph in. */
+.article-body a,
+.season-rules a,
+.prose-links a {
+    color: var(--link);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+
+    &:hover { text-decoration-thickness: 2px; }
+}
 
 /* Small-caps labels share the display face. */
 .widget-title,
@@ -257,8 +274,6 @@ h1 { color: var(--accent); }
 
     @include md { grid-template-columns: 1fr 1fr; }
 }
-
-.prose { max-width: 70ch; }
 
 /* --- Home hero --- */
 
@@ -616,7 +631,8 @@ h1 { color: var(--accent); }
         width: 20%;
         height: 5.5rem;
         padding: 0.5rem;
-        vertical-align: top;
+        text-align: center;
+        vertical-align: middle;
         border: 1px solid var(--border);
         border-radius: var(--radius-element);
         background-color: var(--surface-strong);
@@ -642,6 +658,20 @@ h1 { color: var(--accent); }
     .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
 
     .cell-winline { box-shadow: inset 0 0 0 2px var(--accent), 0 0 12px var(--gold-glow); }
+}
+
+/* Example board on the About page (_shortcodes/example-board.html). */
+.example-board {
+    margin: 1.5rem 0;
+
+    figcaption {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: var(--text-muted);
+    }
+
+    .text-red { color: var(--red); }
+    .text-blue { color: var(--blue); }
 }
 
 /* --- Event timeline --- */
@@ -957,7 +987,7 @@ h1 { color: var(--accent); }
     white-space: nowrap;
 }
 
-/* --- Table of contents (season page) ---
+/* --- Table of contents (season pages, rules page) ---
    A sticky box to the right of the page on wide screens; hidden below that,
    where there's no room beside the tables and bracket. */
 
@@ -1040,9 +1070,46 @@ h1 { color: var(--accent); }
 
 .widget-more:hover { color: var(--accent); }
 
+/* "[edit this page]", pointing at a page's source on GitHub: at the right end
+   of the breadcrumb line (_partials/breadcrumb.html), or on its own line at
+   the top of the home page, which has no breadcrumb. */
+.breadcrumb-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0 1rem;
+    margin-bottom: 0.75rem;
+
+    .breadcrumb, .edit-link { margin: 0; }
+}
+
+.edit-link {
+    margin: 0 0 0.75rem;
+    margin-left: auto;
+    text-align: right;
+    font-size: 0.8rem;
+
+    a {
+        color: var(--text-muted);
+
+        &:hover { color: var(--link); }
+    }
+}
+
 .footer-links {
     display: flex;
+    align-items: baseline;
     gap: 1.5rem;
+}
+
+/* The icon stays inline, so the link's text shares the other links' baseline;
+   vertical-align lowers the mark onto the text's optical centre. */
+.footer-github .icon-github {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.35em;
+    vertical-align: -0.125em;
 }
 
 .footer-disclaimer {
