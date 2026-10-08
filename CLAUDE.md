@@ -120,7 +120,9 @@ Layouts use Hugo's current names: `layouts/baseof.html`, `layouts/home.html`, `l
   from `localStorage.spoilers` by the inline script in `head.html` and switched by any
   `[data-spoiler-toggle]` (`assets/js/modules/spoilers.js`). Anything that reveals a result —
   scores, winners, W–L records, standings, brackets — must carry `.spoiler` (blurred) or sit in
-  `.spoiler-hide` (removed, with a `.spoiler-placeholder` in its place); winner colouring outside
+  `.spoiler-hide` (removed, with a `.spoiler-placeholder` in its place). A blurred table or
+  bracket sits in a `.spoiler-cover` that starts with `partial "spoiler-notice.html"`, the
+  "No-spoilers mode on" banner with a button to turn it off. Winner colouring outside
   those is neutralised at the end of `_scadu.scss`, since colour shows through a blur.
 - `lib/square-index.html` and `lib/square-stats.html` scan all data and must be called through
   `partialCached` with a constant variant (`""`).

@@ -78,12 +78,12 @@
 
 {{- with $groups }}
 <h2 id="groups">{{ .title | default "Groups" }}{{ with $phaseDates.groups }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
-<div class="spoiler">{{ partial "season-groups.html" (dict "season_id" $s.id "groups" . "bracket" $bracket) }}</div>
+<div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-groups.html" (dict "season_id" $s.id "groups" . "bracket" $bracket) }}</div></div>
 {{- end }}
 
 {{- with $bracket }}
 <h2 id="bracket">Double elimination{{ with $phaseDates.bracket }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
-<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}</div>
+<div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}</div></div>
 {{- end }}
 
 <h2 id="standings">Standings</h2>
@@ -111,6 +111,8 @@
   {{- range $standings }}{{ $placed = $placed | append (merge . (dict "place" (index $placings .player.slug | default 999))) }}{{ end }}
   {{- $standings = sort $placed "place" }}
 {{- end }}
+<div class="spoiler-cover">
+{{ partial "spoiler-notice.html" }}
 <div class="table-wrap spoiler">
   <table class="stats-table standings-table" data-sortable>
     <thead>
@@ -153,6 +155,7 @@
     {{- end }}
     </tbody>
   </table>
+</div>
 </div>
 
 <h2 id="matches">Matches</h2>

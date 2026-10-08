@@ -20,7 +20,7 @@
         <h2>Season 6 double elimination</h2>
         <a href="{{ "/seasons/6/" | relURL }}">Season 6 →</a>
       </div>
-      <div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" "6" "bracket" (merge . (dict "title" ""))) }}</div>
+      <div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" "6" "bracket" (merge . (dict "title" ""))) }}</div></div>
     </section>
     {{- end }}
 

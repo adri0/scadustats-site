@@ -3,6 +3,8 @@
 <h1>{{ .Title }}</h1>
 {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
 
+<div class="spoiler-cover">
+{{ partial "spoiler-notice.html" }}
 <div class="table-wrap">
   <table class="stats-table">
     <thead>
@@ -34,5 +36,6 @@
     {{- end }}
     </tbody>
   </table>
+</div>
 </div>
 {{ end }}
