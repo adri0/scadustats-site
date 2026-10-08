@@ -31,3 +31,14 @@ scadustats match validate              # sanity-check everything under data/matc
 
 See [scadustats' own README](https://github.com/adri0/scadustats#readme) for its prerequisites and
 full command reference.
+
+## Player avatars
+
+`data/players/<slug>/info.yaml`'s `twitch` handle is also the source of the player's avatar.
+`scripts/fetch-avatars.py` (Python standard library only) downloads each player's Twitch profile
+picture into `static/images/players/<slug>.png` and points `avatar` at it. Rerun it from the repo
+root after adding a handle or when someone changes their picture:
+
+```
+python3 scripts/fetch-avatars.py
+```
