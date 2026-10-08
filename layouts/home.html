@@ -15,6 +15,11 @@
       {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
     </section>
 
+    <aside class="construction-notice prose-links">
+      <p><strong>Under construction.</strong> Only Season 6 has been transcribed so far; earlier seasons are on their way.
+      {{- with site.Params.repo }} Want to help? The site is open source on <a href="{{ . }}">GitHub</a>, and contributions are welcome.{{ end }}</p>
+    </aside>
+
     <section>
       <div class="section-head">
         <h2>Upcoming matches</h2>

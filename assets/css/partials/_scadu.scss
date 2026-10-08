@@ -325,6 +325,21 @@ h1 { color: var(--accent); }
     font-style: italic;
 }
 
+/* The home page's "under construction" disclaimer, just below the hero. */
+.construction-notice {
+    margin: 0 auto 2rem;
+    max-width: 60ch;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-element);
+    background-color: var(--gold-soft);
+    color: var(--text-muted);
+
+    p { margin: 0; }
+    strong { color: var(--text-main); }
+}
+
 /* --- Tables --- */
 
 /* kopi's base sets `table { display: block }` for horizontal scrolling; our
