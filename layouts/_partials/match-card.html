@@ -14,9 +14,9 @@
     {{- with $p.match_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
   </div>
   <a class="match-card-score match-card-link" href="{{ $page.RelPermalink }}">
-    <span class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}">{{ $p.player_red.display_name }}</span>
+    <span class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
     <span class="score spoiler">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</span>
-    <span class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}">{{ $p.player_blue.display_name }}</span>
+    <span class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}">{{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true) }}</span>
   </a>
   <div class="match-card-foot">
     <span class="spoiler">{{ if eq $p.winner "" }}undecided{{ else if eq $p.winner "draw" }}drawn{{ else }}{{ $p.num_games }} game{{ if ne $p.num_games 1 }}s{{ end }}{{ end }}</span>

@@ -26,7 +26,7 @@
       {{- $decided := add $p.wins $p.losses }}
       <tr>
         <td class="rank">{{ add $i 1 }}</td>
-        <td><a href="{{ $page.RelPermalink }}">{{ $p.display_name }}</a></td>
+        <td><a href="{{ $page.RelPermalink }}">{{ partial "avatar.html" (dict "player" $p) }}{{ $p.display_name }}</a>{{ partial "twitch-link.html" (dict "url" $p.twitch_url) }}</td>
         <td class="spoiler">{{ $p.wins }}–{{ $p.losses }}–{{ $p.draws }}</td>
         <td class="spoiler">{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</td>
         <td class="spoiler">{{ $p.game_wins }}–{{ $p.game_losses }}</td>

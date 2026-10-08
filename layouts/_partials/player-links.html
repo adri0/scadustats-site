@@ -3,7 +3,7 @@
        icon carrying the slot's note (e.g. why two players share it). */ -}}
 {{- range $i, $p := .members | default (slice .) -}}
   {{- if $i }} / {{ end -}}
-  <a href="{{ printf "/players/%s/" $p.slug | relURL }}">{{ $p.display_name }}</a>
+  <a href="{{ printf "/players/%s/" $p.slug | relURL }}">{{ partial "avatar.html" (dict "player" $p) }}{{ $p.display_name }}</a>
 {{- end -}}
 {{- with .note }}
   <span class="info-icon" role="img" tabindex="0" title="{{ . }}" aria-label="{{ . }}">

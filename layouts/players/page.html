@@ -9,7 +9,7 @@
   <div>
     <h1>{{ $p.display_name }}</h1>
     <div class="player-links">
-      {{- with $p.twitch_url }}<a class="pill pill-sm pill-outline" href="{{ . }}" target="_blank" rel="noopener">Twitch</a>{{ end }}
+      {{- partial "twitch-link.html" (dict "url" $p.twitch_url "label" true) }}
       {{- if $p.unregistered }}<span class="pill pill-sm pill-outline">no profile yet</span>{{ end }}
     </div>
   </div>
@@ -110,7 +110,7 @@
     <a href="{{ .path | relURL }}">
       <span class="result-badge spoiler">{{ substr .result 0 1 | upper }}</span>
       <span class="match-history-date">{{ .match_date }}</span>
-      <span class="match-history-opponent">vs {{ .opponent.display_name }}</span>
+      <span class="match-history-opponent">vs {{ partial "avatar.html" (dict "player" .opponent) }}{{ .opponent.display_name }}</span>
       <span class="match-history-score spoiler">{{ $own }}–{{ $opp }}</span>
     </a>
     {{- partial "vod-link.html" .video_url }}
