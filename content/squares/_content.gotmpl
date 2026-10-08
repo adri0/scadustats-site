@@ -48,6 +48,7 @@
         "params" (dict
           "square_id" $s.id
           "game_type" $gameType
+          "source" (printf "data/square_stats/%s/%s.yaml" $gameType $id)
           "num_matches" ($s.num_matches | default 0)
           "num_games" ($s.num_games | default 0)
           "games_marked" ($s.games_marked | default 0)
