@@ -1,0 +1,6 @@
+{{- /* No input. The "No-spoilers mode on" banner laid over a blurred table or
+       bracket: put it first inside a .spoiler-cover, before the .spoiler block
+       it covers. Only shown in no-spoilers mode; its button turns the mode off. */ -}}
+<div class="spoiler-notice" role="note">
+  <span class="spoiler-notice-inner">No-spoilers mode on · <button class="spoiler-notice-link" type="button" data-spoiler-toggle>{{ partial "icon-eye.html" "" }}I can handle the truth</button></span>
+</div>
