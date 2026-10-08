@@ -1212,3 +1212,19 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
     &:hover, &:focus-visible { color: var(--accent); }
     &:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 50%; }
 }
+
+/* Twitch channel link (_partials/twitch-link.html): a glyph-only icon after a
+   name in tables, or a pill with the handle on the player page. */
+.twitch-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    color: var(--twitch);
+    vertical-align: -0.15em;
+
+    &:not(.pill) { margin-left: 0.4rem; }
+    &:hover { color: var(--accent); }
+}
+
+:root { --twitch: #9146ff; }
+[data-theme="dark"] { --twitch: #a970ff; }

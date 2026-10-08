@@ -9,7 +9,7 @@
   <div>
     <h1>{{ $p.display_name }}</h1>
     <div class="player-links">
-      {{- with $p.twitch_url }}<a class="pill pill-sm pill-outline" href="{{ . }}" target="_blank" rel="noopener">Twitch</a>{{ end }}
+      {{- partial "twitch-link.html" (dict "url" $p.twitch_url "label" true) }}
       {{- if $p.unregistered }}<span class="pill pill-sm pill-outline">no profile yet</span>{{ end }}
     </div>
   </div>
