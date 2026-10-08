@@ -1,0 +1,45 @@
+id: leonine
+text: Kill Leonine Misbegotten
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1584
+- 3131
+- 3644
+- 4459
+median_mark_time_s: 3387.5
+claims:
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 1584
+  slug: vswed
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3131
+  slug: seriouschallenges
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 3644
+  slug: nuclearpastatom
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 4459
+  slug: blanxz

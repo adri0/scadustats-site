@@ -1,0 +1,20 @@
+id: limgrave_bosses_6
+text: Kill 6 Bosses in Limgrave / Weeping
+game_type: base
+num_matches: 1
+matches:
+- 2026-08-07-blanxz-vs-Raydans
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 2404
+median_mark_time_s: 2404.0
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 2404
+  slug: blanxz

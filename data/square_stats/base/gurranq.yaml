@@ -1,0 +1,53 @@
+id: gurranq
+text: Kill Gurranq
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 6
+games_marked: 5
+mark_rate: 0.8333
+top_players:
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2078
+- 2812
+- 2863
+- 3714
+- 5384
+median_mark_time_s: 2863.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2078
+  slug: lilaggy
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 2812
+  slug: nuclearpastatom
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 2863
+  slug: ironyeu
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 3714
+  slug: romainjacques
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 5384
+  slug: vswed

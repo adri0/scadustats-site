@@ -1,0 +1,44 @@
+id: whetstone_4
+text: Acquire 4 Whetstone Knives
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+num_games: 6
+games_marked: 4
+mark_rate: 0.6667
+top_players:
+- slug: vswed
+  marks: 2
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 3062
+- 3961
+- 4634
+- 5297
+median_mark_time_s: 4297.5
+claims:
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3062
+  slug: romainjacques
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3961
+  slug: nuclearpastatom
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 4634
+  slug: vswed
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 5297
+  slug: vswed

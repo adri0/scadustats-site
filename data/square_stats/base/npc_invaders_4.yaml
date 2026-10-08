@@ -1,0 +1,57 @@
+id: npc_invaders_4
+text: Kill 4 NPC Invaders
+game_type: base
+num_matches: 7
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 7
+games_marked: 6
+mark_rate: 0.8571
+top_players:
+- slug: seriouschallenges
+  marks: 3
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2615
+- 3362
+- 3469
+- 3770
+- 4044
+- 4590
+median_mark_time_s: 3619.5
+claims:
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2615
+  slug: seriouschallenges
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3362
+  slug: seriouschallenges
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3469
+  slug: seriouschallenges
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 3770
+  slug: lilaggy
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 4044
+  slug: raydans
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 4590
+  slug: twistiet

@@ -1,0 +1,59 @@
+id: greyoll
+text: Kill Greyoll without Status Effects
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 9
+games_marked: 6
+mark_rate: 0.6667
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: romainjacques
+  marks: 2
+- slug: seriouschallenges
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1709
+- 2259
+- 2354
+- 2642
+- 2757
+- 4316
+median_mark_time_s: 2498.0
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1709
+  slug: blanxz
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 2259
+  slug: seriouschallenges
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 2354
+  slug: romainjacques
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 2642
+  slug: vswed
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 2757
+  slug: blanxz
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 4316
+  slug: romainjacques

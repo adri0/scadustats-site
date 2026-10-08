@@ -1,0 +1,13 @@
+id: liurnia_bosses_5
+text: Kill 5 Bosses in Liurnia
+game_type: base
+num_matches: 1
+matches:
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+num_games: 1
+games_marked: 0
+mark_rate: 0.0
+top_players: []
+mark_times_s: []
+median_mark_time_s: null
+claims: []

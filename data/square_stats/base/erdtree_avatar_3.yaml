@@ -1,0 +1,36 @@
+id: erdtree_avatar_3
+text: Kill 3 Unique Erdtree or Putrid Avatars
+game_type: base
+num_matches: 3
+matches:
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1949
+- 2583
+- 4311
+median_mark_time_s: 2583.0
+claims:
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 1949
+  slug: vswed
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 2583
+  slug: grey
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 4311
+  slug: gustaf

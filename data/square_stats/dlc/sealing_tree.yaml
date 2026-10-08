@@ -1,0 +1,31 @@
+id: sealing_tree
+text: Burn the Sealing Tree
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 6
+games_marked: 2
+mark_rate: 0.3333
+top_players:
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 4323
+- 5226
+median_mark_time_s: 4774.5
+claims:
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 4323
+  slug: raydans
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 5226
+  slug: romainjacques

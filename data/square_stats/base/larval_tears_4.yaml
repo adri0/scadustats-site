@@ -1,0 +1,28 @@
+id: larval_tears_4
+text: Acquire 4 Larval Tears from Transforming Enemies
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: romainjacques
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 2054
+- 3573
+median_mark_time_s: 2813.5
+claims:
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 2054
+  slug: romainjacques
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3573
+  slug: seriouschallenges

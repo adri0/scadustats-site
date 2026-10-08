@@ -1,0 +1,52 @@
+id: tree_sentinal_plus0
+text: Kill Tree Sentinel (Limgrave) with a +0 Weapon Only
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 178
+- 358
+- 364
+- 1023
+- 1462
+median_mark_time_s: 364.0
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 178
+  slug: nuclearpastatom
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 358
+  slug: ironyeu
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 364
+  slug: lilaggy
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 1023
+  slug: grey
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1462
+  slug: seriouschallenges

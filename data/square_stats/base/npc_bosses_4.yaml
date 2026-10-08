@@ -1,0 +1,51 @@
+id: npc_bosses_4
+text: Kill 4 NPC Bosses
+game_type: base
+num_matches: 11
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 11
+games_marked: 4
+mark_rate: 0.3636
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 3898
+- 4207
+- 4245
+- 5242
+median_mark_time_s: 4226.0
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 3898
+  slug: raydans
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 4207
+  slug: lilaggy
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 4245
+  slug: romainjacques
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 5242
+  slug: vswed

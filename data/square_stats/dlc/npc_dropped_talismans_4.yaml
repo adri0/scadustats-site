@@ -1,0 +1,44 @@
+id: npc_dropped_talismans_4
+text: Acquire 4 Enemy/NPC Dropped Talismans
+game_type: dlc
+num_matches: 4
+matches:
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: gustaf
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 3934
+- 5312
+- 5321
+- 5782
+median_mark_time_s: 5316.5
+claims:
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 3934
+  slug: twistiet
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 5312
+  slug: seriouschallenges
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 5321
+  slug: gustaf
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 5782
+  slug: raydans

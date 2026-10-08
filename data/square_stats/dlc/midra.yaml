@@ -1,0 +1,41 @@
+id: midra
+text: Kill Midra
+game_type: dlc
+num_matches: 10
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 10
+games_marked: 3
+mark_rate: 0.3
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 4393
+- 4413
+- 6247
+median_mark_time_s: 4413.0
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 4393
+  slug: blanxz
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 2
+  time_s: 4413
+  slug: blanxz
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 6247
+  slug: nuclearpastatom

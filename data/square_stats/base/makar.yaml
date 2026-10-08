@@ -1,0 +1,24 @@
+id: makar
+text: Kill Magma Wyrm Makar
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 5
+games_marked: 1
+mark_rate: 0.2
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 4753
+median_mark_time_s: 4753.0
+claims:
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 4753
+  slug: nuclearpastatom

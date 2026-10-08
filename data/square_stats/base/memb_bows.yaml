@@ -1,0 +1,67 @@
+id: memb_bows
+text: Kill a Remembrance Boss with Bows Only
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 10
+games_marked: 7
+mark_rate: 0.7
+top_players:
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1901
+- 2590
+- 3037
+- 3495
+- 3582
+- 3623
+- 3973
+median_mark_time_s: 3495.0
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1901
+  slug: seriouschallenges
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 2590
+  slug: parkenharbor
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 3037
+  slug: grey
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3495
+  slug: lilaggy
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3582
+  slug: romainjacques
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 3623
+  slug: vswed
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 3973
+  slug: gustaf

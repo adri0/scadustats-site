@@ -1,0 +1,53 @@
+id: rennala_summons_4
+text: Kill Rennala after she Summons 4 Spirits
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-blanxz-vs-Parkenharbor
+num_games: 6
+games_marked: 5
+mark_rate: 0.8333
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2153
+- 3343
+- 3595
+- 4503
+- 5788
+median_mark_time_s: 3595.0
+claims:
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 2153
+  slug: romainjacques
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 3343
+  slug: lilaggy
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 3595
+  slug: parkenharbor
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 4503
+  slug: nuclearpastatom
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 5788
+  slug: vswed

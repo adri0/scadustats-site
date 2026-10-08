@@ -1,0 +1,38 @@
+id: caelid_bosses_5
+text: Kill 5 Bosses in Caelid / Dragonbarrow
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 5
+games_marked: 3
+mark_rate: 0.6
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 2990
+- 3167
+- 4036
+median_mark_time_s: 3167.0
+claims:
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 2990
+  slug: blanxz
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 3167
+  slug: gustaf
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4036
+  slug: seriouschallenges

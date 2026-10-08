@@ -1,0 +1,70 @@
+id: moon_of_nokstella
+text: Acquire the Moon of Nokstella
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 8
+games_marked: 8
+mark_rate: 1.0
+top_players:
+- slug: seriouschallenges
+  marks: 3
+- slug: grey
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 630
+- 947
+- 1025
+- 1264
+- 1295
+- 2850
+- 3658
+- 4782
+median_mark_time_s: 1279.5
+claims:
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 630
+  slug: grey
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 947
+  slug: raydans
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 1025
+  slug: lilaggy
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 1264
+  slug: seriouschallenges
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 1295
+  slug: vswed
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2850
+  slug: seriouschallenges
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3658
+  slug: seriouschallenges
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 4782
+  slug: twistiet

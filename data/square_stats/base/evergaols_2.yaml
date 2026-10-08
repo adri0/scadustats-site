@@ -1,0 +1,50 @@
+id: evergaols_2
+text: Complete 2 Evergaols
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 648
+- 700
+- 1129
+- 1966
+- 1987
+median_mark_time_s: 1129.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 648
+  slug: seriouschallenges
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 700
+  slug: seriouschallenges
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 1129
+  slug: raydans
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 1966
+  slug: grey
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1987
+  slug: nuclearpastatom

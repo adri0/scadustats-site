@@ -1,0 +1,58 @@
+id: imbued_key_2
+text: Acquire 2 Imbued Sword Keys
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-19-Vswed-vs-TwistieT
+num_games: 6
+games_marked: 6
+mark_rate: 1.0
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 1462
+- 1920
+- 1937
+- 2063
+- 2738
+- 3875
+median_mark_time_s: 2000.0
+claims:
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1462
+  slug: nuclearpastatom
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1920
+  slug: seriouschallenges
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 1937
+  slug: vswed
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 2063
+  slug: romainjacques
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 2738
+  slug: lilaggy
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 3875
+  slug: twistiet

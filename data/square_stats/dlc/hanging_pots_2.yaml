@@ -1,0 +1,20 @@
+id: hanging_pots_2
+text: Acquire 2 Hanging Pot Bell Bearings
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 1326
+median_mark_time_s: 1326.0
+claims:
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 1326
+  slug: gustaf

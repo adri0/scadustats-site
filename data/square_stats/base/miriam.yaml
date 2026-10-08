@@ -1,0 +1,77 @@
+id: miriam
+text: Kill Preceptor Miriam
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 10
+games_marked: 9
+mark_rate: 0.9
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: romainjacques
+  marks: 2
+- slug: seriouschallenges
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+mark_times_s:
+- 1294
+- 2139
+- 2409
+- 2469
+- 2772
+- 3088
+- 3325
+- 3390
+- 4097
+median_mark_time_s: 2772.0
+claims:
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1294
+  slug: romainjacques
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 2139
+  slug: parkenharbor
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2409
+  slug: seriouschallenges
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 2469
+  slug: romainjacques
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 2772
+  slug: blanxz
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3088
+  slug: seriouschallenges
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 3325
+  slug: blanxz
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 3390
+  slug: grey
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 4097
+  slug: twistiet

@@ -1,0 +1,44 @@
+id: red_bear_1
+text: Kill 1 Red Bear
+game_type: dlc
+num_matches: 4
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-07-blanxz-vs-Raydans
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 602
+- 622
+- 746
+- 1164
+median_mark_time_s: 684.0
+claims:
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 602
+  slug: grey
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 622
+  slug: nuclearpastatom
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 2
+  time_s: 746
+  slug: blanxz
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 1164
+  slug: raydans

@@ -1,0 +1,36 @@
+id: godrick_nepheli
+text: Kill Godrick while Summoning Nepheli Loux
+game_type: base
+num_matches: 3
+matches:
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: ironyeu
+  marks: 1
+mark_times_s:
+- 1271
+- 1319
+- 1657
+median_mark_time_s: 1319.0
+claims:
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 1271
+  slug: ironyeu
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 1319
+  slug: gustaf
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 1657
+  slug: blanxz

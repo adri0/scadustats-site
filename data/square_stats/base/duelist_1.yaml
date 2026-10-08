@@ -1,0 +1,50 @@
+id: duelist_1
+text: Kill 1 Duelist Boss
+game_type: base
+num_matches: 5
+matches:
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: twistiet
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 321
+- 447
+- 646
+- 1024
+- 1470
+median_mark_time_s: 646.0
+claims:
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 321
+  slug: blanxz
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 447
+  slug: lilaggy
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 646
+  slug: twistiet
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 1024
+  slug: twistiet
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 1470
+  slug: raydans

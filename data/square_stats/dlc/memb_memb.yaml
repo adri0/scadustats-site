@@ -1,0 +1,62 @@
+id: memb_memb
+text: Kill a Remembrance Boss with Remembrance Weapons Only
+game_type: dlc
+num_matches: 10
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 10
+games_marked: 6
+mark_rate: 0.6
+top_players:
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 2113
+- 2909
+- 2922
+- 3263
+- 4157
+- 4221
+median_mark_time_s: 3092.5
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2113
+  slug: nuclearpastatom
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 2909
+  slug: gustaf
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 2
+  time_s: 2922
+  slug: raydans
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 3
+  time_s: 3263
+  slug: romainjacques
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 4157
+  slug: parkenharbor
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 2
+  time_s: 4221
+  slug: grey

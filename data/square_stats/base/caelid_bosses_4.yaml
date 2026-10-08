@@ -1,0 +1,32 @@
+id: caelid_bosses_4
+text: Kill 4 Bosses in Caelid / Dragonbarrow
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 6
+games_marked: 2
+mark_rate: 0.3333
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1608
+- 2368
+median_mark_time_s: 1988.0
+claims:
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 1608
+  slug: vswed
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 2368
+  slug: blanxz

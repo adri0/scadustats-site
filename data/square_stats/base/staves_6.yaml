@@ -1,0 +1,96 @@
+id: staves_6
+text: Acquire 6 Unique Staves
+game_type: base
+num_matches: 14
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Vswed-vs-TwistieT
+num_games: 14
+games_marked: 12
+mark_rate: 0.8571
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: nuclearpastatom
+  marks: 2
+- slug: vswed
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 2359
+- 2465
+- 2657
+- 2946
+- 3072
+- 3097
+- 3340
+- 3375
+- 3488
+- 3555
+- 3916
+- 4178
+median_mark_time_s: 3218.5
+claims:
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 2359
+  slug: parkenharbor
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 2465
+  slug: vswed
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2657
+  slug: seriouschallenges
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2946
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3072
+  slug: nuclearpastatom
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 3097
+  slug: romainjacques
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 3340
+  slug: lilaggy
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 3375
+  slug: lilaggy
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 3488
+  slug: gustaf
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 3555
+  slug: blanxz
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 3916
+  slug: vswed
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 4178
+  slug: twistiet

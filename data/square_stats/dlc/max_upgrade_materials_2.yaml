@@ -1,0 +1,58 @@
+id: max_upgrade_materials_2
+text: Acquire 2 Different Max Upgrade Materials
+game_type: dlc
+num_matches: 6
+matches:
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 6
+games_marked: 6
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 478
+- 509
+- 592
+- 687
+- 888
+- 1030
+median_mark_time_s: 639.5
+claims:
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 478
+  slug: nuclearpastatom
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 509
+  slug: vswed
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 592
+  slug: twistiet
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 687
+  slug: seriouschallenges
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 2
+  time_s: 888
+  slug: lilaggy
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 1030
+  slug: blanxz

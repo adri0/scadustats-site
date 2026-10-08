@@ -1,0 +1,59 @@
+id: divine_bird_1
+text: Kill 1 Unique Divine Bird Warrior
+game_type: dlc
+num_matches: 7
+matches:
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 7
+games_marked: 6
+mark_rate: 0.8571
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 863
+- 987
+- 1690
+- 1965
+- 2057
+- 3569
+median_mark_time_s: 1827.5
+claims:
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 863
+  slug: grey
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 987
+  slug: lilaggy
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 2
+  time_s: 1690
+  slug: blanxz
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1965
+  slug: seriouschallenges
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 2
+  time_s: 2057
+  slug: lilaggy
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 3569
+  slug: ironyeu

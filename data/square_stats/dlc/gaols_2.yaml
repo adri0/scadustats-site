@@ -1,0 +1,47 @@
+id: gaols_2
+text: Complete 2 Gaols
+game_type: dlc
+num_matches: 7
+matches:
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 7
+games_marked: 4
+mark_rate: 0.5714
+top_players:
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: twistiet
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 3534
+- 3566
+- 4397
+- 4885
+median_mark_time_s: 3981.5
+claims:
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 2
+  time_s: 3534
+  slug: twistiet
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 3566
+  slug: raydans
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 4397
+  slug: vswed
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 4885
+  slug: romainjacques

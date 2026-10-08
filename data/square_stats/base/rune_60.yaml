@@ -1,0 +1,20 @@
+id: rune_60
+text: Rune Level 60
+game_type: base
+num_matches: 1
+matches:
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 4213
+median_mark_time_s: 4213.0
+claims:
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 4213
+  slug: gustaf

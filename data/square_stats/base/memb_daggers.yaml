@@ -1,0 +1,66 @@
+id: memb_daggers
+text: Kill a Remembrance Boss with Daggers Only
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 9
+games_marked: 7
+mark_rate: 0.7778
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: raydans
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1083
+- 1975
+- 2101
+- 2675
+- 2950
+- 4284
+- 5154
+median_mark_time_s: 2675.0
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 1083
+  slug: raydans
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1975
+  slug: blanxz
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 2101
+  slug: blanxz
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 2675
+  slug: grey
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 2950
+  slug: raydans
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 4284
+  slug: romainjacques
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 5154
+  slug: parkenharbor

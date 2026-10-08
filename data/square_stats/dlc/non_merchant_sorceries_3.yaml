@@ -1,0 +1,51 @@
+id: non_merchant_sorceries_3
+text: Acquire 3 Non-Merchant Sorceries
+game_type: dlc
+num_matches: 6
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 6
+games_marked: 5
+mark_rate: 0.8333
+top_players:
+- slug: vswed
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 2252
+- 2710
+- 2711
+- 2721
+- 3463
+median_mark_time_s: 2711.0
+claims:
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 2252
+  slug: blanxz
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2710
+  slug: nuclearpastatom
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 2711
+  slug: vswed
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2721
+  slug: lilaggy
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 3463
+  slug: vswed

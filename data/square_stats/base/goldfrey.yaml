@@ -1,0 +1,53 @@
+id: goldfrey
+text: Kill Godfrey (Gold Spirit)
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 10
+games_marked: 5
+mark_rate: 0.5
+top_players:
+- slug: vswed
+  marks: 3
+- slug: lilaggy
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 2827
+- 4029
+- 4952
+- 5020
+- 5068
+median_mark_time_s: 4952.0
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 2827
+  slug: romainjacques
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 4029
+  slug: vswed
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 4952
+  slug: lilaggy
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 5020
+  slug: vswed
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 5068
+  slug: vswed

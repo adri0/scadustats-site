@@ -1,0 +1,30 @@
+id: duelist_2
+text: Kill 2 Duelist Bosses
+game_type: base
+num_matches: 4
+matches:
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 4
+games_marked: 2
+mark_rate: 0.5
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+mark_times_s:
+- 1077
+- 2593
+median_mark_time_s: 1835.0
+claims:
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 1077
+  slug: parkenharbor
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2593
+  slug: lilaggy

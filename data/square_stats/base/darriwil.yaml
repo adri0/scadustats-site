@@ -1,0 +1,44 @@
+id: darriwil
+text: Kill Darriwil while Summoning Blaidd
+game_type: base
+num_matches: 4
+matches:
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: twistiet
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 752
+- 1284
+- 1671
+- 4185
+median_mark_time_s: 1477.5
+claims:
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 752
+  slug: twistiet
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 1284
+  slug: vswed
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 1671
+  slug: blanxz
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 4185
+  slug: nuclearpastatom

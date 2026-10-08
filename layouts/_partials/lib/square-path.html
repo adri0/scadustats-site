@@ -1,0 +1,11 @@
+{{- /*
+  Input: anything with `id` and `game_type` (a catalogue entry, a square-lookup
+  result). Output: the URL path of that goal's page under /squares/, or "" for
+  a goal with no catalogue id. Ids are only unique within a game type, hence
+  the type segment; underscores become hyphens to match the rest of the site.
+*/ -}}
+{{- $path := "" -}}
+{{- if and .id .game_type -}}
+  {{- $path = printf "/squares/%s/%s/" .game_type (replace .id "_" "-") -}}
+{{- end -}}
+{{- return $path -}}

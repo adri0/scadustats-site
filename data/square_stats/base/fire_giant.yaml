@@ -1,0 +1,56 @@
+id: fire_giant
+text: Kill Fire Giant
+game_type: base
+num_matches: 11
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 11
+games_marked: 5
+mark_rate: 0.4545
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 4060
+- 4459
+- 4475
+- 4494
+- 5401
+median_mark_time_s: 4475.0
+claims:
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 4060
+  slug: romainjacques
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 4459
+  slug: vswed
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 4475
+  slug: blanxz
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4494
+  slug: seriouschallenges
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 5401
+  slug: seriouschallenges

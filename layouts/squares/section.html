@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{- $stats := partialCached "lib/square-stats.html" "" }}
-{{- $catalog := partialCached "lib/square-index.html" "" }}
+{{- $catalog := 0 }}
+{{- range hugo.Data.square_stats }}{{ $catalog = add $catalog (len .) }}{{ end }}
 {{- $seen := slice }}
 {{- range $stats }}{{ $seen = $seen | append . }}{{ end }}
 {{- $known := where $seen "known" true }}
@@ -11,7 +12,7 @@
 {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
 
 <p class="notice">
-  {{ len $known }} of {{ len $catalog }} catalogued goals have appeared on a card so far.
+  {{ len $known }} of {{ $catalog }} catalogued goals have appeared on a card so far.
   {{- with $unknown }} {{ len . }} more {{ if eq (len .) 1 }}goal is{{ else }}goals are{{ end }}
   transcribed in a way the catalogue doesn&rsquo;t recognise, and {{ if eq (len .) 1 }}is{{ else }}are{{ end }} listed in grey.{{ end }}
 </p>

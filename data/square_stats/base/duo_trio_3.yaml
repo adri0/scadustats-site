@@ -1,0 +1,65 @@
+id: duo_trio_3
+text: Kill 3 Duo/Trio Bosses
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 8
+games_marked: 7
+mark_rate: 0.875
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 1460
+- 1496
+- 1531
+- 1614
+- 2170
+- 2590
+- 2917
+median_mark_time_s: 1614.0
+claims:
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 1460
+  slug: nuclearpastatom
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 1496
+  slug: vswed
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 1
+  time_s: 1531
+  slug: nuclearpastatom
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 1614
+  slug: grey
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 2170
+  slug: lilaggy
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2590
+  slug: parkenharbor
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 2917
+  slug: twistiet

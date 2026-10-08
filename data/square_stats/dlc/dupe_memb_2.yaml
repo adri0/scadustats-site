@@ -1,0 +1,28 @@
+id: dupe_memb_2
+text: Duplicate a Remembrance 2 time
+game_type: dlc
+num_matches: 2
+matches:
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: gustaf
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1989
+- 2627
+median_mark_time_s: 2308.0
+claims:
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 2
+  time_s: 1989
+  slug: vswed
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 2627
+  slug: gustaf

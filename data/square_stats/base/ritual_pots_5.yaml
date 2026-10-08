@@ -1,0 +1,54 @@
+id: ritual_pots_5
+text: Acquire 5 Ritual Pots
+game_type: base
+num_matches: 7
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 7
+games_marked: 5
+mark_rate: 0.7143
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: twistiet
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 3386
+- 3641
+- 3732
+- 4845
+- 6031
+median_mark_time_s: 3732.0
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 3386
+  slug: parkenharbor
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 3641
+  slug: romainjacques
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 3732
+  slug: nuclearpastatom
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 4845
+  slug: twistiet
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 6031
+  slug: vswed

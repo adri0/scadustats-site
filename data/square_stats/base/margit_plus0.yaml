@@ -1,0 +1,52 @@
+id: margit_plus0
+text: Kill Margit with a +0 Weapon Only
+game_type: base
+num_matches: 5
+matches:
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 495
+- 569
+- 586
+- 658
+- 1000
+median_mark_time_s: 586.0
+claims:
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 495
+  slug: ironyeu
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 569
+  slug: romainjacques
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 586
+  slug: blanxz
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 658
+  slug: parkenharbor
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 1000
+  slug: nuclearpastatom

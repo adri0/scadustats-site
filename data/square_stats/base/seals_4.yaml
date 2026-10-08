@@ -1,0 +1,29 @@
+id: seals_4
+text: Acquire 4 Unique Seals
+game_type: base
+num_matches: 3
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
+top_players:
+- slug: gustaf
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2694
+- 2934
+median_mark_time_s: 2814.0
+claims:
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 2694
+  slug: gustaf
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 2934
+  slug: vswed

@@ -1,0 +1,43 @@
+id: elder_lions_4
+text: Kill 4 Unique Elder Lions
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: ironyeu
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2066
+- 2266
+- 3081
+- 4639
+median_mark_time_s: 2673.5
+claims:
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 2066
+  slug: ironyeu
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2266
+  slug: nuclearpastatom
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 3081
+  slug: nuclearpastatom
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 4639
+  slug: twistiet

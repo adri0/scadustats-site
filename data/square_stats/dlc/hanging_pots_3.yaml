@@ -1,0 +1,52 @@
+id: hanging_pots_3
+text: Acquire 3 Hanging Pot Bell Bearings
+game_type: dlc
+num_matches: 7
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+num_games: 7
+games_marked: 5
+mark_rate: 0.7143
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 908
+- 924
+- 1446
+- 1654
+- 3616
+median_mark_time_s: 1446.0
+claims:
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 908
+  slug: twistiet
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 924
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 3
+  time_s: 1446
+  slug: nuclearpastatom
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 2
+  time_s: 1654
+  slug: lilaggy
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 3616
+  slug: raydans

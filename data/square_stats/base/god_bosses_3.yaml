@@ -1,0 +1,45 @@
+id: god_bosses_3
+text: Kill 3 Bosses with "God" in their name
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: ironyeu
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2044
+- 2296
+- 2598
+- 2852
+median_mark_time_s: 2447.0
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2044
+  slug: seriouschallenges
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 2296
+  slug: raydans
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 2598
+  slug: ironyeu
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 2852
+  slug: vswed

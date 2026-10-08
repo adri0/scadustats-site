@@ -1,0 +1,85 @@
+id: fallingstar_beast
+text: Kill the Fallingstar Beast
+game_type: dlc
+num_matches: 13
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 13
+games_marked: 10
+mark_rate: 0.7692
+top_players:
+- slug: nuclearpastatom
+  marks: 3
+- slug: lilaggy
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 945
+- 1514
+- 1658
+- 2247
+- 2753
+- 2872
+- 2974
+- 3110
+- 3316
+- 4719
+median_mark_time_s: 2812.5
+claims:
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 2
+  time_s: 945
+  slug: lilaggy
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1514
+  slug: nuclearpastatom
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 1658
+  slug: vswed
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 2247
+  slug: blanxz
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 2
+  time_s: 2753
+  slug: gustaf
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2872
+  slug: nuclearpastatom
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 2974
+  slug: romainjacques
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 3
+  time_s: 3110
+  slug: nuclearpastatom
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 3316
+  slug: lilaggy
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 4719
+  slug: twistiet

@@ -1,0 +1,28 @@
+id: nameless_3
+text: Complete 3 Nameless Mausoleums
+game_type: dlc
+num_matches: 2
+matches:
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 3542
+- 4364
+median_mark_time_s: 3953.0
+claims:
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 3542
+  slug: grey
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 4364
+  slug: gustaf

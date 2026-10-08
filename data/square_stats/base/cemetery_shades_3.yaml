@@ -1,0 +1,29 @@
+id: cemetery_shades_3
+text: Kill 3 Unique Cemetery Shades
+game_type: base
+num_matches: 3
+matches:
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 2529
+- 3676
+median_mark_time_s: 3102.5
+claims:
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 2529
+  slug: lilaggy
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 3676
+  slug: raydans

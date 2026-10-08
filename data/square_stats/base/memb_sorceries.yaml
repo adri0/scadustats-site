@@ -1,0 +1,30 @@
+id: memb_sorceries
+text: Kill a Remembrance Boss with Sorceries Only
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 6
+games_marked: 2
+mark_rate: 0.3333
+top_players:
+- slug: blanxz
+  marks: 2
+mark_times_s:
+- 2420
+- 3104
+median_mark_time_s: 2762.0
+claims:
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 2420
+  slug: blanxz
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 3104
+  slug: blanxz

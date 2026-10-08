@@ -1,0 +1,73 @@
+id: godskin_noble_no_status
+text: Kill Godskin Noble (Volcano Manor) without Status Effects
+game_type: base
+num_matches: 11
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-Raydans-vs-Ironyeu
+num_games: 11
+games_marked: 8
+mark_rate: 0.7273
+top_players:
+- slug: romainjacques
+  marks: 3
+- slug: nuclearpastatom
+  marks: 2
+- slug: ironyeu
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 1517
+- 1964
+- 2059
+- 2342
+- 2371
+- 2736
+- 2839
+- 3177
+median_mark_time_s: 2356.5
+claims:
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 1517
+  slug: romainjacques
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1964
+  slug: seriouschallenges
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 2059
+  slug: nuclearpastatom
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 2342
+  slug: nuclearpastatom
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 2371
+  slug: romainjacques
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2736
+  slug: parkenharbor
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 2839
+  slug: romainjacques
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 3177
+  slug: ironyeu

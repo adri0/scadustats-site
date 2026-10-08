@@ -1,0 +1,54 @@
+id: godrick_great_rune
+text: Restore Godrick's Great Rune
+game_type: base
+num_matches: 7
+matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 7
+games_marked: 5
+mark_rate: 0.7143
+top_players:
+- slug: kemist
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1656
+- 1657
+- 1698
+- 2423
+- 3864
+median_mark_time_s: 1698.0
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 1656
+  slug: raydans
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 1657
+  slug: nuclearpastatom
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 1698
+  slug: parkenharbor
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2423
+  slug: kemist
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3864
+  slug: romainjacques

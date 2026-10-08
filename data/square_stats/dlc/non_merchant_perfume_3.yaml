@@ -1,0 +1,28 @@
+id: non_merchant_perfume_3
+text: Acquire 3 Non-Merchant Perfume Bottles
+game_type: dlc
+num_matches: 2
+matches:
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 2259
+- 3075
+median_mark_time_s: 2667.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2259
+  slug: lilaggy
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3075
+  slug: seriouschallenges

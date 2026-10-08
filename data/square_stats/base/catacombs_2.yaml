@@ -1,0 +1,42 @@
+id: catacombs_2
+text: Complete 2 Catacombs
+game_type: base
+num_matches: 4
+matches:
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: lilaggy
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 642
+- 870
+- 1585
+- 3120
+median_mark_time_s: 1227.5
+claims:
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 642
+  slug: lilaggy
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 870
+  slug: blanxz
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1585
+  slug: seriouschallenges
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 3120
+  slug: blanxz

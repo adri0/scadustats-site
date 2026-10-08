@@ -1,0 +1,83 @@
+id: madding_hand
+text: Kill Madding Hand
+game_type: dlc
+num_matches: 11
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 12
+games_marked: 10
+mark_rate: 0.8333
+top_players:
+- slug: lilaggy
+  marks: 3
+- slug: blanxz
+  marks: 2
+- slug: seriouschallenges
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: ironyeu
+  marks: 1
+mark_times_s:
+- 2068
+- 2555
+- 3363
+- 3459
+- 3691
+- 3832
+- 3890
+- 4150
+- 4208
+- 5069
+median_mark_time_s: 3761.5
+claims:
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 2
+  time_s: 2068
+  slug: lilaggy
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 2555
+  slug: lilaggy
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 2
+  time_s: 3363
+  slug: blanxz
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 3
+  time_s: 3459
+  slug: nuclearpastatom
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 2
+  time_s: 3691
+  slug: seriouschallenges
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 2
+  time_s: 3832
+  slug: blanxz
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 3890
+  slug: ironyeu
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 4150
+  slug: seriouschallenges
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 4208
+  slug: lilaggy
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 5069
+  slug: gustaf

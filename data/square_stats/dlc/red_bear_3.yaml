@@ -1,0 +1,23 @@
+id: red_bear_3
+text: Kill all 3 Red Bears
+game_type: dlc
+num_matches: 4
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+num_games: 4
+games_marked: 1
+mark_rate: 0.25
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 4012
+median_mark_time_s: 4012.0
+claims:
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 4012
+  slug: nuclearpastatom

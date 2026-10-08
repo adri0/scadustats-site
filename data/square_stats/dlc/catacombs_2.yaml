@@ -1,0 +1,34 @@
+id: catacombs_2
+text: Complete 2 Catacombs
+game_type: dlc
+num_matches: 8
+matches:
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 8
+games_marked: 2
+mark_rate: 0.25
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2379
+- 5046
+median_mark_time_s: 3712.5
+claims:
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 2379
+  slug: lilaggy
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 5046
+  slug: twistiet

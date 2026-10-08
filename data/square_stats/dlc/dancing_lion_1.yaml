@@ -1,0 +1,64 @@
+id: dancing_lion_1
+text: Kill 1 Dancing Lion
+game_type: dlc
+num_matches: 7
+matches:
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 7
+games_marked: 7
+mark_rate: 1.0
+top_players:
+- slug: romainjacques
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 2182
+- 2249
+- 2714
+- 2936
+- 3275
+- 3364
+- 3366
+median_mark_time_s: 2936.0
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 2182
+  slug: blanxz
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 2
+  time_s: 2249
+  slug: romainjacques
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 2714
+  slug: nuclearpastatom
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 2936
+  slug: ironyeu
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 3275
+  slug: raydans
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 3364
+  slug: romainjacques
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 2
+  time_s: 3366
+  slug: vswed

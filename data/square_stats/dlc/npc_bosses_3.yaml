@@ -1,0 +1,84 @@
+id: npc_bosses_3
+text: Kill 3 NPC Bosses
+game_type: dlc
+num_matches: 12
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 12
+games_marked: 10
+mark_rate: 0.8333
+top_players:
+- slug: grey
+  marks: 2
+- slug: nuclearpastatom
+  marks: 2
+- slug: romainjacques
+  marks: 2
+- slug: seriouschallenges
+  marks: 2
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 1781
+- 1876
+- 1978
+- 2152
+- 2233
+- 2263
+- 2309
+- 2465
+- 2666
+- 2761
+median_mark_time_s: 2248.0
+claims:
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 2
+  time_s: 1781
+  slug: romainjacques
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1876
+  slug: nuclearpastatom
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1978
+  slug: nuclearpastatom
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 2152
+  slug: grey
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 2233
+  slug: romainjacques
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 2263
+  slug: grey
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 2309
+  slug: ironyeu
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 2
+  time_s: 2465
+  slug: blanxz
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 2
+  time_s: 2666
+  slug: seriouschallenges
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2761
+  slug: seriouschallenges

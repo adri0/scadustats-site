@@ -1,0 +1,31 @@
+id: bell_bering_hunters_4
+text: Kill 4 Bell Bearing Hunters
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 5
+games_marked: 2
+mark_rate: 0.4
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 3924
+- 5661
+median_mark_time_s: 4792.5
+claims:
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 3924
+  slug: blanxz
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 5661
+  slug: vswed

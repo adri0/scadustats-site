@@ -1,0 +1,59 @@
+id: smithing_bell_bearing_1_and_2
+text: Acquire Smithing Stone Bell Bearing [1] and [2]
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 9
+games_marked: 6
+mark_rate: 0.6667
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: grey
+  marks: 2
+- slug: nuclearpastatom
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 1900
+- 2396
+- 2585
+- 2681
+- 3290
+- 3519
+median_mark_time_s: 2633.0
+claims:
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 1900
+  slug: grey
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2396
+  slug: seriouschallenges
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 1
+  time_s: 2585
+  slug: grey
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2681
+  slug: nuclearpastatom
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 3290
+  slug: blanxz
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 3519
+  slug: blanxz

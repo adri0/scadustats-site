@@ -1,0 +1,76 @@
+id: drain_the_water
+text: Drain the Water in the Church District
+game_type: dlc
+num_matches: 9
+matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 9
+games_marked: 9
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 483
+- 485
+- 496
+- 503
+- 580
+- 582
+- 751
+- 839
+- 1074
+median_mark_time_s: 580.0
+claims:
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 2
+  time_s: 483
+  slug: romainjacques
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 485
+  slug: lilaggy
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 496
+  slug: blanxz
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 2
+  time_s: 503
+  slug: nuclearpastatom
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 2
+  time_s: 580
+  slug: vswed
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 2
+  time_s: 582
+  slug: twistiet
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 2
+  time_s: 751
+  slug: raydans
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 839
+  slug: seriouschallenges
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 2
+  time_s: 1074
+  slug: nuclearpastatom

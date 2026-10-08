@@ -1,0 +1,62 @@
+id: igon_finger
+text: Acquire Igon's Furled Finger
+game_type: dlc
+num_matches: 10
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 10
+games_marked: 6
+mark_rate: 0.6
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1809
+- 2767
+- 3067
+- 3492
+- 3787
+- 4039
+median_mark_time_s: 3279.5
+claims:
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 2
+  time_s: 1809
+  slug: nuclearpastatom
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 2
+  time_s: 2767
+  slug: nuclearpastatom
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 3067
+  slug: romainjacques
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 3492
+  slug: raydans
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 3787
+  slug: parkenharbor
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 4039
+  slug: grey

@@ -1,0 +1,49 @@
+id: garrew
+text: Kill Black Knight Garrew
+game_type: dlc
+num_matches: 4
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 535
+- 843
+- 1122
+- 1323
+- 1878
+median_mark_time_s: 1122.0
+claims:
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 535
+  slug: grey
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 3
+  time_s: 843
+  slug: nuclearpastatom
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 2
+  time_s: 1122
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1323
+  slug: seriouschallenges
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 1878
+  slug: vswed

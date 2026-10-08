@@ -116,14 +116,14 @@
                 {{- if $prev -}}
                   {{- $marks = add $prev.marks 1 -}}
                 {{- end -}}
-                {{- $dlcSquares = merge $dlcSquares (dict $key (dict "text" $sq.text "marks" $marks "known" $sq.known)) -}}
+                {{- $dlcSquares = merge $dlcSquares (dict $key (dict "id" $sq.id "game_type" $gt "text" $sq.text "marks" $marks "known" $sq.known)) -}}
               {{- else if eq $gt "base" -}}
                 {{- $marks := 1 -}}
                 {{- $prev := index $baseSquares $key -}}
                 {{- if $prev -}}
                   {{- $marks = add $prev.marks 1 -}}
                 {{- end -}}
-                {{- $baseSquares = merge $baseSquares (dict $key (dict "text" $sq.text "marks" $marks "known" $sq.known)) -}}
+                {{- $baseSquares = merge $baseSquares (dict $key (dict "id" $sq.id "game_type" $gt "text" $sq.text "marks" $marks "known" $sq.known)) -}}
               {{- end -}}
             {{- end -}}
           {{- end -}}

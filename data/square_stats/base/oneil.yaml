@@ -1,0 +1,58 @@
+id: oneil
+text: Kill Commander O'Neil
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-blanxz-vs-Parkenharbor
+num_games: 6
+games_marked: 6
+mark_rate: 1.0
+top_players:
+- slug: parkenharbor
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 444
+- 452
+- 454
+- 630
+- 1081
+- 1373
+median_mark_time_s: 542.0
+claims:
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 444
+  slug: grey
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 452
+  slug: seriouschallenges
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 454
+  slug: parkenharbor
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 630
+  slug: vswed
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 1081
+  slug: parkenharbor
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 1373
+  slug: blanxz

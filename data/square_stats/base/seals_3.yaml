@@ -1,0 +1,50 @@
+id: seals_3
+text: Acquire 3 Unique Seals
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-30-Parkenharbor-vs-LilAggy
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 361
+- 1289
+- 1519
+- 1528
+- 2491
+median_mark_time_s: 1519.0
+claims:
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 361
+  slug: lilaggy
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1289
+  slug: blanxz
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 1519
+  slug: lilaggy
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1528
+  slug: romainjacques
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 2491
+  slug: parkenharbor

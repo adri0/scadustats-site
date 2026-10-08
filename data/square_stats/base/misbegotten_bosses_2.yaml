@@ -1,0 +1,36 @@
+id: misbegotten_bosses_2
+text: Kill 2 Misbegotten Bosses
+game_type: base
+num_matches: 3
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1584
+- 2633
+- 3290
+median_mark_time_s: 2633.0
+claims:
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1584
+  slug: lilaggy
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 2633
+  slug: ironyeu
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 3290
+  slug: romainjacques

@@ -1,0 +1,60 @@
+id: death_rite_bird
+text: Kill the Death Rite Bird
+game_type: dlc
+num_matches: 8
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-19-Vswed-vs-TwistieT
+num_games: 8
+games_marked: 6
+mark_rate: 0.75
+top_players:
+- slug: grey
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1464
+- 1546
+- 2049
+- 3501
+- 3526
+- 3616
+median_mark_time_s: 2775.0
+claims:
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 1464
+  slug: romainjacques
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 1546
+  slug: lilaggy
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 2
+  time_s: 2049
+  slug: nuclearpastatom
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 3501
+  slug: grey
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 3526
+  slug: gustaf
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 3616
+  slug: grey

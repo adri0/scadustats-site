@@ -1,0 +1,20 @@
+id: non_merchant_incantations_6
+text: Acquire 6 Non-Merchant Incantations
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-08-01-NuclearPastaTom-vs-Grey
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 1898
+median_mark_time_s: 1898.0
+claims:
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 1898
+  slug: nuclearpastatom

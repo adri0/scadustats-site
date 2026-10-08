@@ -1,0 +1,14 @@
+id: sorceries_12
+text: Acquire 12 Unique Sorceries
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+num_games: 2
+games_marked: 0
+mark_rate: 0.0
+top_players: []
+mark_times_s: []
+median_mark_time_s: null
+claims: []

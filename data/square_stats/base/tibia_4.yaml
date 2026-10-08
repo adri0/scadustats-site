@@ -1,0 +1,22 @@
+id: tibia_4
+text: Kill 4 Unique Tibia Mariners
+game_type: base
+num_matches: 3
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 3
+games_marked: 1
+mark_rate: 0.3333
+top_players:
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 3194
+median_mark_time_s: 3194.0
+claims:
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 3194
+  slug: lilaggy

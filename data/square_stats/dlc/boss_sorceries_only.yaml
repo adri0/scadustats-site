@@ -1,0 +1,21 @@
+id: boss_sorceries_only
+text: Kill a Boss with Sorceries Only
+game_type: dlc
+num_matches: 2
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 2
+games_marked: 1
+mark_rate: 0.5
+top_players:
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 4494
+median_mark_time_s: 4494.0
+claims:
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 4494
+  slug: gustaf

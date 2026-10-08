@@ -1,0 +1,36 @@
+id: liurnia_bosses_4
+text: Kill 4 Bosses in Liurnia
+game_type: base
+num_matches: 3
+matches:
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 1731
+- 1873
+- 3119
+median_mark_time_s: 1873.0
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 1731
+  slug: grey
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 1873
+  slug: twistiet
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 3119
+  slug: raydans

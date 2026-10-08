@@ -1,0 +1,29 @@
+id: putrid_trio
+text: Kill Putrid Crystalian Trio Boss
+game_type: base
+num_matches: 3
+matches:
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 2026
+- 4134
+median_mark_time_s: 3080.0
+claims:
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 2026
+  slug: romainjacques
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 4134
+  slug: nuclearpastatom

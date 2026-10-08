@@ -1,0 +1,64 @@
+id: cracked_pots_10
+text: Acquire 10 Cracked Pots
+game_type: base
+num_matches: 7
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 7
+games_marked: 7
+mark_rate: 1.0
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 345
+- 361
+- 384
+- 592
+- 620
+- 817
+- 1467
+median_mark_time_s: 592.0
+claims:
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 345
+  slug: lilaggy
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 361
+  slug: raydans
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 384
+  slug: seriouschallenges
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 592
+  slug: nuclearpastatom
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 620
+  slug: lilaggy
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 817
+  slug: ironyeu
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 1467
+  slug: romainjacques

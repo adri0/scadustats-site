@@ -1,0 +1,28 @@
+id: elder_lions_2
+text: Kill 2 Unique Elder Lions
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 1242
+- 3179
+median_mark_time_s: 2210.5
+claims:
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 1242
+  slug: gustaf
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 3179
+  slug: grey

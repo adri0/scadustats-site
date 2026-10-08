@@ -1,0 +1,50 @@
+id: lansseax
+text: Kill Ancient Dragon Lansseax
+game_type: base
+num_matches: 7
+matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 7
+games_marked: 5
+mark_rate: 0.7143
+top_players:
+- slug: lilaggy
+  marks: 3
+- slug: gustaf
+  marks: 1
+- slug: ironyeu
+  marks: 1
+mark_times_s:
+- 2760
+- 2930
+- 3045
+- 4273
+- 4798
+median_mark_time_s: 3045.0
+claims:
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 2760
+  slug: ironyeu
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 2930
+  slug: lilaggy
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 3045
+  slug: gustaf
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4273
+  slug: lilaggy
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 4798
+  slug: lilaggy

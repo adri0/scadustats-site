@@ -1,0 +1,59 @@
+id: elemer
+text: Kill Elemer of the Briar
+game_type: base
+num_matches: 7
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 7
+games_marked: 6
+mark_rate: 0.8571
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1258
+- 1539
+- 2118
+- 3286
+- 3462
+- 4403
+median_mark_time_s: 2702.0
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1258
+  slug: seriouschallenges
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 1539
+  slug: gustaf
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 2118
+  slug: raydans
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 3286
+  slug: romainjacques
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 3462
+  slug: lilaggy
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4403
+  slug: seriouschallenges

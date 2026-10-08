@@ -1,0 +1,77 @@
+id: moore_cookbook
+text: Acquire the Kindred Cookbook from Moore
+game_type: dlc
+num_matches: 10
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 10
+games_marked: 9
+mark_rate: 0.9
+top_players:
+- slug: seriouschallenges
+  marks: 4
+- slug: nuclearpastatom
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1408
+- 1702
+- 1859
+- 1960
+- 2254
+- 2294
+- 2410
+- 2729
+- 2763
+median_mark_time_s: 2254.0
+claims:
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 1408
+  slug: vswed
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 2
+  time_s: 1702
+  slug: romainjacques
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 2
+  time_s: 1859
+  slug: seriouschallenges
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 3
+  time_s: 1960
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2254
+  slug: seriouschallenges
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2294
+  slug: nuclearpastatom
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2410
+  slug: seriouschallenges
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 2
+  time_s: 2729
+  slug: blanxz
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2763
+  slug: seriouschallenges

@@ -1,0 +1,28 @@
+id: dropped_aow_4
+text: Acquire 4 Dropped Ashes of War
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-07-Vswed-vs-Grey
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 704
+- 956
+median_mark_time_s: 830.0
+claims:
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 704
+  slug: romainjacques
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 956
+  slug: grey

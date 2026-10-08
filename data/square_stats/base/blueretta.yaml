@@ -1,0 +1,29 @@
+id: blueretta
+text: Kill Loretta (Blue Spirit)
+game_type: base
+num_matches: 3
+matches:
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
+top_players:
+- slug: gustaf
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 1883
+- 2343
+median_mark_time_s: 2113.0
+claims:
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 1883
+  slug: gustaf
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 2343
+  slug: nuclearpastatom

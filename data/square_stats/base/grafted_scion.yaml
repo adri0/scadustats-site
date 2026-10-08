@@ -1,0 +1,50 @@
+id: grafted_scion
+text: Kill Grafted Scion (Chapel)
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: romainjacques
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 73
+- 2796
+- 3166
+- 3481
+- 4213
+median_mark_time_s: 3166.0
+claims:
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 73
+  slug: blanxz
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 2796
+  slug: romainjacques
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 3166
+  slug: romainjacques
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 3481
+  slug: grey
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 4213
+  slug: raydans

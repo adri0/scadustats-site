@@ -1,0 +1,82 @@
+id: mog_100k
+text: Memory of Grace with 100k+ Runes
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 10
+games_marked: 10
+mark_rate: 1.0
+top_players:
+- slug: vswed
+  marks: 4
+- slug: grey
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+mark_times_s:
+- 814
+- 1046
+- 1099
+- 1227
+- 1250
+- 1380
+- 1462
+- 1653
+- 1708
+- 2297
+median_mark_time_s: 1315.0
+claims:
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 814
+  slug: vswed
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 1046
+  slug: vswed
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 1099
+  slug: nuclearpastatom
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 1227
+  slug: romainjacques
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 1250
+  slug: vswed
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 1380
+  slug: parkenharbor
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1462
+  slug: seriouschallenges
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 1653
+  slug: vswed
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 1708
+  slug: grey
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 2297
+  slug: lilaggy

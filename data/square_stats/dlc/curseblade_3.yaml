@@ -1,0 +1,50 @@
+id: curseblade_3
+text: Kill 3 Unique Curseblade Assassins
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 570
+- 1011
+- 1557
+- 1572
+- 4121
+median_mark_time_s: 1557.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 570
+  slug: seriouschallenges
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1011
+  slug: seriouschallenges
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 2
+  time_s: 1557
+  slug: gustaf
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 2
+  time_s: 1572
+  slug: vswed
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 2
+  time_s: 4121
+  slug: raydans

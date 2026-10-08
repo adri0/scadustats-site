@@ -1,0 +1,20 @@
+id: black_knife_assassins_3
+text: Kill 3 Unique Black Knife Assassins
+game_type: base
+num_matches: 1
+matches:
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2806
+median_mark_time_s: 2806.0
+claims:
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 2806
+  slug: twistiet
