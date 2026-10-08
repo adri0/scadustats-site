@@ -2,6 +2,27 @@
 {{- $s := .Params }}
 {{ partial "breadcrumb.html" . }}
 
+{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $s.id) }}
+{{- $groups := index (hugo.Data.groups | default dict) (printf "season-%s" $s.id) }}
+{{- /* Table of contents: one entry per section below, in page order, under
+       the same conditions that render the section. */}}
+{{- $toc := slice (dict "id" "overview" "title" "Overview") }}
+{{- with $s.rules }}{{ $toc = $toc | append (dict "id" "format" "title" "Format") }}{{ end }}
+{{- with $groups }}{{ $toc = $toc | append (dict "id" "groups" "title" (.title | default "Groups")) }}{{ end }}
+{{- with $bracket }}{{ $toc = $toc | append (dict "id" "bracket" "title" "Double elimination") }}{{ end }}
+{{- $toc = $toc | append (dict "id" "standings" "title" "Standings") (dict "id" "matches" "title" "Matches") }}
+
+<div class="toc-layout">
+<aside class="toc" aria-label="On this page">
+  <p class="toc-title">On this page</p>
+  <ol>
+    {{- range $toc }}
+    <li><a href="#{{ .id }}">{{ .title }}</a></li>
+    {{- end }}
+  </ol>
+</aside>
+
+<div class="toc-main">
 <header class="season-header">
   <h1>{{ $s.name }}</h1>
   <div class="season-card-meta">
@@ -12,23 +33,60 @@
   {{- with $s.blurb }}<p class="season-blurb">{{ . }}</p>{{ end }}
 </header>
 
+{{- $sum := partial "lib/season-summary.html" $s.id }}
+<section class="season-summary" id="overview">
+  <div class="stat-row">
+    {{- with $sum.champion }}
+    <div class="stat stat-champion">
+      <span class="stat-label">Champion</span>
+      <span class="stat-value">{{ partial "player-links.html" . }}</span>
+    </div>
+    {{- end }}
+    <div class="stat">
+      <span class="stat-label">Matches</span>
+      <span class="stat-value">{{ $sum.matches }}</span>
+      {{- with $sum.untranscribed }}<span class="stat-note">{{ . }} not transcribed</span>{{ end }}
+    </div>
+    <div class="stat">
+      <span class="stat-label">Games</span>
+      <span class="stat-value">{{ $sum.games }}</span>
+      {{- if or $sum.base_games $sum.dlc_games }}<span class="stat-note">{{ $sum.base_games }} base game · {{ $sum.dlc_games }} DLC</span>{{ end }}
+    </div>
+  </div>
+  {{- with $sum.phases }}
+  <ol class="season-phases">
+    {{- range . }}
+    <li>
+      <span class="phase-name">{{ .name }}</span>
+      {{- if .start }}
+      <span class="phase-dates">{{ partial "date-range.html" . }}</span>
+      {{- end }}
+      <span class="phase-counts">{{ .matches }} match{{ if ne .matches 1 }}es{{ end }} · {{ .games }} game{{ if ne .games 1 }}s{{ end }}</span>
+    </li>
+    {{- end }}
+  </ol>
+  {{- end }}
+</section>
+
 {{- with $s.rules }}
-<h2>Format</h2>
+<h2 id="format">Format</h2>
 <div class="season-rules">{{ . | markdownify }}</div>
 {{- end }}
 
-{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $s.id) }}
-{{- with index (hugo.Data.groups | default dict) (printf "season-%s" $s.id) }}
-<h2>{{ .title | default "Groups" }}</h2>
+{{- $phaseDates := dict }}
+{{- range $sum.phases }}{{ if .start }}{{ $phaseDates = merge $phaseDates (dict .id .) }}{{ end }}{{ end }}
+
+{{- with $groups }}
+<h2 id="groups">{{ .title | default "Groups" }}{{ with $phaseDates.groups }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
 {{ partial "season-groups.html" (dict "season_id" $s.id "groups" . "bracket" $bracket) }}
 {{- end }}
 
 {{- with $bracket }}
-<h2>Double elimination</h2>
+<h2 id="bracket">Double elimination{{ with $phaseDates.bracket }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
 {{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}
 {{- end }}
 
-<h2>Standings</h2>
+<h2 id="standings">Standings</h2>
 {{- /* Default order: match wins, then game wins (sort is stable). Column
        headers re-sort in the browser via assets/js/modules/sortable-tables.js. */}}
 {{- /* Players sharing a tournament slot (lib/season-slots.html, e.g. a
@@ -97,7 +155,7 @@
   </table>
 </div>
 
-<h2>Matches</h2>
+<h2 id="matches">Matches</h2>
 <ul class="match-history">
   {{- range $s.matches }}
   <li class="match-history-row">
@@ -110,7 +168,10 @@
       </span>
       <span class="match-history-score">{{ .red_score }}–{{ .blue_score }}</span>
     </a>
+    {{- partial "vod-link.html" .video_url }}
   </li>
   {{- end }}
 </ul>
+</div>
+</div>
 {{ end }}

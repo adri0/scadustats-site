@@ -8,7 +8,7 @@
       <span>{{ $p.match_date }}</span>
       <a class="pill pill-sm pill-outline" href="{{ printf "/seasons/%s/" $p.season_id | relURL }}">Season {{ $p.season_id }}</a>
       {{- with $p.match_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
-      {{- with $p.video_url }}<a class="pill pill-sm pill-accent" href="{{ . }}" target="_blank" rel="noopener">Watch VOD</a>{{ end }}
+      {{- partial "vod-link.html" $p.video_url }}
     </div>
 
     <div class="scoreboard-main">

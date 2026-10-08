@@ -1,0 +1,85 @@
+{{- /*
+  Input: a season id. Output: {matches, games, base_games, dlc_games,
+  untranscribed, champion, phases}, counting every match file in
+  data/matches/season-<N>/ plus the hand-entered (untranscribed) matches of
+  data/brackets/season-<N>.yaml. base_games/dlc_games count transcribed games
+  only, since hand-entered matches carry no game types. `champion` is the
+  Grand Final winner as a slot (lib/season-slots.html) or player-lookup dict,
+  "" while there isn't one. `phases` is one {id ("groups"/"bracket"), name, matches,
+  games, start, end} per stage, round robin then bracket, and empty when the season has neither
+  data/groups nor data/brackets: match files are split by whether the bracket
+  names them, because their `match_type` isn't reliable.
+*/ -}}
+{{- $sid := printf "%v" . -}}
+{{- $seasonMatches := index hugo.Data.matches (printf "season-%s" $sid) | default dict -}}
+{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $sid) -}}
+{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%s" $sid) -}}
+{{- $slots := partial "lib/season-slots.html" $sid -}}
+
+{{- $playoffKeys := slice -}}
+{{- with $bracket -}}
+  {{- range .matches }}{{ with .match }}{{ $playoffKeys = $playoffKeys | append . }}{{ end }}{{ end -}}
+{{- end -}}
+
+{{- /* Non-bracket match files: the round robin when there are groups. */ -}}
+{{- $rr := dict "matches" 0 "games" 0 "dates" slice -}}
+{{- $total := dict "matches" 0 "games" 0 -}}
+{{- $base := 0 }}{{ $dlc := 0 -}}
+{{- range $key, $raw := $seasonMatches -}}
+  {{- $s := partial "lib/match-summary.html" $raw -}}
+  {{- range $raw.games -}}
+    {{- if eq .game_type "base" }}{{ $base = add $base 1 }}{{ else if eq .game_type "dlc" }}{{ $dlc = add $dlc 1 }}{{ end -}}
+  {{- end -}}
+  {{- $total = dict "matches" (add $total.matches 1) "games" (add $total.games $s.num_games) -}}
+  {{- if not (in $playoffKeys $key) -}}
+    {{- $rr = dict "matches" (add $rr.matches 1) "games" (add $rr.games $s.num_games)
+        "dates" ($rr.dates | append ($s.match_date | default slice)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $phases := slice -}}
+{{- with $groupsCfg -}}
+  {{- $span := partial "lib/date-span.html" $rr.dates -}}
+  {{- $phases = $phases | append (merge $span (dict "id" "groups" "name" (.title | default "Groups")
+      "matches" $rr.matches "games" $rr.games)) -}}
+{{- end -}}
+
+{{- $champion := "" -}}
+{{- $untranscribed := 0 -}}
+{{- with $bracket -}}
+  {{- $results := partial "lib/bracket-results.html" (dict "season_id" $sid "bracket" .) -}}
+  {{- $po := dict "matches" 0 "games" 0 "dates" slice -}}
+  {{- range $results -}}
+    {{- $games := 0 -}}
+    {{- with .entry.match -}}
+      {{- with index $seasonMatches . }}{{ $games = (partial "lib/match-summary.html" .).num_games }}{{ end -}}
+    {{- else -}}
+      {{- /* Hand-entered: only the scores are known, so count decided games. */ -}}
+      {{- if and (ne .red_score nil) (ne .blue_score nil) -}}
+        {{- $games = add .red_score .blue_score -}}
+        {{- $untranscribed = add $untranscribed 1 -}}
+        {{- $total = dict "matches" (add $total.matches 1) "games" (add $total.games $games) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if or .path $games -}}
+      {{- $po = dict "matches" (add $po.matches 1) "games" (add $po.games $games)
+          "dates" ($po.dates | append (.entry.date | default slice)) -}}
+    {{- end -}}
+    {{- if and (eq .entry.bracket "final") (in (slice "red" "blue") .winner) -}}
+      {{- $w := cond (eq .winner "red") .red .blue -}}
+      {{- $champion = index $slots $w.slug | default $w -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $span := partial "lib/date-span.html" $po.dates -}}
+  {{- $phases = $phases | append (merge $span (dict "id" "bracket" "name" "Double elimination"
+      "matches" $po.matches "games" $po.games)) -}}
+{{- end -}}
+
+{{- return (dict
+    "matches" $total.matches
+    "games" $total.games
+    "base_games" $base
+    "dlc_games" $dlc
+    "untranscribed" $untranscribed
+    "champion" $champion
+    "phases" $phases) -}}

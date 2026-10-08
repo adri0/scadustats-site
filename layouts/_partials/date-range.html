@@ -1,0 +1,4 @@
+{{- /* Input: {start, end} as "YYYY-MM-DD" strings. Renders "Jul 17 – Aug 24",
+       or a single date when they match or there's no end. */ -}}
+{{- (time.AsTime .start).Format "Jan 2" -}}
+{{- if and .end (ne .end .start) }} – {{ (time.AsTime .end).Format "Jan 2" }}{{ end -}}

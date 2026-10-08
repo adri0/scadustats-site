@@ -1,7 +1,8 @@
 {{- $allMatches := slice -}}
 {{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
   {{- range $videoID, $match := $matchesInSeason -}}
-    {{- $allMatches = $allMatches | append (partial "lib/match-summary.html" $match) -}}
+    {{- /* The data file key is what content/matches uses for the page path. */ -}}
+    {{- $allMatches = $allMatches | append (merge (partial "lib/match-summary.html" $match) (dict "key" $videoID)) -}}
   {{- end -}}
 {{- end -}}
 
@@ -44,7 +45,6 @@
   {{- $matchList := slice -}}
   {{- range $seasonMatches -}}
     {{- $matchList = $matchList | append (dict
-        "video_id" .video_id
         "match_date" .match_date
         "player_red" .player_red
         "player_blue" .player_blue
@@ -52,7 +52,8 @@
         "blue_score" .blue_score
         "winner" .winner
         "match_type" .match_type
-        "path" (printf "/matches/season-%s/%s/" .season_id (lower .video_id))) -}}
+        "video_url" .video_url
+        "path" (printf "/matches/season-%s/%s/" .season_id (lower .key))) -}}
   {{- end -}}
 
   {{- $.AddPage (dict

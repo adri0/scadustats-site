@@ -1,0 +1,8 @@
+{{- /* Input: a slice of "YYYY-MM-DD" strings. Output: {start, end}, the
+       earliest and latest, or "" each when the slice is empty. */ -}}
+{{- $start := "" }}{{ $end := "" -}}
+{{- with sort . -}}
+  {{- $start = index . 0 -}}
+  {{- $end = index . (sub (len .) 1) -}}
+{{- end -}}
+{{- return (dict "start" $start "end" $end) -}}

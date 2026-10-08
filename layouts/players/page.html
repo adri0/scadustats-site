@@ -107,6 +107,7 @@
       <span class="match-history-opponent">vs {{ .opponent.display_name }}</span>
       <span class="match-history-score">{{ $own }}–{{ $opp }}</span>
     </a>
+    {{- partial "vod-link.html" .video_url }}
   </li>
   {{- end }}
 </ul>
