@@ -3,9 +3,11 @@
 <div class="content-grid">
   <main>
     <section class="hero">
-      {{- $wordmark := (resources.Get "images/bingo-brawlers.png").Resize "720x png" }}
+      {{- $logo := resources.Get "images/logo.png" }}
+      {{- $wordmark := (resources.Get "images/bingo-brawlers.png").Resize "x280 png" }}
       <h1 class="hero-title">
-        <img class="hero-wordmark brand-wordmark" src="{{ $wordmark.RelPermalink }}" width="{{ div $wordmark.Width 2 }}" height="{{ div $wordmark.Height 2 }}" alt="Bingo Brawlers">
+        <img class="hero-logo" src="{{ $logo.RelPermalink }}" width="140" height="140" alt="">
+        <img class="hero-wordmark brand-wordmark" src="{{ $wordmark.RelPermalink }}" width="{{ div $wordmark.Width 2 }}" height="140" alt="Bingo Brawlers">
       </h1>
       {{- with site.Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
       <div class="ornament" aria-hidden="true"><span></span></div>
@@ -40,6 +42,7 @@
             </span>
             <span class="match-history-score">{{ $p.red_score }}–{{ $p.blue_score }}</span>
           </a>
+          {{- partial "vod-link.html" $p.video_url }}
         </li>
         {{- end }}
       </ul>
