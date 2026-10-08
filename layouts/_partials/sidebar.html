@@ -25,7 +25,7 @@
         <div class="widget-title">Most match wins</div>
         <ul class="widget-list">
             {{- range first 5 (sort $players ".Params.wins" "desc") }}
-            <li><a href="{{ .RelPermalink }}">{{ .Params.display_name }}<span>{{ .Params.wins }}W–{{ .Params.losses }}L</span></a></li>
+            <li><a href="{{ .RelPermalink }}">{{ partial "avatar.html" (dict "player" .Params) }}{{ .Params.display_name }}<span>{{ .Params.wins }}W–{{ .Params.losses }}L</span></a></li>
             {{- end }}
         </ul>
     </div>

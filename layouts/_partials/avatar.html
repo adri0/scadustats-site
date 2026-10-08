@@ -1,0 +1,13 @@
+{{- /* Input: dict {player, end}. player is a player-lookup dict or a player
+       page's Params (anything with avatar and display_name). A small round
+       avatar sized to the surrounding text; players without one get their
+       initial in a circle so names stay aligned. With end true the avatar
+       follows the name (right-aligned names) and the margin flips. Purely
+       decorative next to the name, so it's hidden from screen readers. */ -}}
+{{- $p := .player -}}
+{{- $class := cond (.end | default false) "avatar avatar-end" "avatar" -}}
+{{- with $p.avatar -}}
+<img class="{{ $class }}" src="{{ . }}" alt="" width="20" height="20" loading="lazy" aria-hidden="true">
+{{- else -}}
+<span class="{{ $class }} avatar-initial" aria-hidden="true">{{ substr ($p.display_name | default "?") 0 1 | upper }}</span>
+{{- end -}}

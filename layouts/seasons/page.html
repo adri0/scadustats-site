@@ -162,9 +162,9 @@
     <a href="{{ .path | relURL }}">
       <span class="match-history-date">{{ .match_date }}</span>
       <span class="match-history-opponent">
-        <span class="{{ if eq .winner "red" }}is-winner{{ end }}">{{ .player_red.display_name }}</span>
+        <span class="{{ if eq .winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_red) }}{{ .player_red.display_name }}</span>
         vs
-        <span class="{{ if eq .winner "blue" }}is-winner{{ end }}">{{ .player_blue.display_name }}</span>
+        <span class="{{ if eq .winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_blue) }}{{ .player_blue.display_name }}</span>
       </span>
       <span class="match-history-score">{{ .red_score }}–{{ .blue_score }}</span>
     </a>

@@ -104,7 +104,7 @@
     <a href="{{ .path | relURL }}">
       <span class="result-badge">{{ substr .result 0 1 | upper }}</span>
       <span class="match-history-date">{{ .match_date }}</span>
-      <span class="match-history-opponent">vs {{ .opponent.display_name }}</span>
+      <span class="match-history-opponent">vs {{ partial "avatar.html" (dict "player" .opponent) }}{{ .opponent.display_name }}</span>
       <span class="match-history-score">{{ $own }}–{{ $opp }}</span>
     </a>
     {{- partial "vod-link.html" .video_url }}

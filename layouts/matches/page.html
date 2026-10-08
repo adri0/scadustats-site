@@ -13,11 +13,11 @@
 
     <div class="scoreboard-main">
       <a class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_red.slug | relURL }}">
-        {{ $p.player_red.display_name }}
+        {{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}
       </a>
       <div class="scoreboard-score">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</div>
       <a class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_blue.slug | relURL }}">
-        {{ $p.player_blue.display_name }}
+        {{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true) }}
       </a>
     </div>
 
