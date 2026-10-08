@@ -1,0 +1,28 @@
+id: altus_bosses_4
+text: Kill 4 Bosses in Altus Plateau / Mt. Gelmir
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: gustaf
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 1124
+- 2194
+median_mark_time_s: 1659.0
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1124
+  slug: seriouschallenges
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 2194
+  slug: gustaf

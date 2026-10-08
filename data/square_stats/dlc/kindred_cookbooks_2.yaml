@@ -1,0 +1,50 @@
+id: kindred_cookbooks_2
+text: Acquire 2 Kindred Cookbooks
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 328
+- 520
+- 526
+- 594
+- 847
+median_mark_time_s: 526.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 328
+  slug: lilaggy
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 520
+  slug: blanxz
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 526
+  slug: gustaf
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 2
+  time_s: 594
+  slug: seriouschallenges
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 2
+  time_s: 847
+  slug: blanxz

@@ -1,0 +1,21 @@
+id: magma_wyrms_2
+text: Kill 2 Magma Wyrms
+game_type: base
+num_matches: 2
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 2
+games_marked: 1
+mark_rate: 0.5
+top_players:
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 4745
+median_mark_time_s: 4745.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4745
+  slug: lilaggy

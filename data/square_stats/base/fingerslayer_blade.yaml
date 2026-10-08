@@ -1,0 +1,34 @@
+id: fingerslayer_blade
+text: Acquire the Fingerslayer Blade
+game_type: base
+num_matches: 8
+matches:
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 8
+games_marked: 2
+mark_rate: 0.25
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 4466
+- 5044
+median_mark_time_s: 4755.0
+claims:
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 4466
+  slug: gustaf
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 5044
+  slug: blanxz

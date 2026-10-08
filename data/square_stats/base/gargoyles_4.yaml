@@ -1,0 +1,32 @@
+id: gargoyles_4
+text: Kill 4 Unique Gargoyles / BBK
+game_type: base
+num_matches: 6
+matches:
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 6
+games_marked: 2
+mark_rate: 0.3333
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 3849
+- 4667
+median_mark_time_s: 4258.0
+claims:
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 3849
+  slug: gustaf
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 4667
+  slug: blanxz

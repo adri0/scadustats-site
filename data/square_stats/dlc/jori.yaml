@@ -1,0 +1,59 @@
+id: jori
+text: Kill Jori, Elder Inquisitor
+game_type: dlc
+num_matches: 7
+matches:
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 7
+games_marked: 6
+mark_rate: 0.8571
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: kemist
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 2032
+- 2318
+- 2870
+- 3132
+- 3273
+- 3595
+median_mark_time_s: 3001.0
+claims:
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 2032
+  slug: lilaggy
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2318
+  slug: kemist
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 2870
+  slug: blanxz
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 3132
+  slug: grey
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 2
+  time_s: 3273
+  slug: blanxz
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 2
+  time_s: 3595
+  slug: seriouschallenges

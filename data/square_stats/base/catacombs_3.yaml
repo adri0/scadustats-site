@@ -1,0 +1,45 @@
+id: catacombs_3
+text: Complete 3 Catacombs
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-02-Vswed-vs-RomainJacques
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2248
+- 2293
+- 4827
+- 5171
+median_mark_time_s: 3560.0
+claims:
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 2248
+  slug: gustaf
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 2293
+  slug: blanxz
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 4827
+  slug: vswed
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 5171
+  slug: lilaggy

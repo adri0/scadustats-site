@@ -1,0 +1,52 @@
+id: craft_hefty_pots_2
+text: Craft 2 Unique Hefty Pots
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: twistiet
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 189
+- 462
+- 471
+- 648
+- 765
+median_mark_time_s: 471.0
+claims:
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 189
+  slug: twistiet
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 462
+  slug: vswed
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 2
+  time_s: 471
+  slug: blanxz
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 648
+  slug: lilaggy
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 2
+  time_s: 765
+  slug: parkenharbor

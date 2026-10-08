@@ -1,0 +1,43 @@
+id: boss_incantations_only
+text: Kill a Boss with Incantations Only
+game_type: dlc
+num_matches: 7
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+num_games: 7
+games_marked: 4
+mark_rate: 0.5714
+top_players:
+- slug: nuclearpastatom
+  marks: 3
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 2171
+- 3584
+- 3639
+- 3773
+median_mark_time_s: 3611.5
+claims:
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 2171
+  slug: lilaggy
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3584
+  slug: nuclearpastatom
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 3639
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 3
+  time_s: 3773
+  slug: nuclearpastatom

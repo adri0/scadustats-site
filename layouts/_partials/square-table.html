@@ -1,4 +1,5 @@
-{{- /* Input: a slice of {text, game_type, known, boards, marks}, already ordered. */ -}}
+{{- /* Input: a slice of {id, text, game_type, known, boards, marks}, already ordered.
+       Catalogued goals link to their own page. */ -}}
 <div class="table-wrap">
   <table class="stats-table square-table">
     <thead>
@@ -7,7 +8,7 @@
     <tbody>
     {{- range . }}
       <tr>
-        <td class="square-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</td>
+        <td class="square-text{{ if not .known }} square-unknown{{ end }}">{{ $text := .text }}{{ with partial "lib/square-path.html" . }}<a href="{{ . | relURL }}">{{ $text }}</a>{{ else }}{{ $text }}{{ end }}</td>
         <td>{{ .boards }}</td>
         <td>{{ .marks }}</td>
         <td>{{ if .boards }}{{ printf "%.0f%%" (mul 100.0 (div (float .marks) (float .boards))) }}{{ else }}—{{ end }}</td>

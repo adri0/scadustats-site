@@ -1,0 +1,42 @@
+id: fallingstar_beast_2
+text: Kill 2 Fallingstar Beasts
+game_type: base
+num_matches: 4
+matches:
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: romainjacques
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 910
+- 2148
+- 2170
+- 3013
+median_mark_time_s: 2159.0
+claims:
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 910
+  slug: seriouschallenges
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 2148
+  slug: blanxz
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 2170
+  slug: blanxz
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 3013
+  slug: romainjacques

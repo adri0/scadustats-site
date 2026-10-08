@@ -1,0 +1,28 @@
+id: dropped_aow_6
+text: Acquire 6 Dropped Ashes of War
+game_type: base
+num_matches: 2
+matches:
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 778
+- 1060
+median_mark_time_s: 919.0
+claims:
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 778
+  slug: blanxz
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 1060
+  slug: vswed

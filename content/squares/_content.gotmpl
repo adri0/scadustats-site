@@ -1,0 +1,61 @@
+{{- /* One page per bingo goal, from data/square_stats/<game_type>/<id>.yaml,
+       which `scadustats square stats` regenerates from every match. Unlike the
+       player pages, these numbers are read as precomputed: they need the
+       final board of each game (a mark later undone doesn't count) and the
+       game clock of the mark that stuck, which the stats file already has.
+       Match and player details are still looked up from raw hugo.Data, never
+       from pages produced by another adapter. */ -}}
+{{- $matches := dict -}}
+{{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
+  {{- range $key, $m := $matchesInSeason -}}
+    {{- $matches = merge $matches (dict $key (dict
+        "match_date" $m.match_date
+        "season_id" (string $m.season)
+        "player_red" (partial "lib/player-lookup.html" $m.player_red_name)
+        "player_blue" (partial "lib/player-lookup.html" $m.player_blue_name)
+        "path" (printf "/matches/season-%v/%s/" $m.season (lower $key)))) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range $gameType, $squares := hugo.Data.square_stats -}}
+  {{- range $id, $s := $squares -}}
+    {{- $players := slice -}}
+    {{- range $s.top_players -}}
+      {{- $players = $players | append (dict "player" (partial "lib/player-lookup.html" .slug) "marks" .marks) -}}
+    {{- end -}}
+    {{- $seen := slice -}}
+    {{- range $s.matches -}}
+      {{- with index $matches . -}}{{ $seen = $seen | append . }}{{- end -}}
+    {{- end -}}
+    {{- /* One per claim, in mark_times_s order, linking the point on the
+           time-to-claim chart back to the game it came from. */ -}}
+    {{- $claims := slice -}}
+    {{- range $s.claims -}}
+      {{- $claim := dict "time_s" .time_s "game_index" .game_index "match" dict "player" dict "url" "" -}}
+      {{- with index $matches .match_id -}}
+        {{- $claim = merge $claim (dict "match" . "url" (printf "%s#game-%v" .path $claim.game_index)) -}}
+      {{- end -}}
+      {{- with .slug -}}
+        {{- $claim = merge $claim (dict "player" (partial "lib/player-lookup.html" .)) -}}
+      {{- end -}}
+      {{- $claims = $claims | append $claim -}}
+    {{- end -}}
+    {{- $path := partial "lib/square-path.html" (dict "id" $s.id "game_type" $gameType) -}}
+    {{- $.AddPage (dict
+        "path" (strings.TrimSuffix "/" (strings.TrimPrefix "/squares/" $path))
+        "title" $s.text
+        "kind" "page"
+        "params" (dict
+          "square_id" $s.id
+          "game_type" $gameType
+          "num_matches" ($s.num_matches | default 0)
+          "num_games" ($s.num_games | default 0)
+          "games_marked" ($s.games_marked | default 0)
+          "mark_rate" $s.mark_rate
+          "median_mark_time_s" $s.median_mark_time_s
+          "mark_times_s" ($s.mark_times_s | default slice)
+          "claims" $claims
+          "top_players" $players
+          "matches" $seen)) -}}
+  {{- end -}}
+{{- end -}}

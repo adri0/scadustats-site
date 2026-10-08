@@ -1,0 +1,84 @@
+id: incantations_14
+text: Acquire 14 Unique Incantations
+game_type: base
+num_matches: 12
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 12
+games_marked: 10
+mark_rate: 0.8333
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: seriouschallenges
+  marks: 2
+- slug: vswed
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+mark_times_s:
+- 1510
+- 2176
+- 2275
+- 2813
+- 3038
+- 3107
+- 3129
+- 3196
+- 3223
+- 4321
+median_mark_time_s: 3072.5
+claims:
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 1510
+  slug: vswed
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 2176
+  slug: raydans
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 2275
+  slug: vswed
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 2813
+  slug: lilaggy
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 1
+  time_s: 3038
+  slug: nuclearpastatom
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3107
+  slug: seriouschallenges
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 3129
+  slug: blanxz
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3196
+  slug: seriouschallenges
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 3223
+  slug: nuclearpastatom
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 4321
+  slug: grey

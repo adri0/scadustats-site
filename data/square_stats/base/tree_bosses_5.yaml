@@ -1,0 +1,44 @@
+id: tree_bosses_5
+text: Kill 5 Bosses with "Tree" in their name
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 6
+games_marked: 4
+mark_rate: 0.6667
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 2072
+- 2128
+- 2582
+- 2943
+median_mark_time_s: 2355.0
+claims:
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2072
+  slug: seriouschallenges
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2128
+  slug: seriouschallenges
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 2582
+  slug: nuclearpastatom
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 2943
+  slug: ironyeu

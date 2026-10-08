@@ -1,0 +1,29 @@
+id: rune_80
+text: Rune Level 80
+game_type: dlc
+num_matches: 3
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
+top_players:
+- slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 2504
+- 3003
+median_mark_time_s: 2753.5
+claims:
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2504
+  slug: nuclearpastatom
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 3003
+  slug: ironyeu

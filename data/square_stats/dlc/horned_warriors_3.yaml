@@ -1,0 +1,43 @@
+id: horned_warriors_3
+text: Kill 3 Unique Horned Warriors
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 1978
+- 2772
+- 3398
+- 3704
+median_mark_time_s: 3085.0
+claims:
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 1978
+  slug: gustaf
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 2772
+  slug: nuclearpastatom
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 3398
+  slug: nuclearpastatom
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 3704
+  slug: lilaggy

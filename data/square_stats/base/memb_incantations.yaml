@@ -1,0 +1,28 @@
+id: memb_incantations
+text: Kill a Remembrance Boss with Incantations Only
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 3992
+- 5532
+median_mark_time_s: 4762.0
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 3992
+  slug: blanxz
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 5532
+  slug: seriouschallenges

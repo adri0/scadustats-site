@@ -1,0 +1,20 @@
+id: tunnels_3
+text: Complete 3 Tunnels or Precipices
+game_type: base
+num_matches: 1
+matches:
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 1584
+median_mark_time_s: 1584.0
+claims:
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 1584
+  slug: twistiet

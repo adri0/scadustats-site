@@ -1,0 +1,36 @@
+id: dupe_memb_3
+text: Duplicate a Remembrance 3 times
+game_type: dlc
+num_matches: 3
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2705
+- 3497
+- 4073
+median_mark_time_s: 3497.0
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 2705
+  slug: raydans
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 3497
+  slug: vswed
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 2
+  time_s: 4073
+  slug: nuclearpastatom

@@ -1,0 +1,35 @@
+id: black_knife_assassins_2
+text: Kill 2 Unique Black Knife Assassins
+game_type: base
+num_matches: 4
+matches:
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 4
+games_marked: 3
+mark_rate: 0.75
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: gustaf
+  marks: 1
+mark_times_s:
+- 1110
+- 1835
+- 2736
+median_mark_time_s: 1835.0
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1110
+  slug: seriouschallenges
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 1835
+  slug: gustaf
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2736
+  slug: seriouschallenges

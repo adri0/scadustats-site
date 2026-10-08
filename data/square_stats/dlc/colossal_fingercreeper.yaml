@@ -1,0 +1,101 @@
+id: colossal_fingercreeper
+text: Kill the Colossal Fingercreeper
+game_type: dlc
+num_matches: 14
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 14
+games_marked: 13
+mark_rate: 0.9286
+top_players:
+- slug: blanxz
+  marks: 3
+- slug: gustaf
+  marks: 2
+- slug: lilaggy
+  marks: 2
+- slug: romainjacques
+  marks: 2
+- slug: ironyeu
+  marks: 1
+mark_times_s:
+- 1257
+- 1472
+- 1509
+- 1746
+- 1787
+- 1823
+- 2379
+- 2478
+- 2568
+- 3011
+- 3207
+- 3263
+- 3843
+median_mark_time_s: 2379.0
+claims:
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 2
+  time_s: 1257
+  slug: raydans
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 2
+  time_s: 1472
+  slug: lilaggy
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 1509
+  slug: vswed
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 1746
+  slug: ironyeu
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 1787
+  slug: romainjacques
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 2
+  time_s: 1823
+  slug: romainjacques
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 2379
+  slug: blanxz
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 2478
+  slug: gustaf
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 2568
+  slug: gustaf
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 3011
+  slug: blanxz
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 3207
+  slug: lilaggy
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 3263
+  slug: blanxz
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3843
+  slug: seriouschallenges

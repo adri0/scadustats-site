@@ -1,0 +1,71 @@
+id: vyke
+text: Kill Roundtable Knight Vyke
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 9
+games_marked: 8
+mark_rate: 0.8889
+top_players:
+- slug: romainjacques
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 2376
+- 2408
+- 2733
+- 2806
+- 3638
+- 3926
+- 4114
+- 4377
+median_mark_time_s: 3222.0
+claims:
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 2376
+  slug: romainjacques
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2408
+  slug: seriouschallenges
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 2733
+  slug: romainjacques
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 2806
+  slug: raydans
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 3638
+  slug: grey
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 3926
+  slug: lilaggy
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 4114
+  slug: blanxz
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 4377
+  slug: nuclearpastatom

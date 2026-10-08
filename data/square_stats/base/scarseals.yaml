@@ -1,0 +1,82 @@
+id: scarseals
+text: Acquire Both Scarseal Talismans
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 10
+games_marked: 10
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 3
+- slug: raydans
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 597
+- 609
+- 824
+- 853
+- 997
+- 1277
+- 1327
+- 1988
+- 2578
+- 4362
+median_mark_time_s: 1137.0
+claims:
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 597
+  slug: blanxz
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 609
+  slug: gustaf
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 824
+  slug: nuclearpastatom
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 853
+  slug: raydans
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 997
+  slug: blanxz
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 1277
+  slug: blanxz
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 1327
+  slug: raydans
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1988
+  slug: seriouschallenges
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 2578
+  slug: grey
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 4362
+  slug: parkenharbor

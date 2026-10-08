@@ -1,0 +1,28 @@
+id: crucible_knights_2
+text: Kill 2 Unique Crucible Knights
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 1586
+- 2074
+median_mark_time_s: 1830.0
+claims:
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 1586
+  slug: nuclearpastatom
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 2074
+  slug: grey

@@ -1,0 +1,52 @@
+{{- /*
+  Input: {claims: a slice of {time_s, game_index, match, player, url}, by
+  time; median: seconds or nil}. A dot histogram: claims fall into 5-minute
+  bins and stack upward, one dot per game, on an axis shared by every square
+  page (lib/mark-time-axis.html). Each dot links to the game it came from and
+  its <title> gives the time, match and claimer; the median is a dashed rule.
+*/ -}}
+{{- $axis := partialCached "lib/mark-time-axis.html" "" -}}
+{{- $bin := 300 -}}
+{{- $r := 5.0 -}}
+{{- $step := 12.0 -}}
+{{- $left := 24.0 -}}
+{{- $right := 616.0 -}}
+{{- $span := sub $right $left -}}
+{{- $counts := dict -}}
+{{- $maxStack := 1 -}}
+{{- range .claims -}}
+  {{- $k := string (int (div .time_s $bin)) -}}
+  {{- $n := add (index $counts $k | default 0) 1 -}}
+  {{- $counts = merge $counts (dict $k $n) -}}
+  {{- if gt $n $maxStack }}{{ $maxStack = $n }}{{ end -}}
+{{- end -}}
+{{- $base := add 14.0 (mul $step (float $maxStack)) -}}
+{{- $height := add $base 26.0 -}}
+<figure class="mark-chart">
+  <svg viewBox="0 0 640 {{ $height }}" role="img" aria-label="Game clock at each claim, in 5-minute bins">
+    {{- range $t := seq 0 900 (int $axis) }}
+    {{- $x := add $left (mul $span (div (float $t) (float $axis))) }}
+    <line class="mark-chart-grid" x1="{{ $x }}" x2="{{ $x }}" y1="4" y2="{{ $base }}"/>
+    <text class="mark-chart-tick" x="{{ $x }}" y="{{ add $base 18 }}" text-anchor="middle">{{ div $t 60 }}′</text>
+    {{- end }}
+    <line class="mark-chart-axis" x1="{{ $left }}" x2="{{ $right }}" y1="{{ $base }}" y2="{{ $base }}"/>
+    {{- with .median }}
+    {{- $x := add $left (mul $span (div (float .) (float $axis))) }}
+    <line class="mark-chart-median" x1="{{ $x }}" x2="{{ $x }}" y1="2" y2="{{ $base }}"><title>Median {{ partial "lib/clock.html" . }}</title></line>
+    {{- end }}
+    {{- $placed := dict }}
+    {{- range $c := .claims }}
+    {{- $k := string (int (div $c.time_s $bin)) }}
+    {{- $i := index $placed $k | default 0 }}
+    {{- $placed = merge $placed (dict $k (add $i 1)) }}
+    {{- $mid := add (mul (float (int (div $c.time_s $bin))) (float $bin)) (div (float $bin) 2) }}
+    {{- $label := printf "Claimed at %s" (partial "lib/clock.html" $c.time_s) }}
+    {{- with $c.player.display_name }}{{ $label = printf "%s by %s" $label . }}{{ end }}
+    {{- with $c.match.player_red }}{{ $label = printf "%s · %s vs %s, game %v" $label .display_name $c.match.player_blue.display_name $c.game_index }}{{ end }}
+    {{ if $c.url }}<a class="mark-chart-link" href="{{ $c.url | relURL }}" aria-label="{{ $label }}">{{ end -}}
+    <circle class="mark-chart-dot" cx="{{ add $left (mul $span (div $mid (float $axis))) }}" cy="{{ sub $base (add $r 2 (mul $step (float $i))) }}" r="{{ $r }}"><title>{{ $label }}</title></circle>
+    {{- if $c.url }}</a>{{ end }}
+    {{- end }}
+  </svg>
+  <figcaption>Game clock when the square was claimed, one dot per game, in 5-minute bins; select a dot to open its match. The dashed line is the median.</figcaption>
+</figure>

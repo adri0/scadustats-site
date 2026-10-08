@@ -1,0 +1,65 @@
+id: thops_key
+text: Return Thops's Academy Key
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 8
+games_marked: 7
+mark_rate: 0.875
+top_players:
+- slug: parkenharbor
+  marks: 2
+- slug: seriouschallenges
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1838
+- 1890
+- 2189
+- 2601
+- 2772
+- 2898
+- 4111
+median_mark_time_s: 2601.0
+claims:
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1838
+  slug: seriouschallenges
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 1890
+  slug: romainjacques
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 2189
+  slug: parkenharbor
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2601
+  slug: seriouschallenges
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2772
+  slug: nuclearpastatom
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 2898
+  slug: parkenharbor
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 4111
+  slug: grey

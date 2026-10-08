@@ -1,0 +1,49 @@
+id: abductors_3
+text: Kill 3 Unique Abductor Virgins
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 6
+games_marked: 5
+mark_rate: 0.8333
+top_players:
+- slug: lilaggy
+  marks: 3
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 1738
+- 1759
+- 1830
+- 2922
+- 3288
+median_mark_time_s: 1830.0
+claims:
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1738
+  slug: lilaggy
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 1759
+  slug: lilaggy
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 1830
+  slug: lilaggy
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 2922
+  slug: grey
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 3288
+  slug: nuclearpastatom

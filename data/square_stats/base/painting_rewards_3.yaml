@@ -1,0 +1,77 @@
+id: painting_rewards_3
+text: Acquire 3 Painting Rewards
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 10
+games_marked: 9
+mark_rate: 0.9
+top_players:
+- slug: nuclearpastatom
+  marks: 3
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 2697
+- 2890
+- 3322
+- 3555
+- 3599
+- 3608
+- 3685
+- 3821
+- 4061
+median_mark_time_s: 3599.0
+claims:
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 2697
+  slug: blanxz
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 2890
+  slug: romainjacques
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 3322
+  slug: raydans
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 3555
+  slug: gustaf
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3599
+  slug: nuclearpastatom
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3608
+  slug: seriouschallenges
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 3685
+  slug: nuclearpastatom
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 3821
+  slug: vswed
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 4061
+  slug: nuclearpastatom

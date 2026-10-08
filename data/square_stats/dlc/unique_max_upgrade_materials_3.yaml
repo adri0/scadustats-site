@@ -1,0 +1,56 @@
+id: unique_max_upgrade_materials_3
+text: Acquire 3 Unique Max Upgrade Materials
+game_type: dlc
+num_matches: 6
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 6
+games_marked: 6
+mark_rate: 1.0
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: vswed
+  marks: 2
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 1250
+- 1672
+- 2009
+- 3238
+- 3397
+- 3997
+median_mark_time_s: 2623.5
+claims:
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 1250
+  slug: lilaggy
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 2
+  time_s: 1672
+  slug: vswed
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 2009
+  slug: vswed
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3238
+  slug: nuclearpastatom
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3397
+  slug: lilaggy
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 3997
+  slug: raydans

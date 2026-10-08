@@ -1,0 +1,20 @@
+id: caves_grottos_2
+text: Complete 2 Caves or Grottos
+game_type: base
+num_matches: 1
+matches:
+- 2026-08-01-Gustaf-vs-TwistieT
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 316
+median_mark_time_s: 316.0
+claims:
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 316
+  slug: twistiet

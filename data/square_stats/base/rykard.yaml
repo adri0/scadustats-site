@@ -1,0 +1,41 @@
+id: rykard
+text: Kill Rykard
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+num_games: 8
+games_marked: 3
+mark_rate: 0.375
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 2862
+- 3525
+- 4129
+median_mark_time_s: 3525.0
+claims:
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 2862
+  slug: nuclearpastatom
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3525
+  slug: seriouschallenges
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 4129
+  slug: lilaggy

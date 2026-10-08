@@ -1,0 +1,26 @@
+id: limgrave_bosses_5
+text: Kill 5 Bosses in Limgrave / Weeping
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+mark_times_s:
+- 1620
+- 2240
+median_mark_time_s: 1930.0
+claims:
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 1620
+  slug: nuclearpastatom
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 2240
+  slug: nuclearpastatom

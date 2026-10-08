@@ -1,0 +1,45 @@
+id: remembrance
+text: Duplicate a Remembrance
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: grey
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1537
+- 1697
+- 1892
+- 2681
+median_mark_time_s: 1794.5
+claims:
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 1537
+  slug: parkenharbor
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 1697
+  slug: romainjacques
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 1892
+  slug: vswed
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 2681
+  slug: grey

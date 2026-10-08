@@ -1,0 +1,44 @@
+id: divine_bird_2
+text: Kill 2 Unique Divine Bird Warriors
+game_type: dlc
+num_matches: 4
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 2059
+- 2866
+- 3504
+- 4046
+median_mark_time_s: 3185.0
+claims:
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 2059
+  slug: nuclearpastatom
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 2866
+  slug: romainjacques
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3504
+  slug: seriouschallenges
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 4046
+  slug: blanxz

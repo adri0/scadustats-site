@@ -1,0 +1,106 @@
+id: memb_hitless
+text: Kill a Remembrance Boss Hitless
+game_type: dlc
+num_matches: 14
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 14
+games_marked: 14
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 5
+- slug: romainjacques
+  marks: 4
+- slug: ironyeu
+  marks: 2
+- slug: kemist
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 788
+- 1046
+- 1266
+- 1273
+- 1302
+- 1323
+- 1407
+- 1475
+- 1581
+- 2008
+- 2045
+- 2492
+- 2647
+- 3826
+median_mark_time_s: 1441.0
+claims:
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 2
+  time_s: 788
+  slug: nuclearpastatom
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 1046
+  slug: nuclearpastatom
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 1266
+  slug: romainjacques
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 2
+  time_s: 1273
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1302
+  slug: nuclearpastatom
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 2
+  time_s: 1323
+  slug: ironyeu
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 1407
+  slug: ironyeu
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 1475
+  slug: romainjacques
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 3
+  time_s: 1581
+  slug: romainjacques
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 2008
+  slug: raydans
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 2
+  time_s: 2045
+  slug: romainjacques
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 2492
+  slug: vswed
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2647
+  slug: kemist
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 2
+  time_s: 3826
+  slug: nuclearpastatom

@@ -1,0 +1,27 @@
+id: metyr
+text: Kill Metyr
+game_type: dlc
+num_matches: 8
+matches:
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-30-Parkenharbor-vs-LilAggy
+num_games: 8
+games_marked: 1
+mark_rate: 0.125
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 5012
+median_mark_time_s: 5012.0
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 5012
+  slug: blanxz

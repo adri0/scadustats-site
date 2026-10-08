@@ -1,0 +1,21 @@
+id: millicent_arm
+text: Give Millicent her Prosthetic Arm
+game_type: base
+num_matches: 2
+matches:
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 2
+games_marked: 1
+mark_rate: 0.5
+top_players:
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 3713
+median_mark_time_s: 3713.0
+claims:
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 3713
+  slug: lilaggy

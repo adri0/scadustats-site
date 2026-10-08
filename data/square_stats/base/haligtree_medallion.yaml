@@ -1,0 +1,63 @@
+id: haligtree_medallion
+text: Acquire the Full Haligtree Medallion
+game_type: base
+num_matches: 11
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 11
+games_marked: 6
+mark_rate: 0.5455
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2109
+- 3107
+- 3122
+- 3727
+- 4327
+- 5597
+median_mark_time_s: 3424.5
+claims:
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 2109
+  slug: ironyeu
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 3107
+  slug: vswed
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3122
+  slug: lilaggy
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 3727
+  slug: gustaf
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 4327
+  slug: raydans
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 5597
+  slug: lilaggy

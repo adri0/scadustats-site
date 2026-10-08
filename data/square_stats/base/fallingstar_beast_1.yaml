@@ -1,0 +1,52 @@
+id: fallingstar_beast_1
+text: Kill 1 Fallingstar Beast
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-08-Ironyeu-vs-LilAggy
+num_games: 5
+games_marked: 5
+mark_rate: 1.0
+top_players:
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: twistiet
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 403
+- 451
+- 873
+- 1106
+- 1462
+median_mark_time_s: 873.0
+claims:
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 403
+  slug: lilaggy
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 451
+  slug: ironyeu
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 873
+  slug: twistiet
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 1106
+  slug: vswed
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1462
+  slug: nuclearpastatom

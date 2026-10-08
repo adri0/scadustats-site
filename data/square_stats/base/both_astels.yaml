@@ -1,0 +1,39 @@
+id: both_astels
+text: Kill Both Astel Bosses
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 6
+games_marked: 3
+mark_rate: 0.5
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 4939
+- 5224
+- 5326
+median_mark_time_s: 5224.0
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4939
+  slug: nuclearpastatom
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 5224
+  slug: lilaggy
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 5326
+  slug: blanxz

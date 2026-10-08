@@ -1397,3 +1397,37 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
     .icon-spoilers-hidden { display: none; }
     .icon-spoilers-shown { display: inline; }
 }
+
+/* --- Square pages --- */
+
+.square-header {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+
+    h1 { margin-bottom: 0; }
+}
+
+.mark-chart {
+    margin: 0 0 2rem;
+
+    svg { display: block; width: 100%; height: auto; overflow: visible; }
+
+    figcaption {
+        margin-top: 0.4rem;
+        font-size: 0.8rem;
+        color: var(--text-muted);
+    }
+}
+
+.mark-chart-grid { stroke: var(--border); stroke-width: 1; opacity: 0.5; }
+.mark-chart-axis { stroke: var(--border); stroke-width: 1.5; }
+.mark-chart-tick { fill: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.mark-chart-median { stroke: var(--text-main); stroke-width: 2; stroke-dasharray: 4 3; }
+.mark-chart-dot { fill: var(--accent); stroke: var(--bg-body); stroke-width: 2; }
+.mark-chart-dot:hover { stroke: var(--text-main); }
+.mark-chart-link { cursor: pointer; }
+.mark-chart-link:hover .mark-chart-dot,
+.mark-chart-link:focus-visible .mark-chart-dot { fill: var(--text-main); }
+.mark-chart-link:focus-visible { outline: none; }

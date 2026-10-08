@@ -1,0 +1,59 @@
+id: scorpion_stew
+text: Acquire the Scorpion Stew
+game_type: dlc
+num_matches: 9
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 9
+games_marked: 6
+mark_rate: 0.6667
+top_players:
+- slug: romainjacques
+  marks: 3
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1961
+- 2358
+- 2482
+- 2672
+- 3345
+- 3786
+median_mark_time_s: 2577.0
+claims:
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1961
+  slug: seriouschallenges
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 2358
+  slug: twistiet
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 2
+  time_s: 2482
+  slug: romainjacques
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 2672
+  slug: romainjacques
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 2
+  time_s: 3345
+  slug: vswed
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 3786
+  slug: romainjacques

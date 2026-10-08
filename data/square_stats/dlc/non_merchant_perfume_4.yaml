@@ -1,0 +1,22 @@
+id: non_merchant_perfume_4
+text: Acquire all 4 Non-Merchant Perfume Bottles
+game_type: dlc
+num_matches: 3
+matches:
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-19-Vswed-vs-TwistieT
+num_games: 3
+games_marked: 1
+mark_rate: 0.3333
+top_players:
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 3123
+median_mark_time_s: 3123.0
+claims:
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 2
+  time_s: 3123
+  slug: lilaggy

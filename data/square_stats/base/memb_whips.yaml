@@ -1,0 +1,66 @@
+id: memb_whips
+text: Kill a Remembrance Boss with Whips Only
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 9
+games_marked: 7
+mark_rate: 0.7778
+top_players:
+- slug: grey
+  marks: 2
+- slug: seriouschallenges
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2143
+- 2353
+- 2790
+- 3160
+- 3371
+- 3825
+- 4471
+median_mark_time_s: 3160.0
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 2143
+  slug: grey
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 2353
+  slug: grey
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 2790
+  slug: twistiet
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3160
+  slug: seriouschallenges
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 3371
+  slug: nuclearpastatom
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3825
+  slug: seriouschallenges
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 4471
+  slug: blanxz

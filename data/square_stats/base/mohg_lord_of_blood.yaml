@@ -1,0 +1,56 @@
+id: mohg_lord_of_blood
+text: Kill Mohg, Lord of Blood
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 8
+games_marked: 6
+mark_rate: 0.75
+top_players:
+- slug: romainjacques
+  marks: 3
+- slug: lilaggy
+  marks: 2
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 1221
+- 1418
+- 1703
+- 2714
+- 2714
+- 4574
+median_mark_time_s: 2208.5
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 1221
+  slug: romainjacques
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 1418
+  slug: romainjacques
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 1
+  time_s: 1703
+  slug: romainjacques
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 2714
+  slug: lilaggy
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 2714
+  slug: blanxz
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 4574
+  slug: lilaggy

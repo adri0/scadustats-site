@@ -1,0 +1,103 @@
+id: mask_helm_hood
+text: Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood
+game_type: dlc
+num_matches: 16
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 16
+games_marked: 13
+mark_rate: 0.8125
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: grey
+  marks: 2
+- slug: lilaggy
+  marks: 2
+- slug: romainjacques
+  marks: 2
+- slug: ironyeu
+  marks: 1
+mark_times_s:
+- 2334
+- 2845
+- 2857
+- 2948
+- 3012
+- 3019
+- 3151
+- 3463
+- 3540
+- 3642
+- 4013
+- 4166
+- 4203
+median_mark_time_s: 3151.0
+claims:
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 2334
+  slug: blanxz
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 2845
+  slug: vswed
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 2857
+  slug: grey
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 2948
+  slug: lilaggy
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 2
+  time_s: 3012
+  slug: parkenharbor
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 3019
+  slug: nuclearpastatom
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 3151
+  slug: twistiet
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 3463
+  slug: romainjacques
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 3540
+  slug: grey
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 3642
+  slug: lilaggy
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 4013
+  slug: blanxz
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 4166
+  slug: romainjacques
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 2
+  time_s: 4203
+  slug: ironyeu

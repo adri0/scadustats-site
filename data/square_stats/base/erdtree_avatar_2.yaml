@@ -1,0 +1,42 @@
+id: erdtree_avatar_2
+text: Kill 2 Unique Erdtree or Putrid Avatars
+game_type: base
+num_matches: 4
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 2
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 1175
+- 1283
+- 1598
+- 1957
+median_mark_time_s: 1440.5
+claims:
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 1175
+  slug: nuclearpastatom
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 1283
+  slug: twistiet
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1598
+  slug: seriouschallenges
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 1957
+  slug: nuclearpastatom

@@ -1,0 +1,29 @@
+id: memory_stones_4
+text: Acquire 4 Memory Stones
+game_type: base
+num_matches: 3
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-09-TwistieT-vs-RomainJacques
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
+top_players:
+- slug: romainjacques
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 3014
+- 3339
+median_mark_time_s: 3176.5
+claims:
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 1
+  time_s: 3014
+  slug: twistiet
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 3339
+  slug: romainjacques

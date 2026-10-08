@@ -1,0 +1,15 @@
+id: black_knife_assassins_4
+text: Kill 4 Unique Black Knife Assassins
+game_type: base
+num_matches: 3
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-12-RomainJacques-vs-Grey
+num_games: 3
+games_marked: 0
+mark_rate: 0.0
+top_players: []
+mark_times_s: []
+median_mark_time_s: null
+claims: []

@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{- $p := .Params }}
+{{ partial "breadcrumb.html" . }}
+
+<header class="square-header">
+  <h1>{{ .Title }}</h1>
+  <span class="pill pill-sm pill-outline">{{ if eq $p.game_type "dlc" }}DLC{{ else }}Base game{{ end }}</span>
+</header>
+
+{{- if not $p.num_games }}
+<p class="notice">This goal is in the catalogue but hasn&rsquo;t been dealt onto a transcribed card yet.</p>
+{{- else }}
+<div class="stat-row">
+  <div class="stat">
+    <span class="stat-label">Dealt</span>
+    <span class="stat-value">{{ $p.num_games }} game{{ if ne $p.num_games 1 }}s{{ end }}</span>
+    <span class="stat-note">across {{ $p.num_matches }} match{{ if ne $p.num_matches 1 }}es{{ end }}</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Claim rate</span>
+    <span class="stat-value">{{ printf "%.0f%%" (mul 100.0 (float $p.mark_rate)) }}</span>
+    <span class="stat-note">held at the end of {{ $p.games_marked }} of {{ $p.num_games }}</span>
+  </div>
+  <div class="stat">
+    <span class="stat-label">Median time to claim</span>
+    <span class="stat-value">{{ with $p.median_mark_time_s }}{{ partial "lib/clock.html" . }}{{ else }}—{{ end }}</span>
+    {{- with $p.mark_times_s }}
+    <span class="stat-note">fastest {{ partial "lib/clock.html" (index . 0) }}{{ if gt (len .) 1 }}, slowest {{ partial "lib/clock.html" (index . (sub (len .) 1)) }}{{ end }}</span>
+    {{- end }}
+  </div>
+</div>
+
+{{- with $p.claims }}
+<h2>When it gets claimed</h2>
+{{ partial "mark-time-chart.html" (dict "claims" . "median" $p.median_mark_time_s) }}
+{{- end }}
+
+<div class="split-columns">
+  {{- with $p.top_players }}
+  <section>
+    <h2>Top claimers</h2>
+    <ol class="square-ranking">
+      {{- range . }}
+      <li>
+        <a class="square-text" href="{{ printf "/players/%s/" .player.slug | relURL }}">{{ partial "avatar.html" (dict "player" .player) }}{{ .player.display_name }}</a>
+        <span class="square-marks">{{ .marks }}</span>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+
+  {{- with $p.matches }}
+  <section>
+    <h2>Dealt in</h2>
+    <ul class="match-history">
+      {{- range . }}
+      <li class="match-history-row">
+        <a href="{{ .path | relURL }}">
+          <span class="match-history-date">{{ .match_date }}</span>
+          <span class="match-history-opponent">{{ partial "avatar.html" (dict "player" .player_red) }}{{ .player_red.display_name }} vs {{ partial "avatar.html" (dict "player" .player_blue) }}{{ .player_blue.display_name }}</span>
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+</div>
+{{- end }}
+
+<p class="stat-note">A square counts as claimed in a game only if it was still held when the game ended; a mark that was later undone doesn&rsquo;t count.</p>
+{{ end }}

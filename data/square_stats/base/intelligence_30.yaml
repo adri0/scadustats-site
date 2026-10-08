@@ -1,0 +1,70 @@
+id: intelligence_30
+text: 30 Intelligence
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 8
+games_marked: 8
+mark_rate: 1.0
+top_players:
+- slug: parkenharbor
+  marks: 2
+- slug: raydans
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 287
+- 316
+- 741
+- 1257
+- 1338
+- 1587
+- 2505
+- 3455
+median_mark_time_s: 1297.5
+claims:
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 287
+  slug: vswed
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 316
+  slug: lilaggy
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 741
+  slug: parkenharbor
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 1257
+  slug: parkenharbor
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 1338
+  slug: blanxz
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 1587
+  slug: raydans
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 2505
+  slug: raydans
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3455
+  slug: nuclearpastatom

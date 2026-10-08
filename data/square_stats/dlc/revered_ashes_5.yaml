@@ -1,0 +1,83 @@
+id: revered_ashes_5
+text: Level 5 Revered Spirit Ash
+game_type: dlc
+num_matches: 11
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 11
+games_marked: 10
+mark_rate: 0.9091
+top_players:
+- slug: twistiet
+  marks: 3
+- slug: blanxz
+  marks: 2
+- slug: grey
+  marks: 2
+- slug: gustaf
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 907
+- 1541
+- 1708
+- 2888
+- 2978
+- 3221
+- 3428
+- 3493
+- 3796
+- 3855
+median_mark_time_s: 3099.5
+claims:
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 907
+  slug: blanxz
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 1541
+  slug: twistiet
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 1708
+  slug: twistiet
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2888
+  slug: seriouschallenges
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2978
+  slug: blanxz
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 3221
+  slug: twistiet
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 2
+  time_s: 3428
+  slug: grey
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 2
+  time_s: 3493
+  slug: vswed
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 3796
+  slug: grey
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 3855
+  slug: gustaf

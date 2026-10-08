@@ -1,0 +1,71 @@
+id: omenkiller_2
+text: Kill 2 Omenkiller Bosses
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 9
+games_marked: 8
+mark_rate: 0.8889
+top_players:
+- slug: gustaf
+  marks: 2
+- slug: lilaggy
+  marks: 2
+- slug: parkenharbor
+  marks: 2
+- slug: nuclearpastatom
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 986
+- 1147
+- 1509
+- 1642
+- 1920
+- 2055
+- 2119
+- 4154
+median_mark_time_s: 1781.0
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 986
+  slug: parkenharbor
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1147
+  slug: nuclearpastatom
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 1509
+  slug: gustaf
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1642
+  slug: lilaggy
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 1920
+  slug: gustaf
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2055
+  slug: parkenharbor
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 2119
+  slug: lilaggy
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 4154
+  slug: vswed

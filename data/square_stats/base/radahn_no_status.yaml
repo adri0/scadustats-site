@@ -1,0 +1,42 @@
+id: radahn_no_status
+text: Kill Radahn without Status Effects and Summons
+game_type: base
+num_matches: 4
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: lilaggy
+  marks: 2
+- slug: kemist
+  marks: 1
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 1026
+- 1774
+- 1892
+- 2125
+median_mark_time_s: 1833.0
+claims:
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 1026
+  slug: lilaggy
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1774
+  slug: kemist
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 1892
+  slug: raydans
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 2125
+  slug: lilaggy

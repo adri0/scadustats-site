@@ -1,0 +1,88 @@
+id: tree_sentinel_duo
+text: Kill Tree Sentinel Duo
+game_type: base
+num_matches: 11
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 11
+games_marked: 11
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 4
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 734
+- 868
+- 1146
+- 1196
+- 1228
+- 1319
+- 1340
+- 1402
+- 1681
+- 1886
+- 2108
+median_mark_time_s: 1319.0
+claims:
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 734
+  slug: nuclearpastatom
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 868
+  slug: nuclearpastatom
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1146
+  slug: lilaggy
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 1
+  time_s: 1196
+  slug: grey
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 1228
+  slug: blanxz
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 1
+  time_s: 1319
+  slug: nuclearpastatom
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 1340
+  slug: gustaf
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 1402
+  slug: romainjacques
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 1681
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1886
+  slug: seriouschallenges
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 2108
+  slug: twistiet

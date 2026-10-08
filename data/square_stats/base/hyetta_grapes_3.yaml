@@ -1,0 +1,57 @@
+id: hyetta_grapes_3
+text: Give Hyetta 3 Shabriri Grapes
+game_type: base
+num_matches: 12
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 12
+games_marked: 5
+mark_rate: 0.4167
+top_players:
+- slug: romainjacques
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 1581
+- 2918
+- 3325
+- 3963
+- 4869
+median_mark_time_s: 3325.0
+claims:
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 1581
+  slug: lilaggy
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 2918
+  slug: romainjacques
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 3325
+  slug: romainjacques
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 3963
+  slug: nuclearpastatom
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 1
+  time_s: 4869
+  slug: blanxz

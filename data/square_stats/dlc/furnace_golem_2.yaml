@@ -1,0 +1,42 @@
+id: furnace_golem_2
+text: Kill 2 Furnace Golems
+game_type: dlc
+num_matches: 6
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-28-NuclearPastaTom-vs-blanxz
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-01-NuclearPastaTom-vs-Grey
+num_games: 6
+games_marked: 4
+mark_rate: 0.6667
+top_players:
+- slug: blanxz
+  marks: 2
+- slug: nuclearpastatom
+  marks: 2
+mark_times_s:
+- 3139
+- 3534
+- 3651
+- 5193
+median_mark_time_s: 3592.5
+claims:
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 2
+  time_s: 3139
+  slug: nuclearpastatom
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 3534
+  slug: blanxz
+- match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
+  game_index: 3
+  time_s: 3651
+  slug: blanxz
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 3
+  time_s: 5193
+  slug: nuclearpastatom

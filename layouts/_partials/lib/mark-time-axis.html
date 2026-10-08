@@ -1,0 +1,13 @@
+{{- /*
+  Output: the game clock, in seconds, that every square page's time-to-claim
+  chart ends at -- the latest claim on record, rounded up to a quarter hour,
+  so the charts share one axis and can be compared side by side. Call through
+  `partialCached` with "" -- it scans every square's stats.
+*/ -}}
+{{- $max := 0 -}}
+{{- range hugo.Data.square_stats -}}
+  {{- range . -}}
+    {{- range .mark_times_s -}}{{ if gt . $max }}{{ $max = . }}{{ end }}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return mul (math.Ceil (div (float (math.Max $max 1)) 900.0)) 900 -}}

@@ -1,0 +1,28 @@
+id: scadu_9
+text: Level 9 Scadu
+game_type: dlc
+num_matches: 2
+matches:
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 1860
+- 2067
+median_mark_time_s: 1963.5
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 1860
+  slug: seriouschallenges
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 2067
+  slug: grey

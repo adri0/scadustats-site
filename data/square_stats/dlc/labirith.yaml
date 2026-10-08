@@ -1,0 +1,45 @@
+id: labirith
+text: Kill Curseblade Labirith
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-24-blanxz-vs-Parkenharbor
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 1779
+- 1822
+- 2974
+- 3130
+median_mark_time_s: 2398.0
+claims:
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 2
+  time_s: 1779
+  slug: parkenharbor
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 2
+  time_s: 1822
+  slug: romainjacques
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 2
+  time_s: 2974
+  slug: gustaf
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3130
+  slug: blanxz

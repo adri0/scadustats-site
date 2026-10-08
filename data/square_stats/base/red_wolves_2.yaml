@@ -1,0 +1,21 @@
+id: red_wolves_2
+text: Kill 2 Unique Red Wolves
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 2
+games_marked: 1
+mark_rate: 0.5
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 2922
+median_mark_time_s: 2922.0
+claims:
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 2922
+  slug: blanxz

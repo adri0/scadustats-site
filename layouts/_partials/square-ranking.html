@@ -1,8 +1,14 @@
-{{- /* Input: a slice of {text, marks, known} square counts, already ordered. */ -}}
+{{- /* Input: a slice of {id, game_type, text, marks, known} square counts, already
+       ordered. Catalogued goals link to their own page. */ -}}
 <ol class="square-ranking">
   {{- range . }}
   <li>
+    {{- $path := partial "lib/square-path.html" . }}
+    {{- if $path }}
+    <a class="square-text" href="{{ $path | relURL }}">{{ .text }}</a>
+    {{- else }}
     <span class="square-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</span>
+    {{- end }}
     <span class="square-marks">{{ .marks }}</span>
   </li>
   {{- end }}

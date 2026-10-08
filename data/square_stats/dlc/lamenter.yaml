@@ -1,0 +1,100 @@
+id: lamenter
+text: Kill Lamenter
+game_type: dlc
+num_matches: 18
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-Vswed-vs-Grey
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 18
+games_marked: 12
+mark_rate: 0.6667
+top_players:
+- slug: seriouschallenges
+  marks: 4
+- slug: grey
+  marks: 2
+- slug: lilaggy
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+mark_times_s:
+- 2131
+- 2423
+- 2700
+- 3210
+- 3270
+- 3462
+- 3693
+- 3918
+- 4240
+- 4313
+- 4351
+- 4485
+median_mark_time_s: 3577.5
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2131
+  slug: seriouschallenges
+- match_id: 2026-08-07-Vswed-vs-Grey
+  game_index: 2
+  time_s: 2423
+  slug: vswed
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 2
+  time_s: 2700
+  slug: seriouschallenges
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 2
+  time_s: 3210
+  slug: seriouschallenges
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 3270
+  slug: lilaggy
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 3462
+  slug: romainjacques
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3693
+  slug: seriouschallenges
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3918
+  slug: nuclearpastatom
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 2
+  time_s: 4240
+  slug: grey
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 2
+  time_s: 4313
+  slug: twistiet
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 4351
+  slug: grey
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 2
+  time_s: 4485
+  slug: parkenharbor

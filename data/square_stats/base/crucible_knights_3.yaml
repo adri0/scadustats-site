@@ -1,0 +1,20 @@
+id: crucible_knights_3
+text: Kill 3 Unique Crucible Knights
+game_type: base
+num_matches: 1
+matches:
+- 2026-07-19-Vswed-vs-TwistieT
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 4786
+median_mark_time_s: 4786.0
+claims:
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 4786
+  slug: vswed

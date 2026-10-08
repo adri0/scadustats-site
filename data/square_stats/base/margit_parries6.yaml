@@ -1,0 +1,58 @@
+id: margit_parries6
+text: Kill Margit with 6+ Parries
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-18-Gustaf-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 6
+games_marked: 6
+mark_rate: 1.0
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 869
+- 895
+- 997
+- 1264
+- 1462
+- 1632
+median_mark_time_s: 1130.5
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 869
+  slug: raydans
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 895
+  slug: seriouschallenges
+- match_id: 2026-07-18-Gustaf-vs-Grey
+  game_index: 1
+  time_s: 997
+  slug: grey
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 1264
+  slug: nuclearpastatom
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1462
+  slug: seriouschallenges
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 1632
+  slug: twistiet

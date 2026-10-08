@@ -1,0 +1,58 @@
+id: ancestor_1
+text: Kill an Ancestor Spirit
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-18-Gustaf-vs-Grey
+num_games: 8
+games_marked: 6
+mark_rate: 0.75
+top_players:
+- slug: gustaf
+  marks: 2
+- slug: nuclearpastatom
+  marks: 2
+- slug: ironyeu
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 1769
+- 2614
+- 3020
+- 4359
+- 4585
+- 4978
+median_mark_time_s: 3689.5
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1769
+  slug: seriouschallenges
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 2614
+  slug: nuclearpastatom
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 3020
+  slug: ironyeu
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 4359
+  slug: nuclearpastatom
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 4585
+  slug: gustaf
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 4978
+  slug: gustaf

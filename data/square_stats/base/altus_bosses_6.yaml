@@ -1,0 +1,31 @@
+id: altus_bosses_6
+text: Kill 6 Bosses in Altus Plateau / Mt. Gelmir
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 5
+games_marked: 2
+mark_rate: 0.4
+top_players:
+- slug: lilaggy
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1838
+- 3123
+median_mark_time_s: 2480.5
+claims:
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1838
+  slug: lilaggy
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 3123
+  slug: vswed

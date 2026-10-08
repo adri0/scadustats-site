@@ -1,0 +1,66 @@
+id: scadutree_avatar
+text: Kill Scadutree Avatar
+game_type: dlc
+num_matches: 11
+matches:
+- 2026-09-12-blanxz-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-18-blanxz-vs-LilAggy
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 11
+games_marked: 7
+mark_rate: 0.6364
+top_players:
+- slug: blanxz
+  marks: 4
+- slug: nuclearpastatom
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 2600
+- 3338
+- 3467
+- 3765
+- 3791
+- 3810
+- 4683
+median_mark_time_s: 3765.0
+claims:
+- match_id: 2026-09-12-blanxz-vs-RomainJacques
+  game_index: 2
+  time_s: 2600
+  slug: blanxz
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 2
+  time_s: 3338
+  slug: blanxz
+- match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3467
+  slug: seriouschallenges
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 2
+  time_s: 3765
+  slug: blanxz
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 3791
+  slug: blanxz
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 3810
+  slug: nuclearpastatom
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 2
+  time_s: 4683
+  slug: vswed

@@ -1,0 +1,20 @@
+id: misbegotten_bosses_3
+text: Kill 3 Misbegotten Bosses
+game_type: base
+num_matches: 1
+matches:
+- 2026-08-07-blanxz-vs-Raydans
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 2523
+median_mark_time_s: 2523.0
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 2523
+  slug: blanxz

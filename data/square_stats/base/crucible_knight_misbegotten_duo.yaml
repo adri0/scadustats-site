@@ -1,0 +1,88 @@
+id: crucible_knight_misbegotten_duo
+text: Kill Crucible Knight and Misbegotten Warrior Duo
+game_type: base
+num_matches: 11
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 11
+games_marked: 11
+mark_rate: 1.0
+top_players:
+- slug: vswed
+  marks: 3
+- slug: gustaf
+  marks: 2
+- slug: raydans
+  marks: 2
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 1490
+- 1583
+- 1822
+- 2207
+- 2416
+- 2530
+- 2546
+- 2672
+- 2885
+- 2974
+- 3448
+median_mark_time_s: 2530.0
+claims:
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 1490
+  slug: gustaf
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1583
+  slug: lilaggy
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 1822
+  slug: ironyeu
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 2207
+  slug: raydans
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 1
+  time_s: 2416
+  slug: romainjacques
+- match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
+  game_index: 1
+  time_s: 2530
+  slug: nuclearpastatom
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 2546
+  slug: vswed
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 1
+  time_s: 2672
+  slug: raydans
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 2885
+  slug: gustaf
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 2974
+  slug: vswed
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 3448
+  slug: vswed

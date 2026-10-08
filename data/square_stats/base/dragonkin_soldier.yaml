@@ -1,0 +1,42 @@
+id: dragonkin_soldier
+text: Kill a Dragonkin Soldier Boss
+game_type: base
+num_matches: 4
+matches:
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-26-Raydans-vs-Ironyeu
+num_games: 4
+games_marked: 4
+mark_rate: 1.0
+top_players:
+- slug: raydans
+  marks: 2
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 657
+- 711
+- 1052
+- 1134
+median_mark_time_s: 881.5
+claims:
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 657
+  slug: raydans
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 711
+  slug: raydans
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 1052
+  slug: romainjacques
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 1134
+  slug: nuclearpastatom

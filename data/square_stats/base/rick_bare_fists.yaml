@@ -1,0 +1,60 @@
+id: rick_bare_fists
+text: Kill Soldier of Godrick with Bare Fists Only
+game_type: base
+num_matches: 8
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-24-blanxz-vs-Parkenharbor
+num_games: 8
+games_marked: 6
+mark_rate: 0.75
+top_players:
+- slug: parkenharbor
+  marks: 2
+- slug: blanxz
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+mark_times_s:
+- 1550
+- 1949
+- 1960
+- 2193
+- 2777
+- 3683
+median_mark_time_s: 2076.5
+claims:
+- match_id: 2026-08-08-Ironyeu-vs-LilAggy
+  game_index: 1
+  time_s: 1550
+  slug: ironyeu
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 1949
+  slug: parkenharbor
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 1
+  time_s: 1960
+  slug: lilaggy
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2193
+  slug: blanxz
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 2777
+  slug: parkenharbor
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 3683
+  slug: seriouschallenges

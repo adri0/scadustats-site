@@ -1,0 +1,20 @@
+id: whetstone_3
+text: Acquire 3 Whetstone Knives
+game_type: base
+num_matches: 1
+matches:
+- 2026-07-24-blanxz-vs-Parkenharbor
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 2020
+median_mark_time_s: 2020.0
+claims:
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 2020
+  slug: blanxz

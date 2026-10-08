@@ -1,0 +1,36 @@
+id: dropped_talisman_3
+text: Acquire 3 Enemy/NPC Dropped Talismans
+game_type: dlc
+num_matches: 3
+matches:
+- 2026-09-11-LilAggy-vs-RomainJacques
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: romainjacques
+  marks: 1
+mark_times_s:
+- 2482
+- 4032
+- 4521
+median_mark_time_s: 4032.0
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 2482
+  slug: grey
+- match_id: 2026-09-11-LilAggy-vs-RomainJacques
+  game_index: 2
+  time_s: 4032
+  slug: romainjacques
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 4521
+  slug: blanxz

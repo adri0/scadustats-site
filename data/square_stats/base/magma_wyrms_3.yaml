@@ -1,0 +1,24 @@
+id: magma_wyrms_3
+text: Kill 3 Magma Wyrms
+game_type: base
+num_matches: 5
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 5
+games_marked: 1
+mark_rate: 0.2
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 6015
+median_mark_time_s: 6015.0
+claims:
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 1
+  time_s: 6015
+  slug: blanxz

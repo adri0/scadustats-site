@@ -1,0 +1,45 @@
+id: non_merchant_sorceries_2
+text: Acquire 2 Non-Merchant Sorceries
+game_type: dlc
+num_matches: 5
+matches:
+- 2026-08-09-TwistieT-vs-RomainJacques
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-17-NuclearPastaTom-vs-RomainJacques
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
+top_players:
+- slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 1037
+- 2346
+- 2420
+- 2512
+median_mark_time_s: 2383.0
+claims:
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 1037
+  slug: ironyeu
+- match_id: 2026-08-09-TwistieT-vs-RomainJacques
+  game_index: 2
+  time_s: 2346
+  slug: romainjacques
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 2
+  time_s: 2420
+  slug: twistiet
+- match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
+  game_index: 2
+  time_s: 2512
+  slug: nuclearpastatom

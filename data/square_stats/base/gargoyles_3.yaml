@@ -1,0 +1,23 @@
+id: gargoyles_3
+text: Kill 3 Unique Gargoyles / BBK
+game_type: base
+num_matches: 4
+matches:
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-01-NuclearPastaTom-vs-Grey
+num_games: 4
+games_marked: 1
+mark_rate: 0.25
+top_players:
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 4858
+median_mark_time_s: 4858.0
+claims:
+- match_id: 2026-08-16-Raydans-vs-LilAggy
+  game_index: 1
+  time_s: 4858
+  slug: lilaggy

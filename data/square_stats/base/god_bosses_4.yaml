@@ -1,0 +1,37 @@
+id: god_bosses_4
+text: Kill 4 Bosses with "God" in their name
+game_type: base
+num_matches: 4
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 4
+games_marked: 3
+mark_rate: 0.75
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 2621
+- 2924
+- 3389
+median_mark_time_s: 2924.0
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 2621
+  slug: blanxz
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 1
+  time_s: 2924
+  slug: nuclearpastatom
+- match_id: 2026-09-03-LilAggy-vs-Grey
+  game_index: 1
+  time_s: 3389
+  slug: grey

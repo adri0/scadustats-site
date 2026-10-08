@@ -1,0 +1,28 @@
+id: rune_65
+text: Rune Level 65
+game_type: base
+num_matches: 2
+matches:
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 1340
+- 3024
+median_mark_time_s: 2182.0
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 1
+  time_s: 1340
+  slug: romainjacques
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 3024
+  slug: vswed

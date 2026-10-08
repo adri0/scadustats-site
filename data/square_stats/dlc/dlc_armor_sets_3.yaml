@@ -1,0 +1,36 @@
+id: dlc_armor_sets_3
+text: Acquire 3 Full DLC Armor Sets
+game_type: dlc
+num_matches: 3
+matches:
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 3
+games_marked: 3
+mark_rate: 1.0
+top_players:
+- slug: grey
+  marks: 1
+- slug: nuclearpastatom
+  marks: 1
+- slug: parkenharbor
+  marks: 1
+mark_times_s:
+- 1251
+- 1833
+- 1959
+median_mark_time_s: 1833.0
+claims:
+- match_id: 2026-07-19-Raydans-vs-Parkenharbor
+  game_index: 2
+  time_s: 1251
+  slug: parkenharbor
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 1833
+  slug: grey
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 2
+  time_s: 1959
+  slug: nuclearpastatom

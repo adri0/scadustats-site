@@ -1,0 +1,28 @@
+id: horned_warriors_5
+text: Kill 5 Unique Horned Warriors
+game_type: dlc
+num_matches: 2
+matches:
+- 2026-09-05-blanxz-vs-Vswed
+- 2026-08-12-RomainJacques-vs-Grey
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: romainjacques
+  marks: 1
+- slug: vswed
+  marks: 1
+mark_times_s:
+- 3884
+- 4420
+median_mark_time_s: 4152.0
+claims:
+- match_id: 2026-08-12-RomainJacques-vs-Grey
+  game_index: 2
+  time_s: 3884
+  slug: romainjacques
+- match_id: 2026-09-05-blanxz-vs-Vswed
+  game_index: 2
+  time_s: 4420
+  slug: vswed

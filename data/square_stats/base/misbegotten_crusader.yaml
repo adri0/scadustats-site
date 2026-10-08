@@ -1,0 +1,82 @@
+id: misbegotten_crusader
+text: Kill Misbegotten Crusader
+game_type: base
+num_matches: 10
+matches:
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Gustaf-vs-Vswed
+- 2026-08-07-blanxz-vs-Raydans
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-08-01-NuclearPastaTom-vs-Grey
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-NuclearPastaTom-vs-Vswed
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-18-blanxz-vs-LilAggy
+num_games: 10
+games_marked: 10
+mark_rate: 1.0
+top_players:
+- slug: vswed
+  marks: 4
+- slug: blanxz
+  marks: 1
+- slug: grey
+  marks: 1
+- slug: ironyeu
+  marks: 1
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 778
+- 1568
+- 1720
+- 1884
+- 2301
+- 2389
+- 3018
+- 3300
+- 3412
+- 3520
+median_mark_time_s: 2345.0
+claims:
+- match_id: 2026-08-16-Gustaf-vs-Vswed
+  game_index: 1
+  time_s: 778
+  slug: vswed
+- match_id: 2026-08-01-NuclearPastaTom-vs-Grey
+  game_index: 1
+  time_s: 1568
+  slug: grey
+- match_id: 2026-08-07-blanxz-vs-Raydans
+  game_index: 1
+  time_s: 1720
+  slug: raydans
+- match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
+  game_index: 1
+  time_s: 1884
+  slug: vswed
+- match_id: 2026-08-02-Vswed-vs-RomainJacques
+  game_index: 1
+  time_s: 2301
+  slug: vswed
+- match_id: 2026-09-01-Vswed-vs-Raydans
+  game_index: 1
+  time_s: 2389
+  slug: vswed
+- match_id: 2026-07-24-blanxz-vs-Parkenharbor
+  game_index: 1
+  time_s: 3018
+  slug: blanxz
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 3300
+  slug: ironyeu
+- match_id: 2026-07-18-blanxz-vs-LilAggy
+  game_index: 1
+  time_s: 3412
+  slug: lilaggy
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 3520
+  slug: romainjacques

@@ -1,0 +1,76 @@
+id: godskin_apostle
+text: Kill a Godskin Apostle
+game_type: base
+num_matches: 9
+matches:
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-08-30-SeriousChallenges-vs-RomainJacques
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-14-NuclearPastaTom-vs-TwistieT
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 9
+games_marked: 9
+mark_rate: 1.0
+top_players:
+- slug: seriouschallenges
+  marks: 2
+- slug: grey
+  marks: 1
+- slug: gustaf
+  marks: 1
+- slug: kemist
+  marks: 1
+- slug: lilaggy
+  marks: 1
+mark_times_s:
+- 999
+- 1162
+- 1558
+- 1571
+- 1852
+- 1963
+- 2488
+- 2488
+- 2531
+median_mark_time_s: 1852.0
+claims:
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 999
+  slug: seriouschallenges
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 1162
+  slug: gustaf
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1558
+  slug: seriouschallenges
+- match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
+  game_index: 1
+  time_s: 1571
+  slug: kemist
+- match_id: 2026-07-30-Parkenharbor-vs-LilAggy
+  game_index: 1
+  time_s: 1852
+  slug: lilaggy
+- match_id: 2026-07-25-TwistieT-vs-Grey
+  game_index: 1
+  time_s: 1963
+  slug: grey
+- match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
+  game_index: 1
+  time_s: 2488
+  slug: parkenharbor
+- match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
+  game_index: 1
+  time_s: 2488
+  slug: romainjacques
+- match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
+  game_index: 1
+  time_s: 2531
+  slug: nuclearpastatom

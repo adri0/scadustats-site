@@ -1,0 +1,54 @@
+id: glovewort_bb_1
+text: Acquire Grave and Ghost Glovewort Bell Bearings [1]
+game_type: base
+num_matches: 7
+matches:
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-15-Ironyeu-vs-Parkenharbor
+- 2026-08-08-Ironyeu-vs-LilAggy
+- 2026-08-01-Gustaf-vs-TwistieT
+- 2026-07-31-blanxz-vs-Ironyeu
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-24-LilAggy-vs-SeriousChallenges
+num_games: 7
+games_marked: 5
+mark_rate: 0.7143
+top_players:
+- slug: blanxz
+  marks: 1
+- slug: raydans
+  marks: 1
+- slug: romainjacques
+  marks: 1
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2692
+- 3446
+- 3507
+- 3841
+- 3993
+median_mark_time_s: 3507.0
+claims:
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 1
+  time_s: 2692
+  slug: raydans
+- match_id: 2026-08-01-Gustaf-vs-TwistieT
+  game_index: 1
+  time_s: 3446
+  slug: twistiet
+- match_id: 2026-07-31-blanxz-vs-Ironyeu
+  game_index: 1
+  time_s: 3507
+  slug: blanxz
+- match_id: 2026-08-24-Gustaf-vs-RomainJacques
+  game_index: 1
+  time_s: 3841
+  slug: romainjacques
+- match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3993
+  slug: seriouschallenges

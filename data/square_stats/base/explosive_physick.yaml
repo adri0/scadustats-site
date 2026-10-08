@@ -1,0 +1,32 @@
+id: explosive_physick
+text: Finish off a Boss with the Explosive Physick
+game_type: base
+num_matches: 6
+matches:
+- 2026-09-03-LilAggy-vs-Grey
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-02-Vswed-vs-RomainJacques
+- 2026-07-19-Vswed-vs-TwistieT
+- 2026-07-17-KEMIST-vs-SeriousChallenges
+num_games: 6
+games_marked: 2
+mark_rate: 0.3333
+top_players:
+- slug: seriouschallenges
+  marks: 1
+- slug: twistiet
+  marks: 1
+mark_times_s:
+- 2084
+- 3751
+median_mark_time_s: 2917.5
+claims:
+- match_id: 2026-07-19-Vswed-vs-TwistieT
+  game_index: 1
+  time_s: 2084
+  slug: twistiet
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 1
+  time_s: 3751
+  slug: seriouschallenges

@@ -1,0 +1,50 @@
+id: senessax
+text: Kill Ancient Dragon Senessax
+game_type: dlc
+num_matches: 14
+matches:
+- 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+- 2026-09-01-Vswed-vs-Raydans
+- 2026-08-24-Gustaf-vs-RomainJacques
+- 2026-08-16-Raydans-vs-LilAggy
+- 2026-08-15-blanxz-vs-SeriousChallenges
+- 2026-08-12-RomainJacques-vs-Grey
+- 2026-08-08-NuclearPastaTom-vs-Gustaf
+- 2026-08-07-Vswed-vs-Grey
+- 2026-07-30-Parkenharbor-vs-LilAggy
+- 2026-07-26-Raydans-vs-Ironyeu
+- 2026-07-25-TwistieT-vs-Grey
+- 2026-07-24-blanxz-vs-Parkenharbor
+- 2026-07-19-Raydans-vs-Parkenharbor
+num_games: 14
+games_marked: 4
+mark_rate: 0.2857
+top_players:
+- slug: seriouschallenges
+  marks: 3
+- slug: raydans
+  marks: 1
+mark_times_s:
+- 3270
+- 3355
+- 3927
+- 4620
+median_mark_time_s: 3641.0
+claims:
+- match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3270
+  slug: seriouschallenges
+- match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
+  game_index: 2
+  time_s: 3355
+  slug: seriouschallenges
+- match_id: 2026-07-26-Raydans-vs-Ironyeu
+  game_index: 2
+  time_s: 3927
+  slug: raydans
+- match_id: 2026-08-15-blanxz-vs-SeriousChallenges
+  game_index: 2
+  time_s: 4620
+  slug: seriouschallenges
