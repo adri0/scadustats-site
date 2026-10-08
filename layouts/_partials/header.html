@@ -1,6 +1,7 @@
 {{- /* Overrides kopi's header.html: the Library (bookmarks) icon is dropped and
   the brand is the Scadutree fragment plus the Bingo Brawlers wordmark, with
-  site.Params.subtitle under it. */ -}}
+  site.Params.subtitle under it. The eye button switches no-spoilers mode
+  (assets/js/modules/spoilers.js). */ -}}
 <header class="site-header">
     <div class="header-inner">
         <button class="menu-toggle" id="menuToggle" aria-label="Menu">
@@ -26,6 +27,10 @@
         </nav>
 
         <div class="header-actions">
+            <button class="header-icon spoiler-toggle" type="button" data-spoiler-toggle aria-pressed="true" aria-label="No-spoilers mode: results hidden. Click to show results" title="No-spoilers mode on: results hidden">
+                <svg class="icon-spoilers-hidden" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"></path><path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"></path><path d="M14.12 14.12a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line></svg>
+                {{ partial "icon-eye.html" "icon-spoilers-shown" }}
+            </button>
             <button class="header-icon theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
             </button>

@@ -2,7 +2,8 @@
   Input: {page: a match page, show_season: bool}. The season pill is dropped
   where the surrounding list is already grouped by season. The card link
   stretches over the whole card (.match-card-link::after), so the VOD pill
-  can sit inside the card without nesting links.
+  can sit inside the card without nesting links. The score and game count are
+  .spoiler (blurred in no-spoilers mode).
 */ -}}
 {{- $page := .page -}}
 {{- $p := $page.Params -}}
@@ -14,11 +15,11 @@
   </div>
   <a class="match-card-score match-card-link" href="{{ $page.RelPermalink }}">
     <span class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
-    <span class="score">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</span>
+    <span class="score spoiler">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</span>
     <span class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}">{{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true) }}</span>
   </a>
   <div class="match-card-foot">
-    <span>{{ if eq $p.winner "" }}undecided{{ else if eq $p.winner "draw" }}drawn{{ else }}{{ $p.num_games }} game{{ if ne $p.num_games 1 }}s{{ end }}{{ end }}</span>
+    <span class="spoiler">{{ if eq $p.winner "" }}undecided{{ else if eq $p.winner "draw" }}drawn{{ else }}{{ $p.num_games }} game{{ if ne $p.num_games 1 }}s{{ end }}{{ end }}</span>
     {{- partial "vod-link.html" $p.video_url }}
   </div>
 </article>

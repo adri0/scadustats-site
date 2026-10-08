@@ -20,7 +20,7 @@
         <h2>Season 6 double elimination</h2>
         <a href="{{ "/seasons/6/" | relURL }}">Season 6 →</a>
       </div>
-      {{ partial "season-bracket.html" (dict "season_id" "6" "bracket" (merge . (dict "title" ""))) }}
+      <div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" "6" "bracket" (merge . (dict "title" ""))) }}</div></div>
     </section>
     {{- end }}
 
@@ -40,7 +40,7 @@
               vs
               <span class="{{ if eq $p.winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_blue) }}{{ $p.player_blue.display_name }}</span>
             </span>
-            <span class="match-history-score">{{ $p.red_score }}–{{ $p.blue_score }}</span>
+            <span class="match-history-score spoiler">{{ $p.red_score }}–{{ $p.blue_score }}</span>
           </a>
           {{- partial "vod-link.html" $p.video_url }}
         </li>

@@ -39,7 +39,7 @@
     {{- with $sum.champion }}
     <div class="stat stat-champion">
       <span class="stat-label">Champion</span>
-      <span class="stat-value">{{ partial "player-links.html" . }}</span>
+      <span class="stat-value spoiler">{{ partial "player-links.html" . }}</span>
     </div>
     {{- end }}
     <div class="stat">
@@ -78,12 +78,12 @@
 
 {{- with $groups }}
 <h2 id="groups">{{ .title | default "Groups" }}{{ with $phaseDates.groups }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
-{{ partial "season-groups.html" (dict "season_id" $s.id "groups" . "bracket" $bracket) }}
+<div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-groups.html" (dict "season_id" $s.id "groups" . "bracket" $bracket) }}</div></div>
 {{- end }}
 
 {{- with $bracket }}
 <h2 id="bracket">Double elimination{{ with $phaseDates.bracket }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
-{{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}
+<div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}</div></div>
 {{- end }}
 
 <h2 id="standings">Standings</h2>
@@ -111,7 +111,9 @@
   {{- range $standings }}{{ $placed = $placed | append (merge . (dict "place" (index $placings .player.slug | default 999))) }}{{ end }}
   {{- $standings = sort $placed "place" }}
 {{- end }}
-<div class="table-wrap">
+<div class="spoiler-cover">
+{{ partial "spoiler-notice.html" }}
+<div class="table-wrap spoiler">
   <table class="stats-table standings-table" data-sortable>
     <thead>
       <tr>
@@ -154,6 +156,7 @@
     </tbody>
   </table>
 </div>
+</div>
 
 <h2 id="matches">Matches</h2>
 <ul class="match-history">
@@ -166,7 +169,7 @@
         vs
         <span class="{{ if eq .winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_blue) }}{{ .player_blue.display_name }}</span>
       </span>
-      <span class="match-history-score">{{ .red_score }}–{{ .blue_score }}</span>
+      <span class="match-history-score spoiler">{{ .red_score }}–{{ .blue_score }}</span>
     </a>
     {{- partial "vod-link.html" .video_url }}
   </li>

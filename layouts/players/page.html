@@ -20,17 +20,17 @@
 <div class="stat-row">
   <div class="stat">
     <span class="stat-label">Matches</span>
-    <span class="stat-value">{{ $p.wins }} Win{{ if ne $p.wins 1 }}s{{ end }} – {{ $p.losses }} Loss{{ if ne $p.losses 1 }}es{{ end }} – {{ $p.draws }} Draw{{ if ne $p.draws 1 }}s{{ end }}</span>
-    {{- with $p.no_decision }}<span class="stat-note">{{ . }} undecided</span>{{ end }}
+    <span class="stat-value spoiler">{{ $p.wins }} Win{{ if ne $p.wins 1 }}s{{ end }} – {{ $p.losses }} Loss{{ if ne $p.losses 1 }}es{{ end }} – {{ $p.draws }} Draw{{ if ne $p.draws 1 }}s{{ end }}</span>
+    {{- with $p.no_decision }}<span class="stat-note spoiler">{{ . }} undecided</span>{{ end }}
   </div>
   <div class="stat">
     <span class="stat-label">Games</span>
-    <span class="stat-value">{{ $p.game_wins }}W – {{ $p.game_losses }}L</span>
+    <span class="stat-value spoiler">{{ $p.game_wins }}W – {{ $p.game_losses }}L</span>
   </div>
   {{- $decided := add $p.wins $p.losses }}
   <div class="stat">
     <span class="stat-label">Match win rate</span>
-    <span class="stat-value">{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</span>
+    <span class="stat-value spoiler">{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</span>
   </div>
 </div>
 
@@ -38,7 +38,9 @@
   {{- with $p.by_game_type }}
   <section>
     <h2>By game type</h2>
-    <div class="table-wrap">
+    <div class="spoiler-cover">
+    {{ partial "spoiler-notice.html" }}
+    <div class="table-wrap spoiler">
       <table class="stats-table">
         <thead><tr><th>Type</th><th>Wins</th><th>Losses</th></tr></thead>
         <tbody>
@@ -52,13 +54,16 @@
         </tbody>
       </table>
     </div>
+    </div>
   </section>
   {{- end }}
 
   {{- with $p.by_season }}
   <section>
     <h2>By season</h2>
-    <div class="table-wrap">
+    <div class="spoiler-cover">
+    {{ partial "spoiler-notice.html" }}
+    <div class="table-wrap spoiler">
       <table class="stats-table">
         <thead><tr><th>Season</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
         <tbody>
@@ -72,6 +77,7 @@
         {{- end }}
         </tbody>
       </table>
+    </div>
     </div>
   </section>
   {{- end }}
@@ -102,10 +108,10 @@
   {{- $opp := cond (eq .color "red") .blue_score .red_score }}
   <li class="match-history-row result-{{ .result }}">
     <a href="{{ .path | relURL }}">
-      <span class="result-badge">{{ substr .result 0 1 | upper }}</span>
+      <span class="result-badge spoiler">{{ substr .result 0 1 | upper }}</span>
       <span class="match-history-date">{{ .match_date }}</span>
       <span class="match-history-opponent">vs {{ partial "avatar.html" (dict "player" .opponent) }}{{ .opponent.display_name }}</span>
-      <span class="match-history-score">{{ $own }}–{{ $opp }}</span>
+      <span class="match-history-score spoiler">{{ $own }}–{{ $opp }}</span>
     </a>
     {{- partial "vod-link.html" .video_url }}
   </li>

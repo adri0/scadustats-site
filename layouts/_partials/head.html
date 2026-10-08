@@ -50,4 +50,11 @@
         try { if (localStorage.getItem('theme') === 'light') theme = 'light'; } catch (e) {}
         document.documentElement.setAttribute('data-theme', theme);
     })();
+    // No-spoilers mode is the default: results stay hidden until the visitor
+    // turns them on (assets/js/modules/spoilers.js).
+    (function() {
+        let spoilers = 'hidden';
+        try { if (localStorage.getItem('spoilers') === 'shown') spoilers = 'shown'; } catch (e) {}
+        document.documentElement.setAttribute('data-spoilers', spoilers);
+    })();
 </script>
