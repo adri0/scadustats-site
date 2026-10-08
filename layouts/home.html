@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ partial "edit-link.html" . }}
 {{- $matches := sort (where site.RegularPages "Section" "matches") "Date" "desc" }}
 <div class="content-grid">
   <main>
@@ -12,6 +13,13 @@
       {{- with site.Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
       <div class="ornament" aria-hidden="true"><span></span></div>
       {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Upcoming matches</h2>
+      </div>
+      <p class="prose-links">The arena's quiet for now, Tarnished: no matches on the schedule yet. Why not relive the chaos of <a href="{{ "/seasons/6/" | relURL }}">Season 6</a>, dig up a player's record in <a href="{{ "/players/" | relURL }}">Players</a>, or find out which squares everyone dreads in <a href="{{ "/squares/" | relURL }}">Squares</a>?</p>
     </section>
 
     {{- with index hugo.Data.brackets "season-6" }}

@@ -163,6 +163,7 @@
         "avatar" ($player.avatar | default "")
         "bio" ($player.bio | default "")
         "unregistered" ($player.unregistered | default false)
+        "source" (cond ($player.unregistered | default false) "" (printf "data/players/%s/info.yaml" $slug))
         "wins" $wins
         "losses" $losses
         "draws" $draws

@@ -13,7 +13,7 @@ a fresh clone needs `git submodule update --init` before it will build, and Hugo
 
 Pages are generated from data files, which is a mix from JSON and Markdown: each section in `content/` has a
 `_content.gotmpl` content adapter that reads `data/` and calls `.AddPage`. The only hand-written
-content files are `content/_index.md`, `content/rules.md`, and the section `_index.md` stubs.
+content files are `content/_index.md`, `content/about.md`, and the section `_index.md` stubs.
 
 ## Data: `data/`
 

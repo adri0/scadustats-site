@@ -6,7 +6,7 @@
         "path" (printf "season-%s/%s" $summary.season_id $slug)
         "title" (printf "%s vs %s" $summary.player_red.display_name $summary.player_blue.display_name)
         "kind" "page"
-        "params" $summary -}}
+        "params" (merge $summary (dict "source" (printf "data/matches/%s/%s.json" $seasonDir $videoID))) -}}
     {{- /* AddPage takes dates under "dates", not a top-level "date" -- a
            top-level key is silently ignored and every page keeps a zero .Date,
            which then breaks every sort/ByDate over these pages. */ -}}

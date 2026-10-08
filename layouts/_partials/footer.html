@@ -10,11 +10,17 @@
         <div>
             <strong class="footer-title">{{ site.Title }}</strong>
             <p>Every number on this site is recomputed from the transcribed VODs in <code>data/matches</code>.</p>
+            {{- with site.Params.repo }}
+            <p class="prose-links">This site is open source: browse the code and data, or contribute, on <a href="{{ . }}">GitHub</a>.</p>
+            {{- end }}
         </div>
         <div class="footer-links">
             <a href="{{ "/matches/" | relURL }}">Matches</a>
             <a href="{{ "/players/" | relURL }}">Players</a>
-            <a href="{{ "/rules/" | relURL }}">Rules</a>
+            <a href="{{ "/about/" | relURL }}">About</a>
+            {{- with site.Params.repo }}
+            <a class="footer-github" href="{{ . }}">{{ partial "icon-github.html" "" }}GitHub</a>
+            {{- end }}
         </div>
     </div>
     <div class="container">

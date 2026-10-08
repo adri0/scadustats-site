@@ -1,12 +1,33 @@
 {{ define "main" }}
 {{- /*
-  Overrides kopi's page.html for hand-written pages (currently /rules/).
+  Overrides kopi's page.html for hand-written pages (currently /about/).
   The theme's byline, share/bookmark buttons and prev/next post navigation are
   dropped -- there are no authors or a chronological feed here.
+
+  The content's ## headings become a table of contents, laid out like the
+  season page's. The page has no # heading in its Markdown, so Fragments nests
+  the h2s under an empty level-1 entry; both levels are walked to find them.
 */ -}}
+{{- $toc := slice }}
+{{- range .Fragments.Headings }}
+  {{- if eq .Level 2 }}{{ $toc = $toc | append . }}{{ end }}
+  {{- range .Headings }}{{ if eq .Level 2 }}{{ $toc = $toc | append . }}{{ end }}{{ end }}
+{{- end }}
 {{ partial "breadcrumb.html" . }}
-<article class="prose">
-  <h1>{{ .Title }}</h1>
-  <div class="article-body">{{ .Content }}</div>
-</article>
+<div class="toc-layout">
+  {{- with $toc }}
+  <aside class="toc" aria-label="On this page">
+    <p class="toc-title">On this page</p>
+    <ol>
+      {{- range . }}
+      <li><a href="#{{ .ID }}">{{ .Title | safeHTML }}</a></li>
+      {{- end }}
+    </ol>
+  </aside>
+  {{- end }}
+  <article class="toc-main">
+    <h1>{{ .Title }}</h1>
+    <div class="article-body">{{ .Content }}</div>
+  </article>
+</div>
 {{ end }}
