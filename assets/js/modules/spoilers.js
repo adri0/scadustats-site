@@ -3,8 +3,8 @@
  * _scadu.scss blurs .spoiler elements and drops .spoiler-hide ones while it is
  * "hidden". Hidden is the default; the inline script in _partials/head.html
  * restores "shown" from localStorage before first paint. Any element with
- * [data-spoiler-toggle] (the header eye, the match page's "Show results")
- * flips the mode.
+ * [data-spoiler-toggle] flips the mode: the header eye, and the "I can handle
+ * the truth" buttons on the blurred-table banner and the match page.
  */
 function sync(toggle, hidden) {
     toggle.setAttribute('aria-pressed', hidden ? 'true' : 'false');

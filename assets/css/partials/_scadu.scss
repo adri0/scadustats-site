@@ -1282,6 +1282,9 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
     }
 
     .spoiler-notice-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35em;
         padding: 0;
         font: inherit;
         color: var(--accent);
@@ -1292,6 +1295,14 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
         cursor: pointer;
 
         &:hover { color: var(--text-main); }
+
+        .icon-eye { width: 1.1em; height: 1.1em; }
+    }
+
+    .spoiler-reveal {
+        gap: 0.4em;
+
+        .icon-eye { width: 1.1em; height: 1.1em; }
     }
 
     .spoiler-toggle {

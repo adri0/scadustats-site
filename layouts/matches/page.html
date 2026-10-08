@@ -43,7 +43,7 @@
   {{- with $p.games }}
   <div class="spoiler-placeholder">
     <p class="notice">No-spoilers mode is on: the games' boards are hidden.</p>
-    <button class="pill pill-accent" type="button" data-spoiler-toggle>Show results</button>
+    <button class="pill pill-accent spoiler-reveal" type="button" data-spoiler-toggle>{{ partial "icon-eye.html" "" }}I can handle the truth</button>
   </div>
   {{- end }}
   <div class="spoiler-hide">
