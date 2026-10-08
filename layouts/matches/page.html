@@ -15,13 +15,13 @@
       <a class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_red.slug | relURL }}">
         {{ $p.player_red.display_name }}
       </a>
-      <div class="scoreboard-score">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</div>
+      <div class="scoreboard-score spoiler">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</div>
       <a class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_blue.slug | relURL }}">
         {{ $p.player_blue.display_name }}
       </a>
     </div>
 
-    <div class="scoreboard-result">
+    <div class="scoreboard-result spoiler">
       {{- if eq $p.winner "" }}
         <span class="notice">Undecided — not every game in this match was transcribed.</span>
       {{- else if eq $p.winner "draw" }}
@@ -38,6 +38,15 @@
     {{- end }}
   </header>
 
+  {{- /* The boards give the result away (and so does how many there are),
+         so in no-spoilers mode they're dropped behind a placeholder. */}}
+  {{- with $p.games }}
+  <div class="spoiler-placeholder">
+    <p class="notice">No-spoilers mode is on: the games' boards are hidden.</p>
+    <button class="pill pill-accent" type="button" data-spoiler-toggle>Show results</button>
+  </div>
+  {{- end }}
+  <div class="spoiler-hide">
   {{- range $p.games }}
   <section class="game">
     <div class="section-head">
@@ -63,5 +72,6 @@
     {{- end }}
   </section>
   {{- end }}
+  </div>
 </article>
 {{ end }}

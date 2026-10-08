@@ -25,11 +25,11 @@
       <tr>
         <td class="rank">{{ add $i 1 }}</td>
         <td><a href="{{ $page.RelPermalink }}">{{ $p.display_name }}</a></td>
-        <td>{{ $p.wins }}–{{ $p.losses }}–{{ $p.draws }}</td>
-        <td>{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</td>
-        <td>{{ $p.game_wins }}–{{ $p.game_losses }}</td>
-        <td>{{ if $base }}{{ $base.wins }}–{{ $base.losses }}{{ else }}—{{ end }}</td>
-        <td>{{ if $dlc }}{{ $dlc.wins }}–{{ $dlc.losses }}{{ else }}—{{ end }}</td>
+        <td class="spoiler">{{ $p.wins }}–{{ $p.losses }}–{{ $p.draws }}</td>
+        <td class="spoiler">{{ if $decided }}{{ printf "%.0f%%" (mul 100.0 (div (float $p.wins) (float $decided))) }}{{ else }}—{{ end }}</td>
+        <td class="spoiler">{{ $p.game_wins }}–{{ $p.game_losses }}</td>
+        <td class="spoiler">{{ if $base }}{{ $base.wins }}–{{ $base.losses }}{{ else }}—{{ end }}</td>
+        <td class="spoiler">{{ if $dlc }}{{ $dlc.wins }}–{{ $dlc.losses }}{{ else }}—{{ end }}</td>
       </tr>
     {{- end }}
     </tbody>
