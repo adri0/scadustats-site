@@ -1,7 +1,7 @@
 {{- /*
   Input: a season id. Output: {matches, games, base_games, dlc_games,
-  untranscribed, champion, phases}, counting every match file in
-  data/matches/season-<N>/ plus the hand-entered (untranscribed) matches of
+  untranscribed, champion, phases}, counting every match file of the season
+  (lib/season-matches.html, by each match's `season` field) plus the hand-entered (untranscribed) matches of
   data/brackets/season-<N>.yaml. base_games/dlc_games count transcribed games
   only, since hand-entered matches carry no game types. `champion` is the
   Grand Final winner as a slot (lib/season-slots.html) or player-lookup dict,
@@ -11,7 +11,7 @@
   names them, because their `match_type` isn't reliable.
 */ -}}
 {{- $sid := printf "%v" . -}}
-{{- $seasonMatches := index hugo.Data.matches (printf "season-%s" $sid) | default dict -}}
+{{- $seasonMatches := partialCached "lib/season-matches.html" $sid $sid -}}
 {{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $sid) -}}
 {{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%s" $sid) -}}
 {{- $slots := partial "lib/season-slots.html" $sid -}}

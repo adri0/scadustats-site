@@ -8,7 +8,7 @@
   untranscribed ones use the hand-entered red/blue/red_score/blue_score.
 */ -}}
 {{- $sid := .season_id -}}
-{{- $seasonMatches := index hugo.Data.matches (printf "season-%s" $sid) | default dict -}}
+{{- $seasonMatches := partialCached "lib/season-matches.html" $sid $sid -}}
 {{- $out := slice -}}
 {{- range $entry := .bracket.matches -}}
   {{- $red := "" -}}{{- $blue := "" -}}

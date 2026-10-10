@@ -1,0 +1,17 @@
+{{- /*
+  Input: a season id. Output: a dict of that season's match files, keyed by
+  file name (as `hugo.Data.matches.<dir>` keys them), found by each match's own
+  `season` field rather than by its directory -- a season's folder isn't
+  always `season-<id>` (e.g. `data/matches/pre-season-6/`). Call through
+  `partialCached` with the season id as variant.
+*/ -}}
+{{- $sid := printf "%v" . -}}
+{{- $result := dict -}}
+{{- range $dir, $matchesInDir := hugo.Data.matches -}}
+  {{- range $key, $match := $matchesInDir -}}
+    {{- if eq (printf "%v" $match.season) $sid -}}
+      {{- $result = merge $result (dict $key $match) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}
