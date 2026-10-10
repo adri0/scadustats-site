@@ -1,0 +1,20 @@
+id: cave_3
+text: Complete 3 cave or grotto dungeons
+game_type: base
+num_matches: 1
+matches:
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: star0chris
+  marks: 1
+mark_times_s:
+- 767
+median_mark_time_s: 767.0
+claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 767
+  slug: star0chris

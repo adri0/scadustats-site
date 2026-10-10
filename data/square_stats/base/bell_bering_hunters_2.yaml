@@ -1,19 +1,27 @@
 id: bell_bering_hunters_2
 text: Kill 2 Bell Bearing Hunters
 game_type: base
-num_matches: 1
+num_matches: 2
 matches:
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 1
-games_marked: 1
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 2
+games_marked: 2
 mark_rate: 1.0
 top_players:
 - slug: romainjacques
   marks: 1
+- slug: star0chris
+  marks: 1
 mark_times_s:
+- 1791
 - 2366
-median_mark_time_s: 2366.0
+median_mark_time_s: 2078.5
 claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 1791
+  slug: star0chris
 - match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
   game_index: 1
   time_s: 2366

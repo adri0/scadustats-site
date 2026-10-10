@@ -1,7 +1,7 @@
 id: morgott_great_rune
 text: Restore Morgott's Great Rune
 game_type: base
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -14,9 +14,10 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 11
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 12
 games_marked: 4
-mark_rate: 0.3636
+mark_rate: 0.3333
 top_players:
 - slug: vswed
   marks: 3

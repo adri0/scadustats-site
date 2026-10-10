@@ -1,19 +1,27 @@
 id: omenkiller_1
 text: Kill 1 Omenkiller Boss
 game_type: base
-num_matches: 1
+num_matches: 2
 matches:
 - 2026-08-07-Vswed-vs-Grey
-num_games: 1
-games_marked: 1
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 2
+games_marked: 2
 mark_rate: 1.0
 top_players:
 - slug: grey
   marks: 1
+- slug: star0chris
+  marks: 1
 mark_times_s:
+- 578
 - 1614
-median_mark_time_s: 1614.0
+median_mark_time_s: 1096.0
 claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 578
+  slug: star0chris
 - match_id: 2026-08-07-Vswed-vs-Grey
   game_index: 1
   time_s: 1614

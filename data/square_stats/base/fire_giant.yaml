@@ -1,7 +1,7 @@
 id: fire_giant
 text: Kill Fire Giant
 game_type: base
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -14,9 +14,10 @@ matches:
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 11
-games_marked: 5
-mark_rate: 0.4545
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 12
+games_marked: 6
+mark_rate: 0.5
 top_players:
 - slug: seriouschallenges
   marks: 2
@@ -24,16 +25,23 @@ top_players:
   marks: 1
 - slug: romainjacques
   marks: 1
+- slug: star0chris
+  marks: 1
 - slug: vswed
   marks: 1
 mark_times_s:
+- 3974
 - 4060
 - 4459
 - 4475
 - 4494
 - 5401
-median_mark_time_s: 4475.0
+median_mark_time_s: 4467.0
 claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 3
+  time_s: 3974
+  slug: star0chris
 - match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
   game_index: 1
   time_s: 4060

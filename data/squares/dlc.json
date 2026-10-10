@@ -15,6 +15,16 @@
     "game_type": "dlc"
   },
   {
+    "id": "ancient",
+    "text": "Kill Ancient Dragon Man Boss",
+    "game_type": "dlc"
+  },
+  {
+    "id": "base",
+    "text": "Kill a Base Game Boss in DLC",
+    "game_type": "dlc"
+  },
+  {
     "id": "base_game_boss_1",
     "text": "Kill 1 Unique Base Game Boss in the DLC",
     "game_type": "dlc"
@@ -55,6 +65,16 @@
     "game_type": "dlc"
   },
   {
+    "id": "bols",
+    "text": "Kill Bols in front of Castle Ensis",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_3",
+    "text": "Kill a boss after inflicting 3 different status effects",
+    "game_type": "dlc"
+  },
+  {
     "id": "boss_incantations_only",
     "text": "Kill a Boss with Incantations Only",
     "game_type": "dlc"
@@ -77,6 +97,11 @@
   {
     "id": "catacombs_2",
     "text": "Complete 2 Catacombs",
+    "game_type": "dlc"
+  },
+  {
+    "id": "clear_2",
+    "text": "Clear 2 Gaols",
     "game_type": "dlc"
   },
   {
@@ -132,6 +157,11 @@
   {
     "id": "devonia",
     "text": "Kill Crucible Knight Devonia",
+    "game_type": "dlc"
+  },
+  {
+    "id": "devonia_2",
+    "text": "Kill Devonia",
     "game_type": "dlc"
   },
   {
@@ -262,6 +292,11 @@
   {
     "id": "hanging_pots_3",
     "text": "Acquire 3 Hanging Pot Bell Bearings",
+    "game_type": "dlc"
+  },
+  {
+    "id": "have",
+    "text": "Have St. Trina talk to you",
     "game_type": "dlc"
   },
   {
@@ -400,6 +435,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "midra_2",
+    "text": "Kill Midra, Lord of Frenzied Flame",
+    "game_type": "dlc"
+  },
+  {
     "id": "mog_500k",
     "text": "Memory of Grace with 500k+ Runes",
     "game_type": "dlc"
@@ -407,6 +447,11 @@
   {
     "id": "moonrithyll",
     "text": "Kill Moonrithyll, Carian Knight",
+    "game_type": "dlc"
+  },
+  {
+    "id": "moore",
+    "text": "Acquire Moore Armor set",
     "game_type": "dlc"
   },
   {
@@ -485,6 +530,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "perfumed",
+    "text": "Acquire the Perfumed Oil of Ranah",
+    "game_type": "dlc"
+  },
+  {
     "id": "pk",
     "text": "Kill Putrescent Knight",
     "game_type": "dlc"
@@ -497,6 +547,11 @@
   {
     "id": "rakshasa",
     "text": "Kill Rakshasa",
+    "game_type": "dlc"
+  },
+  {
+    "id": "reach_80",
+    "text": "Reach Level 80",
     "game_type": "dlc"
   },
   {
@@ -542,6 +597,11 @@
   {
     "id": "scadu_10",
     "text": "Level 10 Scadu",
+    "game_type": "dlc"
+  },
+  {
+    "id": "scadu_10_2",
+    "text": "Acquire Level 10 Scadu",
     "game_type": "dlc"
   },
   {

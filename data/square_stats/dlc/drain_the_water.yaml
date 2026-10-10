@@ -1,7 +1,7 @@
 id: drain_the_water
 text: Drain the Water in the Church District
 game_type: dlc
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-01-Vswed-vs-Raydans
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -12,8 +12,9 @@ matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 9
-games_marked: 9
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 10
+games_marked: 10
 mark_rate: 1.0
 top_players:
 - slug: nuclearpastatom
@@ -33,10 +34,11 @@ mark_times_s:
 - 503
 - 580
 - 582
+- 606
 - 751
 - 839
 - 1074
-median_mark_time_s: 580.0
+median_mark_time_s: 581.0
 claims:
 - match_id: 2026-08-24-Gustaf-vs-RomainJacques
   game_index: 2
@@ -62,6 +64,10 @@ claims:
   game_index: 2
   time_s: 582
   slug: twistiet
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 606
+  slug: star0chris
 - match_id: 2026-07-19-Raydans-vs-Parkenharbor
   game_index: 2
   time_s: 751

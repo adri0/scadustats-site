@@ -1,26 +1,30 @@
 id: shackles
 text: Acquire Margit's and Mohg's Shackles
 game_type: base
-num_matches: 5
+num_matches: 6
 matches:
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-25-TwistieT-vs-Grey
-num_games: 5
-games_marked: 3
-mark_rate: 0.6
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 6
+games_marked: 4
+mark_rate: 0.6667
 top_players:
 - slug: nuclearpastatom
   marks: 2
 - slug: ironyeu
   marks: 1
+- slug: star0chris
+  marks: 1
 mark_times_s:
 - 3021
 - 3245
 - 4168
-median_mark_time_s: 3245.0
+- 5195
+median_mark_time_s: 3706.5
 claims:
 - match_id: 2026-08-08-Ironyeu-vs-LilAggy
   game_index: 1
@@ -34,3 +38,7 @@ claims:
   game_index: 1
   time_s: 4168
   slug: nuclearpastatom
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 5195
+  slug: star0chris

@@ -45,6 +45,11 @@
     "game_type": "base"
   },
   {
+    "id": "arcane_30_2",
+    "text": "30 Arcane (no rebirth or buffs)",
+    "game_type": "base"
+  },
+  {
     "id": "bbk",
     "text": "Kill a Black Blade Kindred",
     "game_type": "base"
@@ -80,6 +85,11 @@
     "game_type": "base"
   },
   {
+    "id": "bloodhound",
+    "text": "Kill Bloodhound Knight while summoning Blaidd",
+    "game_type": "base"
+  },
+  {
     "id": "blueretta",
     "text": "Kill Loretta (Blue Spirit)",
     "game_type": "base"
@@ -92,6 +102,11 @@
   {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "buy_20",
+    "text": "Buy 20 Boiled Crab from Boggart",
     "game_type": "base"
   },
   {
@@ -112,6 +127,16 @@
   {
     "id": "catacombs_3",
     "text": "Complete 3 Catacombs",
+    "game_type": "base"
+  },
+  {
+    "id": "cave_2",
+    "text": "Complete 2 cave or grotto dungeons",
+    "game_type": "base"
+  },
+  {
+    "id": "cave_3",
+    "text": "Complete 3 cave or grotto dungeons",
     "game_type": "base"
   },
   {
@@ -222,6 +247,11 @@
   {
     "id": "duo_trio_3",
     "text": "Kill 3 Duo/Trio Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "dupe",
+    "text": "Dupe a Remembrance at a Mausoleum",
     "game_type": "base"
   },
   {
@@ -435,6 +465,11 @@
     "game_type": "base"
   },
   {
+    "id": "learn_14",
+    "text": "Learn 14 different incantations",
+    "game_type": "base"
+  },
+  {
     "id": "legendary_talismans_3",
     "text": "Acquire 3 Legendary Talismans",
     "game_type": "base"
@@ -560,6 +595,11 @@
     "game_type": "base"
   },
   {
+    "id": "milicent",
+    "text": "Kill the Milicent invader in Caelid",
+    "game_type": "base"
+  },
+  {
     "id": "millicent_arm",
     "text": "Give Millicent her Prosthetic Arm",
     "game_type": "base"
@@ -650,6 +690,11 @@
     "game_type": "base"
   },
   {
+    "id": "painting_3",
+    "text": "Collect 3 Painting rewards",
+    "game_type": "base"
+  },
+  {
     "id": "painting_rewards_3",
     "text": "Acquire 3 Painting Rewards",
     "game_type": "base"
@@ -667,6 +712,11 @@
   {
     "id": "radahn_no_status",
     "text": "Kill Radahn without Status Effects and Summons",
+    "game_type": "base"
+  },
+  {
+    "id": "red_3",
+    "text": "Kill 3 Red Wolves",
     "game_type": "base"
   },
   {
@@ -717,6 +767,11 @@
   {
     "id": "rykard_great_rune",
     "text": "Restore Rykard's Great Rune",
+    "game_type": "base"
+  },
+  {
+    "id": "sacred_7",
+    "text": "Sacred Flask +7",
     "game_type": "base"
   },
   {
@@ -775,6 +830,11 @@
     "game_type": "base"
   },
   {
+    "id": "spirit_4",
+    "text": "Spirit Ash +4 summon",
+    "game_type": "base"
+  },
+  {
     "id": "staves_6",
     "text": "Acquire 6 Unique Staves",
     "game_type": "base"
@@ -802,6 +862,11 @@
   {
     "id": "tibia_4",
     "text": "Kill 4 Unique Tibia Mariners",
+    "game_type": "base"
+  },
+  {
+    "id": "tree_3",
+    "text": "Kill 3 Tree spirits",
     "game_type": "base"
   },
   {
@@ -850,6 +915,11 @@
     "game_type": "base"
   },
   {
+    "id": "watchdogs_2",
+    "text": "Kill 2 Watchdogs",
+    "game_type": "base"
+  },
+  {
     "id": "watchdogs_3",
     "text": "Kill 3 Unique Watchdogs",
     "game_type": "base"
@@ -857,6 +927,11 @@
   {
     "id": "watchdogs_4",
     "text": "Kill 4 Unique Watchdogs",
+    "game_type": "base"
+  },
+  {
+    "id": "watchdogs_4_2",
+    "text": "Kill 4 Watchdogs",
     "game_type": "base"
   },
   {

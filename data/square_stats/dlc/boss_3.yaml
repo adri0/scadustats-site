@@ -1,0 +1,20 @@
+id: boss_3
+text: Kill a boss after inflicting 3 different status effects
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: itzcbd
+  marks: 1
+mark_times_s:
+- 1256
+median_mark_time_s: 1256.0
+claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 1256
+  slug: itzcbd

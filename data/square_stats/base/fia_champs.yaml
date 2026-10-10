@@ -1,7 +1,7 @@
 id: fia_champs
 text: Kill Fia's Champions
 game_type: base
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -12,9 +12,10 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 9
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 10
 games_marked: 2
-mark_rate: 0.2222
+mark_rate: 0.2
 top_players:
 - slug: blanxz
   marks: 2

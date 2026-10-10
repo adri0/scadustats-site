@@ -1,7 +1,7 @@
 id: iris_occultation
 text: Give an Iris of Occultation
 game_type: dlc
-num_matches: 13
+num_matches: 14
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -16,9 +16,10 @@ matches:
 - 2026-08-07-Vswed-vs-Grey
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 13
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 14
 games_marked: 11
-mark_rate: 0.8462
+mark_rate: 0.7857
 top_players:
 - slug: lilaggy
   marks: 2

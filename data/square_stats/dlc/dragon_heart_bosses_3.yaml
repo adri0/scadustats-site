@@ -1,7 +1,7 @@
 id: dragon_heart_bosses_3
 text: Kill 3 Dragon Bosses
 game_type: dlc
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-08-15-blanxz-vs-SeriousChallenges
@@ -10,9 +10,10 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 7
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 8
 games_marked: 4
-mark_rate: 0.5714
+mark_rate: 0.5
 top_players:
 - slug: blanxz
   marks: 1

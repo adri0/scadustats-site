@@ -1,0 +1,20 @@
+id: sacred_7
+text: Sacred Flask +7
+game_type: base
+num_matches: 1
+matches:
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: star0chris
+  marks: 1
+mark_times_s:
+- 4453
+median_mark_time_s: 4453.0
+claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 4453
+  slug: star0chris

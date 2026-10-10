@@ -1,7 +1,7 @@
 id: npc_invaders_3
 text: Kill 3 Unique NPC Invaders
 game_type: dlc
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-03-LilAggy-vs-Grey
@@ -15,9 +15,10 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 12
-games_marked: 10
-mark_rate: 0.8333
+- 2026-04-28-star0chris-vs-itzCBD
+num_games: 13
+games_marked: 11
+mark_rate: 0.8462
 top_players:
 - slug: romainjacques
   marks: 2
@@ -25,11 +26,12 @@ top_players:
   marks: 1
 - slug: grey
   marks: 1
+- slug: itzcbd
+  marks: 1
 - slug: lilaggy
   marks: 1
-- slug: nuclearpastatom
-  marks: 1
 mark_times_s:
+- 1175
 - 1456
 - 1543
 - 2255
@@ -40,8 +42,12 @@ mark_times_s:
 - 3606
 - 3705
 - 4136
-median_mark_time_s: 2593.5
+median_mark_time_s: 2543.0
 claims:
+- match_id: 2026-04-28-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 1175
+  slug: itzcbd
 - match_id: 2026-07-24-blanxz-vs-Parkenharbor
   game_index: 2
   time_s: 1456
