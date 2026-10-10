@@ -1,9 +1,0 @@
-{
- "compilerOptions": {
-  "paths": {
-   "*": [
-    "../themes/kopi/assets/*"
-   ]
-  }
- }
-}

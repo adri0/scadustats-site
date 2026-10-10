@@ -7,9 +7,9 @@ A Hugo static site for a fan-made website (wiki-style) for Elden Ring Bingo Braw
 There is no package manifest and no test suite; `hugo` builds the site and `hugo server` 
 serves it locally. Everything under `public/` is build output.
 
-The site is themed with [kopi](https://github.com/bect/kopi), a git submodule at `themes/kopi` —
-a fresh clone needs `git submodule update --init` before it will build, and Hugo **Extended**
-(>= 0.157) is required, because the theme's CSS is SCSS.
+There is no theme: the styles and scripts it needs started from [kopi](https://github.com/bect/kopi)
+and are copied into the repo (see "Styles and scripts" below). Hugo **Extended** (>= 0.157) is
+required, because the CSS is SCSS.
 
 Pages are generated from data files, which is a mix from JSON and Markdown: each section in `content/` has a
 `_content.gotmpl` content adapter that reads `data/` and calls `.AddPage`. The only hand-written
@@ -145,37 +145,40 @@ Layouts use Hugo's current names: `layouts/baseof.html`, `layouts/home.html`, `l
 - `lib/square-index.html`, `lib/square-stats.html` and `lib/mark-time-axis.html` scan all data and must be called through
   `partialCached` with a constant variant (`""`).
 
-## Theme: `themes/kopi`
+## Styles and scripts
 
-`hugo.toml` imports the theme through `[[module.imports]]` (not `theme = "kopi"`) so its mounts can
-be chosen: only `layouts`, `assets`, `static` and `i18n` are mounted. The theme's own `content/`
-(a demo home page plus `/search/` and `/library/`) and `data/radio.yaml` are left unmounted.
+The site started from the [kopi](https://github.com/bect/kopi) theme (MIT, `LICENSES/kopi.txt`).
+It is no longer a theme or a submodule: only the parts in use were copied in, and they're edited
+in place like any other file.
 
-Anything the project puts at the same path wins, which is how the theme is trimmed:
+- `assets/css/kopi/` — kopi's SCSS partials (tokens, reset, layout, header, components, tables,
+  widgets…), imported first by `assets/css/main.scss`; our own
+  `assets/css/partials/_scadu.scss` (boards, scoreboards, stat tiles, tables) comes last.
+- `assets/js/kopi/` — kopi's navigation, interactions (+ toast) and link-prefetch modules.
+  `assets/js/modules/` is ours: `theme.js` (the toggle only), `spoilers.js`, `sortable-tables.js`.
+- `assets/js/vendor/turbo.es2017-umd.js` — Hotwire Turbo 8.0.20, byte-identical to the npm
+  release (its banner says 8.0.19; upstream's banner lags a version). Don't edit it.
+- `layouts/404.html` and `static/favicon.ico` — kopi's, unchanged.
 
-- `layouts/baseof.html` — the theme's, minus the Mermaid bootstrap, with `data-theme="dark"` on
+The layouts were adapted from kopi's and say so in their header comment. Notably:
+
+- `layouts/baseof.html` — kopi's, minus the Mermaid bootstrap, with `data-theme="dark"` on
   `<html>`. The site is dark by default: the inline script in `head.html` only switches to light when
   `localStorage.theme` is `"light"` (set by the toggle), and the OS colour scheme is ignored.
-- `_partials/head.html` — no PWA manifest, no service worker, no blog JSON-LD, no `@params`;
-  adds the Google Fonts (Cinzel, EB Garamond) and a favicon resized from `assets/images/logo.png`.
-- `_partials/header.html` — no Library (bookmarks) icon; the dark-mode toggle stays; the brand is
+- `_partials/head.html` — no PWA manifest, no service worker, no blog JSON-LD; adds the Google
+  Fonts (Cinzel, EB Garamond) and a favicon resized from `assets/images/logo.png`.
+- `_partials/header.html` — the dark-mode toggle stays; the brand is
   the Scadutree Fragment (`assets/images/logo.png`) plus the Bingo Brawlers wordmark
   (`assets/images/bingo-brawlers.png`, background removed, also the home hero) and
   `params.subtitle`. The wordmark is white, so `.brand-wordmark` inverts it in light mode.
-- `_partials/footer.html` — no cookie banner, no placeholder social links.
-- `_partials/sidebar.html` — league stat widgets instead of search/radio/tags/newsletter.
-- `assets/js/main.js` — imports only the navigation, theme, interactions and prefetch modules, so
-  search, the radio player, bookmarks and the service worker never reach the bundle.
-- `assets/js/modules/theme.js` — the toggle only; kopi's `prefers-color-scheme` listener is dropped.
-- `assets/css/main.scss` — the theme's partials minus `radio` and `search`, plus our own
-  `assets/css/partials/_scadu.scss` (boards, scoreboards, stat tiles, tables) last.
+- `_partials/sidebar.html` — league stat widgets.
 
-Re-enabling a theme feature means restoring its import/partial *and* whatever config it needs
-(kopi's README documents the radio `outputFormats`, and search needs a JSON output plus a
-`content/search.md`). Taxonomies are disabled in `hugo.toml` (`[taxonomies]` with no entries):
-pages come from `data/`, not front matter, so tags/categories pages would be empty.
+kopi's search, radio player, bookmarks/library, PWA/service worker, cookie banner, taxonomy
+pages and Markdown render hooks were not copied. Taxonomies are disabled in `hugo.toml`
+(`[taxonomies]` with no entries): pages come from `data/`, not front matter, so tags/categories
+pages would be empty.
 
-`_scadu.scss` styles everything with the theme's tokens (`--bg-body`, `--text-main`,
+`_scadu.scss` styles everything with kopi's tokens (`assets/css/kopi/_variables.scss`: `--bg-body`, `--text-main`,
 `--text-muted`, `--accent`, `--border`, `--radius-*`), and re-points those tokens at an Elden Ring
 palette (parchment/umber in light mode, ash-black/gold in dark). On top it adds only `--red`/`--blue`
 (the two players), `--surface*` and `--gold-soft`/`--gold-glow`, each with a dark-mode value so

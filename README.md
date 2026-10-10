@@ -6,13 +6,18 @@ It includes match history, player records, and square stats for the Elden Ring B
 
 ## Building
 
-Requires Hugo **Extended** >= 0.157 (the theme's CSS is SCSS). On a fresh clone, fetch the
-theme submodule first:
+Requires Hugo **Extended** >= 0.157 (the CSS is SCSS). There are no other dependencies:
 
 ```
-git submodule update --init
 hugo server
 ```
+
+## Credits
+
+The look started from the [kopi](https://github.com/bect/kopi) Hugo theme. The parts still in use
+are copied into `assets/css/kopi/`, `assets/js/kopi/` and `layouts/404.html`, under kopi's MIT
+license (`LICENSES/kopi.txt`). `assets/js/vendor/` holds [Hotwire Turbo](https://turbo.hotwired.dev/)
+8.0.20 (MIT, © 37signals), unmodified from its npm release.
 
 ## Populating `data/`
 
