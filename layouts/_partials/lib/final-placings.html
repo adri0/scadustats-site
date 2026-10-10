@@ -13,8 +13,8 @@
   Players still in a bracket that isn't finished get no placing.
 */ -}}
 {{- $sid := printf "%v" . -}}
-{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $sid) -}}
-{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%s" $sid) -}}
+{{- $bracket := partial "lib/season-file.html" (dict "kind" "brackets" "season_id" $sid) -}}
+{{- $groupsCfg := partial "lib/season-file.html" (dict "kind" "groups" "season_id" $sid) -}}
 
 {{- /* Tiers best first, each {slugs}; everyone in a tier shares a placing.
        (Dicts, because append flattens a slice of slices.) */ -}}

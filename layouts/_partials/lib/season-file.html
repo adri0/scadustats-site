@@ -1,0 +1,9 @@
+{{- /*
+  Input: dict {kind ("brackets" or "groups"), season_id}. Output: that
+  season's hand-curated data/<kind>/ entry, named either `<id>.yaml` (e.g.
+  data/brackets/pre-season-6.yaml) or `season-<id>.yaml` (e.g.
+  data/brackets/season-6.yaml); "" when there's none.
+*/ -}}
+{{- $sid := printf "%v" .season_id -}}
+{{- $files := index hugo.Data .kind | default dict -}}
+{{- return (index $files $sid | default (index $files (printf "season-%s" $sid)) | default "") -}}

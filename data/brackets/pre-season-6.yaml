@@ -1,0 +1,27 @@
+# Hand-curated bracket for pre-season 6 (six players). Rendered as an SVG
+# diagram on the season page by _partials/season-bracket.html; see
+# data/brackets/season-6.yaml for the field reference. `bracket: playoffs` is
+# a section of its own, drawn above the upper bracket.
+#
+# Matches follow the VOD playlist (videos 161-169):
+# - Play-offs (161-163): the three losers go to the lower bracket.
+# - Upper bracket: of the three play-off winners, the two with the fewest
+#   points play each other (165); the winner meets the one with the most
+#   points in the Grand Final (168), and the loser drops to the lower bracket.
+# - Lower bracket (164, 166, 167), ending in the Lower Final (169) against the
+#   Grand Final's loser, which decides third place.
+# Play-off winners are seeded by points, so play-off matches have no `next`.
+# Matches without a transcribed VOD list their players only; scores and
+# winners appear once the match file exists (set `match:`) or scores are
+# entered by hand.
+title: Play-offs and double elimination
+matches:
+  - { id: 1, label: Match 1, bracket: playoffs, col: 0, row: 0, date: "2026-04-24", match: 2026-04-24-star0chris-vs-itzCBD }
+  - { id: 2, label: Match 2, bracket: playoffs, col: 1, row: 0, red: blanxz, blue: pepeJack_tv }
+  - { id: 3, label: Match 3, bracket: playoffs, col: 2, row: 0, red: NuclearPastaTom, blue: nessonetta }
+  - { id: 5, label: Match 5, bracket: upper, col: 0, row: 1.25, next: 8, red: star0chris, blue: blanxz }
+  - { id: 8, label: Grand Final, bracket: final, col: 2, row: 1.25, red: NuclearPastaTom, blue: blanxz }
+  - { id: 4, label: Match 4, bracket: lower, col: 0, row: 2.5, next: 7, red: itzCBD, blue: pepeJack_tv }
+  - { id: 6, label: Match 6, bracket: lower, col: 0, row: 3.5, next: 7, red: star0chris, blue: nessonetta }
+  - { id: 7, label: Match 7, bracket: lower, col: 1, row: 3, next: 9, red: star0chris, blue: itzCBD }
+  - { id: 9, label: Lower Final, bracket: lower, col: 2, row: 3, red: star0chris, blue: blanxz }
