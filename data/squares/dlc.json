@@ -157,12 +157,10 @@
   {
     "id": "devonia",
     "text": "Kill Crucible Knight Devonia",
-    "game_type": "dlc"
-  },
-  {
-    "id": "devonia_2",
-    "text": "Kill Devonia",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Devonia"
+    ]
   },
   {
     "id": "divine_bird_1",
@@ -432,12 +430,10 @@
   {
     "id": "midra",
     "text": "Kill Midra",
-    "game_type": "dlc"
-  },
-  {
-    "id": "midra_2",
-    "text": "Kill Midra, Lord of Frenzied Flame",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Midra, Lord of Frenzied Flame"
+    ]
   },
   {
     "id": "mog_500k",
@@ -597,12 +593,10 @@
   {
     "id": "scadu_10",
     "text": "Level 10 Scadu",
-    "game_type": "dlc"
-  },
-  {
-    "id": "scadu_10_2",
-    "text": "Acquire Level 10 Scadu",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Level 10 Scadu"
+    ]
   },
   {
     "id": "scadu_11",

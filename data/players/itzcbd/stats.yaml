@@ -20,7 +20,7 @@ all_matches:
 top_squares_base_game:
 - text: Kill Commander O'Neil
   marks: 2
-- text: 30 Arcane (no rebirth or buffs)
+- text: 30 Arcane
   marks: 1
 - text: Acquire Somberstone Bell Bearing [1] and [2]
   marks: 1

@@ -1,6 +1,9 @@
 {{- /*
   Output: a dict keyed by normalized square text (lowercase, alphanumerics only)
-  -> {id, text, game_type}, built from every file under `data/squares/`.
+  -> {id, text, game_type}, built from every file under `data/squares/`. A
+  square's `aliases` (other wordings of the same goal seen on other broadcasts,
+  e.g. "Kill Midra, Lord of Frenzied Flame" for "Kill Midra") are keyed too,
+  pointing at the same entry, so `text` is always the canonical wording.
 
   Normalizing on text rather than id is what makes the catalog usable: match
   events carry only `square_text`, transcribed per VOD, so the same goal shows
@@ -10,12 +13,12 @@
 {{- $index := dict -}}
 {{- range $file, $squares := hugo.Data.squares -}}
   {{- range $squares -}}
-    {{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" .text) -}}
-    {{- if and $key (not (index $index $key)) -}}
-      {{- $index = merge $index (dict $key (dict
-          "id" .id
-          "text" .text
-          "game_type" (.game_type | default $file))) -}}
+    {{- $entry := dict "id" .id "text" .text "game_type" (.game_type | default $file) -}}
+    {{- range (slice .text | append (.aliases | default slice)) -}}
+      {{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" .) -}}
+      {{- if and $key (not (index $index $key)) -}}
+        {{- $index = merge $index (dict $key $entry) -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}

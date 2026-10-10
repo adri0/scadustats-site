@@ -1,7 +1,7 @@
 id: devonia
 text: Kill Crucible Knight Devonia
 game_type: dlc
-num_matches: 19
+num_matches: 20
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -22,9 +22,10 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 19
-games_marked: 18
-mark_rate: 0.9474
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 20
+games_marked: 19
+mark_rate: 0.95
 top_players:
 - slug: blanxz
   marks: 3
@@ -55,7 +56,8 @@ mark_times_s:
 - 2320
 - 2493
 - 2512
-median_mark_time_s: 2099.0
+- 2686
+median_mark_time_s: 2102.0
 claims:
 - match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
   game_index: 2
@@ -129,3 +131,7 @@ claims:
   game_index: 2
   time_s: 2512
   slug: grey
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 2686
+  slug: star0chris

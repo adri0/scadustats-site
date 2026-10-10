@@ -18,24 +18,24 @@ game_type_records:
 all_matches:
 - 2026-04-24-star0chris-vs-itzCBD
 top_squares_base_game:
-- text: 30 Arcane (no rebirth or buffs)
+- text: 30 Arcane
   marks: 3
+- text: Acquire 3 Painting Rewards
+  marks: 1
 - text: Acquire Margit's and Mohg's Shackles
+  marks: 1
+- text: Acquire Sacred Flask +7
   marks: 1
 - text: Acquire the Moon of Nokstella
   marks: 1
-- text: Buy 20 Boiled Crab from Boggart
-  marks: 1
-- text: Collect 3 Painting rewards
-  marks: 1
 top_squares_dlc:
 - text: Acquire 3 Blessings of Marika
-  marks: 1
-- text: Acquire Level 10 Scadu
   marks: 1
 - text: Acquire Moore Armor set
   marks: 1
 - text: Clear 2 Gaols
   marks: 1
 - text: Drain the Water in the Church District
+  marks: 1
+- text: Kill Bols in front of Castle Ensis
   marks: 1
