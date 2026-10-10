@@ -1,7 +1,7 @@
 id: friendly_npcs_3
 text: Kill 3 Friendly NPCs (No Hermit Merchants)
 game_type: base
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-16-Raydans-vs-LilAggy
@@ -10,21 +10,23 @@ matches:
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-25-TwistieT-vs-Grey
-num_games: 7
-games_marked: 7
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 8
+games_marked: 8
 mark_rate: 1.0
 top_players:
 - slug: blanxz
   marks: 3
 - slug: gustaf
   marks: 1
+- slug: itzcbd
+  marks: 1
 - slug: raydans
   marks: 1
 - slug: seriouschallenges
   marks: 1
-- slug: twistiet
-  marks: 1
 mark_times_s:
+- 304
 - 372
 - 481
 - 685
@@ -32,8 +34,12 @@ mark_times_s:
 - 797
 - 850
 - 1310
-median_mark_time_s: 728.0
+median_mark_time_s: 706.5
 claims:
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 304
+  slug: itzcbd
 - match_id: 2026-08-16-Raydans-vs-LilAggy
   game_index: 1
   time_s: 372

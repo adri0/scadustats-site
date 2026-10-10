@@ -1,20 +1,23 @@
 id: evergaols_2
 text: Complete 2 Evergaols
 game_type: base
-num_matches: 5
+num_matches: 6
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-Gustaf-vs-Grey
-num_games: 5
-games_marked: 5
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 6
+games_marked: 6
 mark_rate: 1.0
 top_players:
 - slug: seriouschallenges
   marks: 2
 - slug: grey
+  marks: 1
+- slug: itzcbd
   marks: 1
 - slug: nuclearpastatom
   marks: 1
@@ -26,7 +29,8 @@ mark_times_s:
 - 1129
 - 1966
 - 1987
-median_mark_time_s: 1129.0
+- 3036
+median_mark_time_s: 1547.5
 claims:
 - match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
   game_index: 1
@@ -48,3 +52,7 @@ claims:
   game_index: 1
   time_s: 1987
   slug: nuclearpastatom
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 3036
+  slug: itzcbd

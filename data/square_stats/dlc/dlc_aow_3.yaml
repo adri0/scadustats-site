@@ -1,7 +1,7 @@
 id: dlc_aow_3
 text: Acquire 3 DLC Ashes of War
 game_type: dlc
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -15,8 +15,9 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 13
-games_marked: 13
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 14
+games_marked: 14
 mark_rate: 1.0
 top_players:
 - slug: seriouschallenges
@@ -35,6 +36,7 @@ mark_times_s:
 - 591
 - 607
 - 694
+- 783
 - 801
 - 829
 - 847
@@ -43,7 +45,7 @@ mark_times_s:
 - 1117
 - 1268
 - 1442
-median_mark_time_s: 829.0
+median_mark_time_s: 815.0
 claims:
 - match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
   game_index: 3
@@ -65,6 +67,10 @@ claims:
   game_index: 2
   time_s: 694
   slug: nuclearpastatom
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 783
+  slug: itzcbd
 - match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
   game_index: 2
   time_s: 801

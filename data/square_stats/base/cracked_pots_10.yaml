@@ -1,7 +1,7 @@
 id: cracked_pots_10
 text: Acquire 10 Cracked Pots
 game_type: base
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-09-03-LilAggy-vs-Grey
 - 2026-09-01-Vswed-vs-Raydans
@@ -10,19 +10,20 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 7
-games_marked: 7
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 8
+games_marked: 8
 mark_rate: 1.0
 top_players:
 - slug: lilaggy
   marks: 2
 - slug: ironyeu
   marks: 1
+- slug: itzcbd
+  marks: 1
 - slug: nuclearpastatom
   marks: 1
 - slug: raydans
-  marks: 1
-- slug: romainjacques
   marks: 1
 mark_times_s:
 - 345
@@ -31,8 +32,9 @@ mark_times_s:
 - 592
 - 620
 - 817
+- 897
 - 1467
-median_mark_time_s: 592.0
+median_mark_time_s: 606.0
 claims:
 - match_id: 2026-09-03-LilAggy-vs-Grey
   game_index: 1
@@ -58,6 +60,10 @@ claims:
   game_index: 1
   time_s: 817
   slug: ironyeu
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 897
+  slug: itzcbd
 - match_id: 2026-08-02-Vswed-vs-RomainJacques
   game_index: 1
   time_s: 1467

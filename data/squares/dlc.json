@@ -36,6 +36,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "bayle_igon",
+    "text": "Kill Bayle while summoning Igon",
+    "game_type": "dlc"
+  },
+  {
     "id": "bear_lion_hippo",
     "text": "Kill 1 Boss of each: Bear / Lion / Hippo",
     "game_type": "dlc"
@@ -169,11 +174,19 @@
   {
     "id": "dlc_armor_sets_2",
     "text": "Acquire 2 Full DLC Armor Sets",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Collect 2 DLC full armor sets"
+    ]
   },
   {
     "id": "dlc_armor_sets_3",
     "text": "Acquire 3 Full DLC Armor Sets",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dlc_legendary_ashes_2",
+    "text": "Acquire 2 DLC Legendary Ash Summon",
     "game_type": "dlc"
   },
   {
@@ -199,6 +212,11 @@
   {
     "id": "dropped_talisman_3",
     "text": "Acquire 3 Enemy/NPC Dropped Talismans",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dryleaf_dane",
+    "text": "Kill Dryleaf Dane in the Duel",
     "game_type": "dlc"
   },
   {
@@ -290,6 +308,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "horned_warriors_2",
+    "text": "Kill 2 Unique Horned Warriors",
+    "game_type": "dlc"
+  },
+  {
     "id": "horned_warriors_3",
     "text": "Kill 3 Unique Horned Warriors",
     "game_type": "dlc"
@@ -360,6 +383,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "larval_tears_3",
+    "text": "Acquire 3 Larval tears",
+    "game_type": "dlc"
+  },
+  {
     "id": "leda_allies",
     "text": "Kill Leda and her Allies",
     "game_type": "dlc"
@@ -377,7 +405,10 @@
   {
     "id": "madding_hand",
     "text": "Kill Madding Hand",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill the Madding Hand NPC"
+    ]
   },
   {
     "id": "mask_helm_hood",
@@ -412,7 +443,10 @@
   {
     "id": "metyr",
     "text": "Kill Metyr",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Metyr, Mother of Fingers"
+    ]
   },
   {
     "id": "midra",
@@ -455,6 +489,11 @@
   {
     "id": "nameless_4",
     "text": "Complete all 4 Nameless Mausoleums",
+    "game_type": "dlc"
+  },
+  {
+    "id": "non_merchant_incantations_3",
+    "text": "Acquire 3 Non-Merchant incantations",
     "game_type": "dlc"
   },
   {
@@ -515,6 +554,11 @@
   {
     "id": "painting_rewards_2",
     "text": "Acquire 2 Painting Rewards",
+    "game_type": "dlc"
+  },
+  {
+    "id": "perfume_bottle_boss",
+    "text": "Kill a boss using a Perfume Bottle only",
     "game_type": "dlc"
   },
   {
@@ -586,7 +630,10 @@
   {
     "id": "scadu_11",
     "text": "Level 11 Scadu",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Level 11 Scadu"
+    ]
   },
   {
     "id": "scadu_9",
@@ -626,7 +673,10 @@
   {
     "id": "swordmaster_1",
     "text": "Kill 1 Demi-Human Swordmaster",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Demi Human Swordsman"
+    ]
   },
   {
     "id": "swordmaster_2",
@@ -636,6 +686,11 @@
   {
     "id": "transformation",
     "text": "Use a Transformation",
+    "game_type": "dlc"
+  },
+  {
+    "id": "tree_sentinel_duo",
+    "text": "Kill the Tree Sentinel Duo",
     "game_type": "dlc"
   },
   {

@@ -1,7 +1,7 @@
 id: gravebird_armor_set
 text: Acquire the Full Gravebird Armor Set
 game_type: dlc
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -9,10 +9,13 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 6
-games_marked: 3
-mark_rate: 0.5
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 7
+games_marked: 4
+mark_rate: 0.5714
 top_players:
+- slug: pepejack
+  marks: 1
 - slug: raydans
   marks: 1
 - slug: romainjacques
@@ -22,8 +25,9 @@ top_players:
 mark_times_s:
 - 3660
 - 4212
+- 4344
 - 4905
-median_mark_time_s: 4212.0
+median_mark_time_s: 4278.0
 claims:
 - match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
   game_index: 3
@@ -33,6 +37,10 @@ claims:
   game_index: 2
   time_s: 4212
   slug: romainjacques
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 4344
+  slug: pepejack
 - match_id: 2026-07-19-Raydans-vs-Parkenharbor
   game_index: 2
   time_s: 4905

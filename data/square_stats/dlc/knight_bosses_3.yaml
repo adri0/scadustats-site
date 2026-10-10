@@ -1,7 +1,7 @@
 id: knight_bosses_3
 text: Kill 3 Bosses with "Knight" in their name
 game_type: dlc
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-09-01-Vswed-vs-Raydans
 - 2026-08-15-blanxz-vs-SeriousChallenges
@@ -11,9 +11,10 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 8
-games_marked: 6
-mark_rate: 0.75
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 9
+games_marked: 7
+mark_rate: 0.7778
 top_players:
 - slug: vswed
   marks: 2
@@ -21,19 +22,24 @@ top_players:
   marks: 1
 - slug: parkenharbor
   marks: 1
+- slug: pepejack
+  marks: 1
 - slug: raydans
   marks: 1
-- slug: seriouschallenges
-  marks: 1
 mark_times_s:
+- 1621
 - 2013
 - 2406
 - 2850
 - 3050
 - 3121
 - 3482
-median_mark_time_s: 2950.0
+median_mark_time_s: 2850.0
 claims:
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 1621
+  slug: pepejack
 - match_id: 2026-09-01-Vswed-vs-Raydans
   game_index: 2
   time_s: 2013

@@ -1,7 +1,7 @@
 id: non_merchant_sorceries_3
 text: Acquire 3 Non-Merchant Sorceries
 game_type: dlc
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-05-blanxz-vs-Vswed
@@ -9,9 +9,10 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 6
-games_marked: 5
-mark_rate: 0.8333
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 7
+games_marked: 6
+mark_rate: 0.8571
 top_players:
 - slug: vswed
   marks: 2
@@ -21,13 +22,16 @@ top_players:
   marks: 1
 - slug: nuclearpastatom
   marks: 1
+- slug: pepejack
+  marks: 1
 mark_times_s:
 - 2252
 - 2710
 - 2711
 - 2721
 - 3463
-median_mark_time_s: 2711.0
+- 3705
+median_mark_time_s: 2716.0
 claims:
 - match_id: 2026-07-18-blanxz-vs-LilAggy
   game_index: 2
@@ -49,3 +53,7 @@ claims:
   game_index: 2
   time_s: 3463
   slug: vswed
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 3705
+  slug: pepejack

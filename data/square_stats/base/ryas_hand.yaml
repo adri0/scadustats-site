@@ -1,7 +1,7 @@
 id: ryas_hand
 text: Take Rya's hand to Volcano Manor
 game_type: base
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-24-Gustaf-vs-RomainJacques
@@ -9,9 +9,10 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-18-Gustaf-vs-Grey
-num_games: 6
-games_marked: 5
-mark_rate: 0.8333
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 7
+games_marked: 6
+mark_rate: 0.8571
 top_players:
 - slug: blanxz
   marks: 2
@@ -19,15 +20,18 @@ top_players:
   marks: 1
 - slug: parkenharbor
   marks: 1
+- slug: pepejack
+  marks: 1
 - slug: romainjacques
   marks: 1
 mark_times_s:
 - 352
 - 354
 - 368
+- 444
 - 600
 - 1462
-median_mark_time_s: 368.0
+median_mark_time_s: 406.0
 claims:
 - match_id: 2026-08-24-Gustaf-vs-RomainJacques
   game_index: 1
@@ -41,6 +45,10 @@ claims:
   game_index: 1
   time_s: 368
   slug: parkenharbor
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 444
+  slug: pepejack
 - match_id: 2026-07-18-blanxz-vs-LilAggy
   game_index: 1
   time_s: 600

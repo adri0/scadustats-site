@@ -1,7 +1,7 @@
 id: rennala_summons_4
 text: Kill Rennala after she Summons 4 Spirits
 game_type: base
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -9,9 +9,10 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-24-blanxz-vs-Parkenharbor
-num_games: 6
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 7
 games_marked: 5
-mark_rate: 0.8333
+mark_rate: 0.7143
 top_players:
 - slug: lilaggy
   marks: 1

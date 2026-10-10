@@ -1,30 +1,38 @@
 id: scadu_11
 text: Level 11 Scadu
 game_type: dlc
-num_matches: 4
+num_matches: 5
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 4
-games_marked: 3
-mark_rate: 0.75
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
 top_players:
 - slug: blanxz
   marks: 2
+- slug: itzcbd
+  marks: 1
 - slug: romainjacques
   marks: 1
 mark_times_s:
 - 2770
+- 2789
 - 3314
 - 3398
-median_mark_time_s: 3314.0
+median_mark_time_s: 3051.5
 claims:
 - match_id: 2026-09-05-blanxz-vs-Vswed
   game_index: 2
   time_s: 2770
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 2789
+  slug: itzcbd
 - match_id: 2026-07-24-blanxz-vs-Parkenharbor
   game_index: 2
   time_s: 3314

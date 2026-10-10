@@ -1,7 +1,7 @@
 id: mohg_lord_of_blood
 text: Kill Mohg, Lord of Blood
 game_type: base
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-05-blanxz-vs-Vswed
@@ -11,9 +11,10 @@ matches:
 - 2026-08-09-TwistieT-vs-RomainJacques
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 8
-games_marked: 6
-mark_rate: 0.75
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 9
+games_marked: 7
+mark_rate: 0.7778
 top_players:
 - slug: romainjacques
   marks: 3
@@ -21,14 +22,17 @@ top_players:
   marks: 2
 - slug: blanxz
   marks: 1
+- slug: pepejack
+  marks: 1
 mark_times_s:
 - 1221
 - 1418
 - 1703
 - 2714
 - 2714
+- 3993
 - 4574
-median_mark_time_s: 2208.5
+median_mark_time_s: 2714.0
 claims:
 - match_id: 2026-08-12-RomainJacques-vs-Grey
   game_index: 1
@@ -50,6 +54,10 @@ claims:
   game_index: 1
   time_s: 2714
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 3993
+  slug: pepejack
 - match_id: 2026-07-18-blanxz-vs-LilAggy
   game_index: 1
   time_s: 4574
