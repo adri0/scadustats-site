@@ -1,15 +1,16 @@
 id: scadu_11
 text: Level 11 Scadu
 game_type: dlc
-num_matches: 4
+num_matches: 5
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 4
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 5
 games_marked: 3
-mark_rate: 0.75
+mark_rate: 0.6
 top_players:
 - slug: blanxz
   marks: 2

@@ -1,0 +1,33 @@
+slug: nessonetta
+display_name: nessonetta
+season_records:
+  pre-season-6:
+    wins: 0
+    losses: 1
+    draws: 0
+game_record:
+  wins: 0
+  losses: 2
+game_type_records:
+  base:
+    wins: 0
+    losses: 1
+  dlc:
+    wins: 0
+    losses: 1
+all_matches:
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+top_squares_base_game:
+- text: Complete 2 Tunnels or Precipices
+  marks: 1
+- text: Kill 1 Magma Wyrm
+  marks: 1
+- text: Kill 10 Sheep with AoW Lightning Ram Only
+  marks: 1
+- text: Kill 3 Dragon Heart Bosses
+  marks: 1
+- text: Kill 5 Bosses in Caelid / Dragonbarrow
+  marks: 1
+top_squares_dlc:
+- text: Kill Bols in front of Castle Ensis
+  marks: 1

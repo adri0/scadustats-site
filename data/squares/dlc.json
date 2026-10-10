@@ -91,7 +91,10 @@
   {
     "id": "catacombs_2",
     "text": "Complete 2 Catacombs",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Clear 2 Catacombs"
+    ]
   },
   {
     "id": "colossal_fingercreeper",
@@ -202,6 +205,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "dryleaf_dane",
+    "text": "Kill Dryleaf Dane in the Duel",
+    "game_type": "dlc"
+  },
+  {
     "id": "dupe_memb_1",
     "text": "Duplicate a Remembrance 1 time",
     "game_type": "dlc"
@@ -229,7 +237,10 @@
   {
     "id": "forges_2",
     "text": "Complete 2 Forges",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Clear two Forges"
+    ]
   },
   {
     "id": "furnace_golem_1",
@@ -287,6 +298,11 @@
   {
     "id": "hippos_2",
     "text": "Kill 2 Hippos",
+    "game_type": "dlc"
+  },
+  {
+    "id": "horned_warriors_2",
+    "text": "Kill 2 Unique Horned Warriors",
     "game_type": "dlc"
   },
   {
@@ -360,6 +376,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "larval_tears_3",
+    "text": "Acquire 3 Larval tears",
+    "game_type": "dlc"
+  },
+  {
     "id": "leda_allies",
     "text": "Kill Leda and her Allies",
     "game_type": "dlc"
@@ -377,6 +398,11 @@
   {
     "id": "madding_hand",
     "text": "Kill Madding Hand",
+    "game_type": "dlc"
+  },
+  {
+    "id": "marigga",
+    "text": "Kill Demi Human Marigga",
     "game_type": "dlc"
   },
   {
@@ -412,7 +438,10 @@
   {
     "id": "metyr",
     "text": "Kill Metyr",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Metyr, Mother of Fingers"
+    ]
   },
   {
     "id": "midra",
@@ -421,6 +450,11 @@
     "aliases": [
       "Kill Midra, Lord of Frenzied Flame"
     ]
+  },
+  {
+    "id": "miquella_crosses_4",
+    "text": "Visit 4 Miquella Crosses",
+    "game_type": "dlc"
   },
   {
     "id": "mog_500k",
@@ -535,7 +569,10 @@
   {
     "id": "red_bear_1",
     "text": "Kill 1 Red Bear",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Red bear"
+    ]
   },
   {
     "id": "red_bear_2",
@@ -586,7 +623,10 @@
   {
     "id": "scadu_11",
     "text": "Level 11 Scadu",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Level 11 Scadu"
+    ]
   },
   {
     "id": "scadu_9",
@@ -639,6 +679,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "tree_sentinel_duo",
+    "text": "Kill the Tree Sentinel Duo",
+    "game_type": "dlc"
+  },
+  {
     "id": "tree_spirits_3",
     "text": "Kill 3 Ulcerated Tree Spirits",
     "game_type": "dlc"
@@ -661,6 +706,11 @@
   {
     "id": "unique_max_upgrade_materials_3",
     "text": "Acquire 3 Unique Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "ymir",
+    "text": "Kill Count Ymir, Mother of Fingers",
     "game_type": "dlc"
   }
 ]

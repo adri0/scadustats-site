@@ -1,20 +1,28 @@
 id: kindred_cookbooks_4
 text: Acquire 4 Kindred Cookbooks
 game_type: dlc
-num_matches: 2
+num_matches: 3
 matches:
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 2
-games_marked: 1
-mark_rate: 0.5
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 3
+games_marked: 2
+mark_rate: 0.6667
 top_players:
 - slug: gustaf
   marks: 1
+- slug: nuclearpastatom
+  marks: 1
 mark_times_s:
+- 1353
 - 4673
-median_mark_time_s: 4673.0
+median_mark_time_s: 3013.0
 claims:
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 2
+  time_s: 1353
+  slug: nuclearpastatom
 - match_id: 2026-07-18-Gustaf-vs-Grey
   game_index: 2
   time_s: 4673

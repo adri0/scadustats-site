@@ -1,7 +1,7 @@
 id: senessax
 text: Kill Ancient Dragon Senessax
 game_type: dlc
-num_matches: 14
+num_matches: 15
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -17,9 +17,10 @@ matches:
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 14
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 15
 games_marked: 4
-mark_rate: 0.2857
+mark_rate: 0.2667
 top_players:
 - slug: seriouschallenges
   marks: 3

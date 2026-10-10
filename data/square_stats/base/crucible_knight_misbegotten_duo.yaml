@@ -1,7 +1,7 @@
 id: crucible_knight_misbegotten_duo
 text: Kill Crucible Knight and Misbegotten Warrior Duo
 game_type: base
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-08-24-Gustaf-vs-RomainJacques
@@ -14,20 +14,21 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 12
-games_marked: 12
+num_games: 13
+games_marked: 13
 mark_rate: 1.0
 top_players:
 - slug: vswed
   marks: 3
 - slug: gustaf
   marks: 2
+- slug: nuclearpastatom
+  marks: 2
 - slug: raydans
   marks: 2
 - slug: ironyeu
-  marks: 1
-- slug: itzcbd
   marks: 1
 mark_times_s:
 - 1490
@@ -36,13 +37,14 @@ mark_times_s:
 - 2114
 - 2207
 - 2416
+- 2457
 - 2530
 - 2546
 - 2672
 - 2885
 - 2974
 - 3448
-median_mark_time_s: 2473.0
+median_mark_time_s: 2457.0
 claims:
 - match_id: 2026-08-24-Gustaf-vs-RomainJacques
   game_index: 1
@@ -68,6 +70,10 @@ claims:
   game_index: 1
   time_s: 2416
   slug: romainjacques
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 2457
+  slug: nuclearpastatom
 - match_id: 2026-08-08-NuclearPastaTom-vs-Gustaf
   game_index: 1
   time_s: 2530

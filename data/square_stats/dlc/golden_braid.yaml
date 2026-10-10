@@ -1,7 +1,7 @@
 id: golden_braid
 text: Acquire the Golden Braid
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -14,9 +14,10 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 11
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 12
 games_marked: 11
-mark_rate: 1.0
+mark_rate: 0.9167
 top_players:
 - slug: grey
   marks: 3

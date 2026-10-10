@@ -1,7 +1,7 @@
 id: intelligence_30
 text: 30 Intelligence
 game_type: base
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-16-Raydans-vs-LilAggy
@@ -11,10 +11,13 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 8
-games_marked: 8
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 9
+games_marked: 9
 mark_rate: 1.0
 top_players:
+- slug: nuclearpastatom
+  marks: 2
 - slug: parkenharbor
   marks: 2
 - slug: raydans
@@ -23,8 +26,6 @@ top_players:
   marks: 1
 - slug: lilaggy
   marks: 1
-- slug: nuclearpastatom
-  marks: 1
 mark_times_s:
 - 287
 - 316
@@ -32,9 +33,10 @@ mark_times_s:
 - 1257
 - 1338
 - 1587
+- 2473
 - 2505
 - 3455
-median_mark_time_s: 1297.5
+median_mark_time_s: 1338.0
 claims:
 - match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
   game_index: 1
@@ -60,6 +62,10 @@ claims:
   game_index: 1
   time_s: 1587
   slug: raydans
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 2473
+  slug: nuclearpastatom
 - match_id: 2026-07-19-Raydans-vs-Parkenharbor
   game_index: 1
   time_s: 2505

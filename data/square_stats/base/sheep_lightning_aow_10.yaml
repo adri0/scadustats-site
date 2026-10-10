@@ -1,7 +1,7 @@
 id: sheep_lightning_aow_10
 text: Kill 10 Sheep with AoW Lightning Ram Only
 game_type: base
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -10,9 +10,10 @@ matches:
 - 2026-08-15-blanxz-vs-SeriousChallenges
 - 2026-08-15-Ironyeu-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 7
-games_marked: 6
-mark_rate: 0.8571
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 8
+games_marked: 7
+mark_rate: 0.875
 top_players:
 - slug: blanxz
   marks: 1
@@ -20,9 +21,9 @@ top_players:
   marks: 1
 - slug: lilaggy
   marks: 1
-- slug: nuclearpastatom
+- slug: nessonetta
   marks: 1
-- slug: raydans
+- slug: nuclearpastatom
   marks: 1
 mark_times_s:
 - 630
@@ -31,7 +32,8 @@ mark_times_s:
 - 2415
 - 2421
 - 2560
-median_mark_time_s: 2101.0
+- 2978
+median_mark_time_s: 2415.0
 claims:
 - match_id: 2026-09-01-Vswed-vs-Raydans
   game_index: 1
@@ -57,3 +59,7 @@ claims:
   game_index: 1
   time_s: 2560
   slug: raydans
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 2978
+  slug: nessonetta

@@ -1,7 +1,7 @@
 id: vyke
 text: Kill Roundtable Knight Vyke
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -12,10 +12,11 @@ matches:
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-25-TwistieT-vs-Grey
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 10
-games_marked: 9
-mark_rate: 0.9
+num_games: 11
+games_marked: 10
+mark_rate: 0.9091
 top_players:
 - slug: romainjacques
   marks: 2
@@ -25,19 +26,20 @@ top_players:
   marks: 1
 - slug: lilaggy
   marks: 1
-- slug: nuclearpastatom
+- slug: nessonetta
   marks: 1
 mark_times_s:
 - 2376
 - 2408
 - 2733
 - 2806
+- 3449
 - 3638
 - 3926
 - 4114
 - 4149
 - 4377
-median_mark_time_s: 3638.0
+median_mark_time_s: 3543.5
 claims:
 - match_id: 2026-09-11-LilAggy-vs-RomainJacques
   game_index: 1
@@ -55,6 +57,10 @@ claims:
   game_index: 1
   time_s: 2806
   slug: raydans
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 3449
+  slug: nessonetta
 - match_id: 2026-07-25-TwistieT-vs-Grey
   game_index: 1
   time_s: 3638

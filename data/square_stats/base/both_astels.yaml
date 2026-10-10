@@ -1,7 +1,7 @@
 id: both_astels
 text: Kill Both Astel Bosses
 game_type: base
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-01-Vswed-vs-Raydans
@@ -9,9 +9,10 @@ matches:
 - 2026-08-12-RomainJacques-vs-Grey
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 6
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 7
 games_marked: 3
-mark_rate: 0.5
+mark_rate: 0.4286
 top_players:
 - slug: blanxz
   marks: 1

@@ -1,16 +1,17 @@
 id: somber_bell_bearing_1_and_2
 text: Acquire Somberstone Bell Bearing [1] and [2]
 game_type: base
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-08-09-TwistieT-vs-RomainJacques
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-19-Vswed-vs-TwistieT
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 6
-games_marked: 6
+num_games: 7
+games_marked: 7
 mark_rate: 1.0
 top_players:
 - slug: romainjacques
@@ -21,7 +22,7 @@ top_players:
   marks: 1
 - slug: itzcbd
   marks: 1
-- slug: vswed
+- slug: nuclearpastatom
   marks: 1
 mark_times_s:
 - 687
@@ -30,7 +31,8 @@ mark_times_s:
 - 773
 - 884
 - 1003
-median_mark_time_s: 743.5
+- 1426
+median_mark_time_s: 773.0
 claims:
 - match_id: 2026-07-19-Vswed-vs-TwistieT
   game_index: 1
@@ -56,3 +58,7 @@ claims:
   game_index: 1
   time_s: 1003
   slug: itzcbd
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 1426
+  slug: nuclearpastatom

@@ -1,16 +1,17 @@
 id: glovewort_bb_2
 text: Acquire Grave and Ghost Glovewort Bell Bearings [2]
 game_type: base
-num_matches: 5
+num_matches: 6
 matches:
 - 2026-08-24-Gustaf-vs-RomainJacques
 - 2026-08-12-RomainJacques-vs-Grey
 - 2026-08-09-TwistieT-vs-RomainJacques
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 5
+num_games: 6
 games_marked: 1
-mark_rate: 0.2
+mark_rate: 0.1667
 top_players:
 - slug: gustaf
   marks: 1
