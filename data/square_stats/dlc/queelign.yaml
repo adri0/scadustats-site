@@ -1,7 +1,7 @@
 id: queelign
 text: Kill Queelign in Belurat
 game_type: dlc
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -12,8 +12,9 @@ matches:
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 10
-games_marked: 10
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 11
+games_marked: 11
 mark_rate: 1.0
 top_players:
 - slug: blanxz
@@ -24,9 +25,10 @@ top_players:
   marks: 2
 - slug: gustaf
   marks: 1
-- slug: seriouschallenges
+- slug: nuclearpastatom
   marks: 1
 mark_times_s:
+- 745
 - 787
 - 912
 - 961
@@ -37,8 +39,12 @@ mark_times_s:
 - 1857
 - 1931
 - 2969
-median_mark_time_s: 1307.5
+median_mark_time_s: 1287.0
 claims:
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 2
+  time_s: 745
+  slug: nuclearpastatom
 - match_id: 2026-08-24-Gustaf-vs-RomainJacques
   game_index: 2
   time_s: 787

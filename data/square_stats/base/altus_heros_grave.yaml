@@ -1,7 +1,7 @@
 id: altus_heros_grave
 text: Complete an Altus Plateau or Mt. Gelmir Hero's Grave
 game_type: base
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-01-Vswed-vs-Raydans
@@ -12,30 +12,32 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 9
-games_marked: 8
-mark_rate: 0.8889
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 10
+games_marked: 9
+mark_rate: 0.9
 top_players:
 - slug: blanxz
   marks: 2
 - slug: grey
   marks: 2
+- slug: nuclearpastatom
+  marks: 2
 - slug: gustaf
   marks: 1
 - slug: lilaggy
   marks: 1
-- slug: nuclearpastatom
-  marks: 1
 mark_times_s:
 - 1448
 - 1797
+- 1962
 - 1969
 - 2037
 - 2193
 - 2284
 - 3257
 - 3569
-median_mark_time_s: 2115.0
+median_mark_time_s: 2037.0
 claims:
 - match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
   game_index: 1
@@ -45,6 +47,10 @@ claims:
   game_index: 1
   time_s: 1797
   slug: blanxz
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 1962
+  slug: nuclearpastatom
 - match_id: 2026-07-18-blanxz-vs-LilAggy
   game_index: 1
   time_s: 1969

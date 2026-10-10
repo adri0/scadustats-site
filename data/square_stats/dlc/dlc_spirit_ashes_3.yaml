@@ -1,7 +1,7 @@
 id: dlc_spirit_ashes_3
 text: Acquire 3 DLC Spirit Ashes
 game_type: dlc
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-08-24-Gustaf-vs-RomainJacques
 - 2026-08-15-blanxz-vs-SeriousChallenges
@@ -15,9 +15,10 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 12
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 13
 games_marked: 11
-mark_rate: 0.9167
+mark_rate: 0.8462
 top_players:
 - slug: blanxz
   marks: 2

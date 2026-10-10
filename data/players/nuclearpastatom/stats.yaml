@@ -5,15 +5,19 @@ season_records:
     wins: 7
     losses: 1
     draws: 0
+  pre-season-6:
+    wins: 1
+    losses: 0
+    draws: 0
 game_record:
-  wins: 15
+  wins: 17
   losses: 3
 game_type_records:
   base:
-    wins: 6
+    wins: 7
     losses: 2
   dlc:
-    wins: 9
+    wins: 10
     losses: 1
 all_matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
@@ -24,6 +28,7 @@ all_matches:
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 top_squares_base_game:
 - text: Kill Tree Sentinel Duo
   marks: 4
@@ -31,9 +36,9 @@ top_squares_base_game:
   marks: 3
 - text: Kill 5 Bosses in Limgrave / Weeping
   marks: 3
-- text: Acquire 14 Unique Incantations
-  marks: 2
-- text: Acquire 2 Imbued Sword Keys
+- text: Kill Mohg, the Omen
+  marks: 3
+- text: 30 Intelligence
   marks: 2
 top_squares_dlc:
 - text: Kill a Remembrance Boss Hitless

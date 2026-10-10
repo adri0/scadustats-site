@@ -1,7 +1,7 @@
 id: metyr
 text: Kill Metyr
 game_type: dlc
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-08-15-blanxz-vs-SeriousChallenges
 - 2026-08-15-Ironyeu-vs-Parkenharbor
@@ -11,9 +11,10 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-30-Parkenharbor-vs-LilAggy
-num_games: 8
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 9
 games_marked: 1
-mark_rate: 0.125
+mark_rate: 0.1111
 top_players:
 - slug: blanxz
   marks: 1

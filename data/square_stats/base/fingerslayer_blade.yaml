@@ -1,7 +1,7 @@
 id: fingerslayer_blade
 text: Acquire the Fingerslayer Blade
 game_type: base
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-24-Gustaf-vs-RomainJacques
@@ -11,9 +11,10 @@ matches:
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 8
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 9
 games_marked: 2
-mark_rate: 0.25
+mark_rate: 0.2222
 top_players:
 - slug: blanxz
   marks: 1

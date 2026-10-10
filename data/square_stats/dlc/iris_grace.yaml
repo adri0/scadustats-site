@@ -1,7 +1,7 @@
 id: iris_grace
 text: Give an lris of Grace
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -14,9 +14,10 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 11
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 12
 games_marked: 9
-mark_rate: 0.8182
+mark_rate: 0.75
 top_players:
 - slug: romainjacques
   marks: 2
