@@ -10,10 +10,6 @@ title = "Scadustats"
   description = "Community-base repository for match history, player records, and square stats for the Elden Ring Bingo Brawlers league, transcribed from the VODs."
   repo = "https://github.com/adri0/scadustats-site"
 
-# Kopi renders no post-card images, so the sidebar/feed image lookups stay empty.
-# mainSections is unused by our layouts but kopi partials read it.
-  mainSections = ["matches"]
-
 [[menus.main]]
   name = "Matches"
   pageRef = "/matches"
@@ -38,45 +34,3 @@ title = "Scadustats"
   name = "About"
   pageRef = "/about"
   weight = 50
-
-[module]
-  [[module.mounts]]
-    source = "content"
-    target = "content"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-  [[module.mounts]]
-    source = "layouts"
-    target = "layouts"
-  [[module.mounts]]
-    source = "data"
-    target = "data"
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "i18n"
-    target = "i18n"
-  [[module.mounts]]
-    source = "archetypes"
-    target = "archetypes"
-
-  # The kopi theme (themes/kopi) is imported as a module rather than via
-  # `theme = "kopi"` so we can pick the mounts: its layouts/assets/static only.
-  # Its own content/ (a demo home page, /search/, /library/) and data/radio.yaml
-  # are deliberately left unmounted -- those are features we don't use.
-  [[module.imports]]
-    path = "kopi"
-    [[module.imports.mounts]]
-      source = "layouts"
-      target = "layouts"
-    [[module.imports.mounts]]
-      source = "assets"
-      target = "assets"
-    [[module.imports.mounts]]
-      source = "static"
-      target = "static"
-    [[module.imports.mounts]]
-      source = "i18n"
-      target = "i18n"

@@ -1,5 +1,5 @@
 /*
- * Overrides kopi's theme.js. The site is dark by default and only goes light
+ * Adapted from kopi's theme.js. The site is dark by default and only goes light
  * when the visitor clicks the toggle, so the theme's prefers-color-scheme
  * listener (which switched themes along with the OS) is dropped. The initial
  * theme is set by the inline script in _partials/head.html.
