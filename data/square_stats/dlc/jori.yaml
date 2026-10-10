@@ -1,7 +1,7 @@
 id: jori
 text: Kill Jori, Elder Inquisitor
 game_type: dlc
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -10,9 +10,10 @@ matches:
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 7
-games_marked: 6
-mark_rate: 0.8571
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 8
+games_marked: 7
+mark_rate: 0.875
 top_players:
 - slug: blanxz
   marks: 2
@@ -22,7 +23,7 @@ top_players:
   marks: 1
 - slug: lilaggy
   marks: 1
-- slug: seriouschallenges
+- slug: pepejack
   marks: 1
 mark_times_s:
 - 2032
@@ -31,7 +32,8 @@ mark_times_s:
 - 3132
 - 3273
 - 3595
-median_mark_time_s: 3001.0
+- 3638
+median_mark_time_s: 3132.0
 claims:
 - match_id: 2026-08-16-Raydans-vs-LilAggy
   game_index: 2
@@ -57,3 +59,7 @@ claims:
   game_index: 2
   time_s: 3595
   slug: seriouschallenges
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 3638
+  slug: pepejack

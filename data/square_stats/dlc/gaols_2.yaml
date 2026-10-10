@@ -1,7 +1,7 @@
 id: gaols_2
 text: Complete 2 Gaols
 game_type: dlc
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-24-Gustaf-vs-RomainJacques
@@ -10,10 +10,11 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-17-KEMIST-vs-SeriousChallenges
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 8
+num_games: 9
 games_marked: 5
-mark_rate: 0.625
+mark_rate: 0.5556
 top_players:
 - slug: raydans
   marks: 1

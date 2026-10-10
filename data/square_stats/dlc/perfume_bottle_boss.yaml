@@ -1,0 +1,20 @@
+id: perfume_bottle_boss
+text: Kill a boss using a Perfume Bottle only
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: pepejack
+  marks: 1
+mark_times_s:
+- 3028
+median_mark_time_s: 3028.0
+claims:
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 3028
+  slug: pepejack

@@ -1,7 +1,7 @@
 id: dragon_hearts_2
 text: Acquire 2 Dragon Hearts
 game_type: dlc
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -13,19 +13,20 @@ matches:
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 10
-games_marked: 8
-mark_rate: 0.8
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 11
+games_marked: 9
+mark_rate: 0.8182
 top_players:
 - slug: vswed
   marks: 3
 - slug: nuclearpastatom
   marks: 2
+- slug: itzcbd
+  marks: 1
 - slug: parkenharbor
   marks: 1
 - slug: raydans
-  marks: 1
-- slug: romainjacques
   marks: 1
 mark_times_s:
 - 927
@@ -33,10 +34,11 @@ mark_times_s:
 - 1749
 - 2075
 - 2410
+- 2838
 - 3211
 - 3329
 - 4110
-median_mark_time_s: 2242.5
+median_mark_time_s: 2410.0
 claims:
 - match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
   game_index: 2
@@ -58,6 +60,10 @@ claims:
   game_index: 2
   time_s: 2410
   slug: vswed
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 2838
+  slug: itzcbd
 - match_id: 2026-08-16-Gustaf-vs-Vswed
   game_index: 2
   time_s: 3211

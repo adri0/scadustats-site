@@ -1,7 +1,7 @@
 id: haligtree_medallion
 text: Acquire the Full Haligtree Medallion
 game_type: base
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-03-LilAggy-vs-Grey
@@ -14,9 +14,10 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-24-LilAggy-vs-SeriousChallenges
-num_games: 11
-games_marked: 6
-mark_rate: 0.5455
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 12
+games_marked: 7
+mark_rate: 0.5833
 top_players:
 - slug: lilaggy
   marks: 2
@@ -24,23 +25,28 @@ top_players:
   marks: 1
 - slug: ironyeu
   marks: 1
-- slug: raydans
+- slug: itzcbd
   marks: 1
-- slug: vswed
+- slug: raydans
   marks: 1
 mark_times_s:
 - 2109
+- 2754
 - 3107
 - 3122
 - 3727
 - 4327
 - 5597
-median_mark_time_s: 3424.5
+median_mark_time_s: 3122.0
 claims:
 - match_id: 2026-08-08-Ironyeu-vs-LilAggy
   game_index: 1
   time_s: 2109
   slug: ironyeu
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 2754
+  slug: itzcbd
 - match_id: 2026-07-26-NuclearPastaTom-vs-Vswed
   game_index: 1
   time_s: 3107

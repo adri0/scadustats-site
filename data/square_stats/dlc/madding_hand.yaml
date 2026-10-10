@@ -1,7 +1,7 @@
 id: madding_hand
 text: Kill Madding Hand
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -14,9 +14,10 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 12
-games_marked: 10
-mark_rate: 0.8333
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 13
+games_marked: 11
+mark_rate: 0.8462
 top_players:
 - slug: lilaggy
   marks: 3
@@ -38,8 +39,9 @@ mark_times_s:
 - 3890
 - 4150
 - 4208
+- 4308
 - 5069
-median_mark_time_s: 3761.5
+median_mark_time_s: 3832.0
 claims:
 - match_id: 2026-08-08-Ironyeu-vs-LilAggy
   game_index: 2
@@ -77,6 +79,10 @@ claims:
   game_index: 2
   time_s: 4208
   slug: lilaggy
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 4308
+  slug: pepejack
 - match_id: 2026-08-01-Gustaf-vs-TwistieT
   game_index: 2
   time_s: 5069

@@ -1,17 +1,20 @@
 id: blessings_3
 text: Acquire 3 Blessings of Marika
 game_type: dlc
-num_matches: 4
+num_matches: 5
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 4
-games_marked: 3
-mark_rate: 0.75
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
 top_players:
 - slug: blanxz
+  marks: 1
+- slug: itzcbd
   marks: 1
 - slug: raydans
   marks: 1
@@ -21,7 +24,8 @@ mark_times_s:
 - 1562
 - 1887
 - 2040
-median_mark_time_s: 1887.0
+- 2551
+median_mark_time_s: 1963.5
 claims:
 - match_id: 2026-08-07-blanxz-vs-Raydans
   game_index: 2
@@ -35,3 +39,7 @@ claims:
   game_index: 2
   time_s: 2040
   slug: raydans
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 2551
+  slug: itzcbd

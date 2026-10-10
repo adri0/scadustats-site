@@ -1,7 +1,7 @@
 id: omenkiller_2
 text: Kill 2 Omenkiller Bosses
 game_type: base
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-16-Raydans-vs-LilAggy
@@ -12,9 +12,10 @@ matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 9
-games_marked: 8
-mark_rate: 0.8889
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 10
+games_marked: 9
+mark_rate: 0.9
 top_players:
 - slug: gustaf
   marks: 2
@@ -24,18 +25,19 @@ top_players:
   marks: 2
 - slug: nuclearpastatom
   marks: 1
-- slug: vswed
+- slug: pepejack
   marks: 1
 mark_times_s:
 - 986
 - 1147
+- 1433
 - 1509
 - 1642
 - 1920
 - 2055
 - 2119
 - 4154
-median_mark_time_s: 1781.0
+median_mark_time_s: 1642.0
 claims:
 - match_id: 2026-07-19-Raydans-vs-Parkenharbor
   game_index: 1
@@ -45,6 +47,10 @@ claims:
   game_index: 1
   time_s: 1147
   slug: nuclearpastatom
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 1433
+  slug: pepejack
 - match_id: 2026-08-01-Gustaf-vs-TwistieT
   game_index: 1
   time_s: 1509

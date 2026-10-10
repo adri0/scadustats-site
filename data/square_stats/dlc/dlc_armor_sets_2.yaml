@@ -1,7 +1,7 @@
 id: dlc_armor_sets_2
 text: Acquire 2 Full DLC Armor Sets
 game_type: dlc
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-03-LilAggy-vs-Grey
@@ -9,14 +9,17 @@ matches:
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-07-18-blanxz-vs-LilAggy
-num_games: 7
-games_marked: 6
-mark_rate: 0.8571
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 8
+games_marked: 7
+mark_rate: 0.875
 top_players:
 - slug: blanxz
   marks: 2
 - slug: nuclearpastatom
   marks: 2
+- slug: itzcbd
+  marks: 1
 - slug: lilaggy
   marks: 1
 - slug: seriouschallenges
@@ -25,10 +28,11 @@ mark_times_s:
 - 432
 - 496
 - 637
+- 789
 - 804
 - 1155
 - 1461
-median_mark_time_s: 720.5
+median_mark_time_s: 789.0
 claims:
 - match_id: 2026-07-18-blanxz-vs-LilAggy
   game_index: 2
@@ -42,6 +46,10 @@ claims:
   game_index: 2
   time_s: 637
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 789
+  slug: itzcbd
 - match_id: 2026-08-09-Parkenharbor-vs-SeriousChallenges
   game_index: 2
   time_s: 804

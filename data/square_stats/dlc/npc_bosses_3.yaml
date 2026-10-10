@@ -1,7 +1,7 @@
 id: npc_bosses_3
 text: Kill 3 NPC Bosses
 game_type: dlc
-num_matches: 13
+num_matches: 14
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -15,12 +15,15 @@ matches:
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 13
-games_marked: 11
-mark_rate: 0.8462
+num_games: 14
+games_marked: 12
+mark_rate: 0.8571
 top_players:
 - slug: grey
+  marks: 2
+- slug: itzcbd
   marks: 2
 - slug: nuclearpastatom
   marks: 2
@@ -28,8 +31,6 @@ top_players:
   marks: 2
 - slug: seriouschallenges
   marks: 2
-- slug: blanxz
-  marks: 1
 mark_times_s:
 - 1781
 - 1876
@@ -42,7 +43,8 @@ mark_times_s:
 - 2465
 - 2666
 - 2761
-median_mark_time_s: 2233.0
+- 3418
+median_mark_time_s: 2248.0
 claims:
 - match_id: 2026-07-17-NuclearPastaTom-vs-RomainJacques
   game_index: 2
@@ -88,3 +90,7 @@ claims:
   game_index: 2
   time_s: 2761
   slug: seriouschallenges
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 3418
+  slug: itzcbd

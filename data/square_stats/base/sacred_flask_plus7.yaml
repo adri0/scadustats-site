@@ -1,7 +1,7 @@
 id: sacred_flask_plus7
 text: Acquire Sacred Flask +7
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -12,12 +12,15 @@ matches:
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 10
-games_marked: 5
-mark_rate: 0.5
+num_games: 11
+games_marked: 6
+mark_rate: 0.5455
 top_players:
 - slug: blanxz
+  marks: 1
+- slug: itzcbd
   marks: 1
 - slug: romainjacques
   marks: 1
@@ -25,15 +28,14 @@ top_players:
   marks: 1
 - slug: star0chris
   marks: 1
-- slug: twistiet
-  marks: 1
 mark_times_s:
 - 2782
 - 3181
+- 3583
 - 3713
 - 3850
 - 4453
-median_mark_time_s: 3713.0
+median_mark_time_s: 3648.0
 claims:
 - match_id: 2026-07-19-Vswed-vs-TwistieT
   game_index: 1
@@ -43,6 +45,10 @@ claims:
   game_index: 1
   time_s: 3181
   slug: seriouschallenges
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 3583
+  slug: itzcbd
 - match_id: 2026-08-07-blanxz-vs-Raydans
   game_index: 1
   time_s: 3713

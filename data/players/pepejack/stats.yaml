@@ -3,39 +3,40 @@ display_name: pepeJack
 season_records:
   pre-season-6:
     wins: 0
-    losses: 1
+    losses: 2
     draws: 0
 game_record:
-  wins: 1
-  losses: 2
+  wins: 2
+  losses: 4
 game_type_records:
   base:
     wins: 0
-    losses: 2
+    losses: 3
   dlc:
-    wins: 1
-    losses: 0
+    wins: 2
+    losses: 1
 all_matches:
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-25-pepeJack-vs-blanxz
 top_squares_base_game:
+- text: Kill Mohg, Lord of Blood
+  marks: 2
+- text: Kill an Ancestor Spirit
+  marks: 2
+- text: Take Rya's hand to Volcano Manor
+  marks: 2
 - text: 30 Faith
   marks: 1
-- text: Complete 2 Tunnels or Precipices
-  marks: 1
-- text: Kill 1 Magma Wyrm
-  marks: 1
-- text: Kill 2 Misbegotten Bosses
-  marks: 1
-- text: Kill 3 Dragon Heart Bosses
+- text: Acquire 5 Ritual Pots
   marks: 1
 top_squares_dlc:
+- text: Burn the Sealing Tree
+  marks: 2
+- text: Complete 2 Nameless Mausoleums
+  marks: 2
+- text: Acquire 2 DLC Legendary Ash Summon
+  marks: 1
 - text: Acquire 3 DLC Spirit Ashes
   marks: 1
 - text: Acquire 3 Enemy/NPC Dropped Talismans
-  marks: 1
-- text: Burn the Sealing Tree
-  marks: 1
-- text: Complete 2 Nameless Mausoleums
-  marks: 1
-- text: Drink Thiollier's Concoction
   marks: 1

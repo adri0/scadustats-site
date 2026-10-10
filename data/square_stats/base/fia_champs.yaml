@@ -1,7 +1,7 @@
 id: fia_champs
 text: Kill Fia's Champions
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -12,22 +12,30 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 10
-games_marked: 2
-mark_rate: 0.2
+num_games: 11
+games_marked: 3
+mark_rate: 0.2727
 top_players:
 - slug: blanxz
   marks: 2
+- slug: itzcbd
+  marks: 1
 mark_times_s:
 - 4226
+- 5914
 - 6146
-median_mark_time_s: 5186.0
+median_mark_time_s: 5914.0
 claims:
 - match_id: 2026-07-18-blanxz-vs-LilAggy
   game_index: 1
   time_s: 4226
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 5914
+  slug: itzcbd
 - match_id: 2026-09-05-blanxz-vs-Vswed
   game_index: 1
   time_s: 6146

@@ -1,7 +1,7 @@
 id: morgott_great_rune
 text: Restore Morgott's Great Rune
 game_type: base
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -14,21 +14,25 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-19-Vswed-vs-TwistieT
+- 2026-05-01-pepeJack-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 12
-games_marked: 4
-mark_rate: 0.3333
+num_games: 13
+games_marked: 5
+mark_rate: 0.3846
 top_players:
 - slug: vswed
   marks: 3
 - slug: gustaf
+  marks: 1
+- slug: itzcbd
   marks: 1
 mark_times_s:
 - 4908
 - 5142
 - 5305
 - 5544
-median_mark_time_s: 5223.5
+- 6238
+median_mark_time_s: 5305.0
 claims:
 - match_id: 2026-08-02-Vswed-vs-RomainJacques
   game_index: 1
@@ -46,3 +50,7 @@ claims:
   game_index: 1
   time_s: 5544
   slug: vswed
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 6238
+  slug: itzcbd
