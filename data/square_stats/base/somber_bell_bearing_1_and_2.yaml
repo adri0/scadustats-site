@@ -8,7 +8,7 @@ matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-19-Vswed-vs-TwistieT
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 6
 games_marked: 6
 mark_rate: 1.0
@@ -52,7 +52,7 @@ claims:
   game_index: 1
   time_s: 884
   slug: blanxz
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 1
   time_s: 1003
   slug: itzcbd

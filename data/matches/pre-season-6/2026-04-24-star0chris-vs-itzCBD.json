@@ -1,6 +1,6 @@
 {
-  "match_id": "2026-04-28-star0chris-vs-itzCBD",
-  "match_date": "2026-04-28",
+  "match_id": "2026-04-24-star0chris-vs-itzCBD",
+  "match_date": "2026-04-24",
   "season": "pre-season-6",
   "match_type": "double_elimination",
   "player_red_name": "star0chris",
@@ -12,7 +12,7 @@
   "metadata": {
     "video_url": "https://www.youtube.com/watch?v=Wyz0jB_fQ0M",
     "duration_s": 14618.166666666666,
-    "published_at": null,
+    "published_at": "2026-04-28",
     "extracted_at": "2026-10-10"
   },
   "num_games": 3,

@@ -12,7 +12,7 @@ matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 10
 games_marked: 10
 mark_rate: 1.0
@@ -64,7 +64,7 @@ claims:
   game_index: 2
   time_s: 582
   slug: twistiet
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 2
   time_s: 606
   slug: star0chris

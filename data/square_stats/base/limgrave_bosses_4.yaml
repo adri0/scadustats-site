@@ -6,7 +6,7 @@ matches:
 - 2026-08-15-Ironyeu-vs-Parkenharbor
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-24-LilAggy-vs-SeriousChallenges
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 4
 games_marked: 4
 mark_rate: 1.0
@@ -30,7 +30,7 @@ claims:
   game_index: 1
   time_s: 903
   slug: seriouschallenges
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 1
   time_s: 1023
   slug: star0chris

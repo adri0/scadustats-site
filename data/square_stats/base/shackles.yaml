@@ -8,7 +8,7 @@ matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-25-TwistieT-vs-Grey
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 6
 games_marked: 4
 mark_rate: 0.6667
@@ -38,7 +38,7 @@ claims:
   game_index: 1
   time_s: 4168
   slug: nuclearpastatom
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 1
   time_s: 5195
   slug: star0chris

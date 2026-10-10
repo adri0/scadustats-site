@@ -6,7 +6,7 @@ matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-19-Raydans-vs-Parkenharbor
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 4
 games_marked: 3
 mark_rate: 0.75
@@ -27,7 +27,7 @@ claims:
   game_index: 2
   time_s: 1562
   slug: blanxz
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 2
   time_s: 1887
   slug: star0chris

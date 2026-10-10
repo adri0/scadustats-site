@@ -15,7 +15,7 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 13
 games_marked: 11
 mark_rate: 0.8462
@@ -44,7 +44,7 @@ mark_times_s:
 - 4136
 median_mark_time_s: 2543.0
 claims:
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 2
   time_s: 1175
   slug: itzcbd

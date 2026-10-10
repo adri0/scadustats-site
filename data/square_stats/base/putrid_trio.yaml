@@ -6,7 +6,7 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 4
 games_marked: 3
 mark_rate: 0.75
@@ -27,7 +27,7 @@ claims:
   game_index: 1
   time_s: 2026
   slug: romainjacques
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 1
   time_s: 3536
   slug: star0chris

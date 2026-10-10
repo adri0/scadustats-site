@@ -11,7 +11,7 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-19-Raydans-vs-Parkenharbor
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 9
 games_marked: 8
 mark_rate: 0.8889
@@ -61,7 +61,7 @@ claims:
   game_index: 1
   time_s: 2898
   slug: parkenharbor
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 1
   time_s: 3321
   slug: star0chris

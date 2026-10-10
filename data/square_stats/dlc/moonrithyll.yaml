@@ -18,7 +18,7 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-- 2026-04-28-star0chris-vs-itzCBD
+- 2026-04-24-star0chris-vs-itzCBD
 num_games: 17
 games_marked: 16
 mark_rate: 0.9412
@@ -112,7 +112,7 @@ claims:
   game_index: 2
   time_s: 1867
   slug: vswed
-- match_id: 2026-04-28-star0chris-vs-itzCBD
+- match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 2
   time_s: 2384
   slug: itzcbd
