@@ -42,7 +42,10 @@
   {
     "id": "arcane_30",
     "text": "30 Arcane",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "30 Arcane (no rebirth or buffs)"
+    ]
   },
   {
     "id": "bbk",
@@ -80,8 +83,18 @@
     "game_type": "base"
   },
   {
+    "id": "bloodhound",
+    "text": "Kill Bloodhound Knight while summoning Blaidd",
+    "game_type": "base"
+  },
+  {
     "id": "blueretta",
     "text": "Kill Loretta (Blue Spirit)",
+    "game_type": "base"
+  },
+  {
+    "id": "boiled_crab_20",
+    "text": "Buy 20 Boiled Crab from Boggart",
     "game_type": "base"
   },
   {
@@ -117,12 +130,18 @@
   {
     "id": "caves_2",
     "text": "Complete 2 Caves",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 2 cave or grotto dungeons"
+    ]
   },
   {
     "id": "caves_3",
     "text": "Complete 3 Caves",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 3 cave or grotto dungeons"
+    ]
   },
   {
     "id": "caves_grottos_2",
@@ -222,6 +241,11 @@
   {
     "id": "duo_trio_3",
     "text": "Kill 3 Duo/Trio Bosses",
+    "game_type": "base"
+  },
+  {
+    "id": "dupe_memb",
+    "text": "Dupe a Remembrance at a Mausoleum",
     "game_type": "base"
   },
   {
@@ -412,11 +436,19 @@
   {
     "id": "incantations_14",
     "text": "Acquire 14 Unique Incantations",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Learn 14 different incantations"
+    ]
   },
   {
     "id": "intelligence_30",
     "text": "30 Intelligence",
+    "game_type": "base"
+  },
+  {
+    "id": "kill_millicent",
+    "text": "Kill the Milicent invader in Caelid",
     "game_type": "base"
   },
   {
@@ -652,7 +684,10 @@
   {
     "id": "painting_rewards_3",
     "text": "Acquire 3 Painting Rewards",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Collect 3 Painting rewards"
+    ]
   },
   {
     "id": "putrid_trio",
@@ -672,6 +707,11 @@
   {
     "id": "red_wolves_2",
     "text": "Kill 2 Unique Red Wolves",
+    "game_type": "base"
+  },
+  {
+    "id": "red_wolves_3",
+    "text": "Kill 3 Red Wolves",
     "game_type": "base"
   },
   {
@@ -727,7 +767,10 @@
   {
     "id": "sacred_flask_plus7",
     "text": "Acquire Sacred Flask +7",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Sacred Flask +7"
+    ]
   },
   {
     "id": "scarseals",
@@ -772,6 +815,11 @@
   {
     "id": "sorceries_12",
     "text": "Acquire 12 Unique Sorceries",
+    "game_type": "base"
+  },
+  {
+    "id": "spirit_ash_4",
+    "text": "Spirit Ash +4 summon",
     "game_type": "base"
   },
   {
@@ -822,7 +870,10 @@
   {
     "id": "tree_spirits_3",
     "text": "Kill 3 Unique Tree Spirits",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Tree spirits"
+    ]
   },
   {
     "id": "tunnels_2",
@@ -850,6 +901,11 @@
     "game_type": "base"
   },
   {
+    "id": "watchdogs_2",
+    "text": "Kill 2 Watchdogs",
+    "game_type": "base"
+  },
+  {
     "id": "watchdogs_3",
     "text": "Kill 3 Unique Watchdogs",
     "game_type": "base"
@@ -857,7 +913,10 @@
   {
     "id": "watchdogs_4",
     "text": "Kill 4 Unique Watchdogs",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 4 Watchdogs"
+    ]
   },
   {
     "id": "whetstone_3",

@@ -1,7 +1,7 @@
 id: rick_bare_fists
 text: Kill Soldier of Godrick with Bare Fists Only
 game_type: base
-num_matches: 8
+num_matches: 9
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-01-Vswed-vs-Raydans
@@ -11,9 +11,10 @@ matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-blanxz-vs-Parkenharbor
-num_games: 8
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 9
 games_marked: 6
-mark_rate: 0.75
+mark_rate: 0.6667
 top_players:
 - slug: parkenharbor
   marks: 2

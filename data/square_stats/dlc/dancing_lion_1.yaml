@@ -1,7 +1,7 @@
 id: dancing_lion_1
 text: Kill 1 Dancing Lion
 game_type: dlc
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-08-16-Raydans-vs-LilAggy
 - 2026-08-12-RomainJacques-vs-Grey
@@ -10,8 +10,9 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 7
-games_marked: 7
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 8
+games_marked: 8
 mark_rate: 1.0
 top_players:
 - slug: romainjacques
@@ -20,19 +21,20 @@ top_players:
   marks: 1
 - slug: ironyeu
   marks: 1
-- slug: nuclearpastatom
+- slug: itzcbd
   marks: 1
-- slug: raydans
+- slug: nuclearpastatom
   marks: 1
 mark_times_s:
 - 2182
 - 2249
 - 2714
+- 2737
 - 2936
 - 3275
 - 3364
 - 3366
-median_mark_time_s: 2936.0
+median_mark_time_s: 2836.5
 claims:
 - match_id: 2026-08-07-blanxz-vs-Raydans
   game_index: 2
@@ -46,6 +48,10 @@ claims:
   game_index: 2
   time_s: 2714
   slug: nuclearpastatom
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 2737
+  slug: itzcbd
 - match_id: 2026-07-26-Raydans-vs-Ironyeu
   game_index: 2
   time_s: 2936

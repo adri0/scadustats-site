@@ -1,0 +1,27 @@
+id: boiled_crab_20
+text: Buy 20 Boiled Crab from Boggart
+game_type: base
+num_matches: 1
+matches:
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 2
+games_marked: 2
+mark_rate: 1.0
+top_players:
+- slug: itzcbd
+  marks: 1
+- slug: star0chris
+  marks: 1
+mark_times_s:
+- 1844
+- 2897
+median_mark_time_s: 2370.5
+claims:
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 1844
+  slug: star0chris
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 3
+  time_s: 2897
+  slug: itzcbd

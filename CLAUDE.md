@@ -76,9 +76,12 @@ the data.
 
 ### `data/squares/{base_game,dlc}.json`
 
-The catalogue of bingo goals: `id`, `text`, `game_type`. Used to canonicalise the `square_text`
-strings in match files, which vary in punctuation and contain OCR typos between VODs. Lookup is by
-normalized text (lowercased, non-alphanumerics stripped) via `partials/lib/square-lookup.html`;
+The catalogue of bingo goals: `id`, `text`, `game_type`, and optionally `aliases` -- other
+wordings of the same goal seen on other broadcasts (e.g. pre-season 6's "Kill Midra, Lord of
+Frenzied Flame" for "Kill Midra"), hand-edited; match files keep the wording that was on screen.
+Used to canonicalise the `square_text` strings in match files, which vary in punctuation and
+contain OCR typos between VODs. Lookup is by normalized text (lowercased, non-alphanumerics
+stripped), over both `text` and `aliases`, via `partials/lib/square-lookup.html`;
 ~13 transcribed variants have no catalogue entry and are rendered in grey as "unknown".
 
 ### `data/square_stats/{base,dlc}/<id>.yaml`

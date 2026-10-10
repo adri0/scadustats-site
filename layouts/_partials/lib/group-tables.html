@@ -12,7 +12,7 @@
   stable, so ties keep the curated (final placing) order of the YAML.
 */ -}}
 {{- $sid := .season_id -}}
-{{- $seasonMatches := index hugo.Data.matches (printf "season-%s" $sid) | default dict -}}
+{{- $seasonMatches := partialCached "lib/season-matches.html" $sid $sid -}}
 
 {{- $playoffKeys := slice -}}
 {{- with .bracket -}}

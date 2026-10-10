@@ -1,7 +1,7 @@
 id: transformation
 text: Use a Transformation
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-01-Vswed-vs-Raydans
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -14,9 +14,10 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 12
-games_marked: 9
-mark_rate: 0.75
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 13
+games_marked: 10
+mark_rate: 0.7692
 top_players:
 - slug: lilaggy
   marks: 2
@@ -31,6 +32,7 @@ top_players:
 mark_times_s:
 - 1493
 - 1916
+- 2126
 - 2147
 - 2432
 - 2626
@@ -38,7 +40,7 @@ mark_times_s:
 - 3282
 - 3740
 - 4284
-median_mark_time_s: 2626.0
+median_mark_time_s: 2529.0
 claims:
 - match_id: 2026-08-16-Raydans-vs-LilAggy
   game_index: 2
@@ -48,6 +50,10 @@ claims:
   game_index: 2
   time_s: 1916
   slug: gustaf
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 2126
+  slug: itzcbd
 - match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
   game_index: 2
   time_s: 2147

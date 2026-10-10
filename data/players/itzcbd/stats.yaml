@@ -1,0 +1,41 @@
+slug: itzcbd
+display_name: itzCBD
+season_records:
+  pre-season-6:
+    wins: 0
+    losses: 1
+    draws: 0
+game_record:
+  wins: 1
+  losses: 2
+game_type_records:
+  base:
+    wins: 0
+    losses: 2
+  dlc:
+    wins: 1
+    losses: 0
+all_matches:
+- 2026-04-24-star0chris-vs-itzCBD
+top_squares_base_game:
+- text: Kill Commander O'Neil
+  marks: 2
+- text: 30 Arcane
+  marks: 1
+- text: Acquire 14 Unique Incantations
+  marks: 1
+- text: Acquire Somberstone Bell Bearing [1] and [2]
+  marks: 1
+- text: Buy 20 Boiled Crab from Boggart
+  marks: 1
+top_squares_dlc:
+- text: Acquire the Perfumed Oil of Ranah
+  marks: 1
+- text: Drink Thiollier's Concoction
+  marks: 1
+- text: Kill 1 Dancing Lion
+  marks: 1
+- text: Kill 3 NPC Bosses
+  marks: 1
+- text: Kill 3 Unique NPC Invaders
+  marks: 1

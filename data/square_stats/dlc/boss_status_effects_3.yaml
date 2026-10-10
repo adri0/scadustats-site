@@ -1,27 +1,35 @@
 id: boss_status_effects_3
 text: Kill a Boss after Inflicting 3 Unique Status Effects
 game_type: dlc
-num_matches: 2
+num_matches: 3
 matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-24-LilAggy-vs-SeriousChallenges
-num_games: 2
-games_marked: 2
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 3
+games_marked: 3
 mark_rate: 1.0
 top_players:
+- slug: itzcbd
+  marks: 1
 - slug: raydans
   marks: 1
 - slug: seriouschallenges
   marks: 1
 mark_times_s:
 - 1106
+- 1256
 - 1513
-median_mark_time_s: 1309.5
+median_mark_time_s: 1256.0
 claims:
 - match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
   game_index: 2
   time_s: 1106
   slug: seriouschallenges
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 1256
+  slug: itzcbd
 - match_id: 2026-07-26-Raydans-vs-Ironyeu
   game_index: 2
   time_s: 1513

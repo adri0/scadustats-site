@@ -1,0 +1,20 @@
+id: bols
+text: Kill Bols in front of Castle Ensis
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: star0chris
+  marks: 1
+mark_times_s:
+- 2307
+median_mark_time_s: 2307.0
+claims:
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 2307
+  slug: star0chris

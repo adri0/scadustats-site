@@ -1,0 +1,20 @@
+id: oil_of_ranah
+text: Acquire the Perfumed Oil of Ranah
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: itzcbd
+  marks: 1
+mark_times_s:
+- 3187
+median_mark_time_s: 3187.0
+claims:
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 3187
+  slug: itzcbd

@@ -1,7 +1,7 @@
 id: midra
 text: Kill Midra
 game_type: dlc
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -13,9 +13,10 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 10
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 11
 games_marked: 3
-mark_rate: 0.3
+mark_rate: 0.2727
 top_players:
 - slug: blanxz
   marks: 2

@@ -1,7 +1,7 @@
 id: moonrithyll
 text: Kill Moonrithyll, Carian Knight
 game_type: dlc
-num_matches: 15
+num_matches: 16
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -18,9 +18,10 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 16
-games_marked: 15
-mark_rate: 0.9375
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 17
+games_marked: 16
+mark_rate: 0.9412
 top_players:
 - slug: nuclearpastatom
   marks: 4
@@ -30,7 +31,7 @@ top_players:
   marks: 3
 - slug: blanxz
   marks: 1
-- slug: lilaggy
+- slug: itzcbd
   marks: 1
 mark_times_s:
 - 583
@@ -48,7 +49,8 @@ mark_times_s:
 - 1450
 - 1451
 - 1867
-median_mark_time_s: 1000.0
+- 2384
+median_mark_time_s: 1028.5
 claims:
 - match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
   game_index: 2
@@ -110,3 +112,7 @@ claims:
   game_index: 2
   time_s: 1867
   slug: vswed
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 2384
+  slug: itzcbd

@@ -1,7 +1,7 @@
 id: sleeping_golem
 text: Kill the Sleeping Golem in Leyndell
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-09-01-Vswed-vs-Raydans
@@ -13,21 +13,23 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-26-Raydans-vs-Ironyeu
-num_games: 10
-games_marked: 8
-mark_rate: 0.8
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 11
+games_marked: 9
+mark_rate: 0.8182
 top_players:
 - slug: raydans
   marks: 2
 - slug: blanxz
   marks: 1
+- slug: itzcbd
+  marks: 1
 - slug: lilaggy
   marks: 1
 - slug: nuclearpastatom
   marks: 1
-- slug: romainjacques
-  marks: 1
 mark_times_s:
+- 806
 - 1099
 - 1292
 - 1397
@@ -36,8 +38,12 @@ mark_times_s:
 - 2136
 - 2378
 - 3215
-median_mark_time_s: 1536.5
+median_mark_time_s: 1444.0
 claims:
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 806
+  slug: itzcbd
 - match_id: 2026-08-01-Gustaf-vs-TwistieT
   game_index: 1
   time_s: 1099

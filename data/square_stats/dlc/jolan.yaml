@@ -1,7 +1,7 @@
 id: jolan
 text: Acquire Jolan Summon
 game_type: dlc
-num_matches: 14
+num_matches: 15
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -17,9 +17,10 @@ matches:
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 14
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 15
 games_marked: 2
-mark_rate: 0.1429
+mark_rate: 0.1333
 top_players:
 - slug: lilaggy
   marks: 1

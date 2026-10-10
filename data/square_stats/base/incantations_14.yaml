@@ -1,7 +1,7 @@
 id: incantations_14
 text: Acquire 14 Unique Incantations
 game_type: base
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -15,9 +15,10 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-25-TwistieT-vs-Grey
-num_games: 12
-games_marked: 10
-mark_rate: 0.8333
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 13
+games_marked: 11
+mark_rate: 0.8462
 top_players:
 - slug: nuclearpastatom
   marks: 2
@@ -40,7 +41,8 @@ mark_times_s:
 - 3196
 - 3223
 - 4321
-median_mark_time_s: 3072.5
+- 5074
+median_mark_time_s: 3107.0
 claims:
 - match_id: 2026-08-16-Gustaf-vs-Vswed
   game_index: 1
@@ -82,3 +84,7 @@ claims:
   game_index: 1
   time_s: 4321
   slug: grey
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 1
+  time_s: 5074
+  slug: itzcbd

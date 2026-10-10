@@ -1,7 +1,7 @@
 id: scorpion_stew
 text: Acquire the Scorpion Stew
 game_type: dlc
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -12,9 +12,10 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 9
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 10
 games_marked: 6
-mark_rate: 0.6667
+mark_rate: 0.6
 top_players:
 - slug: romainjacques
   marks: 3
