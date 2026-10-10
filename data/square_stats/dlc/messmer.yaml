@@ -1,7 +1,7 @@
 id: messmer
 text: Kill Messmer
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
@@ -14,9 +14,10 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 11
-games_marked: 8
-mark_rate: 0.7273
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 12
+games_marked: 9
+mark_rate: 0.75
 top_players:
 - slug: blanxz
   marks: 2
@@ -24,9 +25,9 @@ top_players:
   marks: 2
 - slug: gustaf
   marks: 1
-- slug: romainjacques
+- slug: pepejack
   marks: 1
-- slug: seriouschallenges
+- slug: romainjacques
   marks: 1
 mark_times_s:
 - 1362
@@ -34,10 +35,11 @@ mark_times_s:
 - 1642
 - 1773
 - 2150
+- 2351
 - 3136
 - 3688
 - 4037
-median_mark_time_s: 1961.5
+median_mark_time_s: 2150.0
 claims:
 - match_id: 2026-08-07-blanxz-vs-Raydans
   game_index: 2
@@ -59,6 +61,10 @@ claims:
   game_index: 2
   time_s: 2150
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 2351
+  slug: pepejack
 - match_id: 2026-08-01-Gustaf-vs-TwistieT
   game_index: 2
   time_s: 3136

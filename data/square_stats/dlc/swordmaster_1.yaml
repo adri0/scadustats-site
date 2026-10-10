@@ -1,27 +1,31 @@
 id: swordmaster_1
 text: Kill 1 Demi-Human Swordmaster
 game_type: dlc
-num_matches: 5
+num_matches: 6
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-09-01-Vswed-vs-Raydans
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
-num_games: 6
-games_marked: 4
-mark_rate: 0.6667
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 7
+games_marked: 5
+mark_rate: 0.7143
 top_players:
 - slug: blanxz
   marks: 3
 - slug: nuclearpastatom
+  marks: 1
+- slug: pepejack
   marks: 1
 mark_times_s:
 - 1230
 - 1276
 - 1662
 - 3622
-median_mark_time_s: 1469.0
+- 3722
+median_mark_time_s: 1662.0
 claims:
 - match_id: 2026-09-12-blanxz-vs-RomainJacques
   game_index: 2
@@ -39,3 +43,7 @@ claims:
   game_index: 2
   time_s: 3622
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 2
+  time_s: 3722
+  slug: pepejack

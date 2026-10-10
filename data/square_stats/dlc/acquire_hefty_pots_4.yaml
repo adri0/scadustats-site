@@ -1,19 +1,22 @@
 id: acquire_hefty_pots_4
 text: Acquire 4 Hefty Pots
 game_type: dlc
-num_matches: 4
+num_matches: 5
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
-num_games: 4
-games_marked: 4
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 5
+games_marked: 5
 mark_rate: 1.0
 top_players:
 - slug: grey
   marks: 1
 - slug: ironyeu
+  marks: 1
+- slug: pepejack
   marks: 1
 - slug: seriouschallenges
   marks: 1
@@ -22,9 +25,10 @@ top_players:
 mark_times_s:
 - 371
 - 407
+- 429
 - 610
 - 659
-median_mark_time_s: 508.5
+median_mark_time_s: 429.0
 claims:
 - match_id: 2026-07-19-Vswed-vs-TwistieT
   game_index: 2
@@ -34,6 +38,10 @@ claims:
   game_index: 2
   time_s: 407
   slug: seriouschallenges
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 3
+  time_s: 429
+  slug: pepejack
 - match_id: 2026-07-26-Raydans-vs-Ironyeu
   game_index: 2
   time_s: 610

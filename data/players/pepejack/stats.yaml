@@ -1,0 +1,41 @@
+slug: pepejack
+display_name: pepeJack
+season_records:
+  pre-season-6:
+    wins: 0
+    losses: 1
+    draws: 0
+game_record:
+  wins: 1
+  losses: 2
+game_type_records:
+  base:
+    wins: 0
+    losses: 1
+  dlc:
+    wins: 1
+    losses: 1
+all_matches:
+- 2026-05-01-pepeJack-vs-itzCBD
+top_squares_base_game:
+- text: Acquire 5 Ritual Pots
+  marks: 1
+- text: Acquire Grave and Ghost Glovewort Bell Bearings [1]
+  marks: 1
+- text: Buy 20 Boiled Crab from Boggart
+  marks: 1
+- text: Kill 2 Deathbirds and 1 Death Rite Bird
+  marks: 1
+- text: Kill 2 Omenkiller Bosses
+  marks: 1
+top_squares_dlc:
+- text: Acquire 2 DLC Legendary Ash Summon
+  marks: 1
+- text: Acquire 3 NPC Dropped Weapons
+  marks: 1
+- text: Acquire 3 Non-Merchant Sorceries
+  marks: 1
+- text: Acquire 4 Hefty Pots
+  marks: 1
+- text: Acquire the Full Gravebird Armor Set
+  marks: 1

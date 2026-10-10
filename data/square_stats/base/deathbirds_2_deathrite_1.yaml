@@ -1,7 +1,7 @@
 id: deathbirds_2_deathrite_1
 text: Kill 2 Deathbirds and 1 Death Rite Bird
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-05-blanxz-vs-Vswed
@@ -13,9 +13,10 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 10
-games_marked: 9
-mark_rate: 0.9
+- 2026-05-01-pepeJack-vs-itzCBD
+num_games: 11
+games_marked: 10
+mark_rate: 0.9091
 top_players:
 - slug: lilaggy
   marks: 2
@@ -34,10 +35,11 @@ mark_times_s:
 - 1430
 - 1500
 - 1702
+- 2188
 - 2341
 - 3241
 - 4331
-median_mark_time_s: 1500.0
+median_mark_time_s: 1601.0
 claims:
 - match_id: 2026-07-31-blanxz-vs-Ironyeu
   game_index: 1
@@ -63,6 +65,10 @@ claims:
   game_index: 1
   time_s: 1702
   slug: blanxz
+- match_id: 2026-05-01-pepeJack-vs-itzCBD
+  game_index: 1
+  time_s: 2188
+  slug: pepejack
 - match_id: 2026-08-24-Gustaf-vs-RomainJacques
   game_index: 1
   time_s: 2341
