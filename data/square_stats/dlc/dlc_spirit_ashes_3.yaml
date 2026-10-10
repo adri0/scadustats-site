@@ -1,7 +1,7 @@
 id: dlc_spirit_ashes_3
 text: Acquire 3 DLC Spirit Ashes
 game_type: dlc
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-08-24-Gustaf-vs-RomainJacques
 - 2026-08-15-blanxz-vs-SeriousChallenges
@@ -15,9 +15,10 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 12
-games_marked: 11
-mark_rate: 0.9167
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 13
+games_marked: 12
+mark_rate: 0.9231
 top_players:
 - slug: blanxz
   marks: 2
@@ -37,11 +38,12 @@ mark_times_s:
 - 2041
 - 2116
 - 2898
+- 2922
 - 3069
 - 3198
 - 3272
 - 3446
-median_mark_time_s: 2116.0
+median_mark_time_s: 2507.0
 claims:
 - match_id: 2026-07-30-Parkenharbor-vs-LilAggy
   game_index: 2
@@ -71,6 +73,10 @@ claims:
   game_index: 2
   time_s: 2898
   slug: blanxz
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 2922
+  slug: pepejack
 - match_id: 2026-07-17-KEMIST-vs-SeriousChallenges
   game_index: 2
   time_s: 3069

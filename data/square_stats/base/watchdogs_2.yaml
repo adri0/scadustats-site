@@ -1,20 +1,28 @@
 id: watchdogs_2
 text: Kill 2 Watchdogs
 game_type: base
-num_matches: 1
+num_matches: 2
 matches:
+- 2026-04-25-pepeJack-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 1
-games_marked: 1
+num_games: 2
+games_marked: 2
 mark_rate: 1.0
 top_players:
+- slug: blanxz
+  marks: 1
 - slug: star0chris
   marks: 1
 mark_times_s:
 - 1487
-median_mark_time_s: 1487.0
+- 3433
+median_mark_time_s: 2460.0
 claims:
 - match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 1
   time_s: 1487
   slug: star0chris
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 3433
+  slug: blanxz

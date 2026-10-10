@@ -1,7 +1,7 @@
 id: concotion
 text: Drink Thiollier's Concoction
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -13,9 +13,10 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-19-Vswed-vs-TwistieT
+- 2026-04-25-pepeJack-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 11
-games_marked: 11
+num_games: 12
+games_marked: 12
 mark_rate: 1.0
 top_players:
 - slug: seriouschallenges
@@ -30,6 +31,7 @@ top_players:
   marks: 1
 mark_times_s:
 - 237
+- 244
 - 257
 - 261
 - 291
@@ -40,12 +42,16 @@ mark_times_s:
 - 1546
 - 1674
 - 1828
-median_mark_time_s: 683.0
+median_mark_time_s: 554.5
 claims:
 - match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
   game_index: 2
   time_s: 237
   slug: nuclearpastatom
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 244
+  slug: pepejack
 - match_id: 2026-04-24-star0chris-vs-itzCBD
   game_index: 2
   time_s: 257

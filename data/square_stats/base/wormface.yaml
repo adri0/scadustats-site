@@ -1,7 +1,7 @@
 id: wormface
 text: Kill Wormface
 game_type: base
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-16-Raydans-vs-LilAggy
@@ -10,14 +10,15 @@ matches:
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 7
-games_marked: 7
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 8
+games_marked: 8
 mark_rate: 1.0
 top_players:
 - slug: seriouschallenges
   marks: 3
 - slug: blanxz
-  marks: 1
+  marks: 2
 - slug: raydans
   marks: 1
 - slug: romainjacques
@@ -31,8 +32,9 @@ mark_times_s:
 - 1318
 - 1325
 - 1353
+- 1388
 - 1509
-median_mark_time_s: 1318.0
+median_mark_time_s: 1321.5
 claims:
 - match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
   game_index: 1
@@ -58,6 +60,10 @@ claims:
   game_index: 1
   time_s: 1353
   slug: seriouschallenges
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 1388
+  slug: blanxz
 - match_id: 2026-08-09-TwistieT-vs-RomainJacques
   game_index: 1
   time_s: 1509

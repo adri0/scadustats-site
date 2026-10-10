@@ -1,7 +1,7 @@
 id: godrick_great_rune
 text: Restore Godrick's Great Rune
 game_type: base
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-09-01-Vswed-vs-Raydans
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -10,10 +10,13 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 7
-games_marked: 5
-mark_rate: 0.7143
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 8
+games_marked: 6
+mark_rate: 0.75
 top_players:
+- slug: blanxz
+  marks: 1
 - slug: kemist
   marks: 1
 - slug: nuclearpastatom
@@ -22,15 +25,14 @@ top_players:
   marks: 1
 - slug: raydans
   marks: 1
-- slug: romainjacques
-  marks: 1
 mark_times_s:
 - 1656
 - 1657
 - 1698
 - 2423
 - 3864
-median_mark_time_s: 1698.0
+- 4946
+median_mark_time_s: 2060.5
 claims:
 - match_id: 2026-07-19-Raydans-vs-Parkenharbor
   game_index: 1
@@ -52,3 +54,7 @@ claims:
   game_index: 1
   time_s: 3864
   slug: romainjacques
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 4946
+  slug: blanxz

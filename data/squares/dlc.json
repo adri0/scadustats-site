@@ -41,6 +41,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "black_knight_boss",
+    "text": "Kill a Black Knight boss",
+    "game_type": "dlc"
+  },
+  {
     "id": "blessings_2",
     "text": "Acquire 2 Blessings of Marika",
     "game_type": "dlc"
@@ -91,7 +96,10 @@
   {
     "id": "catacombs_2",
     "text": "Complete 2 Catacombs",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Clear 2 Catacombs"
+    ]
   },
   {
     "id": "colossal_fingercreeper",
@@ -199,6 +207,14 @@
   {
     "id": "dropped_talisman_3",
     "text": "Acquire 3 Enemy/NPC Dropped Talismans",
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire 3 dropped DLC Talismans"
+    ]
+  },
+  {
+    "id": "dryleaf_dane",
+    "text": "Kill Dryleaf Dane in the Duel",
     "game_type": "dlc"
   },
   {
@@ -357,6 +373,14 @@
   {
     "id": "lamenter",
     "text": "Kill Lamenter",
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Lamenter Boss"
+    ]
+  },
+  {
+    "id": "larval_tears_3",
+    "text": "Acquire 3 Larval tears",
     "game_type": "dlc"
   },
   {
@@ -375,8 +399,18 @@
     "game_type": "dlc"
   },
   {
+    "id": "logur",
+    "text": "Kill Logur, the Beast Claw",
+    "game_type": "dlc"
+  },
+  {
     "id": "madding_hand",
     "text": "Kill Madding Hand",
+    "game_type": "dlc"
+  },
+  {
+    "id": "marigga",
+    "text": "Kill Demi Human Marigga",
     "game_type": "dlc"
   },
   {
@@ -412,7 +446,10 @@
   {
     "id": "metyr",
     "text": "Kill Metyr",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Metyr, Mother of Fingers"
+    ]
   },
   {
     "id": "midra",
@@ -535,7 +572,10 @@
   {
     "id": "red_bear_1",
     "text": "Kill 1 Red Bear",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Red bear"
+    ]
   },
   {
     "id": "red_bear_2",

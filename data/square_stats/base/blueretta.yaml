@@ -1,16 +1,19 @@
 id: blueretta
 text: Kill Loretta (Blue Spirit)
 game_type: base
-num_matches: 4
+num_matches: 5
 matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-18-Gustaf-vs-Grey
+- 2026-04-25-pepeJack-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 4
-games_marked: 3
-mark_rate: 0.75
+num_games: 5
+games_marked: 4
+mark_rate: 0.8
 top_players:
+- slug: blanxz
+  marks: 1
 - slug: gustaf
   marks: 1
 - slug: nuclearpastatom
@@ -18,11 +21,16 @@ top_players:
 - slug: star0chris
   marks: 1
 mark_times_s:
+- 1142
 - 1883
 - 2343
 - 4337
-median_mark_time_s: 2343.0
+median_mark_time_s: 2113.0
 claims:
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 1142
+  slug: blanxz
 - match_id: 2026-07-18-Gustaf-vs-Grey
   game_index: 1
   time_s: 1883

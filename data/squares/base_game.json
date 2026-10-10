@@ -306,7 +306,10 @@
   {
     "id": "faith_30",
     "text": "30 Faith",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "30 Faith (no rebirth or buffs)"
+    ]
   },
   {
     "id": "fallingstar_beast_1",
@@ -396,7 +399,10 @@
   {
     "id": "grafted_scion",
     "text": "Kill Grafted Scion (Chapel)",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Grafted Scion (Chapel of Anticipation)"
+    ]
   },
   {
     "id": "greyoll",
@@ -504,7 +510,10 @@
   {
     "id": "magma_wyrm_1",
     "text": "Kill 1 Magma Wyrm",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Magma Wyrm boss"
+    ]
   },
   {
     "id": "magma_wyrms_2",
@@ -519,7 +528,10 @@
   {
     "id": "magnus",
     "text": "Kill Magnus the Beast Claw",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Invade and defeat Magnus the Beast Claw"
+    ]
   },
   {
     "id": "makar",
@@ -549,6 +561,11 @@
   {
     "id": "memb_daggers",
     "text": "Kill a Remembrance Boss with Daggers Only",
+    "game_type": "base"
+  },
+  {
+    "id": "memb_daggers_claws_fists",
+    "text": "Kill a Remembrance boss daggers, claws, or fists only",
     "game_type": "base"
   },
   {
@@ -619,6 +636,11 @@
   {
     "id": "mog_100k",
     "text": "Memory of Grace with 100k+ Runes",
+    "game_type": "base"
+  },
+  {
+    "id": "mog_65k",
+    "text": "Memory of Grace with 65k+ Runes",
     "game_type": "base"
   },
   {
@@ -735,6 +757,11 @@
     "game_type": "base"
   },
   {
+    "id": "rune_55",
+    "text": "Rune Level 55",
+    "game_type": "base"
+  },
+  {
     "id": "rune_60",
     "text": "Rune Level 60",
     "game_type": "base"
@@ -795,7 +822,10 @@
   {
     "id": "sheep_lightning_aow_10",
     "text": "Kill 10 Sheep with AoW Lightning Ram Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Use AoW Lightning Ram to kill 10 sheep"
+    ]
   },
   {
     "id": "sleeping_golem",
@@ -830,6 +860,11 @@
   {
     "id": "talismans_10",
     "text": "Acquire 10 Unique Talismans",
+    "game_type": "base"
+  },
+  {
+    "id": "talismans_9",
+    "text": "Acquire 9 different Talismans (Excluding Sacrifial Twigs)",
     "game_type": "base"
   },
   {
@@ -883,7 +918,10 @@
   {
     "id": "tunnels_2_2",
     "text": "Complete 2 Tunnels or Precipices",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 2 tunnel or precipice dungeons"
+    ]
   },
   {
     "id": "tunnels_3",

@@ -1,0 +1,807 @@
+{
+  "match_id": "2026-04-25-pepeJack-vs-blanxz",
+  "match_date": "2026-04-25",
+  "season": "pre-season-6",
+  "match_type": "double_elimination",
+  "player_red_name": "pepeJack",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=LloiMokOd9Q",
+    "duration_s": 15733.283333333333,
+    "published_at": "2026-04-29",
+    "extracted_at": "2026-10-10"
+  },
+  "num_games": 3,
+  "red_score": 1,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 63.0,
+      "end_video_ts_s": 5481.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 5 Bosses that Ride a Horse",
+          "Restore Godrick's Great Rune",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill Agheel with a +0 Weapon Only",
+          "Kill Wormface"
+        ],
+        [
+          "Acquire Margit's and Mohg's Shackles",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Invade and defeat Magnus the Beast Claw",
+          "Kill 4 Unique Tibia Mariners"
+        ],
+        [
+          "Kill 2 Misbegotten Bosses",
+          "Take Rya's hand to Volcano Manor",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill 4 Bosses in Liurnia",
+          "Collect 3 Painting rewards"
+        ],
+        [
+          "Kill Mohg, Lord of Blood",
+          "Kill the Milicent invader in Caelid",
+          "Kill Elemer of the Briar",
+          "Acquire 4 Whetstone Knives",
+          "Kill 2 Watchdogs"
+        ],
+        [
+          "Kill Loretta (Blue Spirit)",
+          "Complete 4 Evergaols",
+          "30 Faith (no rebirth or buffs)",
+          "Kill Morgott",
+          "Kill Godfrey (Gold Spirit)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:08:03"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Milicent invader in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:05",
+          "video_timestamp": "00:12:08"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:00",
+          "video_timestamp": "00:15:03"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:02",
+          "video_timestamp": "00:27:05"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:08",
+          "video_timestamp": "00:31:11"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:11",
+          "video_timestamp": "00:39:14"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Invade and defeat Magnus the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:45",
+          "video_timestamp": "00:41:48"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:41",
+          "video_timestamp": "00:44:44"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:01",
+          "video_timestamp": "00:46:04"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "30 Faith (no rebirth or buffs)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:27",
+          "video_timestamp": "00:48:30"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:48",
+          "video_timestamp": "00:50:51"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:44",
+          "video_timestamp": "00:51:47"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 2 Misbegotten Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:32",
+          "video_timestamp": "00:52:35"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:48",
+          "video_timestamp": "00:53:51"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Watchdogs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:13",
+          "video_timestamp": "01:05:16"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:19",
+          "video_timestamp": "01:11:22"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Collect 3 Painting rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:06",
+          "video_timestamp": "01:12:09"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Mohg, Lord of Blood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:48",
+          "video_timestamp": "01:19:51"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:28",
+          "video_timestamp": "01:25:31"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Morgott",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:19:14",
+          "video_timestamp": "01:27:17"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 4 Bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:21:06",
+          "video_timestamp": "01:29:09"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:22:26",
+          "video_timestamp": "01:30:29"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:22:26",
+          "video_timestamp": "01:30:29"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5483.0,
+      "end_video_ts_s": 10609.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Logur, the Beast Claw",
+          "Kill the Death Rite Bird",
+          "Acquire 3 Larval tears",
+          "Complete 2 Nameless Mausoleums",
+          "Kill Demi Human Marigga"
+        ],
+        [
+          "Acquire 3 DLC Spirit Ashes",
+          "Kill Metyr, Mother of Fingers",
+          "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "Kill Dryleaf Dane in the Duel",
+          "Kill a Black Knight boss"
+        ],
+        [
+          "Kill Moonrithyll, Carian Knight",
+          "Put Florissax to Sleep",
+          "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "Acquire 4 Hefty Pots",
+          "Clear 2 Catacombs"
+        ],
+        [
+          "Acquire 3 dropped DLC Talismans",
+          "Kill Lamenter Boss",
+          "Acquire Commander Gaius's Pants",
+          "Drain the Water in the Church District",
+          "Acquire Igon's Furled Finger"
+        ],
+        [
+          "Kill the Golden Hippo",
+          "Kill a Red bear",
+          "Drink Thiollier's Concoction",
+          "Kill the Rolling Giant Lightning Ram",
+          "Burn the Sealing Tree"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:34:23"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:04",
+          "video_timestamp": "01:38:27"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:38",
+          "video_timestamp": "01:42:01"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:01",
+          "video_timestamp": "01:45:24"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Red bear",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:23",
+          "video_timestamp": "01:46:46"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:21",
+          "video_timestamp": "01:49:44"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:21",
+          "video_timestamp": "01:50:44"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:06",
+          "video_timestamp": "01:52:29"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:57",
+          "video_timestamp": "01:57:20"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:24",
+          "video_timestamp": "02:02:47"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:57",
+          "video_timestamp": "02:05:20"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Black Knight boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:10",
+          "video_timestamp": "02:05:33"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 3 dropped DLC Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:15",
+          "video_timestamp": "02:10:38"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:15",
+          "video_timestamp": "02:12:38"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Lamenter Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:35",
+          "video_timestamp": "02:12:58"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 4 Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:25",
+          "video_timestamp": "02:14:48"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:22",
+          "video_timestamp": "02:20:45"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:42",
+          "video_timestamp": "02:23:05"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:33",
+          "video_timestamp": "02:26:56"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:42",
+          "video_timestamp": "02:27:05"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:33",
+          "video_timestamp": "02:33:56"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with Remembrance Weapons Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:46",
+          "video_timestamp": "02:43:09"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 1 Boss of each: Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:25",
+          "video_timestamp": "02:45:48"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Burn the Sealing Tree",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:15:52",
+          "video_timestamp": "02:50:15"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Metyr, Mother of Fingers",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:27",
+          "video_timestamp": "02:56:49"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:22:27",
+          "video_timestamp": "02:56:49"
+        }
+      ]
+    },
+    {
+      "game_index": 3,
+      "start_video_ts_s": 10670.0,
+      "end_video_ts_s": 14656.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire the Fingerslayer Blade",
+          "Take Rya's hand to Volcano Manor",
+          "Kill Malenia",
+          "Kill an Ancestor Spirit",
+          "Kill 2 Unique Cemetery Shades"
+        ],
+        [
+          "Kill Morgott",
+          "Rune Level 55",
+          "Kill a Remembrance Boss with Incantations Only",
+          "Acquire the Moon of Nokstella",
+          "Use AoW Lightning Ram to kill 10 sheep"
+        ],
+        [
+          "Acquire 10 Cracked Pots",
+          "Restore Radahn's Great Rune",
+          "Kill a Magma Wyrm boss",
+          "Acquire 5 Ritual Pots",
+          "Kill 3 Dragon Heart Bosses"
+        ],
+        [
+          "Kill 5 Bosses that Ride a Horse",
+          "Spirit Ash +4 summon",
+          "Memory of Grace with 65k+ Runes",
+          "Kill 1 Omenkiller Boss",
+          "Kill 6 Bosses in Limgrave / Weeping"
+        ],
+        [
+          "Acquire 9 different Talismans (Excluding Sacrifial Twigs)",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Kill 1 Fallingstar Beast",
+          "Acquire Both Scarseal Talismans"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "03:00:57"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:02:22",
+          "video_timestamp": "03:03:19"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:30",
+          "video_timestamp": "03:09:27"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 1 Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:21",
+          "video_timestamp": "03:11:18"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:47",
+          "video_timestamp": "03:13:44"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:33",
+          "video_timestamp": "03:16:30"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:51",
+          "video_timestamp": "03:20:48"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 Unique Cemetery Shades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:28",
+          "video_timestamp": "03:21:25"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:52",
+          "video_timestamp": "03:22:25"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Memory of Grace with 65k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:17",
+          "video_timestamp": "03:24:50"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:22",
+          "video_timestamp": "03:34:05"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire the Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:32",
+          "video_timestamp": "03:37:15"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 6 Bosses in Limgrave / Weeping",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:24",
+          "video_timestamp": "03:42:07"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:48",
+          "video_timestamp": "03:42:31"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:15",
+          "video_timestamp": "03:45:58"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:36",
+          "video_timestamp": "03:48:19"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 1 Omenkiller Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:10",
+          "video_timestamp": "03:50:53"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:34",
+          "video_timestamp": "03:58:38"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:48",
+          "video_timestamp": "04:01:07"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:13",
+          "video_timestamp": "04:01:32"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 9 different Talismans (Excluding Sacrifial Twigs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:47",
+          "video_timestamp": "04:03:52"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:04:47",
+          "video_timestamp": "04:03:52"
+        }
+      ]
+    }
+  ]
+}

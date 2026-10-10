@@ -1,7 +1,7 @@
 id: godskin_noble_no_status
 text: Kill Godskin Noble (Volcano Manor) without Status Effects
 game_type: base
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-08-28-NuclearPastaTom-vs-blanxz
@@ -14,9 +14,10 @@ matches:
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-Raydans-vs-Ironyeu
-num_games: 11
-games_marked: 8
-mark_rate: 0.7273
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 12
+games_marked: 9
+mark_rate: 0.75
 top_players:
 - slug: romainjacques
   marks: 3
@@ -26,7 +27,7 @@ top_players:
   marks: 1
 - slug: parkenharbor
   marks: 1
-- slug: seriouschallenges
+- slug: pepejack
   marks: 1
 mark_times_s:
 - 1517
@@ -37,7 +38,8 @@ mark_times_s:
 - 2736
 - 2839
 - 3177
-median_mark_time_s: 2356.5
+- 3799
+median_mark_time_s: 2371.0
 claims:
 - match_id: 2026-09-12-blanxz-vs-RomainJacques
   game_index: 1
@@ -71,3 +73,7 @@ claims:
   game_index: 1
   time_s: 3177
   slug: ironyeu
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 3799
+  slug: pepejack

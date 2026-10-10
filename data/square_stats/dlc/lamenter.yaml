@@ -1,7 +1,7 @@
 id: lamenter
 text: Kill Lamenter
 game_type: dlc
-num_matches: 18
+num_matches: 19
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -21,22 +21,24 @@ matches:
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 18
-games_marked: 12
-mark_rate: 0.6667
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 19
+games_marked: 13
+mark_rate: 0.6842
 top_players:
 - slug: seriouschallenges
   marks: 4
 - slug: grey
   marks: 2
+- slug: blanxz
+  marks: 1
 - slug: lilaggy
   marks: 1
 - slug: nuclearpastatom
   marks: 1
-- slug: parkenharbor
-  marks: 1
 mark_times_s:
 - 2131
+- 2315
 - 2423
 - 2700
 - 3210
@@ -48,12 +50,16 @@ mark_times_s:
 - 4313
 - 4351
 - 4485
-median_mark_time_s: 3577.5
+median_mark_time_s: 3462.0
 claims:
 - match_id: 2026-07-24-LilAggy-vs-SeriousChallenges
   game_index: 2
   time_s: 2131
   slug: seriouschallenges
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 2315
+  slug: blanxz
 - match_id: 2026-08-07-Vswed-vs-Grey
   game_index: 2
   time_s: 2423

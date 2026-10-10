@@ -1,7 +1,7 @@
 id: igon_finger
 text: Acquire Igon's Furled Finger
 game_type: dlc
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-01-Vswed-vs-Raydans
@@ -13,28 +13,30 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 10
-games_marked: 6
-mark_rate: 0.6
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 11
+games_marked: 7
+mark_rate: 0.6364
 top_players:
 - slug: nuclearpastatom
   marks: 2
+- slug: blanxz
+  marks: 1
 - slug: grey
   marks: 1
 - slug: parkenharbor
   marks: 1
 - slug: raydans
   marks: 1
-- slug: romainjacques
-  marks: 1
 mark_times_s:
 - 1809
 - 2767
 - 3067
+- 3162
 - 3492
 - 3787
 - 4039
-median_mark_time_s: 3279.5
+median_mark_time_s: 3162.0
 claims:
 - match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
   game_index: 2
@@ -48,6 +50,10 @@ claims:
   game_index: 2
   time_s: 3067
   slug: romainjacques
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 3162
+  slug: blanxz
 - match_id: 2026-07-26-Raydans-vs-Ironyeu
   game_index: 2
   time_s: 3492
