@@ -1,0 +1,20 @@
+# Hand-curated bracket for pre-season 6 (double elimination, six players).
+# Rendered as an SVG diagram on the season page by _partials/season-bracket.html;
+# see data/brackets/season-6.yaml for the field reference.
+#
+# Matches follow the VOD playlist (videos 161-169). nuclearpastatom had a bye
+# from round 1 to the Grand Final (168), whose loser then played the lower
+# bracket's last match (169) for the remaining placings. Matches without a
+# transcribed VOD list their players only; scores and winners appear once the
+# match file exists (set `match:`) or scores are entered by hand.
+title: Double elimination
+matches:
+  - { id: 1, label: Match 1, bracket: upper, col: 0, row: 0,    date: "2026-04-24", next: 5, match: 2026-04-24-star0chris-vs-itzCBD }
+  - { id: 2, label: Match 2, bracket: upper, col: 0, row: 1,    next: 5, red: blanxz, blue: pepeJack_tv }
+  - { id: 3, label: Match 3, bracket: upper, col: 0, row: 2,    next: 8, red: NuclearPastaTom, blue: nessonetta }
+  - { id: 5, label: Match 5, bracket: upper, col: 1, row: 0.5,  next: 8, red: star0chris, blue: blanxz }
+  - { id: 8, label: Grand Final, bracket: final, col: 2, row: 1.25, red: NuclearPastaTom, blue: blanxz }
+  - { id: 4, label: Match 4, bracket: lower, col: 0, row: 3.25, next: 7, red: itzCBD, blue: pepeJack_tv }
+  - { id: 6, label: Match 6, bracket: lower, col: 0, row: 4.25, next: 7, red: star0chris, blue: nessonetta }
+  - { id: 7, label: Match 7, bracket: lower, col: 1, row: 3.75, next: 9, red: star0chris, blue: itzCBD }
+  - { id: 9, label: Lower Final, bracket: lower, col: 2, row: 3.75, red: star0chris, blue: blanxz }

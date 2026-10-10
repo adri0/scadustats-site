@@ -2,8 +2,8 @@
 {{- $s := .Params }}
 {{ partial "breadcrumb.html" . }}
 
-{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $s.id) }}
-{{- $groups := index (hugo.Data.groups | default dict) (printf "season-%s" $s.id) }}
+{{- $bracket := partial "lib/season-file.html" (dict "kind" "brackets" "season_id" $s.id) }}
+{{- $groups := partial "lib/season-file.html" (dict "kind" "groups" "season_id" $s.id) }}
 {{- /* Table of contents: one entry per section below, in page order, under
        the same conditions that render the section. */}}
 {{- $toc := slice (dict "id" "overview" "title" "Overview") }}
