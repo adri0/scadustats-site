@@ -1,7 +1,7 @@
 id: faith_30
 text: 30 Faith
 game_type: base
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-11-LilAggy-vs-RomainJacques
@@ -12,9 +12,10 @@ matches:
 - 2026-08-12-RomainJacques-vs-Grey
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-08-07-Vswed-vs-Grey
-num_games: 9
-games_marked: 8
-mark_rate: 0.8889
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 10
+games_marked: 9
+mark_rate: 0.9
 top_players:
 - slug: grey
   marks: 2
@@ -22,9 +23,9 @@ top_players:
   marks: 1
 - slug: nuclearpastatom
   marks: 1
-- slug: romainjacques
+- slug: pepejack
   marks: 1
-- slug: seriouschallenges
+- slug: romainjacques
   marks: 1
 mark_times_s:
 - 287
@@ -32,10 +33,11 @@ mark_times_s:
 - 1318
 - 1462
 - 2311
+- 2427
 - 2493
 - 2714
 - 2898
-median_mark_time_s: 1886.5
+median_mark_time_s: 2311.0
 claims:
 - match_id: 2026-08-07-Vswed-vs-Grey
   game_index: 1
@@ -57,6 +59,10 @@ claims:
   game_index: 1
   time_s: 2311
   slug: grey
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 2427
+  slug: pepejack
 - match_id: 2026-08-14-NuclearPastaTom-vs-TwistieT
   game_index: 1
   time_s: 2493

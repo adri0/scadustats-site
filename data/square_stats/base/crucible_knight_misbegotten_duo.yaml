@@ -1,7 +1,7 @@
 id: crucible_knight_misbegotten_duo
 text: Kill Crucible Knight and Misbegotten Warrior Duo
 game_type: base
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-08-24-Gustaf-vs-RomainJacques
@@ -14,9 +14,10 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
+- 2026-04-25-pepeJack-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 12
-games_marked: 12
+num_games: 13
+games_marked: 13
 mark_rate: 1.0
 top_players:
 - slug: vswed
@@ -34,6 +35,7 @@ mark_times_s:
 - 1583
 - 1822
 - 2114
+- 2201
 - 2207
 - 2416
 - 2530
@@ -42,7 +44,7 @@ mark_times_s:
 - 2885
 - 2974
 - 3448
-median_mark_time_s: 2473.0
+median_mark_time_s: 2416.0
 claims:
 - match_id: 2026-08-24-Gustaf-vs-RomainJacques
   game_index: 1
@@ -60,6 +62,10 @@ claims:
   game_index: 3
   time_s: 2114
   slug: itzcbd
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 2201
+  slug: pepejack
 - match_id: 2026-08-16-Raydans-vs-LilAggy
   game_index: 1
   time_s: 2207

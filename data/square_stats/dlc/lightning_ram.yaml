@@ -1,7 +1,7 @@
 id: lightning_ram
 text: Kill the Rolling Giant Lightning Ram
 game_type: dlc
-num_matches: 17
+num_matches: 18
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-12-blanxz-vs-RomainJacques
@@ -20,9 +20,10 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 17
-games_marked: 13
-mark_rate: 0.7647
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 18
+games_marked: 14
+mark_rate: 0.7778
 top_players:
 - slug: seriouschallenges
   marks: 4
@@ -41,6 +42,7 @@ mark_times_s:
 - 1825
 - 1834
 - 1869
+- 2295
 - 2561
 - 2805
 - 2811
@@ -48,7 +50,7 @@ mark_times_s:
 - 2923
 - 3261
 - 3761
-median_mark_time_s: 2561.0
+median_mark_time_s: 2428.0
 claims:
 - match_id: 2026-07-31-blanxz-vs-Ironyeu
   game_index: 2
@@ -74,6 +76,10 @@ claims:
   game_index: 2
   time_s: 1869
   slug: seriouschallenges
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 2295
+  slug: pepejack
 - match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
   game_index: 2
   time_s: 2561

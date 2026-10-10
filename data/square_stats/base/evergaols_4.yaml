@@ -1,14 +1,15 @@
 id: evergaols_4
 text: Complete 4 Evergaols
 game_type: base
-num_matches: 3
+num_matches: 4
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-24-blanxz-vs-Parkenharbor
-num_games: 3
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 4
 games_marked: 3
-mark_rate: 1.0
+mark_rate: 0.75
 top_players:
 - slug: blanxz
   marks: 1

@@ -1,0 +1,20 @@
+id: memb_daggers_claws_fists
+text: Kill a Remembrance boss daggers, claws, or fists only
+game_type: base
+num_matches: 1
+matches:
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: pepejack
+  marks: 1
+mark_times_s:
+- 1871
+median_mark_time_s: 1871.0
+claims:
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 1871
+  slug: pepejack

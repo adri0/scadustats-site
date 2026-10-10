@@ -5,16 +5,20 @@ season_records:
     wins: 6
     losses: 2
     draws: 0
+  pre-season-6:
+    wins: 1
+    losses: 0
+    draws: 0
 game_record:
-  wins: 13
-  losses: 4
+  wins: 15
+  losses: 5
 game_type_records:
   base:
-    wins: 7
+    wins: 9
     losses: 1
   dlc:
     wins: 6
-    losses: 3
+    losses: 4
 all_matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-05-blanxz-vs-Vswed
@@ -24,16 +28,17 @@ all_matches:
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
+- 2026-04-25-pepeJack-vs-blanxz
 top_squares_base_game:
 - text: Acquire Both Scarseal Talismans
-  marks: 3
+  marks: 4
 - text: Kill 3 Friendly NPCs (No Hermit Merchants)
   marks: 3
 - text: Kill a Remembrance Boss Hitless
   marks: 3
+- text: Take Rya's hand to Volcano Manor
+  marks: 3
 - text: 30 Arcane
-  marks: 2
-- text: Acquire Smithing Stone Bell Bearing [1] and [2]
   marks: 2
 top_squares_dlc:
 - text: Blow a Finger
@@ -44,5 +49,5 @@ top_squares_dlc:
   marks: 4
 - text: Memory of Grace with 500k+ Runes
   marks: 4
-- text: Kill 1 Demi-Human Swordmaster
+- text: Acquire Commander Gaius's Pants
   marks: 3

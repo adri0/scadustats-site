@@ -1,19 +1,22 @@
 id: agheel_plus_0
 text: Kill Agheel with a +0 Weapon Only
 game_type: base
-num_matches: 5
+num_matches: 6
 matches:
 - 2026-09-03-LilAggy-vs-Grey
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 5
-games_marked: 5
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 6
+games_marked: 6
 mark_rate: 1.0
 top_players:
 - slug: seriouschallenges
   marks: 2
+- slug: blanxz
+  marks: 1
 - slug: gustaf
   marks: 1
 - slug: lilaggy
@@ -25,8 +28,9 @@ mark_times_s:
 - 456
 - 643
 - 1047
+- 2748
 - 3481
-median_mark_time_s: 643.0
+median_mark_time_s: 845.0
 claims:
 - match_id: 2026-07-18-Gustaf-vs-Grey
   game_index: 1
@@ -44,6 +48,10 @@ claims:
   game_index: 1
   time_s: 1047
   slug: seriouschallenges
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 2748
+  slug: blanxz
 - match_id: 2026-09-03-LilAggy-vs-Grey
   game_index: 1
   time_s: 3481

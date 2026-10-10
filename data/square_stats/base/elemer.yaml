@@ -1,7 +1,7 @@
 id: elemer
 text: Kill Elemer of the Briar
 game_type: base
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -10,28 +10,30 @@ matches:
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-08-08-NuclearPastaTom-vs-Gustaf
 - 2026-07-19-Raydans-vs-Parkenharbor
-num_games: 7
-games_marked: 6
-mark_rate: 0.8571
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 8
+games_marked: 7
+mark_rate: 0.875
 top_players:
 - slug: seriouschallenges
   marks: 2
+- slug: blanxz
+  marks: 1
 - slug: gustaf
   marks: 1
 - slug: lilaggy
   marks: 1
 - slug: raydans
   marks: 1
-- slug: romainjacques
-  marks: 1
 mark_times_s:
 - 1258
 - 1539
 - 2118
+- 2281
 - 3286
 - 3462
 - 4403
-median_mark_time_s: 2702.0
+median_mark_time_s: 2281.0
 claims:
 - match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
   game_index: 1
@@ -45,6 +47,10 @@ claims:
   game_index: 1
   time_s: 2118
   slug: raydans
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 1
+  time_s: 2281
+  slug: blanxz
 - match_id: 2026-08-09-TwistieT-vs-RomainJacques
   game_index: 1
   time_s: 3286

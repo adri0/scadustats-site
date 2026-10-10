@@ -1,0 +1,20 @@
+id: black_knight_boss
+text: Kill a Black Knight boss
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: blanxz
+  marks: 1
+mark_times_s:
+- 1870
+median_mark_time_s: 1870.0
+claims:
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 1870
+  slug: blanxz
