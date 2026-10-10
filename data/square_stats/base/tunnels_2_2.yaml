@@ -1,27 +1,35 @@
 id: tunnels_2_2
 text: Complete 2 Tunnels or Precipices
 game_type: base
-num_matches: 2
+num_matches: 3
 matches:
 - 2026-08-12-RomainJacques-vs-Grey
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-25-pepeJack_-vs-blanxz
-num_games: 2
-games_marked: 2
+num_games: 3
+games_marked: 3
 mark_rate: 1.0
 top_players:
 - slug: grey
+  marks: 1
+- slug: nessonetta
   marks: 1
 - slug: pepejack
   marks: 1
 mark_times_s:
 - 767
+- 857
 - 1240
-median_mark_time_s: 1003.5
+median_mark_time_s: 857.0
 claims:
 - match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 3
   time_s: 767
   slug: pepejack
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 857
+  slug: nessonetta
 - match_id: 2026-08-12-RomainJacques-vs-Grey
   game_index: 1
   time_s: 1240

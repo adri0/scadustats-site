@@ -1,7 +1,7 @@
 id: catacombs_2
 text: Complete 2 Catacombs
 game_type: dlc
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-08-16-Raydans-vs-LilAggy
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
@@ -11,10 +11,11 @@ matches:
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Raydans-vs-Parkenharbor
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-25-pepeJack_-vs-blanxz
-num_games: 9
+num_games: 10
 games_marked: 2
-mark_rate: 0.2222
+mark_rate: 0.2
 top_players:
 - slug: lilaggy
   marks: 1

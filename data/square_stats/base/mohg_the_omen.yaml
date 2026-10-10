@@ -1,7 +1,7 @@
 id: mohg_the_omen
 text: Kill Mohg, the Omen
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-05-blanxz-vs-Vswed
 - 2026-09-03-LilAggy-vs-Grey
@@ -13,12 +13,13 @@ matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-05-01-pepeJack_-vs-itzCBD
-num_games: 10
-games_marked: 6
-mark_rate: 0.6
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 11
+games_marked: 7
+mark_rate: 0.6364
 top_players:
 - slug: nuclearpastatom
-  marks: 2
+  marks: 3
 - slug: blanxz
   marks: 1
 - slug: itzcbd
@@ -31,10 +32,11 @@ mark_times_s:
 - 3192
 - 3800
 - 3974
+- 4041
 - 4336
 - 4742
 - 5803
-median_mark_time_s: 4155.0
+median_mark_time_s: 4041.0
 claims:
 - match_id: 2026-08-12-RomainJacques-vs-Grey
   game_index: 1
@@ -48,6 +50,10 @@ claims:
   game_index: 1
   time_s: 3974
   slug: blanxz
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 1
+  time_s: 4041
+  slug: nuclearpastatom
 - match_id: 2026-08-28-NuclearPastaTom-vs-blanxz
   game_index: 1
   time_s: 4336

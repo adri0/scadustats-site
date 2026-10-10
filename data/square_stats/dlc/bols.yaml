@@ -1,23 +1,31 @@
 id: bols
 text: Kill Bols in front of Castle Ensis
 game_type: dlc
-num_matches: 2
+num_matches: 3
 matches:
 - 2026-05-01-pepeJack_-vs-itzCBD
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-24-star0chris-vs-itzCBD
-num_games: 2
-games_marked: 2
+num_games: 3
+games_marked: 3
 mark_rate: 1.0
 top_players:
+- slug: nessonetta
+  marks: 1
 - slug: pepejack
   marks: 1
 - slug: star0chris
   marks: 1
 mark_times_s:
+- 331
 - 868
 - 2307
-median_mark_time_s: 1587.5
+median_mark_time_s: 868.0
 claims:
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 2
+  time_s: 331
+  slug: nessonetta
 - match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 868

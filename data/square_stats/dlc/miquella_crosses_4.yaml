@@ -1,0 +1,20 @@
+id: miquella_crosses_4
+text: Visit 4 Miquella Crosses
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: nuclearpastatom
+  marks: 1
+mark_times_s:
+- 302
+median_mark_time_s: 302.0
+claims:
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 2
+  time_s: 302
+  slug: nuclearpastatom
