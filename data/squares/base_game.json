@@ -93,6 +93,11 @@
     "game_type": "base"
   },
   {
+    "id": "boiled_crab_20",
+    "text": "Buy 20 Boiled Crab from Boggart",
+    "game_type": "base"
+  },
+  {
     "id": "borealis",
     "text": "Kill Borealis",
     "game_type": "base"
@@ -100,11 +105,6 @@
   {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
-    "game_type": "base"
-  },
-  {
-    "id": "buy_20",
-    "text": "Buy 20 Boiled Crab from Boggart",
     "game_type": "base"
   },
   {
@@ -128,24 +128,20 @@
     "game_type": "base"
   },
   {
-    "id": "cave_2",
-    "text": "Complete 2 cave or grotto dungeons",
-    "game_type": "base"
-  },
-  {
-    "id": "cave_3",
-    "text": "Complete 3 cave or grotto dungeons",
-    "game_type": "base"
-  },
-  {
     "id": "caves_2",
     "text": "Complete 2 Caves",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 2 cave or grotto dungeons"
+    ]
   },
   {
     "id": "caves_3",
     "text": "Complete 3 Caves",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 3 cave or grotto dungeons"
+    ]
   },
   {
     "id": "caves_grottos_2",
@@ -248,7 +244,7 @@
     "game_type": "base"
   },
   {
-    "id": "dupe",
+    "id": "dupe_memb",
     "text": "Dupe a Remembrance at a Mausoleum",
     "game_type": "base"
   },
@@ -440,11 +436,19 @@
   {
     "id": "incantations_14",
     "text": "Acquire 14 Unique Incantations",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Learn 14 different incantations"
+    ]
   },
   {
     "id": "intelligence_30",
     "text": "30 Intelligence",
+    "game_type": "base"
+  },
+  {
+    "id": "kill_millicent",
+    "text": "Kill the Milicent invader in Caelid",
     "game_type": "base"
   },
   {
@@ -460,11 +464,6 @@
   {
     "id": "larval_tears_4",
     "text": "Acquire 4 Larval Tears from Transforming Enemies",
-    "game_type": "base"
-  },
-  {
-    "id": "learn_14",
-    "text": "Learn 14 different incantations",
     "game_type": "base"
   },
   {
@@ -593,11 +592,6 @@
     "game_type": "base"
   },
   {
-    "id": "milicent",
-    "text": "Kill the Milicent invader in Caelid",
-    "game_type": "base"
-  },
-  {
     "id": "millicent_arm",
     "text": "Give Millicent her Prosthetic Arm",
     "game_type": "base"
@@ -711,13 +705,13 @@
     "game_type": "base"
   },
   {
-    "id": "red_3",
-    "text": "Kill 3 Red Wolves",
+    "id": "red_wolves_2",
+    "text": "Kill 2 Unique Red Wolves",
     "game_type": "base"
   },
   {
-    "id": "red_wolves_2",
-    "text": "Kill 2 Unique Red Wolves",
+    "id": "red_wolves_3",
+    "text": "Kill 3 Red Wolves",
     "game_type": "base"
   },
   {
@@ -824,7 +818,7 @@
     "game_type": "base"
   },
   {
-    "id": "spirit_4",
+    "id": "spirit_ash_4",
     "text": "Spirit Ash +4 summon",
     "game_type": "base"
   },
@@ -859,11 +853,6 @@
     "game_type": "base"
   },
   {
-    "id": "tree_3",
-    "text": "Kill 3 Tree spirits",
-    "game_type": "base"
-  },
-  {
     "id": "tree_bosses_5",
     "text": "Kill 5 Bosses with \"Tree\" in their name",
     "game_type": "base"
@@ -881,7 +870,10 @@
   {
     "id": "tree_spirits_3",
     "text": "Kill 3 Unique Tree Spirits",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Tree spirits"
+    ]
   },
   {
     "id": "tunnels_2",

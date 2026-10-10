@@ -1,23 +1,27 @@
 id: rune_80
 text: Rune Level 80
 game_type: dlc
-num_matches: 3
+num_matches: 4
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-24-Gustaf-vs-RomainJacques
 - 2026-08-15-Ironyeu-vs-Parkenharbor
-num_games: 3
-games_marked: 2
-mark_rate: 0.6667
+- 2026-04-24-star0chris-vs-itzCBD
+num_games: 4
+games_marked: 3
+mark_rate: 0.75
 top_players:
 - slug: ironyeu
+  marks: 1
+- slug: itzcbd
   marks: 1
 - slug: nuclearpastatom
   marks: 1
 mark_times_s:
 - 2504
 - 3003
-median_mark_time_s: 2753.5
+- 3088
+median_mark_time_s: 3003.0
 claims:
 - match_id: 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
   game_index: 2
@@ -27,3 +31,7 @@ claims:
   game_index: 2
   time_s: 3003
   slug: ironyeu
+- match_id: 2026-04-24-star0chris-vs-itzCBD
+  game_index: 2
+  time_s: 3088
+  slug: itzcbd

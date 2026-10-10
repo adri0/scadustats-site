@@ -22,11 +22,11 @@ top_squares_base_game:
   marks: 2
 - text: 30 Arcane
   marks: 1
+- text: Acquire 14 Unique Incantations
+  marks: 1
 - text: Acquire Somberstone Bell Bearing [1] and [2]
   marks: 1
 - text: Buy 20 Boiled Crab from Boggart
-  marks: 1
-- text: Dupe a Remembrance at a Mausoleum
   marks: 1
 top_squares_dlc:
 - text: Acquire the Perfumed Oil of Ranah
