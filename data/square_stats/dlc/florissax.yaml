@@ -20,7 +20,7 @@ matches:
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 18
 games_marked: 16
 mark_rate: 0.8889
@@ -82,7 +82,7 @@ claims:
   game_index: 2
   time_s: 1592
   slug: grey
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 1704
   slug: pepejack

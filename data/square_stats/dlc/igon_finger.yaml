@@ -13,7 +13,7 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 11
 games_marked: 7
 mark_rate: 0.6364
@@ -50,7 +50,7 @@ claims:
   game_index: 2
   time_s: 3067
   slug: romainjacques
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 3162
   slug: blanxz

@@ -6,7 +6,7 @@ matches:
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
 - 2026-08-12-RomainJacques-vs-Grey
 - 2026-07-19-Raydans-vs-Parkenharbor
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 6
 games_marked: 6
@@ -51,7 +51,7 @@ claims:
   game_index: 1
   time_s: 3119
   slug: raydans
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 1
   time_s: 4866
   slug: pepejack
