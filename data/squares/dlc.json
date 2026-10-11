@@ -371,10 +371,12 @@
   {
     "id": "jolan",
     "text": "Acquire Jolan Summon",
-    "game_type": "dlc",
-    "aliases": [
-      "Acquire Jolan & Anna Summon"
-    ]
+    "game_type": "dlc"
+  },
+  {
+    "id": "jolan_anna",
+    "text": "Acquire Jolan & Anna Summon",
+    "game_type": "dlc"
   },
   {
     "id": "jori",
