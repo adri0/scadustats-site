@@ -529,6 +529,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "mog_300k",
+    "text": "Memory of grace with 300k runes",
+    "game_type": "dlc"
+  },
+  {
     "id": "mog_500k",
     "text": "Memory of Grace with 500k+ Runes",
     "game_type": "dlc"

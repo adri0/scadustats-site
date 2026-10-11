@@ -17,7 +17,10 @@
   {
     "id": "altus_bosses_4",
     "text": "Kill 4 Bosses in Altus Plateau / Mt. Gelmir",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 4 bosses in Altus Plateau and Mt. Gelmir"
+    ]
   },
   {
     "id": "altus_bosses_5",
@@ -229,7 +232,10 @@
   {
     "id": "dragonkin_soldier",
     "text": "Kill a Dragonkin Soldier Boss",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Dragonkin Soldier"
+    ]
   },
   {
     "id": "dropped_aow_4",
@@ -399,7 +405,10 @@
   {
     "id": "god_bosses_4",
     "text": "Kill 4 Bosses with \"God\" in their name",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 4 Bosses with the word God in it"
+    ]
   },
   {
     "id": "godrick_great_rune",
@@ -590,12 +599,18 @@
   {
     "id": "margit_plus0",
     "text": "Kill Margit with a +0 Weapon Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Margit with +0 weapon"
+    ]
   },
   {
     "id": "memb_bows",
     "text": "Kill a Remembrance Boss with Bows Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Remembrance boss bow only"
+    ]
   },
   {
     "id": "memb_colossal",
@@ -712,7 +727,10 @@
   {
     "id": "moon_of_nokstella",
     "text": "Acquire the Moon of Nokstella",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Acquire Moon of Nokstella"
+    ]
   },
   {
     "id": "morgott",
@@ -770,7 +788,10 @@
   {
     "id": "putrid_trio",
     "text": "Kill Putrid Crystalian Trio Boss",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Putrid Crystalian trio"
+    ]
   },
   {
     "id": "radahn_great_rune",
@@ -853,7 +874,10 @@
   {
     "id": "sacred_flask_charges_10",
     "text": "Acquire 10 Sacred Flask Charges",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "10 Sacred Flask charges"
+    ]
   },
   {
     "id": "sacred_flask_plus7",
