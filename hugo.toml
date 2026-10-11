@@ -9,6 +9,20 @@ title = "Scadustats"
   subtitle = "Scadustats | Bingo Brawlers"
   description = "Community-base repository for match history, player records, and square stats for the Elden Ring Bingo Brawlers league, transcribed from the VODs."
   repo = "https://github.com/adri0/scadustats-site"
+  # Read by the Land of Shadow theme (github.com/adri0/land-of-shadow).
+  homeTitle = "Bingo Brawlers · Scadustats | Bingo Brawlers"
+  logo = "images/logo.png"
+  wordmark = "images/bingo-brawlers.png"
+  wordmarkAlt = "Bingo Brawlers"
+  disclaimer = "This project is a fan initiative, built out of appreciation for Bingo Brawlers and Elden Ring. Its only purpose is to provide more insights into the tournement. It is not affiliated with or endorsed by Bingo Brawlers, FromSoftware, or Bandai Namco."
+  # Attributes on <html>. Results stay hidden until head-end.html's script
+  # (or the visitor) says otherwise.
+  [params.htmlAttributes]
+    data-spoilers = "hidden"
+
+[module]
+  [[module.imports]]
+    path = "github.com/adri0/land-of-shadow"
 
 [[menus.main]]
   name = "Matches"
@@ -34,3 +48,18 @@ title = "Scadustats"
   name = "About"
   pageRef = "/about"
   weight = 50
+
+[[menus.footer]]
+  name = "Matches"
+  pageRef = "/matches"
+  weight = 10
+
+[[menus.footer]]
+  name = "Players"
+  pageRef = "/players"
+  weight = 20
+
+[[menus.footer]]
+  name = "About"
+  pageRef = "/about"
+  weight = 30
