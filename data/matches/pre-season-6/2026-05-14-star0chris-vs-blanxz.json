@@ -1,0 +1,816 @@
+{
+  "match_id": "2026-05-14-star0chris-vs-blanxz",
+  "match_date": "2026-05-14",
+  "season": "pre-season-6",
+  "match_type": "double_elimination",
+  "player_red_name": "star0chris",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=jxipz3i4T98",
+    "duration_s": 18000.466666666667,
+    "published_at": "2026-05-16",
+    "extracted_at": "2026-10-11"
+  },
+  "num_games": 3,
+  "red_score": 1,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 3.0,
+      "end_video_ts_s": 4821.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Unique Night's Cavalry",
+          "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "Invade and defeat Magnus the Beast Claw",
+          "Kill Misbegotten Crusader",
+          "Acquire Fingerslayer Blade"
+        ],
+        [
+          "Kill 2 Unique Cemetery Shades",
+          "Acquire Margit's and Mohg's Shackles",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Acquire 3 Painting Rewards",
+          "Kill a Fallingstar Beast"
+        ],
+        [
+          "Kill Astel and Astel, Stars of Darkness",
+          "Acquire 6 Unique Staves",
+          "Kill Malenia",
+          "Acquire 9 Unique Talismans (Excluding Sacrifial Twigs)",
+          "Kill 2 Bell Bearing Hunters"
+        ],
+        [
+          "Restore Godrick's Great Rune",
+          "Kill Commander O'Neil",
+          "Finish off a Boss with the Explosive Physick",
+          "Kill Valiant Gargoyles",
+          "Kill Morgott"
+        ],
+        [
+          "Kill Loretta (Blue Spirit)",
+          "Kill 4 bosses in Caelid and Dragonbarrow",
+          "Kill a Remembrance Boss Hitless",
+          "Kill 3 Duo/Trio Bosses",
+          "Buy 20 Boiled Crab from Boggart"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:03"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Unique Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:07",
+          "video_timestamp": "00:09:10"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:02",
+          "video_timestamp": "00:12:05"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Buy 20 Boiled Crab from Boggart",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:16",
+          "video_timestamp": "00:15:19"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:21",
+          "video_timestamp": "00:15:24"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:02",
+          "video_timestamp": "00:22:05"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 2 Unique Cemetery Shades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:44",
+          "video_timestamp": "00:22:47"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:07",
+          "video_timestamp": "00:29:10"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Invade and defeat Magnus the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:03",
+          "video_timestamp": "00:33:06"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:34",
+          "video_timestamp": "00:39:37"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Malenia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:38",
+          "video_timestamp": "00:39:41"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:36",
+          "video_timestamp": "00:45:39"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 4 bosses in Caelid and Dragonbarrow",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:09",
+          "video_timestamp": "00:50:12"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Valiant Gargoyles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:31",
+          "video_timestamp": "00:55:34"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:32",
+          "video_timestamp": "00:57:35"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:11",
+          "video_timestamp": "00:59:14"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 9 Unique Talismans (Excluding Sacrifial Twigs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:52",
+          "video_timestamp": "01:01:55"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 2 Bell Bearing Hunters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:11",
+          "video_timestamp": "01:05:14"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:37",
+          "video_timestamp": "01:07:40"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:47",
+          "video_timestamp": "01:10:50"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:32",
+          "video_timestamp": "01:13:35"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:29",
+          "video_timestamp": "01:14:32"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Fingerslayer Blade",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:39",
+          "video_timestamp": "01:19:42"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:16:39",
+          "video_timestamp": "01:19:42"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4822.0,
+      "end_video_ts_s": 9286.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Have St. Trina talk to you",
+          "Drain the Water in the Church District",
+          "Kill 3 Dragon Bosses",
+          "Acquire 3 Larval tears",
+          "Put Florissax to Sleep"
+        ],
+        [
+          "Acquire 2 Blessings of Marika",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Heal the wounded Kindred rot",
+          "Acquire the Scorpion Stew",
+          "Kill Lamenter Boss"
+        ],
+        [
+          "Acquire Moore Armor set",
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "Kill Consort Radahn",
+          "Kill Bols in front of Castle Ensis",
+          "Collect 4 perfumer bottles"
+        ],
+        [
+          "Burn the Sealing Tree",
+          "Kill Putrescent Knight",
+          "Kill the Madding Hand NPC",
+          "Kill the Death Rite Bird",
+          "Kill 3 NPC Bosses"
+        ],
+        [
+          "Kill Count Ymir, Mother of Fingers",
+          "Acquire 3 DLC Ashes of War",
+          "Kill a Dancing Lion",
+          "Collect 2 DLC full armor sets",
+          "Kill Scadutree Avatar"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:23:35"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:50",
+          "video_timestamp": "01:31:25"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:18",
+          "video_timestamp": "01:33:53"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:09",
+          "video_timestamp": "01:34:44"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire Moore Armor set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:20",
+          "video_timestamp": "01:35:55"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Collect 2 DLC full armor sets",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:21",
+          "video_timestamp": "01:35:56"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:19",
+          "video_timestamp": "01:37:54"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Bols in front of Castle Ensis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:30",
+          "video_timestamp": "01:38:05"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:14",
+          "video_timestamp": "01:44:49"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Collect 4 perfumer bottles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:16",
+          "video_timestamp": "01:49:51"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:24",
+          "video_timestamp": "01:50:59"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Lamenter Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:31",
+          "video_timestamp": "01:59:06"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:24",
+          "video_timestamp": "01:59:59"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:20",
+          "video_timestamp": "02:05:55"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:45",
+          "video_timestamp": "02:07:20"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:13",
+          "video_timestamp": "02:11:48"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill the Giant Hand in the Finger Ruins Dheo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:34",
+          "video_timestamp": "02:15:09"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:42",
+          "video_timestamp": "02:20:17"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:06",
+          "video_timestamp": "02:20:41"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Have St. Trina talk to you",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:12",
+          "video_timestamp": "02:26:47"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:57",
+          "video_timestamp": "02:32:32"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:25",
+          "video_timestamp": "02:34:00"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:10:25",
+          "video_timestamp": "02:34:00"
+        }
+      ]
+    },
+    {
+      "game_index": 3,
+      "start_video_ts_s": 9312.0,
+      "end_video_ts_s": 14298.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire Jolan & Anna Summon",
+          "Kill 3 Unique NPC Invaders",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Acquire the Perfumed Oil of Ranah",
+          "Acquire the Golden Braid"
+        ],
+        [
+          "Kill Demi Human Marigga",
+          "Acquire Verdigris Discus",
+          "Kill a Demi Human Swordsman",
+          "Kill the Madding Hand NPC",
+          "Acquire the Scorpion Stew"
+        ],
+        [
+          "Kill 3 Unique Horned Warriors",
+          "Acquire 2 DLC Legendary Ash Summon",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Complete 2 Nameless Mausoleums",
+          "Kill the Golden Hippo"
+        ],
+        [
+          "Kill 3 Unique Curseblade Assassins",
+          "Kill a boss after inflicting 4 different status effects",
+          "Kill Metyr, Mother of Fingers",
+          "Acquire the 2 handed talisman",
+          "Visit 4 Miquella Crosses"
+        ],
+        [
+          "Kill Romina",
+          "Kill 3 Dragon Bosses",
+          "Heal the wounded Kindred rot",
+          "Acquire Commander Gaius's Pants",
+          "Kill Ancient Dragon Senessax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "02:38:41"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Visit 4 Miquella Crosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:50",
+          "video_timestamp": "02:43:31"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire the 2 handed talisman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:02",
+          "video_timestamp": "02:46:43"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:39",
+          "video_timestamp": "02:47:20"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 3 Unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:43",
+          "video_timestamp": "02:52:24"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:50",
+          "video_timestamp": "02:56:31"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Demi Human Swordsman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:34",
+          "video_timestamp": "02:57:15"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:03",
+          "video_timestamp": "02:59:44"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a boss after inflicting 4 different status effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:03",
+          "video_timestamp": "02:59:44"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:06",
+          "video_timestamp": "03:00:47"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:49",
+          "video_timestamp": "03:08:30"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:48",
+          "video_timestamp": "03:09:29"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:14",
+          "video_timestamp": "03:13:55"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 2 DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:17",
+          "video_timestamp": "03:18:58"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:08",
+          "video_timestamp": "03:19:49"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill the Giant Hand in the Finger Ruins Dheo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:20",
+          "video_timestamp": "03:25:01"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:27",
+          "video_timestamp": "03:33:08"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:19",
+          "video_timestamp": "03:37:00"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:07",
+          "video_timestamp": "03:38:48"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:40",
+          "video_timestamp": "03:44:21"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 3 Unique Horned Warriors",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:54",
+          "video_timestamp": "03:47:35"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Metyr, Mother of Fingers",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:08",
+          "video_timestamp": "03:51:49"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Jolan & Anna Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:36",
+          "video_timestamp": "03:55:17"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:18:24",
+          "video_timestamp": "03:57:05"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:18:24",
+          "video_timestamp": "03:57:05"
+        }
+      ]
+    }
+  ]
+}

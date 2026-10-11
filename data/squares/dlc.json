@@ -96,7 +96,10 @@
   {
     "id": "boss_status_effects_4",
     "text": "Kill a Boss after Inflicting 4 Unique Status Effects",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a boss after inflicting 4 different status effects"
+    ]
   },
   {
     "id": "catacombs_2",
@@ -119,7 +122,10 @@
   {
     "id": "consort_radahn",
     "text": "Kill Promised Consort Radahn",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Consort Radahn"
+    ]
   },
   {
     "id": "craft_hefty_pots_2",
@@ -139,7 +145,10 @@
   {
     "id": "dancing_lion_1",
     "text": "Kill 1 Dancing Lion",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Dancing Lion"
+    ]
   },
   {
     "id": "dancing_lions_2",
@@ -292,6 +301,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "giant_hand_dheo",
+    "text": "Kill the Giant Hand in the Finger Ruins Dheo",
+    "game_type": "dlc"
+  },
+  {
     "id": "golden_braid",
     "text": "Acquire the Golden Braid",
     "game_type": "dlc"
@@ -314,6 +328,11 @@
   {
     "id": "hanging_pots_3",
     "text": "Acquire 3 Hanging Pot Bell Bearings",
+    "game_type": "dlc"
+  },
+  {
+    "id": "heal_kindred_rot",
+    "text": "Heal the wounded Kindred rot",
     "game_type": "dlc"
   },
   {
@@ -359,6 +378,11 @@
   {
     "id": "jolan",
     "text": "Acquire Jolan Summon",
+    "game_type": "dlc"
+  },
+  {
+    "id": "jolan_anna",
+    "text": "Acquire Jolan & Anna Summon",
     "game_type": "dlc"
   },
   {
@@ -594,6 +618,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "perfumer_bottles_4",
+    "text": "Collect 4 perfumer bottles",
+    "game_type": "dlc"
+  },
+  {
     "id": "pk",
     "text": "Kill Putrescent Knight",
     "game_type": "dlc"
@@ -741,7 +770,10 @@
   {
     "id": "two_handed_sword_talisman",
     "text": "Acquire the Two-Handed Sword Talisman",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire the 2 handed talisman"
+    ]
   },
   {
     "id": "two_headed_turtle_talisman",
@@ -751,6 +783,11 @@
   {
     "id": "unique_max_upgrade_materials_3",
     "text": "Acquire 3 Unique Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "verdigris_discus",
+    "text": "Acquire Verdigris Discus",
     "game_type": "dlc"
   },
   {
