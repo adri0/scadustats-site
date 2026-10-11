@@ -19,10 +19,12 @@ as a Hugo module (see "Theme" below), so the build needs [Go](https://go.dev/) t
 Pages are generated from data files, which is a mix from JSON and Markdown: each data section in `content/` has a
 `_content.gotmpl` content adapter that reads `data/` and calls `.AddPage`. The only hand-written
 content files are `content/_index.md`, `content/about.md`, the section `_index.md` stubs and the
-news posts in `content/news/` (`<yyyy-mm-dd>-<slug>.md` with `title`, `date` and `summary`; listed
+news posts in `content/news/` (`<yyyy-mm-dd>-<slug>.md` with `title`, `date`, `summary` and `author`;
+start one with `hugo new news/<yyyy-mm-dd>-<slug>.md`; listed
 newest first, and anything that reveals a result needs the spoiler classes like any other page).
-The post layout signs each post, right-aligned after an em dash, from `params.newsAuthor` in
-`hugo.toml`, so posts don't include a signature themselves.
+The post layout signs each post with its `author`, right-aligned after an em dash, linked to the
+URL for that name in `params.authors` (`hugo.toml`); add new authors there. Posts don't include a
+signature themselves.
 
 ## Data: `data/`
 
