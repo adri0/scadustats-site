@@ -278,7 +278,7 @@
           "Acquire 3 NPC Dropped Weapons",
           "Kill 1 Demi-Human Swordmaster",
           "Acquire 3 DLC Spirit Ashes",
-          "Give an lris of Grace"
+          "Give an Iris of Grace"
         ],
         [
           "Complete 2 Catacombs",
@@ -369,7 +369,7 @@
         {
           "row": 2,
           "col": 5,
-          "square_text": "Give an lris of Grace",
+          "square_text": "Give an Iris of Grace",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:31:55",

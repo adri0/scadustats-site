@@ -341,7 +341,7 @@
         ],
         [
           "Complete 2 Nameless Mausoleums",
-          "Give an lris of Grace",
+          "Give an Iris of Grace",
           "Craft 3 Unique Hefty Pots",
           "Kill 3 Trolls",
           "Kill Crucible Knight Devonia"
@@ -540,7 +540,7 @@
         {
           "row": 5,
           "col": 2,
-          "square_text": "Give an lris of Grace",
+          "square_text": "Give an Iris of Grace",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:09:09",

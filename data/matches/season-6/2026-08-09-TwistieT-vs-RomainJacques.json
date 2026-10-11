@@ -223,7 +223,7 @@
       "square_texts": [
         [
           "Use a Transformation",
-          "Give an lris of Grace",
+          "Give an Iris of Grace",
           "Level 5 Revered Spirit Ash",
           "Kill 3 Trolls",
           "Acquire 3 Hanging Pot Bell Bearings"
@@ -423,7 +423,7 @@
         {
           "row": 1,
           "col": 2,
-          "square_text": "Give an lris of Grace",
+          "square_text": "Give an Iris of Grace",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:12:01",

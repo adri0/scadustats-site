@@ -743,7 +743,7 @@
           "Kill a Death Knight"
         ],
         [
-          "Give an lris of Grace",
+          "Give an Iris of Grace",
           "Acquire 2 Painting Rewards",
           "Acquire the Golden Braid",
           "Kill 4 Unique Horned Warriors",
@@ -957,7 +957,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Give an lris of Grace",
+          "square_text": "Give an Iris of Grace",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "01:15:01",
