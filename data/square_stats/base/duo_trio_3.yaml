@@ -11,7 +11,7 @@ matches:
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-18-Gustaf-vs-Grey
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 10
 games_marked: 9
@@ -59,7 +59,7 @@ claims:
   game_index: 1
   time_s: 2170
   slug: lilaggy
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 1
   time_s: 2568
   slug: pepejack

@@ -11,7 +11,7 @@ matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 9
 games_marked: 7
 mark_rate: 0.7778
@@ -48,7 +48,7 @@ claims:
   game_index: 2
   time_s: 2049
   slug: nuclearpastatom
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 3153
   slug: pepejack

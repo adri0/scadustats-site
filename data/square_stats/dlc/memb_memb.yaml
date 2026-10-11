@@ -13,7 +13,7 @@ matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 11
 games_marked: 7
 mark_rate: 0.6364
@@ -54,7 +54,7 @@ claims:
   game_index: 3
   time_s: 3263
   slug: romainjacques
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 4126
   slug: blanxz

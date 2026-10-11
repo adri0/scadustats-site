@@ -12,7 +12,7 @@ matches:
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-blanxz-vs-Parkenharbor
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 11
 games_marked: 9
 mark_rate: 0.8182
@@ -65,7 +65,7 @@ claims:
   game_index: 2
   time_s: 2613
   slug: blanxz
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 2782
   slug: blanxz

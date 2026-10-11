@@ -13,7 +13,7 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-18-Gustaf-vs-Grey
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 11
 games_marked: 6
 mark_rate: 0.5455
@@ -43,7 +43,7 @@ claims:
   game_index: 1
   time_s: 4029
   slug: vswed
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 1
   time_s: 4648
   slug: blanxz

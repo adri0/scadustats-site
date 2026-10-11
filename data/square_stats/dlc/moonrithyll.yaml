@@ -18,7 +18,7 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 18
 games_marked: 17
@@ -82,7 +82,7 @@ claims:
   game_index: 3
   time_s: 760
   slug: seriouschallenges
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 981
   slug: blanxz

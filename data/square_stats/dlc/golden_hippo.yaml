@@ -14,7 +14,7 @@ matches:
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 num_games: 12
 games_marked: 10
 mark_rate: 0.8333
@@ -54,7 +54,7 @@ claims:
   game_index: 2
   time_s: 896
   slug: raydans
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 921
   slug: pepejack

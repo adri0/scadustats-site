@@ -1,5 +1,5 @@
 slug: pepejack
-display_name: pepeJack
+display_name: pepeJack_
 season_records:
   pre-season-6:
     wins: 0
@@ -16,7 +16,7 @@ game_type_records:
     wins: 1
     losses: 0
 all_matches:
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 top_squares_base_game:
 - text: 30 Faith
   marks: 1
