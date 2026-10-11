@@ -6,7 +6,7 @@ matches:
 - 2026-08-08-Ironyeu-vs-LilAggy
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-18-Gustaf-vs-Grey
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 5
 games_marked: 4
@@ -27,7 +27,7 @@ mark_times_s:
 - 4337
 median_mark_time_s: 2113.0
 claims:
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 1
   time_s: 1142
   slug: blanxz

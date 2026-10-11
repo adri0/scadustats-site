@@ -13,7 +13,7 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-05-01-pepeJack_-vs-itzCBD
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 12
 games_marked: 12
@@ -88,7 +88,7 @@ claims:
   game_index: 2
   time_s: 1076
   slug: pepejack
-- match_id: 2026-04-25-pepeJack-vs-blanxz
+- match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
   time_s: 1377
   slug: blanxz

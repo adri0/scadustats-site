@@ -1,5 +1,5 @@
 slug: pepejack
-display_name: pepeJack
+display_name: pepeJack_
 season_records:
   pre-season-6:
     wins: 0
@@ -17,7 +17,7 @@ game_type_records:
     losses: 1
 all_matches:
 - 2026-05-01-pepeJack_-vs-itzCBD
-- 2026-04-25-pepeJack-vs-blanxz
+- 2026-04-25-pepeJack_-vs-blanxz
 top_squares_base_game:
 - text: Kill Mohg, Lord of Blood
   marks: 2
