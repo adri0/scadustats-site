@@ -4,5 +4,8 @@
   <h1>{{ .Title }}</h1>
   <p class="notice"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
   <div class="article-body prose-links">{{ .Content }}</div>
+  {{- with site.Params.newsAuthor }}{{ $name := .name }}
+  <p class="news-signature prose-links">— <strong>{{ with .url }}<a href="{{ . }}">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</strong></p>
+  {{- end }}
 </article>
 {{ end }}

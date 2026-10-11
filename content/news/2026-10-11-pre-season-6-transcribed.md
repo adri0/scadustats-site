@@ -8,6 +8,4 @@ All nine matches of the [Pre-Season 6 - US Qualifiers](/seasons/pre-season-6/) a
 
 This is also the first post in the new News section :) I'll post here whenever a season is added, when new matches come in and when the site changes. Earlier seasons are on their way.
 
-I'm quite excited about how this website is turning out. 
-
-**[sejebom](https://www.twitch.tv/sejebom)**
+I'm quite excited about how this website is turning out.

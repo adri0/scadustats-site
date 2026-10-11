@@ -21,7 +21,8 @@ Pages are generated from data files, which is a mix from JSON and Markdown: each
 content files are `content/_index.md`, `content/about.md`, the section `_index.md` stubs and the
 news posts in `content/news/` (`<yyyy-mm-dd>-<slug>.md` with `title`, `date` and `summary`; listed
 newest first, and anything that reveals a result needs the spoiler classes like any other page).
-Posts end with the author's signature, `**[sejebom](https://www.twitch.tv/sejebom)**`.
+The post layout signs each post, right-aligned after an em dash, from `params.newsAuthor` in
+`hugo.toml`, so posts don't include a signature themselves.
 
 ## Data: `data/`
 

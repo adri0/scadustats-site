@@ -9,6 +9,8 @@ title = "Scadustats"
   subtitle = "Scadustats | Bingo Brawlers"
   description = "Community-base repository for match history, player records, and square stats for the Elden Ring Bingo Brawlers league, transcribed from the VODs."
   repo = "https://github.com/adri0/scadustats-site"
+  # Signs every news post (layouts/news/page.html).
+  newsAuthor = { name = "sejebom", url = "https://www.twitch.tv/sejebom" }
   # Read by the Land of Shadow theme (github.com/adri0/land-of-shadow).
   homeTitle = "Bingo Brawlers · Scadustats | Bingo Brawlers"
   logo = "images/logo.png"
