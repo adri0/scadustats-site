@@ -7,18 +7,24 @@
   Placings go by elimination, latest first, and players knocked out at the
   same point share a placing (two players out in the same lower-bracket round
   are both 5th, and the next placing is 7th):
-    1. the Grand Final (`bracket: final`): winner 1st, loser 2nd;
+    1. the Grand Final (`bracket: final`): winner 1st, loser 2nd. A bracket
+       with no Grand Final (pre-season 6) is decided by its last matches
+       instead: the winner of the upper-bracket match with no `next` (the
+       Upper Final) is 1st, and the winner of the lower-bracket match with no
+       `next` (the Lower Final, against the Upper Final's loser) is 2nd;
     2. lower-bracket losers, by column, rightmost (latest round) first;
     3. players who didn't qualify from the groups, by their group position.
-  Players still in a bracket that isn't finished get no placing.
+  Players still in a bracket that isn't finished get no placing, and there
+  are no placings at all until the champion is known.
 */ -}}
 {{- $sid := printf "%v" . -}}
-{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $sid) -}}
-{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%s" $sid) -}}
+{{- $bracket := partial "lib/season-file.html" (dict "kind" "brackets" "season_id" $sid) -}}
+{{- $groupsCfg := partial "lib/season-file.html" (dict "kind" "groups" "season_id" $sid) -}}
 
 {{- /* Tiers best first, each {slugs}; everyone in a tier shares a placing.
        (Dicts, because append flattens a slice of slices.) */ -}}
 {{- $tiers := slice -}}
+{{- $decided := true -}}
 {{- with $bracket -}}
   {{- $matches := partial "lib/bracket-results.html" (dict "season_id" $sid "bracket" .) -}}
   {{- $slots := partial "lib/season-slots.html" $sid -}}
@@ -33,10 +39,22 @@
     {{- end -}}
   {{- end -}}
 
-  {{- range where $matches "entry.bracket" "final" -}}
-    {{- with index $winnerOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ end -}}
-    {{- with index $loserOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ end -}}
+  {{- /* The deciding matches come first; until they're all played, there are
+         no placings. */ -}}
+  {{- $finals := where $matches "entry.bracket" "final" -}}
+  {{- if $finals -}}
+    {{- range $finals -}}
+      {{- with index $winnerOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ else }}{{ $decided = false }}{{ end -}}
+      {{- with index $loserOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- range $b := slice "upper" "lower" -}}
+      {{- range where (where $matches "entry.bracket" $b) "entry.next" "eq" nil -}}
+        {{- with index $winnerOf (string .entry.id) }}{{ $tiers = $tiers | append (dict "slugs" (slice .)) }}{{ else }}{{ $decided = false }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
+  {{- if not $tiers }}{{ $decided = false }}{{ end -}}
 
   {{- $lower := where $matches "entry.bracket" "lower" -}}
   {{- $cols := slice -}}
@@ -67,7 +85,7 @@
 
 {{- $placings := dict -}}
 {{- $placed := 0 -}}
-{{- range $tiers -}}
+{{- range cond $decided $tiers slice -}}
   {{- range .slugs }}{{ $placings = merge $placings (dict . (add $placed 1)) }}{{ end -}}
   {{- $placed = add $placed (len .slugs) -}}
 {{- end -}}

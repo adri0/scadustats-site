@@ -1,3 +1,10 @@
+{{ define "banner" }}
+<aside class="construction-banner prose-links">
+  <p><strong>Under construction:</strong> <a href="{{ "seasons/6/" | relURL }}">Season 6</a> and <a href="{{ "seasons/pre-season-6/" | relURL }}">Pre-Season 6 - US Qualifiers</a> are transcribed, and earlier seasons are on their way.
+  {{- with site.Params.repo }} Want to help? Contribute on <a href="{{ . }}">GitHub</a>.{{ end }}</p>
+</aside>
+{{ end }}
+
 {{ define "main" }}
 {{ partial "edit-link.html" . }}
 {{- $matches := sort (where site.RegularPages "Section" "matches") "Date" "desc" }}
@@ -14,11 +21,6 @@
       <div class="ornament" aria-hidden="true"><span></span></div>
       {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
     </section>
-
-    <aside class="construction-notice prose-links">
-      <p><strong>Under construction.</strong> Season 6 has been transcribed, and <a href="{{ "seasons/pre-season-6/" | relURL }}">Pre-Season 6</a> is in progress; earlier seasons are on their way.
-      {{- with site.Params.repo }} Want to help? The site is open source on <a href="{{ . }}">GitHub</a>, and contributions are welcome.{{ end }}</p>
-    </aside>
 
     <section>
       <div class="section-head">

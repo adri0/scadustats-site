@@ -1,0 +1,29 @@
+# Hand-curated bracket for pre-season 6, the US Qualifiers (six players,
+# videos 161-169). See data/brackets/season-6.yaml for the field reference.
+#
+# - Play-offs (`bracket: playoffs`): three matches drawn at random. Winners go
+#   to the upper bracket and losers drop to the lower bracket.
+# - Upper bracket: the play-off winner with the best score (most game wins,
+#   then fewest game losses) goes straight to the Upper Final; the other two
+#   play Match 5. Losing in the upper bracket drops a player to the lower
+#   bracket.
+# - Lower bracket: losing eliminates a player. The Lower Final is the lower
+#   bracket's last match, against the Upper Final's loser.
+# - There is no Grand Final. The winners of the Upper and Lower Finals qualify
+#   for Season 6 (`qualifies`, shown beside the winner).
+#
+# `next` is where a match's winner went and `loser_next` where its loser
+# dropped to; both draw connectors on the diagram, from the player's row. Match
+# 6 sits under Match 5 so that Match 5's loser drops straight down to it, and
+# `lane` keeps the lines into column 1's three matches apart.
+title: Play-offs and double elimination
+matches:
+  - { id: 5, label: Match 5, bracket: upper, col: 1, row: 0, lane: 0.75, date: "2026-05-02", next: 8, loser_next: 6, match: 2026-05-02-star0chris-vs-blanxz }
+  - { id: 8, label: Upper Final, bracket: upper, col: 3, row: 0, date: "2026-05-09", loser_next: 9, qualifies: Season 6, match: 2026-05-09-NuclearPastaTom-vs-blanxz }
+  - { id: 1, label: Match 1, bracket: playoffs, col: 0, row: 1.1, date: "2026-04-24", next: 5, loser_next: 4, match: 2026-04-24-star0chris-vs-itzCBD }
+  - { id: 2, label: Match 2, bracket: playoffs, col: 0, row: 2, date: "2026-04-25", next: 5, loser_next: 4, match: 2026-04-25-pepeJack_-vs-blanxz }
+  - { id: 3, label: Match 3, bracket: playoffs, col: 0, row: 2.9, date: "2026-04-26", next: 8, loser_next: 6, match: 2026-04-26-NuclearPastaTom-vs-nessonetta }
+  - { id: 6, label: Match 6, bracket: lower, col: 1, row: 4, lane: 0.5, date: "2026-05-03", next: 7, match: 2026-05-03-star0chris-vs-nessonetta }
+  - { id: 4, label: Match 4, bracket: lower, col: 1, row: 5, lane: 0.25, date: "2026-05-01", next: 7, match: 2026-05-01-pepeJack_-vs-itzCBD }
+  - { id: 7, label: Match 7, bracket: lower, col: 2, row: 4.5, date: "2026-05-06", next: 9, match: 2026-05-06-star0chris-vs-itzCBD }
+  - { id: 9, label: Lower Final, bracket: lower, col: 3, row: 4.5, date: "2026-05-14", qualifies: Season 6, match: 2026-05-14-star0chris-vs-blanxz }

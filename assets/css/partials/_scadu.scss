@@ -326,15 +326,15 @@ h1 { color: var(--accent); }
 }
 
 /* The home page's "under construction" disclaimer, just below the hero. */
-.construction-notice {
-    margin: 0 auto 2rem;
-    max-width: 60ch;
-    padding: 0.75rem 1rem;
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: var(--radius-element);
+/* Under-construction notice: a one-line strip across the full width,
+   right under the header (the "banner" block in baseof.html). */
+.construction-banner {
+    padding: 0.45rem 1rem;
+    border-bottom: 1px solid var(--border);
     background-color: var(--gold-soft);
     color: var(--text-muted);
+    font-size: 0.85rem;
+    text-align: center;
 
     p { margin: 0; }
     strong { color: var(--text-main); }
@@ -1189,6 +1189,16 @@ h1 { color: var(--accent); }
 }
 
 .bracket-final-frame { fill: none; stroke: var(--accent); stroke-width: 2; }
+
+/* A loser dropping to the lower bracket (`loser_next`). */
+.bracket-link-drop { stroke-dasharray: 5 4; }
+
+/* Under a bracket with `qualifies` matches: what their frame means. */
+.bracket-legend {
+    margin: 0.5rem 0 0;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
 
 /* --- Season format + round-robin grids (season page) --- */
 
