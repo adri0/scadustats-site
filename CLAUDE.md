@@ -22,9 +22,8 @@ content files are `content/_index.md`, `content/about.md`, the section `_index.m
 news posts in `content/news/` (`<yyyy-mm-dd>-<slug>.md` with `title`, `date`, `summary` and `author`;
 start one with `hugo new news/<yyyy-mm-dd>-<slug>.md`; listed
 newest first, and anything that reveals a result needs the spoiler classes like any other page).
-The post layout signs each post with its `author`, right-aligned after an em dash, linked to the
-URL for that name in `params.authors` (`hugo.toml`); add new authors there. Posts don't include a
-signature themselves.
+The post layout signs each post with its `author` (`name`, and an optional `url` that links it),
+right-aligned after an em dash. Posts don't include a signature in their text.
 
 ## Data: `data/`
 
