@@ -6,13 +6,18 @@ It includes match history, player records, and square stats for the Elden Ring B
 
 ## Building
 
-Requires Hugo **Extended** >= 0.157 (the theme's CSS is SCSS). On a fresh clone, fetch the
-theme submodule first:
+Requires Hugo **Extended** >= 0.157 (the theme's CSS is SCSS) and [uv](https://docs.astral.sh/uv/).
+On a fresh clone, fetch the theme submodule first:
 
 ```
 git submodule update --init
-hugo server
+scripts/build_hugo.sh server
 ```
+
+`scripts/build_hugo.sh` generates the stats files that aren't committed (`data/players/*/stats.yaml`
+and `data/square_stats/`) from `data/matches`, with the latest `scadustats` release on
+PyPI, then runs `hugo` with its arguments (`scripts/build_hugo.sh` alone builds into `public/`).
+Rerun it after changing match data.
 
 ## Populating `data/`
 
@@ -25,9 +30,12 @@ must be installed separately — either `pip install scadustats` or, to run it w
 ```
 scadustats extract <youtube-url>       # transcribe a match VOD into data/matches/
 scadustats square consolidate          # rebuild data/squares/{base_game,dlc}.json
-scadustats player consolidate          # rebuild data/players/<slug>/stats.yaml (and info.yaml for new players)
+scadustats player consolidate          # create info.yaml for new players
 scadustats match validate              # sanity-check everything under data/matches/
 ```
+
+Commit `data/matches/`, `data/squares/` and any new `data/players/<slug>/info.yaml`. The stats
+files are regenerated on every build.
 
 See [scadustats' own README](https://github.com/adri0/scadustats#readme) for its prerequisites and
 full command reference.
