@@ -3,7 +3,7 @@ text: Acquire 3 Larval tears
 game_type: dlc
 num_matches: 2
 matches:
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-25-pepeJack-vs-blanxz
 num_games: 2
 games_marked: 2
@@ -18,7 +18,7 @@ mark_times_s:
 - 458
 median_mark_time_s: 329.5
 claims:
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 3
   time_s: 201
   slug: itzcbd

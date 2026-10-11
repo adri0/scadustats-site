@@ -14,7 +14,7 @@ matches:
 - 2026-08-01-Gustaf-vs-TwistieT
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-blanxz-vs-LilAggy
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 12
 games_marked: 10
 mark_rate: 0.8333
@@ -58,7 +58,7 @@ claims:
   game_index: 2
   time_s: 3035
   slug: romainjacques
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 3243
   slug: itzcbd

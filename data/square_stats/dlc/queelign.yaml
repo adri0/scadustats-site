@@ -12,7 +12,7 @@ matches:
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-19-Vswed-vs-TwistieT
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 11
 games_marked: 11
 mark_rate: 1.0
@@ -81,7 +81,7 @@ claims:
   game_index: 2
   time_s: 2969
   slug: ironyeu
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 3086
   slug: pepejack

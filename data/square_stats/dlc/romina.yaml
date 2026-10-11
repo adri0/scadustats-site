@@ -14,7 +14,7 @@ matches:
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 12
 games_marked: 11
 mark_rate: 0.9167
@@ -47,7 +47,7 @@ claims:
   game_index: 2
   time_s: 1278
   slug: romainjacques
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 1849
   slug: pepejack

@@ -6,7 +6,7 @@ matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-07-19-Raydans-vs-Parkenharbor
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 5
 games_marked: 4
@@ -39,7 +39,7 @@ claims:
   game_index: 2
   time_s: 2040
   slug: raydans
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 2551
   slug: itzcbd

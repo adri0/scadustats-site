@@ -12,7 +12,7 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 10
 games_marked: 10
 mark_rate: 1.0
@@ -76,7 +76,7 @@ claims:
   game_index: 1
   time_s: 2531
   slug: nuclearpastatom
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 3200
   slug: itzcbd

@@ -12,7 +12,7 @@ matches:
 - 2026-08-07-blanxz-vs-Raydans
 - 2026-08-01-NuclearPastaTom-vs-Grey
 - 2026-07-19-Vswed-vs-TwistieT
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 11
 games_marked: 6
@@ -45,7 +45,7 @@ claims:
   game_index: 1
   time_s: 3181
   slug: seriouschallenges
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 3583
   slug: itzcbd

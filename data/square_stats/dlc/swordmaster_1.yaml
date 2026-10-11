@@ -8,7 +8,7 @@ matches:
 - 2026-09-01-Vswed-vs-Raydans
 - 2026-08-28-NuclearPastaTom-vs-blanxz
 - 2026-08-14-NuclearPastaTom-vs-TwistieT
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 7
 games_marked: 5
 mark_rate: 0.7143
@@ -43,7 +43,7 @@ claims:
   game_index: 2
   time_s: 3622
   slug: blanxz
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 3722
   slug: pepejack

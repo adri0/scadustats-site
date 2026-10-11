@@ -13,7 +13,7 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Raydans-vs-Parkenharbor
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 11
 games_marked: 10
 mark_rate: 0.9091
@@ -65,7 +65,7 @@ claims:
   game_index: 1
   time_s: 1702
   slug: blanxz
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 2188
   slug: pepejack

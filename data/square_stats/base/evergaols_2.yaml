@@ -8,7 +8,7 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-18-Gustaf-vs-Grey
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 6
 games_marked: 6
 mark_rate: 1.0
@@ -52,7 +52,7 @@ claims:
   game_index: 1
   time_s: 1987
   slug: nuclearpastatom
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 3036
   slug: itzcbd

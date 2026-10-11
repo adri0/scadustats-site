@@ -3,7 +3,7 @@ text: Kill Bols in front of Castle Ensis
 game_type: dlc
 num_matches: 2
 matches:
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 2
 games_marked: 2
@@ -18,7 +18,7 @@ mark_times_s:
 - 2307
 median_mark_time_s: 1587.5
 claims:
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 868
   slug: pepejack

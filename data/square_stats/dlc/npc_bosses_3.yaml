@@ -15,7 +15,7 @@ matches:
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-24-star0chris-vs-itzCBD
 num_games: 14
 games_marked: 12
@@ -90,7 +90,7 @@ claims:
   game_index: 2
   time_s: 2761
   slug: seriouschallenges
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 3418
   slug: itzcbd

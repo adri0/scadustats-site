@@ -15,7 +15,7 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 14
 games_marked: 14
 mark_rate: 1.0
@@ -67,7 +67,7 @@ claims:
   game_index: 2
   time_s: 694
   slug: nuclearpastatom
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 3
   time_s: 783
   slug: itzcbd

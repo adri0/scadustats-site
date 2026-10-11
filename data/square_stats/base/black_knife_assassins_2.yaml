@@ -7,7 +7,7 @@ matches:
 - 2026-08-09-Parkenharbor-vs-SeriousChallenges
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-24-LilAggy-vs-SeriousChallenges
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 5
 games_marked: 4
 mark_rate: 0.8
@@ -33,7 +33,7 @@ claims:
   game_index: 1
   time_s: 1835
   slug: gustaf
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 1937
   slug: itzcbd

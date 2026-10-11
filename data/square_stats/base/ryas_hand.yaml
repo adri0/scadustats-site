@@ -9,7 +9,7 @@ matches:
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-18-Gustaf-vs-Grey
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-25-pepeJack-vs-blanxz
 num_games: 9
 games_marked: 8
@@ -52,7 +52,7 @@ claims:
   game_index: 1
   time_s: 420
   slug: blanxz
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 444
   slug: pepejack

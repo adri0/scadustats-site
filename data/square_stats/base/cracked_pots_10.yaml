@@ -10,7 +10,7 @@ matches:
 - 2026-08-02-Vswed-vs-RomainJacques
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-25-pepeJack-vs-blanxz
 num_games: 9
 games_marked: 9
@@ -62,7 +62,7 @@ claims:
   game_index: 1
   time_s: 817
   slug: ironyeu
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 1
   time_s: 897
   slug: itzcbd

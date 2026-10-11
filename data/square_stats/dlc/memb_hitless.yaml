@@ -17,7 +17,7 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 15
 games_marked: 15
 mark_rate: 1.0
@@ -86,7 +86,7 @@ claims:
   game_index: 3
   time_s: 1581
   slug: romainjacques
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 3
   time_s: 1815
   slug: itzcbd

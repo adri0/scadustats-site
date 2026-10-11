@@ -13,7 +13,7 @@ matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 - 2026-04-25-pepeJack-vs-blanxz
 num_games: 12
 games_marked: 8
@@ -44,7 +44,7 @@ claims:
   game_index: 2
   time_s: 2113
   slug: nuclearpastatom
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 2756
   slug: pepejack

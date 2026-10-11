@@ -3,7 +3,7 @@ text: Kill 2 Unique Horned Warriors
 game_type: dlc
 num_matches: 1
 matches:
-- 2026-05-01-pepeJack-vs-itzCBD
+- 2026-05-01-pepeJack_-vs-itzCBD
 num_games: 1
 games_marked: 1
 mark_rate: 1.0
@@ -14,7 +14,7 @@ mark_times_s:
 - 415
 median_mark_time_s: 415.0
 claims:
-- match_id: 2026-05-01-pepeJack-vs-itzCBD
+- match_id: 2026-05-01-pepeJack_-vs-itzCBD
   game_index: 2
   time_s: 415
   slug: pepejack
