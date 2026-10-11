@@ -10,4 +10,4 @@ This is also the first post in the new News section :) I'll post here whenever a
 
 I'm quite excited about how this website is turning out. 
 
-**sejebom**
+**[sejebom](https://www.twitch.tv/sejebom)**
