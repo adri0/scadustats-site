@@ -99,7 +99,10 @@
   {
     "id": "boss_status_effects_4",
     "text": "Kill a Boss after Inflicting 4 Unique Status Effects",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a boss after inflicting 4 different status effects"
+    ]
   },
   {
     "id": "catacombs_2",
@@ -112,7 +115,10 @@
   {
     "id": "colossal_fingercreeper",
     "text": "Kill the Colossal Fingercreeper",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill the Giant Hand in the Finger Ruins Dheo"
+    ]
   },
   {
     "id": "concotion",
@@ -122,7 +128,10 @@
   {
     "id": "consort_radahn",
     "text": "Kill Promised Consort Radahn",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Consort Radahn"
+    ]
   },
   {
     "id": "craft_hefty_pots_2",
@@ -142,7 +151,10 @@
   {
     "id": "dancing_lion_1",
     "text": "Kill 1 Dancing Lion",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Dancing Lion"
+    ]
   },
   {
     "id": "dancing_lions_2",
@@ -619,6 +631,11 @@
   {
     "id": "perfume_bottle_boss",
     "text": "Kill a boss using a Perfume Bottle only",
+    "game_type": "dlc"
+  },
+  {
+    "id": "perfumer_bottles_4",
+    "text": "Collect 4 perfumer bottles",
     "game_type": "dlc"
   },
   {
