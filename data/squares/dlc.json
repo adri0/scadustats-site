@@ -371,7 +371,10 @@
   {
     "id": "jolan",
     "text": "Acquire Jolan Summon",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Jolan & Anna Summon"
+    ]
   },
   {
     "id": "jori",
@@ -419,7 +422,10 @@
   {
     "id": "leda_allies",
     "text": "Kill Leda and her Allies",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Leda and her companions"
+    ]
   },
   {
     "id": "leda_rune",
@@ -649,7 +655,10 @@
   {
     "id": "revered_ashes_5",
     "text": "Level 5 Revered Spirit Ash",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Level 5 Revered Ash"
+    ]
   },
   {
     "id": "romina",
@@ -756,7 +765,10 @@
   {
     "id": "two_handed_sword_talisman",
     "text": "Acquire the Two-Handed Sword Talisman",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire the 2 handed talisman"
+    ]
   },
   {
     "id": "two_headed_turtle_talisman",

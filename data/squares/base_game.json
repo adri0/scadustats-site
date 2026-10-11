@@ -22,7 +22,10 @@
   {
     "id": "altus_bosses_5",
     "text": "Kill 5 Bosses in Altus Plateau / Mt. Gelmir",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 5 bosses in Altus Plateau and Mt. Gelmir"
+    ]
   },
   {
     "id": "altus_bosses_6",
@@ -164,7 +167,10 @@
   {
     "id": "cemetery_shades_3",
     "text": "Kill 3 Unique Cemetery Shades",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Cemetery Shades"
+    ]
   },
   {
     "id": "cracked_pots_10",
@@ -189,7 +195,10 @@
   {
     "id": "crucible_knights_4",
     "text": "Kill 4 Unique Crucible Knights",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 4 Crucible Knights"
+    ]
   },
   {
     "id": "darriwil",
@@ -472,7 +481,10 @@
   {
     "id": "lansseax",
     "text": "Kill Ancient Dragon Lansseax",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Lansseax"
+    ]
   },
   {
     "id": "larval_tears_3",
@@ -601,7 +613,10 @@
   {
     "id": "memb_memb",
     "text": "Kill a Remembrance Boss with Remembrance Weapons Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Remembrance boss w/ remembrance weapon only"
+    ]
   },
   {
     "id": "memb_sorceries",
@@ -838,7 +853,10 @@
   {
     "id": "seals_3",
     "text": "Acquire 3 Unique Seals",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Collect 3 unique Seals"
+    ]
   },
   {
     "id": "seals_4",
