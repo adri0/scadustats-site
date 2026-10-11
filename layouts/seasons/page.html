@@ -2,14 +2,18 @@
 {{- $s := .Params }}
 {{ partial "breadcrumb.html" . }}
 
-{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $s.id) }}
-{{- $groups := index (hugo.Data.groups | default dict) (printf "season-%s" $s.id) }}
+{{- $bracket := partial "lib/season-file.html" (dict "kind" "brackets" "season_id" $s.id) }}
+{{- $groups := partial "lib/season-file.html" (dict "kind" "groups" "season_id" $s.id) }}
+{{- /* A bracket with `playoffs` matches (pre-season 6) is drawn as one
+       diagram, from the play-offs through the double elimination. */}}
+{{- $bracketTitle := "Double elimination" }}
+{{- with $bracket }}{{ if where .matches "bracket" "playoffs" }}{{ $bracketTitle = "Play-offs and double elimination" }}{{ end }}{{ end }}
 {{- /* Table of contents: one entry per section below, in page order, under
        the same conditions that render the section. */}}
 {{- $toc := slice (dict "id" "overview" "title" "Overview") }}
 {{- with $s.rules }}{{ $toc = $toc | append (dict "id" "format" "title" "Format") }}{{ end }}
 {{- with $groups }}{{ $toc = $toc | append (dict "id" "groups" "title" (.title | default "Groups")) }}{{ end }}
-{{- with $bracket }}{{ $toc = $toc | append (dict "id" "bracket" "title" "Double elimination") }}{{ end }}
+{{- with $bracket }}{{ $toc = $toc | append (dict "id" "bracket" "title" $bracketTitle) }}{{ end }}
 {{- $toc = $toc | append (dict "id" "standings" "title" "Standings") (dict "id" "matches" "title" "Matches") }}
 
 <div class="toc-layout">
@@ -36,12 +40,17 @@
 {{- $sum := partial "lib/season-summary.html" $s.id }}
 <section class="season-summary" id="overview">
   <div class="stat-row">
-    {{- with $sum.champion }}
+    {{- with $sum.qualified }}
+    <div class="stat stat-champion">
+      <span class="stat-label">Qualified for {{ (index . 0).to }}</span>
+      <span class="stat-value spoiler">{{ range $i, $q := . }}{{ if $i }}, {{ end }}{{ partial "player-links.html" $q.player }}{{ end }}</span>
+    </div>
+    {{- else }}{{ with $sum.champion }}
     <div class="stat stat-champion">
       <span class="stat-label">Champion</span>
       <span class="stat-value spoiler">{{ partial "player-links.html" . }}</span>
     </div>
-    {{- end }}
+    {{- end }}{{ end }}
     <div class="stat">
       <span class="stat-label">Matches</span>
       <span class="stat-value">{{ $sum.matches }}</span>
@@ -82,7 +91,11 @@
 {{- end }}
 
 {{- with $bracket }}
-<h2 id="bracket">Double elimination{{ with $phaseDates.bracket }} <span class="heading-dates">{{ partial "date-range.html" . }}</span>{{ end }}</h2>
+  {{- /* Dates span every bracket phase (play-offs and double elimination). */}}
+  {{- $dates := slice }}
+  {{- range slice "playoffs" "bracket" }}{{ with index $phaseDates . }}{{ $dates = $dates | append .start .end }}{{ end }}{{ end }}
+  {{- $span := partial "lib/date-span.html" $dates }}
+<h2 id="bracket">{{ $bracketTitle }}{{ with $span.start }} <span class="heading-dates">{{ partial "date-range.html" $span }}</span>{{ end }}</h2>
 <div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" $s.id "bracket" (merge . (dict "title" ""))) }}</div></div>
 {{- end }}
 

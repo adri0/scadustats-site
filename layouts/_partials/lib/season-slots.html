@@ -8,7 +8,7 @@
   "A / B". Players not in any group (or seasons without groups) are absent:
   callers fall back to the player itself.
 */ -}}
-{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%v" .) -}}
+{{- $groupsCfg := partial "lib/season-file.html" (dict "kind" "groups" "season_id" .) -}}
 {{- $slots := dict -}}
 {{- with $groupsCfg -}}
   {{- range .groups -}}

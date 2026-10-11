@@ -124,6 +124,11 @@ ties on points) plus `qualify`, where each placing went next; an entry written a
 `{players, note}` is one slot shared by several players (e.g. a replacement), summed into one row
 via `lib/season-slots.html`. `brackets` places each playoff match on a col/row grid with its `next`
 match and the match file it refers to (or hand-entered scores when there is no transcription).
+A bracket match can also have `loser_next` (where its loser dropped to, drawn dashed), `lane` (where
+elbows into it turn) and `qualifies` (its winner qualified for a later season: framed, and listed in
+the overview instead of a champion). `bracket: playoffs` matches are a first phase drawn in the same
+diagram (pre-season 6). With no `bracket: final` match, the upper- and lower-bracket matches with no
+`next` decide 1st and 2nd. Either file may also be named `<id>.yaml` (`lib/season-file.html`).
 Both are optional per season; the season page's round-robin grids, bracket diagram and final
 placings (`lib/group-tables.html`, `lib/bracket-results.html`, `lib/final-placings.html`) only
 appear when they exist. Results are still recomputed from `data/matches`.
