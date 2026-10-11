@@ -43,7 +43,10 @@
   {
     "id": "bear_lion_hippo",
     "text": "Kill 1 Boss of each: Bear / Lion / Hippo",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill one boss of each, Bear / Lion / Hippo"
+    ]
   },
   {
     "id": "black_knight_boss",
@@ -190,7 +193,10 @@
   {
     "id": "dlc_armor_sets_3",
     "text": "Acquire 3 Full DLC Armor Sets",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Collect 3 DLC full armor sets"
+    ]
   },
   {
     "id": "dlc_legendary_ashes_2",
@@ -233,7 +239,10 @@
   {
     "id": "dupe_memb_1",
     "text": "Duplicate a Remembrance 1 time",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Dupe a Remembrance"
+    ]
   },
   {
     "id": "dupe_memb_2",
@@ -266,7 +275,10 @@
   {
     "id": "furnace_golem_1",
     "text": "Kill 1 Furnace Golem",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Furnace Golem"
+    ]
   },
   {
     "id": "furnace_golem_2",
@@ -460,7 +472,10 @@
   {
     "id": "memb_memb",
     "text": "Kill a Remembrance Boss with Remembrance Weapons Only",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Remembrance Boss with a Remembrance Weapon"
+    ]
   },
   {
     "id": "messmer",
@@ -751,6 +766,11 @@
   {
     "id": "unique_max_upgrade_materials_3",
     "text": "Acquire 3 Unique Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "verdigris_discus",
+    "text": "Acquire Verdigris Discus",
     "game_type": "dlc"
   },
   {
