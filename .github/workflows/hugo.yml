@@ -34,12 +34,14 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Hugo
         run: |
-          hugo \
+          scripts/build.sh \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
