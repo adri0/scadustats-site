@@ -31,12 +31,12 @@
     </div>
 
     <div class="widget">
-        <div class="widget-title">Most claimed goals</div>
+        <div class="widget-title">Most claimed squares</div>
         <ul class="widget-list widget-list-plain">
             {{- range $topGoals }}
             <li>{{ $text := .text }}{{ with partial "lib/square-path.html" . }}<a class="goal-text" href="{{ . | relURL }}">{{ $text }}</a>{{ else }}<span class="goal-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</span>{{ end }}<span>{{ .marks }}</span></li>
             {{- end }}
         </ul>
-        <a class="widget-more" href="{{ "/squares/" | relURL }}">All bingo goals →</a>
+        <a class="widget-more" href="{{ "/squares/" | relURL }}">All squares →</a>
     </div>
 </aside>
