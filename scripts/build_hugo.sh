@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Builds the site: regenerates the stats files scadustats derives from data/matches
 # (data/players/*/stats.yaml and data/square_stats/, which aren't committed), then runs
-# hugo with this script's arguments, e.g. `scripts/build.sh server` or
-# `scripts/build.sh --minify`.
+# hugo with this script's arguments, e.g. `scripts/build_hugo.sh server` or
+# `scripts/build_hugo.sh --minify`.
 #
 # Uses the latest scadustats release on PyPI, via uvx (`@latest` makes uvx check for a
 # newer one rather than reuse a cached install). To try an unreleased checkout, set
-# SCADUSTATS, e.g. SCADUSTATS="uvx --from ../scadustats scadustats" scripts/build.sh.
+# SCADUSTATS, e.g. SCADUSTATS="uvx --from ../scadustats scadustats" scripts/build_hugo.sh.
 set -euo pipefail
 
 read -r -a scadustats <<< "${SCADUSTATS:-uvx scadustats@latest}"

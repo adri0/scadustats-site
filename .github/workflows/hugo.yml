@@ -41,7 +41,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with Hugo
         run: |
-          scripts/build.sh \
+          scripts/build_hugo.sh \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"

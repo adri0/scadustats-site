@@ -4,10 +4,10 @@
 
 A Hugo static site for a fan-made website (wiki-style) for Elden Ring Bingo Brawlers league (https://bingobrawlers.com/).
  
-There is no package manifest and no test suite. `scripts/build.sh` builds the site: it regenerates
+There is no package manifest and no test suite. `scripts/build_hugo.sh` builds the site: it regenerates
 the stats files `scadustats` derives from `data/matches` (`data/players/*/stats.yaml` and
 `data/square_stats/`, which are gitignored, never committed), then runs `hugo` with its arguments
-(`scripts/build.sh server` serves it locally). It runs the latest `scadustats` release on PyPI
+(`scripts/build_hugo.sh server` serves it locally). It runs the latest `scadustats` release on PyPI
 through `uvx scadustats@latest`, so it needs [uv](https://docs.astral.sh/uv/). Plain `hugo` works too once
 the script has run once, but won't pick up match changes in those stats. Everything under
 `public/` is build output.
@@ -65,7 +65,7 @@ Two files per player, both under the same directory:
 - `info.yaml` — hand-curated identity, written once by `scadustats player consolidate` and never
   touched again after that: `id` (assigned once), `slug`, `twitch` (a bare handle), `avatar`,
   `bio`. Safe to hand-edit; reruns won't overwrite it.
-- `stats.yaml` — generated, not committed: `scripts/build.sh` regenerates it from `data/matches`
+- `stats.yaml` — generated, not committed: `scripts/build_hugo.sh` regenerates it from `data/matches`
   with `scadustats player consolidate` on every build: `slug`, `display_name` (the exact spelling seen most often across that player's matches),
   plus precomputed stats (`season_records`, `game_record`, `game_type_records`, `all_matches`,
   `top_squares_base_game`, `top_squares_dlc`).
@@ -91,7 +91,7 @@ stripped), over both `text` and `aliases`, via `partials/lib/square-lookup.html`
 
 ### `data/square_stats/{base,dlc}/<id>.yaml`
 
-One file per catalogue goal, generated, not committed: `scripts/build.sh` regenerates them with
+One file per catalogue goal, generated, not committed: `scripts/build_hugo.sh` regenerates them with
 `scadustats square stats` on every build (cells are matched to the catalogue by exact text, so
 run `square consolidate` after adding a match): `id`, `text`,
 `game_type`, `num_matches`/`matches` (match ids, newest first), `num_games`, `games_marked`,
