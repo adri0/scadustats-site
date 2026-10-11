@@ -1,0 +1,570 @@
+{
+  "match_id": "2026-05-03-star0chris-vs-nessonetta",
+  "match_date": "2026-05-03",
+  "season": "pre-season-6",
+  "match_type": "double_elimination",
+  "player_red_name": "star0chris",
+  "player_blue_name": "nessonetta",
+  "commentators": [
+    "Parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=xXbIFMDG2HI",
+    "duration_s": 14408.316666666668,
+    "published_at": "2026-05-06",
+    "extracted_at": "2026-10-11"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 241.0,
+      "end_video_ts_s": 5856.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 4 Crucible Knights",
+          "Kill a Magma Wyrm boss",
+          "Collect 3 unique Seals",
+          "Complete 3 tunnel or precipice dungeons",
+          "Kill Godrick while Summoning Nepheli Loux"
+        ],
+        [
+          "Kill Radahn without summoning NPCs",
+          "Kill 4 NPC Invaders",
+          "Kill Roundtable Knight Vyke",
+          "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "Kill a Remembrance boss w/ remembrance weapon only"
+        ],
+        [
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill 1 Omenkiller Boss",
+          "Learn 14 different incantations",
+          "30 Int (no rebirth or buffs)",
+          "Kill 2 Bell Bearing Hunters"
+        ],
+        [
+          "Buy 20 Boiled Crab from Boggart",
+          "Kill Godfrey (Gold Spirit)",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Kill Mohg (Sewers)",
+          "Kill 3 Cemetery Shades"
+        ],
+        [
+          "Kill 5 bosses in Altus Plateau and Mt. Gelmir",
+          "Kill Loretta (Blue Spirit)",
+          "Kill Leonine Misbegotten",
+          "Kill 2 Watchdogs",
+          "Kill Lansseax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:09:21"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Collect 3 unique Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:19",
+          "video_timestamp": "00:16:40"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "30 Int (no rebirth or buffs)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:43",
+          "video_timestamp": "00:18:04"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 1 Omenkiller Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:25",
+          "video_timestamp": "00:28:46"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:23",
+          "video_timestamp": "00:31:44"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:03",
+          "video_timestamp": "00:35:24"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:55",
+          "video_timestamp": "00:36:16"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:51",
+          "video_timestamp": "00:42:12"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 3 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:51",
+          "video_timestamp": "00:42:12"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:06",
+          "video_timestamp": "00:46:27"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 2 Bell Bearing Hunters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:26",
+          "video_timestamp": "00:48:47"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:56",
+          "video_timestamp": "00:57:17"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Lansseax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:15",
+          "video_timestamp": "01:06:36"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 5 bosses in Altus Plateau and Mt. Gelmir",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:43",
+          "video_timestamp": "01:10:04"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:43",
+          "video_timestamp": "01:12:04"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:06:30",
+          "video_timestamp": "01:15:51"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 2 Watchdogs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:36",
+          "video_timestamp": "01:17:57"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Buy 20 Boiled Crab from Boggart",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:56",
+          "video_timestamp": "01:20:17"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:14:58",
+          "video_timestamp": "01:24:19"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Mohg (Sewers)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:14",
+          "video_timestamp": "01:29:35"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:45",
+          "video_timestamp": "01:32:06"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 4 Crucible Knights",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:18",
+          "video_timestamp": "01:32:39"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Cemetery Shades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:50",
+          "video_timestamp": "01:37:11"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:27:50",
+          "video_timestamp": "01:37:11"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 5857.0,
+      "end_video_ts_s": 11808.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Base Game Boss in DLC",
+          "Acquire Jolan & Anna Summon",
+          "Acquire Moore Armor set",
+          "Acquire the Full Gravebird Armor Set",
+          "Acquire a Leda Rune"
+        ],
+        [
+          "Acquire 3 Blessings of Marika",
+          "Kill a Red bear",
+          "Kill the Rolling Giant Lightning Ram",
+          "Acquire Verdigris Discus",
+          "Kill Ancient Dragon Senessax"
+        ],
+        [
+          "Kill the Golden Hippo",
+          "Acquire 3 DLC Spirit Ashes",
+          "Kill Metyr, Mother of Fingers",
+          "Kill Leda and her companions",
+          "Kill Devonia"
+        ],
+        [
+          "Kill a Remembrance Boss with a Remembrance Weapon",
+          "Clear 2 Catacombs",
+          "Acquire the 2 handed talisman",
+          "Acquire 2 DLC Legendary Ash Summon",
+          "Acquire 3 NPC Dropped Weapons"
+        ],
+        [
+          "Acquire 3 dropped DLC Talismans",
+          "Acquire Level 5 Revered Ash",
+          "Kill Putrescent Knight",
+          "Put Florissax to Sleep",
+          "Acquire 3 Non-Merchant incantations"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:42:09"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:18",
+          "video_timestamp": "01:49:27"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:21",
+          "video_timestamp": "01:57:30"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Moore Armor set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:12",
+          "video_timestamp": "01:59:21"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Non-Merchant incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:19",
+          "video_timestamp": "02:01:28"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Red bear",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:05",
+          "video_timestamp": "02:03:14"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:45",
+          "video_timestamp": "02:04:54"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:28:40",
+          "video_timestamp": "02:10:49"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:49",
+          "video_timestamp": "02:10:58"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:31",
+          "video_timestamp": "02:11:40"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire the 2 handed talisman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:23",
+          "video_timestamp": "02:16:32"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:00",
+          "video_timestamp": "02:18:09"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:17",
+          "video_timestamp": "02:19:26"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:15",
+          "video_timestamp": "02:22:24"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Devonia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:03",
+          "video_timestamp": "02:26:12"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:35",
+          "video_timestamp": "02:31:44"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss with a Remembrance Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:01",
+          "video_timestamp": "02:34:10"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 3 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:29",
+          "video_timestamp": "02:37:38"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 dropped DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:46",
+          "video_timestamp": "02:40:55"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:00",
+          "video_timestamp": "02:44:09"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Level 5 Revered Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:02",
+          "video_timestamp": "02:46:11"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Metyr, Mother of Fingers",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:12",
+          "video_timestamp": "03:02:21"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Jolan & Anna Summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:25",
+          "video_timestamp": "03:06:34"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Clear 2 Catacombs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:32:13",
+          "video_timestamp": "03:14:22"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:34:15",
+          "video_timestamp": "03:16:24"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:34:15",
+          "video_timestamp": "03:16:24"
+        }
+      ]
+    }
+  ]
+}
