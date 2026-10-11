@@ -12,9 +12,9 @@ through `uvx scadustats@latest`, so it needs [uv](https://docs.astral.sh/uv/). P
 the script has run once, but won't pick up match changes in those stats. Everything under
 `public/` is build output.
 
-There is no theme: the styles and scripts it needs started from [kopi](https://github.com/bect/kopi)
-and are copied into the repo (see "Styles and scripts" below). Hugo **Extended** (>= 0.157) is
-required, because the CSS is SCSS.
+The look comes from the [Land of Shadow](https://github.com/adri0/land-of-shadow) theme, imported
+as a Hugo module (see "Theme" below), so the build needs [Go](https://go.dev/) to fetch it. Hugo
+**Extended** (>= 0.157) is required, because the CSS is SCSS.
 
 Pages are generated from data files, which is a mix from JSON and Markdown: each section in `content/` has a
 `_content.gotmpl` content adapter that reads `data/` and calls `.AddPage`. The only hand-written
@@ -149,7 +149,7 @@ Layouts use Hugo's current names: `layouts/baseof.html`, `layouts/home.html`, `l
   top-level `"date"` is silently ignored and leaves every page with a zero `.Date`, which breaks
   every `sort … "Date"` / `ByDate` over those pages.
 - No-spoilers mode (the default) is driven by `data-spoilers="hidden|shown"` on `<html>`, set
-  from `localStorage.spoilers` by the inline script in `head.html` and switched by any
+  from `localStorage.spoilers` by the inline script in `_partials/hooks/head-end.html` and switched by any
   `[data-spoiler-toggle]` (`assets/js/modules/spoilers.js`). Anything that reveals a result —
   scores, winners, W–L records, standings, brackets — must carry `.spoiler` (blurred) or sit in
   `.spoiler-hide` (removed, with a `.spoiler-placeholder` in its place). A blurred table or
@@ -159,43 +159,44 @@ Layouts use Hugo's current names: `layouts/baseof.html`, `layouts/home.html`, `l
 - `lib/square-index.html`, `lib/square-stats.html` and `lib/mark-time-axis.html` scan all data and must be called through
   `partialCached` with a constant variant (`""`).
 
-## Styles and scripts
+## Theme
 
-The site started from the [kopi](https://github.com/bect/kopi) theme (MIT, `LICENSES/kopi.txt`).
-It is no longer a theme or a submodule: only the parts in use were copied in, and they're edited
-in place like any other file.
+The shared look lives in [adri0/land-of-shadow](https://github.com/adri0/land-of-shadow), imported
+as the Hugo module `github.com/adri0/land-of-shadow` (`[module]` in `hugo.toml`, pinned in `go.mod`
+and `go.sum`). It holds kopi's SCSS/JS (copied from [kopi](https://github.com/bect/kopi), MIT),
+Hotwire Turbo, the Elden Ring palette and type (`--bg-body`, `--accent`, `--surface*`,
+`--gold-soft`/`--gold-glow`, `--link`, `--font-display`/`--font-body`…), and the generic layouts:
+`baseof.html`, `page.html`, `section.html`, `404.html` and the `head`, `header`, `footer`,
+`breadcrumb` and `edit-link` partials. Its README lists the params it reads.
 
-- `assets/css/kopi/` — kopi's SCSS partials (tokens, reset, layout, header, components, tables,
-  widgets…), imported first by `assets/css/main.scss`; our own
-  `assets/css/partials/_scadu.scss` (boards, scoreboards, stat tiles, tables) comes last.
-- `assets/js/kopi/` — kopi's navigation, interactions (+ toast) and link-prefetch modules.
-  `assets/js/modules/` is ours: `theme.js` (the toggle only), `spoilers.js`, `sortable-tables.js`.
-- `assets/js/vendor/turbo.es2017-umd.js` — Hotwire Turbo 8.0.20, byte-identical to the npm
-  release (its banner says 8.0.19; upstream's banner lags a version). Don't edit it.
-- `layouts/404.html` and `static/favicon.ico` — kopi's, unchanged.
+The site fills in what's specific to it:
 
-The layouts were adapted from kopi's and say so in their header comment. Notably:
+- `hugo.toml` `[params]`: `homeTitle`, `logo` (`assets/images/logo.png`, the Scadutree Fragment),
+  `wordmark` (`assets/images/bingo-brawlers.png`, also the home hero), `wordmarkAlt`,
+  `subtitle`, `repo`, `disclaimer`, and `htmlAttributes` (`data-spoilers="hidden"` on `<html>`).
+  The `main` and `footer` menus are the header and footer links.
+- Hook partials the theme leaves empty: `_partials/hooks/head-end.html` (Umami analytics and the
+  no-spoilers inline script), `hooks/header-actions.html` (the no-spoilers eye button) and
+  `hooks/footer-about.html` (the footer's text). `_partials/sidebar.html` (league stat widgets)
+  replaces the theme's empty one.
+- `assets/css/_site.scss` replaces the theme's empty one; the theme's `main.scss` imports it last.
+  It imports `partials/_scadu.scss` (boards, scoreboards, stat tiles, the `--red`/`--blue` player
+  colours, no-spoilers styles…).
+- `assets/js/site.js` replaces the theme's empty one; its `initSite` runs on every Turbo page load,
+  after the theme's modules. It starts `assets/js/modules/spoilers.js` and `sortable-tables.js`.
 
-- `layouts/baseof.html` — kopi's, minus the Mermaid bootstrap, with `data-theme="dark"` on
-  `<html>`. The site is dark by default: the inline script in `head.html` only switches to light when
-  `localStorage.theme` is `"light"` (set by the toggle), and the OS colour scheme is ignored.
-- `_partials/head.html` — no PWA manifest, no service worker, no blog JSON-LD; adds the Google
-  Fonts (Cinzel, EB Garamond) and a favicon resized from `assets/images/logo.png`.
-- `_partials/header.html` — the dark-mode toggle stays; the brand is
-  the Scadutree Fragment (`assets/images/logo.png`) plus the Bingo Brawlers wordmark
-  (`assets/images/bingo-brawlers.png`, background removed, also the home hero) and
-  `params.subtitle`. The wordmark is white, so `.brand-wordmark` inverts it in light mode.
-- `_partials/sidebar.html` — league stat widgets.
+Any other theme file can be overridden by putting a file at the same path in the site, but prefer
+changing the theme when it's about the look. To work on both at once, point Hugo at a local
+checkout:
 
-kopi's search, radio player, bookmarks/library, PWA/service worker, cookie banner, taxonomy
-pages and Markdown render hooks were not copied. Taxonomies are disabled in `hugo.toml`
-(`[taxonomies]` with no entries): pages come from `data/`, not front matter, so tags/categories
-pages would be empty.
+```
+HUGO_MODULE_REPLACEMENTS="github.com/adri0/land-of-shadow -> $HOME/code/land-of-shadow" scripts/build_hugo.sh server
+```
 
-`_scadu.scss` styles everything with kopi's tokens (`assets/css/kopi/_variables.scss`: `--bg-body`, `--text-main`,
-`--text-muted`, `--accent`, `--border`, `--radius-*`), and re-points those tokens at an Elden Ring
-palette (parchment/umber in light mode, ash-black/gold in dark). On top it adds only `--red`/`--blue`
-(the two players), `--surface*` and `--gold-soft`/`--gold-glow`, each with a dark-mode value so
-both colour schemes stay in sync, plus the `--font-display` (Cinzel) and `--font-body` (EB Garamond)
-stacks. One thing to know: kopi's base sets `table { display: block; overflow-x: auto }`, so data tables set
-`display: table` and scroll inside a `.table-wrap` instead.
+After tagging a theme release, update the site with `hugo mod get github.com/adri0/land-of-shadow@vX.Y.Z`
+(then `hugo mod tidy`) and commit `go.mod`/`go.sum`.
+
+Taxonomies are disabled in `hugo.toml` (`[taxonomies]` with no entries): pages come from `data/`,
+not front matter, so tags/categories pages would be empty. One thing to know: kopi's base sets
+`table { display: block; overflow-x: auto }`, so data tables (`.stats-table`) set `display: table`
+and scroll inside a `.table-wrap` instead.

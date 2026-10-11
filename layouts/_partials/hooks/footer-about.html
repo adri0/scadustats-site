@@ -1,0 +1,6 @@
+{{- /* Extends the Land of Shadow theme's footer.html: the left column, under
+       the site title. */ -}}
+            <p>Every number on this site is recomputed from the transcribed VODs in <code>data/matches</code>.</p>
+            {{- with site.Params.repo }}
+            <p class="prose-links">This site is open source: browse the code and data, or contribute, on <a href="{{ . }}">GitHub</a>.</p>
+            {{- end }}

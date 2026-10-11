@@ -6,7 +6,8 @@ It includes match history, player records, and square stats for the Elden Ring B
 
 ## Building
 
-Requires Hugo **Extended** >= 0.157 (the CSS is SCSS) and [uv](https://docs.astral.sh/uv/):
+Requires Hugo **Extended** >= 0.157 (the CSS is SCSS), [Go](https://go.dev/) (Hugo uses it to
+fetch the theme module) and [uv](https://docs.astral.sh/uv/):
 
 ```
 scripts/build_hugo.sh server
@@ -19,10 +20,10 @@ Rerun it after changing match data.
 
 ## Credits
 
-The look started from the [kopi](https://github.com/bect/kopi) Hugo theme. The parts still in use
-are copied into `assets/css/kopi/`, `assets/js/kopi/` and `layouts/404.html`, under kopi's MIT
-license (`LICENSES/kopi.txt`). `assets/js/vendor/` holds [Hotwire Turbo](https://turbo.hotwired.dev/)
-8.0.20 (MIT, © 37signals), unmodified from its npm release.
+The look is the [Land of Shadow](https://github.com/adri0/land-of-shadow) theme, imported as a
+Hugo module. It started from the [kopi](https://github.com/bect/kopi) Hugo theme (MIT), and some
+of the site's own layouts (such as the sidebar) are still adapted from kopi's
+(`LICENSES/kopi.txt`).
 
 ## Populating `data/`
 

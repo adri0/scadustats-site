@@ -32,8 +32,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+          cache: false
       - name: Install uv
         uses: astral-sh/setup-uv@v6
       - name: Setup Pages
