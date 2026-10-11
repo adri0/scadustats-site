@@ -1,7 +1,7 @@
 id: florissax
 text: Put Florissax to Sleep
 game_type: dlc
-num_matches: 17
+num_matches: 18
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-03-LilAggy-vs-Grey
@@ -20,9 +20,10 @@ matches:
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 17
-games_marked: 15
-mark_rate: 0.8824
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 18
+games_marked: 16
+mark_rate: 0.8889
 top_players:
 - slug: blanxz
   marks: 3
@@ -42,6 +43,7 @@ mark_times_s:
 - 1364
 - 1574
 - 1592
+- 1704
 - 2082
 - 2215
 - 2434
@@ -50,7 +52,7 @@ mark_times_s:
 - 3275
 - 3318
 - 3361
-median_mark_time_s: 2082.0
+median_mark_time_s: 1893.0
 claims:
 - match_id: 2026-07-24-blanxz-vs-Parkenharbor
   game_index: 2
@@ -80,6 +82,10 @@ claims:
   game_index: 2
   time_s: 1592
   slug: grey
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 1704
+  slug: pepejack
 - match_id: 2026-07-18-Gustaf-vs-Grey
   game_index: 2
   time_s: 2082

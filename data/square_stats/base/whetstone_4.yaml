@@ -1,7 +1,7 @@
 id: whetstone_4
 text: Acquire 4 Whetstone Knives
 game_type: base
-num_matches: 6
+num_matches: 7
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -9,9 +9,10 @@ matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-07-Vswed-vs-Grey
 - 2026-08-02-Vswed-vs-RomainJacques
-num_games: 6
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 7
 games_marked: 4
-mark_rate: 0.6667
+mark_rate: 0.5714
 top_players:
 - slug: vswed
   marks: 2

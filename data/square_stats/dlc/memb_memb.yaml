@@ -1,7 +1,7 @@
 id: memb_memb
 text: Kill a Remembrance Boss with Remembrance Weapons Only
 game_type: dlc
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -13,10 +13,13 @@ matches:
 - 2026-07-24-LilAggy-vs-SeriousChallenges
 - 2026-07-19-Raydans-vs-Parkenharbor
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 10
-games_marked: 6
-mark_rate: 0.6
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 11
+games_marked: 7
+mark_rate: 0.6364
 top_players:
+- slug: blanxz
+  marks: 1
 - slug: grey
   marks: 1
 - slug: gustaf
@@ -25,16 +28,15 @@ top_players:
   marks: 1
 - slug: parkenharbor
   marks: 1
-- slug: raydans
-  marks: 1
 mark_times_s:
 - 2113
 - 2909
 - 2922
 - 3263
+- 4126
 - 4157
 - 4221
-median_mark_time_s: 3092.5
+median_mark_time_s: 3263.0
 claims:
 - match_id: 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
   game_index: 2
@@ -52,6 +54,10 @@ claims:
   game_index: 3
   time_s: 3263
   slug: romainjacques
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 4126
+  slug: blanxz
 - match_id: 2026-08-15-Ironyeu-vs-Parkenharbor
   game_index: 2
   time_s: 4157

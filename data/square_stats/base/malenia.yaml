@@ -1,7 +1,7 @@
 id: malenia
 text: Kill Malenia
 game_type: base
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
@@ -12,9 +12,10 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
-num_games: 9
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 10
 games_marked: 5
-mark_rate: 0.5556
+mark_rate: 0.5
 top_players:
 - slug: romainjacques
   marks: 2

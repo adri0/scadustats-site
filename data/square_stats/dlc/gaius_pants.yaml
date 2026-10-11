@@ -1,7 +1,7 @@
 id: gaius_pants
 text: Acquire Commander Gaius's Pants
 game_type: dlc
-num_matches: 9
+num_matches: 10
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -12,14 +12,15 @@ matches:
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-24-blanxz-vs-Parkenharbor
-num_games: 10
-games_marked: 8
-mark_rate: 0.8
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 11
+games_marked: 9
+mark_rate: 0.8182
 top_players:
 - slug: nuclearpastatom
   marks: 4
 - slug: blanxz
-  marks: 2
+  marks: 3
 - slug: lilaggy
   marks: 1
 - slug: romainjacques
@@ -32,8 +33,9 @@ mark_times_s:
 - 2459
 - 2499
 - 2613
+- 2782
 - 2960
-median_mark_time_s: 2123.0
+median_mark_time_s: 2459.0
 claims:
 - match_id: 2026-08-01-NuclearPastaTom-vs-Grey
   game_index: 2
@@ -62,6 +64,10 @@ claims:
 - match_id: 2026-07-31-blanxz-vs-Ironyeu
   game_index: 2
   time_s: 2613
+  slug: blanxz
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 2782
   slug: blanxz
 - match_id: 2026-08-30-SeriousChallenges-vs-RomainJacques
   game_index: 2

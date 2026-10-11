@@ -1,7 +1,7 @@
 id: golden_hippo
 text: Kill the Golden Hippo
 game_type: dlc
-num_matches: 11
+num_matches: 12
 matches:
 - 2026-09-12-blanxz-vs-RomainJacques
 - 2026-09-11-LilAggy-vs-RomainJacques
@@ -14,9 +14,10 @@ matches:
 - 2026-07-31-blanxz-vs-Ironyeu
 - 2026-07-30-Parkenharbor-vs-LilAggy
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 11
-games_marked: 9
-mark_rate: 0.8182
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 12
+games_marked: 10
+mark_rate: 0.8333
 top_players:
 - slug: romainjacques
   marks: 3
@@ -32,13 +33,14 @@ mark_times_s:
 - 706
 - 862
 - 896
+- 921
 - 972
 - 1105
 - 1150
 - 1162
 - 1758
 - 2410
-median_mark_time_s: 1105.0
+median_mark_time_s: 1038.5
 claims:
 - match_id: 2026-09-12-blanxz-vs-RomainJacques
   game_index: 2
@@ -52,6 +54,10 @@ claims:
   game_index: 2
   time_s: 896
   slug: raydans
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 921
+  slug: pepejack
 - match_id: 2026-08-07-blanxz-vs-Raydans
   game_index: 2
   time_s: 972

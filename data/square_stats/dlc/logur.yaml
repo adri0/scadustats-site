@@ -1,0 +1,20 @@
+id: logur
+text: Kill Logur, the Beast Claw
+game_type: dlc
+num_matches: 1
+matches:
+- 2026-04-25-pepeJack-vs-blanxz
+num_games: 1
+games_marked: 1
+mark_rate: 1.0
+top_players:
+- slug: pepejack
+  marks: 1
+mark_times_s:
+- 1086
+median_mark_time_s: 1086.0
+claims:
+- match_id: 2026-04-25-pepeJack-vs-blanxz
+  game_index: 2
+  time_s: 1086
+  slug: pepejack
