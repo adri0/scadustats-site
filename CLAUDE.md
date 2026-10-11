@@ -16,9 +16,11 @@ The look comes from the [Land of Shadow](https://github.com/adri0/land-of-shadow
 as a Hugo module (see "Theme" below), so the build needs [Go](https://go.dev/) to fetch it. Hugo
 **Extended** (>= 0.157) is required, because the CSS is SCSS.
 
-Pages are generated from data files, which is a mix from JSON and Markdown: each section in `content/` has a
+Pages are generated from data files, which is a mix from JSON and Markdown: each data section in `content/` has a
 `_content.gotmpl` content adapter that reads `data/` and calls `.AddPage`. The only hand-written
-content files are `content/_index.md`, `content/about.md`, and the section `_index.md` stubs.
+content files are `content/_index.md`, `content/about.md`, the section `_index.md` stubs and the
+news posts in `content/news/` (`<yyyy-mm-dd>-<slug>.md` with `title`, `date` and `summary`; listed
+newest first, and anything that reveals a result needs the spoiler classes like any other page).
 
 ## Data: `data/`
 

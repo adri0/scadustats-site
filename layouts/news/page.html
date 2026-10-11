@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{ partial "breadcrumb.html" . }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <p class="notice"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+  <div class="article-body prose-links">{{ .Content }}</div>
+</article>
+{{ end }}
