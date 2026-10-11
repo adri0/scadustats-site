@@ -266,7 +266,10 @@
   {
     "id": "furnace_golem_1",
     "text": "Kill 1 Furnace Golem",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a Furnace Golem"
+    ]
   },
   {
     "id": "furnace_golem_2",
@@ -317,6 +320,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "heal_kindred_rot",
+    "text": "Heal the wounded Kindred rot",
+    "game_type": "dlc"
+  },
+  {
     "id": "hippos_2",
     "text": "Kill 2 Hippos",
     "game_type": "dlc"
@@ -359,7 +367,10 @@
   {
     "id": "jolan",
     "text": "Acquire Jolan Summon",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Jolan & Anna Summon"
+    ]
   },
   {
     "id": "jori",
@@ -652,7 +663,10 @@
   {
     "id": "rune_85",
     "text": "Rune Level 85",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Reach Level 85"
+    ]
   },
   {
     "id": "scadu_10",

@@ -118,7 +118,10 @@
   {
     "id": "caelid_bosses_5",
     "text": "Kill 5 Bosses in Caelid / Dragonbarrow",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 5 bosses in Caelid and Dragonbarrow"
+    ]
   },
   {
     "id": "catacombs_2",
@@ -367,7 +370,10 @@
   {
     "id": "god_bosses_3",
     "text": "Kill 3 Bosses with \"God\" in their name",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Bosses with the word God in it"
+    ]
   },
   {
     "id": "god_bosses_4",
@@ -590,7 +596,10 @@
   {
     "id": "memb_incantations",
     "text": "Kill a Remembrance Boss with Incantations Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Remembrance boss incantations only"
+    ]
   },
   {
     "id": "memb_memb",
@@ -771,7 +780,10 @@
   {
     "id": "rick_bare_fists",
     "text": "Kill Soldier of Godrick with Bare Fists Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Soldier of Godrick bare fist only"
+    ]
   },
   {
     "id": "ritual_pots_5",
@@ -887,12 +899,18 @@
   {
     "id": "talismans_9",
     "text": "Acquire 9 different Talismans (Excluding Sacrifial Twigs)",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Acquire 9 Unique Talismans (Excluding Sacrifial Twigs)"
+    ]
   },
   {
     "id": "thops_key",
     "text": "Return Thops's Academy Key",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Return Thop's academy key"
+    ]
   },
   {
     "id": "tibia_2",
