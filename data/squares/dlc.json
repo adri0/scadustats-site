@@ -112,7 +112,10 @@
   {
     "id": "colossal_fingercreeper",
     "text": "Kill the Colossal Fingercreeper",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill the Giant Hand in the Finger Ruins Dheo"
+    ]
   },
   {
     "id": "concotion",
@@ -298,11 +301,6 @@
   {
     "id": "garrew",
     "text": "Kill Black Knight Garrew",
-    "game_type": "dlc"
-  },
-  {
-    "id": "giant_hand_dheo",
-    "text": "Kill the Giant Hand in the Finger Ruins Dheo",
     "game_type": "dlc"
   },
   {
