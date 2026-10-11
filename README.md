@@ -15,8 +15,8 @@ scripts/build.sh server
 ```
 
 `scripts/build.sh` generates the stats files that aren't committed (`data/players/*/stats.yaml`
-and `data/square_stats/`) from `data/matches`, with the `scadustats` release pinned in the
-script, then runs `hugo` with its arguments (`scripts/build.sh` alone builds into `public/`).
+and `data/square_stats/`) from `data/matches`, with the latest `scadustats` release on
+PyPI, then runs `hugo` with its arguments (`scripts/build.sh` alone builds into `public/`).
 Rerun it after changing match data.
 
 ## Populating `data/`

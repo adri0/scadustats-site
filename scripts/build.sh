@@ -4,12 +4,12 @@
 # hugo with this script's arguments, e.g. `scripts/build.sh server` or
 # `scripts/build.sh --minify`.
 #
-# Uses the scadustats release pinned below, via uvx. To try an unreleased checkout, set
+# Uses the latest scadustats release on PyPI, via uvx (`@latest` makes uvx check for a
+# newer one rather than reuse a cached install). To try an unreleased checkout, set
 # SCADUSTATS, e.g. SCADUSTATS="uvx --from ../scadustats scadustats" scripts/build.sh.
 set -euo pipefail
 
-SCADUSTATS_VERSION=1.2.0
-read -r -a scadustats <<< "${SCADUSTATS:-uvx scadustats==${SCADUSTATS_VERSION}}"
+read -r -a scadustats <<< "${SCADUSTATS:-uvx scadustats@latest}"
 
 cd "$(dirname "$0")/.."
 

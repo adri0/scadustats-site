@@ -7,8 +7,8 @@ A Hugo static site for a fan-made website (wiki-style) for Elden Ring Bingo Braw
 There is no package manifest and no test suite. `scripts/build.sh` builds the site: it regenerates
 the stats files `scadustats` derives from `data/matches` (`data/players/*/stats.yaml` and
 `data/square_stats/`, which are gitignored, never committed), then runs `hugo` with its arguments
-(`scripts/build.sh server` serves it locally). It runs the `scadustats` release pinned in the
-script through `uvx`, so it needs [uv](https://docs.astral.sh/uv/). Plain `hugo` works too once
+(`scripts/build.sh server` serves it locally). It runs the latest `scadustats` release on PyPI
+through `uvx scadustats@latest`, so it needs [uv](https://docs.astral.sh/uv/). Plain `hugo` works too once
 the script has run once, but won't pick up match changes in those stats. Everything under
 `public/` is build output.
 
