@@ -5,6 +5,9 @@
 </head>
 <body>
     {{ partial "header.html" . }}
+    {{- /* A full-width strip under the header; the home page uses it for the
+           under-construction notice. */}}
+    {{ block "banner" . }}{{ end }}
 
     <div class="main-wrapper">
         <div class="container">
