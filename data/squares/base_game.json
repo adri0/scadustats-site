@@ -254,7 +254,10 @@
   {
     "id": "elder_lions_2",
     "text": "Kill 2 Unique Elder Lions",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 2 elder lion"
+    ]
   },
   {
     "id": "elder_lions_3",
@@ -590,7 +593,10 @@
   {
     "id": "memb_incantations",
     "text": "Kill a Remembrance Boss with Incantations Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Remembrance boss incantations only"
+    ]
   },
   {
     "id": "memb_memb",
@@ -600,7 +606,10 @@
   {
     "id": "memb_sorceries",
     "text": "Kill a Remembrance Boss with Sorceries Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill a Remembrance boss sorcery only"
+    ]
   },
   {
     "id": "memb_whips",
@@ -867,7 +876,10 @@
   {
     "id": "sorceries_12",
     "text": "Acquire 12 Unique Sorceries",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Learn 12 different sorceries"
+    ]
   },
   {
     "id": "spirit_ash_4",
@@ -877,7 +889,10 @@
   {
     "id": "staves_6",
     "text": "Acquire 6 Unique Staves",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Collect 6 unique Staves"
+    ]
   },
   {
     "id": "talismans_10",
@@ -948,7 +963,10 @@
   {
     "id": "tunnels_3",
     "text": "Complete 3 Tunnels or Precipices",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 3 tunnel or precipice dungeons"
+    ]
   },
   {
     "id": "valiant_gargs",
