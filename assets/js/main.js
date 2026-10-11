@@ -1,18 +1,17 @@
 /*
- * Overrides kopi's assets/js/main.js. The theme's search, radio player,
- * bookmark/library and PWA (service worker) modules are left out -- those
- * features aren't enabled on this site, and dropping the imports keeps them
- * out of the bundle. The modules themselves still come from the theme,
- * except sortable-tables.js, spoilers.js and theme.js (dark by default), which
- * are ours.
+ * Site JS entry point. The modules in `kopi/` are copied from the kopi theme
+ * (https://github.com/bect/kopi, MIT -- see LICENSES/kopi.txt); its search,
+ * radio player, bookmark/library and PWA (service worker) modules were left
+ * behind. `vendor/` holds Hotwire Turbo 8.0.20, unmodified from npm.
+ * Everything in `modules/` is ours.
  */
-import { initNavigation } from './modules/navigation.js';
+import { initNavigation } from './kopi/navigation.js';
 import { initTheme } from './modules/theme.js';
-import { initInteractions } from './modules/interactions.js';
-import { initPrefetch } from './modules/prefetch.js';
+import { initInteractions } from './kopi/interactions.js';
+import { initPrefetch } from './kopi/prefetch.js';
 import { initSortableTables } from './modules/sortable-tables.js';
 import { initSpoilers } from './modules/spoilers.js';
-import './external/turbo.es2017-umd.js';
+import './vendor/turbo.es2017-umd.js';
 
 document.addEventListener('turbo:load', () => {
     initNavigation();
