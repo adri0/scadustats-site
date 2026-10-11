@@ -1,22 +1,26 @@
 id: dryleaf_dane
 text: Kill Dryleaf Dane in the Duel
 game_type: dlc
-num_matches: 2
+num_matches: 3
 matches:
 - 2026-05-01-pepeJack_-vs-itzCBD
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-25-pepeJack_-vs-blanxz
-num_games: 2
-games_marked: 2
+num_games: 3
+games_marked: 3
 mark_rate: 1.0
 top_players:
 - slug: itzcbd
+  marks: 1
+- slug: nuclearpastatom
   marks: 1
 - slug: pepejack
   marks: 1
 mark_times_s:
 - 661
 - 930
-median_mark_time_s: 795.5
+- 1059
+median_mark_time_s: 930.0
 claims:
 - match_id: 2026-04-25-pepeJack_-vs-blanxz
   game_index: 2
@@ -26,3 +30,7 @@ claims:
   game_index: 3
   time_s: 930
   slug: itzcbd
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 2
+  time_s: 1059
+  slug: nuclearpastatom

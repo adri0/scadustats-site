@@ -1,7 +1,7 @@
 id: pk
 text: Kill Putrescent Knight
 game_type: dlc
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-11-LilAggy-vs-RomainJacques
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -13,9 +13,10 @@ matches:
 - 2026-07-25-TwistieT-vs-Grey
 - 2026-07-18-blanxz-vs-LilAggy
 - 2026-07-18-Gustaf-vs-Grey
-num_games: 11
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 12
 games_marked: 7
-mark_rate: 0.6364
+mark_rate: 0.5833
 top_players:
 - slug: grey
   marks: 2

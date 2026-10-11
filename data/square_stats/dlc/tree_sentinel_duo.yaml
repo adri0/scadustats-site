@@ -1,12 +1,13 @@
 id: tree_sentinel_duo
 text: Kill the Tree Sentinel Duo
 game_type: dlc
-num_matches: 1
+num_matches: 2
 matches:
 - 2026-05-01-pepeJack_-vs-itzCBD
-num_games: 1
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 2
 games_marked: 1
-mark_rate: 1.0
+mark_rate: 0.5
 top_players:
 - slug: itzcbd
   marks: 1

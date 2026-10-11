@@ -1,7 +1,7 @@
 id: ancestor_1
 text: Kill an Ancestor Spirit
 game_type: base
-num_matches: 10
+num_matches: 11
 matches:
 - 2026-09-06-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -12,10 +12,11 @@ matches:
 - 2026-07-26-NuclearPastaTom-vs-Vswed
 - 2026-07-18-Gustaf-vs-Grey
 - 2026-05-01-pepeJack_-vs-itzCBD
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
 - 2026-04-25-pepeJack_-vs-blanxz
-num_games: 10
+num_games: 11
 games_marked: 8
-mark_rate: 0.8
+mark_rate: 0.7273
 top_players:
 - slug: gustaf
   marks: 2

@@ -105,7 +105,10 @@
   {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Astel and Astel, Stars of Darkness"
+    ]
   },
   {
     "id": "caelid_bosses_4",
@@ -453,7 +456,10 @@
   {
     "id": "intelligence_30",
     "text": "30 Intelligence",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "30 Int (no rebirth or buffs)"
+    ]
   },
   {
     "id": "kill_millicent",
@@ -730,6 +736,11 @@
   {
     "id": "radahn_great_rune",
     "text": "Restore Radahn's Great Rune",
+    "game_type": "base"
+  },
+  {
+    "id": "radahn_no_npcs",
+    "text": "Kill Radahn without summoning NPCs",
     "game_type": "base"
   },
   {

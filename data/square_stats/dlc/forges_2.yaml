@@ -1,7 +1,7 @@
 id: forges_2
 text: Complete 2 Forges
 game_type: dlc
-num_matches: 7
+num_matches: 8
 matches:
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
 - 2026-08-15-Ironyeu-vs-Parkenharbor
@@ -10,22 +10,30 @@ matches:
 - 2026-07-26-Raydans-vs-Ironyeu
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
-num_games: 7
-games_marked: 3
-mark_rate: 0.4286
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 8
+games_marked: 4
+mark_rate: 0.5
 top_players:
 - slug: ironyeu
+  marks: 1
+- slug: nuclearpastatom
   marks: 1
 - slug: romainjacques
   marks: 1
 - slug: seriouschallenges
   marks: 1
 mark_times_s:
+- 1698
 - 2400
 - 2576
 - 3283
-median_mark_time_s: 2576.0
+median_mark_time_s: 2488.0
 claims:
+- match_id: 2026-04-26-NuclearPastaTom-vs-nessonetta
+  game_index: 2
+  time_s: 1698
+  slug: nuclearpastatom
 - match_id: 2026-07-26-Raydans-vs-Ironyeu
   game_index: 2
   time_s: 2400

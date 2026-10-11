@@ -1,7 +1,7 @@
 id: npc_dropped_weapons_3
 text: Acquire 3 NPC Dropped Weapons
 game_type: dlc
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-09-01-Vswed-vs-Raydans
@@ -15,9 +15,10 @@ matches:
 - 2026-07-24-blanxz-vs-Parkenharbor
 - 2026-07-19-Vswed-vs-TwistieT
 - 2026-05-01-pepeJack_-vs-itzCBD
-num_games: 13
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 14
 games_marked: 11
-mark_rate: 0.8462
+mark_rate: 0.7857
 top_players:
 - slug: nuclearpastatom
   marks: 3

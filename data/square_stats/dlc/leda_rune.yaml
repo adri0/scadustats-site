@@ -1,7 +1,7 @@
 id: leda_rune
 text: Acquire a Leda Rune
 game_type: dlc
-num_matches: 12
+num_matches: 13
 matches:
 - 2026-09-19-NuclearPastaTom-vs-SeriousChallenges
 - 2026-08-30-SeriousChallenges-vs-RomainJacques
@@ -15,9 +15,10 @@ matches:
 - 2026-07-17-NuclearPastaTom-vs-RomainJacques
 - 2026-07-17-KEMIST-vs-SeriousChallenges
 - 2026-05-01-pepeJack_-vs-itzCBD
-num_games: 13
+- 2026-04-26-NuclearPastaTom-vs-nessonetta
+num_games: 14
 games_marked: 12
-mark_rate: 0.9231
+mark_rate: 0.8571
 top_players:
 - slug: seriouschallenges
   marks: 4
