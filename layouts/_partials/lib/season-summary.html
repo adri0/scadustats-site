@@ -12,8 +12,8 @@
 */ -}}
 {{- $sid := printf "%v" . -}}
 {{- $seasonMatches := partialCached "lib/season-matches.html" $sid $sid -}}
-{{- $bracket := index (hugo.Data.brackets | default dict) (printf "season-%s" $sid) -}}
-{{- $groupsCfg := index (hugo.Data.groups | default dict) (printf "season-%s" $sid) -}}
+{{- $bracket := partial "lib/season-file.html" (dict "kind" "brackets" "season_id" $sid) -}}
+{{- $groupsCfg := partial "lib/season-file.html" (dict "kind" "groups" "season_id" $sid) -}}
 {{- $slots := partial "lib/season-slots.html" $sid -}}
 
 {{- $playoffKeys := slice -}}

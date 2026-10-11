@@ -39,8 +39,8 @@
     <svg class="bracket-svg" viewBox="0 0 {{ $width }} {{ $height }}" width="{{ $width }}" height="{{ $height }}"
          role="img" aria-label="{{ $bracket.title | default "Playoff bracket" }}">
 
-      {{- /* Upper / Lower labels down the left edge, spanning their matches. */}}
-      {{- range $b := slice "upper" "lower" }}
+      {{- /* Play-offs / Upper / Lower labels down the left edge, spanning their matches. */}}
+      {{- range $b := slice "playoffs" "upper" "lower" }}
         {{- $rows := slice }}
         {{- range where $bracket.matches "bracket" $b }}{{ $rows = $rows | append (float .row) }}{{ end }}
         {{- with $rows }}
@@ -48,7 +48,7 @@
           {{- $y2 := add $pad $cardH (mul (index (sort . "value" "desc") 0) $rowUnit) }}
           {{- $ym := div (add $y1 $y2) 2 }}
       <line class="bracket-section-rule" x1="22" y1="{{ $y1 }}" x2="22" y2="{{ $y2 }}" />
-      <text class="bracket-section-label" x="12" y="{{ $ym }}" transform="rotate(-90 12 {{ $ym }})" text-anchor="middle">{{ $b }}</text>
+      <text class="bracket-section-label" x="12" y="{{ $ym }}" transform="rotate(-90 12 {{ $ym }})" text-anchor="middle">{{ cond (eq $b "playoffs") "play-offs" $b }}</text>
         {{- end }}
       {{- end }}
 
