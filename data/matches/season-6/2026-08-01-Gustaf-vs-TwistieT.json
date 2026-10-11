@@ -317,7 +317,7 @@
           "Kill Bayle",
           "Kill a Remembrance Boss with Remembrance Weapons Only",
           "Level 5 Revered Spirit Ash",
-          "Give an lris of Grace"
+          "Give an Iris of Grace"
         ]
       ],
       "events": [
@@ -486,7 +486,7 @@
         {
           "row": 5,
           "col": 5,
-          "square_text": "Give an lris of Grace",
+          "square_text": "Give an Iris of Grace",
           "color": "red",
           "event_type": "mark",
           "game_timer": "01:03:35",

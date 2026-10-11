@@ -329,7 +329,7 @@
           "Kill 3 Unique NPC Invaders",
           "Kill Queelign in Belurat",
           "Kill 2 Unique Horned Warriors",
-          "Give an lris of Grace",
+          "Give an Iris of Grace",
           "Acquire 2 DLC Legendary Ash Summon"
         ],
         [
@@ -513,7 +513,7 @@
         {
           "row": 3,
           "col": 4,
-          "square_text": "Give an lris of Grace",
+          "square_text": "Give an Iris of Grace",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:54:03",
