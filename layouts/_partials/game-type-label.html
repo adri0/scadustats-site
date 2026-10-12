@@ -1,2 +1,3 @@
-{{- /* Input: a game_type ("base", "dlc", "coop_mixed"). Its display name. */ -}}
-{{- if eq . "dlc" }}DLC{{ else if eq . "coop_mixed" }}Co-op{{ else }}Base game{{ end -}}
+{{- /* Input: a game's game_type ("base", "dlc", "2v2"). Its display name. A
+       co-op square (game_type "2v2") is labelled with square-type-label.html. */ -}}
+{{- if eq . "dlc" }}DLC{{ else if eq . "2v2" }}2v2{{ else }}Base game{{ end -}}

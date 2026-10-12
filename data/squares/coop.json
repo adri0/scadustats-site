@@ -2,36 +2,36 @@
   {
     "id": "bear_hippo_snail",
     "text": "Kill 1 Boss of each: Bear, Hippo, Snail",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   },
   {
     "id": "demi_human_bosses_4",
     "text": "Kill 4 Demi human bosses",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   },
   {
     "id": "fia_champs_leda",
     "text": "Kill Fia's Champs and Leda",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   },
   {
     "id": "memb_hitless_3",
     "text": "Kill 3 Remembrance Bosses Hitless",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   },
   {
     "id": "red_wolf_red_bear",
     "text": "Kill a Red Wolf and a Red Bear",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   },
   {
     "id": "remembrances_8",
     "text": "Acquire 8 different Remembrances",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   },
   {
     "id": "tree_sentinel_duos",
     "text": "Kill both Tree Sentinel Duo's",
-    "game_type": "coop_mixed"
+    "game_type": "2v2"
   }
 ]

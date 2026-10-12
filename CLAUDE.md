@@ -63,7 +63,7 @@ Each entry in `games` is a 5x5 board:
 
 **Season 5 is 2v2** (teams of two, one player in the base game and one in the DLC, fixed for the
 season). Its match files add `team_red`/`team_blue` (`{name, base_player, dlc_player}`; the
-`player_<color>_name` fields hold the team names), and every game is `game_type: coop_mixed`.
+`player_<color>_name` fields hold the team names), and every game is `game_type: 2v2`.
 On such a board every square's text ends in its pool tag, exactly as on screen: " (B)" base game,
 " (D)" DLC or " (C)" co-op (a co-op square needs both players). The tag is the only record of a
 square's pool; the catalogue holds goals without it, and `lib/square-lookup.html` drops it.
@@ -109,7 +109,7 @@ contain OCR typos between VODs. Lookup is by normalized text (lowercased, non-al
 stripped), over both `text` and `aliases`, via `partials/lib/square-lookup.html`;
 ~13 transcribed variants have no catalogue entry and are rendered in grey as "unknown".
 
-### `data/square_stats/{base,dlc,coop_mixed}/<id>.yaml`
+### `data/square_stats/{base,dlc,2v2}/<id>.yaml`
 
 One file per catalogue goal, generated, not committed: `scripts/build_hugo.sh` regenerates them with
 `scadustats square stats` on every build (cells are matched to the catalogue by exact text, so

@@ -4,7 +4,7 @@
 
 <header class="square-header">
   <h1>{{ .Title }}</h1>
-  <span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" $p.game_type }}</span>
+  <span class="pill pill-sm pill-outline">{{ partial "square-type-label.html" $p.game_type }}</span>
 </header>
 
 {{- if not $p.num_games }}

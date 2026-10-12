@@ -124,17 +124,17 @@
             {{- /* The square's own pool: the game's type, or on a mixed board
                    (Season 5) the (B)/(D)/(C) tag its text ends in. */ -}}
             {{- $cellType := $gt -}}
-            {{- if eq $gt "coop_mixed" -}}
+            {{- if eq $gt "2v2" -}}
               {{- $cellType = "" -}}
               {{- range findRESubmatch ` \(([BDC])\)$` ($ev.square_text | default "") 1 -}}
-                {{- $cellType = index (dict "B" "base" "D" "dlc" "C" "coop_mixed") (index . 1) -}}
+                {{- $cellType = index (dict "B" "base" "D" "dlc" "C" "2v2") (index . 1) -}}
               {{- end -}}
             {{- end -}}
-            {{- $mine := or (not $role) (eq $cellType $role) (eq $cellType "coop_mixed") -}}
+            {{- $mine := or (not $role) (eq $cellType $role) (eq $cellType "2v2") -}}
             {{- $sq := partial "lib/square-lookup.html" .square_text -}}
             {{- if and $mine $sq.text -}}
               {{- $key := $sq.id | default (lower $sq.text) -}}
-              {{- if eq $cellType "coop_mixed" -}}
+              {{- if eq $cellType "2v2" -}}
                 {{- $marks := 1 -}}
                 {{- $prev := index $coopSquares $key -}}
                 {{- if $prev -}}

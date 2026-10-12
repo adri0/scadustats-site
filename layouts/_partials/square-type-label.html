@@ -1,0 +1,3 @@
+{{- /* Input: a square's game_type ("base", "dlc", "2v2"). Its display name: a
+       "2v2" square is a co-op one, only found on Season 5's 2v2 boards. */ -}}
+{{- if eq . "2v2" }}Co-op{{ else }}{{ partial "game-type-label.html" . }}{{ end -}}

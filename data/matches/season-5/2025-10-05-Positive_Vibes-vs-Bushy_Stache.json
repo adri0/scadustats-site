@@ -34,7 +34,7 @@
       "game_index": 1,
       "start_video_ts_s": 0.0,
       "end_video_ts_s": 3253.0,
-      "game_type": "coop_mixed",
+      "game_type": "2v2",
       "winner_color": "red",
       "win_type": "line",
       "win_line": "col_1",
