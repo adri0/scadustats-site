@@ -1,0 +1,9 @@
+# 2v2 team rosters, by season (see scadustats' storage/teams.py). Each team keeps its
+# roles for the whole season: one player plays the base game, the other the DLC.
+"5":
+  - name: Positive Vibes
+    base_player: star0chris
+    dlc_player: Adef
+  - name: Bushy Stache
+    base_player: Bushy
+    dlc_player: Vswed

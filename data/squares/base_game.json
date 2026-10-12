@@ -707,6 +707,11 @@
     "game_type": "base"
   },
   {
+    "id": "mog_50k",
+    "text": "Memory of Grace with 50k+ Runes",
+    "game_type": "base"
+  },
+  {
     "id": "mog_65k",
     "text": "Memory of Grace with 65k+ Runes",
     "game_type": "base"

@@ -144,6 +144,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "curseblade_2",
+    "text": "Kill 2 unique Curseblade Assassins",
+    "game_type": "dlc"
+  },
+  {
     "id": "curseblade_3",
     "text": "Kill 3 Unique Curseblade Assassins",
     "game_type": "dlc"
@@ -218,6 +223,11 @@
   {
     "id": "dlc_spirit_ashes_3",
     "text": "Acquire 3 DLC Spirit Ashes",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dlc_talismans_3",
+    "text": "Acquire 3 DLC Talismans",
     "game_type": "dlc"
   },
   {
