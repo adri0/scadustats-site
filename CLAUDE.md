@@ -61,6 +61,17 @@ Each entry in `games` is a 5x5 board:
   `square_text` (redundant with `square_texts[row-1][col-1]`), and `color` (which player claimed
   the square). `row`/`col`/`square_text`/`color` are `null` for `game_start`/`game_end` events.
 
+**Season 5 is 2v2** (teams of two, one player in the base game and one in the DLC, fixed for the
+season). Its match files add `team_red`/`team_blue` (`{name, base_player, dlc_player}`; the
+`player_<color>_name` fields hold the team names), every game is `game_type: coop_mixed`, and each
+game has `square_types`, a 5x5 grid parallel to `square_texts` giving each cell's own pool (`base`,
+`dlc` or `coop_mixed` for a co-op square, which needs both players). The rosters come from the
+hand-curated `data/teams.yaml` (keyed by season), which `scadustats extract` reads.
+`lib/side-lookup.html` turns a side into a player-lookup dict, or for a team a dict with the same
+display fields plus `team: true`, `base`, `dlc` and `members` (a team has no page). The players
+adapter credits both teammates with a 2v2 match, and a mark to the teammate whose game the square
+was in (both, for a co-op square).
+
 Fields are frequently `null`/missing for matches that weren't fully commentated, scored, or
 transcribed — don't assume any field beyond `video_id`, `match_date`, `season`, and the player names
 is always populated.
@@ -86,7 +97,7 @@ case-insensitively against `stats.display_name` and `info.slug`. There is no `al
 `scadustats` itself folds mis-transcribed name variants into one slug before this site ever sees
 the data.
 
-### `data/squares/{base_game,dlc}.json`
+### `data/squares/{base_game,dlc,coop}.json`
 
 The catalogue of bingo goals: `id`, `text`, `game_type`, and optionally `aliases` -- other
 wordings of the same goal seen on other broadcasts (e.g. pre-season 6's "Kill Midra, Lord of
@@ -96,7 +107,7 @@ contain OCR typos between VODs. Lookup is by normalized text (lowercased, non-al
 stripped), over both `text` and `aliases`, via `partials/lib/square-lookup.html`;
 ~13 transcribed variants have no catalogue entry and are rendered in grey as "unknown".
 
-### `data/square_stats/{base,dlc}/<id>.yaml`
+### `data/square_stats/{base,dlc,coop_mixed}/<id>.yaml`
 
 One file per catalogue goal, generated, not committed: `scripts/build_hugo.sh` regenerates them with
 `scadustats square stats` on every build (cells are matched to the catalogue by exact text, so
@@ -104,7 +115,7 @@ run `square consolidate` after adding a match): `id`, `text`,
 `game_type`, `num_matches`/`matches` (match ids, newest first), `num_games`, `games_marked`,
 `mark_rate` (`null` if never dealt), `top_players` (5 × `{slug, marks}`), `mark_times_s` (sorted
 game-clock seconds of each claim), `median_mark_time_s`, and `claims` (`{match_id, game_index,
-time_s, slug}` per claim, in the same order — each dot on a square page's chart links to
+time_s, slug}` per claim, in the same order; a co-op claim has `slugs`, both players, instead of `slug` — each dot on a square page's chart links to
 `<match page>#game-<N>`). "Marked" means still claimed on the
 game's final board — an undone mark doesn't count — and the time is that of the mark that stuck.
 

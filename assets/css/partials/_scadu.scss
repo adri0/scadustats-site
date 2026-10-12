@@ -215,6 +215,19 @@
 .side-red { color: var(--red); }
 .side-blue { color: var(--blue); }
 
+/* A 2v2 side (Season 5): the team's name, then its two players and the game
+   each plays, on a line of their own. */
+.team-members {
+    display: block;
+    margin-top: 0.25rem;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 400;
+
+    a { margin-right: 0.15rem; }
+    .team-role { color: var(--text-muted); margin-right: 0.5rem; }
+}
+
 .is-winner {
     position: relative;
     text-decoration: underline;
@@ -392,6 +405,18 @@
     .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
 
     .cell-winline { box-shadow: inset 0 0 0 2px var(--accent), 0 0 12px var(--gold-glow); }
+
+    /* A mixed board's (Season 5) pool tag: B base game, D DLC, C co-op. */
+    .cell-type {
+        display: block;
+        margin-top: 0.2rem;
+        font-size: 0.65rem;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        color: var(--text-muted);
+    }
+
+    .cell-type-coop_mixed { color: var(--accent); }
 }
 
 /* Example board on the About page (_shortcodes/example-board.html). */

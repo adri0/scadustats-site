@@ -1,0 +1,2 @@
+{{- /* Input: a game_type ("base", "dlc", "coop_mixed"). Its display name. */ -}}
+{{- if eq . "dlc" }}DLC{{ else if eq . "coop_mixed" }}Co-op{{ else }}Base game{{ end -}}

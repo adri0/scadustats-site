@@ -46,7 +46,7 @@
         <tbody>
         {{- range $type, $stats := . }}
           <tr>
-            <td>{{ if eq $type "dlc" }}DLC{{ else }}{{ title $type }}{{ end }}</td>
+            <td>{{ partial "game-type-label.html" $type }}</td>
             <td>{{ $stats.wins }}</td>
             <td>{{ $stats.losses }}</td>
           </tr>
@@ -83,7 +83,7 @@
   {{- end }}
 </div>
 
-{{- if or $p.top_squares_base $p.top_squares_dlc }}
+{{- if or $p.top_squares_base $p.top_squares_dlc $p.top_squares_coop }}
 <h2>Most claimed squares</h2>
 <div class="split-columns">
   {{- with $p.top_squares_base }}
@@ -95,6 +95,12 @@
   {{- with $p.top_squares_dlc }}
   <section>
     <h3>DLC</h3>
+    {{ partial "square-ranking.html" . }}
+  </section>
+  {{- end }}
+  {{- with $p.top_squares_coop }}
+  <section>
+    <h3>Co-op</h3>
     {{ partial "square-ranking.html" . }}
   </section>
   {{- end }}

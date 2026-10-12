@@ -59,7 +59,7 @@
     <div class="stat">
       <span class="stat-label">Games</span>
       <span class="stat-value">{{ $sum.games }}</span>
-      {{- if or $sum.base_games $sum.dlc_games }}<span class="stat-note">{{ $sum.base_games }} base game · {{ $sum.dlc_games }} DLC</span>{{ end }}
+      {{- if or $sum.base_games $sum.dlc_games }}<span class="stat-note">{{ $sum.base_games }} base game · {{ $sum.dlc_games }} DLC</span>{{ else if $sum.coop_games }}<span class="stat-note">co-op, base game and DLC mixed</span>{{ end }}
     </div>
   </div>
   {{- with $sum.phases }}

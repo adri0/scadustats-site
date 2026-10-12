@@ -4,7 +4,7 @@
 
 <header class="square-header">
   <h1>{{ .Title }}</h1>
-  <span class="pill pill-sm pill-outline">{{ if eq $p.game_type "dlc" }}DLC{{ else }}Base game{{ end }}</span>
+  <span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" $p.game_type }}</span>
 </header>
 
 {{- if not $p.num_games }}

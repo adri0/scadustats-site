@@ -4,6 +4,8 @@
   RECOMPUTED from games[].winner_color/win_type -- the file's own top-level
   num_games/red_score/blue_score/winner are never trusted (some files omit
   them entirely; the extraction tool itself treats them as derived values).
+  A 2v2 match's sides are teams (see lib/side-lookup.html), and each game
+  carries square_types, every cell's own pool on a mixed board (Season 5).
 */ -}}
 {{- $match := . -}}
 {{- $meta := $match.metadata -}}
@@ -35,6 +37,7 @@
       "win_line" ($g.win_line | default "")
       "winner_color" ($wc | default "")
       "board" $board
+      "square_types" ($g.square_types | default slice)
       "events" (sort ($g.events | default slice) "video_ts_s")) -}}
 {{- end -}}
 
@@ -50,6 +53,8 @@
 {{- end -}}
 
 {{- $seasonID := printf "%v" $match.season -}}
+{{- $red := partial "lib/side-lookup.html" (dict "name" $match.player_red_name "team" $match.team_red) -}}
+{{- $blue := partial "lib/side-lookup.html" (dict "name" $match.player_blue_name "team" $match.team_blue) -}}
 
 {{- return (dict
     "video_id" $match.video_id
@@ -58,8 +63,8 @@
     "match_type" ($match.match_type | default "")
     "commentators" ($match.commentators | default slice)
     "video_url" ($meta.video_url | default "")
-    "player_red" (partial "lib/player-lookup.html" $match.player_red_name)
-    "player_blue" (partial "lib/player-lookup.html" $match.player_blue_name)
+    "player_red" $red
+    "player_blue" $blue
     "num_games" (len ($match.games | default slice))
     "red_score" $redWins
     "blue_score" $blueWins

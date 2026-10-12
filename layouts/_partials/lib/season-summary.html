@@ -1,8 +1,8 @@
 {{- /*
-  Input: a season id. Output: {matches, games, base_games, dlc_games,
+  Input: a season id. Output: {matches, games, base_games, dlc_games, coop_games,
   untranscribed, champion, qualified, phases}, counting every match file of the season
   (lib/season-matches.html, by each match's `season` field) plus the hand-entered (untranscribed) matches of
-  data/brackets/season-<N>.yaml. base_games/dlc_games count transcribed games
+  data/brackets/season-<N>.yaml. base_games/dlc_games/coop_games (Season 5's mixed boards) count transcribed games
   only, since hand-entered matches carry no game types. `champion` is the
   Grand Final winner (or, in a bracket with no `final`, the winner of the
   upper-bracket match with no `next`) as a slot (lib/season-slots.html) or
@@ -29,11 +29,11 @@
 {{- /* Non-bracket match files: the round robin when there are groups. */ -}}
 {{- $rr := dict "matches" 0 "games" 0 "dates" slice -}}
 {{- $total := dict "matches" 0 "games" 0 -}}
-{{- $base := 0 }}{{ $dlc := 0 -}}
+{{- $base := 0 }}{{ $dlc := 0 }}{{ $coop := 0 -}}
 {{- range $key, $raw := $seasonMatches -}}
   {{- $s := partial "lib/match-summary.html" $raw -}}
   {{- range $raw.games -}}
-    {{- if eq .game_type "base" }}{{ $base = add $base 1 }}{{ else if eq .game_type "dlc" }}{{ $dlc = add $dlc 1 }}{{ end -}}
+    {{- if eq .game_type "base" }}{{ $base = add $base 1 }}{{ else if eq .game_type "dlc" }}{{ $dlc = add $dlc 1 }}{{ else if eq .game_type "coop_mixed" }}{{ $coop = add $coop 1 }}{{ end -}}
   {{- end -}}
   {{- $total = dict "matches" (add $total.matches 1) "games" (add $total.games $s.num_games) -}}
   {{- if not (in $playoffKeys $key) -}}
@@ -98,6 +98,7 @@
     "games" $total.games
     "base_games" $base
     "dlc_games" $dlc
+    "coop_games" $coop
     "untranscribed" $untranscribed
     "champion" $champion
     "qualified" $qualified
