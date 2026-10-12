@@ -6,9 +6,9 @@
 <div class="card-list">
   {{- range sort (where site.RegularPages "Section" "seasons") ".Params.id" "desc" }}
   {{- $s := .Params }}
-  <a class="season-card" href="{{ .RelPermalink }}">
+  <a class="link-card" href="{{ .RelPermalink }}">
     <h2>{{ $s.name }}</h2>
-    <div class="season-card-meta">
+    <div class="link-card-meta">
       {{- with $s.start_date }}<span>{{ . }}{{ with $s.end_date }} – {{ . }}{{ end }}</span>{{ end }}
       {{- with $s.bracket_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
     </div>

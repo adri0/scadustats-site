@@ -22,26 +22,7 @@
       {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
     </section>
 
-    {{- with first 3 (where site.RegularPages "Section" "news").ByDate.Reverse }}
-    <section>
-      <div class="section-head">
-        <h2>News</h2>
-        <a href="{{ "/news/" | relURL }}">All news →</a>
-      </div>
-      <ul class="news-list">
-        {{- range . }}
-        {{- /* First sentence: up to the first . ! or ? followed by a space or the end. */}}
-        {{- $plain := .Plain | htmlUnescape | strings.TrimSpace }}
-        {{- $first := index (findRE `^[\s\S]+?[.!?](\s|$)` $plain 1) 0 | default $plain }}
-        <li>
-          <time class="news-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          <p>{{ strings.TrimSpace $first }}</p>
-        </li>
-        {{- end }}
-      </ul>
-    </section>
-    {{- end }}
+    {{- partial "latest-news.html" (dict "count" 3) }}
 
     <section>
       <div class="section-head">
