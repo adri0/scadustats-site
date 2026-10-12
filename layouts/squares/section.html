@@ -22,4 +22,10 @@
 
 <h2>DLC</h2>
 {{ partial "square-table.html" (sort (where $seen "game_type" "dlc") "marks" "desc") }}
+{{- with where $seen "game_type" "2v2" }}
+
+<h2>Co-op</h2>
+<p>Season 5's 2v2 boards mixed base game, DLC and co-op squares; a co-op square needs both players of a team.</p>
+{{ partial "square-table.html" (sort . "marks" "desc") }}
+{{- end }}
 {{ end }}

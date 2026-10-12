@@ -11,8 +11,8 @@
     {{- $matches = merge $matches (dict $key (dict
         "match_date" $m.match_date
         "season_id" (string $m.season)
-        "player_red" (partial "lib/player-lookup.html" $m.player_red_name)
-        "player_blue" (partial "lib/player-lookup.html" $m.player_blue_name)
+        "player_red" (partial "lib/side-lookup.html" (dict "name" $m.player_red_name "team" $m.team_red))
+        "player_blue" (partial "lib/side-lookup.html" (dict "name" $m.player_blue_name "team" $m.team_blue))
         "path" (printf "/matches/season-%v/%s/" $m.season (lower $key)))) -}}
   {{- end -}}
 {{- end -}}
@@ -37,6 +37,12 @@
       {{- end -}}
       {{- with .slug -}}
         {{- $claim = merge $claim (dict "player" (partial "lib/player-lookup.html" .)) -}}
+      {{- end -}}
+      {{- /* A co-op square (Season 5) is both teammates' claim. */ -}}
+      {{- with .slugs -}}
+        {{- $names := slice -}}
+        {{- range . }}{{ $names = $names | append (partial "lib/player-lookup.html" .).display_name }}{{ end -}}
+        {{- $claim = merge $claim (dict "player" (dict "display_name" (delimit $names " & "))) -}}
       {{- end -}}
       {{- $claims = $claims | append $claim -}}
     {{- end -}}

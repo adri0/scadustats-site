@@ -1,0 +1,235 @@
+{
+  "match_id": "2025-10-05-Positive_Vibes-vs-Bushy_Stache",
+  "match_date": "2025-10-05",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Positive Vibes",
+  "player_blue_name": "Bushy Stache",
+  "team_red": {
+    "name": "Positive Vibes",
+    "base_player": "star0chris",
+    "dlc_player": "Adef"
+  },
+  "team_blue": {
+    "name": "Bushy Stache",
+    "base_player": "Bushy",
+    "dlc_player": "Vswed"
+  },
+  "commentators": [
+    "Captain_Domo",
+    "Zoodle"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=YX3OSxKTJE8",
+    "duration_s": 3695.983333333333,
+    "published_at": "2025-10-05",
+    "extracted_at": "2026-10-12"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 3253.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_1",
+      "square_texts": [
+        [
+          "Kill Bols in front of Castle Ensis (D)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2] (B)",
+          "Kill 3 Remembrance Bosses Hitless (C)",
+          "Kill Borealis (B)",
+          "Kill 5 Bosses that Ride a Horse (B)"
+        ],
+        [
+          "Acquire Moore Armor set (D)",
+          "Kill Fia's Champs and Leda (C)",
+          "Kill both Tree Sentinel Duo's (C)",
+          "Acquire 3 DLC Ashes of War (D)",
+          "Kill 1 Boss of each: Bear, Hippo, Snail (C)"
+        ],
+        [
+          "Dupe a Remembrance (D)",
+          "Have St. Trina talk to you (D)",
+          "Kill Ancient Dragon Senessax (D)",
+          "Acquire 8 different Remembrances (C)",
+          "Kill 4 Demi human bosses (C)"
+        ],
+        [
+          "Rune Level 60 (B)",
+          "Kill 5 bosses in Altus Plateau and Mt. Gelmir (B)",
+          "Acquire 3 DLC Talismans (D)",
+          "Kill Putrid Crystalian trio (B)",
+          "Kill Malenia (B)"
+        ],
+        [
+          "Memory of Grace with 50k+ Runes (B)",
+          "Kill a Red Wolf and a Red Bear (C)",
+          "Acquire Margit's and Mohg's Shackles (B)",
+          "Give an Iris of Grace (D)",
+          "Kill 2 unique Curseblade Assassins (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:02",
+          "video_timestamp": "00:01:37"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Memory of Grace with 50k+ Runes (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:16",
+          "video_timestamp": "00:08:55"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Bols in front of Castle Ensis (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:11",
+          "video_timestamp": "00:09:50"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 3 DLC Talismans (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:46",
+          "video_timestamp": "00:14:25"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire Moore Armor set (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:41",
+          "video_timestamp": "00:17:20"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 2 unique Curseblade Assassins (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:17",
+          "video_timestamp": "00:17:56"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Ashes of War (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:22",
+          "video_timestamp": "00:22:01"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 5 Bosses that Ride a Horse (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:49",
+          "video_timestamp": "00:23:28"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Borealis (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:26",
+          "video_timestamp": "00:27:05"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Putrid Crystalian trio (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:01",
+          "video_timestamp": "00:31:40"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Dupe a Remembrance (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:45",
+          "video_timestamp": "00:35:24"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill both Tree Sentinel Duo's (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:17",
+          "video_timestamp": "00:45:56"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 5 bosses in Altus Plateau and Mt. Gelmir (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:11",
+          "video_timestamp": "00:49:50"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Give an Iris of Grace (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:24",
+          "video_timestamp": "00:51:03"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Malenia (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:41",
+          "video_timestamp": "00:53:20"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Rune Level 60 (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:55",
+          "video_timestamp": "00:53:34"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:48:55",
+          "video_timestamp": "00:53:34"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {{- /*
-  Input: a raw `square_text` string from a match file.
+  Input: a raw `square_text` string from a match file (a Season 5 one with its
+  (B)/(D)/(C) tag, which is dropped).
   Output: {id, text, game_type, known} -- the catalog entry whose text matches
   after normalization, or the raw text with `known: false` when the
   transcription has no catalog counterpart (typos, blank square_text).
@@ -7,7 +8,10 @@
   goal across matches collapse into one bucket.
 */ -}}
 {{- $text := . | default "" -}}
-{{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" $text) -}}
+{{- /* A Season 5 mixed board's square ends in its pool tag, " (B)", " (D)" or
+       " (C)"; the catalogue knows the goal without it. */ -}}
+{{- $goal := replaceRE ` \([BDC]\)$` "" $text -}}
+{{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" $goal) -}}
 {{- $found := "" -}}
 {{- if $key -}}
   {{- $found = index (partialCached "lib/square-index.html" "") $key -}}
@@ -15,4 +19,4 @@
 {{- if $found -}}
   {{- return (merge $found (dict "known" true)) -}}
 {{- end -}}
-{{- return (dict "id" "" "text" $text "game_type" "" "known" false) -}}
+{{- return (dict "id" "" "text" $goal "game_type" "" "known" false) -}}

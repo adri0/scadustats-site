@@ -12,13 +12,27 @@
     </div>
 
     <div class="scoreboard-main">
+      {{- if $p.player_red.team }}
+      <div class="side side-red side-team">
+        <span{{ if eq $p.winner "red" }} class="is-winner"{{ end }}>{{ $p.player_red.display_name }}</span>
+        {{ partial "team-members.html" $p.player_red }}
+      </div>
+      {{- else }}
       <a class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_red.slug | relURL }}">
         {{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}
       </a>
+      {{- end }}
       <div class="scoreboard-score spoiler">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</div>
+      {{- if $p.player_blue.team }}
+      <div class="side side-blue side-team">
+        <span{{ if eq $p.winner "blue" }} class="is-winner"{{ end }}>{{ $p.player_blue.display_name }}</span>
+        {{ partial "team-members.html" $p.player_blue }}
+      </div>
+      {{- else }}
       <a class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_blue.slug | relURL }}">
         {{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true) }}
       </a>
+      {{- end }}
     </div>
 
     <div class="scoreboard-result spoiler">
@@ -52,7 +66,7 @@
     <div class="section-head">
       <h2>Game {{ .index }}</h2>
       <div class="game-badges">
-        {{- with .game_type }}<span class="pill pill-sm pill-outline">{{ if eq . "dlc" }}DLC{{ else }}Base game{{ end }}</span>{{ end }}
+        {{- with .game_type }}<span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" . }}</span>{{ end }}
         {{- if .winner_color }}
           <span class="pill pill-sm pill-{{ .winner_color }}">{{ if eq .winner_color "red" }}Red{{ else }}Blue{{ end }} wins</span>
           <span class="pill pill-sm pill-outline">{{ .win_type }}{{ with .win_line }} · {{ humanize (replace . "_" " ") }}{{ end }}</span>

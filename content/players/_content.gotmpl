@@ -21,16 +21,16 @@
   {{- $playerSlugs = $playerSlugs | append $player.slug -}}
   {{- $playerObjs = merge $playerObjs (dict $player.slug $player) -}}
 {{- end -}}
+{{- /* A 2v2 side (Season 5) is a team, credited to both of its players (see
+       lib/side-lookup.html); a team itself has no page. */ -}}
 {{- range $allMatches -}}
-  {{- $r := .player_red -}}
-  {{- $b := .player_blue -}}
-  {{- if not (in $playerSlugs $r.slug) -}}
-    {{- $playerSlugs = $playerSlugs | append $r.slug -}}
-    {{- $playerObjs = merge $playerObjs (dict $r.slug $r) -}}
-  {{- end -}}
-  {{- if not (in $playerSlugs $b.slug) -}}
-    {{- $playerSlugs = $playerSlugs | append $b.slug -}}
-    {{- $playerObjs = merge $playerObjs (dict $b.slug $b) -}}
+  {{- range $side := slice .player_red .player_blue -}}
+    {{- range (cond ($side.team | default false) $side.members (slice $side)) -}}
+      {{- if not (in $playerSlugs .slug) -}}
+        {{- $playerSlugs = $playerSlugs | append .slug -}}
+        {{- $playerObjs = merge $playerObjs (dict .slug .) -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
@@ -47,10 +47,23 @@
   {{- $byGameType := dict -}}
   {{- $baseSquares := dict -}}
   {{- $dlcSquares := dict -}}
+  {{- $coopSquares := dict -}}
   {{- range $allMatches -}}
     {{- $m := . -}}
+    {{- /* In a 2v2 match, $role is the game this player plays for their team:
+           "base" or "dlc". Their marks are the squares of that game, plus the
+           co-op squares the team claims together. */ -}}
     {{- $isRed := eq $m.player_red.slug $slug -}}
     {{- $isBlue := eq $m.player_blue.slug $slug -}}
+    {{- $role := "" -}}
+    {{- with $m.player_red.team -}}
+      {{- if eq $m.player_red.base.slug $slug }}{{ $isRed = true }}{{ $role = "base" }}{{ end -}}
+      {{- if eq $m.player_red.dlc.slug $slug }}{{ $isRed = true }}{{ $role = "dlc" }}{{ end -}}
+    {{- end -}}
+    {{- with $m.player_blue.team -}}
+      {{- if eq $m.player_blue.base.slug $slug }}{{ $isBlue = true }}{{ $role = "base" }}{{ end -}}
+      {{- if eq $m.player_blue.dlc.slug $slug }}{{ $isBlue = true }}{{ $role = "dlc" }}{{ end -}}
+    {{- end -}}
     {{- if or $isRed $isBlue -}}
       {{- $color := "blue" -}}
       {{- $opponent := $m.player_red -}}
@@ -106,24 +119,42 @@
         {{- end -}}
 
         {{- range $g.events -}}
+          {{- $ev := . -}}
           {{- if and (eq .event_type "mark") (eq (.color | default "") $color) -}}
+            {{- /* The square's own pool: the game's type, or on a mixed board
+                   (Season 5) the (B)/(D)/(C) tag its text ends in. */ -}}
+            {{- $cellType := $gt -}}
+            {{- if eq $gt "2v2" -}}
+              {{- $cellType = "" -}}
+              {{- range findRESubmatch ` \(([BDC])\)$` ($ev.square_text | default "") 1 -}}
+                {{- $cellType = index (dict "B" "base" "D" "dlc" "C" "2v2") (index . 1) -}}
+              {{- end -}}
+            {{- end -}}
+            {{- $mine := or (not $role) (eq $cellType $role) (eq $cellType "2v2") -}}
             {{- $sq := partial "lib/square-lookup.html" .square_text -}}
-            {{- if $sq.text -}}
+            {{- if and $mine $sq.text -}}
               {{- $key := $sq.id | default (lower $sq.text) -}}
-              {{- if eq $gt "dlc" -}}
+              {{- if eq $cellType "2v2" -}}
+                {{- $marks := 1 -}}
+                {{- $prev := index $coopSquares $key -}}
+                {{- if $prev -}}
+                  {{- $marks = add $prev.marks 1 -}}
+                {{- end -}}
+                {{- $coopSquares = merge $coopSquares (dict $key (dict "id" $sq.id "game_type" $cellType "text" $sq.text "marks" $marks "known" $sq.known)) -}}
+              {{- else if eq $cellType "dlc" -}}
                 {{- $marks := 1 -}}
                 {{- $prev := index $dlcSquares $key -}}
                 {{- if $prev -}}
                   {{- $marks = add $prev.marks 1 -}}
                 {{- end -}}
-                {{- $dlcSquares = merge $dlcSquares (dict $key (dict "id" $sq.id "game_type" $gt "text" $sq.text "marks" $marks "known" $sq.known)) -}}
-              {{- else if eq $gt "base" -}}
+                {{- $dlcSquares = merge $dlcSquares (dict $key (dict "id" $sq.id "game_type" $cellType "text" $sq.text "marks" $marks "known" $sq.known)) -}}
+              {{- else if eq $cellType "base" -}}
                 {{- $marks := 1 -}}
                 {{- $prev := index $baseSquares $key -}}
                 {{- if $prev -}}
                   {{- $marks = add $prev.marks 1 -}}
                 {{- end -}}
-                {{- $baseSquares = merge $baseSquares (dict $key (dict "id" $sq.id "game_type" $gt "text" $sq.text "marks" $marks "known" $sq.known)) -}}
+                {{- $baseSquares = merge $baseSquares (dict $key (dict "id" $sq.id "game_type" $cellType "text" $sq.text "marks" $marks "known" $sq.known)) -}}
               {{- end -}}
             {{- end -}}
           {{- end -}}
@@ -151,6 +182,10 @@
   {{- range $dlcSquares -}}
     {{- $topDLC = $topDLC | append . -}}
   {{- end -}}
+  {{- $topCoop := slice -}}
+  {{- range $coopSquares -}}
+    {{- $topCoop = $topCoop | append . -}}
+  {{- end -}}
 
   {{- $.AddPage (dict
       "path" $slug
@@ -174,5 +209,6 @@
         "by_season" $bySeason
         "top_squares_base" (first 5 (sort $topBase "marks" "desc"))
         "top_squares_dlc" (first 5 (sort $topDLC "marks" "desc"))
+        "top_squares_coop" (first 5 (sort $topCoop "marks" "desc"))
         "matches" (sort $matches "match_date" "desc"))) -}}
 {{- end -}}

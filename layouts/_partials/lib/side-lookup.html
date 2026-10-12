@@ -1,0 +1,25 @@
+{{- /*
+  Input: dict {name, team}: one side of a match -- `player_<color>_name` and,
+  for a 2v2 match (Season 5), `team_<color>` ({name, base_player, dlc_player}).
+  Output: a player-lookup dict for a 1v1 side. For a team, a dict shaped like
+  one (display_name, avatar, slug, so anything that only shows a side's name
+  works unchanged) plus team: true, base and dlc (player-lookup dicts for the
+  player in each game) and members (both). A team has no page of its own: its
+  slug is "team-<name>" so it can't collide with a player's.
+*/ -}}
+{{- with .team -}}
+  {{- $base := partial "lib/player-lookup.html" .base_player -}}
+  {{- $dlc := partial "lib/player-lookup.html" .dlc_player -}}
+  {{- return (dict
+      "slug" (printf "team-%s" (urlize .name))
+      "display_name" .name
+      "twitch_url" ""
+      "avatar" ""
+      "bio" ""
+      "unregistered" true
+      "team" true
+      "base" $base
+      "dlc" $dlc
+      "members" (slice $base $dlc)) -}}
+{{- end -}}
+{{- return (partial "lib/player-lookup.html" .name) -}}
