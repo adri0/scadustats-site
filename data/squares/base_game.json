@@ -825,6 +825,11 @@
     "game_type": "base"
   },
   {
+    "id": "red_wolf_boss",
+    "text": "Kill a Red Wolf Boss",
+    "game_type": "base"
+  },
+  {
     "id": "red_wolves_2",
     "text": "Kill 2 Unique Red Wolves",
     "game_type": "base"
@@ -937,6 +942,11 @@
   {
     "id": "sleeping_golem",
     "text": "Kill the Sleeping Golem in Leyndell",
+    "game_type": "base"
+  },
+  {
+    "id": "smithing_16",
+    "text": "Smithing-stone +16 weapon",
     "game_type": "base"
   },
   {

@@ -13,3 +13,6 @@
   - name: Itzerino
     base_player: YoJoSherino
     dlc_player: itzCBD
+  - name: Monkey Business
+    base_player: LilAggy
+    dlc_player: Mitchriz

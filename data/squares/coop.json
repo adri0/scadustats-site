@@ -1,5 +1,10 @@
 [
   {
+    "id": "bear_hippo_moose",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Moose",
+    "game_type": "2v2"
+  },
+  {
     "id": "bear_hippo_snail",
     "text": "Kill 1 Boss of each: Bear, Hippo, Snail",
     "game_type": "2v2"
@@ -10,8 +15,18 @@
     "game_type": "2v2"
   },
   {
+    "id": "crucible_knight_each",
+    "text": "Kill one of each Crucible Knight",
+    "game_type": "2v2"
+  },
+  {
     "id": "demi_human_bosses_4",
     "text": "Kill 4 Demi human bosses",
+    "game_type": "2v2"
+  },
+  {
+    "id": "dupe_mausoleum_coffin",
+    "text": "Dupe a Remembrance at a Mausoleum and a Coffin",
     "game_type": "2v2"
   },
   {
@@ -55,8 +70,18 @@
     "game_type": "2v2"
   },
   {
+    "id": "rennala_rellana",
+    "text": "Kill Rennala and Rellana",
+    "game_type": "2v2"
+  },
+  {
     "id": "tree_sentinel_duos",
     "text": "Kill both Tree Sentinel Duo's",
+    "game_type": "2v2"
+  },
+  {
+    "id": "turtle_talismans",
+    "text": "Acquire both Turtle Talisman",
     "game_type": "2v2"
   },
   {
