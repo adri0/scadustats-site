@@ -1,8 +1,5 @@
 {{- $board := .board -}}
 {{- $winLine := .win_line -}}
-{{- /* A mixed board's (Season 5) per-cell pool, shown as the B/D/C tag the
-       broadcast prints after each square. Empty for every other board. */ -}}
-{{- $types := .square_types -}}
 {{- $highlightRow := 0 -}}
 {{- $highlightCol := 0 -}}
 {{- $diagTLBR := false -}}
@@ -26,11 +23,8 @@
     {{- range $c := seq 5 }}
       {{- $cell := index $board (printf "%d_%d" $r $c) -}}
       {{- $isHighlight := or (eq $r $highlightRow) (eq $c $highlightCol) (and $diagTLBR (eq $r $c)) (and $diagBLTR (eq (add $r $c) 6)) -}}
-      {{- $type := "" -}}
-      {{- with $types }}{{ with index . (sub $r 1) }}{{ $type = index . (sub $c 1) | default "" }}{{ end }}{{ end -}}
       <td class="cell cell-{{ $cell.color }}{{ if $isHighlight }} cell-winline{{ end }}">
         <span class="cell-text">{{ $cell.text }}</span>
-        {{- with $type }}<span class="cell-type cell-type-{{ . }}" title="{{ partial "game-type-label.html" . }}">{{ index (dict "base" "B" "dlc" "D" "coop_mixed" "C") . }}</span>{{ end }}
       </td>
     {{- end }}
     </tr>

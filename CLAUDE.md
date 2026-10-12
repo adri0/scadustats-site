@@ -63,10 +63,12 @@ Each entry in `games` is a 5x5 board:
 
 **Season 5 is 2v2** (teams of two, one player in the base game and one in the DLC, fixed for the
 season). Its match files add `team_red`/`team_blue` (`{name, base_player, dlc_player}`; the
-`player_<color>_name` fields hold the team names), every game is `game_type: coop_mixed`, and each
-game has `square_types`, a 5x5 grid parallel to `square_texts` giving each cell's own pool (`base`,
-`dlc` or `coop_mixed` for a co-op square, which needs both players). The rosters come from the
-hand-curated `data/teams.yaml` (keyed by season), which `scadustats extract` reads.
+`player_<color>_name` fields hold the team names), and every game is `game_type: coop_mixed`.
+On such a board every square's text ends in its pool tag, exactly as on screen: " (B)" base game,
+" (D)" DLC or " (C)" co-op (a co-op square needs both players). The tag is the only record of a
+square's pool; the catalogue holds goals without it, and `lib/square-lookup.html` drops it.
+The rosters come from the hand-curated `data/teams.yaml` (keyed by season), which
+`scadustats extract` reads.
 `lib/side-lookup.html` turns a side into a player-lookup dict, or for a team a dict with the same
 display fields plus `team: true`, `base`, `dlc` and `members` (a team has no page). The players
 adapter credits both teammates with a 2v2 match, and a mark to the teammate whose game the square

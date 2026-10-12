@@ -405,18 +405,6 @@
     .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
 
     .cell-winline { box-shadow: inset 0 0 0 2px var(--accent), 0 0 12px var(--gold-glow); }
-
-    /* A mixed board's (Season 5) pool tag: B base game, D DLC, C co-op. */
-    .cell-type {
-        display: block;
-        margin-top: 0.2rem;
-        font-size: 0.65rem;
-        font-weight: 700;
-        letter-spacing: 0.05em;
-        color: var(--text-muted);
-    }
-
-    .cell-type-coop_mixed { color: var(--accent); }
 }
 
 /* Example board on the About page (_shortcodes/example-board.html). */

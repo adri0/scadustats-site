@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line "square_types" .square_types) }}
+    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line) }}
 
     {{- with .events }}
     <details class="timeline-toggle">

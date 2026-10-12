@@ -40,76 +40,39 @@
       "win_line": "col_1",
       "square_texts": [
         [
-          "Kill Bols in front of Castle Ensis",
-          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
-          "Kill 3 Remembrance Bosses Hitless",
-          "Kill Borealis",
-          "Kill 5 Bosses that Ride a Horse"
+          "Kill Bols in front of Castle Ensis (D)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2] (B)",
+          "Kill 3 Remembrance Bosses Hitless (C)",
+          "Kill Borealis (B)",
+          "Kill 5 Bosses that Ride a Horse (B)"
         ],
         [
-          "Acquire Moore Armor set",
-          "Kill Fia's Champs and Leda",
-          "Kill both Tree Sentinel Duo's",
-          "Acquire 3 DLC Ashes of War",
-          "Kill 1 Boss of each: Bear, Hippo, Snail"
+          "Acquire Moore Armor set (D)",
+          "Kill Fia's Champs and Leda (C)",
+          "Kill both Tree Sentinel Duo's (C)",
+          "Acquire 3 DLC Ashes of War (D)",
+          "Kill 1 Boss of each: Bear, Hippo, Snail (C)"
         ],
         [
-          "Dupe a Remembrance",
-          "Have St. Trina talk to you",
-          "Kill Ancient Dragon Senessax",
-          "Acquire 8 different Remembrances",
-          "Kill 4 Demi human bosses"
+          "Dupe a Remembrance (D)",
+          "Have St. Trina talk to you (D)",
+          "Kill Ancient Dragon Senessax (D)",
+          "Acquire 8 different Remembrances (C)",
+          "Kill 4 Demi human bosses (C)"
         ],
         [
-          "Rune Level 60",
-          "Kill 5 bosses in Altus Plateau and Mt. Gelmir",
-          "Acquire 3 DLC Talismans",
-          "Kill Putrid Crystalian trio",
-          "Kill Malenia"
+          "Rune Level 60 (B)",
+          "Kill 5 bosses in Altus Plateau and Mt. Gelmir (B)",
+          "Acquire 3 DLC Talismans (D)",
+          "Kill Putrid Crystalian trio (B)",
+          "Kill Malenia (B)"
         ],
         [
-          "Memory of Grace with 50k+ Runes",
-          "Kill a Red Wolf and a Red Bear",
-          "Acquire Margit's and Mohg's Shackles",
-          "Give an Iris of Grace",
-          "Kill 2 unique Curseblade Assassins"
-        ]
-      ],
-      "square_types": [
-        [
-          "dlc",
-          "base",
-          "coop_mixed",
-          "base",
-          "base"
-        ],
-        [
-          "dlc",
-          "coop_mixed",
-          "coop_mixed",
-          "dlc",
-          "coop_mixed"
-        ],
-        [
-          "dlc",
-          "dlc",
-          "dlc",
-          "coop_mixed",
-          "coop_mixed"
-        ],
-        [
-          "base",
-          "base",
-          "dlc",
-          "base",
-          "base"
-        ],
-        [
-          "base",
-          "coop_mixed",
-          "base",
-          "dlc",
-          "dlc"
+          "Memory of Grace with 50k+ Runes (B)",
+          "Kill a Red Wolf and a Red Bear (C)",
+          "Acquire Margit's and Mohg's Shackles (B)",
+          "Give an Iris of Grace (D)",
+          "Kill 2 unique Curseblade Assassins (D)"
         ]
       ],
       "events": [
@@ -125,7 +88,7 @@
         {
           "row": 5,
           "col": 1,
-          "square_text": "Memory of Grace with 50k+ Runes",
+          "square_text": "Memory of Grace with 50k+ Runes (B)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:04:16",
@@ -134,7 +97,7 @@
         {
           "row": 1,
           "col": 1,
-          "square_text": "Kill Bols in front of Castle Ensis",
+          "square_text": "Kill Bols in front of Castle Ensis (D)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:05:11",
@@ -143,7 +106,7 @@
         {
           "row": 4,
           "col": 3,
-          "square_text": "Acquire 3 DLC Talismans",
+          "square_text": "Acquire 3 DLC Talismans (D)",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:09:46",
@@ -152,7 +115,7 @@
         {
           "row": 2,
           "col": 1,
-          "square_text": "Acquire Moore Armor set",
+          "square_text": "Acquire Moore Armor set (D)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:12:41",
@@ -161,7 +124,7 @@
         {
           "row": 5,
           "col": 5,
-          "square_text": "Kill 2 unique Curseblade Assassins",
+          "square_text": "Kill 2 unique Curseblade Assassins (D)",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:13:17",
@@ -170,7 +133,7 @@
         {
           "row": 2,
           "col": 4,
-          "square_text": "Acquire 3 DLC Ashes of War",
+          "square_text": "Acquire 3 DLC Ashes of War (D)",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:17:22",
@@ -179,7 +142,7 @@
         {
           "row": 1,
           "col": 5,
-          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "square_text": "Kill 5 Bosses that Ride a Horse (B)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:18:49",
@@ -188,7 +151,7 @@
         {
           "row": 1,
           "col": 4,
-          "square_text": "Kill Borealis",
+          "square_text": "Kill Borealis (B)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:22:26",
@@ -197,7 +160,7 @@
         {
           "row": 4,
           "col": 4,
-          "square_text": "Kill Putrid Crystalian trio",
+          "square_text": "Kill Putrid Crystalian trio (B)",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:27:01",
@@ -206,7 +169,7 @@
         {
           "row": 3,
           "col": 1,
-          "square_text": "Dupe a Remembrance",
+          "square_text": "Dupe a Remembrance (D)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:30:45",
@@ -215,7 +178,7 @@
         {
           "row": 2,
           "col": 3,
-          "square_text": "Kill both Tree Sentinel Duo's",
+          "square_text": "Kill both Tree Sentinel Duo's (C)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:41:17",
@@ -224,7 +187,7 @@
         {
           "row": 4,
           "col": 2,
-          "square_text": "Kill 5 bosses in Altus Plateau and Mt. Gelmir",
+          "square_text": "Kill 5 bosses in Altus Plateau and Mt. Gelmir (B)",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:45:11",
@@ -233,7 +196,7 @@
         {
           "row": 5,
           "col": 4,
-          "square_text": "Give an Iris of Grace",
+          "square_text": "Give an Iris of Grace (D)",
           "color": "blue",
           "event_type": "mark",
           "game_timer": "00:46:24",
@@ -242,7 +205,7 @@
         {
           "row": 4,
           "col": 5,
-          "square_text": "Kill Malenia",
+          "square_text": "Kill Malenia (B)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:48:41",
@@ -251,7 +214,7 @@
         {
           "row": 4,
           "col": 1,
-          "square_text": "Rune Level 60",
+          "square_text": "Rune Level 60 (B)",
           "color": "red",
           "event_type": "mark",
           "game_timer": "00:48:55",

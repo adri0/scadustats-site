@@ -122,11 +122,13 @@
           {{- $ev := . -}}
           {{- if and (eq .event_type "mark") (eq (.color | default "") $color) -}}
             {{- /* The square's own pool: the game's type, or on a mixed board
-                   its cell's entry in square_types. */ -}}
+                   (Season 5) the (B)/(D)/(C) tag its text ends in. */ -}}
             {{- $cellType := $gt -}}
-            {{- with $g.square_types -}}
+            {{- if eq $gt "coop_mixed" -}}
               {{- $cellType = "" -}}
-              {{- with index . (sub (int $ev.row) 1) -}}{{ $cellType = index . (sub (int $ev.col) 1) | default "" }}{{ end -}}
+              {{- range findRESubmatch ` \(([BDC])\)$` ($ev.square_text | default "") 1 -}}
+                {{- $cellType = index (dict "B" "base" "D" "dlc" "C" "coop_mixed") (index . 1) -}}
+              {{- end -}}
             {{- end -}}
             {{- $mine := or (not $role) (eq $cellType $role) (eq $cellType "coop_mixed") -}}
             {{- $sq := partial "lib/square-lookup.html" .square_text -}}

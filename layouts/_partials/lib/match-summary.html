@@ -4,8 +4,7 @@
   RECOMPUTED from games[].winner_color/win_type -- the file's own top-level
   num_games/red_score/blue_score/winner are never trusted (some files omit
   them entirely; the extraction tool itself treats them as derived values).
-  A 2v2 match's sides are teams (see lib/side-lookup.html), and each game
-  carries square_types, every cell's own pool on a mixed board (Season 5).
+  A 2v2 match's sides are teams (see lib/side-lookup.html).
 */ -}}
 {{- $match := . -}}
 {{- $meta := $match.metadata -}}
@@ -37,7 +36,6 @@
       "win_line" ($g.win_line | default "")
       "winner_color" ($wc | default "")
       "board" $board
-      "square_types" ($g.square_types | default slice)
       "events" (sort ($g.events | default slice) "video_ts_s")) -}}
 {{- end -}}
 
