@@ -33,7 +33,10 @@
   {
     "id": "altus_bosses_6",
     "text": "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 6 bosses in Altus Plateau and Mt. Gelmir"
+    ]
   },
   {
     "id": "altus_heros_grave",
@@ -199,7 +202,10 @@
   {
     "id": "crucible_knights_3",
     "text": "Kill 3 Unique Crucible Knights",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Crucible Knights"
+    ]
   },
   {
     "id": "crucible_knights_4",
@@ -553,6 +559,11 @@
   {
     "id": "liurnia_bosses_5",
     "text": "Kill 5 Bosses in Liurnia",
+    "game_type": "base"
+  },
+  {
+    "id": "liurnia_bosses_6",
+    "text": "Kill 6 bosses in Liurnia",
     "game_type": "base"
   },
   {
@@ -931,6 +942,11 @@
   {
     "id": "smithing_bell_bearing_1_and_2",
     "text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+    "game_type": "base"
+  },
+  {
+    "id": "somber_9",
+    "text": "Somber +9 weapon",
     "game_type": "base"
   },
   {

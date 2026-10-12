@@ -5,6 +5,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "bear_hippo_wolf",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Wolf",
+    "game_type": "2v2"
+  },
+  {
     "id": "demi_human_bosses_4",
     "text": "Kill 4 Demi human bosses",
     "game_type": "2v2"
@@ -15,8 +20,28 @@
     "game_type": "2v2"
   },
   {
+    "id": "imbued_keys_4",
+    "text": "Acquire 4 Imbued Sword Keys",
+    "game_type": "2v2"
+  },
+  {
     "id": "memb_hitless_3",
     "text": "Kill 3 Remembrance Bosses Hitless",
+    "game_type": "2v2"
+  },
+  {
+    "id": "metyr_astel",
+    "text": "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness",
+    "game_type": "2v2"
+  },
+  {
+    "id": "moongrum_moonrithyll",
+    "text": "Kill Moongrum and Moonrithyll",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pot_trolls_2",
+    "text": "Kill 2 Pot throwing Trolls",
     "game_type": "2v2"
   },
   {
@@ -32,6 +57,11 @@
   {
     "id": "tree_sentinel_duos",
     "text": "Kill both Tree Sentinel Duo's",
+    "game_type": "2v2"
+  },
+  {
+    "id": "wyrm_drake_dragon",
+    "text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon",
     "game_type": "2v2"
   }
 ]

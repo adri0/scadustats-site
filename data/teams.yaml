@@ -7,3 +7,9 @@
   - name: Bushy Stache
     base_player: Bushy
     dlc_player: Vswed
+  - name: Blanxonetta
+    base_player: nessonetta
+    dlc_player: blanxz
+  - name: Itzerino
+    base_player: YoJoSherino
+    dlc_player: itzCBD

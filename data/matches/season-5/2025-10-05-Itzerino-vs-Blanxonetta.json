@@ -1,0 +1,217 @@
+{
+  "match_id": "2025-10-05-Itzerino-vs-Blanxonetta",
+  "match_date": "2025-10-05",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Itzerino",
+  "player_blue_name": "Blanxonetta",
+  "team_red": {
+    "name": "Itzerino",
+    "base_player": "YoJoSherino",
+    "dlc_player": "itzCBD"
+  },
+  "team_blue": {
+    "name": "Blanxonetta",
+    "base_player": "nessonetta",
+    "dlc_player": "blanxz"
+  },
+  "commentators": [
+    "Captain_Domo",
+    "Zoodle"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=cScnNuiNYPQ",
+    "duration_s": 3363.0,
+    "published_at": "2025-10-05",
+    "extracted_at": "2026-10-12"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 2615.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_1",
+      "square_texts": [
+        [
+          "Kill 2 Pot throwing Trolls (C)",
+          "Kill a Demi Human Swordsman (D)",
+          "Kill Wormface (B)",
+          "Use AoW Lightning Ram to kill 10 sheep (B)",
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)"
+        ],
+        [
+          "Somber +9 weapon (B)",
+          "Kill a Furnace Golem (D)",
+          "Kill Lansseax (B)",
+          "Kill 6 bosses in Liurnia (B)",
+          "Kill 4 NPC Bosses (B)"
+        ],
+        [
+          "Acquire a Leda Rune (D)",
+          "Kill Fia's Champs and Leda (C)",
+          "Kill the Rolling Giant Lightning Ram (D)",
+          "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness (C)",
+          "Kill Moongrum and Moonrithyll (C)"
+        ],
+        [
+          "Kill 6 bosses in Altus Plateau and Mt. Gelmir (B)",
+          "Kill 3 Crucible Knights (B)",
+          "Heal the wounded Kindred rot (D)",
+          "Kill Scadutree Avatar (D)",
+          "Kill 1 Boss of each: Bear, Hippo, Wolf (C)"
+        ],
+        [
+          "Finish off a Boss with the Explosive Physick (B)",
+          "Acquire 3 DLC Spirit Ashes (D)",
+          "Acquire 4 Imbued Sword Keys (C)",
+          "Kill Metyr, Mother of Fingers (D)",
+          "Have St. Trina talk to you (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:01:12",
+          "video_timestamp": "00:02:15"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Demi Human Swordsman (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:46",
+          "video_timestamp": "00:14:14"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Somber +9 weapon (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:29",
+          "video_timestamp": "00:14:57"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Pot throwing Trolls (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:20",
+          "video_timestamp": "00:22:48"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Spirit Ashes (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:27",
+          "video_timestamp": "00:22:49"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Finish off a Boss with the Explosive Physick (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:24",
+          "video_timestamp": "00:26:52"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Furnace Golem (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:10",
+          "video_timestamp": "00:29:38"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire a Leda Rune (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:38",
+          "video_timestamp": "00:32:06"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Wormface (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:54",
+          "video_timestamp": "00:32:22"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 6 bosses in Liurnia (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:33",
+          "video_timestamp": "00:33:01"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Lansseax (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:23",
+          "video_timestamp": "00:35:51"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 1 Boss of each: Bear, Hippo, Wolf (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:58",
+          "video_timestamp": "00:38:26"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:43",
+          "video_timestamp": "00:39:11"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:21",
+          "video_timestamp": "00:41:49"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:38:21",
+          "video_timestamp": "00:41:49"
+        }
+      ]
+    }
+  ]
+}
