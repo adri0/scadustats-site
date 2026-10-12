@@ -539,6 +539,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "miquella_crosses_5",
+    "text": "Visit 5 Miquella Crosses",
+    "game_type": "dlc"
+  },
+  {
     "id": "mog_300k",
     "text": "Memory of grace with 300k runes",
     "game_type": "dlc"

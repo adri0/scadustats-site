@@ -30,6 +30,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "evergaol_ensis_bols",
+    "text": "Kill Evergaol Bols and Ensis Bols",
+    "game_type": "2v2"
+  },
+  {
     "id": "fia_champs_leda",
     "text": "Kill Fia's Champs and Leda",
     "game_type": "2v2"
@@ -55,8 +60,18 @@
     "game_type": "2v2"
   },
   {
+    "id": "omen_horned_bairn",
+    "text": "Acquire Omen Bairn and Horned Bairn",
+    "game_type": "2v2"
+  },
+  {
     "id": "pot_trolls_2",
     "text": "Kill 2 Pot throwing Trolls",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pots_3_each",
+    "text": "Collect 3 of each Pot",
     "game_type": "2v2"
   },
   {
