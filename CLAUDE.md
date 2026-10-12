@@ -22,8 +22,10 @@ content files are `content/_index.md`, `content/about.md`, the section `_index.m
 news posts in `content/news/` (`<yyyy-mm-dd>-<slug>.md` with `title`, `date`, `summary` and `author`;
 start one with `hugo new news/<yyyy-mm-dd>-<slug>.md`; listed
 newest first, and anything that reveals a result needs the spoiler classes like any other page).
-The post layout signs each post with its `author` (`name`, and an optional `url` that links it),
-right-aligned after an em dash. Posts don't include a signature in their text.
+The news layouts come from the theme (see "Theme" below): the post layout signs each post with its
+`author` (`name`, and an optional `url` that links it), right-aligned after an em dash, so posts
+don't include a signature in their text. `layouts/home.html` shows the latest three with the theme's
+`latest-news.html` partial.
 
 ## Data: `data/`
 
@@ -172,7 +174,10 @@ and `go.sum`). It holds kopi's SCSS/JS (copied from [kopi](https://github.com/be
 Hotwire Turbo, the Elden Ring palette and type (`--bg-body`, `--accent`, `--surface*`,
 `--gold-soft`/`--gold-glow`, `--link`, `--font-display`/`--font-body`…), and the generic layouts:
 `baseof.html`, `page.html`, `section.html`, `404.html` and the `head`, `header`, `footer`,
-`breadcrumb` and `edit-link` partials. Its README lists the params it reads.
+`breadcrumb` and `edit-link` partials. It also has the news section (`news/section.html`,
+`news/page.html`, the `news` archetype and the `latest-news.html` partial) and the card grid
+(`.card-list`, `.link-card`, `.link-card-meta`), which the season list uses too. Its README lists
+the params it reads.
 
 The site fills in what's specific to it:
 

@@ -29,7 +29,7 @@
 <div class="toc-main">
 <header class="season-header">
   <h1>{{ $s.name }}</h1>
-  <div class="season-card-meta">
+  <div class="link-card-meta">
     {{- with $s.start_date }}<span>{{ . }}{{ with $s.end_date }} – {{ . }}{{ end }}</span>{{ end }}
     {{- with $s.bracket_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
   </div>
