@@ -84,7 +84,10 @@
   {
     "id": "black_knife_assassins_3",
     "text": "Kill 3 Unique Black Knife Assassins",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Black Knife Assassins"
+    ]
   },
   {
     "id": "black_knife_assassins_4",
@@ -143,7 +146,10 @@
   {
     "id": "catacombs_3",
     "text": "Complete 3 Catacombs",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 3 catacomb dungeons"
+    ]
   },
   {
     "id": "caves_2",
@@ -450,6 +456,11 @@
     ]
   },
   {
+    "id": "grafted_scions_1",
+    "text": "Kill 1 Grafted Scions",
+    "game_type": "base"
+  },
+  {
     "id": "greyoll",
     "text": "Kill Greyoll without Status Effects",
     "game_type": "base"
@@ -690,6 +701,11 @@
   {
     "id": "millicent_arm",
     "text": "Give Millicent her Prosthetic Arm",
+    "game_type": "base"
+  },
+  {
+    "id": "mimic_tear_consumables",
+    "text": "Kill Mimic Tear consumables only",
     "game_type": "base"
   },
   {
@@ -1029,7 +1045,10 @@
   {
     "id": "tree_sentinal_plus0",
     "text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Limgrave Tree Sentinel with a +0 weapon only"
+    ]
   },
   {
     "id": "tree_sentinel_duo",

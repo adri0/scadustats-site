@@ -16,3 +16,6 @@
   - name: Monkey Business
     base_player: LilAggy
     dlc_player: Mitchriz
+  - name: FrogCarSpin
+    base_player: blueberrybrioche
+    dlc_player: NuclearPastaTom
