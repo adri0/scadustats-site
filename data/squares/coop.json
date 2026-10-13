@@ -90,6 +90,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "radahn_consort_radahn",
+    "text": "Kill Starscourge and Consort Radahn",
+    "game_type": "2v2"
+  },
+  {
     "id": "radahn_mohg",
     "text": "Kill Consort Radahn and Mohg, Lord of Blood",
     "game_type": "2v2"
