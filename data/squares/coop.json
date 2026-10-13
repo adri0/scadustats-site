@@ -1,5 +1,10 @@
 [
   {
+    "id": "bear_hippo_moose",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Moose",
+    "game_type": "2v2"
+  },
+  {
     "id": "bear_hippo_snail",
     "text": "Kill 1 Boss of each: Bear, Hippo, Snail",
     "game_type": "2v2"
@@ -10,13 +15,43 @@
     "game_type": "2v2"
   },
   {
+    "id": "crucible_knight_each",
+    "text": "Kill one of each Crucible Knight",
+    "game_type": "2v2"
+  },
+  {
     "id": "demi_human_bosses_4",
     "text": "Kill 4 Demi human bosses",
     "game_type": "2v2"
   },
   {
+    "id": "demi_human_bosses_all",
+    "text": "Kill all Demi human bosses",
+    "game_type": "2v2"
+  },
+  {
+    "id": "dupe_mausoleum_coffin",
+    "text": "Dupe a Remembrance at a Mausoleum and a Coffin",
+    "game_type": "2v2"
+  },
+  {
+    "id": "evergaol_ensis_bols",
+    "text": "Kill Evergaol Bols and Ensis Bols",
+    "game_type": "2v2"
+  },
+  {
+    "id": "fallingstar_beasts_3",
+    "text": "Kill 3 Fallingstar Beasts",
+    "game_type": "2v2"
+  },
+  {
     "id": "fia_champs_leda",
     "text": "Kill Fia's Champs and Leda",
+    "game_type": "2v2"
+  },
+  {
+    "id": "godrick_dancing_lion",
+    "text": "Kill Godrick and Dancing Lion",
     "game_type": "2v2"
   },
   {
@@ -40,8 +75,23 @@
     "game_type": "2v2"
   },
   {
+    "id": "omen_horned_bairn",
+    "text": "Acquire Omen Bairn and Horned Bairn",
+    "game_type": "2v2"
+  },
+  {
     "id": "pot_trolls_2",
     "text": "Kill 2 Pot throwing Trolls",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pots_3_each",
+    "text": "Collect 3 of each Pot",
+    "game_type": "2v2"
+  },
+  {
+    "id": "radahn_mohg",
+    "text": "Kill Consort Radahn and Mohg, Lord of Blood",
     "game_type": "2v2"
   },
   {
@@ -55,8 +105,38 @@
     "game_type": "2v2"
   },
   {
+    "id": "remembrances_9",
+    "text": "Acquire 9 different Remembrances",
+    "game_type": "2v2"
+  },
+  {
+    "id": "rennala_rellana",
+    "text": "Kill Rennala and Rellana",
+    "game_type": "2v2"
+  },
+  {
+    "id": "romina_malenia",
+    "text": "Kill Romina and Malenia",
+    "game_type": "2v2"
+  },
+  {
+    "id": "rykard_messmer",
+    "text": "Kill Rykard and Messmer",
+    "game_type": "2v2"
+  },
+  {
+    "id": "senessax_lansseax",
+    "text": "Kill Senessax and Lansseax",
+    "game_type": "2v2"
+  },
+  {
     "id": "tree_sentinel_duos",
     "text": "Kill both Tree Sentinel Duo's",
+    "game_type": "2v2"
+  },
+  {
+    "id": "turtle_talismans",
+    "text": "Acquire both Turtle Talisman",
     "game_type": "2v2"
   },
   {

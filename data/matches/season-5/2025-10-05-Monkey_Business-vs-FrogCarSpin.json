@@ -1,0 +1,289 @@
+{
+  "match_id": "2025-10-05-Monkey_Business-vs-FrogCarSpin",
+  "match_date": "2025-10-05",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Monkey Business",
+  "player_blue_name": "FrogCarSpin",
+  "team_red": {
+    "name": "Monkey Business",
+    "base_player": "LilAggy",
+    "dlc_player": "Mitchriz"
+  },
+  "team_blue": {
+    "name": "FrogCarSpin",
+    "base_player": "blueberrybrioche",
+    "dlc_player": "NuclearPastaTom"
+  },
+  "commentators": [
+    "Captain_Domo",
+    "Zoodle"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=KaZODQI8pXw",
+    "duration_s": 5703.0,
+    "published_at": "2025-10-09",
+    "extracted_at": "2026-10-13"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4877.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Radahn without summoning NPCs (B)",
+          "Dupe a Remembrance (D)",
+          "Memory of grace with 300k runes (D)",
+          "Kill 3 NPC Bosses (D)",
+          "Kill Moonrithyll, Carian Knight (D)"
+        ],
+        [
+          "Kill Rennala and Rellana (C)",
+          "Acquire both Turtle Talisman (C)",
+          "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness (C)",
+          "Give an Iris of Grace (D)",
+          "Finish off a Boss with the Explosive Physick (B)"
+        ],
+        [
+          "Give an Iris of Occultation (D)",
+          "Kill Fia's Champs and Leda (C)",
+          "Kill Rennala after she Summons 4 Spirits (B)",
+          "Kill a Remembrance boss w/ remembrance weapon only (B)",
+          "Complete 3 cave or grotto dungeons (B)"
+        ],
+        [
+          "Kill Crucible Knight and Misbegotten Warrior Duo (B)",
+          "Kill a Remembrance Boss with a Remembrance Weapon (D)",
+          "Kill Valiant Gargoyles (B)",
+          "Restore Rykard's Great Rune (B)",
+          "Kill a Death Knight (D)"
+        ],
+        [
+          "Kill Consort Radahn and Mohg, Lord of Blood (C)",
+          "Kill both Tree Sentinel Duo's (C)",
+          "Kill Mimic Tear consumables only (B)",
+          "Kill all Demi human bosses (C)",
+          "Kill 1 Dancing Lion Boss (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:02",
+          "video_timestamp": "00:03:22"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Radahn without summoning NPCs (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:10",
+          "video_timestamp": "00:14:30"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Memory of grace with 300k runes (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:13",
+          "video_timestamp": "00:17:33"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Moonrithyll, Carian Knight (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:21",
+          "video_timestamp": "00:20:41"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Dupe a Remembrance (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:43",
+          "video_timestamp": "00:22:03"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire both Turtle Talisman (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:05",
+          "video_timestamp": "00:24:25"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Finish off a Boss with the Explosive Physick (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:29",
+          "video_timestamp": "00:27:49"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 1 Dancing Lion Boss (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:24",
+          "video_timestamp": "00:30:44"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Rennala after she Summons 4 Spirits (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:17",
+          "video_timestamp": "00:33:37"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Rennala and Rellana (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:19",
+          "video_timestamp": "00:33:39"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Complete 3 cave or grotto dungeons (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:43",
+          "video_timestamp": "00:38:03"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Give an Iris of Grace (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:48",
+          "video_timestamp": "00:40:08"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Mimic Tear consumables only (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:07",
+          "video_timestamp": "00:40:27"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 3 NPC Bosses (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:08",
+          "video_timestamp": "00:41:28"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:29",
+          "video_timestamp": "00:43:49"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with a Remembrance Weapon (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:34",
+          "video_timestamp": "00:44:54"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Death Knight (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:13",
+          "video_timestamp": "00:51:33"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Valiant Gargoyles (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:17",
+          "video_timestamp": "01:01:37"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Consort Radahn and Mohg, Lord of Blood (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:48",
+          "video_timestamp": "01:15:08"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:54",
+          "video_timestamp": "01:17:14"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill both Tree Sentinel Duo's (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:09",
+          "video_timestamp": "01:17:29"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:16:47",
+          "video_timestamp": "01:20:07"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:16:47",
+          "video_timestamp": "01:20:07"
+        }
+      ]
+    }
+  ]
+}
