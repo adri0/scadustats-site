@@ -1,4 +1,17 @@
-{{- /* Input: {start, end} as "YYYY-MM-DD" strings. Renders "Jul 17 – Aug 24",
-       or a single date when they match or there's no end. */ -}}
-{{- (time.AsTime .start).Format "Jan 2" -}}
-{{- if and .end (ne .end .start) }} – {{ (time.AsTime .end).Format "Jan 2" }}{{ end -}}
+{{- /* Input: {start, end} as "YYYY-MM-DD" strings, and optionally year: true.
+       Renders "Jul 17 – Aug 24", or a single date when they match or there's
+       no end. With year, the year follows the end ("Jul 17 – Aug 24, 2026"),
+       and the start too when the range crosses into a new year. */ -}}
+{{- $start := time.AsTime .start -}}
+{{- $hasEnd := and .end (ne .end .start) -}}
+{{- if .year -}}
+  {{- if not $hasEnd -}}
+    {{- $start.Format "Jan 2, 2006" -}}
+  {{- else -}}
+    {{- $end := time.AsTime .end -}}
+    {{- $start.Format (cond (eq $start.Year $end.Year) "Jan 2" "Jan 2, 2006") }} – {{ $end.Format "Jan 2, 2006" -}}
+  {{- end -}}
+{{- else -}}
+  {{- $start.Format "Jan 2" -}}
+  {{- if $hasEnd }} – {{ (time.AsTime .end).Format "Jan 2" }}{{ end -}}
+{{- end -}}
