@@ -1,0 +1,325 @@
+{
+  "match_id": "2025-10-12-Itzerino-vs-Positive_Vibes",
+  "match_date": "2025-10-12",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Itzerino",
+  "player_blue_name": "Positive Vibes",
+  "team_red": {
+    "name": "Itzerino",
+    "base_player": "YoJoSherino",
+    "dlc_player": "itzCBD"
+  },
+  "team_blue": {
+    "name": "Positive Vibes",
+    "base_player": "star0chris",
+    "dlc_player": "Adef"
+  },
+  "commentators": [
+    "Parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=zl8vqTjgCEw",
+    "duration_s": 6675.95,
+    "published_at": "2025-10-12",
+    "extracted_at": "2026-10-13"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 5824.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Consort Radahn and Mohg, Lord of Blood (C)",
+          "Kill the Death Rite Bird (D)",
+          "Kill 3 Black Knife Assassins (B)",
+          "Kill Mohg, Lord of Blood (B)",
+          "Kill 3 Friendly NPCs (No Hermit Merchants) (B)"
+        ],
+        [
+          "Acquire 9 different Remembrances (C)",
+          "Kill Rellana, Twin Moon Knight (D)",
+          "Kill Demi Human Marigga (D)",
+          "Kill Metyr, Mother of Fingers (D)",
+          "Kill Commander O'Neil (B)"
+        ],
+        [
+          "Kill one of each Crucible Knight (C)",
+          "Kill Romina and Malenia (C)",
+          "Kill a Black Knight boss (D)",
+          "Acquire 3 Blessings of Marika (D)",
+          "Acquire the Perfumed Oil of Ranah (D)"
+        ],
+        [
+          "Sacred Flask +7 (B)",
+          "Kill Morgott (B)",
+          "Kill Godrick and Dancing Lion (C)",
+          "Kill Rykard and Messmer (C)",
+          "Kill a Magma Wyrm boss (B)"
+        ],
+        [
+          "Memory of Grace with 50k+ Runes (B)",
+          "Dupe a Remembrance (D)",
+          "Kill Misbegotten Crusader (B)",
+          "Kill Senessax and Lansseax (C)",
+          "Complete 2 Nameless Mausoleums (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:05"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Memory of Grace with 50k+ Runes (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:21",
+          "video_timestamp": "00:07:26"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Black Knight boss (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:59",
+          "video_timestamp": "00:10:04"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire the Perfumed Oil of Ranah (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:48",
+          "video_timestamp": "00:10:53"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:18",
+          "video_timestamp": "00:11:23"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Commander O'Neil (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:28",
+          "video_timestamp": "00:16:33"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Rellana, Twin Moon Knight (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:07",
+          "video_timestamp": "00:20:12"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Demi Human Marigga (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:35",
+          "video_timestamp": "00:20:40"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Magma Wyrm boss (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:52",
+          "video_timestamp": "00:21:57"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Dupe a Remembrance (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:30",
+          "video_timestamp": "00:25:35"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Misbegotten Crusader (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:56",
+          "video_timestamp": "00:26:01"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Complete 2 Nameless Mausoleums (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:55",
+          "video_timestamp": "00:33:00"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Sacred Flask +7 (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:54",
+          "video_timestamp": "00:34:59"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill the Death Rite Bird (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:35",
+          "video_timestamp": "00:36:40"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Mohg, Lord of Blood (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:43",
+          "video_timestamp": "00:42:48"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:24",
+          "video_timestamp": "00:46:29"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Romina and Malenia (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:54",
+          "video_timestamp": "00:54:59"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill one of each Crucible Knight (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:25",
+          "video_timestamp": "01:01:30"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Rykard and Messmer (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:05:49",
+          "video_timestamp": "01:08:54"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Morgott (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:13",
+          "video_timestamp": "01:10:18"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Godrick and Dancing Lion (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:41",
+          "video_timestamp": "01:12:46"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Metyr, Mother of Fingers (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:44",
+          "video_timestamp": "01:15:49"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 9 different Remembrances (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:52",
+          "video_timestamp": "01:15:57"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 Black Knife Assassins (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:59",
+          "video_timestamp": "01:18:04"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Consort Radahn and Mohg, Lord of Blood (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:25:26",
+          "video_timestamp": "01:28:31"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Senessax and Lansseax (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:32:18",
+          "video_timestamp": "01:35:23"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:32:18",
+          "video_timestamp": "01:35:23"
+        }
+      ]
+    }
+  ]
+}
