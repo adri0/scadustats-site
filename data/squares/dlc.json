@@ -695,7 +695,10 @@
   {
     "id": "rellana",
     "text": "Kill Rellana",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Rellana, Twin Moon Knight"
+    ]
   },
   {
     "id": "revered_ashes_5",
