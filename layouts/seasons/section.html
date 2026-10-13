@@ -4,12 +4,14 @@
 {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
 
 <div class="card-list">
-  {{- range sort (where site.RegularPages "Section" "seasons") ".Params.id" "desc" }}
+  {{- /* Newest first, by the season's last date (then its first, for one
+         still running alongside another). */}}
+  {{- range sort (sort (where site.RegularPages "Section" "seasons") ".Params.start_date" "desc") ".Params.end_date" "desc" }}
   {{- $s := .Params }}
   <a class="link-card" href="{{ .RelPermalink }}">
     <h2>{{ $s.name }}</h2>
     <div class="link-card-meta">
-      {{- with $s.start_date }}<span>{{ . }}{{ with $s.end_date }} – {{ . }}{{ end }}</span>{{ end }}
+      {{- with $s.start_date }}<span>{{ partial "date-range.html" (dict "start" . "end" $s.end_date "year" true) }}</span>{{ end }}
       {{- with $s.bracket_type }}<span class="pill pill-sm pill-outline">{{ humanize (replace . "_" " ") }}</span>{{ end }}
     </div>
     {{- with $s.blurb }}<p>{{ . }}</p>{{ end }}
