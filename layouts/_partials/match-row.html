@@ -1,13 +1,14 @@
 {{- /*
-  Input: {page: a match page, show_season: bool}. One .match-history row:
-  date, both sides (the winner highlighted), score and VOD link. The season
-  pill is dropped where the surrounding list is already grouped by season.
+  Input: a match page. One .match-history row: date and season, both sides
+  (the winner highlighted), score and VOD link. The season pill shows the
+  season page's title, since an id like "pre-season-6" doesn't read as one.
   The score is .spoiler (blurred in no-spoilers mode).
 */ -}}
-{{- $p := .page.Params -}}
+{{- $p := .Params -}}
+{{- $season := site.GetPage (printf "/seasons/%s" $p.season_id) -}}
 <li class="match-history-row">
-  <a href="{{ .page.RelPermalink }}">
-    <span class="match-history-date">{{ $p.match_date }}{{ if .show_season }}<span class="pill pill-sm pill-outline">Season {{ $p.season_id }}</span>{{ end }}</span>
+  <a href="{{ .RelPermalink }}">
+    <span class="match-history-date">{{ $p.match_date }}<span class="pill pill-sm pill-outline">{{ with $season }}{{ .Title }}{{ else }}Season {{ $p.season_id }}{{ end }}</span></span>
     <span class="match-history-opponent">
       <span class="{{ if eq $p.winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
       vs

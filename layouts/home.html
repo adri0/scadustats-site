@@ -48,7 +48,7 @@
       </div>
       <ul class="match-history">
         {{- range first 6 $matches }}
-          {{ partial "match-row.html" (dict "page" . "show_season" true) }}
+          {{ partial "match-row.html" . }}
         {{- end }}
       </ul>
     </section>

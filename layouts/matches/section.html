@@ -5,33 +5,11 @@
     <h1>{{ .Title }}</h1>
     {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
 
-    {{- /* One section per season, newest first. Seasons are ordered by their
-           latest match, since season ids don't sort by date (pre-season-6
-           came before 6). */}}
-    {{- $groups := slice }}
-    {{- range (where site.RegularPages "Section" "matches").GroupByParam "season_id" }}
-      {{- $pages := .Pages.ByDate.Reverse }}
-      {{- $groups = $groups | append (dict "id" .Key "pages" $pages "latest" (index $pages 0).Date) }}
-    {{- end }}
-    {{- range sort $groups "latest" "desc" }}
-      {{- $season := site.GetPage (printf "/seasons/%s" .id) }}
-      {{- $dates := slice }}
-      {{- range .pages }}{{ with .Params.match_date }}{{ $dates = $dates | append . }}{{ end }}{{ end }}
-      {{- $span := partial "lib/date-span.html" $dates }}
-    <section class="season-group" id="season-{{ .id }}">
-      <div class="section-head">
-        <h2>{{ with $season }}{{ .Title }}{{ else }}Season {{ .id }}{{ end }}{{ with $span.start }} <span class="heading-dates">{{ partial "date-range.html" $span }}</span>{{ end }}</h2>
-        {{- with $season }}
-        <a href="{{ .RelPermalink }}">Season page →</a>
-        {{- end }}
-      </div>
-      <ul class="match-history">
-        {{- range .pages }}
-          {{ partial "match-row.html" (dict "page" . "show_season" false) }}
-        {{- end }}
-      </ul>
-    </section>
-    {{- end }}
+    <ul class="match-history">
+      {{- range sort (where site.RegularPages "Section" "matches") "Date" "desc" }}
+        {{ partial "match-row.html" . }}
+      {{- end }}
+    </ul>
   </main>
 
   <div id="persistent-sidebar" data-turbo-permanent>
