@@ -518,6 +518,79 @@
     }
 }
 
+/* Rows with a season pill (home and matches pages, match-row.html): on a
+   phone, the date and pill take a line of their own above the names and score. */
+@media (max-width: 767px) {
+    .match-history-row:has(.match-history-date .pill) > a:not(.vod-link) {
+        grid-template-columns: 1fr auto;
+        row-gap: 0.25rem;
+
+        .match-history-date { grid-column: 1 / -1; }
+    }
+}
+
+/* display:flex would otherwise beat the attribute (match-filter.js hides rows). */
+.match-history-row[hidden] { display: none; }
+
+/* --- Filter bar (matches page, assets/js/modules/match-filter.js) --- */
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 0.75rem 1rem;
+    margin: 0 0 1.25rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-container);
+    background-color: var(--bg-card);
+
+    &[hidden] { display: none; }
+}
+
+.filter-field {
+    flex: 1 1 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0;
+
+    > span {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    }
+
+    select, input {
+        min-width: 0;
+        padding: 0.4rem 0.6rem;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-element);
+        background-color: var(--bg-body);
+        color: var(--text-main);
+        font: inherit;
+        font-size: 0.9rem;
+
+        &:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    }
+}
+
+.filter-field-grow {
+    flex: 2 1 12rem;
+}
+
+.filter-count {
+    margin: 0 0 0.45rem auto;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.filter-empty { color: var(--text-muted); }
+
 /* Season pages list matches without a result badge: drop the empty column. */
 .match-history-row > a:not(.vod-link):not(:has(.result-badge)) {
     grid-template-columns: auto 1fr auto;

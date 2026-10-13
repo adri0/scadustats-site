@@ -2,11 +2,18 @@
   Input: a match page. One .match-history row: date and season, both sides
   (the winner highlighted), score and VOD link. The season pill shows the
   season page's title, since an id like "pre-season-6" doesn't read as one.
-  The score is .spoiler (blurred in no-spoilers mode).
+  The score is .spoiler (blurred in no-spoilers mode). The data-* attributes
+  feed the matches page's filter bar (assets/js/modules/match-filter.js):
+  data-players holds both sides' names, and a team's members' (Season 5).
 */ -}}
 {{- $p := .Params -}}
 {{- $season := site.GetPage (printf "/seasons/%s" $p.season_id) -}}
-<li class="match-history-row">
+{{- $names := slice -}}
+{{- range slice $p.player_red $p.player_blue -}}
+  {{- $names = $names | append .display_name -}}
+  {{- range .members }}{{ $names = $names | append .display_name }}{{ end -}}
+{{- end -}}
+<li class="match-history-row" data-season="{{ $p.season_id }}" data-date="{{ $p.match_date }}" data-players="{{ lower (delimit $names "|") }}">
   <a href="{{ .RelPermalink }}">
     <span class="match-history-date">{{ $p.match_date }}<span class="pill pill-sm pill-outline">{{ with $season }}{{ .Title }}{{ else }}Season {{ $p.season_id }}{{ end }}</span></span>
     <span class="match-history-opponent">
