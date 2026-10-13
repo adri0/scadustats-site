@@ -240,7 +240,7 @@
 
 .scoreboard-credits { margin-top: 0.35rem; font-size: 0.8rem; }
 
-/* "Watch VOD" pill (_partials/vod-link.html): just the icon in list rows on
+/* "VOD" pill (_partials/vod-link.html): just the icon in list rows on
    phones, where there's no room for the label. */
 .vod-link {
     gap: 0.35em;
@@ -253,7 +253,7 @@
     @media (max-width: 767px) { display: none; }
 }
 
-/* External-link glyph trailing a link's text (e.g. "Watch VOD"). */
+/* External-link glyph trailing a link's text (e.g. "VOD"). */
 .icon-external {
     display: inline-block;
     margin-left: 0.15em;
