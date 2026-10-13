@@ -888,6 +888,21 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
     margin-left: 0.4em;
 }
 
+/* A 2v2 team's two avatars (avatar.html), the second tucked under the first's
+   edge, with a ring in the page colour to separate them. */
+.avatar-pair {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    flex-shrink: 0;
+
+    &.avatar-end { margin-right: 0; margin-left: 0.4em; }
+
+    .avatar { margin: 0; box-shadow: 0 0 0 2px var(--bg-body); }
+    .avatar + .avatar { margin-left: -0.4em; }
+}
+
 .avatar-initial {
     display: inline-flex;
     align-items: center;
