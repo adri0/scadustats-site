@@ -165,7 +165,10 @@
   {
     "id": "dancing_lions_2",
     "text": "Kill 2 Dancing Lions",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill 2 Dancing Lion Boss"
+    ]
   },
   {
     "id": "death_knight",
@@ -493,7 +496,10 @@
   {
     "id": "mask_helm_hood",
     "text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood"
+    ]
   },
   {
     "id": "max_upgrade_materials_2",

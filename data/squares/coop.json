@@ -1,5 +1,10 @@
 [
   {
+    "id": "bear_hippo_bird",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Bird",
+    "game_type": "2v2"
+  },
+  {
     "id": "bear_hippo_moose",
     "text": "Kill 1 Boss of each: Bear, Hippo, Moose",
     "game_type": "2v2"
@@ -37,6 +42,11 @@
   {
     "id": "evergaol_ensis_bols",
     "text": "Kill Evergaol Bols and Ensis Bols",
+    "game_type": "2v2"
+  },
+  {
+    "id": "evergaols_3_gaols_2",
+    "text": "Clear 3 Evergaols and 2 gaols",
     "game_type": "2v2"
   },
   {
@@ -92,6 +102,11 @@
   {
     "id": "radahn_consort_radahn",
     "text": "Kill Starscourge and Consort Radahn",
+    "game_type": "2v2"
+  },
+  {
+    "id": "radahn_gaius",
+    "text": "Kill Starscourge Radahn and Commander Gaius",
     "game_type": "2v2"
   },
   {
