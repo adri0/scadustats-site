@@ -1,0 +1,307 @@
+{
+  "match_id": "2025-10-04-Monkey_Business-vs-Positive_Vibes",
+  "match_date": "2025-10-04",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Monkey Business",
+  "player_blue_name": "Positive Vibes",
+  "team_red": {
+    "name": "Monkey Business",
+    "base_player": "LilAggy",
+    "dlc_player": "Mitchriz"
+  },
+  "team_blue": {
+    "name": "Positive Vibes",
+    "base_player": "star0chris",
+    "dlc_player": "Adef"
+  },
+  "commentators": [
+    "Captain_Domo",
+    "Zoodle"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=-8YrY22RLBI",
+    "duration_s": 4658.0,
+    "published_at": "2025-10-06",
+    "extracted_at": "2026-10-12"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4003.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Collect 4 perfumer bottles (D)",
+          "Kill both Tree Sentinel Duo's (C)",
+          "Kill 3 Tree spirits (B)",
+          "Kill Logur, the Beast Claw (D)",
+          "Acquire 2 Kindred Cookbooks (D)"
+        ],
+        [
+          "Kill one of each Crucible Knight (C)",
+          "Kill Chief Bloodfiend (D)",
+          "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "Acquire 5 Hefty Pots (D)",
+          "Kill 1 Omenkiller Boss (B)"
+        ],
+        [
+          "30 Faith (no rebirth or buffs) (B)",
+          "Acquire both Turtle Talisman (C)",
+          "Kill Rennala and Rellana (C)",
+          "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness (C)",
+          "Learn 14 different incantations (B)"
+        ],
+        [
+          "Kill Rennala after she Summons 4 Spirits (B)",
+          "Kill a Red Wolf Boss (B)",
+          "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "Kill 2 Hippos (D)",
+          "Put Florissax to Sleep (D)"
+        ],
+        [
+          "Give an Iris of Occultation (D)",
+          "Kill Agheel with a +0 Weapon Only (B)",
+          "Kill 1 Boss of each: Bear, Hippo, Moose (C)",
+          "Kill Ancient Dragon Senessax (D)",
+          "Smithing-stone +16 weapon (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:02",
+          "video_timestamp": "00:00:40"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 2 Kindred Cookbooks (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:05",
+          "video_timestamp": "00:09:47"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Red Wolf Boss (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:02",
+          "video_timestamp": "00:12:44"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Agheel with a +0 Weapon Only (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:43",
+          "video_timestamp": "00:14:25"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Smithing-stone +16 weapon (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:25",
+          "video_timestamp": "00:18:07"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire both Turtle Talisman (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:52",
+          "video_timestamp": "00:18:34"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 5 Hefty Pots (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:24",
+          "video_timestamp": "00:19:06"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Logur, the Beast Claw (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:44",
+          "video_timestamp": "00:23:26"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 1 Omenkiller Boss (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:47",
+          "video_timestamp": "00:23:29"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "30 Faith (no rebirth or buffs) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:24",
+          "video_timestamp": "00:24:06"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Chief Bloodfiend (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:06",
+          "video_timestamp": "00:28:48"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Rennala after she Summons 4 Spirits (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:13",
+          "video_timestamp": "00:28:55"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Learn 14 different incantations (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:39",
+          "video_timestamp": "00:35:21"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill both Tree Sentinel Duo's (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:27",
+          "video_timestamp": "00:40:09"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 2 Hippos (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:44",
+          "video_timestamp": "00:42:26"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Put Florissax to Sleep (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:41",
+          "video_timestamp": "00:45:23"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 1 Boss of each: Bear, Hippo, Moose (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:39",
+          "video_timestamp": "00:46:21"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:17",
+          "video_timestamp": "00:46:59"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Rennala and Rellana (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:22",
+          "video_timestamp": "00:51:04"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:11",
+          "video_timestamp": "00:52:53"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Collect 4 perfumer bottles (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:24",
+          "video_timestamp": "00:58:06"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 Tree spirits (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:11",
+          "video_timestamp": "01:01:53"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill one of each Crucible Knight (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:47",
+          "video_timestamp": "01:05:29"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:53",
+          "video_timestamp": "01:05:35"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:53",
+          "video_timestamp": "01:05:35"
+        }
+      ]
+    }
+  ]
+}

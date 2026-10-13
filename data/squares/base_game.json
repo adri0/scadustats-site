@@ -33,7 +33,10 @@
   {
     "id": "altus_bosses_6",
     "text": "Kill 6 Bosses in Altus Plateau / Mt. Gelmir",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 6 bosses in Altus Plateau and Mt. Gelmir"
+    ]
   },
   {
     "id": "altus_heros_grave",
@@ -81,7 +84,10 @@
   {
     "id": "black_knife_assassins_3",
     "text": "Kill 3 Unique Black Knife Assassins",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Black Knife Assassins"
+    ]
   },
   {
     "id": "black_knife_assassins_4",
@@ -140,7 +146,10 @@
   {
     "id": "catacombs_3",
     "text": "Complete 3 Catacombs",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 3 catacomb dungeons"
+    ]
   },
   {
     "id": "caves_2",
@@ -199,7 +208,10 @@
   {
     "id": "crucible_knights_3",
     "text": "Kill 3 Unique Crucible Knights",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Crucible Knights"
+    ]
   },
   {
     "id": "crucible_knights_4",
@@ -444,6 +456,11 @@
     ]
   },
   {
+    "id": "grafted_scions_1",
+    "text": "Kill 1 Grafted Scions",
+    "game_type": "base"
+  },
+  {
     "id": "greyoll",
     "text": "Kill Greyoll without Status Effects",
     "game_type": "base"
@@ -553,6 +570,11 @@
   {
     "id": "liurnia_bosses_5",
     "text": "Kill 5 Bosses in Liurnia",
+    "game_type": "base"
+  },
+  {
+    "id": "liurnia_bosses_6",
+    "text": "Kill 6 bosses in Liurnia",
     "game_type": "base"
   },
   {
@@ -679,6 +701,11 @@
   {
     "id": "millicent_arm",
     "text": "Give Millicent her Prosthetic Arm",
+    "game_type": "base"
+  },
+  {
+    "id": "mimic_tear_consumables",
+    "text": "Kill Mimic Tear consumables only",
     "game_type": "base"
   },
   {
@@ -814,6 +841,11 @@
     "game_type": "base"
   },
   {
+    "id": "red_wolf_boss",
+    "text": "Kill a Red Wolf Boss",
+    "game_type": "base"
+  },
+  {
     "id": "red_wolves_2",
     "text": "Kill 2 Unique Red Wolves",
     "game_type": "base"
@@ -929,8 +961,18 @@
     "game_type": "base"
   },
   {
+    "id": "smithing_16",
+    "text": "Smithing-stone +16 weapon",
+    "game_type": "base"
+  },
+  {
     "id": "smithing_bell_bearing_1_and_2",
     "text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
+    "game_type": "base"
+  },
+  {
+    "id": "somber_9",
+    "text": "Somber +9 weapon",
     "game_type": "base"
   },
   {
@@ -1003,7 +1045,10 @@
   {
     "id": "tree_sentinal_plus0",
     "text": "Kill Tree Sentinel (Limgrave) with a +0 Weapon Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Limgrave Tree Sentinel with a +0 weapon only"
+    ]
   },
   {
     "id": "tree_sentinel_duo",

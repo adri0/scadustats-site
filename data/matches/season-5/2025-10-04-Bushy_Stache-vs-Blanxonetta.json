@@ -1,0 +1,289 @@
+{
+  "match_id": "2025-10-04-Bushy_Stache-vs-Blanxonetta",
+  "match_date": "2025-10-04",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Bushy Stache",
+  "player_blue_name": "Blanxonetta",
+  "team_red": {
+    "name": "Bushy Stache",
+    "base_player": "Bushy",
+    "dlc_player": "Vswed"
+  },
+  "team_blue": {
+    "name": "Blanxonetta",
+    "base_player": "nessonetta",
+    "dlc_player": "blanxz"
+  },
+  "commentators": [
+    "Captain_Domo",
+    "Zoodle"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=A70DHe1oc6o",
+    "duration_s": 5131.983333333334,
+    "published_at": "2025-10-06",
+    "extracted_at": "2026-10-12"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4352.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 10 Cracked Pots (B)",
+          "Kill the Madding Hand NPC (D)",
+          "Kill Radahn without summoning NPCs (B)",
+          "Use a Transformation (D)",
+          "Kill 2 Pot throwing Trolls (C)"
+        ],
+        [
+          "Kill Fire Giant (B)",
+          "Kill Ancient Dragon Senessax (D)",
+          "30 Arcane (no rebirth or buffs) (B)",
+          "Acquire Margit's and Mohg's Shackles (B)",
+          "Dupe a Remembrance at a Mausoleum and a Coffin (C)"
+        ],
+        [
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "Kill Limgrave Tree Sentinel with a +0 weapon only (B)",
+          "Acquire Level 5 Revered Ash (D)",
+          "Kill Rennala and Rellana (C)",
+          "Restore Morgott's Great Rune (B)"
+        ],
+        [
+          "Kill a Remembrance boss bow only (B)",
+          "Visit 5 Miquella Crosses (D)",
+          "Collect 3 of each Pot (C)",
+          "Kill Count Ymir, Mother of Fingers (D)",
+          "Kill a boss after inflicting 4 different status effects (D)"
+        ],
+        [
+          "Kill the Death Rite Bird (D)",
+          "Complete 3 catacomb dungeons (B)",
+          "Kill Evergaol Bols and Ensis Bols (C)",
+          "Acquire Omen Bairn and Horned Bairn (C)",
+          "Drain the Water in the Church District (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:15"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Visit 5 Miquella Crosses (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:40",
+          "video_timestamp": "00:08:55"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 10 Cracked Pots (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:24",
+          "video_timestamp": "00:09:39"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Collect 3 of each Pot (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:44",
+          "video_timestamp": "00:11:59"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon only (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:56",
+          "video_timestamp": "00:14:11"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Evergaol Bols and Ensis Bols (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:49",
+          "video_timestamp": "00:20:04"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a boss after inflicting 4 different status effects (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:02",
+          "video_timestamp": "00:21:17"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Level 5 Revered Ash (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:14",
+          "video_timestamp": "00:21:29"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Drain the Water in the Church District (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:41",
+          "video_timestamp": "00:26:56"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Radahn without summoning NPCs (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:03",
+          "video_timestamp": "00:29:18"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "30 Arcane (no rebirth or buffs) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:34",
+          "video_timestamp": "00:29:49"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 Pot throwing Trolls (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:18",
+          "video_timestamp": "00:33:33"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 3 catacomb dungeons (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:27",
+          "video_timestamp": "00:38:42"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Use a Transformation (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:12",
+          "video_timestamp": "00:39:27"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Death Rite Bird (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:03",
+          "video_timestamp": "00:43:18"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Rennala and Rellana (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:07",
+          "video_timestamp": "00:47:22"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:44",
+          "video_timestamp": "00:49:59"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Ancient Dragon Senessax (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:10",
+          "video_timestamp": "00:54:25"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:40",
+          "video_timestamp": "00:56:55"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Omen Bairn and Horned Bairn (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:45",
+          "video_timestamp": "01:00:00"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Margit's and Mohg's Shackles (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:04",
+          "video_timestamp": "01:04:19"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill the Madding Hand NPC (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:30",
+          "video_timestamp": "01:11:45"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:08:30",
+          "video_timestamp": "01:11:45"
+        }
+      ]
+    }
+  ]
+}
