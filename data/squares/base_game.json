@@ -84,7 +84,10 @@
   {
     "id": "black_knife_assassins_3",
     "text": "Kill 3 Unique Black Knife Assassins",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Black Knife Assassins"
+    ]
   },
   {
     "id": "black_knife_assassins_4",
@@ -451,6 +454,11 @@
     "aliases": [
       "Kill Grafted Scion (Chapel of Anticipation)"
     ]
+  },
+  {
+    "id": "grafted_scions_1",
+    "text": "Kill 1 Grafted Scions",
+    "game_type": "base"
   },
   {
     "id": "greyoll",

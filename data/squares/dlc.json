@@ -695,7 +695,10 @@
   {
     "id": "rellana",
     "text": "Kill Rellana",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Rellana, Twin Moon Knight"
+    ]
   },
   {
     "id": "revered_ashes_5",
@@ -770,6 +773,11 @@
   {
     "id": "senessax",
     "text": "Kill Ancient Dragon Senessax",
+    "game_type": "dlc"
+  },
+  {
+    "id": "sorceries_7",
+    "text": "Acquire 7 Sorceries",
     "game_type": "dlc"
   },
   {

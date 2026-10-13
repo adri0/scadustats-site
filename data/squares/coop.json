@@ -40,8 +40,18 @@
     "game_type": "2v2"
   },
   {
+    "id": "fallingstar_beasts_3",
+    "text": "Kill 3 Fallingstar Beasts",
+    "game_type": "2v2"
+  },
+  {
     "id": "fia_champs_leda",
     "text": "Kill Fia's Champs and Leda",
+    "game_type": "2v2"
+  },
+  {
+    "id": "godrick_dancing_lion",
+    "text": "Kill Godrick and Dancing Lion",
     "game_type": "2v2"
   },
   {
@@ -95,8 +105,28 @@
     "game_type": "2v2"
   },
   {
+    "id": "remembrances_9",
+    "text": "Acquire 9 different Remembrances",
+    "game_type": "2v2"
+  },
+  {
     "id": "rennala_rellana",
     "text": "Kill Rennala and Rellana",
+    "game_type": "2v2"
+  },
+  {
+    "id": "romina_malenia",
+    "text": "Kill Romina and Malenia",
+    "game_type": "2v2"
+  },
+  {
+    "id": "rykard_messmer",
+    "text": "Kill Rykard and Messmer",
+    "game_type": "2v2"
+  },
+  {
+    "id": "senessax_lansseax",
+    "text": "Kill Senessax and Lansseax",
     "game_type": "2v2"
   },
   {
