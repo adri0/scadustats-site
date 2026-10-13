@@ -1,0 +1,298 @@
+{
+  "match_id": "2025-10-09-Itzerino-vs-FrogCarSpin",
+  "match_date": "2025-10-09",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Itzerino",
+  "player_blue_name": "FrogCarSpin",
+  "team_red": {
+    "name": "Itzerino",
+    "base_player": "YoJoSherino",
+    "dlc_player": "itzCBD"
+  },
+  "team_blue": {
+    "name": "FrogCarSpin",
+    "base_player": "blueberrybrioche",
+    "dlc_player": "NuclearPastaTom"
+  },
+  "commentators": [
+    "Captain_Domo",
+    "Zoodle"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=EWJBIBin6DE",
+    "duration_s": 4828.983333333334,
+    "published_at": "2025-10-09",
+    "extracted_at": "2026-10-13"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4020.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Kill 1 Grafted Scions (B)",
+          "Restore Rykard's Great Rune (B)",
+          "Kill Scadutree Avatar (D)",
+          "Kill 2 Deathbirds and 1 Death Rite Bird (B)",
+          "Acquire 7 Sorceries (D)"
+        ],
+        [
+          "Acquire 4 Imbued Sword Keys (C)",
+          "Kill Moongrum and Moonrithyll (C)",
+          "Kill a Red bear (D)",
+          "Kill Evergaol Bols and Ensis Bols (C)",
+          "Heal the wounded Kindred rot (D)"
+        ],
+        [
+          "Kill Loretta (Blue Spirit) (B)",
+          "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "Kill Fia's Champs and Leda (C)",
+          "10 Sacred Flask charges (B)",
+          "Acquire Level 11 Scadu (D)"
+        ],
+        [
+          "Complete 2 tunnel or precipice dungeons (B)",
+          "Blow a Finger (D)",
+          "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness (C)",
+          "Kill Agheel with a +0 Weapon Only (B)",
+          "Kill Fia's Champions (B)"
+        ],
+        [
+          "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood (D)",
+          "Kill 3 Fallingstar Beasts (C)",
+          "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "Acquire 2 Hanging Pot Bell Bearings (D)",
+          "Dupe a Remembrance (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:02"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Agheel with a +0 Weapon Only (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:27",
+          "video_timestamp": "00:08:29"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Evergaol Bols and Ensis Bols (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:34",
+          "video_timestamp": "00:09:36"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 7 Sorceries (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:47",
+          "video_timestamp": "00:15:49"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 7 Sorceries (D)",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:12:59",
+          "video_timestamp": "00:16:01"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Moongrum and Moonrithyll (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:55",
+          "video_timestamp": "00:20:57"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 1 Grafted Scions (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:02",
+          "video_timestamp": "00:23:04"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Blow a Finger (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:58",
+          "video_timestamp": "00:26:00"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Complete 2 tunnel or precipice dungeons (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:03",
+          "video_timestamp": "00:27:05"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Dupe a Remembrance (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:07",
+          "video_timestamp": "00:29:09"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:14",
+          "video_timestamp": "00:33:16"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Loretta (Blue Spirit) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:23",
+          "video_timestamp": "00:33:25"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:21",
+          "video_timestamp": "00:35:23"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm and Salza's Hood (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:10",
+          "video_timestamp": "00:36:12"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Red bear (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:41",
+          "video_timestamp": "00:39:43"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "10 Sacred Flask charges (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:09",
+          "video_timestamp": "00:40:11"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Heal the wounded Kindred rot (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:57",
+          "video_timestamp": "00:42:59"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:30",
+          "video_timestamp": "00:44:32"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire Level 11 Scadu (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:51",
+          "video_timestamp": "00:47:53"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 4 Imbued Sword Keys (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:20",
+          "video_timestamp": "00:51:22"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:37",
+          "video_timestamp": "00:51:39"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Fia's Champions (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:12",
+          "video_timestamp": "01:04:14"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Fia's Champs and Leda (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:01",
+          "video_timestamp": "01:06:03"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:03:01",
+          "video_timestamp": "01:06:03"
+        }
+      ]
+    }
+  ]
+}

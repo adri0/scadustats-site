@@ -773,6 +773,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "sorceries_7",
+    "text": "Acquire 7 Sorceries",
+    "game_type": "dlc"
+  },
+  {
     "id": "st_trina",
     "text": "Have St. Trina talk to you",
     "game_type": "dlc"

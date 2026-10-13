@@ -40,6 +40,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "fallingstar_beasts_3",
+    "text": "Kill 3 Fallingstar Beasts",
+    "game_type": "2v2"
+  },
+  {
     "id": "fia_champs_leda",
     "text": "Kill Fia's Champs and Leda",
     "game_type": "2v2"

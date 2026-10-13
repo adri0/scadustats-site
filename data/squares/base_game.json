@@ -453,6 +453,11 @@
     ]
   },
   {
+    "id": "grafted_scions_1",
+    "text": "Kill 1 Grafted Scions",
+    "game_type": "base"
+  },
+  {
     "id": "greyoll",
     "text": "Kill Greyoll without Status Effects",
     "game_type": "base"
