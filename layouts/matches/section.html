@@ -25,11 +25,11 @@
         <a href="{{ .RelPermalink }}">Season page →</a>
         {{- end }}
       </div>
-      <div class="match-list">
+      <ul class="match-history">
         {{- range .pages }}
-          {{ partial "match-card.html" (dict "page" . "show_season" false) }}
+          {{ partial "match-row.html" (dict "page" . "show_season" false) }}
         {{- end }}
-      </div>
+      </ul>
     </section>
     {{- end }}
   </main>

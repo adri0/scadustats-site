@@ -1,0 +1,19 @@
+{{- /*
+  Input: {page: a match page, show_season: bool}. One .match-history row:
+  date, both sides (the winner highlighted), score and VOD link. The season
+  pill is dropped where the surrounding list is already grouped by season.
+  The score is .spoiler (blurred in no-spoilers mode).
+*/ -}}
+{{- $p := .page.Params -}}
+<li class="match-history-row">
+  <a href="{{ .page.RelPermalink }}">
+    <span class="match-history-date">{{ $p.match_date }}{{ if .show_season }}<span class="pill pill-sm pill-outline">Season {{ $p.season_id }}</span>{{ end }}</span>
+    <span class="match-history-opponent">
+      <span class="{{ if eq $p.winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
+      vs
+      <span class="{{ if eq $p.winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_blue) }}{{ $p.player_blue.display_name }}</span>
+    </span>
+    <span class="match-history-score spoiler">{{ $p.red_score }}–{{ $p.blue_score }}</span>
+  </a>
+  {{- partial "vod-link.html" $p.video_url }}
+</li>
