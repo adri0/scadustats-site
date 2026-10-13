@@ -1,0 +1,289 @@
+{
+  "match_id": "2025-10-12-FrogCarSpin-vs-Bushy_Stache",
+  "match_date": "2025-10-12",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "FrogCarSpin",
+  "player_blue_name": "Bushy Stache",
+  "team_red": {
+    "name": "FrogCarSpin",
+    "base_player": "blueberrybrioche",
+    "dlc_player": "NuclearPastaTom"
+  },
+  "team_blue": {
+    "name": "Bushy Stache",
+    "base_player": "Bushy",
+    "dlc_player": "Vswed"
+  },
+  "commentators": [
+    "Parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=6OLckdb5Cx8",
+    "duration_s": 5523.983333333334,
+    "published_at": "2025-10-15",
+    "extracted_at": "2026-10-13"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4634.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Dancing Lion Boss (D)",
+          "Restore Radahn's Great Rune (B)",
+          "Drink Thiollier's Concoction (D)",
+          "Kill Rykard and Messmer (C)",
+          "Kill all Fallingstar Beasts (C)"
+        ],
+        [
+          "Kill 3 Bosses with Knight in their name (D)",
+          "Acquire 4 Imbued Sword Keys (C)",
+          "Kill the Sleep pot Troll (D)",
+          "Smithing-stone +16 weapon (B)",
+          "Kill Midra, Lord of Frenzied Flame (D)"
+        ],
+        [
+          "Kill Misbegotten Crusader (B)",
+          "Upgrade a Remembrance Weapon to Max (D)",
+          "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "30 Int (no rebirth or buffs) (B)",
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)"
+        ],
+        [
+          "Kill 6 bosses in Caelid (B)",
+          "Acquire 3 Larval tears (D)",
+          "Kill 4 Demi human bosses (C)",
+          "Collect 9 non merchant Bell Bearings (C)",
+          "Kill a boss after inflicting 3 different status effects (D)"
+        ],
+        [
+          "Complete 2 tunnel or precipice dungeons (B)",
+          "Take Rya's hand to Volcano Manor (B)",
+          "Kill a Red Wolf Boss (B)",
+          "Kill Scadutree Avatar (D)",
+          "Acquire 9 different Remembrances (C)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:10"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 3 Larval tears (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:24",
+          "video_timestamp": "00:06:34"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Drink Thiollier's Concoction (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:02",
+          "video_timestamp": "00:10:12"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Complete 2 tunnel or precipice dungeons (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:05",
+          "video_timestamp": "00:11:15"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a boss after inflicting 3 different status effects (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:52",
+          "video_timestamp": "00:14:02"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:59",
+          "video_timestamp": "00:14:09"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Smithing-stone +16 weapon (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:04",
+          "video_timestamp": "00:15:14"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:16",
+          "video_timestamp": "00:18:26"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Bosses with Knight in their name (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:48",
+          "video_timestamp": "00:21:58"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Red Wolf Boss (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:54",
+          "video_timestamp": "00:24:04"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Sleep pot Troll (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:54",
+          "video_timestamp": "00:27:04"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Upgrade a Remembrance Weapon to Max (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:03",
+          "video_timestamp": "00:35:13"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Restore Radahn's Great Rune (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:34",
+          "video_timestamp": "00:36:44"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 4 Imbued Sword Keys (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:17",
+          "video_timestamp": "00:38:27"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "30 Int (no rebirth or buffs) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:59",
+          "video_timestamp": "00:40:09"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 6 bosses in Caelid (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:02",
+          "video_timestamp": "00:52:12"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Collect 9 non merchant Bell Bearings (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:22",
+          "video_timestamp": "00:52:32"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Dancing Lion Boss (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:29",
+          "video_timestamp": "01:01:39"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 9 different Remembrances (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:11",
+          "video_timestamp": "01:11:21"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Scadutree Avatar (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:15",
+          "video_timestamp": "01:11:25"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Misbegotten Crusader (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:20",
+          "video_timestamp": "01:15:30"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Rykard and Messmer (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:00",
+          "video_timestamp": "01:16:10"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:13:00",
+          "video_timestamp": "01:16:10"
+        }
+      ]
+    }
+  ]
+}

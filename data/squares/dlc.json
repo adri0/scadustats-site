@@ -437,7 +437,10 @@
   {
     "id": "knight_bosses_3",
     "text": "Kill 3 Bosses with \"Knight\" in their name",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill 3 Bosses with Knight in their name"
+    ]
   },
   {
     "id": "labirith",
@@ -789,6 +792,11 @@
   {
     "id": "senessax",
     "text": "Kill Ancient Dragon Senessax",
+    "game_type": "dlc"
+  },
+  {
+    "id": "sleep_pot_troll",
+    "text": "Kill the Sleep pot Troll",
     "game_type": "dlc"
   },
   {
