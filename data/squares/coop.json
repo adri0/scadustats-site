@@ -25,6 +25,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "demi_human_bosses_all",
+    "text": "Kill all Demi human bosses",
+    "game_type": "2v2"
+  },
+  {
     "id": "dupe_mausoleum_coffin",
     "text": "Dupe a Remembrance at a Mausoleum and a Coffin",
     "game_type": "2v2"
@@ -72,6 +77,11 @@
   {
     "id": "pots_3_each",
     "text": "Collect 3 of each Pot",
+    "game_type": "2v2"
+  },
+  {
+    "id": "radahn_mohg",
+    "text": "Kill Consort Radahn and Mohg, Lord of Blood",
     "game_type": "2v2"
   },
   {

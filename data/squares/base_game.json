@@ -696,6 +696,11 @@
     "game_type": "base"
   },
   {
+    "id": "mimic_tear_consumables",
+    "text": "Kill Mimic Tear consumables only",
+    "game_type": "base"
+  },
+  {
     "id": "miriam",
     "text": "Kill Preceptor Miriam",
     "game_type": "base"
