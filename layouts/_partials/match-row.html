@@ -1,0 +1,27 @@
+{{- /*
+  Input: a match page. One .match-history row: date and season, both sides
+  (the winner highlighted), score and VOD link. The season pill shows the
+  season page's title, since an id like "pre-season-6" doesn't read as one.
+  The score is .spoiler (blurred in no-spoilers mode). The data-* attributes
+  feed the matches page's filter bar (assets/js/modules/list-filter.js):
+  data-player holds both sides' names, and a team's members' (Season 5).
+*/ -}}
+{{- $p := .Params -}}
+{{- $season := site.GetPage (printf "/seasons/%s" $p.season_id) -}}
+{{- $names := slice -}}
+{{- range slice $p.player_red $p.player_blue -}}
+  {{- $names = $names | append .display_name -}}
+  {{- range .members }}{{ $names = $names | append .display_name }}{{ end -}}
+{{- end -}}
+<li class="match-history-row" data-season="{{ $p.season_id }}" data-date="{{ $p.match_date }}" data-player="{{ lower (delimit $names "|") }}">
+  <a href="{{ .RelPermalink }}">
+    <span class="match-history-date">{{ $p.match_date }}<span class="pill pill-sm pill-outline">{{ with $season }}{{ .Title }}{{ else }}Season {{ $p.season_id }}{{ end }}</span></span>
+    <span class="match-history-opponent">
+      <span class="{{ if eq $p.winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
+      vs
+      <span class="{{ if eq $p.winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_blue) }}{{ $p.player_blue.display_name }}</span>
+    </span>
+    <span class="match-history-score spoiler">{{ $p.red_score }}–{{ $p.blue_score }}</span>
+  </a>
+  {{- partial "vod-link.html" $p.video_url }}
+</li>

@@ -126,92 +126,6 @@
 .pill-red { color: var(--red); background-color: var(--red-soft); }
 .pill-blue { color: var(--blue); background-color: var(--blue-soft); }
 
-/* --- Match cards --- */
-
-.match-list {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-
-    @include md { grid-template-columns: 1fr 1fr; }
-}
-
-.match-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    padding: 1rem 1.15rem;
-    border: 1px solid var(--border);
-    border-radius: var(--radius-container);
-    background-color: var(--bg-card);
-    color: var(--text-main);
-    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-
-    &:hover {
-        border-color: var(--accent);
-        transform: translateY(-2px);
-        box-shadow: 0 0 0 1px var(--gold-soft), 0 6px 24px -8px var(--gold-glow);
-        color: var(--text-main);
-    }
-}
-
-.match-card-meta {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-}
-
-.match-card-score {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    gap: 0.75rem;
-
-    /* min-width:0 so a long name shrinks the 1fr track instead of widening
-       the card past the viewport. */
-    .side { font-weight: 700; line-height: 1.25; min-width: 0; overflow-wrap: anywhere; }
-    .side-red { text-align: left; }
-    .side-blue { text-align: right; }
-
-    .score {
-        font-family: var(--font-display);
-        font-size: 1.35rem;
-        font-weight: 700;
-        font-variant-numeric: tabular-nums;
-        white-space: nowrap;
-    }
-}
-
-/* The score link's ::after covers the whole card, so the card stays one
-   click target; the VOD pill is lifted above it. */
-.match-card-link {
-    color: inherit;
-
-    &:hover { color: inherit; }
-
-    &::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-    }
-}
-
-.match-card-foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-
-    .vod-link { position: relative; z-index: 1; }
-}
-
 .side-red { color: var(--red); }
 .side-blue { color: var(--blue); }
 
@@ -326,7 +240,7 @@
 
 .scoreboard-credits { margin-top: 0.35rem; font-size: 0.8rem; }
 
-/* "Watch VOD" pill (_partials/vod-link.html): just the icon in list rows on
+/* "VOD" pill (_partials/vod-link.html): just the icon in list rows on
    phones, where there's no room for the label. */
 .vod-link {
     gap: 0.35em;
@@ -339,7 +253,7 @@
     @media (max-width: 767px) { display: none; }
 }
 
-/* External-link glyph trailing a link's text (e.g. "Watch VOD"). */
+/* External-link glyph trailing a link's text (e.g. "VOD"). */
 .icon-external {
     display: inline-block;
     margin-left: 0.15em;
@@ -603,6 +517,79 @@
         white-space: nowrap;
     }
 }
+
+/* Rows with a season pill (home and matches pages, match-row.html): on a
+   phone, the date and pill take a line of their own above the names and score. */
+@media (max-width: 767px) {
+    .match-history-row:has(.match-history-date .pill) > a:not(.vod-link) {
+        grid-template-columns: 1fr auto;
+        row-gap: 0.25rem;
+
+        .match-history-date { grid-column: 1 / -1; }
+    }
+}
+
+/* display:flex would otherwise beat the attribute (list-filter.js hides rows). */
+.match-history-row[hidden] { display: none; }
+
+/* --- Filter bar (matches and squares pages, assets/js/modules/list-filter.js) --- */
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 0.75rem 1rem;
+    margin: 0 0 1.25rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-container);
+    background-color: var(--bg-card);
+
+    &[hidden] { display: none; }
+}
+
+.filter-field {
+    flex: 1 1 9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0;
+
+    > span {
+        color: var(--text-muted);
+        font-size: 0.75rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+    }
+
+    select, input {
+        min-width: 0;
+        padding: 0.4rem 0.6rem;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-element);
+        background-color: var(--bg-body);
+        color: var(--text-main);
+        font: inherit;
+        font-size: 0.9rem;
+
+        &:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    }
+}
+
+.filter-field-grow {
+    flex: 2 1 12rem;
+}
+
+.filter-count {
+    margin: 0 0 0.45rem auto;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.filter-empty { color: var(--text-muted); }
 
 /* Season pages list matches without a result badge: drop the empty column. */
 .match-history-row > a:not(.vod-link):not(:has(.result-badge)) {
@@ -899,6 +886,21 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
 .avatar-end {
     margin-right: 0;
     margin-left: 0.4em;
+}
+
+/* A 2v2 team's two avatars (avatar.html), the second tucked under the first's
+   edge, with a ring in the page colour to separate them. */
+.avatar-pair {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    flex-shrink: 0;
+
+    &.avatar-end { margin-right: 0; margin-left: 0.4em; }
+
+    .avatar { margin: 0; box-shadow: 0 0 0 2px var(--bg-body); }
+    .avatar + .avatar { margin-left: -0.4em; }
 }
 
 .avatar-initial {

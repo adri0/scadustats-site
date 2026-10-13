@@ -5,19 +5,55 @@
     <h1>{{ .Title }}</h1>
     {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
 
-    {{- range (where site.RegularPages "Section" "matches").GroupByParam "season_id" "desc" }}
-    <section class="season-group">
-      <div class="section-head">
-        <h2>Season {{ .Key }}</h2>
-        <a href="{{ printf "/seasons/%s/" .Key | relURL }}">Season page →</a>
-      </div>
-      <div class="match-list">
-        {{- range .Pages.ByDate.Reverse }}
-          {{ partial "match-card.html" (dict "page" . "show_season" false) }}
-        {{- end }}
-      </div>
-    </section>
+    {{- $matches := sort (where site.RegularPages "Section" "matches") "Date" "desc" }}
+    {{- /* Seasons in order of their latest match, and every side's and team
+           member's name, for the filter bar's options. */}}
+    {{- $seasonIDs := slice }}
+    {{- $names := slice }}
+    {{- range $matches }}
+      {{- if not (in $seasonIDs .Params.season_id) }}{{ $seasonIDs = $seasonIDs | append .Params.season_id }}{{ end }}
+      {{- range slice .Params.player_red .Params.player_blue }}
+        {{- $names = $names | append .display_name }}
+        {{- range .members }}{{ $names = $names | append .display_name }}{{ end }}
+      {{- end }}
     {{- end }}
+
+    {{- /* Hidden until assets/js/modules/list-filter.js wires it up. */}}
+    <form class="filter-bar" data-list-filter data-list="#match-list" data-empty="#match-list-empty" data-noun="matches" hidden>
+      <label class="filter-field">
+        <span>Season</span>
+        <select name="season">
+          <option value="">All seasons</option>
+          {{- range $seasonIDs }}
+          <option value="{{ . }}">{{ with site.GetPage (printf "/seasons/%s" .) }}{{ .Title }}{{ else }}Season {{ . }}{{ end }}</option>
+          {{- end }}
+        </select>
+      </label>
+      <label class="filter-field filter-field-grow">
+        <span>Player</span>
+        <input type="search" name="player" list="match-filter-players" placeholder="Any player" autocomplete="off">
+        <datalist id="match-filter-players">
+          {{- range sort (uniq $names) }}
+          <option value="{{ . }}"></option>
+          {{- end }}
+        </datalist>
+      </label>
+      <label class="filter-field">
+        <span>Sort</span>
+        <select name="sort">
+          <option value="newest">Newest first</option>
+          <option value="oldest" data-key="date" data-dir="asc">Oldest first</option>
+        </select>
+      </label>
+      <p class="filter-count" aria-live="polite"></p>
+    </form>
+
+    <ul class="match-history" id="match-list">
+      {{- range $matches }}
+        {{ partial "match-row.html" . }}
+      {{- end }}
+    </ul>
+    <p class="filter-empty" id="match-list-empty" hidden>No matches fit these filters.</p>
   </main>
 
   <div id="persistent-sidebar" data-turbo-permanent>
