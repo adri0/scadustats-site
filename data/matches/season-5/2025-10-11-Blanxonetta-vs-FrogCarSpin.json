@@ -1,0 +1,298 @@
+{
+  "match_id": "2025-10-11-Blanxonetta-vs-FrogCarSpin",
+  "match_date": "2025-10-11",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Blanxonetta",
+  "player_blue_name": "FrogCarSpin",
+  "team_red": {
+    "name": "Blanxonetta",
+    "base_player": "nessonetta",
+    "dlc_player": "blanxz"
+  },
+  "team_blue": {
+    "name": "FrogCarSpin",
+    "base_player": "blueberrybrioche",
+    "dlc_player": "NuclearPastaTom"
+  },
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=5Pc1SyKrW6w",
+    "duration_s": 4671.083333333333,
+    "published_at": "2025-10-15",
+    "extracted_at": "2026-10-13"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 3955.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "Kill all Fallingstar Beasts (C)",
+          "10 Sacred Flask charges (B)",
+          "Kill Malenia (B)",
+          "Kill Moongrum and Moonrithyll (C)"
+        ],
+        [
+          "Clear 3 Evergaols and 2 gaols (C)",
+          "Spirit Ash +4 summon (B)",
+          "Kill 2 Omenkiller boss (B)",
+          "Kill Putrid Crystalian trio (B)",
+          "Acquire 4 Hefty Pots (D)"
+        ],
+        [
+          "Kill Demi Human Marigga (D)",
+          "Acquire Jar and Greatjar Helmets (C)",
+          "Acquire 3 Larval tears (D)",
+          "Upgrade a Remembrance Weapon to Max (D)",
+          "Kill Chief Bloodfiend (D)"
+        ],
+        [
+          "Put Florissax to Sleep (D)",
+          "Acquire Igon's finger and Varre's bloody finger (C)",
+          "Give an Iris of Grace (D)",
+          "Kill a Red Wolf and a Red Bear (C)",
+          "Dupe a Remembrance at a Mausoleum (B)"
+        ],
+        [
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1] (B)",
+          "Kill Rellana, Twin Moon Knight (D)",
+          "Kill Elemer of the Briar (B)",
+          "Acquire 2 Dragon Hearts (D)",
+          "Kill Roundtable Knight Vyke (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:01:04",
+          "video_timestamp": "00:04:17"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 3 Larval tears (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:03:20",
+          "video_timestamp": "00:06:33"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Red Wolf and a Red Bear (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:03",
+          "video_timestamp": "00:14:16"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Rellana, Twin Moon Knight (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:21",
+          "video_timestamp": "00:18:34"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 2 Omenkiller boss (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:19",
+          "video_timestamp": "00:19:32"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Elemer of the Briar (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:16",
+          "video_timestamp": "00:25:29"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Chief Bloodfiend (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:29",
+          "video_timestamp": "00:25:42"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 4 Hefty Pots (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:47",
+          "video_timestamp": "00:28:00"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Moongrum and Moonrithyll (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:14",
+          "video_timestamp": "00:29:27"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "10 Sacred Flask charges (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:41",
+          "video_timestamp": "00:29:54"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:34",
+          "video_timestamp": "00:33:47"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Dupe a Remembrance at a Mausoleum (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:06",
+          "video_timestamp": "00:35:19"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Demi Human Marigga (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:56",
+          "video_timestamp": "00:37:09"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Dragon Hearts (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:06",
+          "video_timestamp": "00:38:19"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Upgrade a Remembrance Weapon to Max (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:16",
+          "video_timestamp": "00:39:29"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Roundtable Knight Vyke (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:58",
+          "video_timestamp": "00:43:11"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Give an Iris of Grace (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:40",
+          "video_timestamp": "00:48:53"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:50",
+          "video_timestamp": "00:52:03"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1] (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:19",
+          "video_timestamp": "00:52:32"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Spirit Ash +4 summon (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:34",
+          "video_timestamp": "00:54:47"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Jar and Greatjar Helmets (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:25",
+          "video_timestamp": "00:58:38"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Clear 3 Evergaols and 2 gaols (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:04",
+          "video_timestamp": "01:03:17"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Putrid Crystalian trio (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:15",
+          "video_timestamp": "01:04:28"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:15",
+          "video_timestamp": "01:04:28"
+        }
+      ]
+    }
+  ]
+}
