@@ -529,10 +529,10 @@
     }
 }
 
-/* display:flex would otherwise beat the attribute (match-filter.js hides rows). */
+/* display:flex would otherwise beat the attribute (list-filter.js hides rows). */
 .match-history-row[hidden] { display: none; }
 
-/* --- Filter bar (matches page, assets/js/modules/match-filter.js) --- */
+/* --- Filter bar (matches and squares pages, assets/js/modules/list-filter.js) --- */
 
 .filter-bar {
     display: flex;

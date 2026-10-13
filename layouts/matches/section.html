@@ -18,8 +18,8 @@
       {{- end }}
     {{- end }}
 
-    {{- /* Hidden until assets/js/modules/match-filter.js wires it up. */}}
-    <form class="filter-bar" data-match-filter hidden>
+    {{- /* Hidden until assets/js/modules/list-filter.js wires it up. */}}
+    <form class="filter-bar" data-list-filter data-list="#match-list" data-empty="#match-list-empty" data-noun="matches" hidden>
       <label class="filter-field">
         <span>Season</span>
         <select name="season">
@@ -42,18 +42,18 @@
         <span>Sort</span>
         <select name="sort">
           <option value="newest">Newest first</option>
-          <option value="oldest">Oldest first</option>
+          <option value="oldest" data-key="date" data-dir="asc">Oldest first</option>
         </select>
       </label>
       <p class="filter-count" aria-live="polite"></p>
     </form>
 
-    <ul class="match-history" data-match-list>
+    <ul class="match-history" id="match-list">
       {{- range $matches }}
         {{ partial "match-row.html" . }}
       {{- end }}
     </ul>
-    <p class="filter-empty" hidden>No matches fit these filters.</p>
+    <p class="filter-empty" id="match-list-empty" hidden>No matches fit these filters.</p>
   </main>
 
   <div id="persistent-sidebar" data-turbo-permanent>

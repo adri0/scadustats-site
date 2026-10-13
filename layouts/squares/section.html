@@ -17,15 +17,41 @@
   transcribed in a way the catalogue doesn&rsquo;t recognise, and {{ if eq (len .) 1 }}is{{ else }}are{{ end }} listed in grey.{{ end }}
 </p>
 
-<h2>Base game</h2>
-{{ partial "square-table.html" (sort (where $seen "game_type" "base") "marks" "desc") }}
-
-<h2>DLC</h2>
-{{ partial "square-table.html" (sort (where $seen "game_type" "dlc") "marks" "desc") }}
 {{- with where $seen "game_type" "2v2" }}
-
-<h2>Co-op</h2>
 <p>Season 5's 2v2 boards mixed base game, DLC and co-op squares; a co-op square needs both players of a team.</p>
-{{ partial "square-table.html" (sort . "marks" "desc") }}
 {{- end }}
+
+{{- /* Hidden until assets/js/modules/list-filter.js wires it up. The rows
+       come most claimed first, the first sort option. */}}
+<form class="filter-bar" data-list-filter data-list="#square-list" data-empty="#square-list-empty" data-noun="goals" hidden>
+  <label class="filter-field">
+    <span>Type</span>
+    <select name="type">
+      <option value="">All types</option>
+      {{- range slice "base" "dlc" "2v2" }}
+        {{- if where $seen "game_type" . }}
+      <option value="{{ . }}">{{ partial "square-type-label.html" . }}</option>
+        {{- end }}
+      {{- end }}
+    </select>
+  </label>
+  <label class="filter-field filter-field-grow">
+    <span>Goal</span>
+    <input type="search" name="goal" placeholder="Any goal" autocomplete="off">
+  </label>
+  <label class="filter-field">
+    <span>Sort</span>
+    <select name="sort">
+      <option value="claimed">Most claimed</option>
+      <option value="cards" data-key="boards" data-dir="desc" data-type="number">Most on cards</option>
+      <option value="rate" data-key="rate" data-dir="desc" data-type="number">Highest claim rate</option>
+      <option value="rate-low" data-key="rate" data-dir="asc" data-type="number">Lowest claim rate</option>
+      <option value="name" data-key="goal" data-dir="asc">Goal A–Z</option>
+    </select>
+  </label>
+  <p class="filter-count" aria-live="polite"></p>
+</form>
+
+{{ partial "square-table.html" (dict "squares" (sort $seen "marks" "desc") "id" "square-list") }}
+<p class="filter-empty" id="square-list-empty" hidden>No goals fit these filters.</p>
 {{ end }}

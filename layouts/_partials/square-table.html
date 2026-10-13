@@ -1,17 +1,22 @@
-{{- /* Input: a slice of {id, text, game_type, known, boards, marks}, already ordered.
-       Catalogued goals link to their own page. */ -}}
+{{- /* Input: {squares, id}: a slice of {id, text, game_type, known, boards,
+       marks}, already ordered, and the id of the table body. Catalogued goals
+       link to their own page. The rows' data-* attributes feed the squares
+       page's filter bar (assets/js/modules/list-filter.js); data-rate is -1
+       for a goal never dealt, so it sorts below 0%. */ -}}
 <div class="table-wrap">
   <table class="stats-table square-table">
     <thead>
-      <tr><th>Goal</th><th>On cards</th><th>Claimed</th><th>Claim rate</th></tr>
+      <tr><th>Goal</th><th>Type</th><th>On cards</th><th>Claimed</th><th>Claim rate</th></tr>
     </thead>
-    <tbody>
-    {{- range . }}
-      <tr>
+    <tbody id="{{ .id }}">
+    {{- range .squares }}
+      {{- $rate := cond (gt .boards 0) (mul 100.0 (div (float .marks) (float .boards))) -1.0 }}
+      <tr data-type="{{ .game_type }}" data-goal="{{ lower .text }}" data-boards="{{ .boards }}" data-marks="{{ .marks }}" data-rate="{{ $rate }}">
         <td class="square-text{{ if not .known }} square-unknown{{ end }}">{{ $text := .text }}{{ with partial "lib/square-path.html" . }}<a href="{{ . | relURL }}">{{ $text }}</a>{{ else }}{{ $text }}{{ end }}</td>
+        <td class="square-type">{{ partial "square-type-label.html" .game_type }}</td>
         <td>{{ .boards }}</td>
         <td>{{ .marks }}</td>
-        <td>{{ if .boards }}{{ printf "%.0f%%" (mul 100.0 (div (float .marks) (float .boards))) }}{{ else }}—{{ end }}</td>
+        <td>{{ if ge $rate 0.0 }}{{ printf "%.0f%%" $rate }}{{ else }}—{{ end }}</td>
       </tr>
     {{- end }}
     </tbody>
