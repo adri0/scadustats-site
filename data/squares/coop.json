@@ -85,6 +85,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "larval_tears_8",
+    "text": "Collect 8 larval tears",
+    "game_type": "2v2"
+  },
+  {
     "id": "memb_hitless_3",
     "text": "Kill 3 Remembrance Bosses Hitless",
     "game_type": "2v2"
