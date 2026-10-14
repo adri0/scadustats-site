@@ -240,6 +240,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "dragon_drake_bosses_3",
+    "text": "Kill 3 Dragons or Drakes bosses",
+    "game_type": "dlc"
+  },
+  {
     "id": "dragon_heart_bosses_3",
     "text": "Kill 3 Dragon Bosses",
     "game_type": "dlc"
