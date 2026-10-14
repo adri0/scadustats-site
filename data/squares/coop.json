@@ -65,6 +65,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "fire_giant_scadutree",
+    "text": "Kill Fire Giant and Scadutree",
+    "game_type": "2v2"
+  },
+  {
     "id": "godrick_dancing_lion",
     "text": "Kill Godrick and Dancing Lion",
     "game_type": "2v2"
@@ -87,6 +92,11 @@
   {
     "id": "larval_tears_8",
     "text": "Collect 8 larval tears",
+    "game_type": "2v2"
+  },
+  {
+    "id": "larval_tears_9",
+    "text": "Collect 9 larval tears",
     "game_type": "2v2"
   },
   {
@@ -122,6 +132,11 @@
   {
     "id": "pots_3_each",
     "text": "Collect 3 of each Pot",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pots_4_each",
+    "text": "Collect 4 of each Pot",
     "game_type": "2v2"
   },
   {

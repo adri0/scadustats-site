@@ -1,0 +1,271 @@
+{
+  "match_id": "2025-10-25-Itzerino-vs-Monkey_Business",
+  "match_date": "2025-10-25",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Itzerino",
+  "player_blue_name": "Monkey Business",
+  "team_red": {
+    "name": "Itzerino",
+    "base_player": "YoJoSherino",
+    "dlc_player": "itzCBD"
+  },
+  "team_blue": {
+    "name": "Monkey Business",
+    "base_player": "LilAggy",
+    "dlc_player": "Mitchriz"
+  },
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=N_M7u6mO1Us",
+    "duration_s": 4661.983333333334,
+    "published_at": "2025-10-28",
+    "extracted_at": "2026-10-14"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 3678.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Malenia (B)",
+          "Kill Gurranq (B)",
+          "Kill 3 NPC Bosses (D)",
+          "Smithing-stone +16 weapon (B)",
+          "Complete 2 catacomb dungeons (B)"
+        ],
+        [
+          "Collect 4 of each Pot (C)",
+          "Collect 9 larval tears (C)",
+          "Kill Logur, the Beast Claw (D)",
+          "Kill Scadutree Avatar (D)",
+          "Kill 4 Demi human bosses (C)"
+        ],
+        [
+          "Collect 3 perfumer bottles (D)",
+          "Take Rya's hand to Volcano Manor (B)",
+          "Acquire 9 different Remembrances (C)",
+          "Complete an Altus Plateau Hero's Grave (B)",
+          "Kill a Demi Human Swordsman (D)"
+        ],
+        [
+          "Acquire 2 Kindred Cookbooks (D)",
+          "Kill Bayle while summoning Igon (D)",
+          "Kill Fire Giant and Scadutree (C)",
+          "Acquire Omen Bairn and Horned Bairn (C)",
+          "Kill Godrick and Dancing Lion (C)"
+        ],
+        [
+          "Collect 6 unique Staves (B)",
+          "Kill Dryleaf Dane in the Duel (D)",
+          "Kill 2 Bell Bearing Hunters (B)",
+          "Learn 14 different incantations (B)",
+          "Kill Ancient Dragon Senessax (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:24"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:57",
+          "video_timestamp": "00:09:21"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Dryleaf Dane in the Duel (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:55",
+          "video_timestamp": "00:13:19"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Logur, the Beast Claw (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:40",
+          "video_timestamp": "00:16:04"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Collect 3 perfumer bottles (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:48",
+          "video_timestamp": "00:16:12"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill a Demi Human Swordsman (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:27",
+          "video_timestamp": "00:18:51"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 2 Kindred Cookbooks (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:19",
+          "video_timestamp": "00:20:43"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 2 Bell Bearing Hunters (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:10",
+          "video_timestamp": "00:26:34"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Gurranq (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:40",
+          "video_timestamp": "00:27:04"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 NPC Bosses (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:47",
+          "video_timestamp": "00:27:11"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Collect 6 unique Staves (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:51",
+          "video_timestamp": "00:32:15"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Collect 4 of each Pot (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:15",
+          "video_timestamp": "00:36:39"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Scadutree Avatar (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:59",
+          "video_timestamp": "00:40:23"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Malenia (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:53",
+          "video_timestamp": "00:42:17"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Collect 9 larval tears (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:02",
+          "video_timestamp": "00:48:26"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Senessax (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:27",
+          "video_timestamp": "00:53:51"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 2 catacomb dungeons (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:30",
+          "video_timestamp": "00:55:54"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 4 Demi human bosses (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:50",
+          "video_timestamp": "00:57:14"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Godrick and Dancing Lion (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:40",
+          "video_timestamp": "01:00:04"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Complete an Altus Plateau Hero's Grave (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:54",
+          "video_timestamp": "01:00:18"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:56:54",
+          "video_timestamp": "01:00:18"
+        }
+      ]
+    }
+  ]
+}

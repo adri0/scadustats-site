@@ -674,6 +674,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "perfumer_bottles_3",
+    "text": "Collect 3 perfumer bottles",
+    "game_type": "dlc"
+  },
+  {
     "id": "perfumer_bottles_4",
     "text": "Collect 4 perfumer bottles",
     "game_type": "dlc"
