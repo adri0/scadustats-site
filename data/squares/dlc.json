@@ -712,6 +712,11 @@
     ]
   },
   {
+    "id": "remembrance_weapon_max",
+    "text": "Upgrade a Remembrance Weapon to Max",
+    "game_type": "dlc"
+  },
+  {
     "id": "revered_ashes_5",
     "text": "Level 5 Revered Spirit Ash",
     "game_type": "dlc",

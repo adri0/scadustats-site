@@ -55,6 +55,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "fallingstar_beasts_all",
+    "text": "Kill all Fallingstar Beasts",
+    "game_type": "2v2"
+  },
+  {
     "id": "fia_champs_leda",
     "text": "Kill Fia's Champs and Leda",
     "game_type": "2v2"
@@ -65,8 +70,18 @@
     "game_type": "2v2"
   },
   {
+    "id": "igon_varre_fingers",
+    "text": "Acquire Igon's finger and Varre's bloody finger",
+    "game_type": "2v2"
+  },
+  {
     "id": "imbued_keys_4",
     "text": "Acquire 4 Imbued Sword Keys",
+    "game_type": "2v2"
+  },
+  {
+    "id": "jar_greatjar_helmets",
+    "text": "Acquire Jar and Greatjar Helmets",
     "game_type": "2v2"
   },
   {

@@ -803,7 +803,10 @@
   {
     "id": "omenkiller_2",
     "text": "Kill 2 Omenkiller Bosses",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 2 Omenkiller boss"
+    ]
   },
   {
     "id": "oneil",
