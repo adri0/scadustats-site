@@ -510,7 +510,10 @@
   {
     "id": "max_upgrade_materials_2",
     "text": "Acquire 2 Different Max Upgrade Materials",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Acquire 2 Unique Max Upgrade Materials"
+    ]
   },
   {
     "id": "max_upgrade_materials_3",
