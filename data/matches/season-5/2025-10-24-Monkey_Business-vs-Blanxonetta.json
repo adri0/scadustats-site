@@ -1,0 +1,307 @@
+{
+  "match_id": "2025-10-24-Monkey_Business-vs-Blanxonetta",
+  "match_date": "2025-10-24",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Monkey Business",
+  "player_blue_name": "Blanxonetta",
+  "team_red": {
+    "name": "Monkey Business",
+    "base_player": "LilAggy",
+    "dlc_player": "Mitchriz"
+  },
+  "team_blue": {
+    "name": "Blanxonetta",
+    "base_player": "nessonetta",
+    "dlc_player": "blanxz"
+  },
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=EwSBtdl4ZuE",
+    "duration_s": 5923.983333333334,
+    "published_at": "2025-10-27",
+    "extracted_at": "2026-10-14"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4884.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_1",
+      "square_texts": [
+        [
+          "Kill a Red Wolf and a Red Bear (C)",
+          "Collect 8 larval tears (C)",
+          "Kill Fia's Champs and Leda (C)",
+          "Kill the Golden Hippo (D)",
+          "Kill 5 bosses with 'tree' in their name (B)"
+        ],
+        [
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "Return Thop's academy key (B)",
+          "Kill 5 Bosses that Ride a Horse (B)",
+          "Acquire 3 Blessings of Marika (D)",
+          "Acquire Igon's finger and Varre's bloody finger (C)"
+        ],
+        [
+          "Kill Midra, Lord of Frenzied Flame (D)",
+          "Acquire 4 Imbued Sword Keys (C)",
+          "Collect 3 Painting rewards (B)",
+          "Upgrade a Remembrance Weapon to Max (D)",
+          "Acquire the Perfumed Oil of Ranah (D)"
+        ],
+        [
+          "Kill a Remembrance boss daggers, claws, or fists only (B)",
+          "Restore Godrick's Great Rune (B)",
+          "Collect 6 unique Staves (B)",
+          "Put Florissax to Sleep (D)",
+          "Complete 2 Nameless Mausoleums (D)"
+        ],
+        [
+          "Kill Godrick and Dancing Lion (C)",
+          "Memory of grace with 300k runes (D)",
+          "Kill Bayle while summoning Igon (D)",
+          "Acquire Both Scarseal Talismans (B)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2] (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:39"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill the Golden Hippo (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:14",
+          "video_timestamp": "00:12:53"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Red Wolf and a Red Bear (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:52",
+          "video_timestamp": "00:16:31"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Memory of grace with 300k runes (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:48",
+          "video_timestamp": "00:17:27"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Collect 3 Painting rewards (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:55",
+          "video_timestamp": "00:18:34"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Return Thop's academy key (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:06",
+          "video_timestamp": "00:19:45"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Put Florissax to Sleep (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:53",
+          "video_timestamp": "00:21:32"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Both Scarseal Talismans (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:13",
+          "video_timestamp": "00:22:52"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire the Perfumed Oil of Ranah (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:01",
+          "video_timestamp": "00:24:40"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Restore Godrick's Great Rune (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:47",
+          "video_timestamp": "00:27:26"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Collect 6 unique Staves (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:40",
+          "video_timestamp": "00:33:19"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Upgrade a Remembrance Weapon to Max (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:34",
+          "video_timestamp": "00:34:13"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 4 Imbued Sword Keys (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:02",
+          "video_timestamp": "00:35:41"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:40",
+          "video_timestamp": "00:39:19"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Godrick and Dancing Lion (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:39",
+          "video_timestamp": "00:40:18"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 2 Nameless Mausoleums (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:39",
+          "video_timestamp": "00:45:18"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:44",
+          "video_timestamp": "00:45:23"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Igon's finger and Varre's bloody finger (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:53",
+          "video_timestamp": "00:53:32"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:42",
+          "video_timestamp": "00:58:21"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Bayle while summoning Igon (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:19",
+          "video_timestamp": "01:01:58"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:43",
+          "video_timestamp": "01:03:22"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Collect 8 larval tears (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:14",
+          "video_timestamp": "01:07:53"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 5 bosses with 'tree' in their name (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:59",
+          "video_timestamp": "01:17:38"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Midra, Lord of Frenzied Flame (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:15:29",
+          "video_timestamp": "01:19:08"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:15:29",
+          "video_timestamp": "01:19:08"
+        }
+      ]
+    }
+  ]
+}
