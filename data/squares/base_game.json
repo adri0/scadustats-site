@@ -44,6 +44,11 @@
     "game_type": "base"
   },
   {
+    "id": "altus_plateau_heros_grave",
+    "text": "Complete an Altus Plateau Hero's Grave",
+    "game_type": "base"
+  },
+  {
     "id": "ancestor_1",
     "text": "Kill an Ancestor Spirit",
     "game_type": "base"
@@ -146,7 +151,10 @@
   {
     "id": "catacombs_2",
     "text": "Complete 2 Catacombs",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Complete 2 catacomb dungeons"
+    ]
   },
   {
     "id": "catacombs_3",
