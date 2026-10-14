@@ -1,0 +1,307 @@
+{
+  "match_id": "2025-10-12-Monkey_Business-vs-Bushy_Stache",
+  "match_date": "2025-10-12",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Monkey Business",
+  "player_blue_name": "Bushy Stache",
+  "team_red": {
+    "name": "Monkey Business",
+    "base_player": "LilAggy",
+    "dlc_player": "Mitchriz"
+  },
+  "team_blue": {
+    "name": "Bushy Stache",
+    "base_player": "Bushy",
+    "dlc_player": "Vswed"
+  },
+  "commentators": [
+    "Parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=OA_JOfV-G8k",
+    "duration_s": 4499.0,
+    "published_at": "2025-10-14",
+    "extracted_at": "2026-10-13"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 3644.0,
+      "game_type": "2v2",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire both Turtle Talisman (C)",
+          "Kill a Dragonkin Soldier (B)",
+          "Kill Starscourge Radahn and Commander Gaius (C)",
+          "Acquire 10 Cracked Pots (B)",
+          "Kill Evergaol Bols and Ensis Bols (C)"
+        ],
+        [
+          "Clear 3 Evergaols and 2 gaols (C)",
+          "Collect 3 of each Pot (C)",
+          "Acquire Omen Bairn and Horned Bairn (C)",
+          "Kill Putrescent Knight (D)",
+          "Kill 6 bosses in Liurnia (B)"
+        ],
+        [
+          "Restore Morgott's Great Rune (B)",
+          "Acquire 7 unique Incantations (D)",
+          "Kill 1 Boss of each: Bear, Hippo, Bird (C)",
+          "Buy 20 Boiled Crab from Boggart (B)",
+          "Kill Dryleaf Dane in the Duel (D)"
+        ],
+        [
+          "Blow a Finger (D)",
+          "Collect 6 unique Staves (B)",
+          "Kill 2 Dancing Lion Boss (D)",
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood (D)",
+          "Kill a Base Game Boss in DLC (D)"
+        ],
+        [
+          "Kill Ancient Dragon Man Boss (D)",
+          "Kill the Milicent invader in Caelid (B)",
+          "Kill a Black Blade Kindred (B)",
+          "Acquire a Leda Rune (D)",
+          "Acquire Margit's and Mohg's Shackles (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:02",
+          "video_timestamp": "00:00:07"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Collect 3 of each Pot (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:07",
+          "video_timestamp": "00:09:16"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill the Milicent invader in Caelid (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:42",
+          "video_timestamp": "00:10:51"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 10 Cracked Pots (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:02",
+          "video_timestamp": "00:11:11"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Ancient Dragon Man Boss (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:38",
+          "video_timestamp": "00:17:47"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Evergaol Bols and Ensis Bols (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:10",
+          "video_timestamp": "00:20:19"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire both Turtle Talisman (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:31",
+          "video_timestamp": "00:20:40"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Dryleaf Dane in the Duel (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:34",
+          "video_timestamp": "00:21:43"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Collect 6 unique Staves (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:29",
+          "video_timestamp": "00:23:38"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 1 Boss of each: Bear, Hippo, Bird (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:29",
+          "video_timestamp": "00:27:38"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Blow a Finger (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:26",
+          "video_timestamp": "00:28:35"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire a Leda Rune (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:43",
+          "video_timestamp": "00:30:52"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Base Game Boss in DLC (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:08",
+          "video_timestamp": "00:32:17"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Dragonkin Soldier (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:46",
+          "video_timestamp": "00:33:55"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Black Blade Kindred (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:05",
+          "video_timestamp": "00:37:14"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Liurnia (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:50",
+          "video_timestamp": "00:39:59"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Clear 3 Evergaols and 2 gaols (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:15",
+          "video_timestamp": "00:41:24"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Buy 20 Boiled Crab from Boggart (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:01",
+          "video_timestamp": "00:42:10"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:46",
+          "video_timestamp": "00:43:55"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Starscourge Radahn and Commander Gaius (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:51",
+          "video_timestamp": "00:48:00"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 7 unique Incantations (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:50",
+          "video_timestamp": "00:56:59"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Omen Bairn and Horned Bairn (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:17",
+          "video_timestamp": "00:59:26"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire both Turtle Talisman (C)",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:56:20",
+          "video_timestamp": "00:59:49"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire both Turtle Talisman (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:20",
+          "video_timestamp": "01:00:02"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:56:20",
+          "video_timestamp": "01:00:02"
+        }
+      ]
+    }
+  ]
+}
