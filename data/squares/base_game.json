@@ -1133,6 +1133,11 @@
     ]
   },
   {
+    "id": "watchdogs_5",
+    "text": "Kill 5 Watchdogs",
+    "game_type": "base"
+  },
+  {
     "id": "whetstone_3",
     "text": "Acquire 3 Whetstone Knives",
     "game_type": "base"

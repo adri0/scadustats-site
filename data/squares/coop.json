@@ -190,6 +190,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "three_fingers_midra",
+    "text": "Hug the 3 Fingers and Kill Midra",
+    "game_type": "2v2"
+  },
+  {
     "id": "tree_sentinel_duos",
     "text": "Kill both Tree Sentinel Duo's",
     "game_type": "2v2"
