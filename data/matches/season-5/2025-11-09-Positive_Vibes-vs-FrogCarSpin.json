@@ -1,0 +1,436 @@
+{
+  "match_id": "2025-11-09-Positive_Vibes-vs-FrogCarSpin",
+  "match_date": "2025-11-09",
+  "season": "5",
+  "match_type": "double_elimination",
+  "player_red_name": "Positive Vibes",
+  "player_blue_name": "FrogCarSpin",
+  "team_red": {
+    "name": "Positive Vibes",
+    "base_player": "star0chris",
+    "dlc_player": "Adef"
+  },
+  "team_blue": {
+    "name": "FrogCarSpin",
+    "base_player": "blueberrybrioche",
+    "dlc_player": "NuclearPastaTom"
+  },
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=rRRxi5yKsLw",
+    "duration_s": 8820.0,
+    "published_at": "2025-11-12",
+    "extracted_at": "2026-10-14"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 1970.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "col_2",
+      "square_texts": [
+        [
+          "Acquire Igon's finger and Varre's bloody finger (C)",
+          "Kill 2 Elder Lions (B)",
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "Kill Fire Giant (B)",
+          "Kill Limgrave Tree Sentinel with a +0 weapon only (B)"
+        ],
+        [
+          "Kill a Red Wolf and a Red Bear (C)",
+          "Smithing-stone +16 weapon (B)",
+          "Kill one of each Crucible Knight (C)",
+          "Kill Rennala and Rellana (C)",
+          "Memory of grace with 300k runes (D)"
+        ],
+        [
+          "Drain the Water in the Church District (D)",
+          "Visit 5 Miquella Crosses (D)",
+          "Blow a Finger (D)",
+          "Kill a Remembrance boss bow only (B)",
+          "Restore Godrick's Great Rune (B)"
+        ],
+        [
+          "Kill a Base Game Boss in DLC (D)",
+          "Kill the Madding Hand NPC (D)",
+          "Kill the Sleep pot Troll (D)",
+          "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness (C)",
+          "Kill Loretta (Blue Spirit) (B)"
+        ],
+        [
+          "Acquire the Full Gravebird Armor Set (D)",
+          "Kill 2 Hippos (D)",
+          "Kill Fia's Champs and Leda (C)",
+          "Acquire Smithing-stone Bell Bearing [1] and [2] (B)",
+          "Kill 4 NPC Invaders (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:09"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon only (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:15",
+          "video_timestamp": "00:06:24"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Visit 5 Miquella Crosses (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:12",
+          "video_timestamp": "00:09:21"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Smithing-stone +16 weapon (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:44",
+          "video_timestamp": "00:11:53"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Drain the Water in the Church District (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:12",
+          "video_timestamp": "00:14:21"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 2 Elder Lions (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:54",
+          "video_timestamp": "00:17:03"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Memory of grace with 300k runes (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:50",
+          "video_timestamp": "00:19:59"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 4 NPC Invaders (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:09",
+          "video_timestamp": "00:22:18"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Restore Godrick's Great Rune (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:01",
+          "video_timestamp": "00:23:10"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 2 Hippos (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:12",
+          "video_timestamp": "00:23:21"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2] (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:34",
+          "video_timestamp": "00:29:43"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Madding Hand NPC (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:31",
+          "video_timestamp": "00:30:40"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:27:31",
+          "video_timestamp": "00:30:40"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 2299.0,
+      "end_video_ts_s": 6211.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "col_2",
+      "square_texts": [
+        [
+          "Clear 3 Evergaols and 2 gaols (C)",
+          "Give Hyetta 3 Shabriri Grapes (B)",
+          "Kill Margit with 6+ Parries (B)",
+          "Acquire a Leda Rune (D)",
+          "Kill 4 Bosses with the word God in it (B)"
+        ],
+        [
+          "Kill 4 bosses in Liurnia (B)",
+          "Kill 1 Omenkiller boss (B)",
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "Use AoW Lightning Ram to kill 10 sheep (B)",
+          "Acquire Igon's Furled Finger (D)"
+        ],
+        [
+          "Acquire Omen Bairn and Horned Bairn (C)",
+          "Have St. Trina talk to you (D)",
+          "Kill Bloodhound Knight while summoning Blaidd (B)",
+          "Kill a Red Wolf and a Red Bear (C)",
+          "Kill Godfrey (Gold Spirit) (B)"
+        ],
+        [
+          "Kill Rykard and Messmer (C)",
+          "Kill Godrick and Dancing Lion (C)",
+          "Clear 2 Gaols (D)",
+          "Blow a Finger (D)",
+          "Acquire Level 11 Scadu (D)"
+        ],
+        [
+          "Kill a Boss with a +0 Weapon (D)",
+          "Complete 3 catacomb dungeons (B)",
+          "Acquire Jar and Greatjar Helmets (C)",
+          "Kill 3 Dragons or Drakes bosses (D)",
+          "Acquire 3 Kindred Cookbooks (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:45:00"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 1 Omenkiller boss (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:21",
+          "video_timestamp": "00:51:21"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Bloodhound Knight while summoning Blaidd (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:47",
+          "video_timestamp": "00:51:47"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Kindred Cookbooks (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:12",
+          "video_timestamp": "00:53:12"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:12",
+          "video_timestamp": "00:57:12"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Boss with a +0 Weapon (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:01",
+          "video_timestamp": "00:58:01"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Margit with 6+ Parries (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:49",
+          "video_timestamp": "01:00:49"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:16",
+          "video_timestamp": "01:09:16"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:48",
+          "video_timestamp": "01:11:48"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 4 bosses in Liurnia (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:00",
+          "video_timestamp": "01:15:00"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire a Leda Rune (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:36",
+          "video_timestamp": "01:15:36"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Blow a Finger (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:28",
+          "video_timestamp": "01:22:28"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 4 Bosses with the word God in it (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:58",
+          "video_timestamp": "01:23:58"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Level 11 Scadu (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:32",
+          "video_timestamp": "01:26:32"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Rykard and Messmer (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:34",
+          "video_timestamp": "01:30:34"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Godrick and Dancing Lion (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:28",
+          "video_timestamp": "01:31:28"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 3 catacomb dungeons (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:55",
+          "video_timestamp": "01:31:55"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Red Wolf and a Red Bear (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:37",
+          "video_timestamp": "01:32:37"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Give Hyetta 3 Shabriri Grapes (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:23",
+          "video_timestamp": "01:38:23"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Have St. Trina talk to you (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:39",
+          "video_timestamp": "01:42:39"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:57:39",
+          "video_timestamp": "01:42:39"
+        }
+      ]
+    }
+  ]
+}

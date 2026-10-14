@@ -594,7 +594,10 @@
   {
     "id": "liurnia_bosses_4",
     "text": "Kill 4 Bosses in Liurnia",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 4 bosses in Liurnia"
+    ]
   },
   {
     "id": "liurnia_bosses_5",
@@ -831,7 +834,10 @@
   {
     "id": "omenkiller_1",
     "text": "Kill 1 Omenkiller Boss",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 1 Omenkiller boss"
+    ]
   },
   {
     "id": "omenkiller_2",
@@ -1010,7 +1016,10 @@
   {
     "id": "smithing_bell_bearing_1_and_2",
     "text": "Acquire Smithing Stone Bell Bearing [1] and [2]",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Acquire Smithing-stone Bell Bearing [1] and [2]"
+    ]
   },
   {
     "id": "somber_9",
