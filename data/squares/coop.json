@@ -100,6 +100,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "non_merchant_bell_bearings_9",
+    "text": "Collect 9 non merchant Bell Bearings",
+    "game_type": "2v2"
+  },
+  {
     "id": "omen_horned_bairn",
     "text": "Acquire Omen Bairn and Horned Bairn",
     "game_type": "2v2"

@@ -139,6 +139,11 @@
     ]
   },
   {
+    "id": "caelid_bosses_6",
+    "text": "Kill 6 bosses in Caelid",
+    "game_type": "base"
+  },
+  {
     "id": "catacombs_2",
     "text": "Complete 2 Catacombs",
     "game_type": "base"
