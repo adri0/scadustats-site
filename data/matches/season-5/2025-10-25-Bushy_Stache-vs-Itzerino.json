@@ -1,0 +1,208 @@
+{
+  "match_id": "2025-10-25-Bushy_Stache-vs-Itzerino",
+  "match_date": "2025-10-25",
+  "season": "5",
+  "match_type": "round_robin",
+  "player_red_name": "Bushy Stache",
+  "player_blue_name": "Itzerino",
+  "team_red": {
+    "name": "Bushy Stache",
+    "base_player": "Bushy",
+    "dlc_player": "Vswed"
+  },
+  "team_blue": {
+    "name": "Itzerino",
+    "base_player": "YoJoSherino",
+    "dlc_player": "itzCBD"
+  },
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=80dVSsD4jPI",
+    "duration_s": 3083.0,
+    "published_at": "2025-10-28",
+    "extracted_at": "2026-10-14"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 2365.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Kill Moonrithyll, Carian Knight (D)",
+          "Return Thop's academy key (B)",
+          "Collect 9 larval tears (C)",
+          "Kill 2 Dancing Lion Boss (D)",
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)"
+        ],
+        [
+          "Kill Godskin Noble (Volcano Manor) without Status Effects (B)",
+          "Acquire 3 DLC Ashes of War (D)",
+          "Kill Tree Sentinel Duo (B)",
+          "Kill Evergaol Bols and Ensis Bols (C)",
+          "Somber +9 weapon (B)"
+        ],
+        [
+          "Kill 3 Remembrance Bosses Hitless (C)",
+          "Learn 14 different incantations (B)",
+          "Collect the full Haligtree Medallion (B)",
+          "Hug the 3 Fingers and Kill Midra (C)",
+          "Kill 5 Watchdogs (B)"
+        ],
+        [
+          "Acquire both Turtle Talisman (C)",
+          "Acquire Igon's Furled Finger (D)",
+          "Clear 2 Catacombs (D)",
+          "Kill Lamenter Boss (D)",
+          "30 Int (no rebirth or buffs) (B)"
+        ],
+        [
+          "Memory of grace with 300k runes (D)",
+          "Kill Wormface (B)",
+          "Acquire Igon's finger and Varre's bloody finger (C)",
+          "Kill Jori, The Elder Inquisitor (D)",
+          "Kill Metyr, Mother of Fingers (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:07"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "30 Int (no rebirth or buffs) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:58",
+          "video_timestamp": "00:08:05"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Ashes of War (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:44",
+          "video_timestamp": "00:12:51"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Somber +9 weapon (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:50",
+          "video_timestamp": "00:12:57"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Evergaol Bols and Ensis Bols (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:28",
+          "video_timestamp": "00:17:35"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Moonrithyll, Carian Knight (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:49",
+          "video_timestamp": "00:18:56"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Wormface (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:18",
+          "video_timestamp": "00:20:25"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire both Turtle Talisman (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:37",
+          "video_timestamp": "00:21:44"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Return Thop's academy key (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:03",
+          "video_timestamp": "00:31:10"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Igon's Furled Finger (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:07",
+          "video_timestamp": "00:31:14"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Collect the full Haligtree Medallion (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:08",
+          "video_timestamp": "00:31:15"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Memory of grace with 300k runes (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:18",
+          "video_timestamp": "00:31:25"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:54",
+          "video_timestamp": "00:38:01"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:34:54",
+          "video_timestamp": "00:38:01"
+        }
+      ]
+    }
+  ]
+}

@@ -420,7 +420,10 @@
   {
     "id": "jori",
     "text": "Kill Jori, Elder Inquisitor",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill Jori, The Elder Inquisitor"
+    ]
   },
   {
     "id": "kindred_cookbooks_2",
