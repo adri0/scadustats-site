@@ -582,6 +582,11 @@
     "game_type": "base"
   },
   {
+    "id": "limgrave_only_bosses_6",
+    "text": "Kill 6 bosses in Limgrave",
+    "game_type": "base"
+  },
+  {
     "id": "liurnia_bosses_4",
     "text": "Kill 4 Bosses in Liurnia",
     "game_type": "base"
@@ -801,6 +806,11 @@
   {
     "id": "nights_calv_3",
     "text": "Kill 3 Unique Night's Cavalry",
+    "game_type": "base"
+  },
+  {
+    "id": "nights_calv_4",
+    "text": "Kill 4 Night's Cavalry",
     "game_type": "base"
   },
   {

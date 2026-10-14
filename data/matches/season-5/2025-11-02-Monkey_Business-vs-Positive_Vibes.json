@@ -1,0 +1,454 @@
+{
+  "match_id": "2025-11-02-Monkey_Business-vs-Positive_Vibes",
+  "match_date": "2025-11-02",
+  "season": "5",
+  "match_type": "double_elimination",
+  "player_red_name": "Monkey Business",
+  "player_blue_name": "Positive Vibes",
+  "team_red": {
+    "name": "Monkey Business",
+    "base_player": "LilAggy",
+    "dlc_player": "Mitchriz"
+  },
+  "team_blue": {
+    "name": "Positive Vibes",
+    "base_player": "star0chris",
+    "dlc_player": "Adef"
+  },
+  "commentators": [
+    "blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=MyKntacN2FY",
+    "duration_s": 8693.0,
+    "published_at": "2025-11-05",
+    "extracted_at": "2026-10-14"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 3022.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_5",
+      "square_texts": [
+        [
+          "Kill Greyoll without Status Effects (B)",
+          "Kill 3 Dragons or Drakes bosses (D)",
+          "Acquire Fingerslayer Blade (B)",
+          "Kill all Fallingstar Beasts (C)",
+          "Kill Senessax and Lansseax (C)"
+        ],
+        [
+          "Memory of grace with 300k runes (D)",
+          "Kill Rykard and Messmer (C)",
+          "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "Acquire 3 Blessings of Marika (D)",
+          "Kill the Madding Hand NPC (D)"
+        ],
+        [
+          "Collect 3 perfumer bottles (D)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2] (B)",
+          "Kill Commander O'Neil (B)",
+          "Kill Evergaol Bols and Ensis Bols (C)",
+          "Kill Rennala and Rellana (C)"
+        ],
+        [
+          "Give an Iris of Occultation (D)",
+          "Acquire Jolan & Anna Summon (D)",
+          "Kill a Death Knight (D)",
+          "Acquire 4 Imbued Sword Keys (C)",
+          "Kill 4 Tibia Mariners (B)"
+        ],
+        [
+          "Kill Rennala after she Summons 4 Spirits (B)",
+          "Kill a Magma Wyrm boss (B)",
+          "Kill 3 Remembrance Bosses Hitless (C)",
+          "Acquire 3 DLC Spirit Ashes (D)",
+          "Somber +9 weapon (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:04"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Collect 3 perfumer bottles (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:39",
+          "video_timestamp": "00:08:43"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Somber +9 weapon (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:24",
+          "video_timestamp": "00:12:28"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Commander O'Neil (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:42",
+          "video_timestamp": "00:16:46"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Memory of grace with 300k runes (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:11",
+          "video_timestamp": "00:17:15"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Evergaol Bols and Ensis Bols (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:48",
+          "video_timestamp": "00:18:52"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Greyoll without Status Effects (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:43",
+          "video_timestamp": "00:23:47"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Rennala and Rellana (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:34",
+          "video_timestamp": "00:26:38"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Rennala after she Summons 4 Spirits (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:35",
+          "video_timestamp": "00:26:39"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 Blessings of Marika (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:10",
+          "video_timestamp": "00:30:14"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Magma Wyrm boss (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:02",
+          "video_timestamp": "00:31:06"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 4 Imbued Sword Keys (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:27",
+          "video_timestamp": "00:32:31"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2] (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:23",
+          "video_timestamp": "00:36:27"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Spirit Ashes (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:19",
+          "video_timestamp": "00:37:23"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:08",
+          "video_timestamp": "00:43:12"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Death Knight (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:58",
+          "video_timestamp": "00:44:02"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Remembrance Bosses Hitless (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:54",
+          "video_timestamp": "00:48:00"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:44:54",
+          "video_timestamp": "00:48:00"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3838.0,
+      "end_video_ts_s": 7228.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "col_4",
+      "square_texts": [
+        [
+          "Restore Godrick's Great Rune (B)",
+          "Kill one of each Crucible Knight (C)",
+          "Kill 3 Duo/Trio Bosses (B)",
+          "Kill Rennala and Rellana (C)",
+          "Kill Rykard and Messmer (C)"
+        ],
+        [
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood (D)",
+          "Acquire the Perfumed Oil of Ranah (D)",
+          "Kill Ancient Dragon Senessax (D)",
+          "Kill 5 Watchdogs (B)",
+          "Collect 3 Painting rewards (B)"
+        ],
+        [
+          "Kill Rellana, Twin Moon Knight (D)",
+          "Kill Logur, the Beast Claw (D)",
+          "Kill 2 unique Curseblade Assassins (D)",
+          "Kill 4 Night's Cavalry (B)",
+          "Acquire Jar and Greatjar Helmets (C)"
+        ],
+        [
+          "Kill 1 Boss of each: Bear, Hippo, Bird (C)",
+          "Kill Midra, Lord of Frenzied Flame (D)",
+          "Kill 3 Dragons or Drakes bosses (D)",
+          "Kill Starscourge Radahn and Commander Gaius (C)",
+          "Acquire 7 different Remembrances (C)"
+        ],
+        [
+          "Kill 6 bosses in Limgrave (B)",
+          "Kill 3 Cemetery Shades (B)",
+          "Drain the Water in the Church District (D)",
+          "Complete 3 catacomb dungeons (B)",
+          "Kill Gurranq (B)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:07:50"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 unique Curseblade Assassins (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:08",
+          "video_timestamp": "01:16:58"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Logur, the Beast Claw (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:41",
+          "video_timestamp": "01:18:31"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Restore Godrick's Great Rune (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:24",
+          "video_timestamp": "01:21:14"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Complete 3 catacomb dungeons (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:24",
+          "video_timestamp": "01:23:14"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Drain the Water in the Church District (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:14",
+          "video_timestamp": "01:24:04"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rellana, Twin Moon Knight (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:49",
+          "video_timestamp": "01:27:39"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 6 bosses in Limgrave (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:04",
+          "video_timestamp": "01:28:54"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Collect 3 Painting rewards (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:25",
+          "video_timestamp": "01:32:15"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Perfumed Oil of Ranah (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:05",
+          "video_timestamp": "01:34:55"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Gurranq (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:35",
+          "video_timestamp": "01:38:25"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Starscourge Radahn and Commander Gaius (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:13",
+          "video_timestamp": "01:41:03"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 4 Night's Cavalry (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:13",
+          "video_timestamp": "01:45:03"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:19",
+          "video_timestamp": "01:46:09"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Rennala and Rellana (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:41",
+          "video_timestamp": "01:51:31"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 3 Dragons or Drakes bosses (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:09",
+          "video_timestamp": "01:54:59"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 5 Watchdogs (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:16",
+          "video_timestamp": "01:59:06"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:51:16",
+          "video_timestamp": "01:59:06"
+        }
+      ]
+    }
+  ]
+}
