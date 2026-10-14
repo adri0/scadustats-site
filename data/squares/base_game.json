@@ -250,6 +250,11 @@
     "game_type": "base"
   },
   {
+    "id": "dragon_heart_bosses_2",
+    "text": "Kill 2 Dragon Heart bosses",
+    "game_type": "base"
+  },
+  {
     "id": "dragon_heart_bosses_3",
     "text": "Kill 3 Dragon Heart Bosses",
     "game_type": "base"
