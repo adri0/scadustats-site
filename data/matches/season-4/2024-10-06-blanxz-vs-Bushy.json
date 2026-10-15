@@ -1,0 +1,252 @@
+{
+  "match_id": "2024-10-06-blanxz-vs-Bushy",
+  "match_date": "2024-10-06",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "Bushy",
+  "commentators": [
+    "itzCBD",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=GlKDD5wU4m8",
+    "duration_s": 4724.583333333333,
+    "published_at": "2024-10-09",
+    "extracted_at": "2026-10-16"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4067.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_1",
+      "square_texts": [
+        [
+          "Acquire Verdigris Discus",
+          "Kill 2 unique Curseblade Assassins",
+          "Kill the Tree Sentinel Duo",
+          "Acquire 2 Painting Rewards",
+          "Kill the Golden Hippo"
+        ],
+        [
+          "Acquire the Aged Ones Exultation Talisman",
+          "Kill Bayle while summoning Igon",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Acquire Commander Gaius's Pants",
+          "Kill a Boss with Hand to Hand only"
+        ],
+        [
+          "Clear 2 Gaols",
+          "Acquire Level 10 Scadu",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Kill Messmer",
+          "Acquire a Leda Rune"
+        ],
+        [
+          "Acquire 4 DLC Talismans",
+          "Acquire 2 Blessings of Marika",
+          "Kill 3 Dragon Bosses",
+          "Kill Moonrithyll, Carian Knight",
+          "Kill a Death Knight"
+        ],
+        [
+          "Drink Thiollier's Concoction",
+          "Put Florissax to Sleep",
+          "Kill Chief Bloodfiend",
+          "Sell Bloodfiends Arm +0",
+          "Acquire 2 Hanging Pot Bell Bearings"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:42"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:34",
+          "video_timestamp": "00:08:16"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:53",
+          "video_timestamp": "00:10:35"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:12",
+          "video_timestamp": "00:12:54"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:10",
+          "video_timestamp": "00:14:52"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:13",
+          "video_timestamp": "00:19:55"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:00",
+          "video_timestamp": "00:25:42"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:04",
+          "video_timestamp": "00:29:46"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:09",
+          "video_timestamp": "00:29:51"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:47",
+          "video_timestamp": "00:32:29"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:28",
+          "video_timestamp": "00:37:10"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:21",
+          "video_timestamp": "00:38:03"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:38",
+          "video_timestamp": "00:42:20"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:15",
+          "video_timestamp": "00:44:57"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:00",
+          "video_timestamp": "00:46:42"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:25",
+          "video_timestamp": "00:52:07"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Boss with Hand to Hand only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:26",
+          "video_timestamp": "00:56:08"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:20",
+          "video_timestamp": "01:02:02"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:08",
+          "video_timestamp": "01:06:50"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:03:08",
+          "video_timestamp": "01:06:50"
+        }
+      ]
+    }
+  ]
+}
