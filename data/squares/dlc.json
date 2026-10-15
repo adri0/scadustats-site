@@ -84,6 +84,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "boss_plus0",
+    "text": "Kill a Boss with a +0 Weapon",
+    "game_type": "dlc"
+  },
+  {
     "id": "boss_sorceries_only",
     "text": "Kill a Boss with Sorceries Only",
     "game_type": "dlc"
