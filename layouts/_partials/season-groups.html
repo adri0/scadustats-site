@@ -15,13 +15,15 @@
   {{- $rows := $g.rows }}
 
   <div class="rr-group">
-    <h3>{{ $g.name }}</h3>
+    {{- with $g.name }}
+    <h3>{{ . }}</h3>
+    {{- end }}
     <div class="table-wrap">
       <table class="stats-table rr-table">
         <thead>
           <tr>
             <th>#</th>
-            <th>Player</th>
+            <th>{{ cond (and $rows (index $rows 0).player.team) "Team" "Player" }}</th>
             {{- range $j, $_ := $rows }}<th class="rr-col" title="{{ .player.display_name }}">{{ add $j 1 }}</th>{{ end }}
             <th title="Games won">Pts</th>
             <th title="Matches won–lost–drawn">Win–Loss–Draw</th>
@@ -53,9 +55,12 @@
     </div>
   </div>
 {{- end }}
+  {{- /* A key for each place the groups led to (`qualify`), in order. */}}
+  {{- $labels := dict "upper" "Upper bracket" "lower" "Lower bracket" "playoffs" "Playoffs" }}
   <p class="rr-legend">
-    <span class="rr-key rr-key-upper"></span> Upper bracket
-    <span class="rr-key rr-key-lower"></span> Lower bracket
+    {{- range uniq $cfg.qualify }}
+    <span class="rr-key rr-key-{{ . }}"></span> {{ index $labels . | default (humanize .) }}
+    {{- end }}
     <span class="rr-key rr-key-out"></span> Eliminated
     · Pts = games won · <span class="rr-missing">·</span> = not transcribed
   </p>

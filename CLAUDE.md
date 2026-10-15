@@ -149,7 +149,12 @@ A bracket match can also have `loser_next` (where its loser dropped to, drawn da
 elbows into it turn) and `qualifies` (its winner qualified for a later season: framed, and listed in
 the overview instead of a champion). `bracket: playoffs` matches are a first phase drawn in the same
 diagram (pre-season 6). With no `bracket: final` match, the upper- and lower-bracket matches with no
-`next` decide 1st and 2nd. Either file may also be named `<id>.yaml` (`lib/season-file.html`).
+`next` decide 1st and 2nd. `bracket: third` is a third-place match (it decides 3rd and 4th), and any
+other value (Season 5's `semifinal`) is drawn without a section label. The bracket file's `phase`
+names the stage on the season page (default "Double elimination"; Season 5: "Single elimination").
+In a 2v2 season, group entries are team names from `data/teams.yaml` (`lib/entrant-lookup.html`), and
+a team's slot is the team itself. A group's `name` is optional. Either file may also be named
+`<id>.yaml` (`lib/season-file.html`).
 Both are optional per season; the season page's round-robin grids, bracket diagram and final
 placings (`lib/group-tables.html`, `lib/bracket-results.html`, `lib/final-placings.html`) only
 appear when they exist. Results are still recomputed from `data/matches`.

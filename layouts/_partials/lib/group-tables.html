@@ -40,7 +40,7 @@
   {{- range $g.players -}}
     {{- $name := . -}}
     {{- if reflect.IsMap . }}{{ $name = index .players 0 }}{{ else if reflect.IsSlice . }}{{ $name = index . 0 }}{{ end -}}
-    {{- $first := partial "lib/player-lookup.html" $name -}}
+    {{- $first := partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" $name) -}}
     {{- $players = $players | append (index $slots $first.slug) -}}
   {{- end -}}
   {{- $rows := slice -}}

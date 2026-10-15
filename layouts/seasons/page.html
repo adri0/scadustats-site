@@ -7,7 +7,7 @@
 {{- /* A bracket with `playoffs` matches (pre-season 6) is drawn as one
        diagram, from the play-offs through the double elimination. */}}
 {{- $bracketTitle := "Double elimination" }}
-{{- with $bracket }}{{ if where .matches "bracket" "playoffs" }}{{ $bracketTitle = "Play-offs and double elimination" }}{{ end }}{{ end }}
+{{- with $bracket }}{{ with .phase }}{{ $bracketTitle = . }}{{ end }}{{ if where .matches "bracket" "playoffs" }}{{ $bracketTitle = "Play-offs and double elimination" }}{{ end }}{{ end }}
 {{- /* Table of contents: one entry per section below, in page order, under
        the same conditions that render the section. */}}
 {{- $toc := slice (dict "id" "overview" "title" "Overview") }}
@@ -131,7 +131,7 @@
     <thead>
       <tr>
         <th rowspan="2">#</th>
-        <th rowspan="2" data-sort="text">Player</th>
+        <th rowspan="2" data-sort="text">{{ cond (and $standings (index $standings 0).player.team) "Team" "Player" }}</th>
         {{- if $placings }}
         <th rowspan="2" data-sort="number" data-sort-first="asc" title="Final placing in the season">Final</th>
         {{- end }}
