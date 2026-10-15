@@ -18,6 +18,11 @@
     ]
   },
   {
+    "id": "aged_ones_exultation_talisman",
+    "text": "Acquire the Aged Ones Exultation Talisman",
+    "game_type": "dlc"
+  },
+  {
     "id": "base_game_boss_1",
     "text": "Kill 1 Unique Base Game Boss in the DLC",
     "game_type": "dlc",
@@ -76,6 +81,11 @@
   {
     "id": "bols",
     "text": "Kill Bols in front of Castle Ensis",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_backhand_blades_only",
+    "text": "Kill a Boss with Backhand Blades only",
     "game_type": "dlc"
   },
   {
@@ -554,6 +564,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "memb_bosses_4",
+    "text": "Kill 4 Remembrance Bosses",
+    "game_type": "dlc"
+  },
+  {
     "id": "memb_hitless",
     "text": "Kill a Remembrance Boss Hitless",
     "game_type": "dlc"
@@ -836,6 +851,11 @@
   {
     "id": "sealing_tree",
     "text": "Burn the Sealing Tree",
+    "game_type": "dlc"
+  },
+  {
+    "id": "sell_great_katana_plus0",
+    "text": "Sell Great Katana +0",
     "game_type": "dlc"
   },
   {
