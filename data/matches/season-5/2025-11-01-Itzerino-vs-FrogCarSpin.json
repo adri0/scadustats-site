@@ -1,0 +1,607 @@
+{
+  "match_id": "2025-11-01-Itzerino-vs-FrogCarSpin",
+  "match_date": "2025-11-01",
+  "season": "5",
+  "match_type": "double_elimination",
+  "player_red_name": "Itzerino",
+  "player_blue_name": "FrogCarSpin",
+  "team_red": {
+    "name": "Itzerino",
+    "base_player": "YoJoSherino",
+    "dlc_player": "itzCBD"
+  },
+  "team_blue": {
+    "name": "FrogCarSpin",
+    "base_player": "blueberrybrioche",
+    "dlc_player": "NuclearPastaTom"
+  },
+  "commentators": [
+    "Vswed",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=7Ju1cDscacw",
+    "duration_s": 14679.983333333334,
+    "published_at": "2025-11-03",
+    "extracted_at": "2026-10-14"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 1.0,
+      "end_video_ts_s": 5956.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Reach Level 80 (D)",
+          "Drink Thiollier's Concoction (D)",
+          "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "Kill Mohg, Lord of Blood (B)",
+          "Kill Malenia (B)"
+        ],
+        [
+          "Kill Midra, Lord of Frenzied Flame (D)",
+          "Kill Loretta (Blue Spirit) (B)",
+          "Kill 1 Boss of each: Bear, Hippo, Wolf (C)",
+          "Somber +9 weapon (B)",
+          "Kill 3 Remembrance Bosses Hitless (C)"
+        ],
+        [
+          "Put Florissax to Sleep (D)",
+          "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "Kill a Remembrance boss incantations only (B)",
+          "Memory of grace with 300k runes (D)",
+          "Kill Morgott (B)"
+        ],
+        [
+          "Learn 12 different sorceries (B)",
+          "Collect the full Haligtree Medallion (B)",
+          "Kill Leda and her companions (D)",
+          "Kill Fia's Champs and Leda (C)",
+          "Kill 2 Pot throwing Trolls (C)"
+        ],
+        [
+          "Acquire Igon's finger and Varre's bloody finger (C)",
+          "Kill Moonrithyll, Carian Knight (D)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2] (B)",
+          "Kill a Furnace Golem (D)",
+          "Kill 3 Dragons or Drakes bosses (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:01"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Drink Thiollier's Concoction (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:01",
+          "video_timestamp": "00:07:02"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Somber +9 weapon (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:41",
+          "video_timestamp": "00:12:42"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Loretta (Blue Spirit) (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:20",
+          "video_timestamp": "00:16:21"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Moonrithyll, Carian Knight (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:36",
+          "video_timestamp": "00:19:37"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Reach Level 80 (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:11",
+          "video_timestamp": "00:25:12"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Collect the full Haligtree Medallion (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:51",
+          "video_timestamp": "00:26:52"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Memory of grace with 300k runes (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:44",
+          "video_timestamp": "00:28:45"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:39",
+          "video_timestamp": "00:34:40"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:17",
+          "video_timestamp": "00:37:18"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Furnace Golem (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:22",
+          "video_timestamp": "00:38:23"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Dragons or Drakes bosses (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:48",
+          "video_timestamp": "00:43:49"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Learn 12 different sorceries (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:15",
+          "video_timestamp": "00:44:16"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Pot throwing Trolls (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:42",
+          "video_timestamp": "00:46:43"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Malenia (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:24",
+          "video_timestamp": "00:51:25"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss incantations only (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:24",
+          "video_timestamp": "00:51:25"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Dupe a Remembrance at a Mausoleum and a Coffin (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:29",
+          "video_timestamp": "00:54:30"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Leda and her companions (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:51",
+          "video_timestamp": "00:59:52"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Igon's finger and Varre's bloody finger (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:59",
+          "video_timestamp": "01:02:00"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 1 Boss of each: Bear, Hippo, Wolf (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:25",
+          "video_timestamp": "01:05:26"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Remembrance Bosses Hitless (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:04",
+          "video_timestamp": "01:06:05"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Midra, Lord of Frenzied Flame (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:00",
+          "video_timestamp": "01:13:01"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [2] (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:09",
+          "video_timestamp": "01:16:10"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Mohg, Lord of Blood (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:47",
+          "video_timestamp": "01:21:48"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Morgott (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:52",
+          "video_timestamp": "01:23:53"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Fia's Champs and Leda (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:34:45",
+          "video_timestamp": "01:37:46"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:34:45",
+          "video_timestamp": "01:37:46"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 6674.0,
+      "end_video_ts_s": 13126.0,
+      "game_type": "2v2",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill one of each Crucible Knight (C)",
+          "Kill Mimic Tear consumables only (B)",
+          "Acquire Fingerslayer Blade (B)",
+          "Kill Romina and Malenia (C)",
+          "Acquire Igon's Furled Finger (D)"
+        ],
+        [
+          "Acquire a Leda Rune (D)",
+          "Kill Rennala and Rellana (C)",
+          "Acquire Commander Gaius's Pants (D)",
+          "Kill 5 Crucible Knights (B)",
+          "Kill a Remembrance boss incantations only (B)"
+        ],
+        [
+          "Collect 5 unique Seals (B)",
+          "Acquire 3 DLC Spirit Ashes (D)",
+          "Acquire Igon's finger and Varre's bloody finger (C)",
+          "Acquire 6 different Remembrances (C)",
+          "Kill Rennala after she Summons 4 Spirits (B)"
+        ],
+        [
+          "Kill 4 Tibia Mariners (B)",
+          "Kill Rykard and Messmer (C)",
+          "Use a Transformation (D)",
+          "Kill Romina (D)",
+          "Kill a Remembrance boss daggers, claws, or fists only (B)"
+        ],
+        [
+          "Acquire 4 Imbued Sword Keys (C)",
+          "Kill Rellana, Twin Moon Knight (D)",
+          "Kill 3 Ulcerated Tree Spirits (D)",
+          "Complete an Altus Plateau Hero's Grave (B)",
+          "Kill 1 Dancing Lion Boss (D)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:59:27"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Rellana, Twin Moon Knight (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:08",
+          "video_timestamp": "02:09:35"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Rennala after she Summons 4 Spirits (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:11",
+          "video_timestamp": "02:14:38"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Rennala and Rellana (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:12",
+          "video_timestamp": "02:14:39"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Commander Gaius's Pants (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:51",
+          "video_timestamp": "02:25:42"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Romina (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:21",
+          "video_timestamp": "02:26:12"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Mimic Tear consumables only (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:34",
+          "video_timestamp": "02:32:25"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 1 Dancing Lion Boss (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:25",
+          "video_timestamp": "02:33:16"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire a Leda Rune (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:57",
+          "video_timestamp": "02:36:48"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill one of each Crucible Knight (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:38",
+          "video_timestamp": "02:41:29"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:01",
+          "video_timestamp": "02:41:52"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Use a Transformation (D)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:23",
+          "video_timestamp": "02:46:14"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 DLC Spirit Ashes (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:14",
+          "video_timestamp": "02:47:05"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Igon's finger and Varre's bloody finger (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:48",
+          "video_timestamp": "02:51:39"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 6 different Remembrances (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:23",
+          "video_timestamp": "02:53:14"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:25",
+          "video_timestamp": "02:57:16"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Ulcerated Tree Spirits (D)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:35",
+          "video_timestamp": "02:59:26"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 4 Imbued Sword Keys (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:40",
+          "video_timestamp": "03:00:31"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Rykard and Messmer (C)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:37",
+          "video_timestamp": "03:01:28"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Collect 5 unique Seals (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:40",
+          "video_timestamp": "03:08:31"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 4 Tibia Mariners (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:51",
+          "video_timestamp": "03:16:42"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 5 Crucible Knights (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:02",
+          "video_timestamp": "03:20:53"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Complete an Altus Plateau Hero's Grave (B)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:02",
+          "video_timestamp": "03:20:53"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Romina and Malenia (C)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:28:16",
+          "video_timestamp": "03:29:07"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Fingerslayer Blade (B)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:36:44",
+          "video_timestamp": "03:37:35"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:36:44",
+          "video_timestamp": "03:37:35"
+        }
+      ]
+    }
+  ]
+}

@@ -235,6 +235,11 @@
     ]
   },
   {
+    "id": "crucible_knights_5",
+    "text": "Kill 5 Crucible Knights",
+    "game_type": "base"
+  },
+  {
     "id": "darriwil",
     "text": "Kill Darriwil while Summoning Blaidd",
     "game_type": "base"
@@ -960,6 +965,11 @@
     "game_type": "base"
   },
   {
+    "id": "seals_5",
+    "text": "Collect 5 unique Seals",
+    "game_type": "base"
+  },
+  {
     "id": "shackles",
     "text": "Acquire Margit's and Mohg's Shackles",
     "game_type": "base"
@@ -1052,7 +1062,10 @@
   {
     "id": "tibia_4",
     "text": "Kill 4 Unique Tibia Mariners",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 4 Tibia Mariners"
+    ]
   },
   {
     "id": "tree_bosses_5",

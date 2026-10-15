@@ -160,6 +160,11 @@
     "game_type": "2v2"
   },
   {
+    "id": "remembrances_6",
+    "text": "Acquire 6 different Remembrances",
+    "game_type": "2v2"
+  },
+  {
     "id": "remembrances_8",
     "text": "Acquire 8 different Remembrances",
     "game_type": "2v2"
