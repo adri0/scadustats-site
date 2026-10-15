@@ -164,6 +164,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "crucible_aspect_incantations",
+    "text": "Acquire Both Aspect of the Crucible Incantations",
+    "game_type": "dlc"
+  },
+  {
     "id": "curseblade_2",
     "text": "Kill 2 unique Curseblade Assassins",
     "game_type": "dlc"
