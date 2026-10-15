@@ -1,0 +1,11 @@
+# Hand-curated round robin for season 5 (2v2): six teams in one group, each
+# playing every other team once in a single game (videos 141-155). See
+# data/groups/season-6.yaml for the field reference. Entries are team names
+# from data/teams.yaml.
+#
+# Teams are listed in their final placing. The top four went to the playoffs
+# (data/brackets/season-5.yaml), seeded 1st vs 4th and 2nd vs 3rd.
+title: Round robin
+qualify: [playoffs, playoffs, playoffs, playoffs]
+groups:
+  - players: [FrogCarSpin, Positive Vibes, Monkey Business, Itzerino, Bushy Stache, Blanxonetta]

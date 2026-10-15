@@ -40,7 +40,8 @@
   {{- $cards = merge $cards (dict (string $e.id) (merge . (dict "m" $e "x" $x "y" $y))) -}}
 {{- end -}}
 
-{{- $width := add $left (mul (add $maxCol 1) $cardW) (mul $maxCol $colGap) -}}
+{{- /* $pad on the right too, so a framed (final) card in the last column isn't clipped. */ -}}
+{{- $width := add $left (mul (add $maxCol 1) $cardW) (mul $maxCol $colGap) $pad -}}
 {{- $height := add $pad (mul $maxRow $rowUnit) $cardH $pad -}}
 
 <figure class="bracket">

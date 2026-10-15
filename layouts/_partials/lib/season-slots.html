@@ -5,10 +5,12 @@
   data/groups/season-<N>.yaml written as a list, or as {players, note} (e.g. a
   player who dropped out and their replacement), is one slot shared by
   everyone in it, so their results add up into one row. Shared slots get slug "a+b" and display name
-  "A / B". Players not in any group (or seasons without groups) are absent:
+  "A / B". In a 2v2 season the entries are team names (lib/entrant-lookup.html), and a team's slot is
+  the team itself, keyed by its slug. Players not in any group (or seasons without groups) are absent:
   callers fall back to the player itself.
 */ -}}
-{{- $groupsCfg := partial "lib/season-file.html" (dict "kind" "groups" "season_id" .) -}}
+{{- $sid := . -}}
+{{- $groupsCfg := partial "lib/season-file.html" (dict "kind" "groups" "season_id" $sid) -}}
 {{- $slots := dict -}}
 {{- with $groupsCfg -}}
   {{- range .groups -}}
@@ -19,7 +21,7 @@
       {{- else }}{{ $names = slice . }}{{ end -}}
       {{- $members := slice }}{{ $slugs := slice }}{{ $displayNames := slice -}}
       {{- range $names -}}
-        {{- $p := partial "lib/player-lookup.html" . -}}
+        {{- $p := partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .) -}}
         {{- $members = $members | append $p -}}
         {{- $slugs = $slugs | append $p.slug -}}
         {{- $displayNames = $displayNames | append $p.display_name -}}
@@ -29,6 +31,7 @@
           "display_name" (delimit $displayNames " / ")
           "members" $members
           "note" $note -}}
+      {{- if and (eq (len $members) 1) (index $members 0).team }}{{ $slot = merge (index $members 0) (dict "note" $note) }}{{ end -}}
       {{- range $members }}{{ $slots = merge $slots (dict .slug $slot) }}{{ end -}}
     {{- end -}}
   {{- end -}}

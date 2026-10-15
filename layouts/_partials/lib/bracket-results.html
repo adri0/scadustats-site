@@ -23,8 +23,8 @@
     {{- $winner = $s.winner -}}
     {{- $path = printf "/matches/season-%s/%s/" $sid (lower $entry.match) -}}
   {{- else -}}
-    {{- with $entry.red }}{{ $red = partial "lib/player-lookup.html" . }}{{ end -}}
-    {{- with $entry.blue }}{{ $blue = partial "lib/player-lookup.html" . }}{{ end -}}
+    {{- with $entry.red }}{{ $red = partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .) }}{{ end -}}
+    {{- with $entry.blue }}{{ $blue = partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .) }}{{ end -}}
     {{- $redScore = $entry.red_score -}}
     {{- $blueScore = $entry.blue_score -}}
     {{- if and (ne $redScore nil) (ne $blueScore nil) -}}

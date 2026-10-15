@@ -1,0 +1,15 @@
+{{- /*
+  Input: dict {season_id, name}: a name from data/groups/season-<N>.yaml or a
+  hand-entered side in data/brackets/season-<N>.yaml.
+  Output: the team of that name in the season's data/teams.yaml roster (a 2v2
+  season, Season 5) as lib/side-lookup.html gives it, so its slug matches the
+  team's side in the match files; otherwise a player-lookup dict.
+  Team names match case-insensitively.
+*/ -}}
+{{- $needle := lower .name -}}
+{{- range index (hugo.Data.teams | default dict) (printf "%v" .season_id) -}}
+  {{- if eq (lower .name) $needle -}}
+    {{- return (partial "lib/side-lookup.html" (dict "name" .name "team" .)) -}}
+  {{- end -}}
+{{- end -}}
+{{- return (partial "lib/player-lookup.html" .name) -}}
