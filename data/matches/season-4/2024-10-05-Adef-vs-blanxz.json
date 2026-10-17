@@ -1,0 +1,279 @@
+{
+  "match_id": "2024-10-05-Adef-vs-blanxz",
+  "match_date": "2024-10-05",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "Adef",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=B1TrkSmtq0U",
+    "duration_s": 6269.0,
+    "published_at": "2024-10-07",
+    "extracted_at": "2026-10-15"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5408.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_1",
+      "square_texts": [
+        [
+          "Dupe a Remembrance",
+          "Acquire the Perfumed Oil of Ranah",
+          "Kill Leda and her companions",
+          "Acquire Devonia's Hammer",
+          "Kill a Remembrance Boss Hitless"
+        ],
+        [
+          "Kill the Tree Sentinel Duo",
+          "Kill Romina",
+          "Acquire 3 DLC Spirit Ashes",
+          "Kill Count Ymir, Mother of Fingers",
+          "Kill a Remembrance Boss with a Remembrance Weapon"
+        ],
+        [
+          "Acquire 2 Dragon Hearts",
+          "Kill Scadutree Avatar",
+          "Kill a Demi Human Swordsman",
+          "Acquire Moore Armor set",
+          "Kill a Boss with Backhand Blades only"
+        ],
+        [
+          "Kill the Frenzy NPC",
+          "Kill Chief Bloodfiend",
+          "Acquire Level 10 Scadu",
+          "Collect 2 DLC full armor sets",
+          "Kill a Boss with Throwing Attacks only"
+        ],
+        [
+          "Kill the Golden Hippo",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill 3 NPC Bosses",
+          "Heal the wounded Kindred rot",
+          "Kill Ancient Dragon Senessax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:05:07"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:51",
+          "video_timestamp": "00:12:58"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Moore Armor set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:28",
+          "video_timestamp": "00:17:35"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Collect 2 DLC full armor sets",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:29",
+          "video_timestamp": "00:18:36"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:51",
+          "video_timestamp": "00:21:58"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Demi Human Swordsman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:56",
+          "video_timestamp": "00:31:03"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:47",
+          "video_timestamp": "00:33:54"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:02",
+          "video_timestamp": "00:34:09"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:29",
+          "video_timestamp": "00:35:36"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Dupe a Remembrance",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:34",
+          "video_timestamp": "00:36:41"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:19",
+          "video_timestamp": "00:41:26"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:31",
+          "video_timestamp": "00:48:38"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:19",
+          "video_timestamp": "00:54:26"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:44",
+          "video_timestamp": "00:54:51"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:29",
+          "video_timestamp": "00:59:36"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss with a Remembrance Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:27",
+          "video_timestamp": "01:00:34"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Boss with Throwing Attacks only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:43",
+          "video_timestamp": "01:07:50"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:52",
+          "video_timestamp": "01:07:59"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:31",
+          "video_timestamp": "01:14:38"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:26",
+          "video_timestamp": "01:17:33"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire Devonia's Hammer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:26",
+          "video_timestamp": "01:20:33"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Frenzy NPC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:25",
+          "video_timestamp": "01:29:41"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:25",
+          "video_timestamp": "01:29:41"
+        }
+      ]
+    }
+  ]
+}
