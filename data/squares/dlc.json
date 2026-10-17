@@ -260,6 +260,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "dlc_shields_3",
+    "text": "Acquire 3 DLC shields",
+    "game_type": "dlc"
+  },
+  {
     "id": "dlc_sorceries_4",
     "text": "Acquire 4 DLC Sorceries",
     "game_type": "dlc"
@@ -900,6 +905,11 @@
   {
     "id": "swordmaster_2",
     "text": "Kill 2 Demi-Human Swordmasters",
+    "game_type": "dlc"
+  },
+  {
+    "id": "torch",
+    "text": "Acquire a Torch",
     "game_type": "dlc"
   },
   {
