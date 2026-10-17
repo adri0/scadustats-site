@@ -1,0 +1,225 @@
+{
+  "match_id": "2024-10-25-Vswed-vs-GrandPooBear",
+  "match_date": "2024-10-25",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "Vswed",
+  "player_blue_name": "GrandPooBear",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=IqFLm29TbcE",
+    "duration_s": 4833.1,
+    "published_at": "2024-10-28",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3798.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Put Florissax to Sleep",
+          "Burn the Sealing Tree",
+          "Sell Bloodfiends Arm +0",
+          "Acquire 2 Dragon Hearts",
+          "Acquire Both Aspect of the Crucible Incantations"
+        ],
+        [
+          "Clear 2 Catacombs",
+          "Acquire Verdigris Discus",
+          "Acquire 6 DLC Incantations",
+          "Collect 4 perfumer bottles",
+          "Acquire 3 DLC shields"
+        ],
+        [
+          "Kill Rellana, Twin Moon Knight",
+          "Complete 2 Nameless Mausoleums",
+          "Kill a boss after inflicting 3 different status effects",
+          "Acquire 3 DLC Ashes of War",
+          "Kill the Frenzy NPC"
+        ],
+        [
+          "Kill a Black Knight boss",
+          "Acquire 2 Blessings of Marika",
+          "Acquire 5 Hefty Pots",
+          "Acquire a DLC Legendary Ash Summon",
+          "Kill a Furnace Golem"
+        ],
+        [
+          "Kill a Death Knight",
+          "Kill Demi Human Marigga",
+          "Sell Great Katana +0",
+          "Give an Iris of Occultation",
+          "Acquire Level 5 Revered Ash"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:58"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:43",
+          "video_timestamp": "00:07:41"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:20",
+          "video_timestamp": "00:13:18"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a boss after inflicting 3 different status effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:57",
+          "video_timestamp": "00:16:55"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Black Knight boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:57",
+          "video_timestamp": "00:16:55"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:10",
+          "video_timestamp": "00:20:08"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:39",
+          "video_timestamp": "00:25:37"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Sell Great Katana +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:28",
+          "video_timestamp": "00:28:26"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:00",
+          "video_timestamp": "00:35:58"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:17",
+          "video_timestamp": "00:38:15"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 DLC shields",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:57",
+          "video_timestamp": "00:48:55"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:13",
+          "video_timestamp": "00:51:11"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Both Aspect of the Crucible Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:28",
+          "video_timestamp": "00:57:26"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Level 5 Revered Ash",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:45",
+          "video_timestamp": "00:57:43"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 6 DLC Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:37",
+          "video_timestamp": "00:59:35"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:34",
+          "video_timestamp": "01:02:33"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:59:34",
+          "video_timestamp": "01:02:33"
+        }
+      ]
+    }
+  ]
+}
