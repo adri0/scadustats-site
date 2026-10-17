@@ -352,11 +352,6 @@
     ]
   },
   {
-    "id": "frenzy_npc",
-    "text": "Kill the Frenzy NPC",
-    "game_type": "dlc"
-  },
-  {
     "id": "furnace_golem_1",
     "text": "Kill 1 Furnace Golem",
     "game_type": "dlc",
@@ -544,7 +539,8 @@
     "text": "Kill Madding Hand",
     "game_type": "dlc",
     "aliases": [
-      "Kill the Madding Hand NPC"
+      "Kill the Madding Hand NPC",
+      "Kill the Frenzy NPC"
     ]
   },
   {
