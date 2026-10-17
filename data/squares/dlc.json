@@ -865,6 +865,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "sell_bloodfiends_arm_plus0",
+    "text": "Sell Bloodfiends Arm +0",
+    "game_type": "dlc"
+  },
+  {
     "id": "sell_great_katana_plus0",
     "text": "Sell Great Katana +0",
     "game_type": "dlc"

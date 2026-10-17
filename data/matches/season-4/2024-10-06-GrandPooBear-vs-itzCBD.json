@@ -1,0 +1,243 @@
+{
+  "match_id": "2024-10-06-GrandPooBear-vs-itzCBD",
+  "match_date": "2024-10-06",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "GrandPooBear",
+  "player_blue_name": "itzCBD",
+  "commentators": [
+    "Adef",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=xobS86F_B3k",
+    "duration_s": 6077.85,
+    "published_at": "2024-10-08",
+    "extracted_at": "2026-10-15"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5311.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Sell Bloodfiends Arm +0",
+          "Upgrade a Remembrance Weapon to Max",
+          "Kill 2 unique Curseblade Assassins",
+          "Kill a Remembrance Boss after 6 parries",
+          "Kill Chief Bloodfiend"
+        ],
+        [
+          "Collect 4 perfumer bottles",
+          "Acquire the Golden Braid",
+          "Kill Messmer",
+          "Kill Putrescent Knight",
+          "Put Florissax to Sleep"
+        ],
+        [
+          "Acquire the Aged Ones Exultation Talisman",
+          "Kill 3 Dragon Bosses",
+          "Acquire 2 Painting Rewards",
+          "Sell Great Katana +0",
+          "Kill Bayle while summoning Igon"
+        ],
+        [
+          "Kill Midra, Lord of Frenzied Flame",
+          "Acquire Jolan & Anna Summon",
+          "Dupe a Remembrance",
+          "Acquire a DLC Legendary Ash Summon",
+          "Kill Leda and her companions"
+        ],
+        [
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "Complete 2 Nameless Mausoleums",
+          "Clear 2 Gaols",
+          "Kill the Rolling Giant Lightning Ram",
+          "Acquire Euporia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:01",
+          "video_timestamp": "00:03:00"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Sell Great Katana +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:58",
+          "video_timestamp": "00:07:57"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:26",
+          "video_timestamp": "00:11:25"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:15",
+          "video_timestamp": "00:40:14"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Dupe a Remembrance",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:22",
+          "video_timestamp": "00:41:21"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:40",
+          "video_timestamp": "00:44:39"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Upgrade a Remembrance Weapon to Max",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:22",
+          "video_timestamp": "00:46:21"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:21",
+          "video_timestamp": "00:49:20"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:35",
+          "video_timestamp": "00:49:34"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:39",
+          "video_timestamp": "00:52:38"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:03",
+          "video_timestamp": "00:57:02"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:59",
+          "video_timestamp": "01:01:58"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:03",
+          "video_timestamp": "01:02:02"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:13",
+          "video_timestamp": "01:05:12"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:38",
+          "video_timestamp": "01:08:37"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:00",
+          "video_timestamp": "01:17:59"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Bayle while summoning Igon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:00",
+          "video_timestamp": "01:17:59"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire the Aged Ones Exultation Talisman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:26",
+          "video_timestamp": "01:27:25"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:26",
+          "video_timestamp": "01:27:25"
+        }
+      ]
+    }
+  ]
+}
