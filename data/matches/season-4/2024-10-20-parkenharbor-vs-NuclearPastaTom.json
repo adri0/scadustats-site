@@ -1,0 +1,279 @@
+{
+  "match_id": "2024-10-20-parkenharbor-vs-NuclearPastaTom",
+  "match_date": "2024-10-20",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "parkenharbor",
+  "player_blue_name": "NuclearPastaTom",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=3pAUadgo7Qw",
+    "duration_s": 4918.116666666667,
+    "published_at": "2024-10-24",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3945.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Lamenter Boss",
+          "Kill 3 Dragon Bosses",
+          "Acquire 3 NPC Dropped Weapons",
+          "Acquire Verdigris Discus",
+          "Kill Ancient Dragon Man Boss"
+        ],
+        [
+          "Kill a Boss with a +0 Weapon",
+          "Dupe a Remembrance",
+          "Kill Consort Radahn",
+          "Kill Scadutree Avatar",
+          "Put Florissax to Sleep"
+        ],
+        [
+          "Acquire Moore Armor set",
+          "Acquire 4 DLC Sorceries",
+          "Kill 2 Hippos",
+          "Acquire 2 Kindred Cookbooks",
+          "Kill 3 NPC Bosses"
+        ],
+        [
+          "Collect 4 perfumer bottles",
+          "Kill the Tree Sentinel Duo",
+          "Acquire 6 DLC Incantations",
+          "Clear two Forges",
+          "Acquire the Golden Braid"
+        ],
+        [
+          "Kill Messmer",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Acquire Level 10 Scadu",
+          "Kill 2 unique Curseblade Assassins",
+          "Clear 2 Catacombs"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:07"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:50",
+          "video_timestamp": "00:11:57"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:50",
+          "video_timestamp": "00:11:57"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:51",
+          "video_timestamp": "00:12:58"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:52",
+          "video_timestamp": "00:19:59"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 3 NPC Dropped Weapons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:27",
+          "video_timestamp": "00:22:34"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire Moore Armor set",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:09",
+          "video_timestamp": "00:24:16"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:39",
+          "video_timestamp": "00:27:46"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 Hippos",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:19",
+          "video_timestamp": "00:33:26"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:38",
+          "video_timestamp": "00:35:45"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:01",
+          "video_timestamp": "00:38:08"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Dupe a Remembrance",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:16",
+          "video_timestamp": "00:42:23"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:34",
+          "video_timestamp": "00:42:41"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:51",
+          "video_timestamp": "00:49:58"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 6 DLC Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:02",
+          "video_timestamp": "00:50:09"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Clear two Forges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:38",
+          "video_timestamp": "00:53:45"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 4 DLC Sorceries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:28",
+          "video_timestamp": "00:54:35"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:49",
+          "video_timestamp": "00:54:56"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:56",
+          "video_timestamp": "01:01:03"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Collect 4 perfumer bottles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:56",
+          "video_timestamp": "01:01:03"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Lamenter Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:34",
+          "video_timestamp": "01:04:41"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:43",
+          "video_timestamp": "01:04:50"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:43",
+          "video_timestamp": "01:04:50"
+        }
+      ]
+    }
+  ]
+}
