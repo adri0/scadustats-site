@@ -1,0 +1,297 @@
+{
+  "match_id": "2024-10-12-Adef-vs-Vswed",
+  "match_date": "2024-10-12",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "Adef",
+  "player_blue_name": "Vswed",
+  "commentators": [
+    "DrDootPHD",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=pPaTHMgszmc",
+    "duration_s": 7762.95,
+    "published_at": "2024-10-14",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 7127.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Demi Human Marigga",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Upgrade a Remembrance Weapon to Max",
+          "Put Florissax to Sleep",
+          "Acquire Igon's Furled Finger"
+        ],
+        [
+          "Kill Consort Radahn",
+          "Kill Dryleaf Dane in the Duel",
+          "Kill a Remembrance Boss after 6 parries",
+          "Complete 2 Nameless Mausoleums",
+          "Acquire 3 Larval tears"
+        ],
+        [
+          "Kill Putrescent Knight",
+          "Give an Iris of Occultation",
+          "Acquire Jolan & Anna Summon",
+          "Kill one boss of each, Bear / Lion / Hippo",
+          "Kill Ancient Dragon Senessax"
+        ],
+        [
+          "Kill Count Ymir, Mother of Fingers",
+          "Acquire Moore Armor set",
+          "Kill a Boss with a +0 Weapon",
+          "Kill Bayle while summoning Igon",
+          "Acquire 4 DLC Talismans"
+        ],
+        [
+          "Kill a Death Knight",
+          "Kill the Frenzy NPC",
+          "Acquire 2 Painting Rewards",
+          "Kill a Boss with Backhand Blades only",
+          "Acquire Euporia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:01"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:25",
+          "video_timestamp": "00:06:26"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:27",
+          "video_timestamp": "00:10:28"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:03",
+          "video_timestamp": "00:14:04"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:32",
+          "video_timestamp": "00:19:33"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Moore Armor set",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:07",
+          "video_timestamp": "00:21:08"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:13",
+          "video_timestamp": "00:34:14"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:57",
+          "video_timestamp": "00:41:58"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill the Frenzy NPC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:00",
+          "video_timestamp": "00:44:01"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Death Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:13",
+          "video_timestamp": "00:50:14"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss after 6 parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:13",
+          "video_timestamp": "00:55:14"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:13",
+          "video_timestamp": "00:55:14"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:47",
+          "video_timestamp": "00:57:48"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Put Florissax to Sleep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:34",
+          "video_timestamp": "01:02:35"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:47",
+          "video_timestamp": "01:04:48"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:59",
+          "video_timestamp": "01:05:23"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Upgrade a Remembrance Weapon to Max",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:13",
+          "video_timestamp": "01:17:37"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:13",
+          "video_timestamp": "01:17:37"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill one boss of each, Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:26:00",
+          "video_timestamp": "01:23:24"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Count Ymir, Mother of Fingers",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:36:58",
+          "video_timestamp": "01:34:22"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Euporia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:44:36",
+          "video_timestamp": "01:42:00"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Putrescent Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:47:10",
+          "video_timestamp": "01:44:34"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Jolan & Anna Summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:50:31",
+          "video_timestamp": "01:47:55"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Bayle while summoning Igon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:55:30",
+          "video_timestamp": "01:52:54"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:01",
+          "video_timestamp": "01:57:25"
+        }
+      ]
+    }
+  ]
+}
