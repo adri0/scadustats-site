@@ -1,0 +1,252 @@
+{
+  "match_id": "2024-10-19-parkenharbor-vs-itzCBD",
+  "match_date": "2024-10-19",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "parkenharbor",
+  "player_blue_name": "itzCBD",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=YrdEw8VZKZA",
+    "duration_s": 5663.05,
+    "published_at": "2024-10-22",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4909.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "col_1",
+      "square_texts": [
+        [
+          "Sell Bloodfiends Arm +0",
+          "Acquire Level 5 Revered Ash",
+          "Kill Moonrithyll, Carian Knight",
+          "Kill 3 Unique NPC Invaders",
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood"
+        ],
+        [
+          "Acquire 2 Blessings of Marika",
+          "Acquire 6 DLC Incantations",
+          "Kill a Remembrance Boss Hitless",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Kill a Black Knight boss"
+        ],
+        [
+          "Kill Romina",
+          "Kill a Boss with Throwing Attacks only",
+          "Dupe a Remembrance",
+          "Kill a Death Knight",
+          "Kill one boss of each, Bear / Lion / Hippo"
+        ],
+        [
+          "Complete 2 Nameless Mausoleums",
+          "Kill a Base Game Boss in DLC",
+          "Acquire a DLC Legendary Ash Summon",
+          "Collect 4 perfumer bottles",
+          "Kill a boss using a Perfume Bottle only"
+        ],
+        [
+          "Kill Putrescent Knight",
+          "Kill a Red bear",
+          "Acquire 2 Kindred Cookbooks",
+          "Acquire 3 DLC shields",
+          "Acquire 4 DLC Talismans"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:57"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:29",
+          "video_timestamp": "00:09:27"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:25",
+          "video_timestamp": "00:12:23"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:10:28",
+          "video_timestamp": "00:13:26"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:02",
+          "video_timestamp": "00:14:00"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Black Knight boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:02",
+          "video_timestamp": "00:15:00"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:47",
+          "video_timestamp": "00:18:45"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:56",
+          "video_timestamp": "00:22:54"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Red bear",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:56",
+          "video_timestamp": "00:22:54"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:51",
+          "video_timestamp": "00:28:49"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Dupe a Remembrance",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:20",
+          "video_timestamp": "00:33:18"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill one boss of each, Bear / Lion / Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:16",
+          "video_timestamp": "00:40:14"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:30",
+          "video_timestamp": "00:41:28"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 3 DLC shields",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:22",
+          "video_timestamp": "00:44:20"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:42",
+          "video_timestamp": "00:54:40"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 6 DLC Incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:57",
+          "video_timestamp": "00:54:55"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:04",
+          "video_timestamp": "01:00:02"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a boss using a Perfume Bottle only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:54",
+          "video_timestamp": "01:02:52"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:55",
+          "video_timestamp": "01:20:53"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:17:55",
+          "video_timestamp": "01:20:53"
+        }
+      ]
+    }
+  ]
+}
