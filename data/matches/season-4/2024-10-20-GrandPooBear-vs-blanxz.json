@@ -1,0 +1,180 @@
+{
+  "match_id": "2024-10-20-GrandPooBear-vs-blanxz",
+  "match_date": "2024-10-20",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "GrandPooBear",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=DbKVsY0lQ34",
+    "duration_s": 3269.85,
+    "published_at": "2024-10-25",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 2528.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_4",
+      "square_texts": [
+        [
+          "Kill the Death Rite Bird",
+          "Kill the Golden Hippo",
+          "Acquire Igon's Furled Finger",
+          "Acquire the Sword of Light/Darkness",
+          "Kill Count Ymir, Mother of Fingers"
+        ],
+        [
+          "Acquire 3 DLC Spirit Ashes",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Collect 4 perfumer bottles",
+          "Kill a Death Knight",
+          "Acquire a DLC Legendary Ash Summon"
+        ],
+        [
+          "Acquire 2 Painting Rewards",
+          "Kill Bols in front of Castle Ensis",
+          "Kill 2 unique Curseblade Assassins",
+          "Kill Leda and her companions",
+          "Clear 2 Gaols"
+        ],
+        [
+          "Kill a Base Game Boss in DLC",
+          "Kill the Tree Sentinel Duo",
+          "Acquire the Scorpion Stew",
+          "Kill a Dancing Lion",
+          "Drink Thiollier's Concoction"
+        ],
+        [
+          "Acquire 2 Blessings of Marika",
+          "Kill Queelign in Belurat",
+          "Kill Bayle while summoning Igon",
+          "Kill a Remembrance Boss with a Remembrance Weapon",
+          "Acquire 6 DLC Incantations"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:00"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:02",
+          "video_timestamp": "00:08:02"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:20",
+          "video_timestamp": "00:12:20"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Bols in front of Castle Ensis",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:32",
+          "video_timestamp": "00:13:32"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:22",
+          "video_timestamp": "00:15:22"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:13",
+          "video_timestamp": "00:17:13"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Dancing Lion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:07",
+          "video_timestamp": "00:26:07"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:41",
+          "video_timestamp": "00:28:41"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:32",
+          "video_timestamp": "00:29:32"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:02",
+          "video_timestamp": "00:39:02"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:10",
+          "video_timestamp": "00:41:10"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:38:10",
+          "video_timestamp": "00:41:10"
+        }
+      ]
+    }
+  ]
+}
