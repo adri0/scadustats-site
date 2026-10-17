@@ -1,0 +1,216 @@
+{
+  "match_id": "2024-10-13-LilAggy-vs-blanxz",
+  "match_date": "2024-10-13",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "DrDootPHD",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=H8oGpfuT4Bs",
+    "duration_s": 3832.75,
+    "published_at": "2024-10-16",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3273.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Kill a Remembrance Boss with a Remembrance Weapon",
+          "Sell Great Katana +0",
+          "Kill Rellana, Twin Moon Knight",
+          "Kill one boss of each, Bear / Lion / Hippo",
+          "Acquire the Golden Braid"
+        ],
+        [
+          "Acquire the Perfumed Oil of Ranah",
+          "Kill Ancient Dragon Man Boss",
+          "Acquire 2 Blessings of Marika",
+          "Kill the Golden Hippo",
+          "Kill 3 Dragon Bosses"
+        ],
+        [
+          "Acquire 2 Kindred Cookbooks",
+          "Kill a Boss with Backhand Blades only",
+          "Kill Messmer",
+          "Kill Putrescent Knight",
+          "Acquire 4 DLC Talismans"
+        ],
+        [
+          "Kill the Tree Sentinel Duo",
+          "Kill Jori, The Elder Inquisitor",
+          "Acquire Devonia's Hammer",
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "Acquire Commander Gaius's Pants"
+        ],
+        [
+          "Kill Lamenter Boss",
+          "Kill Romina",
+          "Acquire 4 DLC Sorceries",
+          "Clear 2 Gaols",
+          "Kill 2 Hippos"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:55"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Sell Great Katana +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:02:00",
+          "video_timestamp": "00:04:55"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:57",
+          "video_timestamp": "00:10:52"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:57",
+          "video_timestamp": "00:10:52"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:57",
+          "video_timestamp": "00:10:52"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:25",
+          "video_timestamp": "00:17:20"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:57",
+          "video_timestamp": "00:24:52"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:41",
+          "video_timestamp": "00:27:36"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:47",
+          "video_timestamp": "00:28:42"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:10",
+          "video_timestamp": "00:32:05"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:35",
+          "video_timestamp": "00:34:30"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:42",
+          "video_timestamp": "00:35:37"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire Devonia's Hammer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:20",
+          "video_timestamp": "00:41:15"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:37",
+          "video_timestamp": "00:41:32"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:14",
+          "video_timestamp": "00:53:14"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:50:14",
+          "video_timestamp": "00:53:14"
+        }
+      ]
+    }
+  ]
+}
