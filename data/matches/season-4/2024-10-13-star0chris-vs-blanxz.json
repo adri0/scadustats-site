@@ -1,0 +1,288 @@
+{
+  "match_id": "2024-10-13-star0chris-vs-blanxz",
+  "match_date": "2024-10-13",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "star0chris",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=pTGEr17K9TU",
+    "duration_s": 5903.916666666667,
+    "published_at": "2024-10-17",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5052.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Leda and her companions",
+          "Kill a boss using a Perfume Bottle only",
+          "Kill 2 Hippos",
+          "Kill a Death Knight",
+          "Kill the Death Rite Bird"
+        ],
+        [
+          "Acquire the Full Gravebird Armor Set",
+          "Acquire Commander Gaius's Pants",
+          "Have St. Trina talk to you",
+          "Acquire a Leda Rune",
+          "Acquire the Scorpion Stew"
+        ],
+        [
+          "Kill the Golden Hippo",
+          "Kill the Tree Sentinel Duo",
+          "Kill Demi Human Marigga",
+          "Kill a Dancing Lion",
+          "Acquire 3 DLC Spirit Ashes"
+        ],
+        [
+          "Give an Iris of Occultation",
+          "Sell Great Katana +0",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Acquire 2 Hanging Pot Bell Bearings",
+          "Kill a Base Game Boss in DLC"
+        ],
+        [
+          "Kill 3 Dragon Bosses",
+          "Kill Rellana, Twin Moon Knight",
+          "Kill Chief Bloodfiend",
+          "Acquire 2 Kindred Cookbooks",
+          "Kill 3 Unique NPC Invaders"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:04"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Sell Great Katana +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:02:02",
+          "video_timestamp": "00:05:06"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:57",
+          "video_timestamp": "00:13:01"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:37",
+          "video_timestamp": "00:14:41"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:07",
+          "video_timestamp": "00:21:11"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:22",
+          "video_timestamp": "00:23:26"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill the Golden Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:08",
+          "video_timestamp": "00:27:12"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:36",
+          "video_timestamp": "00:29:40"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:36",
+          "video_timestamp": "00:29:40"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:06",
+          "video_timestamp": "00:33:10"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:33",
+          "video_timestamp": "00:35:37"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:42",
+          "video_timestamp": "00:40:46"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire the Scorpion Stew",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:22",
+          "video_timestamp": "00:41:26"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:52",
+          "video_timestamp": "00:44:56"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:07",
+          "video_timestamp": "00:49:11"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:00",
+          "video_timestamp": "00:52:04"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:26",
+          "video_timestamp": "00:52:30"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Hippos",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:53",
+          "video_timestamp": "00:56:57"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a boss using a Perfume Bottle only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:19",
+          "video_timestamp": "01:04:23"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:19",
+          "video_timestamp": "01:04:23"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:08:18",
+          "video_timestamp": "01:11:22"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire the Full Gravebird Armor Set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:16:51",
+          "video_timestamp": "01:19:55"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Leda and her companions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:26",
+          "video_timestamp": "01:23:37"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:20:26",
+          "video_timestamp": "01:23:37"
+        }
+      ]
+    }
+  ]
+}
