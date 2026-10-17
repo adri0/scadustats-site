@@ -1,0 +1,252 @@
+{
+  "match_id": "2024-10-20-star0chris-vs-Vswed",
+  "match_date": "2024-10-20",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "star0chris",
+  "player_blue_name": "Vswed",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=IaNmdEoDfW8",
+    "duration_s": 4607.45,
+    "published_at": "2024-10-24",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3861.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 2 Dragon Hearts",
+          "Kill the Tree Sentinel Duo",
+          "Kill a Base Game Boss in DLC",
+          "Give an Iris of Occultation",
+          "Burn the Sealing Tree"
+        ],
+        [
+          "Kill Rellana, Twin Moon Knight",
+          "Acquire Level 10 Scadu",
+          "Kill Dryleaf Dane in the Duel",
+          "Drain the Water in the Church District",
+          "Kill Bayle while summoning Igon"
+        ],
+        [
+          "Kill a Black Knight boss",
+          "Give an Iris of Grace",
+          "Acquire 2 Hanging Pot Bell Bearings",
+          "Clear two Forges",
+          "Kill 3 Dragon Bosses"
+        ],
+        [
+          "Acquire the Aged Ones Exultation Talisman",
+          "Acquire 4 DLC Sorceries",
+          "Kill Logur, the Beast Claw",
+          "Kill Chief Bloodfiend",
+          "Kill a Remembrance Boss Hitless"
+        ],
+        [
+          "Kill the Rolling Giant Lightning Ram",
+          "Kill a Boss with Backhand Blades only",
+          "Acquire 3 Larval tears",
+          "Kill the Death Rite Bird",
+          "Acquire Devonia's Hammer"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:00"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:03:21",
+          "video_timestamp": "00:06:21"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:03",
+          "video_timestamp": "00:14:03"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:03",
+          "video_timestamp": "00:14:03"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Black Knight boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:40",
+          "video_timestamp": "00:17:40"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:06",
+          "video_timestamp": "00:18:06"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:27",
+          "video_timestamp": "00:19:27"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:54",
+          "video_timestamp": "00:21:54"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:03",
+          "video_timestamp": "00:32:03"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:43",
+          "video_timestamp": "00:32:43"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:30",
+          "video_timestamp": "00:33:30"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:55",
+          "video_timestamp": "00:35:55"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:16",
+          "video_timestamp": "00:40:16"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:57",
+          "video_timestamp": "00:45:57"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Clear two Forges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:37",
+          "video_timestamp": "00:50:37"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:01",
+          "video_timestamp": "00:52:01"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 4 DLC Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:51",
+          "video_timestamp": "00:55:51"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:13",
+          "video_timestamp": "00:58:13"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:25",
+          "video_timestamp": "01:03:25"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:00:25",
+          "video_timestamp": "01:03:25"
+        }
+      ]
+    }
+  ]
+}
