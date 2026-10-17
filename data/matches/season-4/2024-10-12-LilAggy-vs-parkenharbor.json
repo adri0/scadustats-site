@@ -1,0 +1,234 @@
+{
+  "match_id": "2024-10-12-LilAggy-vs-parkenharbor",
+  "match_date": "2024-10-12",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "parkenharbor",
+  "commentators": [
+    "DrDootPHD",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=SLb1woKQsWA",
+    "duration_s": 4063.7166666666667,
+    "published_at": "2024-10-14",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3398.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Kill Ancient Dragon Senessax",
+          "Kill a Remembrance Boss Hitless",
+          "Acquire a DLC Legendary Ash Summon",
+          "Put Florissax to Sleep",
+          "Acquire 2 Hanging Pot Bell Bearings"
+        ],
+        [
+          "Kill a Black Knight boss",
+          "Memory of grace with 300k runes",
+          "Sell Bloodfiends Arm +0",
+          "Kill 3 Unique NPC Invaders",
+          "Kill Jori, The Elder Inquisitor"
+        ],
+        [
+          "Heal the wounded Kindred rot",
+          "Kill a Boss with Throwing Attacks only",
+          "Kill the Death Rite Bird",
+          "Use a Transformation",
+          "Reach Level 85"
+        ],
+        [
+          "Acquire 3 Larval tears",
+          "Give an Iris of Grace",
+          "Acquire a Leda Rune",
+          "Acquire the Perfumed Oil of Ranah",
+          "Kill Rellana, Twin Moon Knight"
+        ],
+        [
+          "Visit 5 Miquella Crosses",
+          "Kill Leda and her companions",
+          "Acquire 2 Kindred Cookbooks",
+          "Clear two Forges",
+          "Kill 2 unique Curseblade Assassins"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:01"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:29",
+          "video_timestamp": "00:08:30"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Visit 5 Miquella Crosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:15",
+          "video_timestamp": "00:09:16"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Black Knight boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:56",
+          "video_timestamp": "00:12:57"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:18",
+          "video_timestamp": "00:15:19"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:17",
+          "video_timestamp": "00:16:18"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:27",
+          "video_timestamp": "00:18:28"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:38",
+          "video_timestamp": "00:22:39"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:40",
+          "video_timestamp": "00:25:41"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire a Leda Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:29",
+          "video_timestamp": "00:28:30"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:08",
+          "video_timestamp": "00:30:09"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Memory of grace with 300k runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:24",
+          "video_timestamp": "00:34:25"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:30",
+          "video_timestamp": "00:36:31"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:50",
+          "video_timestamp": "00:38:51"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:57",
+          "video_timestamp": "00:43:58"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:08",
+          "video_timestamp": "00:46:09"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:48",
+          "video_timestamp": "00:55:49"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:52:48",
+          "video_timestamp": "00:55:49"
+        }
+      ]
+    }
+  ]
+}
