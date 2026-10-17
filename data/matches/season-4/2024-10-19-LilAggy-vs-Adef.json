@@ -1,0 +1,234 @@
+{
+  "match_id": "2024-10-19-LilAggy-vs-Adef",
+  "match_date": "2024-10-19",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "Adef",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=Q3rGJydTSq4",
+    "duration_s": 4644.8,
+    "published_at": "2024-10-23",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3745.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_2",
+      "square_texts": [
+        [
+          "Acquire 4 DLC Talismans",
+          "Give an Iris of Grace",
+          "Kill a Boss with Hand to Hand only",
+          "Kill a Remembrance Boss Hitless",
+          "Kill one boss of each, Bear / Lion / Hippo"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill a Death Knight",
+          "Kill a Dancing Lion",
+          "Kill a Furnace Golem",
+          "Acquire the Aged Ones Exultation Talisman"
+        ],
+        [
+          "Sell Bloodfiends Arm +0",
+          "Drain the Water in the Church District",
+          "Acquire 2 Blessings of Marika",
+          "Kill 2 Hippos",
+          "Collect 4 perfumer bottles"
+        ],
+        [
+          "Kill a Boss with Backhand Blades only",
+          "Kill Bayle while summoning Igon",
+          "Acquire 5 Hefty Pots",
+          "Burn the Sealing Tree",
+          "Kill a Remembrance Boss with a Remembrance Weapon"
+        ],
+        [
+          "Kill Consort Radahn",
+          "Acquire Igon's Furled Finger",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Acquire 2 Kindred Cookbooks",
+          "Kill Queelign in Belurat"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:01"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:43",
+          "video_timestamp": "00:07:44"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:37",
+          "video_timestamp": "00:09:38"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Drain the Water in the Church District",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:22",
+          "video_timestamp": "00:14:23"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:44",
+          "video_timestamp": "00:15:45"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:59",
+          "video_timestamp": "00:17:00"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:28",
+          "video_timestamp": "00:19:29"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:11",
+          "video_timestamp": "00:25:12"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:11",
+          "video_timestamp": "00:25:12"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:49",
+          "video_timestamp": "00:30:50"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 2 Hippos",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:45",
+          "video_timestamp": "00:35:46"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill one boss of each, Bear / Lion / Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:47",
+          "video_timestamp": "00:40:48"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Give an Iris of Grace",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:13",
+          "video_timestamp": "00:42:14"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Boss with Hand to Hand only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:10",
+          "video_timestamp": "00:48:11"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:48",
+          "video_timestamp": "00:50:49"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Death Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:30",
+          "video_timestamp": "00:55:31"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Bayle while summoning Igon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:45",
+          "video_timestamp": "01:01:46"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:58:45",
+          "video_timestamp": "01:01:46"
+        }
+      ]
+    }
+  ]
+}
