@@ -1,0 +1,216 @@
+{
+  "match_id": "2024-10-27-LilAggy-vs-Bushy",
+  "match_date": "2024-10-27",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "Bushy",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=TfMxfyrttqs",
+    "duration_s": 3990.5,
+    "published_at": "2024-10-31",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3089.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Kill a Boss with a +0 Weapon",
+          "Acquire Velvet St. Trina's Sword",
+          "Kill Bayle while summoning Igon",
+          "Kill the Death Rite Bird",
+          "Kill Logur, the Beast Claw"
+        ],
+        [
+          "Upgrade a Remembrance Weapon to Max",
+          "Kill 2 unique Curseblade Assassins",
+          "Kill a Furnace Golem",
+          "Collect 4 perfumer bottles",
+          "Acquire 6 DLC Incantations"
+        ],
+        [
+          "Complete 2 Nameless Mausoleums",
+          "Acquire 2 Hanging Pot Bell Bearings",
+          "Acquire a DLC Legendary Ash Summon",
+          "Acquire 2 Painting Rewards",
+          "Use a Transformation"
+        ],
+        [
+          "Acquire the Perfumed Oil of Ranah",
+          "Kill Ancient Dragon Man Boss",
+          "Clear two Forges",
+          "Kill a Remembrance Boss Hitless",
+          "Kill Jori, The Elder Inquisitor"
+        ],
+        [
+          "Kill Leda and her companions",
+          "Kill 3 NPC Bosses",
+          "Visit 5 Miquella Crosses",
+          "Acquire 4 DLC Sorceries",
+          "Kill Metyr, Mother of Fingers"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:01"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:46",
+          "video_timestamp": "00:10:47"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Visit 5 Miquella Crosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:46",
+          "video_timestamp": "00:12:47"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:50",
+          "video_timestamp": "00:17:51"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:56",
+          "video_timestamp": "00:19:57"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:16",
+          "video_timestamp": "00:20:17"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:17",
+          "video_timestamp": "00:23:18"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:57",
+          "video_timestamp": "00:26:58"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:40",
+          "video_timestamp": "00:35:41"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Velvet St. Trina's Sword",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:41",
+          "video_timestamp": "00:36:42"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Furnace Golem",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:48",
+          "video_timestamp": "00:39:49"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:13",
+          "video_timestamp": "00:40:14"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:09",
+          "video_timestamp": "00:43:10"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:49",
+          "video_timestamp": "00:49:50"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:46",
+          "video_timestamp": "00:50:47"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:47:46",
+          "video_timestamp": "00:50:47"
+        }
+      ]
+    }
+  ]
+}
