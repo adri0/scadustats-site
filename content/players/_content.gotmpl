@@ -52,17 +52,26 @@
     {{- $m := . -}}
     {{- /* In a 2v2 match, $role is the game this player plays for their team:
            "base" or "dlc". Their marks are the squares of that game, plus the
-           co-op squares the team claims together. */ -}}
+           co-op squares the team claims together. A team without roles (Season
+           3, both in the base game) shares every claim, so $role stays "". */ -}}
     {{- $isRed := eq $m.player_red.slug $slug -}}
     {{- $isBlue := eq $m.player_blue.slug $slug -}}
     {{- $role := "" -}}
     {{- with $m.player_red.team -}}
-      {{- if eq $m.player_red.base.slug $slug }}{{ $isRed = true }}{{ $role = "base" }}{{ end -}}
-      {{- if eq $m.player_red.dlc.slug $slug }}{{ $isRed = true }}{{ $role = "dlc" }}{{ end -}}
+      {{- with $m.player_red.base -}}
+        {{- if eq .slug $slug }}{{ $isRed = true }}{{ $role = "base" }}{{ end -}}
+        {{- if eq $m.player_red.dlc.slug $slug }}{{ $isRed = true }}{{ $role = "dlc" }}{{ end -}}
+      {{- else -}}
+        {{- range $m.player_red.members }}{{ if eq .slug $slug }}{{ $isRed = true }}{{ end }}{{ end -}}
+      {{- end -}}
     {{- end -}}
     {{- with $m.player_blue.team -}}
-      {{- if eq $m.player_blue.base.slug $slug }}{{ $isBlue = true }}{{ $role = "base" }}{{ end -}}
-      {{- if eq $m.player_blue.dlc.slug $slug }}{{ $isBlue = true }}{{ $role = "dlc" }}{{ end -}}
+      {{- with $m.player_blue.base -}}
+        {{- if eq .slug $slug }}{{ $isBlue = true }}{{ $role = "base" }}{{ end -}}
+        {{- if eq $m.player_blue.dlc.slug $slug }}{{ $isBlue = true }}{{ $role = "dlc" }}{{ end -}}
+      {{- else -}}
+        {{- range $m.player_blue.members }}{{ if eq .slug $slug }}{{ $isBlue = true }}{{ end }}{{ end -}}
+      {{- end -}}
     {{- end -}}
     {{- if or $isRed $isBlue -}}
       {{- $color := "blue" -}}

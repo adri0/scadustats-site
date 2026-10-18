@@ -67,7 +67,11 @@
       <h2>Game {{ .index }}</h2>
       <div class="game-badges">
         {{- with .game_type }}<span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" . }}</span>{{ end }}
-        {{- if .winner_color }}
+        {{- if eq .scoring "points" }}
+          {{- /* Season 3's round robin: a game is decided on points when time runs out. */}}
+          {{- with .winner_color }}<span class="pill pill-sm pill-{{ . }}">{{ if eq . "red" }}Red{{ else }}Blue{{ end }} wins</span>{{ end }}
+          <span class="pill pill-sm pill-outline">{{ if eq .win_type "tie" }}tie on points{{ else }}points{{ end }} · {{ .red_points }}–{{ .blue_points }}</span>
+        {{- else if .winner_color }}
           <span class="pill pill-sm pill-{{ .winner_color }}">{{ if eq .winner_color "red" }}Red{{ else }}Blue{{ end }} wins</span>
           <span class="pill pill-sm pill-outline">{{ .win_type }}{{ with .win_line }} · {{ humanize (replace . "_" " ") }}{{ end }}</span>
         {{- else }}
