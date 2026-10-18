@@ -1,0 +1,234 @@
+{
+  "match_id": "2024-11-10-star0chris-vs-Bushy",
+  "match_date": "2024-11-10",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "star0chris",
+  "player_blue_name": "Bushy",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=AIwtKR0ISN4",
+    "duration_s": 4448.65,
+    "published_at": "2024-11-14",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 3739.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Acquire Moore Armor set",
+          "Kill Ancient Dragon Senessax",
+          "Kill Messmer",
+          "Use a Transformation",
+          "Acquire the Perfumed Oil of Ranah"
+        ],
+        [
+          "Acquire 2 Kindred Cookbooks",
+          "Kill Consort Radahn",
+          "Kill a Death Knight",
+          "Kill Ancient Dragon Man Boss",
+          "Clear 2 Gaols"
+        ],
+        [
+          "Acquire 6 DLC Incantations",
+          "Give an Iris of Occultation",
+          "Kill 2 unique Curseblade Assassins",
+          "Kill 3 NPC Bosses",
+          "Kill a Remembrance Boss with a Remembrance Weapon"
+        ],
+        [
+          "Collect 2 DLC full armor sets",
+          "Kill Jori, The Elder Inquisitor",
+          "Kill Bayle while summoning Igon",
+          "Acquire Commander Gaius's Pants",
+          "Acquire Devonia's Hammer"
+        ],
+        [
+          "Complete 2 Nameless Mausoleums",
+          "Kill Romina",
+          "Sell Bloodfiends Arm +0",
+          "Kill 3 Unique NPC Invaders",
+          "Acquire 2 Hanging Pot Bell Bearings"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:09"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:22",
+          "video_timestamp": "00:10:31"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:47",
+          "video_timestamp": "00:14:56"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Moore Armor set",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:54",
+          "video_timestamp": "00:18:03"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:23",
+          "video_timestamp": "00:18:32"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:08",
+          "video_timestamp": "00:19:17"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Collect 2 DLC full armor sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:19",
+          "video_timestamp": "00:23:28"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:11",
+          "video_timestamp": "00:26:20"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:11",
+          "video_timestamp": "00:26:20"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:38",
+          "video_timestamp": "00:30:47"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:08",
+          "video_timestamp": "00:34:17"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:51",
+          "video_timestamp": "00:35:00"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:51",
+          "video_timestamp": "00:46:00"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:57",
+          "video_timestamp": "00:46:06"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:50",
+          "video_timestamp": "00:51:59"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Devonia's Hammer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:15",
+          "video_timestamp": "00:59:24"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Jori, The Elder Inquisitor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:32",
+          "video_timestamp": "01:01:41"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:01:32",
+          "video_timestamp": "01:01:41"
+        }
+      ]
+    }
+  ]
+}

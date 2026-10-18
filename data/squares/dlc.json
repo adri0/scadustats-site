@@ -106,7 +106,10 @@
   {
     "id": "boss_sorceries_only",
     "text": "Kill a Boss with Sorceries Only",
-    "game_type": "dlc"
+    "game_type": "dlc",
+    "aliases": [
+      "Kill a boss with sorcery only"
+    ]
   },
   {
     "id": "boss_status_effects_3",
@@ -925,6 +928,11 @@
   {
     "id": "swordmaster_2",
     "text": "Kill 2 Demi-Human Swordmasters",
+    "game_type": "dlc"
+  },
+  {
+    "id": "tibias_cookbook",
+    "text": "Acquire Tibia's Cookbook",
     "game_type": "dlc"
   },
   {
