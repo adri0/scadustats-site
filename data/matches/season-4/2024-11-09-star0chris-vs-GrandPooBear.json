@@ -1,0 +1,279 @@
+{
+  "match_id": "2024-11-09-star0chris-vs-GrandPooBear",
+  "match_date": "2024-11-09",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "star0chris",
+  "player_blue_name": "GrandPooBear",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=tbF-Qx9EK-U",
+    "duration_s": 6090.233333333334,
+    "published_at": "2024-11-14",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5190.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_1",
+      "square_texts": [
+        [
+          "Kill Bayle while summoning Igon",
+          "Kill a Base Game Boss in DLC",
+          "Burn the Sealing Tree",
+          "Kill Jori, The Elder Inquisitor",
+          "Kill Logur, the Beast Claw"
+        ],
+        [
+          "Acquire 3 DLC Ashes of War",
+          "Acquire the Full Gravebird Armor Set",
+          "Clear 2 Catacombs",
+          "Give an Iris of Occultation",
+          "Reach Level 85"
+        ],
+        [
+          "Kill Consort Radahn",
+          "Kill a Remembrance Boss with a Remembrance Weapon",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill Leda and her companions",
+          "Acquire Commander Gaius's Pants"
+        ],
+        [
+          "Kill Moonrithyll, Carian Knight",
+          "Drink Thiollier's Concoction",
+          "Kill a Dancing Lion",
+          "Acquire 2 Painting Rewards",
+          "Kill Metyr, Mother of Fingers"
+        ],
+        [
+          "Kill a Boss with a +0 Weapon",
+          "Complete 2 Nameless Mausoleums",
+          "Acquire 2 Kindred Cookbooks",
+          "Acquire Level 10 Scadu",
+          "Kill a Boss with Backhand Blades only"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:02"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:03",
+          "video_timestamp": "00:09:05"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:18",
+          "video_timestamp": "00:13:20"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:09",
+          "video_timestamp": "00:15:11"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:26",
+          "video_timestamp": "00:22:28"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:17",
+          "video_timestamp": "00:25:19"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:25",
+          "video_timestamp": "00:27:27"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:46",
+          "video_timestamp": "00:37:48"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:27",
+          "video_timestamp": "00:40:29"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:59",
+          "video_timestamp": "00:42:01"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:22",
+          "video_timestamp": "00:42:24"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:34",
+          "video_timestamp": "00:43:36"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Burn the Sealing Tree",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:48",
+          "video_timestamp": "00:57:50"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Reach Level 85",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:48",
+          "video_timestamp": "00:59:50"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:25",
+          "video_timestamp": "01:03:27"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Leda and her companions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:54",
+          "video_timestamp": "01:04:56"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Dancing Lion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:51",
+          "video_timestamp": "01:18:53"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Remembrance Boss with a Remembrance Weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:52",
+          "video_timestamp": "01:18:54"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Bayle while summoning Igon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:16:13",
+          "video_timestamp": "01:19:15"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:50",
+          "video_timestamp": "01:19:52"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Full Gravebird Armor Set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:16",
+          "video_timestamp": "01:23:18"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Consort Radahn",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:23:07",
+          "video_timestamp": "01:26:11"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:23:07",
+          "video_timestamp": "01:26:11"
+        }
+      ]
+    }
+  ]
+}
