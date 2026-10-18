@@ -214,6 +214,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "deathblight_dancing_lion",
+    "text": "Kill the Deathblight Dancing Lion",
+    "game_type": "dlc"
+  },
+  {
     "id": "devonia",
     "text": "Kill Crucible Knight Devonia",
     "game_type": "dlc",
@@ -603,6 +608,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "memb_colossal_only",
+    "text": "Kill a Remembrance boss Colossal weapon only",
+    "game_type": "dlc"
+  },
+  {
     "id": "memb_hitless",
     "text": "Kill a Remembrance Boss Hitless",
     "game_type": "dlc"
@@ -640,6 +650,11 @@
     "aliases": [
       "Kill Midra, Lord of Frenzied Flame"
     ]
+  },
+  {
+    "id": "miquellas_charm",
+    "text": "Break Miquella's charm with Miquella's great rune",
+    "game_type": "dlc"
   },
   {
     "id": "miquella_crosses_4",
@@ -811,11 +826,6 @@
     "aliases": [
       "Kill Rellana, Twin Moon Knight"
     ]
-  },
-  {
-    "id": "memb_colossal_only",
-    "text": "Kill a Remembrance boss Colossal weapon only",
-    "game_type": "dlc"
   },
   {
     "id": "remembrance_weapon_max",
