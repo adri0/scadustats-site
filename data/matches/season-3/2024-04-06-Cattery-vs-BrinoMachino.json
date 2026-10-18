@@ -1,0 +1,287 @@
+{
+  "match_id": "2024-04-06-Cattery-vs-BrinoMachino",
+  "match_date": "2024-04-06",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Cattery",
+  "player_blue_name": "BrinoMachino",
+  "team_red": {
+    "name": "Cattery",
+    "members": [
+      "catalystz",
+      "Puppery"
+    ]
+  },
+  "team_blue": {
+    "name": "BrinoMachino",
+    "members": [
+      "blueberrybrioche",
+      "GinoMachino"
+    ]
+  },
+  "commentators": [
+    "blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=u3BfXlBdVP4",
+    "duration_s": 3644.0333333333333,
+    "published_at": "2024-04-08",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 203.0,
+      "end_video_ts_s": 3246.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 7,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Learn 12 different sorceries",
+          "Kill a Remembrance boss bow only",
+          "Kill Gurranq",
+          "Kill 2 Black Knife Assassins",
+          "Kill Lansseax"
+        ],
+        [
+          "Somber +9 weapon",
+          "Kill 6 bosses in Caelid",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill a Black Blade Kindred",
+          "30 Faith (no rebirth or buffs)"
+        ],
+        [
+          "Kill 3 Tibia Mariners",
+          "Kill a Red Wolf Boss",
+          "Kill a Magma Wyrm boss",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill Putrid Crystalian trio"
+        ],
+        [
+          "Kill Soldier of Godrick bare fist only",
+          "Kill Mimic Tear consumables only",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Restore Rykard's Great Rune",
+          "Kill Leonine Misbegotten"
+        ],
+        [
+          "Kill 2 Duelist Bosses",
+          "Learn 14 different incantations",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Kill 3 Dragon Heart Bosses",
+          "Kill Wormface"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:06:00"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:29",
+          "video_timestamp": "00:13:29"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:58",
+          "video_timestamp": "00:16:58"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Somber +9 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:33",
+          "video_timestamp": "00:19:33"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:53",
+          "video_timestamp": "00:22:53"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:16",
+          "video_timestamp": "00:24:16"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Lansseax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:52",
+          "video_timestamp": "00:26:52"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:37",
+          "video_timestamp": "00:28:37"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Gurranq",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:08",
+          "video_timestamp": "00:31:08"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:57",
+          "video_timestamp": "00:31:57"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "30 Faith (no rebirth or buffs)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:36",
+          "video_timestamp": "00:33:36"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:44",
+          "video_timestamp": "00:35:44"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:33",
+          "video_timestamp": "00:38:33"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:28",
+          "video_timestamp": "00:40:28"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Putrid Crystalian trio",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:15",
+          "video_timestamp": "00:42:15"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:38",
+          "video_timestamp": "00:45:38"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:39:42",
+          "video_timestamp": "00:45:42"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:42",
+          "video_timestamp": "00:45:42"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:28",
+          "video_timestamp": "00:47:28"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:14",
+          "video_timestamp": "00:49:14"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:51",
+          "video_timestamp": "00:51:51"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:45:51",
+          "video_timestamp": "00:51:51"
+        }
+      ]
+    }
+  ]
+}
