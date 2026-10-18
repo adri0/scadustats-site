@@ -1,0 +1,588 @@
+{
+  "match_id": "2024-11-15-itzCBD-vs-blanxz",
+  "match_date": "2024-11-15",
+  "season": "4",
+  "match_type": "double_elimination",
+  "player_red_name": "itzCBD",
+  "player_blue_name": "blanxz",
+  "commentators": [
+    "adef",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=SyxKXIT-E90",
+    "duration_s": 12120.85,
+    "published_at": "2024-11-19",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 168.0,
+      "end_video_ts_s": 4471.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill one boss of each, Bear / Lion / Hippo",
+          "Kill a Demi Human Swordsman",
+          "Acquire Commander Gaius's Pants",
+          "Give an Iris of Grace",
+          "Kill Leda and her companions"
+        ],
+        [
+          "Acquire the Aged Ones Exultation Talisman",
+          "Give an Iris of Occultation",
+          "Kill Putrescent Knight",
+          "Kill Rellana, Twin Moon Knight",
+          "Burn the Sealing Tree"
+        ],
+        [
+          "Drink Thiollier's Concoction",
+          "Kill 2 Hippos",
+          "Acquire Tibia's Cookbook",
+          "Kill 2 unique Curseblade Assassins",
+          "Sell Great Katana +0"
+        ],
+        [
+          "Drain the Water in the Church District",
+          "Kill Metyr, Mother of Fingers",
+          "Memory of grace with 300k runes",
+          "Kill Logur, the Beast Claw",
+          "Complete 2 Nameless Mausoleums"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill Demi Human Marigga",
+          "Acquire a DLC Legendary Ash Summon",
+          "Kill a Furnace Golem",
+          "Acquire 3 DLC Ashes of War"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:03"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Sell Great Katana +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:02:35",
+          "video_timestamp": "00:05:38"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:50",
+          "video_timestamp": "00:15:53"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:45",
+          "video_timestamp": "00:16:48"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:12",
+          "video_timestamp": "00:18:15"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:39",
+          "video_timestamp": "00:19:42"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:23",
+          "video_timestamp": "00:20:26"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:59",
+          "video_timestamp": "00:25:02"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Tibia's Cookbook",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:15",
+          "video_timestamp": "00:28:18"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Memory of grace with 300k runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:15",
+          "video_timestamp": "00:28:18"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Furnace Golem",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:56",
+          "video_timestamp": "00:30:59"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Demi Human Swordsman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:17",
+          "video_timestamp": "00:33:20"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:20",
+          "video_timestamp": "00:33:23"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:04",
+          "video_timestamp": "00:34:07"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 2 Hippos",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:47",
+          "video_timestamp": "00:38:50"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire a DLC Legendary Ash Summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:55",
+          "video_timestamp": "00:41:58"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:51",
+          "video_timestamp": "00:46:54"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:40",
+          "video_timestamp": "00:52:43"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:53",
+          "video_timestamp": "00:55:56"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Metyr, Mother of Fingers",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:02",
+          "video_timestamp": "01:05:05"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Burn the Sealing Tree",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:08",
+          "video_timestamp": "01:05:11"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Give an Iris of Grace",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:55",
+          "video_timestamp": "01:06:58"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Give an Iris of Occultation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:13",
+          "video_timestamp": "01:08:16"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Leda and her companions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:14",
+          "video_timestamp": "01:12:23"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:09:14",
+          "video_timestamp": "01:12:23"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4472.0,
+      "end_video_ts_s": 10856.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Dryleaf Dane in the Duel",
+          "Collect 4 perfumer bottles",
+          "Drain the Water in the Church District",
+          "Kill Consort Radahn",
+          "Acquire 3 Larval tears"
+        ],
+        [
+          "Acquire 2 Painting Rewards",
+          "Clear 2 Gaols",
+          "Kill a Boss with a +0 Weapon",
+          "Kill the Tree Sentinel Duo",
+          "Kill Chief Bloodfiend"
+        ],
+        [
+          "Kill Demi Human Marigga",
+          "Complete 2 Nameless Mausoleums",
+          "Kill a boss with sorcery only",
+          "Kill Rellana, Twin Moon Knight",
+          "Kill 3 Bosses with Knight in their name"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill the Frenzy NPC",
+          "Memory of grace with 300k runes",
+          "Kill a Remembrance Boss after 6 parries",
+          "Kill Putrescent Knight"
+        ],
+        [
+          "Acquire Igon's Furled Finger",
+          "Acquire Commander Gaius's Pants",
+          "Acquire Devonia's Hammer",
+          "Acquire the Sword of Light/Darkness",
+          "Use a Transformation"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:17:38"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:03:27",
+          "video_timestamp": "01:21:05"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:10",
+          "video_timestamp": "01:23:48"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:03",
+          "video_timestamp": "01:30:41"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:28",
+          "video_timestamp": "01:34:06"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:00",
+          "video_timestamp": "01:35:38"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Bosses with Knight in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:00",
+          "video_timestamp": "01:36:38"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:33",
+          "video_timestamp": "01:47:11"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:56",
+          "video_timestamp": "01:47:34"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Memory of grace with 300k runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:25",
+          "video_timestamp": "01:48:03"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:31",
+          "video_timestamp": "01:51:09"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a boss with sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:55",
+          "video_timestamp": "01:51:33"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:25",
+          "video_timestamp": "02:02:03"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:30",
+          "video_timestamp": "02:04:08"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:43",
+          "video_timestamp": "02:06:21"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:47",
+          "video_timestamp": "02:10:25"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire the Sword of Light/Darkness",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:41",
+          "video_timestamp": "02:11:19"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill the Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:18",
+          "video_timestamp": "02:11:56"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Collect 4 perfumer bottles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:35",
+          "video_timestamp": "02:14:13"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:58",
+          "video_timestamp": "02:14:36"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire Devonia's Hammer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:46",
+          "video_timestamp": "02:22:24"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Frenzy NPC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:45",
+          "video_timestamp": "02:27:23"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss after 6 parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:47",
+          "video_timestamp": "02:31:25"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Clear 2 Gaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:52",
+          "video_timestamp": "02:35:30"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Putrescent Knight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:23",
+          "video_timestamp": "02:45:01"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Consort Radahn",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:41:29",
+          "video_timestamp": "02:59:16"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:41:29",
+          "video_timestamp": "02:59:16"
+        }
+      ]
+    }
+  ]
+}
