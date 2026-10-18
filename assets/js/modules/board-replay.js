@@ -4,9 +4,15 @@
  * order, as JSON ([data-replay-steps]: {type, cell, color, time, url}). The
  * bar under the board (hidden until this runs) steps through them: play/pause,
  * previous/next and a slider over the steps, evenly spaced. Step N, the last,
- * is the final board as rendered, win line included.
+ * is the final board as rendered, win line included. The game's score
+ * ([data-score] in its .game section) follows the board. The replay plays by
+ * itself the first time most of the board scrolls into view, unless the
+ * viewer prefers reduced motion or has already used the bar. Cells fade
+ * into and out of their colour, and so do their time labels.
  */
-const STEP_MS = 600;
+const STEP_MS = 250;
+const FADE_MS = 450; // .cell transitions in _scadu.scss
+const AUTOPLAY_RATIO = 0.6;
 const initialized = new WeakSet();
 
 function timeElement(step) {
@@ -42,11 +48,15 @@ function initBoard(root) {
     const scrub = bar.querySelector('.replay-scrub');
     const clock = bar.querySelector('.replay-clock');
     const count = bar.querySelector('.replay-count');
+    const scores = root.closest('.game')?.querySelectorAll('[data-score]') ?? [];
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
     const last = steps.length;
     let shown = last;
     let timer = null;
 
-    function render(k) {
+    // `animate` is off for the first render, which only takes over the
+    // server-rendered board, and for viewers who prefer reduced motion.
+    function render(k, animate = !reducedMotion) {
         shown = Math.max(0, Math.min(last, k));
         const state = new Map();
         for (let i = 0; i < shown; i++) {
@@ -61,9 +71,30 @@ function initBoard(root) {
             td.classList.add(s ? `cell-${s.color || 'unclaimed'}` : 'cell-unclaimed');
             td.classList.toggle('cell-winline', winline && shown === last);
             if (latest && latest.cell === key && shown < last) td.classList.add('cell-latest');
-            td.querySelector('.cell-time')?.remove();
-            if (s && s.time) td.append(timeElement(s));
+            // Keep a label that is still right, so only new ones fade in.
+            const current = td.querySelector('.cell-time:not(.is-leaving)');
+            if (current && current.step === s) return;
+            if (current) {
+                if (animate) {
+                    current.classList.add('is-leaving');
+                    setTimeout(() => current.remove(), FADE_MS);
+                } else {
+                    current.remove();
+                }
+            }
+            if (s && s.time) {
+                const el = timeElement(s);
+                el.step = s;
+                td.append(el);
+                if (animate) {
+                    el.classList.add('is-leaving');
+                    requestAnimationFrame(() => requestAnimationFrame(() => el.classList.remove('is-leaving')));
+                }
+            }
         });
+        const counts = { red: 0, blue: 0 };
+        state.forEach((s) => { if (s.color in counts) counts[s.color] += 1; });
+        scores.forEach((el) => { el.textContent = String(counts[el.dataset.score]); });
         scrub.value = String(shown);
         scrub.setAttribute('aria-valuetext', `${shown} of ${last} marks${latest ? `, ${latest.time}` : ''}`);
         clock.textContent = latest ? latest.time : '0:00';
@@ -91,13 +122,30 @@ function initBoard(root) {
         }, STEP_MS);
     }
 
-    play.addEventListener('click', () => (timer ? pause() : start()));
-    prev.addEventListener('click', () => { pause(); render(shown - 1); });
-    next.addEventListener('click', () => { pause(); render(shown + 1); });
-    scrub.addEventListener('input', () => { pause(); render(Number(scrub.value)); });
+    let observer = null;
+    function stopAutoplay() {
+        observer?.disconnect();
+        observer = null;
+    }
 
-    render(last);
+    play.addEventListener('click', () => { stopAutoplay(); timer ? pause() : start(); });
+    prev.addEventListener('click', () => { stopAutoplay(); pause(); render(shown - 1); });
+    next.addEventListener('click', () => { stopAutoplay(); pause(); render(shown + 1); });
+    scrub.addEventListener('input', () => { stopAutoplay(); pause(); render(Number(scrub.value)); });
+
+    render(last, false);
     bar.hidden = false;
+
+    // Boards hidden by no-spoilers mode never intersect, so they start
+    // when revealed and scrolled to.
+    if ('IntersectionObserver' in window && !reducedMotion) {
+        observer = new IntersectionObserver((entries) => {
+            if (!entries.some((e) => e.isIntersecting)) return;
+            stopAutoplay();
+            if (!timer) start();
+        }, { threshold: AUTOPLAY_RATIO });
+        observer.observe(root);
+    }
 }
 
 export function initBoardReplays() {
