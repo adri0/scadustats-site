@@ -352,11 +352,6 @@
     "game_type": "dlc"
   },
   {
-    "id": "horned_warriors_enir_ilim_3",
-    "text": "Kill the 3 elemental Horned Warriors in Enir Ilim",
-    "game_type": "dlc"
-  },
-  {
     "id": "euporia",
     "text": "Acquire Euporia",
     "game_type": "dlc"
@@ -463,6 +458,11 @@
   {
     "id": "horned_warriors_5",
     "text": "Kill 5 Unique Horned Warriors",
+    "game_type": "dlc"
+  },
+  {
+    "id": "horned_warriors_enir_ilim_3",
+    "text": "Kill the 3 elemental Horned Warriors in Enir Ilim",
     "game_type": "dlc"
   },
   {
@@ -813,6 +813,11 @@
     ]
   },
   {
+    "id": "memb_colossal_only",
+    "text": "Kill a Remembrance boss Colossal weapon only",
+    "game_type": "dlc"
+  },
+  {
     "id": "remembrance_weapon_max",
     "text": "Upgrade a Remembrance Weapon to Max",
     "game_type": "dlc"
@@ -943,6 +948,11 @@
   {
     "id": "torch",
     "text": "Acquire a Torch",
+    "game_type": "dlc"
+  },
+  {
+    "id": "torn_diary_page",
+    "text": "Acquire the torn diary page",
     "game_type": "dlc"
   },
   {

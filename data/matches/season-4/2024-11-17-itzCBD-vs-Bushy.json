@@ -1,0 +1,525 @@
+{
+  "match_id": "2024-11-17-itzCBD-vs-Bushy",
+  "match_date": "2024-11-17",
+  "season": "4",
+  "match_type": "double_elimination",
+  "player_red_name": "itzCBD",
+  "player_blue_name": "Bushy",
+  "commentators": [
+    "blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=Tr5Q98--rV0",
+    "duration_s": 10428.583333333334,
+    "published_at": "2024-11-24",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 6.0,
+      "end_video_ts_s": 4378.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 4 Remembrance Bosses",
+          "Acquire Level 5 Revered Ash",
+          "Kill the Golden Hippo",
+          "Kill a Boss with Backhand Blades only",
+          "Kill Bols in front of Castle Ensis"
+        ],
+        [
+          "Kill Demi Human Marigga",
+          "Kill Messmer",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Heal the wounded Kindred rot",
+          "Kill a Remembrance Boss after 6 parries"
+        ],
+        [
+          "Kill Lamenter Boss",
+          "Kill Moonrithyll, Carian Knight",
+          "Acquire the torn diary page",
+          "Acquire Velvet St. Trina's Sword",
+          "Kill the Frenzy NPC"
+        ],
+        [
+          "Kill 3 Dragon Bosses",
+          "Kill the Rolling Giant Lightning Ram",
+          "Drink Thiollier's Concoction",
+          "Acquire 2 Dragon Hearts",
+          "Kill a Demi Human Swordsman"
+        ],
+        [
+          "Acquire Commander Gaius's Pants",
+          "Use a Transformation",
+          "Acquire 4 DLC Sorceries",
+          "Kill Ancient Dragon Senessax",
+          "Acquire Igon's Furled Finger"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:03"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:37",
+          "video_timestamp": "00:11:40"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Bols in front of Castle Ensis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:00",
+          "video_timestamp": "00:13:03"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:35",
+          "video_timestamp": "00:14:38"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:21",
+          "video_timestamp": "00:21:25"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill the Golden Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:20:59",
+          "video_timestamp": "00:24:03"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:26",
+          "video_timestamp": "00:26:30"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:51",
+          "video_timestamp": "00:31:55"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Demi Human Marigga",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:58",
+          "video_timestamp": "00:33:02"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 4 DLC Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:45",
+          "video_timestamp": "00:35:49"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Rolling Giant Lightning Ram",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:46",
+          "video_timestamp": "00:39:50"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Lamenter Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:48",
+          "video_timestamp": "00:41:52"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Demi Human Swordsman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:48",
+          "video_timestamp": "00:41:52"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:59",
+          "video_timestamp": "00:42:03"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:00",
+          "video_timestamp": "00:49:04"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Messmer",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:30",
+          "video_timestamp": "00:51:34"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss after 6 parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:49",
+          "video_timestamp": "00:54:53"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Level 5 Revered Ash",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:12",
+          "video_timestamp": "00:57:16"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:59",
+          "video_timestamp": "00:58:03"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Commander Gaius's Pants",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:21",
+          "video_timestamp": "01:00:25"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Giant Hand in the Finger Ruins Dheo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:47",
+          "video_timestamp": "01:03:51"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Ancient Dragon Senessax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:02",
+          "video_timestamp": "01:11:06"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:08:02",
+          "video_timestamp": "01:11:06"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 4379.0,
+      "end_video_ts_s": 8661.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Acquire the Sword of Light/Darkness",
+          "Kill Queelign in Belurat",
+          "Kill a Remembrance Boss with a Remembrance Weapon",
+          "Kill Logur, the Beast Claw",
+          "Upgrade a Remembrance Weapon to Max"
+        ],
+        [
+          "Acquire Igon's Furled Finger",
+          "Reach Level 85",
+          "Drain the Water in the Church District",
+          "Kill Bols in front of Castle Ensis",
+          "Kill Consort Radahn"
+        ],
+        [
+          "Acquire Level 10 Scadu",
+          "Kill a Red bear",
+          "Kill a Remembrance boss Colossal weapon only",
+          "Kill Scadutree Avatar",
+          "Drink Thiollier's Concoction"
+        ],
+        [
+          "Collect 4 perfumer bottles",
+          "Kill Leda and her companions",
+          "Kill Ancient Dragon Man Boss",
+          "Kill a Boss with Hand to Hand only",
+          "Kill a Remembrance Boss after 6 parries"
+        ],
+        [
+          "Kill 3 NPC Bosses",
+          "Sell Great Katana +0",
+          "Dupe a Remembrance",
+          "Kill a Base Game Boss in DLC",
+          "Kill Ancient Dragon Senessax"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:16:52"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Sell Great Katana +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:02:02",
+          "video_timestamp": "01:18:54"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Bols in front of Castle Ensis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:26",
+          "video_timestamp": "01:21:18"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Drink Thiollier's Concoction",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:02",
+          "video_timestamp": "01:23:54"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:51",
+          "video_timestamp": "01:27:43"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:21",
+          "video_timestamp": "01:33:13"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:12",
+          "video_timestamp": "01:35:04"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Red bear",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:37",
+          "video_timestamp": "01:37:29"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:45",
+          "video_timestamp": "01:43:37"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:45",
+          "video_timestamp": "01:43:37"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Dupe a Remembrance",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:44",
+          "video_timestamp": "01:44:36"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:25",
+          "video_timestamp": "01:52:17"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with a Remembrance Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:27",
+          "video_timestamp": "01:57:19"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss Colossal weapon only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:27",
+          "video_timestamp": "01:57:19"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Upgrade a Remembrance Weapon to Max",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:04",
+          "video_timestamp": "01:59:56"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Reach Level 85",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:37",
+          "video_timestamp": "02:05:29"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire the Sword of Light/Darkness",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:08",
+          "video_timestamp": "02:12:00"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:44",
+          "video_timestamp": "02:13:36"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:35",
+          "video_timestamp": "02:20:27"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Remembrance Boss after 6 parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:05:04",
+          "video_timestamp": "02:21:56"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Leda and her companions",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:38",
+          "video_timestamp": "02:22:31"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:05:38",
+          "video_timestamp": "02:22:31"
+        }
+      ]
+    }
+  ]
+}
