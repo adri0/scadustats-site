@@ -1,0 +1,279 @@
+{
+  "match_id": "2024-11-08-LilAggy-vs-GrandPooBear",
+  "match_date": "2024-11-08",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "GrandPooBear",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=iPs65Pgd8uw",
+    "duration_s": 4554.75,
+    "published_at": "2024-11-12",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4230.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Lamenter Boss",
+          "Acquire 4 DLC Talismans",
+          "Kill a Remembrance Boss with a Remembrance Weapon",
+          "Kill Metyr, Mother of Fingers",
+          "Kill Queelign in Belurat"
+        ],
+        [
+          "Kill a Remembrance Boss after 6 parries",
+          "Use a Transformation",
+          "Kill Dryleaf Dane in the Duel",
+          "Kill Scadutree Avatar",
+          "Acquire 3 DLC shields"
+        ],
+        [
+          "Kill a boss after inflicting 3 different status effects",
+          "Kill a Boss with a +0 Weapon",
+          "Acquire Moore Armor set",
+          "Acquire Both Aspect of the Crucible Incantations",
+          "Kill the Frenzy NPC"
+        ],
+        [
+          "Kill the Death Rite Bird",
+          "Acquire Igon's Furled Finger",
+          "Kill 2 Hippos",
+          "Kill Messmer",
+          "Memory of grace with 300k runes"
+        ],
+        [
+          "Kill a boss using a Perfume Bottle only",
+          "Heal the wounded Kindred rot",
+          "Kill 3 Unique NPC Invaders",
+          "Kill Chief Bloodfiend",
+          "Give an Iris of Grace"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:05"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:03",
+          "video_timestamp": "00:13:08"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Moore Armor set",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:48",
+          "video_timestamp": "00:13:53"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:22",
+          "video_timestamp": "00:15:27"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a boss after inflicting 3 different status effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:06",
+          "video_timestamp": "00:20:11"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:06",
+          "video_timestamp": "00:20:11"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:17",
+          "video_timestamp": "00:25:22"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Lamenter Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:32",
+          "video_timestamp": "00:33:37"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:41",
+          "video_timestamp": "00:33:46"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 3 DLC shields",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:30",
+          "video_timestamp": "00:34:35"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 2 Hippos",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:08",
+          "video_timestamp": "00:40:13"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a boss using a Perfume Bottle only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:58",
+          "video_timestamp": "00:45:03"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:59",
+          "video_timestamp": "00:46:04"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Memory of grace with 300k runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:09",
+          "video_timestamp": "00:46:14"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:56",
+          "video_timestamp": "00:50:01"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:48",
+          "video_timestamp": "00:51:53"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Scadutree Avatar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:42",
+          "video_timestamp": "00:56:47"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Give an Iris of Grace",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:57",
+          "video_timestamp": "00:59:02"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss with a Remembrance Weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:47",
+          "video_timestamp": "01:05:52"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss after 6 parries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:47",
+          "video_timestamp": "01:05:52"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:11",
+          "video_timestamp": "01:08:16"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Both Aspect of the Crucible Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:42",
+          "video_timestamp": "01:09:47"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:06:42",
+          "video_timestamp": "01:09:47"
+        }
+      ]
+    }
+  ]
+}
