@@ -1,0 +1,297 @@
+{
+  "match_id": "2024-11-03-blanxz-vs-Vswed",
+  "match_date": "2024-11-03",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "blanxz",
+  "player_blue_name": "Vswed",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=OQ3JZP4AJ9s",
+    "duration_s": 5499.266666666666,
+    "published_at": "2024-11-07",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4550.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire Level 10 Scadu",
+          "Kill Leda and her companions",
+          "Kill Rellana, Twin Moon Knight",
+          "Acquire the Perfumed Oil of Ranah",
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood"
+        ],
+        [
+          "Memory of grace with 300k runes",
+          "Clear 2 Catacombs",
+          "Acquire 4 DLC Talismans",
+          "Acquire 3 DLC Spirit Ashes",
+          "Acquire 2 Kindred Cookbooks"
+        ],
+        [
+          "Kill Ancient Dragon Man Boss",
+          "Kill Dryleaf Dane in the Duel",
+          "Kill Queelign in Belurat",
+          "Acquire Igon's Furled Finger",
+          "Acquire 3 DLC shields"
+        ],
+        [
+          "Give an Iris of Occultation",
+          "Kill Chief Bloodfiend",
+          "Kill Logur, the Beast Claw",
+          "Kill 3 Dragon Bosses",
+          "Kill Count Ymir, Mother of Fingers"
+        ],
+        [
+          "Acquire Both Aspect of the Crucible Incantations",
+          "Acquire Jolan & Anna Summon",
+          "Kill 3 Unique NPC Invaders",
+          "Acquire Verdigris Discus",
+          "Kill Moonrithyll, Carian Knight"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:10"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Queelign in Belurat",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:31",
+          "video_timestamp": "00:09:41"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 4 DLC Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:10",
+          "video_timestamp": "00:10:20"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:23",
+          "video_timestamp": "00:15:33"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:38",
+          "video_timestamp": "00:17:48"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:14",
+          "video_timestamp": "00:18:24"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 2 Kindred Cookbooks",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:32",
+          "video_timestamp": "00:21:42"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Chief Bloodfiend",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:12",
+          "video_timestamp": "00:23:22"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Logur, the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:47",
+          "video_timestamp": "00:24:57"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 3 DLC shields",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:06",
+          "video_timestamp": "00:27:16"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Memory of grace with 300k runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:38",
+          "video_timestamp": "00:28:48"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:59",
+          "video_timestamp": "00:34:09"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Give an Iris of Occultation",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:01",
+          "video_timestamp": "00:44:11"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:25",
+          "video_timestamp": "00:47:35"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 3 DLC Spirit Ashes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:25",
+          "video_timestamp": "00:47:35"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Both Aspect of the Crucible Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:41",
+          "video_timestamp": "00:50:51"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:48",
+          "video_timestamp": "00:55:58"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:52",
+          "video_timestamp": "00:56:02"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:36",
+          "video_timestamp": "00:59:46"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Unique NPC Invaders",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:45",
+          "video_timestamp": "01:00:55"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Count Ymir, Mother of Fingers",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:47",
+          "video_timestamp": "01:05:57"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Jolan & Anna Summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:02",
+          "video_timestamp": "01:08:12"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:45",
+          "video_timestamp": "01:10:55"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:57",
+          "video_timestamp": "01:15:07"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:11:57",
+          "video_timestamp": "01:15:07"
+        }
+      ]
+    }
+  ]
+}
