@@ -220,24 +220,6 @@
         },
         {
           "row": 5,
-          "col": 2,
-          "square_text": "Learn 14 different incantations",
-          "color": "blue",
-          "event_type": "mark",
-          "game_timer": "00:39:38",
-          "video_timestamp": "00:45:38"
-        },
-        {
-          "row": 5,
-          "col": 2,
-          "square_text": "Learn 14 different incantations",
-          "color": "blue",
-          "event_type": "unmark",
-          "game_timer": "00:39:42",
-          "video_timestamp": "00:45:42"
-        },
-        {
-          "row": 5,
           "col": 3,
           "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
           "color": "blue",
