@@ -1,0 +1,297 @@
+{
+  "match_id": "2024-10-13-itzCBD-vs-Adef",
+  "match_date": "2024-10-13",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "itzCBD",
+  "player_blue_name": "Adef",
+  "commentators": [
+    "DrDootPHD",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=OVL69-9EPqY",
+    "duration_s": 6121.166666666667,
+    "published_at": "2024-10-16",
+    "extracted_at": "2026-10-17"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5161.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Base Game Boss in DLC",
+          "Acquire Igon's Furled Finger",
+          "Kill Putrescent Knight",
+          "Use a Transformation",
+          "Acquire 2 Dragon Hearts"
+        ],
+        [
+          "Acquire Moore Armor set",
+          "Kill 3 Dragon Bosses",
+          "Clear 2 Gaols",
+          "Clear two Forges",
+          "Drain the Water in the Church District"
+        ],
+        [
+          "Acquire 3 Larval tears",
+          "Visit 5 Miquella Crosses",
+          "Kill 3 Ulcerated Tree Spirits",
+          "Kill a Boss with Backhand Blades only",
+          "Acquire 2 Hanging Pot Bell Bearings"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill Jori, The Elder Inquisitor",
+          "Kill a boss using a Perfume Bottle only",
+          "Kill a Black Knight boss",
+          "Acquire Level 10 Scadu"
+        ],
+        [
+          "Collect 2 DLC full armor sets",
+          "Kill Dryleaf Dane in the Duel",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Kill a Death Knight",
+          "Kill Rellana, Twin Moon Knight"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:16"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Visit 5 Miquella Crosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:26",
+          "video_timestamp": "00:10:43"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 3 Larval tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:14",
+          "video_timestamp": "00:13:31"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Collect 2 DLC full armor sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:55",
+          "video_timestamp": "00:15:12"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire Moore Armor set",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:28",
+          "video_timestamp": "00:16:45"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:50",
+          "video_timestamp": "00:18:07"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Dryleaf Dane in the Duel",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:50",
+          "video_timestamp": "00:18:07"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Drain the Water in the Church District",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:05",
+          "video_timestamp": "00:20:22"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Black Knight boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:36",
+          "video_timestamp": "00:25:53"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Clear two Forges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:40",
+          "video_timestamp": "00:29:57"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:19",
+          "video_timestamp": "00:35:36"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:31",
+          "video_timestamp": "00:35:48"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:15",
+          "video_timestamp": "00:42:32"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:08",
+          "video_timestamp": "00:47:25"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:55",
+          "video_timestamp": "00:51:12"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Putrescent Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:47",
+          "video_timestamp": "00:58:04"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Ulcerated Tree Spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:57",
+          "video_timestamp": "00:59:14"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:15",
+          "video_timestamp": "01:01:32"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:12",
+          "video_timestamp": "01:02:29"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a boss using a Perfume Bottle only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:44",
+          "video_timestamp": "01:08:01"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:22",
+          "video_timestamp": "01:08:39"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Jori, The Elder Inquisitor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:20",
+          "video_timestamp": "01:15:37"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Rellana, Twin Moon Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:08",
+          "video_timestamp": "01:16:25"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Midra, Lord of Frenzied Flame",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:44",
+          "video_timestamp": "01:26:01"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:22:44",
+          "video_timestamp": "01:26:01"
+        }
+      ]
+    }
+  ]
+}

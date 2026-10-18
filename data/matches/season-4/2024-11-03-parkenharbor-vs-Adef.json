@@ -1,0 +1,252 @@
+{
+  "match_id": "2024-11-03-parkenharbor-vs-Adef",
+  "match_date": "2024-11-03",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "parkenharbor",
+  "player_blue_name": "Adef",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=TETOCkVtrZ4",
+    "duration_s": 5410.45,
+    "published_at": "2024-11-08",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 4574.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Base Game Boss in DLC",
+          "Kill Lamenter Boss",
+          "Acquire 3 DLC Ashes of War",
+          "Kill Messmer",
+          "Kill 2 unique Curseblade Assassins"
+        ],
+        [
+          "Acquire 5 Hefty Pots",
+          "Kill Putrescent Knight",
+          "Kill 3 Dragon Bosses",
+          "Acquire the Golden Braid",
+          "Kill Count Ymir, Mother of Fingers"
+        ],
+        [
+          "Heal the wounded Kindred rot",
+          "Reach Level 85",
+          "Upgrade a Remembrance Weapon to Max",
+          "Acquire 2 Hanging Pot Bell Bearings",
+          "Kill a Dancing Lion"
+        ],
+        [
+          "Acquire Jolan & Anna Summon",
+          "Acquire Both Aspect of the Crucible Incantations",
+          "Acquire the Aged Ones Exultation Talisman",
+          "Kill a Boss with a +0 Weapon",
+          "Acquire the Perfumed Oil of Ranah"
+        ],
+        [
+          "Kill one boss of each, Bear / Lion / Hippo",
+          "Kill Bols in front of Castle Ensis",
+          "Kill Romina",
+          "Kill Consort Radahn",
+          "Kill Metyr, Mother of Fingers"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:08"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Bols in front of Castle Ensis",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:45",
+          "video_timestamp": "00:12:53"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 2 unique Curseblade Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:30",
+          "video_timestamp": "00:14:38"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:38",
+          "video_timestamp": "00:21:46"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:38",
+          "video_timestamp": "00:25:46"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire the Golden Braid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:19",
+          "video_timestamp": "00:28:27"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:21",
+          "video_timestamp": "00:28:29"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Base Game Boss in DLC",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:16",
+          "video_timestamp": "00:30:24"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Messmer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:49",
+          "video_timestamp": "00:34:57"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:41",
+          "video_timestamp": "00:40:49"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Both Aspect of the Crucible Incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:45",
+          "video_timestamp": "00:45:53"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Upgrade a Remembrance Weapon to Max",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:47",
+          "video_timestamp": "00:52:55"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill a Dancing Lion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:51",
+          "video_timestamp": "00:56:59"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:25",
+          "video_timestamp": "00:59:33"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Reach Level 85",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:17",
+          "video_timestamp": "01:00:25"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "00:57:24",
+          "video_timestamp": "01:00:32"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill one boss of each, Bear / Lion / Hippo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:24",
+          "video_timestamp": "01:03:32"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 5 Hefty Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:25",
+          "video_timestamp": "01:07:33"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:43",
+          "video_timestamp": "01:14:51"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:11:43",
+          "video_timestamp": "01:14:51"
+        }
+      ]
+    }
+  ]
+}

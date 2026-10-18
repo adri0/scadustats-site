@@ -1,0 +1,315 @@
+{
+  "match_id": "2024-10-04-LilAggy-vs-star0chris",
+  "match_date": "2024-10-04",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "star0chris",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=2H3cbtgu4wo",
+    "duration_s": 7360.466666666666,
+    "published_at": "2024-10-06",
+    "extracted_at": "2026-10-15"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 6654.0,
+      "game_type": "dlc",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill one boss of each, Bear / Lion / Hippo",
+          "Kill the Death Rite Bird",
+          "Kill Leda and her companions",
+          "Kill Count Ymir, Mother of Fingers",
+          "Acquire 3 DLC Ashes of War"
+        ],
+        [
+          "Kill a Boss with Backhand Blades only",
+          "Acquire the Aged Ones Exultation Talisman",
+          "Acquire Igon's Furled Finger",
+          "Acquire 2 Painting Rewards",
+          "Acquire 2 Hanging Pot Bell Bearings"
+        ],
+        [
+          "Acquire 2 Dragon Hearts",
+          "Acquire Euporia",
+          "Kill a Dancing Lion",
+          "Kill Midra, Lord of Frenzied Flame",
+          "Complete 2 Nameless Mausoleums"
+        ],
+        [
+          "Kill Lamenter Boss",
+          "Kill 3 NPC Bosses",
+          "Sell Great Katana +0",
+          "Kill Bayle while summoning Igon",
+          "Use a Transformation"
+        ],
+        [
+          "Collect 2 DLC full armor sets",
+          "Kill 4 Remembrance Bosses",
+          "Kill Ancient Dragon Man Boss",
+          "Heal the wounded Kindred rot",
+          "Upgrade a Remembrance Weapon to Max"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:02"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Boss with Backhand Blades only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:18",
+          "video_timestamp": "00:12:20"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Ancient Dragon Man Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:18",
+          "video_timestamp": "00:12:20"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Collect 2 DLC full armor sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:28",
+          "video_timestamp": "00:12:30"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Sell Great Katana +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:53",
+          "video_timestamp": "00:13:55"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 2 Hanging Pot Bell Bearings",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:32",
+          "video_timestamp": "00:20:34"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:56",
+          "video_timestamp": "00:24:58"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Lamenter Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:41",
+          "video_timestamp": "00:26:43"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Use a Transformation",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:41",
+          "video_timestamp": "00:26:43"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 3 DLC Ashes of War",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:41",
+          "video_timestamp": "00:27:43"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire Igon's Furled Finger",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:27",
+          "video_timestamp": "00:34:29"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 2 Dragon Hearts",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:38",
+          "video_timestamp": "00:36:40"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Dancing Lion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:10",
+          "video_timestamp": "00:39:12"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:43",
+          "video_timestamp": "00:45:45"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 2 Painting Rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:30",
+          "video_timestamp": "00:49:32"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill one boss of each, Bear / Lion / Hippo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:31",
+          "video_timestamp": "00:51:33"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Complete 2 Nameless Mausoleums",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:55",
+          "video_timestamp": "00:53:57"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Heal the wounded Kindred rot",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:27",
+          "video_timestamp": "00:54:29"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Upgrade a Remembrance Weapon to Max",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:05",
+          "video_timestamp": "01:01:07"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Bayle while summoning Igon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:39",
+          "video_timestamp": "01:06:41"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Aged Ones Exultation Talisman",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:13:51",
+          "video_timestamp": "01:16:53"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 4 Remembrance Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:16:55",
+          "video_timestamp": "01:19:57"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Euporia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:28",
+          "video_timestamp": "01:26:30"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Leda and her companions",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:19",
+          "video_timestamp": "01:32:21"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Midra, Lord of Frenzied Flame",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:34:59",
+          "video_timestamp": "01:38:01"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Count Ymir, Mother of Fingers",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:46:58",
+          "video_timestamp": "01:50:00"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:46:58",
+          "video_timestamp": "01:50:00"
+        }
+      ]
+    }
+  ]
+}

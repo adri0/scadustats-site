@@ -18,6 +18,11 @@
     ]
   },
   {
+    "id": "aged_ones_exultation_talisman",
+    "text": "Acquire the Aged Ones Exultation Talisman",
+    "game_type": "dlc"
+  },
+  {
     "id": "base_game_boss_1",
     "text": "Kill 1 Unique Base Game Boss in the DLC",
     "game_type": "dlc",
@@ -76,6 +81,16 @@
   {
     "id": "bols",
     "text": "Kill Bols in front of Castle Ensis",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_backhand_blades_only",
+    "text": "Kill a Boss with Backhand Blades only",
+    "game_type": "dlc"
+  },
+  {
+    "id": "boss_hand_to_hand_only",
+    "text": "Kill a Boss with Hand to Hand only",
     "game_type": "dlc"
   },
   {
@@ -151,6 +166,11 @@
   {
     "id": "craft_hefty_pots_3",
     "text": "Craft 3 Unique Hefty Pots",
+    "game_type": "dlc"
+  },
+  {
+    "id": "crucible_aspect_incantations",
+    "text": "Acquire Both Aspect of the Crucible Incantations",
     "game_type": "dlc"
   },
   {
@@ -235,6 +255,11 @@
     ]
   },
   {
+    "id": "dlc_incantations_6",
+    "text": "Acquire 6 DLC Incantations",
+    "game_type": "dlc"
+  },
+  {
     "id": "dlc_legendary_ashes_1",
     "text": "Acquire a DLC Legendary Ash Summon",
     "game_type": "dlc"
@@ -245,6 +270,16 @@
     "game_type": "dlc"
   },
   {
+    "id": "dlc_shields_3",
+    "text": "Acquire 3 DLC shields",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dlc_sorceries_4",
+    "text": "Acquire 4 DLC Sorceries",
+    "game_type": "dlc"
+  },
+  {
     "id": "dlc_spirit_ashes_3",
     "text": "Acquire 3 DLC Spirit Ashes",
     "game_type": "dlc"
@@ -252,6 +287,11 @@
   {
     "id": "dlc_talismans_3",
     "text": "Acquire 3 DLC Talismans",
+    "game_type": "dlc"
+  },
+  {
+    "id": "dlc_talismans_4",
+    "text": "Acquire 4 DLC Talismans",
     "game_type": "dlc"
   },
   {
@@ -550,6 +590,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "memb_bosses_4",
+    "text": "Kill 4 Remembrance Bosses",
+    "game_type": "dlc"
+  },
+  {
     "id": "memb_hitless",
     "text": "Kill a Remembrance Boss Hitless",
     "game_type": "dlc"
@@ -835,6 +880,16 @@
     "game_type": "dlc"
   },
   {
+    "id": "sell_bloodfiends_arm_plus0",
+    "text": "Sell Bloodfiends Arm +0",
+    "game_type": "dlc"
+  },
+  {
+    "id": "sell_great_katana_plus0",
+    "text": "Sell Great Katana +0",
+    "game_type": "dlc"
+  },
+  {
     "id": "senessax",
     "text": "Kill Ancient Dragon Senessax",
     "game_type": "dlc"
@@ -855,6 +910,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "sword_of_light_darkness",
+    "text": "Acquire the Sword of Light/Darkness",
+    "game_type": "dlc"
+  },
+  {
     "id": "swordmaster_1",
     "text": "Kill 1 Demi-Human Swordmaster",
     "game_type": "dlc",
@@ -865,6 +925,11 @@
   {
     "id": "swordmaster_2",
     "text": "Kill 2 Demi-Human Swordmasters",
+    "game_type": "dlc"
+  },
+  {
+    "id": "torch",
+    "text": "Acquire a Torch",
     "game_type": "dlc"
   },
   {
@@ -908,6 +973,11 @@
   {
     "id": "unique_max_upgrade_materials_3",
     "text": "Acquire 3 Unique Max Upgrade Materials",
+    "game_type": "dlc"
+  },
+  {
+    "id": "velvet_sword_of_st_trina",
+    "text": "Acquire Velvet St. Trina's Sword",
     "game_type": "dlc"
   },
   {
