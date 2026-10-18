@@ -1,0 +1,306 @@
+{
+  "match_id": "2024-11-02-Vswed-vs-NuclearPastaTom",
+  "match_date": "2024-11-02",
+  "season": "4",
+  "match_type": "round_robin",
+  "player_red_name": "Vswed",
+  "player_blue_name": "NuclearPastaTom",
+  "commentators": [
+    "Mitchriz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=rk3lfaYUInA",
+    "duration_s": 6065.566666666667,
+    "published_at": "2024-11-07",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 2.0,
+      "end_video_ts_s": 5123.0,
+      "game_type": "dlc",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire the Golden Braid",
+          "Acquire Verdigris Discus",
+          "Sell Bloodfiends Arm +0",
+          "Kill Moonrithyll, Carian Knight",
+          "Kill a Boss with a +0 Weapon"
+        ],
+        [
+          "Kill a Black Knight boss",
+          "Acquire the Aged Ones Exultation Talisman",
+          "Kill a Remembrance Boss after 6 parries",
+          "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "Kill Bayle while summoning Igon"
+        ],
+        [
+          "Upgrade a Remembrance Weapon to Max",
+          "Acquire the Perfumed Oil of Ranah",
+          "Kill the Death Rite Bird",
+          "Kill Lamenter Boss",
+          "Acquire Devonia's Hammer"
+        ],
+        [
+          "Kill a boss using a Perfume Bottle only",
+          "Kill the Giant Hand in the Finger Ruins Dheo",
+          "Acquire Euporia",
+          "Acquire 2 Blessings of Marika",
+          "Have St. Trina talk to you"
+        ],
+        [
+          "Put Florissax to Sleep",
+          "Kill Romina",
+          "Acquire 4 DLC Sorceries",
+          "Collect 2 DLC full armor sets",
+          "Acquire Level 10 Scadu"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:01"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 Blessings of Marika",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:31",
+          "video_timestamp": "00:07:32"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Boss with a +0 Weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:54",
+          "video_timestamp": "00:08:55"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Black Knight boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:54",
+          "video_timestamp": "00:08:55"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Verdigris Discus",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:29",
+          "video_timestamp": "00:11:30"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Moonrithyll, Carian Knight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:33",
+          "video_timestamp": "00:14:34"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Put Florissax to Sleep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:04",
+          "video_timestamp": "00:23:05"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire the Golden Braid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:40",
+          "video_timestamp": "00:31:41"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill the Giant Hand in the Finger Ruins Dheo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:44",
+          "video_timestamp": "00:34:45"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Collect 2 DLC full armor sets",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:53",
+          "video_timestamp": "00:34:54"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire the Perfumed Oil of Ranah",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:54",
+          "video_timestamp": "00:37:55"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Sell Bloodfiends Arm +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:06",
+          "video_timestamp": "00:39:07"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Death Mask Helm, Winged Serpent Helm, and Salza's Hood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:21",
+          "video_timestamp": "00:45:22"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Romina",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:21",
+          "video_timestamp": "00:45:22"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire Devonia's Hammer",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:47",
+          "video_timestamp": "00:46:48"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Level 10 Scadu",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:11",
+          "video_timestamp": "00:47:12"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill the Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:52",
+          "video_timestamp": "00:51:53"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Upgrade a Remembrance Weapon to Max",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:10",
+          "video_timestamp": "00:52:11"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a boss using a Perfume Bottle only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:02",
+          "video_timestamp": "00:55:03"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss after 6 parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:43",
+          "video_timestamp": "01:01:44"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Lamenter Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:04",
+          "video_timestamp": "01:05:05"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Acquire Euporia",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:23",
+          "video_timestamp": "01:05:24"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 4 DLC Sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:36",
+          "video_timestamp": "01:09:37"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire the Aged Ones Exultation Talisman",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:21",
+          "video_timestamp": "01:22:22"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Bayle while summoning Igon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:47",
+          "video_timestamp": "01:24:53"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:21:47",
+          "video_timestamp": "01:24:53"
+        }
+      ]
+    }
+  ]
+}
