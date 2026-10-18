@@ -1,0 +1,18 @@
+# Hand-curated playoff bracket for season 4 (1v1, DLC only), videos 133-136.
+# See data/brackets/season-6.yaml for the field reference.
+#
+# Single elimination between the round robin's top four, every match a best of
+# three: semi-finals 1st vs 4th and 2nd vs 3rd, then the Final between the
+# winners and a third-place match between the losers (`bracket: third`, which
+# decides 3rd and 4th). `loser_next` draws the semi-final losers' drop to the
+# third-place match.
+#
+# The match files say `double_elimination`: scadustats has no match type for
+# single elimination.
+title: Playoffs
+phase: Single elimination
+matches:
+  - { id: 1, label: Semi-final 1, bracket: semifinal, col: 0, row: 0, date: "2024-11-15", next: 3, loser_next: 4, match: 2024-11-15-itzCBD-vs-blanxz }
+  - { id: 2, label: Semi-final 2, bracket: semifinal, col: 0, row: 1, date: "2024-11-16", next: 3, loser_next: 4, match: 2024-11-16-star0chris-vs-Bushy }
+  - { id: 3, label: Final, bracket: final, col: 1, row: 0.5, date: "2024-11-23", match: 2024-11-23-star0chris-vs-blanxz }
+  - { id: 4, label: 3rd place, bracket: third, col: 1, row: 1.75, date: "2024-11-17", match: 2024-11-17-itzCBD-vs-Bushy }

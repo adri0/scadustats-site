@@ -1,0 +1,14 @@
+# Hand-curated round robin for season 4 (1v1, DLC only): ten players in one
+# group, each playing every other player once in a single game (videos
+# 88-132). See data/groups/season-6.yaml for the field reference.
+#
+# Players are listed in their final placing, which matches the archived
+# bingobrawlers.com leaderboard. Ties on points are broken head to head:
+# star0chris beat Bushy; among the four players on 5-4, blanxz and
+# NuclearPastaTom won two of their three games against the others and blanxz
+# beat NuclearPastaTom, then LilAggy beat Adef. The top four went to the
+# playoffs (data/brackets/season-4.yaml), seeded 1st vs 4th and 2nd vs 3rd.
+title: Round robin
+qualify: [playoffs, playoffs, playoffs, playoffs]
+groups:
+  - players: [itzCBD, star0chris, Bushy, blanxz, NuclearPastaTom, LilAggy, Adef, Vswed, parkenharbor, GrandPooBear]
