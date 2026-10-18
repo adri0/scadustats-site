@@ -39,6 +39,11 @@
     ]
   },
   {
+    "id": "altus_bosses_7",
+    "text": "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+    "game_type": "base"
+  },
+  {
     "id": "altus_heros_grave",
     "text": "Complete an Altus Plateau or Mt. Gelmir Hero's Grave",
     "game_type": "base"
@@ -123,8 +128,8 @@
     "game_type": "base"
   },
   {
-    "id": "altus_bosses_7",
-    "text": "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+    "id": "limgrave_only_bosses_8",
+    "text": "Kill 8 bosses in Limgrave",
     "game_type": "base"
   },
   {
@@ -872,6 +877,11 @@
     ]
   },
   {
+    "id": "physick_tears_10",
+    "text": "Acquire 10 Physick Flask tears",
+    "game_type": "base"
+  },
+  {
     "id": "putrid_trio",
     "text": "Kill Putrid Crystalian Trio Boss",
     "game_type": "base",
@@ -1184,7 +1194,10 @@
   {
     "id": "watchdogs_3",
     "text": "Kill 3 Unique Watchdogs",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Watchdogs"
+    ]
   },
   {
     "id": "watchdogs_4",
