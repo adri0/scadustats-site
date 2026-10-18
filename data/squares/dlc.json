@@ -110,6 +110,11 @@
     ]
   },
   {
+    "id": "boss_throwing_only",
+    "text": "Kill a Boss with Throwing Attacks only",
+    "game_type": "dlc"
+  },
+  {
     "id": "catacombs_2",
     "text": "Complete 2 Catacombs",
     "game_type": "dlc",
@@ -194,6 +199,11 @@
     ]
   },
   {
+    "id": "devonias_hammer",
+    "text": "Acquire Devonia's Hammer",
+    "game_type": "dlc"
+  },
+  {
     "id": "divine_bird_1",
     "text": "Kill 1 Unique Divine Bird Warrior",
     "game_type": "dlc"
@@ -223,6 +233,11 @@
     "aliases": [
       "Collect 3 DLC full armor sets"
     ]
+  },
+  {
+    "id": "dlc_legendary_ashes_1",
+    "text": "Acquire a DLC Legendary Ash Summon",
+    "game_type": "dlc"
   },
   {
     "id": "dlc_legendary_ashes_2",
@@ -291,6 +306,11 @@
   {
     "id": "dupe_memb_3",
     "text": "Duplicate a Remembrance 3 times",
+    "game_type": "dlc"
+  },
+  {
+    "id": "euporia",
+    "text": "Acquire Euporia",
     "game_type": "dlc"
   },
   {
@@ -499,7 +519,8 @@
     "text": "Kill Madding Hand",
     "game_type": "dlc",
     "aliases": [
-      "Kill the Madding Hand NPC"
+      "Kill the Madding Hand NPC",
+      "Kill the Frenzy NPC"
     ]
   },
   {
@@ -540,6 +561,11 @@
     "aliases": [
       "Kill a Remembrance Boss with a Remembrance Weapon"
     ]
+  },
+  {
+    "id": "memb_parries_6",
+    "text": "Kill a Remembrance Boss after 6 parries",
+    "game_type": "dlc"
   },
   {
     "id": "messmer",
