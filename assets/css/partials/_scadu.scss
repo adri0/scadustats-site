@@ -289,9 +289,10 @@
     overflow: visible;
 
     .cell {
+        position: relative;
         width: 20%;
         height: 5.5rem;
-        padding: 0.5rem;
+        padding: 0.5rem 0.5rem 1rem;
         text-align: center;
         vertical-align: middle;
         border: 1px solid var(--border);
@@ -318,7 +319,72 @@
 
     .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
 
+    a.cell-text { text-decoration: none; }
+    a.cell-text:hover { color: var(--accent); text-decoration: underline; }
+
+    /* Game clock of the mark that stuck, bottom right. */
+    .cell-time {
+        position: absolute;
+        right: 0.35rem;
+        bottom: 0.2rem;
+        font-size: 0.7rem;
+        font-variant-numeric: tabular-nums;
+        color: var(--text-muted);
+        text-decoration: none;
+    }
+
+    a.cell-time:hover { color: var(--accent); text-decoration: underline; }
+    .cell-red .cell-time { color: var(--red); }
+    .cell-blue .cell-time { color: var(--blue); }
+
+    /* The replay's last step (board-replay.js). */
+    .cell-latest { box-shadow: inset 0 0 0 2px var(--text-main); }
+
+    @media (prefers-reduced-motion: no-preference) {
+        .cell { transition: background-color 0.2s ease, border-color 0.2s ease; }
+    }
+
     .cell-winline { box-shadow: inset 0 0 0 2px var(--accent), 0 0 12px var(--gold-glow); }
+}
+
+/* Replay bar under a match board (board-grid.html, board-replay.js). */
+.board-replay {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-muted);
+
+    &[hidden] { display: none; }
+
+    .replay-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        padding: 0;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-element);
+        background: var(--surface-strong);
+        color: var(--text-main);
+        cursor: pointer;
+    }
+
+    .replay-btn:hover:not(:disabled) { color: var(--accent); border-color: var(--accent); }
+    .replay-btn:disabled { opacity: 0.4; cursor: default; }
+    .replay-play .icon-pause, .replay-play.is-playing .icon-play { display: none; }
+    .replay-play.is-playing .icon-pause { display: inline; }
+
+    .replay-scrub {
+        flex: 1;
+        min-width: 4rem;
+        accent-color: var(--accent);
+    }
+
+    .replay-status { white-space: nowrap; }
 }
 
 /* Example board on the About page (_shortcodes/example-board.html). */
