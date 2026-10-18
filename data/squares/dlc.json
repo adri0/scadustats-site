@@ -352,6 +352,11 @@
     "game_type": "dlc"
   },
   {
+    "id": "horned_warriors_enir_ilim_3",
+    "text": "Kill the 3 elemental Horned Warriors in Enir Ilim",
+    "game_type": "dlc"
+  },
+  {
     "id": "euporia",
     "text": "Acquire Euporia",
     "game_type": "dlc"
