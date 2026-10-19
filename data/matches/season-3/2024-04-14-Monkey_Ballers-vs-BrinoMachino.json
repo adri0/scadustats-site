@@ -1,0 +1,323 @@
+{
+  "match_id": "2024-04-14-Monkey_Ballers-vs-BrinoMachino",
+  "match_date": "2024-04-14",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Monkey Ballers",
+  "player_blue_name": "BrinoMachino",
+  "team_red": {
+    "name": "Monkey Ballers",
+    "members": [
+      "LilAggy",
+      "itzCBD"
+    ]
+  },
+  "team_blue": {
+    "name": "BrinoMachino",
+    "members": [
+      "blueberrybrioche",
+      "GinoMachino"
+    ]
+  },
+  "commentators": [
+    "Limcube",
+    "Captain_Doma"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=0mWYcyeW5nk",
+    "duration_s": 5127.65,
+    "published_at": "2024-04-16",
+    "extracted_at": "2026-10-20"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 17.0,
+      "end_video_ts_s": 4584.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 11,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Collect the full Haligtree Medallion",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill a Godskin Apostle"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill Morgott",
+          "Return Thop's academy key",
+          "Kill 8 bosses in Limgrave",
+          "Kill a Remembrance boss sorcery only"
+        ],
+        [
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill Fire Giant",
+          "Kill Astel and Astel, Stars of Darkness",
+          "Kill a Fallingstar Beast",
+          "Collect 5 unique Seals"
+        ],
+        [
+          "Kill Radahn without summoning NPCs",
+          "Kill 4 Bosses with the word God in it",
+          "Kill Leonine Misbegotten",
+          "Kill Elemer of the Briar",
+          "Kill 3 Erdtree Avatars"
+        ],
+        [
+          "Complete 4 Evergaols",
+          "Acquire 3 Imbued Sword Keys",
+          "Acquire 5 Ritual Pots",
+          "Rune Level 60",
+          "Acquire Moon of Nokstella"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:55"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:01:24",
+          "video_timestamp": "00:05:19"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:07",
+          "video_timestamp": "00:14:02"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:15",
+          "video_timestamp": "00:18:10"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:56",
+          "video_timestamp": "00:21:51"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:35",
+          "video_timestamp": "00:26:30"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:16",
+          "video_timestamp": "00:28:11"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:18",
+          "video_timestamp": "00:28:13"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:25",
+          "video_timestamp": "00:29:20"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Moon of Nokstella",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:04",
+          "video_timestamp": "00:32:59"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:01",
+          "video_timestamp": "00:35:56"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:07",
+          "video_timestamp": "00:36:02"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Collect the full Haligtree Medallion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:19",
+          "video_timestamp": "00:36:14"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:04",
+          "video_timestamp": "00:38:59"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 5 bosses with 'tree' in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:03",
+          "video_timestamp": "00:39:58"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:29",
+          "video_timestamp": "00:42:24"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Fire Giant",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:19",
+          "video_timestamp": "00:43:14"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:01",
+          "video_timestamp": "00:48:56"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 4 Bosses with the word God in it",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:39",
+          "video_timestamp": "00:52:34"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Rune Level 60",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:08",
+          "video_timestamp": "00:55:03"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:58",
+          "video_timestamp": "00:58:53"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Astel and Astel, Stars of Darkness",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:59",
+          "video_timestamp": "00:58:54"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Collect 5 unique Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:02",
+          "video_timestamp": "01:00:57"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:39",
+          "video_timestamp": "01:03:34"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:47",
+          "video_timestamp": "01:14:42"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:10:47",
+          "video_timestamp": "01:14:42"
+        }
+      ]
+    }
+  ]
+}
