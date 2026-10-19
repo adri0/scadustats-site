@@ -1,0 +1,278 @@
+{
+  "match_id": "2024-04-14-Positive_Vibes-vs-Jo_W_Bush",
+  "match_date": "2024-04-14",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Positive Vibes",
+  "player_blue_name": "Jo W Bush",
+  "team_red": {
+    "name": "Positive Vibes",
+    "members": [
+      "star0chris",
+      "Adef"
+    ]
+  },
+  "team_blue": {
+    "name": "Jo W Bush",
+    "members": [
+      "Bushy",
+      "YoJoSherino"
+    ]
+  },
+  "commentators": [
+    "Limcube",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=lOqOlKY3nss",
+    "duration_s": 4183.216666666666,
+    "published_at": "2024-04-16",
+    "extracted_at": "2026-10-20"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 4.0,
+      "end_video_ts_s": 3666.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 13,
+      "blue_points": 8,
+      "winner_color": "red",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "30 Int (no rebirth or buffs)",
+          "Restore Morgott's Great Rune",
+          "Return Thop's academy key",
+          "Complete 2 catacomb dungeons",
+          "Kill Margit with 6+ Parries"
+        ],
+        [
+          "Kill 4 Bosses with the word God in it",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Kill Mohg (Sewers)",
+          "Buy 20 Boiled Crab from Boggart",
+          "Collect 6 unique Staves"
+        ],
+        [
+          "Kill 3 Erdtree Avatars",
+          "Kill 3 Tibia Mariners",
+          "Kill 3 Dragon Heart Bosses",
+          "Acquire 4 different Remembrances",
+          "Complete an Altus Plateau Hero's Grave"
+        ],
+        [
+          "Kill Mimic Tear consumables only",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Spirit Ash +4 summon",
+          "Kill 8 bosses in Limgrave",
+          "Kill 2 Duelist Bosses"
+        ],
+        [
+          "Take Rya's hand to Volcano Manor",
+          "Learn 12 different sorceries",
+          "Restore Radahn's Great Rune",
+          "Kill a Godskin Apostle",
+          "Sacred Flask +7"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:58"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:32",
+          "video_timestamp": "00:09:30"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:49",
+          "video_timestamp": "00:10:47"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:19",
+          "video_timestamp": "00:11:17"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Buy 20 Boiled Crab from Boggart",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:12",
+          "video_timestamp": "00:14:10"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "30 Int (no rebirth or buffs)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:53",
+          "video_timestamp": "00:14:51"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:07",
+          "video_timestamp": "00:17:05"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:01",
+          "video_timestamp": "00:21:59"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:49",
+          "video_timestamp": "00:26:47"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:22",
+          "video_timestamp": "00:27:20"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:01",
+          "video_timestamp": "00:33:59"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Collect 6 unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:59",
+          "video_timestamp": "00:35:57"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:47",
+          "video_timestamp": "00:41:45"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:46",
+          "video_timestamp": "00:42:44"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:35",
+          "video_timestamp": "00:45:33"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 4 Bosses with the word God in it",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:24",
+          "video_timestamp": "00:47:22"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:08",
+          "video_timestamp": "00:48:06"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:42",
+          "video_timestamp": "00:49:40"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:34",
+          "video_timestamp": "00:55:32"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Mohg (Sewers)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:48",
+          "video_timestamp": "00:59:46"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:56:48",
+          "video_timestamp": "00:59:46"
+        }
+      ]
+    }
+  ]
+}
