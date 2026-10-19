@@ -833,7 +833,10 @@
   {
     "id": "nights_calv_3",
     "text": "Kill 3 Unique Night's Cavalry",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Night's Cavalry"
+    ]
   },
   {
     "id": "nights_calv_4",
