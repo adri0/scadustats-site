@@ -1,0 +1,278 @@
+{
+  "match_id": "2024-04-20-Jo_W_Bush-vs-Cattery",
+  "match_date": "2024-04-20",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Jo W Bush",
+  "player_blue_name": "Cattery",
+  "team_red": {
+    "name": "Jo W Bush",
+    "members": [
+      "Bushy",
+      "YoJoSherino"
+    ]
+  },
+  "team_blue": {
+    "name": "Cattery",
+    "members": [
+      "catalystz",
+      "Puppery"
+    ]
+  },
+  "commentators": [
+    "DrDecomposing",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=eoGaMCLcDjQ",
+    "duration_s": 3568.7166666666667,
+    "published_at": "2024-04-22",
+    "extracted_at": "2026-10-22"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 4.0,
+      "end_video_ts_s": 2933.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 6,
+      "blue_points": 15,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Collect the full Haligtree Medallion",
+          "Take Rya's hand to Volcano Manor",
+          "Acquire 10 different Talismans",
+          "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+          "Kill the Milicent invader in Caelid"
+        ],
+        [
+          "Kill Leonine Misbegotten",
+          "Restore Radahn's Great Rune",
+          "Sacred Flask +7",
+          "Spirit Ash +4 summon",
+          "Kill 3 Night's Cavalry"
+        ],
+        [
+          "10 Sacred Flask charges",
+          "Kill Mimic Tear consumables only",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill 3 Tibia Mariners",
+          "Kill Soldier of Godrick bare fist only"
+        ],
+        [
+          "Kill 6 bosses in Caelid",
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "30 Int (no rebirth or buffs)",
+          "Kill a Remembrance boss incantations only"
+        ],
+        [
+          "Acquire Both Scarseal Talismans",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill a Black Blade Kindred",
+          "Collect 6 unique Staves",
+          "Kill Wormface"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:37"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill the Milicent invader in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:14",
+          "video_timestamp": "00:06:51"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Soldier of Godrick bare fist only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:29",
+          "video_timestamp": "00:08:06"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:30",
+          "video_timestamp": "00:10:07"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:19",
+          "video_timestamp": "00:11:56"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:19",
+          "video_timestamp": "00:15:56"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:02",
+          "video_timestamp": "00:16:39"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "30 Int (no rebirth or buffs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:17",
+          "video_timestamp": "00:16:54"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:06",
+          "video_timestamp": "00:19:43"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:43",
+          "video_timestamp": "00:25:20"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:14",
+          "video_timestamp": "00:29:51"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Collect 6 unique Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:55",
+          "video_timestamp": "00:30:32"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:26",
+          "video_timestamp": "00:34:03"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Mimic Tear consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:27",
+          "video_timestamp": "00:36:04"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:54",
+          "video_timestamp": "00:36:31"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:26",
+          "video_timestamp": "00:39:03"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Sacred Flask +7",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:24",
+          "video_timestamp": "00:41:01"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "10 Sacred Flask charges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:17",
+          "video_timestamp": "00:45:54"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:09",
+          "video_timestamp": "00:46:46"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:54",
+          "video_timestamp": "00:47:31"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:44:54",
+          "video_timestamp": "00:47:31"
+        }
+      ]
+    }
+  ]
+}
