@@ -19,7 +19,7 @@
   {{- $g := .game -}}
   {{- $m := .match -}}
 <figure class="example-board">
-  {{ partial "board-grid.html" (dict "board" $g.board "win_line" $g.win_line) }}
+  {{ partial "board-grid.html" (dict "board" $g.board "win_line" $g.win_line "game_type" $g.game_type) }}
   <figcaption>
     A {{ if eq $g.game_type "dlc" }}DLC{{ else }}base game{{ end }} board at the end of a game,
     won by <strong class="text-{{ $g.winner_color }}">{{ $g.winner_color }}</strong>
