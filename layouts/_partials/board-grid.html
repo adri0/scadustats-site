@@ -1,5 +1,15 @@
+{{- /*
+  Input: {board, win_line, game_type, video_url, events}. Only `board` (from
+  lib/board-state.html) is required. With `game_type`, each catalogued
+  square links to its page; a claimed square shows the game clock of its
+  mark, linked to that moment of `video_url` when there is one. With `events`
+  (a game's, in order), a replay bar under the board steps through its marks
+  and unmarks (assets/js/modules/board-replay.js); it stays hidden without JS.
+*/ -}}
 {{- $board := .board -}}
 {{- $winLine := .win_line -}}
+{{- $gameType := .game_type | default "" -}}
+{{- $videoURL := .video_url | default "" -}}
 {{- $highlightRow := 0 -}}
 {{- $highlightCol := 0 -}}
 {{- $diagTLBR := false -}}
@@ -15,20 +25,58 @@
     {{- $diagBLTR = true -}}
   {{- end -}}
 {{- end -}}
-<div class="board-wrap">
+{{- $steps := slice -}}
+{{- range .events | default slice -}}
+  {{- if and (in (slice "mark" "unmark") .event_type) .row .col -}}
+    {{- $r := int .row -}}
+    {{- $c := int .col -}}
+    {{- if and (ge $r 1) (le $r 5) (ge $c 1) (le $c 5) -}}
+      {{- $t := partial "lib/mark-time.html" (dict "game_timer" .game_timer "video_timestamp" .video_timestamp "video_url" $videoURL) -}}
+      {{- $steps = $steps | append (dict "type" .event_type "cell" (printf "%d_%d" $r $c) "color" (.color | default "") "time" $t.label "url" $t.url) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<div class="board-wrap"{{ with $steps }} data-board-replay{{ end }}>
 <table class="bingo-board">
   <tbody>
   {{- range $r := seq 5 }}
     <tr>
     {{- range $c := seq 5 }}
-      {{- $cell := index $board (printf "%d_%d" $r $c) -}}
+      {{- $key := printf "%d_%d" $r $c -}}
+      {{- $cell := index $board $key -}}
       {{- $isHighlight := or (eq $r $highlightRow) (eq $c $highlightCol) (and $diagTLBR (eq $r $c)) (and $diagBLTR (eq (add $r $c) 6)) -}}
-      <td class="cell cell-{{ $cell.color }}{{ if $isHighlight }} cell-winline{{ end }}">
+      {{- $path := "" -}}
+      {{- if $gameType -}}
+        {{- $path = partial "lib/square-path.html" (partial "lib/board-square.html" (dict "text" $cell.text "game_type" $gameType)) -}}
+      {{- end }}
+      <td class="cell cell-{{ $cell.color }}{{ if $isHighlight }} cell-winline{{ end }}" data-cell="{{ $key }}">
+        {{- if $path }}
+        <a class="cell-text" href="{{ $path | relURL }}">{{ $cell.text }}</a>
+        {{- else }}
         <span class="cell-text">{{ $cell.text }}</span>
+        {{- end }}
+        {{- if and (ne $cell.color "unclaimed") $cell.game_timer }}
+          {{- $t := partial "lib/mark-time.html" (dict "game_timer" $cell.game_timer "video_timestamp" $cell.video_timestamp "video_url" $videoURL) }}
+          {{- if $t.url }}
+        <a class="cell-time" href="{{ $t.url }}" target="_blank" rel="noopener" title="Claimed at {{ $t.label }}: watch it in the VOD (opens in a new tab)">{{ $t.label }}</a>
+          {{- else }}
+        <span class="cell-time" title="Claimed at {{ $t.label }}">{{ $t.label }}</span>
+          {{- end }}
+        {{- end }}
       </td>
     {{- end }}
     </tr>
   {{- end }}
   </tbody>
 </table>
+{{- with $steps }}
+<div class="board-replay" hidden>
+  <button class="replay-btn" type="button" data-replay="prev" aria-label="Previous mark">{{ partial "icon-replay.html" "prev" }}</button>
+  <button class="replay-btn replay-play" type="button" data-replay="play" aria-label="Replay the marks">{{ partial "icon-replay.html" "play" }}{{ partial "icon-replay.html" "pause" }}</button>
+  <button class="replay-btn" type="button" data-replay="next" aria-label="Next mark">{{ partial "icon-replay.html" "next" }}</button>
+  <input class="replay-scrub" type="range" min="0" max="{{ len . }}" value="{{ len . }}" step="1" aria-label="Marks shown">
+  <span class="replay-status" aria-live="polite"><span class="replay-clock">{{ (index . (sub (len .) 1)).time }}</span> · <span class="replay-count">{{ len . }}/{{ len . }}</span></span>
+</div>
+<script type="application/json" data-replay-steps>{{ . | jsonify | safeJS }}</script>
+{{- end }}
 </div>
