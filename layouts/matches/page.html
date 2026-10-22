@@ -68,7 +68,7 @@
       <div class="game-badges">
         {{- with .game_type }}<span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" . }}</span>{{ end }}
         {{- if eq .scoring "points" }}
-          {{- /* Season 3's round robin: a game is decided on points when time runs out. */}}
+          {{- /* Season 3: a race to 13 points (a square each, two more per line). */}}
           {{- with .winner_color }}<span class="pill pill-sm pill-{{ . }}">{{ if eq . "red" }}Red{{ else }}Blue{{ end }} wins</span>{{ end }}
           <span class="pill pill-sm pill-outline">{{ if eq .win_type "tie" }}tie on points{{ else }}points{{ end }} · {{ .red_points }}–{{ .blue_points }}</span>
         {{- else if .winner_color }}
