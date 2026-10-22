@@ -1,0 +1,27 @@
+{{- /*
+  Input: {game_timer, video_timestamp, video_url} -- a mark's times as in the
+  match file ("HH:MM:SS"; the video one may have decimals) and the VOD's URL.
+  Output: {label, url}: the game clock without leading zeros ("6:16",
+  "28:49", "1:02:03"), and the VOD at that moment ("" without a VOD or a timestamp).
+*/ -}}
+{{- $label := "" -}}
+{{- with .game_timer -}}
+  {{- $parts := split . ":" -}}
+  {{- if eq (len $parts) 3 -}}
+    {{- $h := int (strings.TrimLeft "0" (index $parts 0) | default "0") -}}
+    {{- $label = cond (gt $h 0) (printf "%d:%s:%s" $h (index $parts 1) (index $parts 2)) (printf "%s:%s" (strings.TrimLeft "0" (index $parts 1) | default "0") (index $parts 2)) -}}
+  {{- else -}}
+    {{- $label = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $url := "" -}}
+{{- if and .video_url .video_timestamp -}}
+  {{- $parts := split .video_timestamp ":" -}}
+  {{- if eq (len $parts) 3 -}}
+    {{- $h := int (strings.TrimLeft "0" (index $parts 0) | default "0") -}}
+    {{- $m := int (strings.TrimLeft "0" (index $parts 1) | default "0") -}}
+    {{- $s := add (add (mul $h 3600) (mul $m 60)) (int (math.Floor (float (index $parts 2)))) -}}
+    {{- $url = printf "%s%st=%ds" .video_url (cond (strings.Contains .video_url "?") "&" "?") $s -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "label" $label "url" $url) -}}
