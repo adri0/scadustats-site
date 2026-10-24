@@ -1,0 +1,15 @@
+# Hand-curated playoff bracket for season 3 (2v2, base game), videos 84-85.
+# See data/brackets/season-6.yaml for the field reference.
+#
+# The round robin's top three, every match a best of three, each game first to 13
+# points as in the round robin: the semi-final is 2nd vs 3rd, and its winner
+# plays 1st (who had a bye) in the final. There's no third-place match: the
+# semi-final's loser is 3rd.
+#
+# The match files say `double_elimination`: scadustats has no match type for
+# single elimination.
+title: Playoffs
+phase: Single elimination
+matches:
+  - { id: 1, label: Semi-final, bracket: semifinal, col: 0, row: 0.5, date: "2024-04-27", next: 2, match: 2024-04-27-Monkey_Ballers-vs-Cattery }
+  - { id: 2, label: Final, bracket: final, col: 1, row: 0, date: "2024-04-28", match: 2024-04-28-BrinoMachino-vs-Cattery }

@@ -7,11 +7,17 @@
   side, where slugs are slot slugs (lib/season-slots.html: players sharing a
   slot count as one); playoff matches (those named in the bracket) are left out even when
   both players share a group. `groups` is one {name, rows} per group, rows
-  sorted by points (games won) as {player, points, w, d, l}; `player` is the
+  sorted by points as {player, points, w, d, l}; `player` is the
   slot, with `members` for linking each player in it. The sort is
   stable, so ties keep the curated (final placing) order of the YAML.
+
+  Points are games won, unless the groups file says `scoring: points`
+  (Season 3): then a match's for/against are the points each side scored in
+  its games (a square each, two more per line), and a row's points add up the
+  points it scored. Wins, draws and losses still compare for and against.
 */ -}}
 {{- $sid := .season_id -}}
+{{- $byPoints := eq .groups.scoring "points" -}}
 {{- $seasonMatches := partialCached "lib/season-matches.html" $sid $sid -}}
 
 {{- $playoffKeys := slice -}}
@@ -28,9 +34,14 @@
     {{- $path := printf "/matches/season-%s/%s/" $sid (lower $key) -}}
     {{- $r := (index $slots $s.player_red.slug | default $s.player_red).slug -}}
     {{- $b := (index $slots $s.player_blue.slug | default $s.player_blue).slug -}}
+    {{- $redFor := $s.red_score }}{{ $blueFor := $s.blue_score -}}
+    {{- if $byPoints -}}
+      {{- $redFor = 0 }}{{ $blueFor = 0 -}}
+      {{- range $s.games }}{{ $redFor = add $redFor (.red_points | default 0) }}{{ $blueFor = add $blueFor (.blue_points | default 0) }}{{ end -}}
+    {{- end -}}
     {{- $results = merge $results (dict
-        (printf "%s|%s" $r $b) (dict "for" $s.red_score "against" $s.blue_score "path" $path "date" $s.match_date)
-        (printf "%s|%s" $b $r) (dict "for" $s.blue_score "against" $s.red_score "path" $path "date" $s.match_date)) -}}
+        (printf "%s|%s" $r $b) (dict "for" $redFor "against" $blueFor "path" $path "date" $s.match_date)
+        (printf "%s|%s" $b $r) (dict "for" $blueFor "against" $redFor "path" $path "date" $s.match_date)) -}}
   {{- end -}}
 {{- end -}}
 
