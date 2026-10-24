@@ -120,6 +120,11 @@
     "game_type": "base"
   },
   {
+    "id": "altus_bosses_7",
+    "text": "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+    "game_type": "base"
+  },
+  {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
     "game_type": "base",
@@ -339,7 +344,10 @@
   {
     "id": "erdtree_avatar_3",
     "text": "Kill 3 Unique Erdtree or Putrid Avatars",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Erdtree Avatars"
+    ]
   },
   {
     "id": "erdtree_avatar_4",
@@ -904,9 +912,17 @@
     "game_type": "base"
   },
   {
+    "id": "remembrances_4",
+    "text": "Acquire 4 different Remembrances",
+    "game_type": "base"
+  },
+  {
     "id": "rennala_summons_4",
     "text": "Kill Rennala after she Summons 4 Spirits",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Rennala after she summons all 4 different spirits"
+    ]
   },
   {
     "id": "rick_bare_fists",
@@ -1055,7 +1071,10 @@
   {
     "id": "talismans_10",
     "text": "Acquire 10 Unique Talismans",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Acquire 10 different Talismans"
+    ]
   },
   {
     "id": "talismans_9",

@@ -1,5 +1,19 @@
-# 2v2 team rosters, by season (see scadustats' storage/teams.py). Each team keeps its
-# roles for the whole season: one player plays the base game, the other the DLC.
+# 2v2 team rosters, by season (see scadustats' storage/teams.py). In Season 5 each team
+# keeps its roles for the whole season: one player plays the base game, the other the
+# DLC. In Season 3 both teammates play the base game, so a team lists its two members.
+"3":
+  - name: Jo W Bush
+    members: [Bushy, YoJoSherino]
+  - name: Monkey Ballers
+    members: [LilAggy, itzCBD]
+  - name: Positive Vibes
+    members: [star0chris, Adef]
+  - name: ZOOM
+    members: [Zoodle, NuclearPastaTom]
+  - name: Cattery
+    members: [catalystz, Puppery]
+  - name: BrinoMachino
+    members: [blueberrybrioche, GinoMachino]
 "5":
   - name: Positive Vibes
     base_player: star0chris

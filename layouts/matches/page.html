@@ -82,11 +82,19 @@
           <span class="game-fact-label">Result</span>
           {{- if .winner_color }}
           <span class="pill pill-sm pill-{{ .winner_color }}">{{ if eq .winner_color "red" }}Red{{ else }}Blue{{ end }} wins</span>
+          {{- else if eq .win_type "tie" }}
+          <span class="pill pill-sm pill-outline">tie</span>
           {{- else }}
           <span class="pill pill-sm pill-outline">undecided</span>
           {{- end }}
         </div>
-        {{- if .winner_color }}
+        {{- if eq .scoring "points" }}
+        {{- /* Season 3's round robin: first to 13 points (squares + 2 per line), else the most points at time up. */}}
+        <div class="game-fact">
+          <span class="game-fact-label">Win type</span>
+          <span class="pill pill-sm pill-outline">{{ if eq .win_type "tie" }}tie on points{{ else }}points{{ end }} · {{ .red_points }}–{{ .blue_points }}</span>
+        </div>
+        {{- else if .winner_color }}
         <div class="game-fact">
           <span class="game-fact-label">Win type</span>
           <span class="pill pill-sm pill-outline">{{ .win_type }}{{ with .win_line }} · {{ humanize (replace . "_" " ") }}{{ end }}</span>

@@ -1,0 +1,314 @@
+{
+  "match_id": "2024-04-06-Jo_W_Bush-vs-Monkey_Ballers",
+  "match_date": "2024-04-06",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Jo W Bush",
+  "player_blue_name": "Monkey Ballers",
+  "team_red": {
+    "name": "Jo W Bush",
+    "members": [
+      "Bushy",
+      "YoJoSherino"
+    ]
+  },
+  "team_blue": {
+    "name": "Monkey Ballers",
+    "members": [
+      "LilAggy",
+      "itzCBD"
+    ]
+  },
+  "commentators": [
+    "blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=miUkeOU8ue8",
+    "duration_s": 4282.433333333333,
+    "published_at": "2024-04-07",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 49.0,
+      "end_video_ts_s": 3939.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 12,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Complete 4 Evergaols",
+          "Buy 20 Boiled Crab from Boggart",
+          "Acquire Moon of Nokstella",
+          "Kill the Milicent invader in Caelid",
+          "Kill Putrid Crystalian trio"
+        ],
+        [
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Kill Greyoll without Status Effects",
+          "Restore Godrick's Great Rune",
+          "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+          "Kill Bloodhound Knight while summoning Blaidd"
+        ],
+        [
+          "Complete 2 catacomb dungeons",
+          "Kill Borealis",
+          "Kill 3 Erdtree Avatars",
+          "Collect 5 unique Seals",
+          "Give Hyetta 3 Shabriri Grapes"
+        ],
+        [
+          "Kill 3 Dragon Heart Bosses",
+          "Complete 2 cave or grotto dungeons",
+          "Kill the Sleeping Golem in Leyndell",
+          "Kill 3 Tree spirits",
+          "Memory of Grace with 50k+ Runes"
+        ],
+        [
+          "Kill Rennala after she summons all 4 different spirits",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Acquire 4 different Remembrances",
+          "Acquire 10 different Talismans",
+          "Take Rya's hand to Volcano Manor"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:04:27"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:33",
+          "video_timestamp": "00:09:00"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Complete 2 cave or grotto dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:53",
+          "video_timestamp": "00:09:20"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:01",
+          "video_timestamp": "00:12:28"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Bloodhound Knight while summoning Blaidd",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:55",
+          "video_timestamp": "00:14:22"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:03",
+          "video_timestamp": "00:15:30"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:21",
+          "video_timestamp": "00:17:48"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:35",
+          "video_timestamp": "00:18:02"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:13",
+          "video_timestamp": "00:18:40"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill the Milicent invader in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:21",
+          "video_timestamp": "00:19:48"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:46",
+          "video_timestamp": "00:26:13"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Buy 20 Boiled Crab from Boggart",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:26",
+          "video_timestamp": "00:29:53"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:46",
+          "video_timestamp": "00:31:13"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Rennala after she summons all 4 different spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:21",
+          "video_timestamp": "00:31:48"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:04",
+          "video_timestamp": "00:32:31"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Collect 5 unique Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:26",
+          "video_timestamp": "00:38:53"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Give Hyetta 3 Shabriri Grapes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:49",
+          "video_timestamp": "00:41:16"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:06",
+          "video_timestamp": "00:47:33"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Borealis",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:00",
+          "video_timestamp": "00:50:27"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:33",
+          "video_timestamp": "00:51:00"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Putrid Crystalian trio",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:38",
+          "video_timestamp": "00:54:05"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Complete 4 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:51",
+          "video_timestamp": "00:58:18"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Tree spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:03",
+          "video_timestamp": "00:58:30"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:20",
+          "video_timestamp": "01:03:47"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:59:20",
+          "video_timestamp": "01:03:47"
+        }
+      ]
+    }
+  ]
+}

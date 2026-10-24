@@ -1,6 +1,13 @@
 {{- /* Input: a team from lib/side-lookup.html. Its two players, each linked,
-       with the game they play: the base game or the DLC (Season 5). */ -}}
+       with the game they play when the team has roles: the base game or the DLC
+       (Season 5). In Season 3 both play the base game, so no role is shown. */ -}}
 <span class="team-members">
+  {{- if .base }}
   <a href="{{ printf "/players/%s/" .base.slug | relURL }}">{{ partial "avatar.html" (dict "player" .base) }}{{ .base.display_name }}</a> <span class="team-role">base game</span>
   <a href="{{ printf "/players/%s/" .dlc.slug | relURL }}">{{ partial "avatar.html" (dict "player" .dlc) }}{{ .dlc.display_name }}</a> <span class="team-role">DLC</span>
+  {{- else }}
+  {{- range .members }}
+  <a href="{{ printf "/players/%s/" .slug | relURL }}">{{ partial "avatar.html" (dict "player" .) }}{{ .display_name }}</a>
+  {{- end }}
+  {{- end }}
 </span>
