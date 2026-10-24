@@ -89,11 +89,15 @@ Two files per player, both under the same directory:
 - `stats.yaml` — generated, not committed: `scripts/build_hugo.sh` regenerates it from `data/matches`
   with `scadustats player consolidate` on every build: `slug`, `display_name` (the exact spelling seen most often across that player's matches),
   plus precomputed stats (`season_records`, `game_record`, `game_type_records`, `all_matches`,
-  `top_squares_base_game`, `top_squares_dlc`).
+  `top_squares_base_game`, `top_squares_dlc`, `top_squares_coop`) and board insights (`pace`,
+  `claim_order`, `claim_order_by_type`, `win_types`, `first_square`, `comebacks`, `form`, `quickest_squares`, `surest_squares`).
 
-Only `info`'s identity fields and `stats.display_name` are read by the site. **The precomputed stat
-fields are ignored** — every number on the site is recomputed from `data/matches`, because the
-precomputed values go stale as matches are added and some already disagree with the match files.
+The site reads `info`'s identity fields, `stats.display_name` and the board insights, which
+`content/players/_content.gotmpl` passes to the player page as `insights` (rendered by
+`_partials/player-insights.html`; with a scadustats release older than them, the section is left
+out). **The other precomputed stat fields are ignored**: those numbers are recomputed from
+`data/matches`, as they were written before the stats were regenerated on every build. The insights
+need every event of every game (claims, undone marks, the board replayed), which is scadustats' job.
 
 Matches are joined to players by name via `partials/lib/player-lookup.html`, which compares
 case-insensitively against `stats.display_name` and `info.slug`. There is no `aliases` field:
