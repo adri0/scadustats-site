@@ -206,7 +206,10 @@
   {
     "id": "cemetery_shades_2",
     "text": "Kill 2 Unique Cemetery Shades",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 2 Cemetery Shades"
+    ]
   },
   {
     "id": "cemetery_shades_3",

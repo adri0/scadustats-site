@@ -1,0 +1,323 @@
+{
+  "match_id": "2024-04-07-Positive_Vibes-vs-Cattery",
+  "match_date": "2024-04-07",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Positive Vibes",
+  "player_blue_name": "Cattery",
+  "team_red": {
+    "name": "Positive Vibes",
+    "members": [
+      "star0chris",
+      "Adef"
+    ]
+  },
+  "team_blue": {
+    "name": "Cattery",
+    "members": [
+      "catalystz",
+      "Puppery"
+    ]
+  },
+  "commentators": [
+    "blanxz",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=eUQJcX_5vwk",
+    "duration_s": 3480.2166666666667,
+    "published_at": "2024-04-09",
+    "extracted_at": "2026-10-18"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 4.0,
+      "end_video_ts_s": 3074.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 11,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Tree spirits",
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill Commander O'Neil",
+          "Take Rya's hand to Volcano Manor",
+          "Complete 2 catacomb dungeons"
+        ],
+        [
+          "Acquire Fingerslayer Blade",
+          "10 Sacred Flask charges",
+          "Kill a Fallingstar Beast",
+          "Kill Agheel with a +0 Weapon Only",
+          "Acquire Moon of Nokstella"
+        ],
+        [
+          "Kill Radahn without summoning NPCs",
+          "Acquire 10 different Talismans",
+          "Kill Loretta (Blue Spirit)",
+          "Kill Mimic Tear consumables only",
+          "Use AoW Lightning Ram to kill 10 sheep"
+        ],
+        [
+          "Kill 6 bosses in Liurnia",
+          "Kill 2 Cemetery Shades",
+          "Collect the full Haligtree Medallion",
+          "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "Kill a Remembrance boss daggers, claws, or fists only"
+        ],
+        [
+          "Kill the Sleeping Golem in Leyndell",
+          "30 Arcane (no rebirth or buffs)",
+          "Kill 4 NPC Invaders",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:31"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:24",
+          "video_timestamp": "00:07:21"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:58",
+          "video_timestamp": "00:07:55"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:08",
+          "video_timestamp": "00:10:05"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:14",
+          "video_timestamp": "00:11:11"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "10 Sacred Flask charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:58",
+          "video_timestamp": "00:12:55"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:14",
+          "video_timestamp": "00:14:11"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:49",
+          "video_timestamp": "00:16:46"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 2 Cemetery Shades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:12",
+          "video_timestamp": "00:17:09"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:44",
+          "video_timestamp": "00:17:41"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "30 Arcane (no rebirth or buffs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:21",
+          "video_timestamp": "00:18:18"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:29",
+          "video_timestamp": "00:25:26"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:12",
+          "video_timestamp": "00:27:09"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:33",
+          "video_timestamp": "00:27:30"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:33",
+          "video_timestamp": "00:27:30"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:22",
+          "video_timestamp": "00:29:19"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Moon of Nokstella",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:46",
+          "video_timestamp": "00:33:43"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Collect the full Haligtree Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:56",
+          "video_timestamp": "00:36:53"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:06",
+          "video_timestamp": "00:38:03"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 NPC Invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:45",
+          "video_timestamp": "00:38:42"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 10 different Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:44",
+          "video_timestamp": "00:41:41"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Tree spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:10",
+          "video_timestamp": "00:45:07"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Mimic Tear consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:19",
+          "video_timestamp": "00:45:16"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:31",
+          "video_timestamp": "00:49:28"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire Fingerslayer Blade",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:47",
+          "video_timestamp": "00:49:44"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:49:47",
+          "video_timestamp": "00:49:44"
+        }
+      ]
+    }
+  ]
+}
