@@ -1151,6 +1151,14 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
 
 .spoiler-toggle .icon-spoilers-shown { display: none; }
 
+/* The site is always dark (_partials/hooks/head-end.html), so the theme's
+   light/dark toggle is hidden. */
+.theme-toggle { display: none; }
+
+/* The home page's latest news (the theme's _partials/latest-news.html) shows
+   only each post's date and title, not its first sentence. */
+.news-list li > p { display: none; }
+
 [data-spoilers="hidden"] {
     .spoiler {
         filter: blur(6px);
