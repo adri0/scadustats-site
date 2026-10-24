@@ -1,0 +1,47 @@
+{{- /*
+  Input: {order: a player's stats.yaml claim_order, by_type: its claim_order_by_type
+  (square pool -> the same, counting only that pool's squares), matches: match_id ->
+  {path, match_date, opponent}}. When each claim of a game comes -- their 1st, 2nd...
+  square -- drawn by claim-order-plot.html, dots coloured by the square's pool.
+
+  The legend's pool buttons are a filter (assets/js/modules/chart-views.js): one shows
+  the order of that pool's squares alone (their 1st, 2nd... DLC square, with everyone
+  else's DLC medians), a second click or "All squares" goes back. Each view is its own
+  panel, on one shared axis so they compare; without JavaScript only "All" shows.
+*/ -}}
+{{- $views := slice (dict "id" "all" "label" "All squares" "order" .order) -}}
+{{- range $type := slice "base" "dlc" "2v2" -}}
+  {{- with index ($.by_type | default dict) $type -}}
+    {{- $label := index (dict "base" "Base game" "dlc" "DLC" "2v2" "Co-op") $type -}}
+    {{- $views = $views | append (dict "id" $type "label" $label "order" .) -}}
+  {{- end -}}
+{{- end -}}
+{{- /* The axis ends at the latest claim or median of any view, rounded up to a
+       quarter hour. */ -}}
+{{- $max := 1.0 -}}
+{{- range $views -}}
+  {{- range .order -}}
+    {{- range .claims }}{{ $max = math.Max $max .time_s }}{{ end -}}
+    {{- with .field_median_s }}{{ $max = math.Max $max . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $axis := mul (math.Ceil (div $max 900.0)) 900.0 -}}
+<figure class="mark-chart claim-order-chart" data-chart-views>
+  <div class="chart-legend">
+    <div class="chart-filter" role="group" aria-label="Show squares of one type">
+      {{- range $views }}
+      <button type="button" class="chart-filter-button" data-view="{{ .id }}" aria-pressed="{{ eq .id "all" }}">
+        {{- if ne .id "all" }}<svg width="10" height="10" aria-hidden="true"><circle class="claim-type-{{ .id }}" cx="5" cy="5" r="4"/></svg>{{ end }}{{ .label -}}
+      </button>
+      {{- end }}
+    </div>
+    <span aria-hidden="true"><svg width="6" height="14"><line class="claim-order-median" x1="3" x2="3" y1="1" y2="13"/></svg>Median</span>
+    <span aria-hidden="true"><svg width="6" height="14"><line class="claim-order-field" x1="3" x2="3" y1="1" y2="13"/></svg>Everyone else's median</span>
+  </div>
+  {{- range $views }}
+  <div class="chart-scroll" data-view-panel="{{ .id }}"{{ if ne .id "all" }} hidden{{ end }}>
+    {{ partial "claim-order-plot.html" (dict "order" .order "axis" $axis "matches" $.matches "label" (cond (eq .id "all") "a game" (printf "%s squares in a game" .label))) }}
+  </div>
+  {{- end }}
+  <figcaption>Game clock at their 1st, 2nd, 3rd… claim of a game, one dot per game (only games where they got that far), coloured by the square's type; pick a type to see the order of those squares alone. Select a dot to open the game. A 2v2 player's claims are their own game's squares and the team's co-op squares.</figcaption>
+</figure>
