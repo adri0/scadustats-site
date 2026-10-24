@@ -1,0 +1,53 @@
+{{- /*
+  Input: none (call through `partialCached` with ""; it computes every
+  season's placings). Output: a dict of player slug -> season id ->
+  {season_id, place, shared, qualifier, qualified}: the player's final placing
+  in that season (lib/final-placings.html; 0 when the season has a bracket but
+  no placings yet), whether the season is a qualifier (its bracket has
+  `qualifies` matches, like pre-season 6) and, if so, what the player
+  qualified for ("" when they didn't). `shared` is true when other slots got
+  the same placing (e.g. two players out in the same round).
+
+  Placings are per slot (lib/season-slots.html), so they're credited to every
+  player in it: both players of a 2v2 team (Season 5), and a player and their
+  replacement in a shared slot. Seasons without data/groups or data/brackets
+  are absent.
+*/ -}}
+{{- $out := dict -}}
+{{- range $dir, $_ := hugo.Data.matches -}}
+  {{- $sid := strings.TrimPrefix "season-" $dir -}}
+  {{- $placings := partial "lib/final-placings.html" $sid -}}
+  {{- $sum := partial "lib/season-summary.html" $sid -}}
+  {{- $slots := partial "lib/season-slots.html" $sid -}}
+  {{- $qualifier := gt (len $sum.qualified) 0 -}}
+
+  {{- /* The players in a slot, by the slot's slug. */ -}}
+  {{- $members := dict -}}
+  {{- range $slots }}{{ $members = merge $members (dict .slug .members) }}{{ end -}}
+  {{- $playersOf := dict -}}
+  {{- range $slot, $_ := $placings -}}
+    {{- $playersOf = merge $playersOf (dict $slot (index $members $slot | default (slice (dict "slug" $slot)))) -}}
+  {{- end -}}
+
+  {{- $count := dict -}}
+  {{- range $placings }}{{ $count = merge $count (dict (string .) (add (index $count (string .) | default 0) 1)) }}{{ end -}}
+
+  {{- $entries := dict -}}
+  {{- range $slot, $place := $placings -}}
+    {{- range index $playersOf $slot -}}
+      {{- $entries = merge $entries (dict .slug (dict "season_id" $sid "place" $place "shared" (gt (index $count (string $place)) 1) "qualified" "" "qualifier" $qualifier)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $sum.qualified -}}
+    {{- $q := . -}}
+    {{- range .player.members | default (slice .player) -}}
+      {{- $prev := index $entries .slug | default (dict "season_id" $sid "place" 0 "shared" false "qualifier" true) -}}
+      {{- $entries = merge $entries (dict .slug (merge $prev (dict "qualified" $q.to))) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- range $slug, $e := $entries -}}
+    {{- $out = merge $out (dict $slug (merge (index $out $slug | default dict) (dict $sid $e))) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}
