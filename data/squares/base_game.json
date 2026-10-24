@@ -1103,7 +1103,10 @@
   {
     "id": "tibia_3",
     "text": "Kill 3 Unique Tibia Mariners",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 3 Tibia Mariners"
+    ]
   },
   {
     "id": "tibia_4",
