@@ -17,14 +17,7 @@
 {{- $toc = $toc | append (dict "id" "standings" "title" "Standings") (dict "id" "matches" "title" "Matches") }}
 
 <div class="toc-layout">
-<aside class="toc" aria-label="On this page">
-  <p class="toc-title">On this page</p>
-  <ol>
-    {{- range $toc }}
-    <li><a href="#{{ .id }}">{{ .title }}</a></li>
-    {{- end }}
-  </ol>
-</aside>
+{{ partial "toc.html" $toc }}
 
 <div class="toc-main">
 <header class="season-header">
@@ -155,7 +148,7 @@
         {{- if $placings }}
           {{- $place := index $placings $row.player.slug }}
         <td class="num place{{ with $place }} place-{{ . }}{{ end }}" data-sort-value="{{ $place | default 999 }}">
-          {{- with $place }}{{ . }}{{ if and (in (slice 11 12 13) (mod . 100)) }}th{{ else if eq (mod . 10) 1 }}st{{ else if eq (mod . 10) 2 }}nd{{ else if eq (mod . 10) 3 }}rd{{ else }}th{{ end }}{{ else }}—{{ end -}}
+          {{- with $place }}{{ partial "lib/ordinal.html" . }}{{ else }}—{{ end -}}
         </td>
         {{- end }}
         <td class="num">{{ $row.wins }}</td>
