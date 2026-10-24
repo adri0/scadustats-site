@@ -1,4 +1,4 @@
-name: Validate matches
+name: Validate data
 
 on:
   pull_request:
@@ -20,3 +20,6 @@ jobs:
         uses: astral-sh/setup-uv@v6
       - name: Validate every match
         run: uvx scadustats@latest match validate
+      - name: Validate the squares reference
+        if: ${{ !cancelled() }}
+        run: uvx scadustats@latest square validate

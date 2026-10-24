@@ -652,11 +652,6 @@
     ]
   },
   {
-    "id": "miquellas_charm",
-    "text": "Break Miquella's charm with Miquella's great rune",
-    "game_type": "dlc"
-  },
-  {
     "id": "miquella_crosses_4",
     "text": "Visit 4 Miquella Crosses",
     "game_type": "dlc"
@@ -664,6 +659,11 @@
   {
     "id": "miquella_crosses_5",
     "text": "Visit 5 Miquella Crosses",
+    "game_type": "dlc"
+  },
+  {
+    "id": "miquellas_charm",
+    "text": "Break Miquella's charm with Miquella's great rune",
     "game_type": "dlc"
   },
   {

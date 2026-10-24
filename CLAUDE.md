@@ -34,8 +34,9 @@ All source data lives under `data/`, which Hugo exposes as `hugo.Data`. It's pop
 project) that transcribes match VODs into `data/matches/` and rebuilds `data/squares/` and
 `data/players/` from them. It must be installed separately (`pip install scadustats` or `uvx
 scadustats`) and run from this repo's root so its `data_dir` options default to `./data` — see the
-README. CI (`.github/workflows/validate.yml`) runs `uvx scadustats@latest match validate` on pull
-requests and pushes to main, so run it locally before pushing match changes.
+README. CI (`.github/workflows/validate.yml`) runs `uvx scadustats@latest match validate` and `uvx
+scadustats@latest square validate` on pull requests and pushes to main, so run both locally before
+pushing match or square changes.
 
 ### `data/matches/season-<N>/<date>-<player_red>-vs-<player_blue>.json`
 

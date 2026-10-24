@@ -128,11 +128,6 @@
     "game_type": "base"
   },
   {
-    "id": "limgrave_only_bosses_8",
-    "text": "Kill 8 bosses in Limgrave",
-    "game_type": "base"
-  },
-  {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
     "game_type": "base",
@@ -608,6 +603,11 @@
   {
     "id": "limgrave_only_bosses_6",
     "text": "Kill 6 bosses in Limgrave",
+    "game_type": "base"
+  },
+  {
+    "id": "limgrave_only_bosses_8",
+    "text": "Kill 8 bosses in Limgrave",
     "game_type": "base"
   },
   {
