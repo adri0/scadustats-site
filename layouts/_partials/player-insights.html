@@ -1,0 +1,120 @@
+{{- /*
+  Input: a player page's .Params. Renders the board insights scadustats computes into
+  data/players/<slug>/stats.yaml (passed as `insights` by content/players/_content.gotmpl):
+  how they win, pace, when each claim of a game comes, first squares, comebacks, form and signature squares. Renders
+  nothing for a player without them (a 2v2 teammate with no stats file, or a build
+  with a scadustats release older than these fields). Anything that tells a result
+  is blurred, as everywhere else.
+*/ -}}
+{{- $p := . -}}
+{{- $in := $p.insights | default dict -}}
+{{- with $in.pace -}}
+{{- /* match_id -> the match page, for links to a game, and that match's row. */ -}}
+{{- $paths := dict -}}
+{{- $matches := dict -}}
+{{- range $p.matches }}{{ $paths = merge $paths (dict .match_id .path) }}{{ $matches = merge $matches (dict .match_id .) }}{{ end -}}
+{{- $pct := "%.0f%%" -}}
+<h2 id="insights">Insights</h2>
+<div class="stat-row">
+  {{- with $in.win_types }}
+  {{- /* points: Season 3's points games, absent with an older scadustats. */}}
+  {{- $points := .points | default 0 }}
+  {{- $wins := add .line .majority $points }}
+  <div class="stat">
+    <span class="stat-label">Games won by</span>
+    {{- if $wins }}
+    <span class="stat-value spoiler">{{ printf $pct (mul 100.0 (div (float .line) $wins)) }} line</span>
+    <span class="stat-note spoiler">{{ printf $pct (mul 100.0 (div (float .majority) $wins)) }} majority{{ with $points }} · {{ printf $pct (mul 100.0 (div (float .) $wins)) }} points{{ end }} · {{ .line }} line, {{ .majority }} majority{{ with $points }}, {{ . }} points{{ end }}</span>
+    {{- else }}
+    <span class="stat-value">—</span>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <div class="stat">
+    <span class="stat-label">First claim</span>
+    <span class="stat-value">{{ with $in.pace.median_first_claim_s }}{{ partial "lib/clock.html" . }}{{ else }}—{{ end }}</span>
+    <span class="stat-note">median game time{{ with $in.pace.claims_per_hour }} · {{ printf "%.1f" . }} claims per hour{{ end }}</span>
+  </div>
+
+  <div class="stat">
+    <span class="stat-label">Fastest win</span>
+    {{- with $in.pace.fastest_win }}
+    {{- $path := index $paths .match_id }}
+    <span class="stat-value spoiler">{{ if $path }}<a href="{{ printf "%s#game-%d" $path .game_index | relURL }}">{{ partial "lib/clock.html" .time_s }}</a>{{ else }}{{ partial "lib/clock.html" .time_s }}{{ end }}</span>
+    {{- with $in.pace.median_win_time_s }}<span class="stat-note spoiler">median win {{ partial "lib/clock.html" . }}</span>{{ end }}
+    {{- else }}
+    <span class="stat-value">—</span>
+    {{- end }}
+  </div>
+
+  {{- with $in.first_square }}{{ if .games }}
+  <div class="stat">
+    <span class="stat-label">First square</span>
+    <span class="stat-value">{{ printf $pct (mul 100.0 (div (float .first_claims) .games)) }}</span>
+    <span class="stat-note">claimed first in {{ .first_claims }} of {{ .games }} games{{ if .first_claims }}<span class="spoiler"> · won {{ printf $pct (mul 100.0 (div (float .wins_after_first_claim) .first_claims)) }} of those</span>{{ end }}</span>
+  </div>
+  {{- end }}{{ end }}
+
+  {{- with $in.comebacks }}
+  {{- $cb := . }}
+  <div class="stat">
+    <span class="stat-label" title="Games won after trailing by 3 or more squares">Comebacks</span>
+    <span class="stat-value spoiler">{{ $cb.count }}</span>
+    {{- with $cb.largest }}
+    {{- $path := index $paths .match_id }}
+    <span class="stat-note spoiler">largest from {{ $cb.largest_deficit }} squares down{{ with $path }} · <a href="{{ printf "%s#game-%d" . $cb.largest.game_index | relURL }}">watch</a>{{ end }}</span>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- with $in.form }}{{ with .last }}
+  <div class="stat">
+    <span class="stat-label">Form</span>
+    <span class="stat-value form-badges spoiler">
+      {{- range . }}
+      {{- $path := index $paths .match_id }}
+      <a class="result-{{ .result }}" href="{{ $path | relURL }}" title="{{ .result }}"><span class="result-badge">{{ substr .result 0 1 | upper }}</span></a>
+      {{- end }}
+    </span>
+    <span class="stat-note spoiler">last {{ len . }}, newest first · longest win streak {{ $in.form.longest_win_streak }}</span>
+  </div>
+  {{- end }}{{ end }}
+</div>
+
+{{- with $in.claim_order }}
+<h3 id="claim-order">Speed to each square</h3>
+{{ partial "claim-order-chart.html" (dict "order" . "by_type" $in.claim_order_by_type "matches" $matches) }}
+{{- end }}
+
+{{- if or $in.quickest_squares $in.surest_squares }}
+<div class="split-columns">
+  {{- with $in.quickest_squares }}
+  <section>
+    <h3 title="Their median claim time against everyone else's">Quickest squares</h3>
+    <ol class="square-ranking">
+      {{- range . }}
+      <li>
+        <a class="square-text" href="{{ partial "lib/square-path.html" . | relURL }}">{{ .text }}</a>
+        <span class="square-marks" title="Their median claim time, and everyone else's">{{ partial "lib/clock.html" .median_time_s }} <span class="square-field">vs {{ partial "lib/clock.html" .field_median_time_s }}</span></span>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+  {{- with $in.surest_squares }}
+  <section>
+    <h3 title="Claimed most often when it was on their board">Surest squares</h3>
+    <ol class="square-ranking">
+      {{- range . }}
+      <li>
+        <a class="square-text" href="{{ partial "lib/square-path.html" . | relURL }}">{{ .text }}</a>
+        <span class="square-marks" title="Games they claimed it in, of the games it was on their board">{{ .claims }}/{{ .dealt }}</span>
+      </li>
+      {{- end }}
+    </ol>
+  </section>
+  {{- end }}
+</div>
+{{- end }}
+{{- end -}}
