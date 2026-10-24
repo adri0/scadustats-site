@@ -1,0 +1,296 @@
+{
+  "match_id": "2024-04-13-Jo_W_Bush-vs-ZOOM",
+  "match_date": "2024-04-13",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Jo W Bush",
+  "player_blue_name": "ZOOM",
+  "team_red": {
+    "name": "Jo W Bush",
+    "members": [
+      "Bushy",
+      "YoJoSherino"
+    ]
+  },
+  "team_blue": {
+    "name": "ZOOM",
+    "members": [
+      "Zoodle",
+      "NuclearPastaTom"
+    ]
+  },
+  "commentators": [
+    "Limcube",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=wEWU4l3iquY",
+    "duration_s": 4682.966666666666,
+    "published_at": "2024-04-14",
+    "extracted_at": "2026-10-19"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 4066.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 8,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 6 bosses in Caelid",
+          "Kill Mohg (Sewers)",
+          "Kill Fia's Champions",
+          "Kill 4 NPC Bosses",
+          "Kill an Omenkiller boss"
+        ],
+        [
+          "Kill Margit with 6+ Parries",
+          "Rune Level 60",
+          "Kill a Fallingstar Beast",
+          "Restore Rykard's Great Rune",
+          "Kill 4 Bosses with the word God in it"
+        ],
+        [
+          "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "Kill Fire Giant",
+          "Kill a Black Blade Kindred",
+          "Somber +9 weapon",
+          "Collect 5 unique Seals"
+        ],
+        [
+          "Kill 8 bosses in Limgrave",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill Astel and Astel, Stars of Darkness",
+          "Kill Mimic Tear consumables only",
+          "Complete an Altus Plateau Hero's Grave"
+        ],
+        [
+          "Kill a Remembrance boss incantations only",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Kill Limgrave Tree Sentinel with a +0 weapon only",
+          "Kill Mohg, Lord of Blood",
+          "Kill a Red Wolf Boss"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:12"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:14",
+          "video_timestamp": "00:08:26"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Somber +9 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:02",
+          "video_timestamp": "00:14:14"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:37",
+          "video_timestamp": "00:16:49"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:05",
+          "video_timestamp": "00:20:17"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:51",
+          "video_timestamp": "00:26:03"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:27",
+          "video_timestamp": "00:28:39"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:27",
+          "video_timestamp": "00:28:39"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete an Altus Plateau Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:28",
+          "video_timestamp": "00:28:40"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:33",
+          "video_timestamp": "00:29:45"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:42",
+          "video_timestamp": "00:31:54"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Collect 5 unique Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:54",
+          "video_timestamp": "00:37:06"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss incantations only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:12",
+          "video_timestamp": "00:42:24"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 4 Bosses with the word God in it",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:07",
+          "video_timestamp": "00:44:19"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:53",
+          "video_timestamp": "00:48:05"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Mohg, Lord of Blood",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:21",
+          "video_timestamp": "00:53:33"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Fire Giant",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:24",
+          "video_timestamp": "00:53:36"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Rune Level 60",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:34",
+          "video_timestamp": "00:53:46"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Mimic Tear consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:51:10",
+          "video_timestamp": "00:54:22"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 6 bosses in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:40",
+          "video_timestamp": "00:59:52"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:18",
+          "video_timestamp": "01:01:30"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 4 NPC Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:20",
+          "video_timestamp": "01:06:32"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:03:20",
+          "video_timestamp": "01:06:32"
+        }
+      ]
+    }
+  ]
+}
