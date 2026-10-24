@@ -2,7 +2,20 @@
 {{- $p := .Params }}
 {{ partial "breadcrumb.html" . }}
 
-<header class="player-header">
+{{- /* Table of contents: one entry per section below, in page order, under
+       the same conditions that render the section. */}}
+{{- $toc := slice (dict "id" "overview" "title" "Overview") }}
+{{- with $p.by_game_type }}{{ $toc = $toc | append (dict "id" "by-game-type" "title" "By game type") }}{{ end }}
+{{- with $p.by_season }}{{ $toc = $toc | append (dict "id" "by-season" "title" "By season") }}{{ end }}
+{{- with $p.insights }}{{ with .pace }}{{ $toc = $toc | append (dict "id" "insights" "title" "Insights") }}{{ end }}{{ end }}
+{{- if or $p.top_squares_base $p.top_squares_dlc $p.top_squares_coop }}{{ $toc = $toc | append (dict "id" "most-claimed" "title" "Most claimed squares") }}{{ end }}
+{{- $toc = $toc | append (dict "id" "match-history" "title" "Match history") }}
+
+<div class="toc-layout">
+{{ partial "toc.html" $toc }}
+
+<div class="toc-main">
+<header class="player-header" id="overview">
   {{- with $p.avatar }}
   <img class="player-avatar" src="{{ . }}" alt="{{ $p.display_name }}" width="72" height="72" loading="lazy">
   {{- end }}
@@ -16,6 +29,52 @@
 </header>
 
 {{- with $p.bio }}<p class="player-bio">{{ . }}</p>{{ end }}
+
+{{- /* Final placings per season (lib/player-placings.html); seasons ordered
+       newest first, by the player's own matches. */}}
+{{- $placings := index (partialCached "lib/player-placings.html" "") $p.slug | default dict }}
+{{- $seasonOrder := slice }}
+{{- range $p.matches }}{{ if not (in $seasonOrder .season_id) }}{{ $seasonOrder = $seasonOrder | append .season_id }}{{ end }}{{ end }}
+{{- with $placings }}
+{{- /* Top three finishes, or the qualification in a qualifier season (whose
+       placings below the qualifiers mean little). Shown for everyone with a
+       placing, blurred, so that having honours doesn't give anything away. */}}
+{{- $honours := slice }}
+{{- range $sid := $seasonOrder }}
+  {{- with index $placings $sid }}
+    {{- $season := partial "lib/season-lookup.html" $sid }}
+    {{- if .qualifier }}
+      {{- with .qualified }}{{ $honours = $honours | append (dict "kind" "qualified" "label" (printf "Qualified for %s" .) "season" $season) }}{{ end }}
+    {{- else if and .place (le .place 3) }}
+      {{- $label := index (dict "1" "Champion" "2" "Runner-up" "3" "3rd place") (string .place) }}
+      {{- if .shared }}{{ $label = printf "Joint %s" (partial "lib/ordinal.html" .place) }}{{ end }}
+      {{- $honours = $honours | append (dict "kind" (printf "place-%d" .place) "label" $label "season" $season) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+<section class="player-honours" aria-label="Honours">
+  <div class="spoiler-cover">
+  {{ partial "spoiler-notice.html" }}
+  <div class="spoiler">
+    {{- with $honours }}
+    <ul class="honours">
+      {{- range . }}
+      <li class="honour honour-{{ .kind }}">
+        <span class="honour-medal" aria-hidden="true">{{ if eq .kind "qualified" }}✓{{ else }}{{ strings.TrimPrefix "place-" .kind }}{{ end }}</span>
+        <span class="honour-text">
+          <span class="honour-label">{{ .label }}</span>
+          <a class="honour-season" href="{{ printf "/seasons/%s/" .season.id | relURL }}">{{ .season.name }}</a>
+        </span>
+      </li>
+      {{- end }}
+    </ul>
+    {{- else }}
+    <p class="honours-none">No podium finish yet.</p>
+    {{- end }}
+  </div>
+  </div>
+</section>
+{{- end }}
 
 <div class="stat-row">
   <div class="stat">
@@ -37,7 +96,7 @@
 <div class="split-columns">
   {{- with $p.by_game_type }}
   <section>
-    <h2>By game type</h2>
+    <h2 id="by-game-type">By game type</h2>
     <div class="spoiler-cover">
     {{ partial "spoiler-notice.html" }}
     <div class="table-wrap spoiler">
@@ -60,19 +119,27 @@
 
   {{- with $p.by_season }}
   <section>
-    <h2>By season</h2>
+    <h2 id="by-season">By season</h2>
     <div class="spoiler-cover">
     {{ partial "spoiler-notice.html" }}
     <div class="table-wrap spoiler">
       <table class="stats-table">
-        <thead><tr><th>Season</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
+        <thead><tr><th>Season</th><th>Wins</th><th>Losses</th><th>Draws</th>{{ if $placings }}<th title="Final placing in the season">Final</th>{{ end }}</tr></thead>
         <tbody>
-        {{- range $sid, $stats := . }}
+        {{- $bySeason := . }}
+        {{- range $sid := $seasonOrder }}
+          {{- $stats := index $bySeason $sid }}
           <tr>
-            <td><a href="{{ printf "/seasons/%s/" $sid | relURL }}">Season {{ $sid }}</a></td>
+            <td><a href="{{ printf "/seasons/%s/" $sid | relURL }}">{{ (partial "lib/season-lookup.html" $sid).name }}</a></td>
             <td>{{ $stats.wins }}</td>
             <td>{{ $stats.losses }}</td>
             <td>{{ $stats.draws }}</td>
+            {{- if $placings }}
+            {{- $pl := index $placings $sid | default dict }}
+            <td class="place{{ with $pl.place }} place-{{ . }}{{ end }}">
+              {{- if $pl.qualified }}Qualified{{ else if $pl.place }}{{ if $pl.shared }}={{ end }}{{ partial "lib/ordinal.html" $pl.place }}{{ else }}—{{ end -}}
+            </td>
+            {{- end }}
           </tr>
         {{- end }}
         </tbody>
@@ -83,8 +150,10 @@
   {{- end }}
 </div>
 
+{{ partial "player-insights.html" $p }}
+
 {{- if or $p.top_squares_base $p.top_squares_dlc $p.top_squares_coop }}
-<h2>Most claimed squares</h2>
+<h2 id="most-claimed">Most claimed squares</h2>
 <div class="split-columns">
   {{- with $p.top_squares_base }}
   <section>
@@ -107,7 +176,7 @@
 </div>
 {{- end }}
 
-<h2>Match history</h2>
+<h2 id="match-history">Match history</h2>
 <ul class="match-history">
   {{- range $p.matches }}
   {{- $own := cond (eq .color "red") .red_score .blue_score }}
@@ -123,4 +192,6 @@
   </li>
   {{- end }}
 </ul>
+</div>
+</div>
 {{ end }}
