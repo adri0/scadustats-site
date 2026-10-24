@@ -66,21 +66,44 @@
     <div class="section-head">
       <h2>Game {{ .index }}</h2>
       <div class="game-badges">
-        {{- with .game_type }}<span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" . }}</span>{{ end }}
-        {{- if eq .scoring "points" }}
-          {{- /* Season 3: a race to 13 points (a square each, two more per line). */}}
-          {{- with .winner_color }}<span class="pill pill-sm pill-{{ . }}">{{ if eq . "red" }}Red{{ else }}Blue{{ end }} wins</span>{{ end }}
-          <span class="pill pill-sm pill-outline">{{ if eq .win_type "tie" }}tie on points{{ else }}points{{ end }} · {{ .red_points }}–{{ .blue_points }}</span>
-        {{- else if .winner_color }}
+        {{- $red := 0 }}{{ $blue := 0 }}
+        {{- range .board }}{{ if eq .color "red" }}{{ $red = add $red 1 }}{{ else if eq .color "blue" }}{{ $blue = add $blue 1 }}{{ end }}{{ end }}
+        <div class="game-fact">
+          <span class="game-fact-label">Score</span>
+          <span class="pill pill-sm pill-outline game-score" title="Squares claimed: red {{ $red }}, blue {{ $blue }}"><span class="side-red" data-score="red">{{ $red }}</span><span class="score-sep">–</span><span class="side-blue" data-score="blue">{{ $blue }}</span></span>
+        </div>
+        {{- with .game_type }}
+        <div class="game-fact">
+          <span class="game-fact-label">Game type</span>
+          <span class="pill pill-sm pill-outline">{{ partial "game-type-label.html" . }}</span>
+        </div>
+        {{- end }}
+        <div class="game-fact">
+          <span class="game-fact-label">Result</span>
+          {{- if .winner_color }}
           <span class="pill pill-sm pill-{{ .winner_color }}">{{ if eq .winner_color "red" }}Red{{ else }}Blue{{ end }} wins</span>
-          <span class="pill pill-sm pill-outline">{{ .win_type }}{{ with .win_line }} · {{ humanize (replace . "_" " ") }}{{ end }}</span>
-        {{- else }}
+          {{- else if eq .win_type "tie" }}
+          <span class="pill pill-sm pill-outline">tie</span>
+          {{- else }}
           <span class="pill pill-sm pill-outline">undecided</span>
+          {{- end }}
+        </div>
+        {{- if eq .scoring "points" }}
+        {{- /* Season 3's round robin: first to 13 points (squares + 2 per line), else the most points at time up. */}}
+        <div class="game-fact">
+          <span class="game-fact-label">Win type</span>
+          <span class="pill pill-sm pill-outline">{{ if eq .win_type "tie" }}tie on points{{ else }}points{{ end }} · {{ .red_points }}–{{ .blue_points }}</span>
+        </div>
+        {{- else if .winner_color }}
+        <div class="game-fact">
+          <span class="game-fact-label">Win type</span>
+          <span class="pill pill-sm pill-outline">{{ .win_type }}{{ with .win_line }} · {{ humanize (replace . "_" " ") }}{{ end }}</span>
+        </div>
         {{- end }}
       </div>
     </div>
 
-    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line) }}
+    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line "game_type" .game_type "video_url" $p.video_url "events" .events) }}
 
     {{- with .events }}
     <details class="timeline-toggle">

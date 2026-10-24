@@ -1,0 +1,12 @@
+{{- /* Input: a slice of {id, title}, one per section of the page in order. The
+       "On this page" box of the theme's .toc-layout (its own page.html builds the
+       same from a page's headings); a data page lists its sections itself. Put it
+       first inside .toc-layout, before the .toc-main that holds the sections. */ -}}
+<aside class="toc" aria-label="On this page">
+  <p class="toc-title">On this page</p>
+  <ol>
+    {{- range . }}
+    <li><a href="#{{ .id }}">{{ .title }}</a></li>
+    {{- end }}
+  </ol>
+</aside>
