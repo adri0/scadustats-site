@@ -84,7 +84,10 @@
   {
     "id": "black_knife_assassins_2",
     "text": "Kill 2 Unique Black Knife Assassins",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill 2 Black Knife Assassins"
+    ]
   },
   {
     "id": "black_knife_assassins_3",
