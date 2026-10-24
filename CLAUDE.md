@@ -147,14 +147,17 @@ Hand-curated tournament structure, which the match files don't carry (`scadustat
 these). `groups` lists each round-robin group's players in final placing order (used only to break
 ties on points) plus `qualify`, where each placing went next; an entry written as a list or as
 `{players, note}` is one slot shared by several players (e.g. a replacement), summed into one row
-via `lib/season-slots.html`. `brackets` places each playoff match on a col/row grid with its `next`
+via `lib/season-slots.html`. Points are games won, unless the groups file says `scoring: points`
+(Season 3): then the grid shows each game's points (a square each, two more per line) and teams are
+ranked on the points they scored. `brackets` places each playoff match on a col/row grid with its `next`
 match and the match file it refers to (or hand-entered scores when there is no transcription).
 A bracket match can also have `loser_next` (where its loser dropped to, drawn dashed), `lane` (where
 elbows into it turn) and `qualifies` (its winner qualified for a later season: framed, and listed in
 the overview instead of a champion). `bracket: playoffs` matches are a first phase drawn in the same
 diagram (pre-season 6). With no `bracket: final` match, the upper- and lower-bracket matches with no
-`next` decide 1st and 2nd. `bracket: third` is a third-place match (it decides 3rd and 4th), and any
-other value (Season 5's `semifinal`) is drawn without a section label. The bracket file's `phase`
+`next` decide 1st and 2nd. `bracket: third` is a third-place match (it decides 3rd and 4th); with
+none, the `semifinal` losers share the next placing (Season 3, where 1st had a bye to the final).
+Any other value (Seasons 3–5's `semifinal`) is drawn without a section label. The bracket file's `phase`
 names the stage on the season page (default "Double elimination"; Season 5: "Single elimination").
 In a 2v2 season, group entries are team names from `data/teams.yaml` (`lib/entrant-lookup.html`), and
 a team's slot is the team itself. A group's `name` is optional. Either file may also be named

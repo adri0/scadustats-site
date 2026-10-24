@@ -1,0 +1,509 @@
+{
+  "match_id": "2024-04-27-Monkey_Ballers-vs-Cattery",
+  "match_date": "2024-04-27",
+  "season": "3",
+  "match_type": "double_elimination",
+  "player_red_name": "Monkey Ballers",
+  "player_blue_name": "Cattery",
+  "team_red": {
+    "name": "Monkey Ballers",
+    "members": [
+      "LilAggy",
+      "itzCBD"
+    ]
+  },
+  "team_blue": {
+    "name": "Cattery",
+    "members": [
+      "catalystz",
+      "Puppery"
+    ]
+  },
+  "commentators": [
+    "parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=inPed3CLzy4",
+    "duration_s": 8069.75,
+    "published_at": "2024-04-28",
+    "extracted_at": "2026-10-22"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 1022.0,
+      "end_video_ts_s": 3484.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 7,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Restore Rykard's Great Rune",
+          "Kill Godfrey (Gold Spirit)",
+          "30 Arcane (no rebirth or buffs)",
+          "Acquire Margit's and Mohg's Shackles",
+          "Acquire 10 Physick Flask tears"
+        ],
+        [
+          "Kill 2 Black Knife Assassins",
+          "Complete 4 Evergaols",
+          "Kill 3 Night's Cavalry",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Acquire Both Scarseal Talismans"
+        ],
+        [
+          "Kill Rennala after she summons all 4 different spirits",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Memory of Grace with 50k+ Runes",
+          "Collect the full Haligtree Medallion",
+          "Return Thop's academy key"
+        ],
+        [
+          "Invade and defeat Magnus the Beast Claw",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill a Remembrance boss sorcery only",
+          "Kill an Omenkiller boss",
+          "Kill 5 Bosses that Ride a Horse"
+        ],
+        [
+          "Kill Morgott",
+          "Kill the Milicent invader in Caelid",
+          "Kill 4 Bosses with the word God in it",
+          "Kill a Dragonkin Soldier",
+          "Acquire 3 Imbued Sword Keys"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:20:07"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:17",
+          "video_timestamp": "00:24:24"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill the Milicent invader in Caelid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:26",
+          "video_timestamp": "00:24:33"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:00",
+          "video_timestamp": "00:27:07"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Dragonkin Soldier",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:22",
+          "video_timestamp": "00:29:29"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:38",
+          "video_timestamp": "00:29:45"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:00",
+          "video_timestamp": "00:32:07"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:04",
+          "video_timestamp": "00:32:11"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:40",
+          "video_timestamp": "00:36:47"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:41",
+          "video_timestamp": "00:39:48"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:20:57",
+          "video_timestamp": "00:41:04"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Return Thop's academy key",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:44",
+          "video_timestamp": "00:43:51"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Invade and defeat Magnus the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:01",
+          "video_timestamp": "00:44:08"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:38",
+          "video_timestamp": "00:44:45"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "30 Arcane (no rebirth or buffs)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:07",
+          "video_timestamp": "00:46:14"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 10 Physick Flask tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:27",
+          "video_timestamp": "00:46:34"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:42",
+          "video_timestamp": "00:50:49"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:37",
+          "video_timestamp": "00:52:44"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 4 Bosses with the word God in it",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:53",
+          "video_timestamp": "00:57:00"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:36:53",
+          "video_timestamp": "00:57:00"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 3848.0,
+      "end_video_ts_s": 7165.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 8,
+      "blue_points": 13,
+      "winner_color": "blue",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 2 Duelist Bosses",
+          "Kill Misbegotten Crusader",
+          "Kill 6 bosses in Caelid",
+          "Kill Borealis",
+          "Kill Bloodhound Knight while summoning Blaidd"
+        ],
+        [
+          "Kill Margit with 6+ Parries",
+          "Kill Lansseax",
+          "Rune Level 60",
+          "Learn 12 different sorceries",
+          "Kill 5 Bosses that Ride a Horse"
+        ],
+        [
+          "Restore Rykard's Great Rune",
+          "Take Rya's hand to Volcano Manor",
+          "Kill Elemer of the Briar",
+          "Acquire 4 different Remembrances",
+          "Use AoW Lightning Ram to kill 10 sheep"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [2]",
+          "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+          "Learn 14 different incantations",
+          "Acquire 10 Cracked Pots"
+        ],
+        [
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill 2 Cemetery Shades",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Kill Crucible Knight and Misbegotten Warrior Duo"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:07:12"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:16",
+          "video_timestamp": "01:12:28"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Margit with 6+ Parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:08",
+          "video_timestamp": "01:13:20"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:59",
+          "video_timestamp": "01:14:11"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:16",
+          "video_timestamp": "01:16:28"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:10",
+          "video_timestamp": "01:20:22"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:33",
+          "video_timestamp": "01:22:45"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:06",
+          "video_timestamp": "01:26:18"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:51",
+          "video_timestamp": "01:30:03"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 2 Cemetery Shades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:30",
+          "video_timestamp": "01:32:42"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Bloodhound Knight while summoning Blaidd",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:02",
+          "video_timestamp": "01:37:14"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Borealis",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:52",
+          "video_timestamp": "01:38:04"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Restore Rykard's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:07",
+          "video_timestamp": "01:42:19"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:47",
+          "video_timestamp": "01:44:59"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Crucible Knight and Misbegotten Warrior Duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:32",
+          "video_timestamp": "01:48:44"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Lansseax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:55",
+          "video_timestamp": "01:51:07"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:26",
+          "video_timestamp": "01:55:38"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:41",
+          "video_timestamp": "01:55:53"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Misbegotten Crusader",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:31",
+          "video_timestamp": "01:57:43"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 6 bosses in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:51",
+          "video_timestamp": "01:58:03"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:50:51",
+          "video_timestamp": "01:58:03"
+        }
+      ]
+    }
+  ]
+}

@@ -7,6 +7,8 @@
   lib/group-tables.html.
 */ -}}
 {{- $cfg := .groups -}}
+{{- $byPoints := eq $cfg.scoring "points" -}}
+{{- $ptsTitle := cond $byPoints "Points: a square each, two more per line" "Games won" -}}
 {{- $tables := partial "lib/group-tables.html" . -}}
 {{- $results := $tables.results -}}
 
@@ -25,7 +27,7 @@
             <th>#</th>
             <th>{{ cond (and $rows (index $rows 0).player.team) "Team" "Player" }}</th>
             {{- range $j, $_ := $rows }}<th class="rr-col" title="{{ .player.display_name }}">{{ add $j 1 }}</th>{{ end }}
-            <th title="Games won">Pts</th>
+            <th title="{{ $ptsTitle }}">Pts</th>
             <th title="Matches won–lost–drawn">Win–Loss–Draw</th>
           </tr>
         </thead>
@@ -62,6 +64,6 @@
     <span class="rr-key rr-key-{{ . }}"></span> {{ index $labels . | default (humanize .) }}
     {{- end }}
     <span class="rr-key rr-key-out"></span> Eliminated
-    · Pts = games won · <span class="rr-missing">·</span> = not transcribed
+    · {{ if $byPoints }}Scores and Pts are points: a square each, two more per line{{ else }}Pts = games won{{ end }} · <span class="rr-missing">·</span> = not transcribed
   </p>
 </div>
