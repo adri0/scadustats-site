@@ -814,6 +814,26 @@
 
 .stat-champion .stat-value a { color: var(--accent); }
 
+/* Champion and runner-up: a medal before the label and a medal-coloured top
+   border, the colours of the player page's honours (.honour-place-*). */
+.stat-place-1 { --medal: #d4af37; border-top-color: var(--medal); background-color: var(--gold-soft); }
+.stat-place-2 { --medal: #a8a9ad; border-top-color: var(--medal); }
+.stat-place-2 .stat-value a { color: var(--text-main); }
+
+.stat-medal {
+    display: inline-grid;
+    place-items: center;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 0.4rem;
+    border-radius: 50%;
+    border: 2px solid var(--medal);
+    color: var(--medal);
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    vertical-align: middle;
+}
+
 /* A team in a stat box: its players on their own line, free to wrap, so long
    names stay inside the box. */
 .stat { min-width: 0; }

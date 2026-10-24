@@ -39,10 +39,28 @@
       <span class="stat-value spoiler">{{ range $i, $q := . }}{{ if $i }}, {{ end }}{{ partial "player-links.html" $q.player }}{{ end }}</span>
     </div>
     {{- else }}{{ with $sum.champion }}
-    <div class="stat stat-champion">
-      <span class="stat-label">Champion</span>
+    <div class="stat stat-champion stat-place-1">
+      <span class="stat-label"><span class="stat-medal" aria-hidden="true">1</span>Champion</span>
       <span class="stat-value spoiler">{{ partial "player-links.html" . }}</span>
     </div>
+    {{- /* Runner-up: the 2nd final placing (lib/final-placings.html), looked
+           up in the standings by slot like the champion. */}}
+    {{- $slots := partial "lib/season-slots.html" $s.id }}
+    {{- $runnerUp := "" }}
+    {{- range $slug, $place := partial "lib/final-placings.html" $s.id }}
+      {{- if eq $place 2 }}
+        {{- range $s.standings }}
+          {{- $slot := index $slots .player.slug | default .player }}
+          {{- if eq $slot.slug $slug }}{{ $runnerUp = $slot }}{{ end }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- with $runnerUp }}
+    <div class="stat stat-champion stat-place-2">
+      <span class="stat-label"><span class="stat-medal" aria-hidden="true">2</span>Runner-up</span>
+      <span class="stat-value spoiler">{{ partial "player-links.html" . }}</span>
+    </div>
+    {{- end }}
     {{- end }}{{ end }}
     <div class="stat">
       <span class="stat-label">Matches</span>
