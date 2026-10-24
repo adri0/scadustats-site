@@ -1,8 +1,13 @@
-{{- /* Extends the Land of Shadow theme's head.html: analytics, and the
-       no-spoilers default. */ -}}
+{{- /* Extends the Land of Shadow theme's head.html: analytics, dark mode
+       only, and the no-spoilers default. */ -}}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="a323814a-9c91-42c3-bd1d-4358aa38f055"></script>
 
 <script>
+    // Always dark: the theme's toggle is hidden (assets/css/partials/_scadu.scss),
+    // so a light choice saved before it went away is overridden and cleared.
+    document.documentElement.setAttribute('data-theme', 'dark');
+    try { localStorage.removeItem('theme'); } catch (e) {}
+
     // No-spoilers mode is the default: results stay hidden until the visitor
     // turns them on (assets/js/modules/spoilers.js).
     (function() {
