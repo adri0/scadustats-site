@@ -1,0 +1,19 @@
+# Hand-curated round robin for season 3 (2v2, base game): six teams in one
+# group, each playing every other team once in a single game (videos 72-83 and
+# the three Round 4 VODs on the channel). See data/groups/season-6.yaml for the
+# field reference. Entries are team names from data/teams.yaml.
+#
+# `scoring: points`: a round-robin game is a race to 13 points (a square each,
+# two more per completed line), and teams are ranked on the points they scored
+# over the round robin, not on games won. The cells show each game's points.
+#
+# Teams are listed in their final placing, which matches the archived
+# bingobrawlers.com leaderboard (BrinoMachino 65, Monkey Ballers 64, Cattery 60,
+# ZOOM 49, Positive Vibes 46, Jo W Bush 41). The top three went to the playoffs
+# (data/brackets/season-3.yaml): 2nd vs 3rd in the semi-final, the winner
+# against 1st in the final.
+title: Round robin
+scoring: points
+qualify: [playoffs, playoffs, playoffs]
+groups:
+  - players: [BrinoMachino, Monkey Ballers, Cattery, ZOOM, Positive Vibes, Jo W Bush]
