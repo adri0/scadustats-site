@@ -1,162 +1,7 @@
 [
   {
-    "id": "bear_hippo_bird",
-    "text": "Kill 1 Boss of each: Bear, Hippo, Bird",
-    "game_type": "2v2"
-  },
-  {
-    "id": "bear_hippo_moose",
-    "text": "Kill 1 Boss of each: Bear, Hippo, Moose",
-    "game_type": "2v2"
-  },
-  {
-    "id": "bear_hippo_snail",
-    "text": "Kill 1 Boss of each: Bear, Hippo, Snail",
-    "game_type": "2v2"
-  },
-  {
-    "id": "bear_hippo_wolf",
-    "text": "Kill 1 Boss of each: Bear, Hippo, Wolf",
-    "game_type": "2v2"
-  },
-  {
-    "id": "crucible_knight_each",
-    "text": "Kill one of each Crucible Knight",
-    "game_type": "2v2"
-  },
-  {
-    "id": "demi_human_bosses_4",
-    "text": "Kill 4 Demi human bosses",
-    "game_type": "2v2"
-  },
-  {
-    "id": "demi_human_bosses_all",
-    "text": "Kill all Demi human bosses",
-    "game_type": "2v2"
-  },
-  {
-    "id": "dupe_mausoleum_coffin",
-    "text": "Dupe a Remembrance at a Mausoleum and a Coffin",
-    "game_type": "2v2"
-  },
-  {
-    "id": "evergaol_ensis_bols",
-    "text": "Kill Evergaol Bols and Ensis Bols",
-    "game_type": "2v2"
-  },
-  {
-    "id": "evergaols_3_gaols_2",
-    "text": "Clear 3 Evergaols and 2 gaols",
-    "game_type": "2v2"
-  },
-  {
-    "id": "fallingstar_beasts_3",
-    "text": "Kill 3 Fallingstar Beasts",
-    "game_type": "2v2"
-  },
-  {
-    "id": "fallingstar_beasts_all",
-    "text": "Kill all Fallingstar Beasts",
-    "game_type": "2v2"
-  },
-  {
-    "id": "fia_champs_leda",
-    "text": "Kill Fia's Champs and Leda",
-    "game_type": "2v2"
-  },
-  {
-    "id": "fire_giant_scadutree",
-    "text": "Kill Fire Giant and Scadutree",
-    "game_type": "2v2"
-  },
-  {
-    "id": "godrick_dancing_lion",
-    "text": "Kill Godrick and Dancing Lion",
-    "game_type": "2v2"
-  },
-  {
-    "id": "igon_varre_fingers",
-    "text": "Acquire Igon's finger and Varre's bloody finger",
-    "game_type": "2v2"
-  },
-  {
     "id": "imbued_keys_4",
     "text": "Acquire 4 Imbued Sword Keys",
-    "game_type": "2v2"
-  },
-  {
-    "id": "jar_greatjar_helmets",
-    "text": "Acquire Jar and Greatjar Helmets",
-    "game_type": "2v2"
-  },
-  {
-    "id": "larval_tears_8",
-    "text": "Collect 8 larval tears",
-    "game_type": "2v2"
-  },
-  {
-    "id": "larval_tears_9",
-    "text": "Collect 9 larval tears",
-    "game_type": "2v2"
-  },
-  {
-    "id": "memb_hitless_3",
-    "text": "Kill 3 Remembrance Bosses Hitless",
-    "game_type": "2v2"
-  },
-  {
-    "id": "metyr_astel",
-    "text": "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness",
-    "game_type": "2v2"
-  },
-  {
-    "id": "moongrum_moonrithyll",
-    "text": "Kill Moongrum and Moonrithyll",
-    "game_type": "2v2"
-  },
-  {
-    "id": "non_merchant_bell_bearings_9",
-    "text": "Collect 9 non merchant Bell Bearings",
-    "game_type": "2v2"
-  },
-  {
-    "id": "omen_horned_bairn",
-    "text": "Acquire Omen Bairn and Horned Bairn",
-    "game_type": "2v2"
-  },
-  {
-    "id": "pot_trolls_2",
-    "text": "Kill 2 Pot throwing Trolls",
-    "game_type": "2v2"
-  },
-  {
-    "id": "pots_3_each",
-    "text": "Collect 3 of each Pot",
-    "game_type": "2v2"
-  },
-  {
-    "id": "pots_4_each",
-    "text": "Collect 4 of each Pot",
-    "game_type": "2v2"
-  },
-  {
-    "id": "radahn_consort_radahn",
-    "text": "Kill Starscourge and Consort Radahn",
-    "game_type": "2v2"
-  },
-  {
-    "id": "radahn_gaius",
-    "text": "Kill Starscourge Radahn and Commander Gaius",
-    "game_type": "2v2"
-  },
-  {
-    "id": "radahn_mohg",
-    "text": "Kill Consort Radahn and Mohg, Lord of Blood",
-    "game_type": "2v2"
-  },
-  {
-    "id": "red_wolf_red_bear",
-    "text": "Kill a Red Wolf and a Red Bear",
     "game_type": "2v2"
   },
   {
@@ -180,6 +25,141 @@
     "game_type": "2v2"
   },
   {
+    "id": "igon_varre_fingers",
+    "text": "Acquire Igon's finger and Varre's bloody finger",
+    "game_type": "2v2"
+  },
+  {
+    "id": "jar_greatjar_helmets",
+    "text": "Acquire Jar and Greatjar Helmets",
+    "game_type": "2v2"
+  },
+  {
+    "id": "omen_horned_bairn",
+    "text": "Acquire Omen Bairn and Horned Bairn",
+    "game_type": "2v2"
+  },
+  {
+    "id": "turtle_talismans",
+    "text": "Acquire both Turtle Talisman",
+    "game_type": "2v2"
+  },
+  {
+    "id": "evergaols_3_gaols_2",
+    "text": "Clear 3 Evergaols and 2 gaols",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pots_3_each",
+    "text": "Collect 3 of each Pot",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pots_4_each",
+    "text": "Collect 4 of each Pot",
+    "game_type": "2v2"
+  },
+  {
+    "id": "larval_tears_8",
+    "text": "Collect 8 larval tears",
+    "game_type": "2v2"
+  },
+  {
+    "id": "larval_tears_9",
+    "text": "Collect 9 larval tears",
+    "game_type": "2v2"
+  },
+  {
+    "id": "non_merchant_bell_bearings_9",
+    "text": "Collect 9 non merchant Bell Bearings",
+    "game_type": "2v2"
+  },
+  {
+    "id": "dupe_mausoleum_coffin",
+    "text": "Dupe a Remembrance at a Mausoleum and a Coffin",
+    "game_type": "2v2"
+  },
+  {
+    "id": "three_fingers_midra",
+    "text": "Hug the 3 Fingers and Kill Midra",
+    "game_type": "2v2"
+  },
+  {
+    "id": "bear_hippo_bird",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Bird",
+    "game_type": "2v2"
+  },
+  {
+    "id": "bear_hippo_moose",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Moose",
+    "game_type": "2v2"
+  },
+  {
+    "id": "bear_hippo_snail",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Snail",
+    "game_type": "2v2"
+  },
+  {
+    "id": "bear_hippo_wolf",
+    "text": "Kill 1 Boss of each: Bear, Hippo, Wolf",
+    "game_type": "2v2"
+  },
+  {
+    "id": "pot_trolls_2",
+    "text": "Kill 2 Pot throwing Trolls",
+    "game_type": "2v2"
+  },
+  {
+    "id": "fallingstar_beasts_3",
+    "text": "Kill 3 Fallingstar Beasts",
+    "game_type": "2v2"
+  },
+  {
+    "id": "memb_hitless_3",
+    "text": "Kill 3 Remembrance Bosses Hitless",
+    "game_type": "2v2"
+  },
+  {
+    "id": "demi_human_bosses_4",
+    "text": "Kill 4 Demi human bosses",
+    "game_type": "2v2"
+  },
+  {
+    "id": "radahn_mohg",
+    "text": "Kill Consort Radahn and Mohg, Lord of Blood",
+    "game_type": "2v2"
+  },
+  {
+    "id": "evergaol_ensis_bols",
+    "text": "Kill Evergaol Bols and Ensis Bols",
+    "game_type": "2v2"
+  },
+  {
+    "id": "fia_champs_leda",
+    "text": "Kill Fia's Champs and Leda",
+    "game_type": "2v2"
+  },
+  {
+    "id": "fire_giant_scadutree",
+    "text": "Kill Fire Giant and Scadutree",
+    "game_type": "2v2"
+  },
+  {
+    "id": "godrick_dancing_lion",
+    "text": "Kill Godrick and Dancing Lion",
+    "game_type": "2v2"
+  },
+  {
+    "id": "metyr_astel",
+    "text": "Kill Metyr, Mother of Fingers and Astel, Stars of Darkness",
+    "game_type": "2v2"
+  },
+  {
+    "id": "moongrum_moonrithyll",
+    "text": "Kill Moongrum and Moonrithyll",
+    "game_type": "2v2"
+  },
+  {
     "id": "rennala_rellana",
     "text": "Kill Rennala and Rellana",
     "game_type": "2v2"
@@ -200,8 +180,33 @@
     "game_type": "2v2"
   },
   {
-    "id": "three_fingers_midra",
-    "text": "Hug the 3 Fingers and Kill Midra",
+    "id": "radahn_gaius",
+    "text": "Kill Starscourge Radahn and Commander Gaius",
+    "game_type": "2v2"
+  },
+  {
+    "id": "radahn_consort_radahn",
+    "text": "Kill Starscourge and Consort Radahn",
+    "game_type": "2v2"
+  },
+  {
+    "id": "red_wolf_red_bear",
+    "text": "Kill a Red Wolf and a Red Bear",
+    "game_type": "2v2"
+  },
+  {
+    "id": "wyrm_drake_dragon",
+    "text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon",
+    "game_type": "2v2"
+  },
+  {
+    "id": "demi_human_bosses_all",
+    "text": "Kill all Demi human bosses",
+    "game_type": "2v2"
+  },
+  {
+    "id": "fallingstar_beasts_all",
+    "text": "Kill all Fallingstar Beasts",
     "game_type": "2v2"
   },
   {
@@ -210,13 +215,8 @@
     "game_type": "2v2"
   },
   {
-    "id": "turtle_talismans",
-    "text": "Acquire both Turtle Talisman",
-    "game_type": "2v2"
-  },
-  {
-    "id": "wyrm_drake_dragon",
-    "text": "Kill a Wyrm, Drake, Dragon and Ancient Dragon",
+    "id": "crucible_knight_each",
+    "text": "Kill one of each Crucible Knight",
     "game_type": "2v2"
   }
 ]

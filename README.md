@@ -38,11 +38,13 @@ scadustats extract <youtube-url>       # transcribe a match VOD into data/matche
 scadustats square consolidate          # rebuild data/squares/{base_game,dlc}.json
 scadustats player consolidate          # create info.yaml for new players
 scadustats match validate              # sanity-check everything under data/matches/
+scadustats square validate             # check data/squares/ for duplicates and order
 ```
 
 Commit `data/matches/`, `data/squares/` and any new `data/players/<slug>/info.yaml`. The stats
 files are regenerated on every build. CI (`.github/workflows/validate.yml`) runs `scadustats match
-validate` on every pull request and push to main, and fails if any match has issues.
+validate` and `scadustats square validate` on every pull request and push to main, and fails if
+any match or the squares reference has issues.
 
 See [scadustats' own README](https://github.com/adri0/scadustats#readme) for its prerequisites and
 full command reference.
