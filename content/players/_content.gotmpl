@@ -171,6 +171,7 @@
       {{- end -}}
 
       {{- $matches = $matches | append (dict
+          "match_id" $m.key
           "match_date" $m.match_date
           "season_id" $m.season_id
           "opponent" $opponent
@@ -196,6 +197,19 @@
     {{- $topCoop = $topCoop | append . -}}
   {{- end -}}
 
+  {{- /* The board insights scadustats computes into stats.yaml (pace, win
+         types, first squares, comebacks, form, signature squares): unlike the
+         rest of that file's stats, they need every event of every game, and
+         they're regenerated from data/matches on every build. */ -}}
+  {{- $insights := dict -}}
+  {{- with index hugo.Data.players $slug -}}
+    {{- with .stats -}}
+      {{- $stats := . -}}
+      {{- range $k := slice "pace" "claim_order" "claim_order_by_type" "win_types" "first_square" "comebacks" "form" "quickest_squares" "surest_squares" -}}
+        {{- with index $stats $k }}{{ $insights = merge $insights (dict $k .) }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
   {{- $.AddPage (dict
       "path" $slug
       "title" $player.display_name
@@ -219,5 +233,6 @@
         "top_squares_base" (first 5 (sort $topBase "marks" "desc"))
         "top_squares_dlc" (first 5 (sort $topDLC "marks" "desc"))
         "top_squares_coop" (first 5 (sort $topCoop "marks" "desc"))
+        "insights" $insights
         "matches" (sort $matches "match_date" "desc"))) -}}
 {{- end -}}
