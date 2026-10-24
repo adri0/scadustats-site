@@ -1,0 +1,269 @@
+{
+  "match_id": "2024-04-20-Monkey_Ballers-vs-Positive_Vibes",
+  "match_date": "2024-04-20",
+  "season": "3",
+  "match_type": "round_robin",
+  "player_red_name": "Monkey Ballers",
+  "player_blue_name": "Positive Vibes",
+  "team_red": {
+    "name": "Monkey Ballers",
+    "members": [
+      "LilAggy",
+      "itzCBD"
+    ]
+  },
+  "team_blue": {
+    "name": "Positive Vibes",
+    "members": [
+      "star0chris",
+      "Adef"
+    ]
+  },
+  "commentators": [
+    "DrDecomposing",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=fdSwnbV0RQg",
+    "duration_s": 3808.5,
+    "published_at": "2024-04-22",
+    "extracted_at": "2026-10-22"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 4.0,
+      "end_video_ts_s": 2843.0,
+      "game_type": "base",
+      "scoring": "points",
+      "red_points": 14,
+      "blue_points": 8,
+      "winner_color": "red",
+      "win_type": "points",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Kill a Magma Wyrm boss",
+          "Complete 2 catacomb dungeons",
+          "Kill an Ancestor Spirit",
+          "Kill Malenia"
+        ],
+        [
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Kill 7 bosses in Altus Plateau and Mt. Gelmir",
+          "Kill the Sleeping Golem in Leyndell",
+          "Kill 4 Bosses with the word God in it",
+          "Complete 2 cave or grotto dungeons"
+        ],
+        [
+          "Complete 4 Evergaols",
+          "Complete an Altus Plateau Hero's Grave",
+          "Dupe a Remembrance at a Mausoleum",
+          "Kill an Omenkiller boss",
+          "Kill 5 bosses with 'tree' in their name"
+        ],
+        [
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Kill Mohg, Lord of Blood",
+          "Rune Level 60",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill Mohg (Sewers)"
+        ],
+        [
+          "30 Int (no rebirth or buffs)",
+          "Kill Soldier of Godrick bare fist only",
+          "Kill 6 bosses in Caelid",
+          "Acquire 10 different Talismans",
+          "Kill Morgott"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:40"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:01:16",
+          "video_timestamp": "00:03:56"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Complete 2 cave or grotto dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:50",
+          "video_timestamp": "00:07:30"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:24",
+          "video_timestamp": "00:15:04"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:39",
+          "video_timestamp": "00:16:19"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:35",
+          "video_timestamp": "00:22:15"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:43",
+          "video_timestamp": "00:24:23"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill the Sleeping Golem in Leyndell",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:32",
+          "video_timestamp": "00:28:12"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:32",
+          "video_timestamp": "00:28:12"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "30 Int (no rebirth or buffs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:25:32",
+          "video_timestamp": "00:28:12"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Malenia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:47",
+          "video_timestamp": "00:32:27"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Rune Level 60",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:18",
+          "video_timestamp": "00:32:58"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:19",
+          "video_timestamp": "00:33:59"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 10 different Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:39",
+          "video_timestamp": "00:34:19"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 4 Bosses with the word God in it",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:57",
+          "video_timestamp": "00:36:37"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Soldier of Godrick bare fist only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:58",
+          "video_timestamp": "00:36:38"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 6 bosses in Caelid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:53",
+          "video_timestamp": "00:45:33"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:05",
+          "video_timestamp": "00:45:45"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:32",
+          "video_timestamp": "00:47:14"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:44:32",
+          "video_timestamp": "00:47:14"
+        }
+      ]
+    }
+  ]
+}
