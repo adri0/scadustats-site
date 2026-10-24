@@ -1,0 +1,57 @@
+{{- /*
+  Input: {order: one view of a player's claim order (a list of {n, claims, median_s,
+  field_median_s}, claims being {match_id, game_index, time_s, game_type, text}), axis: the
+  game clock the axis ends at, in seconds, matches: match_id -> {path, match_date,
+  opponent}, label: what the view counts, for the screen-reader label}. The SVG of
+  claim-order-chart.html: a row per claim number, a dot per game coloured by the
+  square's pool, the player's median as a solid bar and everyone else's as a dashed
+  one. Each dot links to its game.
+*/ -}}
+{{- $order := .order -}}
+{{- $axis := .axis -}}
+{{- $matches := .matches -}}
+{{- $rowH := 22.0 -}}
+{{- $top := 8.0 -}}
+{{- $left := 48.0 -}}
+{{- $right := 616.0 -}}
+{{- $span := sub $right $left -}}
+{{- $r := 3.5 -}}
+{{- $base := add $top (mul $rowH (float (len $order))) -}}
+{{- $height := add $base 24.0 -}}
+{{- $tickStep := cond (gt $axis 7200.0) 1800 900 -}}
+{{- $types := dict "base" "Base game" "dlc" "DLC" "2v2" "Co-op" -}}
+<svg viewBox="0 0 640 {{ $height }}" role="img" aria-label="Game clock at each of the player's claims of {{ .label }}, by claim number">
+  {{- range $t := seq 0 $tickStep (int $axis) }}
+  {{- $x := add $left (mul $span (div (float $t) $axis)) }}
+  <line class="mark-chart-grid" x1="{{ $x }}" x2="{{ $x }}" y1="{{ $top }}" y2="{{ $base }}"/>
+  <text class="mark-chart-tick" x="{{ $x }}" y="{{ add $base 18 }}" text-anchor="middle">{{ div $t 60 }}′</text>
+  {{- end }}
+  <line class="mark-chart-axis" x1="{{ $left }}" x2="{{ $right }}" y1="{{ $base }}" y2="{{ $base }}"/>
+  {{- range $i, $nth := $order }}
+  {{- $mid := add $top (mul $rowH (add (float $i) 0.5)) }}
+  {{- $ord := partial "lib/ordinal.html" $nth.n }}
+  <text class="mark-chart-tick claim-order-label" x="{{ sub $left 10 }}" y="{{ add $mid 4 }}" text-anchor="end">{{ $ord }}<title>{{ len $nth.claims }} game{{ if ne (len $nth.claims) 1 }}s{{ end }} with a {{ $ord }} claim</title></text>
+  {{- range $j, $c := $nth.claims }}
+  {{- /* A little vertical spread, so dots at the same time stay apart. */}}
+  {{- $y := add $mid (mul 4.0 (float (sub (mod $j 3) 1))) }}
+  {{- $m := index $matches $c.match_id | default dict }}
+  {{- $type := index $types $c.game_type | default $c.game_type }}
+  {{- $label := printf "%s claim at %s, a %s square" $ord (partial "lib/clock.html" $c.time_s) $type }}
+  {{- with $c.text }}{{ $label = printf "%s claim at %s: %s (%s)" $ord (partial "lib/clock.html" $c.time_s) . $type }}{{ end }}
+  {{- with $m.opponent }}{{ $label = printf "%s · vs %s, %s, game %d" $label .display_name $m.match_date $c.game_index }}{{ end }}
+  {{ if $m.path }}<a class="mark-chart-link" href="{{ printf "%s#game-%d" $m.path $c.game_index | relURL }}" aria-label="{{ $label }}">{{ end -}}
+  <circle class="mark-chart-dot claim-order-dot claim-type-{{ $c.game_type }}" cx="{{ add $left (mul $span (div (float $c.time_s) $axis)) }}" cy="{{ $y }}" r="{{ $r }}"><title>{{ $label }}</title></circle>
+  {{- if $m.path }}</a>{{ end }}
+  {{- end }}
+  {{- with $nth.field_median_s }}
+  {{- $x := add $left (mul $span (div . $axis)) }}
+  <line class="claim-order-halo" x1="{{ $x }}" x2="{{ $x }}" y1="{{ sub $mid 9 }}" y2="{{ add $mid 9 }}"/>
+  <line class="claim-order-field" x1="{{ $x }}" x2="{{ $x }}" y1="{{ sub $mid 9 }}" y2="{{ add $mid 9 }}"><title>Everyone else's median {{ $ord }} claim: {{ partial "lib/clock.html" . }}</title></line>
+  {{- end }}
+  {{- with $nth.median_s }}
+  {{- $x := add $left (mul $span (div . $axis)) }}
+  <line class="claim-order-halo" x1="{{ $x }}" x2="{{ $x }}" y1="{{ sub $mid 9 }}" y2="{{ add $mid 9 }}"/>
+  <line class="claim-order-median" x1="{{ $x }}" x2="{{ $x }}" y1="{{ sub $mid 9 }}" y2="{{ add $mid 9 }}"><title>Median {{ $ord }} claim: {{ partial "lib/clock.html" . }}</title></line>
+  {{- end }}
+  {{- end }}
+</svg>
