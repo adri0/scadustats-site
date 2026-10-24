@@ -9,9 +9,15 @@
   events carry only `square_text`, transcribed per VOD, so the same goal shows
   up with varying punctuation ("Limgrave / Weeping" vs "Limgrave Weeping").
   Call through `partialCached` -- the index is identical for every lookup.
+
+  Input: "" for every file, or one file's name ("base_game", "dlc", "coop")
+  for that pool alone, where a text shared between pools (e.g. "Complete 2
+  Catacombs") finds that pool's entry. Pass it as the cache variant too.
 */ -}}
+{{- $only := . | default "" -}}
 {{- $index := dict -}}
 {{- range $file, $squares := hugo.Data.squares -}}
+  {{- if and $only (ne $file $only) }}{{ continue }}{{ end -}}
   {{- range $squares -}}
     {{- $entry := dict "id" .id "text" .text "game_type" (.game_type | default $file) -}}
     {{- range (slice .text | append (.aliases | default slice)) -}}

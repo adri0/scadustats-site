@@ -268,32 +268,68 @@
 
 .game-badges {
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    align-items: flex-end;
+    gap: 0.5rem 0.9rem;
     flex-wrap: wrap;
 }
 
+/* Each pill in a game's head has a small caption above it. */
+.game-fact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+}
+
+.game-fact-label {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+/* Squares each side holds; board-replay.js keeps it in step with the replay. */
+.game-score {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+
+    .score-sep { margin: 0 0.2rem; }
+}
+
+/* Square cells at the full match width would make a board taller than the
+   screen, so the board (and its replay bar) is capped and centred. */
 .board-wrap {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    margin: 1rem 0;
+    max-width: 38rem;
+    margin: 1rem auto;
 }
 
+/* Laid out as a grid, not a table, so each cell can be square
+   (aspect-ratio); a cell whose text doesn't fit grows taller. */
 .bingo-board {
-    display: table;
-    table-layout: fixed;
+    display: block;
     width: 100%;
     min-width: 30rem;
-    border-collapse: separate;
-    border-spacing: 4px;
+    padding: 4px;
     overflow: visible;
 
+    tbody {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 4px;
+    }
+
+    tr { display: contents; }
+
     .cell {
-        width: 20%;
-        height: 5.5rem;
-        padding: 0.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        aspect-ratio: 1;
+        padding: 0.5rem 0.5rem 1rem;
         text-align: center;
-        vertical-align: middle;
         border: 1px solid var(--border);
         border-radius: var(--radius-element);
         background-color: var(--surface-strong);
@@ -304,6 +340,12 @@
         font-size: 0.8rem;
         line-height: 1.25;
         color: var(--text-muted);
+    }
+
+    /* Phone: tighter cells keep the long square texts square too. */
+    @media (max-width: 767px) {
+        .cell { padding: 0.25rem 0.25rem 0.85rem; }
+        .cell-text { font-size: 0.7rem; line-height: 1.2; }
     }
 
     .cell-red {
@@ -318,7 +360,78 @@
 
     .cell-red .cell-text, .cell-blue .cell-text { color: var(--text-main); }
 
+    a.cell-text { text-decoration: none; }
+    a.cell-text:hover { color: var(--accent); text-decoration: underline; }
+
+    /* Game clock of the mark that stuck, bottom right. */
+    .cell-time {
+        position: absolute;
+        right: 0.35rem;
+        bottom: 0.2rem;
+        font-size: 0.7rem;
+        font-variant-numeric: tabular-nums;
+        color: var(--text-muted);
+        text-decoration: none;
+    }
+
+    a.cell-time:hover { color: var(--accent); text-decoration: underline; }
+    .cell-red .cell-time { color: var(--red); }
+    .cell-blue .cell-time { color: var(--blue); }
+
+    /* The replay's last step (board-replay.js). */
+    .cell-latest { box-shadow: inset 0 0 0 2px var(--text-main); }
+
+    /* Replay fades: a cell eases into and out of its colour, and its time
+       label fades in with it. */
+    @media (prefers-reduced-motion: no-preference) {
+        .cell {
+            transition: background-color 0.45s ease, border-color 0.45s ease, box-shadow 0.45s ease;
+        }
+        .cell-text, .cell-time { transition: color 0.45s ease, opacity 0.45s ease; }
+        .cell-time.is-leaving { opacity: 0; pointer-events: none; }
+    }
+
     .cell-winline { box-shadow: inset 0 0 0 2px var(--accent), 0 0 12px var(--gold-glow); }
+}
+
+/* Replay bar under a match board (board-grid.html, board-replay.js). */
+.board-replay {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-muted);
+
+    &[hidden] { display: none; }
+
+    .replay-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2rem;
+        height: 2rem;
+        padding: 0;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-element);
+        background: var(--surface-strong);
+        color: var(--text-main);
+        cursor: pointer;
+    }
+
+    .replay-btn:hover:not(:disabled) { color: var(--accent); border-color: var(--accent); }
+    .replay-btn:disabled { opacity: 0.4; cursor: default; }
+    .replay-play .icon-pause, .replay-play.is-playing .icon-play { display: none; }
+    .replay-play.is-playing .icon-pause { display: inline; }
+
+    .replay-scrub {
+        flex: 1;
+        min-width: 4rem;
+        accent-color: var(--accent);
+    }
+
+    .replay-status { white-space: nowrap; }
 }
 
 /* Example board on the About page (_shortcodes/example-board.html). */
@@ -403,6 +516,55 @@
     color: var(--text-muted);
 }
 
+/* Honours: top-three finishes and qualifications, a medal and the season. */
+.player-honours { margin: 1.25rem 0 0; }
+
+.honours {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.honour {
+    --medal: var(--accent);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 0.9rem 0.5rem 0.55rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background-color: var(--surface);
+}
+.honour-place-1 { --medal: #d4af37; background-color: var(--gold-soft); }
+.honour-place-2 { --medal: #a8a9ad; }
+.honour-place-3 { --medal: #b0784a; }
+
+.honour-medal {
+    display: inline-grid;
+    place-items: center;
+    width: 1.9rem;
+    height: 1.9rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 2px solid var(--medal);
+    color: var(--medal);
+    font-family: var(--font-display);
+    font-weight: 700;
+}
+
+.honour-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25;
+}
+.honour-label { font-weight: 700; }
+.honour-season { font-size: 0.85rem; }
+
+.honours-none { margin: 0; color: var(--text-muted); }
+
 .stat-row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
@@ -437,6 +599,16 @@
 }
 
 .stat-note { font-size: 0.8rem; color: var(--text-muted); }
+
+/* Player insights: the last five results as badges, and a square's field median. */
+.form-badges {
+    display: flex;
+    gap: 0.3rem;
+
+    a { text-decoration: none; }
+}
+
+.square-field { font-weight: 400; color: var(--text-muted); }
 
 .square-ranking {
     margin: 0;
@@ -1102,6 +1274,70 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
 .mark-chart-link:hover .mark-chart-dot,
 .mark-chart-link:focus-visible .mark-chart-dot { fill: var(--text-main); }
 .mark-chart-link:focus-visible { outline: none; }
+
+/* Player page: when each claim of a game comes (claim-order-chart.html). Dots are
+   translucent so piles of games read as darker; the medians sit on top. */
+.claim-order-chart .chart-scroll {
+    max-width: 880px;
+    overflow-x: auto;
+
+    svg { min-width: 560px; }
+}
+.claim-order-dot { fill-opacity: 0.6; stroke-width: 1; }
+
+/* Square pools (validated as a set, all pairs, on both surfaces: dataviz
+   validate_palette.js). Red and blue are left alone: they mean a match's sides. */
+:root {
+    --pool-base: #9a6b00;
+    --pool-dlc: #00897b;
+    --pool-coop: #7b5cd6;
+}
+:root[data-theme="dark"] {
+    --pool-base: #b88a2a;
+    --pool-dlc: #1f9886;
+    --pool-coop: #8a72e0;
+}
+.claim-type-base { fill: var(--pool-base); }
+.claim-type-dlc { fill: var(--pool-dlc); }
+.claim-type-2v2 { fill: var(--pool-coop); }
+
+.chart-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+.chart-filter-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.15rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: none;
+    color: var(--text-muted);
+    font: inherit;
+    cursor: pointer;
+
+    &:hover { color: var(--text-main); }
+    &[aria-pressed="true"] { color: var(--text-main); border-color: var(--accent); background-color: var(--gold-soft); }
+}
+/* A surface-coloured ring behind each median, so it reads over the dots. */
+.claim-order-halo { stroke: var(--bg-body); stroke-width: 6; stroke-linecap: round; }
+.claim-order-median { stroke: var(--text-main); stroke-width: 3; stroke-linecap: round; }
+.claim-order-field { stroke: var(--text-main); stroke-width: 2; stroke-dasharray: 3 2; opacity: 0.75; }
+.claim-order-label { fill: var(--text-main); }
+
+.chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+
+    span { display: inline-flex; align-items: center; gap: 0.35rem; }
+    svg { display: inline-block; width: auto; height: auto; flex: none; }
+}
 
 /* A team in a player list (lib/side-lookup.html): its name, then its players, smaller. */
 .team-name { font-weight: 600; }

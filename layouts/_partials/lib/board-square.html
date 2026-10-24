@@ -1,0 +1,23 @@
+{{- /*
+  Input: {text, game_type} -- a square's text as it was on a board, and that
+  game's type ("base", "dlc" or "2v2").
+  Output: the same as lib/square-lookup.html, but looked up in the pool the
+  square was dealt from first, so a text shared between pools links to the
+  right page: the game's own pool, or on a 2v2 board the square's (B)/(D)/(C)
+  tag. Falls back to every pool, then to an unknown square.
+*/ -}}
+{{- $text := .text | default "" -}}
+{{- $pool := index (dict "base" "base_game" "dlc" "dlc") (.game_type | default "") | default "" -}}
+{{- with findRESubmatch ` \(([BDC])\)$` $text 1 -}}
+  {{- $pool = index (dict "B" "base_game" "D" "dlc" "C" "coop") (index (index . 0) 1) -}}
+{{- end -}}
+{{- $goal := replaceRE ` \([BDC]\)$` "" $text -}}
+{{- $key := lower (replaceRE "[^a-zA-Z0-9]+" "" $goal) -}}
+{{- $found := "" -}}
+{{- if and $pool $key -}}
+  {{- $found = index (partialCached "lib/square-index.html" $pool $pool) $key -}}
+{{- end -}}
+{{- if $found -}}
+  {{- return (merge $found (dict "known" true)) -}}
+{{- end -}}
+{{- return (partial "lib/square-lookup.html" $text) -}}
