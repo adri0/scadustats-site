@@ -1,0 +1,297 @@
+{
+  "match_id": "2023-09-09-Bushy-vs-catalystz",
+  "match_date": "2023-09-09",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Bushy",
+  "player_blue_name": "catalystz",
+  "commentators": [
+    "star0chris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=job6WgY9AzM",
+    "duration_s": 6640.433333333333,
+    "published_at": "2023-09-11",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 6119.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Kill Godfrey (Gold Spirit)",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill Limgrave Tree Sentinel with a +0 weapon only"
+        ],
+        [
+          "Kill 3 Night's Cavalry",
+          "Kill Tree Sentinel Duo",
+          "Kill a boss Consumables only",
+          "Kill 3 Bell Bearing Hunters",
+          "Rune Level 60"
+        ],
+        [
+          "Kill Rennala after she summons all 4 different spirits",
+          "Restore Radahn's Great Rune",
+          "Kill 3 Watchdogs",
+          "Kill Loretta (Blue Spirit)",
+          "Finish off a Boss with the Explosive Physick"
+        ],
+        [
+          "Kill Radahn without summoning NPCs",
+          "Kill Putrid Crystalian trio",
+          "Complete 4 Evergaols",
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Kill an Ancestor Spirit"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Take Rya's hand to Volcano Manor",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Spirit Ash +4 summon"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:13"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a boss Consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:22",
+          "video_timestamp": "00:07:35"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:49",
+          "video_timestamp": "00:16:02"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:12",
+          "video_timestamp": "00:26:25"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Watchdogs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:35",
+          "video_timestamp": "00:30:48"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:37",
+          "video_timestamp": "00:31:50"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:55",
+          "video_timestamp": "00:35:08"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Rennala after she summons all 4 different spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:30",
+          "video_timestamp": "00:40:43"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:37",
+          "video_timestamp": "00:46:50"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:30",
+          "video_timestamp": "00:51:43"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:10",
+          "video_timestamp": "00:55:23"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:29",
+          "video_timestamp": "00:57:42"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:44",
+          "video_timestamp": "01:00:57"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:16",
+          "video_timestamp": "01:01:29"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:20",
+          "video_timestamp": "01:03:33"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Complete 4 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:19",
+          "video_timestamp": "01:05:32"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:02",
+          "video_timestamp": "01:07:15"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:39",
+          "video_timestamp": "01:15:52"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Putrid Crystalian trio",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:22",
+          "video_timestamp": "01:20:35"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:42",
+          "video_timestamp": "01:23:55"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 1 Deathbird and 1 Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:40",
+          "video_timestamp": "01:24:53"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:52",
+          "video_timestamp": "01:27:05"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:36:06",
+          "video_timestamp": "01:39:19"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Rune Level 60",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:37:21",
+          "video_timestamp": "01:40:34"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:37:21",
+          "video_timestamp": "01:40:34"
+        }
+      ]
+    }
+  ]
+}
