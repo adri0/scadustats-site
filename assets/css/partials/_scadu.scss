@@ -96,6 +96,14 @@
 
     p { margin: 0; }
     strong { color: var(--text-main); }
+
+    /* Inline like the footer's icons, so the link keeps the text's baseline. */
+    .icon-discord {
+        width: 1em;
+        height: 1em;
+        margin-right: 0.3em;
+        vertical-align: -0.125em;
+    }
 }
 
 /* --- Tables --- */

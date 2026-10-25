@@ -18,6 +18,10 @@ and `data/square_stats/`) from `data/matches`, with the latest `scadustats` rele
 PyPI, then runs `hugo` with its arguments (`scripts/build_hugo.sh` alone builds into `public/`).
 Rerun it after changing match data.
 
+## Community
+
+Want to contribute, report something or just talk about the site or [scadustats](https://github.com/adri0/scadustats)? Join the [scadustats Discord server](https://discord.gg/eYtbyN4fbp).
+
 ## Credits
 
 The look is the [Land of Shadow](https://github.com/adri0/land-of-shadow) theme, imported as a
