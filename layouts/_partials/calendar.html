@@ -1,0 +1,122 @@
+{{- /*
+  Input: dict {heading}, the tag of each month's heading ("h2" by default; the
+  home page, where the calendar sits under its own h2, passes "h3"). The
+  calendar: month nav, legend, and one .calendar-month per month with events,
+  newest first, each a Monday-first grid and the same days as a list (see
+  assets/css/partials/_calendar.scss). One per page: the month sections have
+  ids, and assets/js/modules/calendar.js takes the first nav.
+*/ -}}
+{{- $heading := .heading | default "h2" -}}
+<div class="calendar">
+    {{- /* Events by day, and the months that have any, newest first. */}}
+    {{- $events := partialCached "lib/calendar-events.html" "" "" }}
+    {{- $byDate := dict }}
+    {{- $months := slice }}
+    {{- range $events }}
+      {{- $byDate = merge $byDate (dict .date ((index $byDate .date | default slice) | append .)) }}
+      {{- $months = $months | append (substr .date 0 7) }}
+    {{- end }}
+    {{- $months = sort (uniq $months) "value" "desc" }}
+
+    {{- /* Each season's span, drawn as a bar across its days in the grid
+           (which leaves out the season-start/-end events the list shows). */}}
+    {{- $seasons := slice }}
+    {{- range $sp := where site.RegularPages "Section" "seasons" }}
+      {{- with $sp.Params.start_date }}
+        {{- $seasons = $seasons | append (dict "title" $sp.Title "url" $sp.RelPermalink "start" . "end" ($sp.Params.end_date | default .)) }}
+      {{- end }}
+    {{- end }}
+    {{- $seasons = sort $seasons "start" }}
+
+    {{- /* The month selector stands in for the month's title, with the
+           legend on the same line. The nav is hidden until
+           assets/js/modules/calendar.js wires it up, which then hides the
+           months' own titles (.is-paged); without JavaScript every month
+           shows, titled. Months are listed newest first, so "previous" steps
+           down the list. */}}
+    <div class="calendar-head">
+      <nav class="calendar-nav" data-calendar=".calendar-month" aria-label="Month" hidden>
+        <button type="button" class="pill pill-outline" data-calendar-step="1" aria-label="Previous month">‹</button>
+        <select class="calendar-month-select" aria-label="Month">
+          {{- range $months }}
+          <option value="{{ . }}">{{ (time.AsTime (printf "%s-01" .)).Format "January 2006" }}</option>
+          {{- end }}
+        </select>
+        <button type="button" class="pill pill-outline" data-calendar-step="-1" aria-label="Next month">›</button>
+      </nav>
+
+      <ul class="calendar-legend">
+        <li class="calendar-event calendar-event-match">Match</li>
+        <li class="calendar-event calendar-event-scheduled">Upcoming</li>
+        <li class="calendar-legend-season"><span class="calendar-season is-start is-end">Season</span></li>
+      </ul>
+    </div>
+
+    {{- range $month := $months }}
+      {{- $first := time.AsTime (printf "%s-01" $month) }}
+      {{- $days := ($first.AddDate 0 1 -1).Day }}
+      {{- /* Weeks start on Monday. */}}
+      {{- $offset := mod (add (int $first.Weekday) 6) 7 }}
+      {{- $weeks := div (add (add $offset $days) 6) 7 }}
+    <section class="calendar-month" id="month-{{ $month }}" data-month="{{ $month }}">
+      {{ printf "<%s class=\"calendar-month-title\">%s</%s>" $heading ($first.Format "January 2006") $heading | safeHTML }}
+      <div class="table-wrap">
+        <table class="calendar-grid">
+          <thead>
+            <tr>{{ range slice "Mon" "Tue" "Wed" "Thu" "Fri" "Sat" "Sun" }}<th scope="col">{{ . }}</th>{{ end }}</tr>
+          </thead>
+          <tbody>
+            {{- range $w := seq 0 (sub $weeks 1) }}
+            <tr>
+              {{- range $c := seq 0 6 }}
+                {{- $d := add (sub (add (mul $w 7) $c) $offset) 1 }}
+                {{- if and (ge $d 1) (le $d $days) }}
+                  {{- $date := printf "%s-%02d" $month $d }}
+                  {{- $dayEvents := where (index $byDate $date | default slice) "kind" "in" (slice "match" "scheduled") }}
+              <td class="calendar-day{{ if $dayEvents }} has-events{{ end }}" data-date="{{ $date }}">
+                <span class="calendar-day-number">{{ $d }}</span>
+                {{- range $seasons }}
+                  {{- if and (le .start $date) (ge .end $date) }}
+                    {{- $class := "calendar-season" }}
+                    {{- if eq .start $date }}{{ $class = printf "%s is-start" $class }}{{ end }}
+                    {{- if eq .end $date }}{{ $class = printf "%s is-end" $class }}{{ end }}
+                    {{- /* Named where it starts, on Mondays and on the 1st. */}}
+                    {{- if or (eq .start $date) (eq $c 0) (eq $d 1) }}
+                <a class="{{ $class }}" href="{{ .url }}" title="{{ .title }}: {{ partial "date-range.html" (dict "start" .start "end" .end "year" true) }}">{{ .title }}</a>
+                    {{- else }}
+                <span class="{{ $class }}" aria-hidden="true"></span>
+                    {{- end }}
+                  {{- end }}
+                {{- end }}
+                {{- with $dayEvents }}
+                <ul>
+                  {{- range . }}{{ partial "calendar-event.html" (dict "event" .) }}{{ end }}
+                </ul>
+                {{- end }}
+              </td>
+                {{- else }}
+              <td class="calendar-day is-blank"></td>
+                {{- end }}
+              {{- end }}
+            </tr>
+            {{- end }}
+          </tbody>
+        </table>
+      </div>
+
+      <ol class="calendar-list">
+        {{- range $d := seq $days }}
+          {{- $date := printf "%s-%02d" $month $d }}
+          {{- with index $byDate $date }}
+        <li class="calendar-list-day" data-date="{{ $date }}">
+          <time datetime="{{ $date }}">{{ (time.AsTime $date).Format "Mon Jan 2" }}</time>
+          <ul>
+            {{- range . }}{{ partial "calendar-event.html" (dict "event" . "full" true) }}{{ end }}
+          </ul>
+        </li>
+          {{- end }}
+        {{- end }}
+      </ol>
+    </section>
+    {{- end }}
+</div>

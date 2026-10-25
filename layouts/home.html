@@ -31,15 +31,13 @@
       <p class="prose-links">The arena's quiet for now, Tarnished: no matches on the schedule yet. Why not relive the chaos of <a href="{{ "/seasons/6/" | relURL }}">Season 6</a>, dig up a player's record in <a href="{{ "/players/" | relURL }}">Players</a>, or find out which squares everyone dreads in <a href="{{ "/squares/" | relURL }}">Squares</a>?</p>
     </section>
 
-    {{- with index hugo.Data.brackets "season-6" }}
     <section>
       <div class="section-head">
-        <h2>Season 6 double elimination</h2>
-        <a href="{{ "/seasons/6/" | relURL }}">Season 6 →</a>
+        <h2>Calendar</h2>
+        <a href="{{ "/calendar/" | relURL }}">Calendar →</a>
       </div>
-      <div class="spoiler-cover">{{ partial "spoiler-notice.html" }}<div class="spoiler">{{ partial "season-bracket.html" (dict "season_id" "6" "bracket" (merge . (dict "title" ""))) }}</div></div>
+      {{ partial "calendar.html" (dict "heading" "h3") }}
     </section>
-    {{- end }}
 
     <section>
       <div class="section-head">

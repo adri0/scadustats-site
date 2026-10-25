@@ -1,0 +1,65 @@
+{{- /*
+  Input: none (call through partialCached with variant ""). Output: every
+  dated event for the calendar, oldest first, each a dict {date
+  ("YYYY-MM-DD"), kind, title, url, season_id, season, red, blue, time,
+  stage}:
+  - "match": a match page (red/blue are its sides).
+  - "season-start" / "season-end": a season page's start_date / end_date
+    (one "season-start" when they're the same day).
+  - "scheduled": an entry of the hand-written data/schedule.yaml, an upcoming
+    match: {date, time (optional "HH:MM", UTC), season, red, blue, stage
+    (optional), url (optional, e.g. the stream)}. red/blue are looked up with
+    lib/entrant-lookup.html. An entry is left out once a match file of the
+    same season, date and sides exists.
+  season is the season page's title. Nothing here reveals a result.
+*/ -}}
+{{- $events := slice -}}
+{{- $played := slice -}}
+{{- $seasonTitle := dict -}}
+{{- range where site.RegularPages "Section" "seasons" -}}
+  {{- $seasonTitle = merge $seasonTitle (dict .Params.id .Title) -}}
+{{- end -}}
+
+{{- range $page := where site.RegularPages "Section" "matches" -}}
+  {{- $p := .Params -}}
+  {{- with $p.match_date -}}
+    {{- $events = $events | append (dict "date" . "kind" "match" "title" $page.Title
+        "url" $page.RelPermalink "season_id" $p.season_id
+        "season" (index $seasonTitle $p.season_id | default (printf "Season %s" $p.season_id))
+        "red" $p.player_red "blue" $p.player_blue "time" "" "stage" "") -}}
+    {{- $played = $played | append (printf "%s|%s|%s" $p.season_id .
+        (delimit (sort (slice $p.player_red.slug $p.player_blue.slug)) "|")) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range where site.RegularPages "Section" "seasons" -}}
+  {{- $p := .Params -}}
+  {{- $base := dict "title" .Title "url" .RelPermalink "season_id" $p.id "season" .Title
+      "red" "" "blue" "" "time" "" "stage" "" -}}
+  {{- with $p.start_date -}}
+    {{- $events = $events | append (merge $base (dict "date" . "kind" "season-start")) -}}
+  {{- end -}}
+  {{- with $p.end_date -}}
+    {{- if ne . $p.start_date -}}
+      {{- $events = $events | append (merge $base (dict "date" . "kind" "season-end")) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range hugo.Data.schedule -}}
+  {{- $sid := printf "%v" .season -}}
+  {{- /* An unquoted YAML date may come in as a time, a quoted one as a string. */ -}}
+  {{- $date := (time.AsTime .date).Format "2006-01-02" -}}
+  {{- $red := partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .red) -}}
+  {{- $blue := partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .blue) -}}
+  {{- $key := printf "%s|%s|%s" $sid $date (delimit (sort (slice $red.slug $blue.slug)) "|") -}}
+  {{- if not (in $played $key) -}}
+    {{- $events = $events | append (dict "date" $date "kind" "scheduled"
+        "title" (printf "%s vs %s" $red.display_name $blue.display_name)
+        "url" (.url | default "") "season_id" $sid
+        "season" (index $seasonTitle $sid | default (printf "Season %s" $sid))
+        "red" $red "blue" $blue "time" (.time | default "") "stage" (.stage | default "")) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (sort $events "date") -}}

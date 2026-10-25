@@ -1,0 +1,14 @@
+# Upcoming matches, hand-written, for the calendar (layouts/_partials/lib/calendar-events.html).
+# One entry per match:
+#
+# - date: 2026-11-02      # the day it's played (UTC)
+#   time: "19:00"          # optional, UTC, quoted
+#   season: 7
+#   red: blanxz            # player names, or team names in a 2v2 season (data/teams.yaml)
+#   blue: SeriousChallenges
+#   stage: Round robin     # optional
+#   url: https://www.twitch.tv/bingobrawlers  # optional, e.g. the stream
+#
+# An entry drops off the calendar once the match is transcribed (a match file of the same
+# season, date and sides), so it can be left here or removed.
+[]

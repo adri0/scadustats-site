@@ -4,6 +4,7 @@
  * empty assets/js/site.js.
  */
 import { initBoardReplays } from './modules/board-replay.js';
+import { initCalendar } from './modules/calendar.js';
 import { initChartViews } from './modules/chart-views.js';
 import { initListFilters } from './modules/list-filter.js';
 import { initSortableTables } from './modules/sortable-tables.js';
@@ -11,6 +12,7 @@ import { initSpoilers } from './modules/spoilers.js';
 
 export function initSite() {
     initBoardReplays();
+    initCalendar();
     initChartViews();
     initListFilters();
     initSortableTables();
