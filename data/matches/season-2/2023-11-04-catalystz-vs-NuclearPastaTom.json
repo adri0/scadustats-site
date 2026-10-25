@@ -1,0 +1,435 @@
+{
+  "match_id": "2023-11-04-catalystz-vs-NuclearPastaTom",
+  "match_date": "2023-11-04",
+  "season": "2",
+  "match_type": "double_elimination",
+  "player_red_name": "catalystz",
+  "player_blue_name": "NuclearPastaTom",
+  "commentators": [
+    "Bushy",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=ieVk2pX3CmY",
+    "duration_s": 12560.0,
+    "published_at": "2024-03-15",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 2,
+  "red_score": 2,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 1109.0,
+      "end_video_ts_s": 5853.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_4",
+      "square_texts": [
+        [
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill a boss on Torrent the whole fight",
+          "30 Int (no rebirth or buffs)",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill a Fallingstar Beast"
+        ],
+        [
+          "Learn 12 different sorceries",
+          "Kill a Magma Wyrm boss",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)"
+        ],
+        [
+          "Spirit Ash +4 summon",
+          "Restore Morgott's Great Rune",
+          "Kill Mohg, Lord of Blood",
+          "Kill 2 Crystillian Bosses",
+          "Take Rya's hand to Volcano Manor"
+        ],
+        [
+          "Kill Godfrey (Gold Spirit)",
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Collect 5 unique Seals",
+          "Kill 6 bosses in Liurnia",
+          "Collect 6 unique Staves"
+        ],
+        [
+          "Kill Mohg (Sewers)",
+          "Acquire full Dectus Medallion",
+          "Kill Gurranq",
+          "Restore Godrick's Great Rune",
+          "Kill 3 Watchdogs"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:23:01"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:28",
+          "video_timestamp": "00:28:29"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:13",
+          "video_timestamp": "00:33:14"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "30 Int (no rebirth or buffs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:16",
+          "video_timestamp": "00:34:17"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:41",
+          "video_timestamp": "00:36:42"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:56",
+          "video_timestamp": "00:38:57"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:34",
+          "video_timestamp": "00:39:35"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Watchdogs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:10",
+          "video_timestamp": "00:51:11"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:01",
+          "video_timestamp": "00:57:02"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 1 Deathbird and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:22",
+          "video_timestamp": "00:58:23"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 6 bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:50",
+          "video_timestamp": "01:04:51"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Learn 12 different sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:30",
+          "video_timestamp": "01:07:31"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Collect 6 unique Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:32",
+          "video_timestamp": "01:12:33"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:56",
+          "video_timestamp": "01:20:57"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 2 Crystillian Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:20",
+          "video_timestamp": "01:21:21"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:43",
+          "video_timestamp": "01:26:44"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:39",
+          "video_timestamp": "01:35:40"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:12:39",
+          "video_timestamp": "01:35:40"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "start_video_ts_s": 6644.0,
+      "end_video_ts_s": 11271.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_2",
+      "square_texts": [
+        [
+          "Acquire 4 different Remembrances",
+          "Kill an Omenkiller boss",
+          "Complete 4 Evergaols",
+          "Collect 2 Painting rewards",
+          "Invade and defeat Magnus the Beast Claw"
+        ],
+        [
+          "Kill 3 Erdtree Avatars",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill Valiant Gargoyles",
+          "Kill a Dragonkin Soldier",
+          "Kill 3 Watchdogs"
+        ],
+        [
+          "Kill Loretta (Blue Spirit)",
+          "Kill Soldier of Godrick bare fist only",
+          "Rune Level 60",
+          "Kill 2 Black Knife Assassins",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)"
+        ],
+        [
+          "Kill a Remembrance boss sorcery only",
+          "Sacred Flask +7",
+          "Kill Godfrey (Gold Spirit)",
+          "Kill Lansseax",
+          "Kill 5 bosses in Caelid"
+        ],
+        [
+          "Kill Radahn without summoning NPCs",
+          "Finish off a Boss with the Explosive Physick",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Acquire 3 Whetblades",
+          "Kill Commander O'Neil"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "01:55:52"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Commander O'Neil",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:52",
+          "video_timestamp": "02:03:44"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Collect 2 Painting rewards",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:08",
+          "video_timestamp": "02:06:00"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:40",
+          "video_timestamp": "02:14:32"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:56",
+          "video_timestamp": "02:19:48"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:40",
+          "video_timestamp": "02:30:32"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:07",
+          "video_timestamp": "02:33:59"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:36",
+          "video_timestamp": "02:39:28"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Invade and defeat Magnus the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:38",
+          "video_timestamp": "02:43:30"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 5 bosses in Caelid",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:58",
+          "video_timestamp": "02:47:50"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Watchdogs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:59",
+          "video_timestamp": "02:47:51"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:27",
+          "video_timestamp": "02:57:19"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Lansseax",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:07",
+          "video_timestamp": "03:02:59"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:46",
+          "video_timestamp": "03:03:38"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Valiant Gargoyles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:46",
+          "video_timestamp": "03:03:38"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Dragonkin Soldier",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:47",
+          "video_timestamp": "03:05:39"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:09:47",
+          "video_timestamp": "03:05:39"
+        }
+      ]
+    }
+  ]
+}
