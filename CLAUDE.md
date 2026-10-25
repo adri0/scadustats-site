@@ -167,6 +167,23 @@ Both are optional per season; the season page's round-robin grids, bracket diagr
 placings (`lib/group-tables.html`, `lib/bracket-results.html`, `lib/final-placings.html`) only
 appear when they exist. Results are still recomputed from `data/matches`.
 
+### `data/schedule.yaml`
+
+Hand-written upcoming matches for the calendar (`scadustats` never touches it): a list of `{date,
+time (optional "HH:MM", UTC), season, red, blue, stage (optional), url (optional, e.g. the
+stream)}`; the file's comment has an example. Sides are looked up with `lib/entrant-lookup.html`,
+so a 2v2 season takes team names. An entry is left off the calendar once a match file of the same
+season, date and sides exists.
+
+The calendar, on the calendar page (`content/calendar/`) and the home page, is the theme's
+`calendar.html` partial (one month at a time, a grid and a phone-width list, spans as bars; see
+its README). The site gives it its arguments from `lib/calendar-data.html` (call through
+`partialCached` with variant `""`): the events (match pages, the season pages'
+`start_date`/`end_date` as list-only events, and the schedule), each season as a span, and the
+legend. `_partials/calendar-event.html` overrides the theme's event (sides with avatars, season
+pill, stage), and `assets/css/partials/_calendar.scss` colours each kind. Nothing on it reveals a
+result.
+
 ## Layout conventions
 
 Layouts use Hugo's current names: `layouts/baseof.html`, `layouts/home.html`, `layouts/page.html`,

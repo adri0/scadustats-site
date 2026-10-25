@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "breadcrumb.html" . }}
+<div class="content-grid">
+  <main>
+    <h1>{{ .Title }}</h1>
+    {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
+    {{ partial "calendar.html" (partialCached "lib/calendar-data.html" "" "") }}
+  </main>
+
+  <div id="persistent-sidebar" data-turbo-permanent>
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

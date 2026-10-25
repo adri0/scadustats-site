@@ -1,0 +1,37 @@
+{{- /*
+  Input: dict {event, full}. event is one of lib/calendar-events.html's
+  events. One <li class="calendar-event calendar-event-<kind>">: a match's or
+  scheduled match's sides, or a season's start or end, linked when there's a
+  page (or, for a scheduled match, a stream link). full (the list view) adds
+  avatars, the season pill and the stage; the month grid leaves them out to
+  fit a day cell. A scheduled time is UTC; assets/js/modules/calendar.js
+  rewrites it in the visitor's time zone.
+*/ -}}
+{{- $e := .event -}}
+{{- $full := .full | default false -}}
+<li class="calendar-event calendar-event-{{ $e.kind }}">
+  {{- $label := "" -}}
+  {{- if eq $e.kind "season-start" }}{{ $label = printf "%s begins" $e.season -}}
+  {{- else if eq $e.kind "season-end" }}{{ $label = printf "%s ends" $e.season -}}
+  {{- end -}}
+  {{- with $e.url }}<a href="{{ . }}"{{ if eq $e.kind "scheduled" }} rel="noopener" target="_blank"{{ end }}>{{ else }}<span>{{ end -}}
+  {{- if $label -}}
+    {{ $label }}
+  {{- else -}}
+    {{- if $full }}{{ partial "avatar.html" (dict "player" $e.red) }}{{ end }}{{ $e.red.display_name }}
+    <span class="calendar-vs">vs</span>
+    {{ if $full }}{{ partial "avatar.html" (dict "player" $e.blue) }}{{ end }}{{ $e.blue.display_name -}}
+  {{- end -}}
+  {{- with $e.url }}</a>{{ else }}</span>{{ end -}}
+  {{- if eq $e.kind "scheduled" -}}
+    <span class="calendar-event-meta">
+      {{- with $e.time -}}
+        <time class="calendar-time" datetime="{{ $e.date }}T{{ . }}Z">{{ . }} UTC</time>
+      {{- end -}}
+      {{- if $full }}{{ with $e.stage }}<span>{{ . }}</span>{{ end }}<span class="pill pill-sm">Upcoming</span>{{ end -}}
+    </span>
+  {{- end -}}
+  {{- if and $full (not $label) -}}
+    <span class="pill pill-sm pill-outline">{{ $e.season }}</span>
+  {{- end -}}
+</li>

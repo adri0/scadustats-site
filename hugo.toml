@@ -45,6 +45,11 @@ title = "Scadustats"
   weight = 40
 
 [[menus.main]]
+  name = "Calendar"
+  pageRef = "/calendar"
+  weight = 43
+
+[[menus.main]]
   name = "News"
   pageRef = "/news"
   weight = 45

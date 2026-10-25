@@ -1,0 +1,19 @@
+/*
+ * The site's take on land-of-shadow's calendar (its _calendar.scss draws
+ * it): the colour of each kind of event (lib/calendar-data.html), and the bits
+ * of _partials/calendar-event.html the theme's event doesn't have.
+ */
+.calendar-event-match { --calendar-event-color: #a77bdc; }
+
+.calendar-event-scheduled {
+    --calendar-event-color: #e8913a;
+    border-left-style: dashed;
+}
+
+.calendar-event-season-start,
+.calendar-event-season-end {
+    --calendar-event-color: var(--link);
+    color: var(--text-muted);
+}
+
+.calendar-vs { color: var(--text-muted); }
