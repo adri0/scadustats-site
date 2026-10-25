@@ -36,7 +36,7 @@
         <h2>Calendar</h2>
         <a href="{{ "/calendar/" | relURL }}">Calendar →</a>
       </div>
-      {{ partial "calendar.html" (dict "heading" "h3") }}
+      {{ partial "calendar.html" (merge (partialCached "lib/calendar-data.html" "" "") (dict "heading" "h3")) }}
     </section>
 
     <section>

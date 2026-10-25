@@ -4,7 +4,7 @@
   <main>
     <h1>{{ .Title }}</h1>
     {{- with .Content }}<div class="article-body">{{ . }}</div>{{ end }}
-    {{ partial "calendar.html" (dict) }}
+    {{ partial "calendar.html" (partialCached "lib/calendar-data.html" "" "") }}
   </main>
 
   <div id="persistent-sidebar" data-turbo-permanent>

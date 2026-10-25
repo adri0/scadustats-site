@@ -1,19 +1,26 @@
 {{- /*
-  Input: none (call through partialCached with variant ""). Output: every
-  dated event for the calendar, oldest first, each a dict {date
-  ("YYYY-MM-DD"), kind, title, url, season_id, season, red, blue, time,
-  stage}:
+  Input: none (call through partialCached with variant ""). Output: the
+  arguments of land-of-shadow's calendar.html partial, {events, spans,
+  legend}. Nothing here reveals a result.
+
+  events, oldest first, each a dict {date ("YYYY-MM-DD"), kind, title, url,
+  season_id, season, red, blue, time, stage, list_only} (the extra keys are
+  for _partials/calendar-event.html):
   - "match": a match page (red/blue are its sides).
   - "season-start" / "season-end": a season page's start_date / end_date
-    (one "season-start" when they're the same day).
+    (one "season-start" when they're the same day). list_only: the grid
+    draws the season as a span instead.
   - "scheduled": an entry of the hand-written data/schedule.yaml, an upcoming
     match: {date, time (optional "HH:MM", UTC), season, red, blue, stage
     (optional), url (optional, e.g. the stream)}. red/blue are looked up with
     lib/entrant-lookup.html. An entry is left out once a match file of the
     same season, date and sides exists.
-  season is the season page's title. Nothing here reveals a result.
+  season is the season page's title.
+
+  spans: one {title, url, start, end} per season page with a start_date.
 */ -}}
 {{- $events := slice -}}
+{{- $spans := slice -}}
 {{- $played := slice -}}
 {{- $seasonTitle := dict -}}
 {{- range where site.RegularPages "Section" "seasons" -}}
@@ -26,7 +33,7 @@
     {{- $events = $events | append (dict "date" . "kind" "match" "title" $page.Title
         "url" $page.RelPermalink "season_id" $p.season_id
         "season" (index $seasonTitle $p.season_id | default (printf "Season %s" $p.season_id))
-        "red" $p.player_red "blue" $p.player_blue "time" "" "stage" "") -}}
+        "red" $p.player_red "blue" $p.player_blue "time" "" "stage" "" "list_only" false) -}}
     {{- $played = $played | append (printf "%s|%s|%s" $p.season_id .
         (delimit (sort (slice $p.player_red.slug $p.player_blue.slug)) "|")) -}}
   {{- end -}}
@@ -35,9 +42,10 @@
 {{- range where site.RegularPages "Section" "seasons" -}}
   {{- $p := .Params -}}
   {{- $base := dict "title" .Title "url" .RelPermalink "season_id" $p.id "season" .Title
-      "red" "" "blue" "" "time" "" "stage" "" -}}
+      "red" "" "blue" "" "time" "" "stage" "" "list_only" true -}}
   {{- with $p.start_date -}}
     {{- $events = $events | append (merge $base (dict "date" . "kind" "season-start")) -}}
+    {{- $spans = $spans | append (dict "title" $base.title "url" $base.url "start" . "end" ($p.end_date | default .)) -}}
   {{- end -}}
   {{- with $p.end_date -}}
     {{- if ne . $p.start_date -}}
@@ -58,8 +66,13 @@
         "title" (printf "%s vs %s" $red.display_name $blue.display_name)
         "url" (.url | default "") "season_id" $sid
         "season" (index $seasonTitle $sid | default (printf "Season %s" $sid))
-        "red" $red "blue" $blue "time" (.time | default "") "stage" (.stage | default "")) -}}
+        "red" $red "blue" $blue "time" (.time | default "") "stage" (.stage | default "") "list_only" false) -}}
   {{- end -}}
 {{- end -}}
 
-{{- return (sort $events "date") -}}
+{{- $legend := slice
+    (dict "label" "Match" "kind" "match")
+    (dict "label" "Upcoming" "kind" "scheduled")
+    (dict "label" "Season" "kind" "span") -}}
+
+{{- return (dict "events" (sort $events "date") "spans" $spans "legend" $legend) -}}

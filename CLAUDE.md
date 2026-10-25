@@ -175,14 +175,14 @@ stream)}`; the file's comment has an example. Sides are looked up with `lib/entr
 so a 2v2 season takes team names. An entry is left off the calendar once a match file of the same
 season, date and sides exists.
 
-The calendar (`_partials/calendar.html`, on the calendar page `content/calendar/` and on the home
-page) shows every month with events, newest first, each as a Monday-first grid and as a list (the
-list at phone width), with each season's span as a bar across its days in the grid. Its
-events come from `lib/calendar-events.html` (call through `partialCached` with variant `""`):
-match pages, the season pages' `start_date`/`end_date`, and the schedule. Nothing on it reveals a
-result. `assets/js/modules/calendar.js` shows one month at a time (`?month=YYYY-MM`) and puts
-scheduled times in the visitor's time zone. Its styles, `assets/css/partials/_calendar.scss`, use
-only the theme's tokens and are meant to move into land-of-shadow.
+The calendar, on the calendar page (`content/calendar/`) and the home page, is the theme's
+`calendar.html` partial (one month at a time, a grid and a phone-width list, spans as bars; see
+its README). The site gives it its arguments from `lib/calendar-data.html` (call through
+`partialCached` with variant `""`): the events (match pages, the season pages'
+`start_date`/`end_date` as list-only events, and the schedule), each season as a span, and the
+legend. `_partials/calendar-event.html` overrides the theme's event (sides with avatars, season
+pill, stage), and `assets/css/partials/_calendar.scss` colours each kind. Nothing on it reveals a
+result.
 
 ## Layout conventions
 
