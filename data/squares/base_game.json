@@ -696,6 +696,11 @@
     "game_type": "base"
   },
   {
+    "id": "margit_parries4",
+    "text": "Kill Margit with 4+ parries",
+    "game_type": "base"
+  },
+  {
     "id": "margit_parries6",
     "text": "Kill Margit with 6+ Parries",
     "game_type": "base"
@@ -1141,6 +1146,11 @@
     "aliases": [
       "Acquire 10 different Talismans"
     ]
+  },
+  {
+    "id": "talismans_8",
+    "text": "Acquire 8 different Talismans",
+    "game_type": "base"
   },
   {
     "id": "talismans_9",
