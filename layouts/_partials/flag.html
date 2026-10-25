@@ -1,0 +1,10 @@
+{{- /* Input: dict {season_id, player, end}. The flag of the country the player
+       represented in that season (lib/country.html), sized to the text like
+       the avatar (end: after a right-aligned name); nothing when there's
+       none. The country's name is its alt text and tooltip. */ -}}
+{{- $class := cond (.end | default false) "flag flag-end" "flag" -}}
+{{- with .player.slug -}}
+{{- with partial "lib/country.html" (dict "season_id" $.season_id "slug" .) -}}
+<img class="{{ $class }}" src="{{ .flag | relURL }}" alt="{{ .name }}" title="{{ .name }}" width="20" height="15">
+{{- end -}}
+{{- end -}}

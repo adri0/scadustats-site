@@ -36,12 +36,12 @@
     {{- with $sum.qualified }}
     <div class="stat stat-champion">
       <span class="stat-label">Qualified for {{ (index . 0).to }}</span>
-      <span class="stat-value spoiler">{{ range $i, $q := . }}{{ if $i }}, {{ end }}{{ partial "player-links.html" $q.player }}{{ end }}</span>
+      <span class="stat-value spoiler">{{ range $i, $q := . }}{{ if $i }}, {{ end }}{{ partial "player-links.html" (merge $q.player (dict "season_id" $s.id)) }}{{ end }}</span>
     </div>
     {{- else }}{{ with $sum.champion }}
     <div class="stat stat-champion stat-place-1">
       <span class="stat-label"><span class="stat-medal" aria-hidden="true">1</span>Champion</span>
-      <span class="stat-value spoiler">{{ partial "player-links.html" . }}</span>
+      <span class="stat-value spoiler">{{ partial "player-links.html" (merge . (dict "season_id" $s.id)) }}</span>
     </div>
     {{- /* Runner-up: the 2nd final placing (lib/final-placings.html), looked
            up in the standings by slot like the champion. */}}
@@ -58,7 +58,7 @@
     {{- with $runnerUp }}
     <div class="stat stat-champion stat-place-2">
       <span class="stat-label"><span class="stat-medal" aria-hidden="true">2</span>Runner-up</span>
-      <span class="stat-value spoiler">{{ partial "player-links.html" . }}</span>
+      <span class="stat-value spoiler">{{ partial "player-links.html" (merge . (dict "season_id" $s.id)) }}</span>
     </div>
     {{- end }}
     {{- end }}{{ end }}
@@ -162,7 +162,7 @@
     {{- range $i, $row := $standings }}
       <tr>
         <td class="rank">{{ add $i 1 }}</td>
-        <td>{{ partial "player-links.html" $row.player }}</td>
+        <td>{{ partial "player-links.html" (merge $row.player (dict "season_id" $s.id)) }}</td>
         {{- if $placings }}
           {{- $place := index $placings $row.player.slug }}
         <td class="num place{{ with $place }} place-{{ . }}{{ end }}" data-sort-value="{{ $place | default 999 }}">
@@ -189,9 +189,9 @@
     <a href="{{ .path | relURL }}">
       <span class="match-history-date">{{ .match_date }}</span>
       <span class="match-history-opponent">
-        <span class="{{ if eq .winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_red) }}{{ .player_red.display_name }}</span>
+        <span class="{{ if eq .winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_red "season_id" $s.id) }}{{ .player_red.display_name }}</span>
         vs
-        <span class="{{ if eq .winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_blue) }}{{ .player_blue.display_name }}</span>
+        <span class="{{ if eq .winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" .player_blue "season_id" $s.id) }}{{ .player_blue.display_name }}</span>
       </span>
       <span class="match-history-score spoiler">{{ .red_score }}–{{ .blue_score }}</span>
     </a>

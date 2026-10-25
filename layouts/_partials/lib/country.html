@@ -1,0 +1,21 @@
+{{- /*
+  Input: dict {season_id, slug}. Output: dict {code, name, flag} for the
+  country the player represented in that season (data/countries/season-<N>.yaml
+  maps slugs to lowercase ISO 3166-1 alpha-2 codes; data/country-names.yaml
+  names them), with flag the path of its SVG under static/images/flags/;
+  "" when the season has no countries file or doesn't list the player. Only
+  Season 6 has one: it was played by country.
+*/ -}}
+{{- $result := "" -}}
+{{- with .season_id -}}
+  {{- with partial "lib/season-file.html" (dict "kind" "countries" "season_id" .) -}}
+    {{- with index . $.slug -}}
+      {{- $code := lower . -}}
+      {{- $result = dict
+          "code" $code
+          "name" (index hugo.Data "country-names" $code | default (upper $code))
+          "flag" (printf "/images/flags/%s.svg" $code) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $result -}}

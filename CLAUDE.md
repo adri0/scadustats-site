@@ -167,6 +167,17 @@ Both are optional per season; the season page's round-robin grids, bracket diagr
 placings (`lib/group-tables.html`, `lib/bracket-results.html`, `lib/final-placings.html`) only
 appear when they exist. Results are still recomputed from `data/matches`.
 
+### `data/countries/season-<N>.yaml` and `data/country-names.yaml`
+
+Hand-curated (`scadustats` never touches them): the country each player represented in a season
+played by country (only Season 6), as player slug → lowercase ISO 3166-1 alpha-2 code, and a name
+for each code in use. Every code needs its flag at `static/images/flags/<code>.svg` (flag-icons 4x3,
+MIT, licence alongside). `lib/country.html` looks a player up; `avatar.html` (and `player-links.html`,
+through a `season_id` key in its input) shows the flag between the avatar and the name when given a
+`season_id`, and the bracket diagram draws it before the name. Callers pass the season on the season
+page and wherever a match's sides are shown (match page, match rows, calendar, square pages), not on
+player pages.
+
 ### `data/schedule.yaml`
 
 Hand-written upcoming matches for the calendar (`scadustats` never touches it): a list of `{date,

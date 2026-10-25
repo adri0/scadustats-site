@@ -1,0 +1,19 @@
+# Hand-curated: the country each player represented in Season 6, which was
+# played by country. Keys are player slugs (data/players/<slug>/, lowercase),
+# values ISO 3166-1 alpha-2 codes, named in data/country-names.yaml; each code
+# needs its flag in static/images/flags/<code>.svg (flag-icons, 4x3, MIT).
+# Read by _partials/lib/country.html: the Season 6 page and Season 6 matches
+# show a flag next to these players.
+blanxz: us
+nuclearpastatom: us
+ironyeu: fr
+kemist: fr
+romainjacques: fr
+parkenharbor: rs
+grey: rs
+twistiet: au
+raydans: au
+seriouschallenges: de
+gustaf: de
+lilaggy: ca
+vswed: ca

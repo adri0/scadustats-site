@@ -1,11 +1,12 @@
 {{- /* Input: a player-lookup dict, or a slot from lib/season-slots.html.
        Renders a link to each player in it, joined with " / ", and an info
        icon carrying the slot's note (e.g. why two players share it). A team
-       (lib/side-lookup.html) shows its name, then its players. */ -}}
+       (lib/side-lookup.html) shows its name, then its players. With a
+       season_id key in the input, each player gets that season's flag. */ -}}
 {{- if .team }}<span class="team-name">{{ .display_name }}</span> <span class="team-players">{{ end -}}
 {{- range $i, $p := .members | default (slice .) -}}
   {{- if $i }} / {{ end -}}
-  <a href="{{ printf "/players/%s/" $p.slug | relURL }}">{{ partial "avatar.html" (dict "player" $p) }}{{ $p.display_name }}</a>
+  <a href="{{ printf "/players/%s/" $p.slug | relURL }}">{{ partial "avatar.html" (dict "player" $p "season_id" $.season_id) }}{{ $p.display_name }}</a>
 {{- end -}}
 {{- if .team }}</span>{{ end -}}
 {{- with .note }}

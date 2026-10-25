@@ -14,23 +14,23 @@
     <div class="scoreboard-main">
       {{- if $p.player_red.team }}
       <div class="side side-red side-team">
-        <span{{ if eq $p.winner "red" }} class="is-winner"{{ end }}>{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
+        <span{{ if eq $p.winner "red" }} class="is-winner"{{ end }}>{{ partial "avatar.html" (dict "player" $p.player_red "season_id" $p.season_id) }}{{ $p.player_red.display_name }}</span>
         {{ partial "team-members.html" $p.player_red }}
       </div>
       {{- else }}
       <a class="side side-red{{ if eq $p.winner "red" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_red.slug | relURL }}">
-        {{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}
+        {{ partial "avatar.html" (dict "player" $p.player_red "season_id" $p.season_id) }}{{ $p.player_red.display_name }}
       </a>
       {{- end }}
       <div class="scoreboard-score spoiler">{{ $p.red_score }}<span class="score-sep">–</span>{{ $p.blue_score }}</div>
       {{- if $p.player_blue.team }}
       <div class="side side-blue side-team">
-        <span{{ if eq $p.winner "blue" }} class="is-winner"{{ end }}>{{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true) }}</span>
+        <span{{ if eq $p.winner "blue" }} class="is-winner"{{ end }}>{{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true "season_id" $p.season_id) }}</span>
         {{ partial "team-members.html" $p.player_blue }}
       </div>
       {{- else }}
       <a class="side side-blue{{ if eq $p.winner "blue" }} is-winner{{ end }}" href="{{ printf "/players/%s/" $p.player_blue.slug | relURL }}">
-        {{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true) }}
+        {{ $p.player_blue.display_name }}{{ partial "avatar.html" (dict "player" $p.player_blue "end" true "season_id" $p.season_id) }}
       </a>
       {{- end }}
     </div>

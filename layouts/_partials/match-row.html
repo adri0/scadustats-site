@@ -17,9 +17,9 @@
   <a href="{{ .RelPermalink }}">
     <span class="match-history-date">{{ $p.match_date }}<span class="pill pill-sm pill-outline">{{ with $season }}{{ .Title }}{{ else }}Season {{ $p.season_id }}{{ end }}</span></span>
     <span class="match-history-opponent">
-      <span class="{{ if eq $p.winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red) }}{{ $p.player_red.display_name }}</span>
+      <span class="{{ if eq $p.winner "red" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_red "season_id" $p.season_id) }}{{ $p.player_red.display_name }}</span>
       vs
-      <span class="{{ if eq $p.winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_blue) }}{{ $p.player_blue.display_name }}</span>
+      <span class="{{ if eq $p.winner "blue" }}is-winner{{ end }}">{{ partial "avatar.html" (dict "player" $p.player_blue "season_id" $p.season_id) }}{{ $p.player_blue.display_name }}</span>
     </span>
     <span class="match-history-score spoiler">{{ $p.red_score }}–{{ $p.blue_score }}</span>
   </a>

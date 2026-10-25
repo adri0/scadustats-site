@@ -1103,6 +1103,25 @@ th[aria-sort="descending"] .sort-button::after { content: " ↓"; opacity: 1; }
     margin-left: 0.4em;
 }
 
+/* The flag of the country a player represented that season (_partials/flag.html,
+   Season 6), between the avatar and the name; .flag-end after a right-aligned name. */
+.flag {
+    display: inline-block;
+    width: 1.2em;
+    height: 0.9em;
+    margin-right: 0.4em;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15);
+    object-fit: cover;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.flag-end {
+    margin-right: 0;
+    margin-left: 0.4em;
+}
+
 /* A 2v2 team's two avatars (avatar.html), the second tucked under the first's
    edge, with a ring in the page colour to separate them. */
 .avatar-pair {

@@ -1,0 +1,8 @@
+# Country names by ISO 3166-1 alpha-2 code, for the flags' alt text and
+# tooltips (_partials/lib/country.html). Only the codes in use.
+au: Australia
+ca: Canada
+de: Germany
+fr: France
+rs: Serbia
+us: United States
