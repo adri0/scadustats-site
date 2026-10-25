@@ -917,6 +917,11 @@
     "game_type": "base"
   },
   {
+    "id": "painting_rewards_2",
+    "text": "Collect 2 Painting rewards",
+    "game_type": "base"
+  },
+  {
     "id": "painting_rewards_3",
     "text": "Acquire 3 Painting Rewards",
     "game_type": "base",
