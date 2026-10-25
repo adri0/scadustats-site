@@ -1,0 +1,297 @@
+{
+  "match_id": "2023-09-24-Bushy-vs-Puppery",
+  "match_date": "2023-09-24",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Bushy",
+  "player_blue_name": "Puppery",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=ZSkE8HdXSlY",
+    "duration_s": 7821.883333333333,
+    "published_at": "2023-09-26",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 7433.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Take Rya's hand to Volcano Manor",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Restore Morgott's Great Rune",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill Agheel with a +0 Weapon Only"
+        ],
+        [
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Restore Godrick's Great Rune",
+          "10 Sacred Flask charges",
+          "Kill Crucible Knight Misbegotten Warrior duo",
+          "Dupe a Remembrance at a Mausoleum"
+        ],
+        [
+          "Kill Soldier of Godrick bare fist only",
+          "Kill a Black Blade Kindred",
+          "Complete an Altus Plateau Hero's Grave",
+          "Kill a Remembrance boss bow only",
+          "Use AoW Lightning Ram to kill 10 sheep"
+        ],
+        [
+          "Kill Godfrey (Gold Spirit)",
+          "Spirit Ash +4 summon",
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Restore Radahn's Great Rune",
+          "Kill a boss on Torrent the whole fight"
+        ],
+        [
+          "Kill Mohg, Lord of Blood",
+          "Kill 8 bosses in Limgrave",
+          "Kill 3 Night's Cavalry",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Acquire 3 Whetblades"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:11"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:43",
+          "video_timestamp": "00:14:54"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:19",
+          "video_timestamp": "00:17:30"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:54",
+          "video_timestamp": "00:19:05"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:16:07",
+          "video_timestamp": "00:19:18"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:57",
+          "video_timestamp": "00:22:08"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:17",
+          "video_timestamp": "00:30:28"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "10 Sacred Flask charges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:53",
+          "video_timestamp": "00:42:04"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:18",
+          "video_timestamp": "00:45:29"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:36",
+          "video_timestamp": "00:55:47"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Complete an Altus Plateau Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:40",
+          "video_timestamp": "01:02:51"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 5 bosses with 'tree' in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:02:34",
+          "video_timestamp": "01:05:45"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:55",
+          "video_timestamp": "01:13:06"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:50",
+          "video_timestamp": "01:15:01"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Soldier of Godrick bare fist only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:06",
+          "video_timestamp": "01:18:17"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 1 Deathbird and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:39",
+          "video_timestamp": "01:20:50"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:18:18",
+          "video_timestamp": "01:21:29"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:25:49",
+          "video_timestamp": "01:29:00"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:33:14",
+          "video_timestamp": "01:36:25"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 3 Whetblades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:37:36",
+          "video_timestamp": "01:40:47"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Crucible Knight Misbegotten Warrior duo",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:42:17",
+          "video_timestamp": "01:45:28"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:45:07",
+          "video_timestamp": "01:48:18"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:50:25",
+          "video_timestamp": "01:53:36"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Remembrance boss bow only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:52:52",
+          "video_timestamp": "01:56:03"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:02",
+          "video_timestamp": "02:03:13"
+        }
+      ]
+    }
+  ]
+}
