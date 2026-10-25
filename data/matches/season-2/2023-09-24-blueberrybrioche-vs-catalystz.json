@@ -1,0 +1,297 @@
+{
+  "match_id": "2023-09-24-blueberrybrioche-vs-catalystz",
+  "match_date": "2023-09-24",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "blueberrybrioche",
+  "player_blue_name": "catalystz",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=taIFLUnQQGE",
+    "duration_s": 7609.216666666666,
+    "published_at": "2023-09-25",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 7185.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Greyoll without Status Effects",
+          "Kill Rennala after she summons all 4 different spirits",
+          "Kill Fia's Champions",
+          "Kill Mohg, Lord of Blood",
+          "30 Int (no rebirth or buffs)"
+        ],
+        [
+          "Kill Godfrey (Gold Spirit)",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "Restore Radahn's Great Rune",
+          "Kill Lansseax",
+          "Kill 3 Dragon Heart Bosses"
+        ],
+        [
+          "Kill a Godskin Apostle",
+          "Kill 3 NPC invaders",
+          "Kill Margit with 4+ parries",
+          "Restore Godrick's Great Rune",
+          "Kill 2 Duelist Bosses"
+        ],
+        [
+          "Complete 2 catacomb dungeons",
+          "Acquire Margit's and Mohg's Shackles",
+          "Complete 2 tunnel or precipice dungeons",
+          "Give boc his needle back",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]"
+        ],
+        [
+          "Kill Commander O'Neil",
+          "Kill 3 Night's Cavalry",
+          "Kill a Remembrance Boss Hitless",
+          "Kill a Black Blade Kindred",
+          "Restore Rykard's Great Rune"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:09"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Margit with 4+ parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:28",
+          "video_timestamp": "00:09:37"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:46",
+          "video_timestamp": "00:15:55"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:32",
+          "video_timestamp": "00:20:41"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Commander O'Neil",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:35",
+          "video_timestamp": "00:24:44"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Give boc his needle back",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:14",
+          "video_timestamp": "00:26:23"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 3 NPC invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:51",
+          "video_timestamp": "00:33:00"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:33",
+          "video_timestamp": "00:33:42"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:23",
+          "video_timestamp": "00:42:32"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:57",
+          "video_timestamp": "00:47:06"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:11",
+          "video_timestamp": "01:05:20"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:08",
+          "video_timestamp": "01:12:17"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:01",
+          "video_timestamp": "01:16:10"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Rennala after she summons all 4 different spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:50",
+          "video_timestamp": "01:21:59"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:51",
+          "video_timestamp": "01:26:00"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "30 Int (no rebirth or buffs)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:20",
+          "video_timestamp": "01:27:29"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:27:37",
+          "video_timestamp": "01:30:46"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:53",
+          "video_timestamp": "01:31:02"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:31:16",
+          "video_timestamp": "01:34:25"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:35:42",
+          "video_timestamp": "01:38:51"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:35:42",
+          "video_timestamp": "01:38:51"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Lansseax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:40:19",
+          "video_timestamp": "01:43:28"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Restore Rykard's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:45:57",
+          "video_timestamp": "01:49:06"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:51:07",
+          "video_timestamp": "01:54:16"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:55:20",
+          "video_timestamp": "01:58:29"
+        }
+      ]
+    }
+  ]
+}
