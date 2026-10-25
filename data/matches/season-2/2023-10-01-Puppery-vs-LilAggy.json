@@ -1,0 +1,207 @@
+{
+  "match_id": "2023-10-01-Puppery-vs-LilAggy",
+  "match_date": "2023-10-01",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Puppery",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "YoJosherino",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=SNGiaOrAsOA",
+    "duration_s": 4692.8,
+    "published_at": "2023-10-02",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 4293.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_4",
+      "square_texts": [
+        [
+          "Restore Radahn's Great Rune",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Kill Valiant Gargoyles",
+          "Kill Agheel with a +0 Weapon Only",
+          "Acquire 4 different Remembrances"
+        ],
+        [
+          "10 Sacred Flask charges",
+          "Collect 2 Painting rewards",
+          "Acquire full Dectus Medallion",
+          "Kill Mohg (Sewers)",
+          "Learn 14 different incantations"
+        ],
+        [
+          "Complete 2 catacomb dungeons",
+          "Kill Morgott",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill 8 bosses in Limgrave"
+        ],
+        [
+          "Kill a Remembrance boss bow only",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "Kill a boss Consumables only",
+          "Kill Wormface",
+          "Acquire 10 Cracked Pots"
+        ],
+        [
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Complete an Altus Plateau Hero's Grave",
+          "Kill 3 Tibia Mariners",
+          "Kill 3 Erdtree Avatars",
+          "Kill Leonine Misbegotten"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:08"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Collect 2 Painting rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:29",
+          "video_timestamp": "00:11:37"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:20",
+          "video_timestamp": "00:12:28"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:59",
+          "video_timestamp": "00:15:07"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a boss Consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:00",
+          "video_timestamp": "00:18:08"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:36",
+          "video_timestamp": "00:26:44"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:19",
+          "video_timestamp": "00:32:27"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:30:49",
+          "video_timestamp": "00:33:57"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:15",
+          "video_timestamp": "00:38:23"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:46:19",
+          "video_timestamp": "00:49:27"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:34",
+          "video_timestamp": "00:59:42"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:56",
+          "video_timestamp": "01:00:04"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:31",
+          "video_timestamp": "01:02:39"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss bow only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:55",
+          "video_timestamp": "01:09:03"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:05:55",
+          "video_timestamp": "01:09:03"
+        }
+      ]
+    }
+  ]
+}
