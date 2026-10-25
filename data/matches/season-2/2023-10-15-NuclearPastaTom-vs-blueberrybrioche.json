@@ -1,0 +1,306 @@
+{
+  "match_id": "2023-10-15-NuclearPastaTom-vs-blueberrybrioche",
+  "match_date": "2023-10-15",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "NuclearPastaTom",
+  "player_blue_name": "blueberrybrioche",
+  "commentators": [
+    "parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=qXQzpEY26uI",
+    "duration_s": 8017.35,
+    "published_at": "2023-10-17",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 0,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 7332.0,
+      "game_type": "base",
+      "winner_color": null,
+      "win_type": "tie",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 5 Ritual Pots",
+          "Acquire 10 Physick Flask tears",
+          "Kill 8 bosses in Limgrave",
+          "Kill 2 Black Knife Assassins",
+          "Acquire Fingerslayer Blade"
+        ],
+        [
+          "Kill Commander O'Neil",
+          "Kill Radahn without summoning NPCs",
+          "Kill Loretta (Blue Spirit)",
+          "Dupe a Remembrance at a Mausoleum",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)"
+        ],
+        [
+          "Kill 5 bosses with 'tree' in their name",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill 5 Bosses that Ride a Horse",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Kill 2 Crystillian Bosses"
+        ],
+        [
+          "Acquire full Dectus Medallion",
+          "Rune Level 60",
+          "Kill a Godskin Apostle",
+          "Complete 4 Evergaols",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]"
+        ],
+        [
+          "Kill a Remembrance boss bow only",
+          "Learn 14 different incantations",
+          "Kill Elemer of the Briar",
+          "Kill a Remembrance boss incantations only",
+          "Restore Morgott's Great Rune"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:13"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:36",
+          "video_timestamp": "00:12:49"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Commander O'Neil",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:16",
+          "video_timestamp": "00:20:29"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:16",
+          "video_timestamp": "00:35:29"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:37",
+          "video_timestamp": "00:36:50"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 5 bosses with 'tree' in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:38:33",
+          "video_timestamp": "00:41:46"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 10 Physick Flask tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:40",
+          "video_timestamp": "00:44:53"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:44:44",
+          "video_timestamp": "00:47:57"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 2 Crystillian Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:14",
+          "video_timestamp": "00:51:27"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:46",
+          "video_timestamp": "00:56:59"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:55:30",
+          "video_timestamp": "00:58:43"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:18",
+          "video_timestamp": "01:03:31"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:29",
+          "video_timestamp": "01:07:42"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:58",
+          "video_timestamp": "01:11:11"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:07",
+          "video_timestamp": "01:12:20"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Elemer of the Briar",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:32",
+          "video_timestamp": "01:16:45"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:41",
+          "video_timestamp": "01:19:54"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Learn 14 different incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:24",
+          "video_timestamp": "01:21:37"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:46",
+          "video_timestamp": "01:24:59"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:27",
+          "video_timestamp": "01:30:40"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Fingerslayer Blade",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:39:26",
+          "video_timestamp": "01:42:39"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Rune Level 60",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:39:30",
+          "video_timestamp": "01:42:43"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:43:15",
+          "video_timestamp": "01:46:28"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Remembrance boss incantations only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:46:44",
+          "video_timestamp": "01:49:57"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss bow only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:51:48",
+          "video_timestamp": "01:55:01"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:57:04",
+          "video_timestamp": "02:00:17"
+        }
+      ]
+    }
+  ]
+}
