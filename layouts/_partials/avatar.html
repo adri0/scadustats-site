@@ -5,7 +5,9 @@
        follows the name (right-aligned names) and the margin flips. A 2v2 team
        (lib/side-lookup.html, with members) gets its two players' avatars,
        overlapping: base game player first. Purely decorative next to the
-       name, so it's hidden from screen readers. */ -}}
+       name, so it's hidden from screen readers. With season_id, the flag of
+       the country the player represented that season (flag.html) sits
+       between the avatar and the name. */ -}}
 {{- $p := .player -}}
 {{- $end := .end | default false -}}
 {{- with $p.members -}}
@@ -13,10 +15,13 @@
   {{- range . }}{{ partial "avatar.html" (dict "player" .) }}{{ end -}}
 </span>
 {{- else -}}
+{{- $flag := partial "flag.html" (dict "season_id" .season_id "player" $p "end" $end) -}}
+{{- if $end }}{{ $flag }}{{ end -}}
 {{- $class := cond $end "avatar avatar-end" "avatar" -}}
 {{- with $p.avatar -}}
 <img class="{{ $class }}" src="{{ . }}" alt="" width="20" height="20" loading="lazy" aria-hidden="true">
 {{- else -}}
 <span class="{{ $class }} avatar-initial" aria-hidden="true">{{ substr ($p.display_name | default "?") 0 1 | upper }}</span>
 {{- end -}}
+{{- if not $end }}{{ $flag }}{{ end -}}
 {{- end -}}

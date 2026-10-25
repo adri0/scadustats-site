@@ -113,7 +113,12 @@
         <g class="bracket-slot {{ $state }}" transform="translate(0 {{ $ry }})">
           <rect class="bracket-slot-bg" width="{{ $cardW }}" height="{{ $rowH }}" rx="3" />
           <rect class="bracket-slot-{{ $side }}" width="4" height="{{ $rowH }}" />
-          <text class="bracket-name" x="12" y="{{ sub $rowH 8 }}">{{ with $p }}{{ .display_name }}{{ else }}TBD{{ end }}</text>
+          {{- $nameX := 12 }}
+          {{- with $p }}{{ with partial "lib/country.html" (dict "season_id" $.season_id "slug" .slug) }}
+          <image class="bracket-flag" href="{{ .flag | relURL }}" x="12" y="{{ div (sub $rowH 12) 2 }}" width="16" height="12"><title>{{ .name }}</title></image>
+            {{- $nameX = 34 }}
+          {{- end }}{{ end }}
+          <text class="bracket-name" x="{{ $nameX }}" y="{{ sub $rowH 8 }}">{{ with $p }}{{ .display_name }}{{ else }}TBD{{ end }}</text>
           <text class="bracket-score bracket-score-{{ $side }}" x="{{ sub $cardW 10 }}" y="{{ sub $rowH 8 }}" text-anchor="end">{{ $score }}</text>
           {{- if eq $state "is-loser" }}
           <line class="bracket-strike" x1="8" y1="{{ sub $rowH 4 }}" x2="{{ sub $cardW 30 }}" y2="4" />

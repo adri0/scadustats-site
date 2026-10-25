@@ -18,9 +18,9 @@
   {{- if $label -}}
     {{ $label }}
   {{- else -}}
-    {{- if $full }}{{ partial "avatar.html" (dict "player" $e.red) }}{{ end }}{{ $e.red.display_name }}
+    {{- if $full }}{{ partial "avatar.html" (dict "player" $e.red "season_id" $e.season_id) }}{{ end }}{{ $e.red.display_name }}
     <span class="calendar-vs">vs</span>
-    {{ if $full }}{{ partial "avatar.html" (dict "player" $e.blue) }}{{ end }}{{ $e.blue.display_name -}}
+    {{ if $full }}{{ partial "avatar.html" (dict "player" $e.blue "season_id" $e.season_id) }}{{ end }}{{ $e.blue.display_name -}}
   {{- end -}}
   {{- with $e.url }}</a>{{ else }}</span>{{ end -}}
   {{- if eq $e.kind "scheduled" -}}

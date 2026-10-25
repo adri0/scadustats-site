@@ -36,7 +36,7 @@
           {{- $q := index $cfg.qualify $i | default "out" }}
           <tr class="rr-{{ $q }}">
             <td class="rank">{{ add $i 1 }}</td>
-            <td>{{ partial "player-links.html" $row.player }}</td>
+            <td>{{ partial "player-links.html" (merge $row.player (dict "season_id" $.season_id)) }}</td>
             {{- range $j, $opp := $rows }}
               {{- $m := index $results (printf "%s|%s" $row.player.slug $opp.player.slug) }}
               {{- if eq $i $j }}
