@@ -1,0 +1,225 @@
+{
+  "match_id": "2023-09-17-Zoodle-vs-Bushy",
+  "match_date": "2023-09-17",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Zoodle",
+  "player_blue_name": "Bushy",
+  "commentators": [
+    "parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=4ik7Xwyuzvs",
+    "duration_s": 7087.95,
+    "published_at": "2023-09-22",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 6316.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_1",
+      "square_texts": [
+        [
+          "Restore Morgott's Great Rune",
+          "Kill Godfrey (Gold Spirit)",
+          "Acquire Fingerslayer Blade",
+          "Kill Limgrave Tree Sentinel with a +0 weapon only",
+          "Smithing-stone +12 weapon"
+        ],
+        [
+          "Kill Royal Revenant (Kingsrealm Ruins)",
+          "Acquire 3 Whetblades",
+          "Invade and defeat Magnus the Beast Claw",
+          "Kill an Ancestor Spirit",
+          "Complete 2 catacomb dungeons"
+        ],
+        [
+          "Kill a Dragonkin Soldier",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Acquire 3 Imbued Sword Keys",
+          "Take Rya's hand to Volcano Manor",
+          "Kill a Black Blade Kindred"
+        ],
+        [
+          "Kill 3 Watchdogs",
+          "Acquire 10 Cracked Pots",
+          "Kill 2 Cemetery Shades",
+          "Kill Loretta (Blue Spirit)",
+          "Complete 4 Evergaols"
+        ],
+        [
+          "Kill Crucible Knight Misbegotten Warrior duo",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill Elemer of the Briar",
+          "Kill a Remembrance boss incantations only",
+          "10 Sacred Flask charges"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:02:28"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:10:08",
+          "video_timestamp": "00:12:36"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill Royal Revenant (Kingsrealm Ruins)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:34",
+          "video_timestamp": "00:26:02"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:27:27",
+          "video_timestamp": "00:29:55"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:34",
+          "video_timestamp": "00:37:02"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:28",
+          "video_timestamp": "00:43:56"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Smithing-stone +12 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:21",
+          "video_timestamp": "00:52:49"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:33",
+          "video_timestamp": "00:59:01"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 3 Whetblades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:38",
+          "video_timestamp": "01:04:06"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:55",
+          "video_timestamp": "01:07:23"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:06",
+          "video_timestamp": "01:11:34"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Dragonkin Soldier",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:17",
+          "video_timestamp": "01:14:45"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:30",
+          "video_timestamp": "01:19:58"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Fingerslayer Blade",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:31",
+          "video_timestamp": "01:25:59"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:32:35",
+          "video_timestamp": "01:35:03"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Restore Morgott's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:42:04",
+          "video_timestamp": "01:44:32"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:42:04",
+          "video_timestamp": "01:44:32"
+        }
+      ]
+    }
+  ]
+}
