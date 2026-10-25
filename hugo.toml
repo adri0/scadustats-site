@@ -68,3 +68,8 @@ title = "Scadustats"
   name = "About"
   pageRef = "/about"
   weight = 30
+
+[[menus.footer]]
+  name = "Discord"
+  url = "https://discord.gg/eYtbyN4fbp"
+  weight = 40

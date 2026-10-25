@@ -46,3 +46,5 @@ Results are hidden by default. Turn off no-spoilers mode to see scores, standing
 ## Open source
 
 This site is open source. Its code and all the match data behind it live on [GitHub](https://github.com/adri0/scadustats-site): spotted a mistranscribed square or a wrong result? Open an issue or a pull request. The VODs are transcribed with [scadustats](https://github.com/adri0/scadustats), a separate command-line tool.
+
+To help out, or just to talk about the site and scadustats, join the [scadustats Discord server](https://discord.gg/eYtbyN4fbp).
