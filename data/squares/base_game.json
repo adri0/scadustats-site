@@ -238,7 +238,10 @@
   {
     "id": "crucible_knight_misbegotten_duo",
     "text": "Kill Crucible Knight and Misbegotten Warrior Duo",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Crucible Knight Misbegotten Warrior duo"
+    ]
   },
   {
     "id": "crucible_knights_2",
