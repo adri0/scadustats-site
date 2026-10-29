@@ -1,0 +1,180 @@
+{
+  "match_id": "2023-10-07-Bushy-vs-itzCBD",
+  "match_date": "2023-10-07",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Bushy",
+  "player_blue_name": "itzCBD",
+  "commentators": [
+    "star0chris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=gNFmP33oV9o",
+    "duration_s": 4325.6713500000005,
+    "published_at": "2023-10-08",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.007000000000001,
+      "end_video_ts_s": 3827.006516666667,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill 3 Crucible Knights",
+          "Kill Agheel with a +0 Weapon Only",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]"
+        ],
+        [
+          "Kill 3 Duo/Trio Bosses",
+          "Kill a boss Consumables only",
+          "Sacred Flask +7",
+          "Acquire Fingerslayer Blade",
+          "Invade and defeat Magnus the Beast Claw"
+        ],
+        [
+          "Kill Mohg, Lord of Blood",
+          "Kill 5 Bosses that Ride a Horse",
+          "Smithing-stone +12 weapon",
+          "10 Sacred Flask charges",
+          "Kill Morgott"
+        ],
+        [
+          "Kill a Fallingstar Beast",
+          "Kill Mohg (Sewers)",
+          "Kill Crucible Knight Misbegotten Warrior duo",
+          "Kill 3 Erdtree Avatars",
+          "Kill 2 Duelist Bosses"
+        ],
+        [
+          "Acquire 3 Whetblades",
+          "Collect 2 Painting rewards",
+          "Kill 3 Bell Bearing Hunters",
+          "Learn 14 different incantations",
+          "Spirit Ash +4 summon"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:04"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a boss Consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:51",
+          "video_timestamp": "00:06:55.015"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:09:26",
+          "video_timestamp": "00:12:30.016"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Collect 2 Painting rewards",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:13",
+          "video_timestamp": "00:14:17.006"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:48",
+          "video_timestamp": "00:16:52.011"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:55",
+          "video_timestamp": "00:28:59.004"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire 3 Whetblades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:19",
+          "video_timestamp": "00:40:23.004"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Crucible Knight Misbegotten Warrior duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:13",
+          "video_timestamp": "00:50:17.014"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:29",
+          "video_timestamp": "00:51:33.007"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:31",
+          "video_timestamp": "00:54:35.005"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Smithing-stone +12 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:51",
+          "video_timestamp": "01:02:55.005"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:59:51",
+          "video_timestamp": "01:02:55.005"
+        }
+      ]
+    }
+  ]
+}
