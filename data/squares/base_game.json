@@ -251,13 +251,28 @@
     "game_type": "base"
   },
   {
+    "id": "crystalian_bosses_2",
+    "text": "Kill 2 Crystillian Bosses",
+    "game_type": "base"
+  },
+  {
     "id": "darriwil",
     "text": "Kill Darriwil while Summoning Blaidd",
     "game_type": "base"
   },
   {
+    "id": "deathbird_1_deathrite_1",
+    "text": "Kill 1 Deathbird and 1 Death Rite Bird",
+    "game_type": "base"
+  },
+  {
     "id": "deathbirds_2_deathrite_1",
     "text": "Kill 2 Deathbirds and 1 Death Rite Bird",
+    "game_type": "base"
+  },
+  {
+    "id": "dectus_medallion",
+    "text": "Acquire full Dectus Medallion",
     "game_type": "base"
   },
   {
@@ -849,6 +864,11 @@
     "game_type": "base"
   },
   {
+    "id": "npc_invaders_3",
+    "text": "Kill 3 NPC invaders",
+    "game_type": "base"
+  },
+  {
     "id": "npc_invaders_4",
     "text": "Kill 4 NPC Invaders",
     "game_type": "base"
@@ -955,6 +975,11 @@
   {
     "id": "ritual_pots_5",
     "text": "Acquire 5 Ritual Pots",
+    "game_type": "base"
+  },
+  {
+    "id": "royal_revenant",
+    "text": "Kill Royal Revenant (Kingsrealm Ruins)",
     "game_type": "base"
   },
   {
@@ -1132,6 +1157,11 @@
     "aliases": [
       "Kill 4 Tibia Mariners"
     ]
+  },
+  {
+    "id": "torrent_boss",
+    "text": "Kill a boss on Torrent the whole fight",
+    "game_type": "base"
   },
   {
     "id": "tree_bosses_5",
