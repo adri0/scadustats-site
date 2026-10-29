@@ -1,0 +1,324 @@
+{
+  "match_id": "2023-10-07-blueberrybrioche-vs-Bushy",
+  "match_date": "2023-10-07",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "blueberrybrioche",
+  "player_blue_name": "Bushy",
+  "commentators": [
+    "star0chris",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=4liiVWPgna0",
+    "duration_s": 7993.633333333333,
+    "published_at": "2023-10-08",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 0,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 7485.0,
+      "game_type": "base",
+      "winner_color": null,
+      "win_type": "tie",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Leonine Misbegotten",
+          "Kill 2 Cemetery Shades",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill a Magma Wyrm boss",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)"
+        ],
+        [
+          "Kill 3 Tree spirits",
+          "Kill Lansseax",
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Kill an Omenkiller boss",
+          "Kill Agheel with a +0 Weapon Only"
+        ],
+        [
+          "Kill an Ancestor Spirit",
+          "Memory of Grace with 50k+ Runes",
+          "Kill 8 bosses in Limgrave",
+          "Smithing-stone +12 weapon",
+          "Kill Wormface"
+        ],
+        [
+          "Kill Soldier of Godrick bare fist only",
+          "Dupe a Remembrance at a Mausoleum",
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill 3 Tibia Mariners",
+          "Kill Fia's Champions"
+        ],
+        [
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Complete an Altus Plateau Hero's Grave",
+          "Kill 3 Duo/Trio Bosses",
+          "Finish off a Boss with the Explosive Physick",
+          "Kill a Remembrance boss bow only"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:04"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Agheel with a +0 Weapon Only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:10",
+          "video_timestamp": "00:09:14"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:13:15",
+          "video_timestamp": "00:16:19"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:17",
+          "video_timestamp": "00:31:21"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:47",
+          "video_timestamp": "00:36:51"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:58",
+          "video_timestamp": "00:40:02"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:41",
+          "video_timestamp": "00:41:45"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:15",
+          "video_timestamp": "00:47:19"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:45:50",
+          "video_timestamp": "00:48:54"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 5 bosses with 'tree' in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:49:15",
+          "video_timestamp": "00:52:19"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:04",
+          "video_timestamp": "00:57:08"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 2 Cemetery Shades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:57:45",
+          "video_timestamp": "01:00:49"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:12",
+          "video_timestamp": "01:01:16"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:36",
+          "video_timestamp": "01:02:40"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "red",
+          "event_type": "unmark",
+          "game_timer": "01:00:11",
+          "video_timestamp": "01:03:15"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Soldier of Godrick bare fist only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:03",
+          "video_timestamp": "01:07:07"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Smithing-stone +12 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:51",
+          "video_timestamp": "01:07:55"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:30",
+          "video_timestamp": "01:12:34"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete an Altus Plateau Hero's Grave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:30",
+          "video_timestamp": "01:22:34"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:31:52",
+          "video_timestamp": "01:34:56"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:33:25",
+          "video_timestamp": "01:36:29"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Lansseax",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:41:04",
+          "video_timestamp": "01:44:08"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Tree spirits",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:49:15",
+          "video_timestamp": "01:52:19"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:52:26",
+          "video_timestamp": "01:55:30"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:54:29",
+          "video_timestamp": "01:57:33"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss bow only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:56:48",
+          "video_timestamp": "01:59:52"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:58:54",
+          "video_timestamp": "02:01:58"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:00",
+          "video_timestamp": "02:03:05"
+        }
+      ]
+    }
+  ]
+}
