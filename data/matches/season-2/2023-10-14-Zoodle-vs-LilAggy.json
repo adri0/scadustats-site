@@ -1,0 +1,315 @@
+{
+  "match_id": "2023-10-14-Zoodle-vs-LilAggy",
+  "match_date": "2023-10-14",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Zoodle",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=zE4RHngrVTI",
+    "duration_s": 7449.133333333333,
+    "published_at": "2023-10-15",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 6858.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill a Red Wolf Boss",
+          "Complete 4 Evergaols",
+          "Kill Wormface",
+          "Learn 14 different incantations"
+        ],
+        [
+          "Somber +9 weapon",
+          "Kill 8 bosses in Limgrave",
+          "Kill a boss Spirit Ashes only",
+          "Kill Morgott",
+          "Acquire Margit's and Mohg's Shackles"
+        ],
+        [
+          "Take Rya's hand to Volcano Manor",
+          "Rune Level 60",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Kill 3 Duo/Trio Bosses",
+          "Restore Morgott's Great Rune"
+        ],
+        [
+          "Acquire 3 Imbued Sword Keys",
+          "Kill 3 NPC invaders",
+          "Finish off a Boss with the Explosive Physick",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)"
+        ],
+        [
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Kill a Godskin Apostle",
+          "Acquire full Dectus Medallion",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill a Remembrance boss sorcery only"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:08"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:09:43",
+          "video_timestamp": "00:12:51"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:00",
+          "video_timestamp": "00:26:08"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:56",
+          "video_timestamp": "00:30:04"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:04",
+          "video_timestamp": "00:31:12"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:53",
+          "video_timestamp": "00:36:01"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:59",
+          "video_timestamp": "00:41:07"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:07",
+          "video_timestamp": "00:42:15"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:49",
+          "video_timestamp": "00:47:57"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:23",
+          "video_timestamp": "00:49:31"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:47:33",
+          "video_timestamp": "00:50:41"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:37",
+          "video_timestamp": "00:51:45"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:56",
+          "video_timestamp": "00:57:04"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:19",
+          "video_timestamp": "01:02:27"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:24",
+          "video_timestamp": "01:04:32"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Learn 14 different incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:45",
+          "video_timestamp": "01:11:53"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Somber +9 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:42",
+          "video_timestamp": "01:15:50"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 NPC invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:26:04",
+          "video_timestamp": "01:29:12"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:27",
+          "video_timestamp": "01:32:35"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Rune Level 60",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:30:24",
+          "video_timestamp": "01:33:32"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Morgott",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:31:54",
+          "video_timestamp": "01:35:02"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:35:34",
+          "video_timestamp": "01:38:42"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 5 bosses with 'tree' in their name",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:35:49",
+          "video_timestamp": "01:38:57"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:38:44",
+          "video_timestamp": "01:41:52"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Restore Morgott's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:44:12",
+          "video_timestamp": "01:47:20"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:50:02",
+          "video_timestamp": "01:53:10"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:50:02",
+          "video_timestamp": "01:53:10"
+        }
+      ]
+    }
+  ]
+}
