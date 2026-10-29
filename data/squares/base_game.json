@@ -1292,7 +1292,10 @@
   {
     "id": "whetstone_3",
     "text": "Acquire 3 Whetstone Knives",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Acquire 3 Whetblades"
+    ]
   },
   {
     "id": "whetstone_4",
