@@ -1,0 +1,261 @@
+{
+  "match_id": "2023-09-17-Puppery-vs-itzCBD",
+  "match_date": "2023-09-17",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "Puppery",
+  "player_blue_name": "itzCBD",
+  "commentators": [
+    "parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=kGNDX2BJVTg",
+    "duration_s": 6326.066666666667,
+    "published_at": "2023-09-21",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 5853.0,
+      "game_type": "base",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Memory of Grace with 50k+ Runes",
+          "Kill Margit with 4+ parries",
+          "Complete 4 Evergaols",
+          "Kill a boss Spirit Ashes only",
+          "Kill a boss on Torrent the whole fight"
+        ],
+        [
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Kill Godfrey (Gold Spirit)",
+          "Kill Crucible Knight Misbegotten Warrior duo",
+          "Kill 3 Dragon Heart Bosses",
+          "Kill Mohg (Sewers)"
+        ],
+        [
+          "Return Thop's academy key",
+          "Complete 2 catacomb dungeons",
+          "Kill 2 Crystillian Bosses",
+          "Kill a Remembrance boss sorcery only",
+          "10 Sacred Flask charges"
+        ],
+        [
+          "Learn 12 different sorceries",
+          "Give boc his needle back",
+          "Kill 6 bosses in Liurnia",
+          "Kill Valiant Gargoyles",
+          "Kill Fia's Champions"
+        ],
+        [
+          "Spirit Ash +4 summon",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill 2 Duelist Bosses",
+          "Acquire full Dectus Medallion",
+          "Kill Tree Sentinel Duo"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:03:12"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:58",
+          "video_timestamp": "00:08:10"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:34",
+          "video_timestamp": "00:14:46"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Give boc his needle back",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:10",
+          "video_timestamp": "00:19:22"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Margit with 4+ parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:16",
+          "video_timestamp": "00:20:28"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:33",
+          "video_timestamp": "00:24:45"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 2 Crystillian Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:36",
+          "video_timestamp": "00:36:48"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:18",
+          "video_timestamp": "00:44:30"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:42:35",
+          "video_timestamp": "00:45:47"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:38",
+          "video_timestamp": "00:53:50"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Learn 12 different sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:05",
+          "video_timestamp": "00:57:17"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:39",
+          "video_timestamp": "00:57:51"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 1 Deathbird and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:04",
+          "video_timestamp": "01:11:16"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 6 bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:04",
+          "video_timestamp": "01:11:16"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "10 Sacred Flask charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:15:37",
+          "video_timestamp": "01:18:49"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:03",
+          "video_timestamp": "01:20:15"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Complete 4 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:21:52",
+          "video_timestamp": "01:25:04"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:26:42",
+          "video_timestamp": "01:29:54"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:28:55",
+          "video_timestamp": "01:32:07"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:33:20",
+          "video_timestamp": "01:36:32"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:33:20",
+          "video_timestamp": "01:36:32"
+        }
+      ]
+    }
+  ]
+}
