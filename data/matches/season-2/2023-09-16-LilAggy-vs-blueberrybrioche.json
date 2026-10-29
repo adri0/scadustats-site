@@ -1,0 +1,198 @@
+{
+  "match_id": "2023-09-16-LilAggy-vs-blueberrybrioche",
+  "match_date": "2023-09-16",
+  "season": "2",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "blueberrybrioche",
+  "commentators": [
+    "parkenharbor",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=V6a6Z3481Yo",
+    "duration_s": 6167.916666666667,
+    "published_at": "2023-09-20",
+    "extracted_at": "2026-10-25"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 5419.0,
+      "game_type": "base",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "diagonal_bl_tr",
+      "square_texts": [
+        [
+          "Restore Radahn's Great Rune",
+          "Kill 3 Crucible Knights",
+          "Acquire full Dectus Medallion",
+          "Kill Valiant Gargoyles",
+          "Kill Royal Revenant (Kingsrealm Ruins)"
+        ],
+        [
+          "Acquire 10 Physick Flask tears",
+          "Kill a Dragonkin Soldier",
+          "Kill 3 NPC invaders",
+          "Acquire Fingerslayer Blade",
+          "Kill 5 bosses with 'tree' in their name"
+        ],
+        [
+          "Kill a Remembrance Boss Hitless",
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Acquire Margit's and Mohg's Shackles",
+          "Kill a Magma Wyrm boss",
+          "Kill Godrick while Summoning Nepheli Loux"
+        ],
+        [
+          "Kill 3 Bell Bearing Hunters",
+          "Acquire Both Scarseal Talismans",
+          "Restore Rykard's Great Rune",
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Kill Elemer of the Briar"
+        ],
+        [
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Collect 5 unique Seals",
+          "Kill 6 bosses in Altus Plateau (including Volcano Manor)",
+          "Kill Commander O'Neil",
+          "Complete 2 tunnel or precipice dungeons"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:04:01"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:15",
+          "video_timestamp": "00:12:16"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:02",
+          "video_timestamp": "00:14:03"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:09",
+          "video_timestamp": "00:25:10"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:10",
+          "video_timestamp": "00:25:11"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:24",
+          "video_timestamp": "00:34:25"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:11",
+          "video_timestamp": "00:37:12"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Royal Revenant (Kingsrealm Ruins)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:58",
+          "video_timestamp": "00:39:59"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:39:11",
+          "video_timestamp": "00:43:12"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:49",
+          "video_timestamp": "01:04:50"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:17",
+          "video_timestamp": "01:06:18"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:32",
+          "video_timestamp": "01:19:33"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire Fingerslayer Blade",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:22",
+          "video_timestamp": "01:28:23"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:22",
+          "video_timestamp": "01:28:23"
+        }
+      ]
+    }
+  ]
+}
