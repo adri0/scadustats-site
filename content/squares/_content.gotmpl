@@ -46,6 +46,22 @@
       {{- end -}}
       {{- $claims = $claims | append $claim -}}
     {{- end -}}
+    {{- /* The square's figures per season, newest season first (the order of
+           its matches). Empty with a scadustats too old to write them. */ -}}
+    {{- $seasons := slice -}}
+    {{- $order := slice -}}
+    {{- range $seen }}{{ if not (in $order .season_id) }}{{ $order = $order | append .season_id }}{{ end }}{{ end -}}
+    {{- range $sid := $order -}}
+      {{- with index ($s.seasons | default dict) $sid -}}
+        {{- $seasons = $seasons | append (dict
+            "id" $sid
+            "name" (partial "lib/season-lookup.html" $sid).name
+            "num_matches" .num_matches
+            "num_games" .num_games
+            "games_marked" .games_marked
+            "mark_rate" .mark_rate) -}}
+      {{- end -}}
+    {{- end -}}
     {{- $path := partial "lib/square-path.html" (dict "id" $s.id "game_type" $gameType) -}}
     {{- $.AddPage (dict
         "path" (strings.TrimSuffix "/" (strings.TrimPrefix "/squares/" $path))
@@ -63,6 +79,7 @@
           "mark_times_s" ($s.mark_times_s | default slice)
           "claims" $claims
           "top_players" $players
+          "seasons" $seasons
           "matches" $seen)) -}}
   {{- end -}}
 {{- end -}}

@@ -7,7 +7,12 @@
  *   when no row is left. `data-noun`: what the count counts ("matches").
  * - Each named <select> or <input> filters rows on the row's `data-<name>`:
  *   a select by exact value ("" = all), an input by case-insensitive
- *   substring.
+ *   substring. A select with `data-match="word"` matches any one of the
+ *   space-separated values in the row's attribute instead.
+ * - A select with `data-swap` also swaps a row's figures for the chosen
+ *   value's: the row's `data-swap` is JSON, {value: {key: [sort value,
+ *   text]}}, and each key replaces the row's `data-<key>` and the text of
+ *   its `[data-swap-cell="<key>"]` cell. "" puts the server's figures back.
  * - The <select name="sort"> sorts instead. Its options say how with
  *   `data-key` (the row attribute), `data-dir` ("asc" or "desc") and
  *   `data-type` ("number" or text). An option without `data-key` is the
@@ -27,6 +32,27 @@ function sortRows(rows, option) {
         : value(a).localeCompare(value(b), undefined, { sensitivity: 'base' })));
 }
 
+// The figures a swap select can replace, as the server rendered them.
+const originals = new WeakMap();
+
+function swapFigures(row, value) {
+    if (!row.dataset.swap) return;
+    const cells = [...row.querySelectorAll('[data-swap-cell]')];
+    if (!originals.has(row)) {
+        originals.set(row, Object.fromEntries(cells.map((cell) => {
+            const key = cell.dataset.swapCell;
+            return [key, [row.dataset[key], cell.textContent]];
+        })));
+    }
+    const figures = (value && JSON.parse(row.dataset.swap)[value]) || originals.get(row);
+    for (const cell of cells) {
+        const key = cell.dataset.swapCell;
+        const [sortValue, text] = figures[key] ?? originals.get(row)[key];
+        row.dataset[key] = sortValue;
+        cell.textContent = text;
+    }
+}
+
 function initForm(form) {
     const list = document.querySelector(form.dataset.list);
     if (!list) return;
@@ -39,6 +65,7 @@ function initForm(form) {
     const fields = [...form.elements].filter((f) => f.name);
     const filters = fields.filter((f) => f.name !== 'sort');
     const sort = form.elements.sort;
+    const swap = filters.find((f) => 'swap' in f.dataset);
 
     const params = new URLSearchParams(window.location.search);
     for (const field of fields) {
@@ -52,11 +79,13 @@ function initForm(form) {
     function update() {
         let shown = 0;
         for (const row of rows) {
+            if (swap) swapFigures(row, swap.value);
             const match = filters.every((field) => {
                 const wanted = field.value.trim().toLowerCase();
                 if (!wanted) return true;
                 const have = (row.dataset[field.name] ?? '').toLowerCase();
-                return field.tagName === 'SELECT' ? have === wanted : have.includes(wanted);
+                if (field.tagName !== 'SELECT') return have.includes(wanted);
+                return field.dataset.match === 'word' ? have.split(' ').includes(wanted) : have === wanted;
             });
             row.hidden = !match;
             if (match) shown++;

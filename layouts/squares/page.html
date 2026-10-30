@@ -30,6 +30,25 @@
   </div>
 </div>
 
+{{- with $p.seasons }}
+<h2>By season</h2>
+<div class="table-wrap">
+  <table class="stats-table">
+    <thead><tr><th>Season</th><th>On boards</th><th>Claimed</th><th>Claim rate</th></tr></thead>
+    <tbody>
+    {{- range . }}
+      <tr>
+        <td><a href="{{ printf "/seasons/%s/" .id | relURL }}">{{ .name }}</a></td>
+        <td>{{ .num_games }}</td>
+        <td>{{ .games_marked }}</td>
+        <td>{{ printf "%.0f%%" (mul 100.0 (float .mark_rate)) }}</td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+</div>
+{{- end }}
+
 {{- with $p.claims }}
 <h2>When it gets claimed</h2>
 {{ partial "mark-time-chart.html" (dict "claims" . "median" $p.median_mark_time_s) }}

@@ -6,6 +6,14 @@
 {{- range $stats }}{{ $seen = $seen | append . }}{{ end }}
 {{- $known := where $seen "known" true }}
 {{- $unknown := where $seen "known" false }}
+{{- /* The seasons any square was dealt in, newest first like the Seasons
+       page. None when scadustats is too old to write per-season stats. */}}
+{{- $dealt := slice }}
+{{- range $seen }}{{ range $sid, $_ := .seasons }}{{ $dealt = $dealt | append $sid }}{{ end }}{{ end }}
+{{- $seasons := slice }}
+{{- range sort (sort (where site.RegularPages "Section" "seasons") ".Params.start_date" "desc") ".Params.end_date" "desc" }}
+  {{- if in $dealt (string .Params.id) }}{{ $seasons = $seasons | append .Params }}{{ end }}
+{{- end }}
 
 {{ partial "breadcrumb.html" . }}
 <h1>{{ .Title }}</h1>
@@ -22,7 +30,8 @@
 {{- end }}
 
 {{- /* Hidden until assets/js/modules/list-filter.js wires it up. The rows
-       come most claimed first, the first sort option. */}}
+       come most claimed first; the first sort option sorts by the row's
+       claims again, so a season's figures (the Season filter) reorder them. */}}
 <form class="filter-bar" data-list-filter data-list="#square-list" data-empty="#square-list-empty" data-noun="squares" hidden>
   <label class="filter-field">
     <span>Type</span>
@@ -35,6 +44,18 @@
       {{- end }}
     </select>
   </label>
+  {{- with $seasons }}
+  <label class="filter-field">
+    <span>Season</span>
+    {{- /* Swaps each row's figures for that season's (see square-table.html). */}}
+    <select name="season" data-match="word" data-swap>
+      <option value="">All seasons</option>
+      {{- range . }}
+      <option value="{{ .id }}">{{ .name }}</option>
+      {{- end }}
+    </select>
+  </label>
+  {{- end }}
   <label class="filter-field filter-field-grow">
     <span>Square text</span>
     <input type="search" name="text" placeholder="Any square text" autocomplete="off">
@@ -42,7 +63,7 @@
   <label class="filter-field">
     <span>Sort</span>
     <select name="sort">
-      <option value="claimed">Most claimed</option>
+      <option value="claimed" data-key="marks" data-dir="desc" data-type="number">Most claimed</option>
       <option value="boards" data-key="boards" data-dir="desc" data-type="number">Most on boards</option>
       <option value="rate" data-key="rate" data-dir="desc" data-type="number">Highest claim rate</option>
       <option value="rate-low" data-key="rate" data-dir="asc" data-type="number">Lowest claim rate</option>
