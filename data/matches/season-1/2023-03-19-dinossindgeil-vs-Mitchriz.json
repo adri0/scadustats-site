@@ -1,0 +1,272 @@
+{
+  "match_id": "2023-03-19-dinossindgeil-vs-Mitchriz",
+  "match_date": "2023-03-19",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "dinossindgeil",
+  "player_blue_name": "Mitchriz",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=etEeFEko65g",
+    "duration_s": 6479.916666666667,
+    "published_at": "2023-03-20",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 10.0,
+      "end_video_ts_s": 6479.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "green",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Night's Cavalry",
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill 3 Tibia Mariners",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill a Godskin Apostle"
+        ],
+        [
+          "Kill Rykard and discard Serpent Hunter +0",
+          "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+          "Kill a Remembrance boss colossal weapons only",
+          "Kill Agheel with a +0 weapon",
+          "Acquire 10 Cracked Pots"
+        ],
+        [
+          "Kill an Omenkiller boss",
+          "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "Finish off a Boss with the Explosive Physick",
+          "Kill 3 Erdtree Avatars",
+          "Acquire 10 Physick Flask tears"
+        ],
+        [
+          "Kill 2 Duelist Bosses",
+          "Kill 2 Black Knife Assassins",
+          "Kill Soldier of Godrick bare fist only",
+          "Sell Bloodhound's Fang +0",
+          "Acquire Both Scarseal Talismans"
+        ],
+        [
+          "Kill Putrid Crystalian trio",
+          "Kill 5 bosses in Caelid",
+          "Kill a Remembrance boss bow only",
+          "Kill Wormface",
+          "Complete 2 tunnel or precipice dungeons"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:10"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:03:46",
+          "video_timestamp": "00:03:56"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Agheel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:57",
+          "video_timestamp": "00:08:07"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Sell Bloodhound's Fang +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:10",
+          "video_timestamp": "00:17:20"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:05",
+          "video_timestamp": "00:22:15"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:09",
+          "video_timestamp": "00:28:19"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:56",
+          "video_timestamp": "00:42:06"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Acquire 10 Physick Flask tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:03",
+          "video_timestamp": "00:42:13"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:38",
+          "video_timestamp": "00:42:48"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:57",
+          "video_timestamp": "00:51:07"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:17",
+          "video_timestamp": "01:03:27"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:59",
+          "video_timestamp": "01:05:09"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Soldier of Godrick bare fist only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:44",
+          "video_timestamp": "01:09:54"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:18:23",
+          "video_timestamp": "01:18:33"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:19:31",
+          "video_timestamp": "01:19:41"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:08",
+          "video_timestamp": "01:23:18"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Putrid Crystalian trio",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:49",
+          "video_timestamp": "01:29:59"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 5 bosses in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:50",
+          "video_timestamp": "01:30:00"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:32:59",
+          "video_timestamp": "01:33:09"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Wormface",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:33:33",
+          "video_timestamp": "01:33:43"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:36:19",
+          "video_timestamp": "01:36:29"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:36:19",
+          "video_timestamp": "01:36:29"
+        }
+      ]
+    }
+  ]
+}
