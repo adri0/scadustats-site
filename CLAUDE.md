@@ -55,6 +55,11 @@ Each entry in `games` is a 5x5 board:
 - `game_index`, `start_video_ts_s`, `end_video_ts_s`, `game_type` (`base` or `dlc`)
 - `winner_color`, `win_type` (`line`, `majority`, or `none` if undecided/unfinished), `win_line`
   (e.g. `"row_2"`, only set when `win_type` is `line`)
+- `red_color`, `blue_color` (Season 1 only): the colour each side actually claimed in (`red`,
+  `orange`, `green`, `blue`, `purple`). Season 1's players claimed in their own bingosync colours;
+  the sides are still red (left) and blue (right). The match page draws such a game, and the
+  scoreboard (from game 1), in them through the `claims-red-<colour>`/`claims-blue-<colour>`
+  classes in `_scadu.scss`, which re-point `--red`/`--blue`.
 - `square_texts`: a 5x5 array of arrays — the bingo goal text for each cell, indexed `[row][col]`
   with 1-based `row`/`col` used elsewhere to reference cells
 - `events`: a chronological list of everything that happened in the game. Each event has
@@ -246,7 +251,7 @@ The site fills in what's specific to it:
   replaces the theme's empty one.
 - `assets/css/_site.scss` replaces the theme's empty one; the theme's `main.scss` imports it last.
   It imports `partials/_scadu.scss` (boards, scoreboards, stat tiles, the `--red`/`--blue` player
-  colours, no-spoilers styles…).
+  colours and Season 1's `--claim-*` colours, no-spoilers styles…).
 - `assets/js/site.js` replaces the theme's empty one; its `initSite` runs on every Turbo page load,
   after the theme's modules. It starts `assets/js/modules/spoilers.js` and `sortable-tables.js`.
 
