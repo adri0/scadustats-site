@@ -1,11 +1,15 @@
 {{- /*
   Output: a dict keyed by "<game_type>/<id>" (or normalized text, for goals
-  the catalog doesn't know) -> {id, text, game_type, known, boards, marks}.
+  the catalog doesn't know) -> {id, text, game_type, known, boards, marks,
+  seasons}, where `seasons` holds the same boards and marks per season id:
+  {"<season>": {boards, marks}}.
 
   Catalogued goals come from data/square_stats/, the same numbers their own
   pages show: `boards` is how many games dealt the goal, `marks` how many
-  ended with it claimed. Those files keep base and DLC apart even where a
-  goal's text or id is shared between them, which a text lookup can't.
+  ended with it claimed. Their `seasons` come from the file's own `seasons`,
+  and stay empty with a scadustats too old to write them. Those files keep
+  base and DLC apart even where a goal's text or id is shared between them,
+  which a text lookup can't.
 
   Transcriptions the catalog doesn't recognise have no stats file, so they are
   still counted here from the match files -- `marks` is then raw mark events.
@@ -15,15 +19,20 @@
 {{- range $gt, $squares := hugo.Data.square_stats -}}
   {{- range $squares -}}
     {{- if .num_games -}}
+      {{- $seasons := dict -}}
+      {{- range $sid, $s := .seasons -}}
+        {{- $seasons = merge $seasons (dict (string $sid) (dict "boards" $s.num_games "marks" ($s.games_marked | default 0))) -}}
+      {{- end -}}
       {{- $stats = merge $stats (dict (printf "%s/%s" $gt .id) (dict
           "id" .id "text" .text "game_type" $gt "known" true
-          "boards" .num_games "marks" (.games_marked | default 0))) -}}
+          "boards" .num_games "marks" (.games_marked | default 0) "seasons" $seasons)) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
 
 {{- range $seasonDir, $matchesInSeason := hugo.Data.matches -}}
   {{- range $file, $match := $matchesInSeason -}}
+    {{- $sid := string $match.season -}}
     {{- range $g := ($match.games | default slice) -}}
       {{- $gt := $g.game_type | default "" -}}
 
@@ -32,8 +41,10 @@
           {{- $sq := partial "lib/square-lookup.html" $cell -}}
           {{- if and $sq.text (not $sq.known) -}}
             {{- $key := lower $sq.text -}}
-            {{- $entry := index $stats $key | default (dict "id" "" "text" $sq.text "game_type" $gt "known" false "boards" 0 "marks" 0) -}}
-            {{- $stats = merge $stats (dict $key (merge $entry (dict "boards" (add $entry.boards 1)))) -}}
+            {{- $entry := index $stats $key | default (dict "id" "" "text" $sq.text "game_type" $gt "known" false "boards" 0 "marks" 0 "seasons" dict) -}}
+            {{- $season := index $entry.seasons $sid | default (dict "boards" 0 "marks" 0) -}}
+            {{- $season = merge $season (dict "boards" (add $season.boards 1)) -}}
+            {{- $stats = merge $stats (dict $key (merge $entry (dict "boards" (add $entry.boards 1) "seasons" (merge $entry.seasons (dict $sid $season))))) -}}
           {{- end -}}
         {{- end -}}
       {{- end -}}
@@ -43,8 +54,10 @@
           {{- $sq := partial "lib/square-lookup.html" .square_text -}}
           {{- if and $sq.text (not $sq.known) -}}
             {{- $key := lower $sq.text -}}
-            {{- $entry := index $stats $key | default (dict "id" "" "text" $sq.text "game_type" $gt "known" false "boards" 0 "marks" 0) -}}
-            {{- $stats = merge $stats (dict $key (merge $entry (dict "marks" (add $entry.marks 1)))) -}}
+            {{- $entry := index $stats $key | default (dict "id" "" "text" $sq.text "game_type" $gt "known" false "boards" 0 "marks" 0 "seasons" dict) -}}
+            {{- $season := index $entry.seasons $sid | default (dict "boards" 0 "marks" 0) -}}
+            {{- $season = merge $season (dict "marks" (add $season.marks 1)) -}}
+            {{- $stats = merge $stats (dict $key (merge $entry (dict "marks" (add $entry.marks 1) "seasons" (merge $entry.seasons (dict $sid $season))))) -}}
           {{- end -}}
         {{- end -}}
       {{- end -}}
