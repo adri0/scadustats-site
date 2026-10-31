@@ -1,0 +1,173 @@
+{
+  "match_id": "2023-03-12-dinossindgeil-vs-LilAggy",
+  "match_date": "2023-03-12",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "dinossindgeil",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "TyranosaurusBrett",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=anvF3DQIAj4",
+    "duration_s": 5387.916666666667,
+    "published_at": "2023-03-13",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 5387.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Kill a Black Blade Kindred",
+          "Acquire Both Scarseal Talismans",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill Greyoll without Status Effects",
+          "Learn 14 different incantations"
+        ],
+        [
+          "Kill 8 bosses in Limgrave",
+          "Finish off a Boss with the Explosive Physick",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill Crucible Knight & Misbegotten Warrior duo",
+          "Use AoW Lightning Ram to kill 10 sheep"
+        ],
+        [
+          "Acquire 4 Memory Stones",
+          "Restore Radahn's Great Rune",
+          "Kill Commander O'Neil",
+          "Somber +9 weapon",
+          "Kill Tree Sentinel Duo"
+        ],
+        [
+          "Kill a Remembrance boss incantations only",
+          "Kill Putrid Crystalian trio",
+          "Kill Mohg (Sewers)",
+          "Kill Elemer of the Briar",
+          "Spirit Ash +4 summon"
+        ],
+        [
+          "Kill Gurranq",
+          "Complete 4 Evergaols",
+          "Kill 3 Dragon Heart Bosses",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill 6 bosses in Liurnia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:50"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:39",
+          "video_timestamp": "00:27:29"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:34",
+          "video_timestamp": "00:36:24"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire 4 Memory Stones",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:17",
+          "video_timestamp": "00:40:07"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:48",
+          "video_timestamp": "00:47:38"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Somber +9 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:17",
+          "video_timestamp": "00:55:07"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:42",
+          "video_timestamp": "01:00:32"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:49",
+          "video_timestamp": "01:04:39"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:18",
+          "video_timestamp": "01:15:08"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:19:42",
+          "video_timestamp": "01:20:32"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:19:42",
+          "video_timestamp": "01:20:32"
+        }
+      ]
+    }
+  ]
+}
