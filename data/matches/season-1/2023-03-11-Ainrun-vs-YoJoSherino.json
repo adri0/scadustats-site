@@ -1,0 +1,299 @@
+{
+  "match_id": "2023-03-11-Ainrun-vs-YoJoSherino",
+  "match_date": "2023-03-11",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "Ainrun",
+  "player_blue_name": "YoJoSherino",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=sxyz8mHSjGs",
+    "duration_s": 8120.966666666666,
+    "published_at": "2023-03-12",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 8061.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "purple",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 3 Whetblades",
+          "Kill a Red Wolf Boss",
+          "Kill Valiant Gargoyles",
+          "Kill Loretta (Blue Spirit)",
+          "Kill a Remembrance boss colossal weapons only"
+        ],
+        [
+          "Kill a Remembrance boss sorcery only",
+          "Acquire 4 Memory Stones",
+          "Acquire full Dectus Medallion",
+          "Kill 2 Duelist Bosses",
+          "Kill Mohg (Sewers)"
+        ],
+        [
+          "Kill a boss Consumables only",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Take Rya's hand to Volcano Manor"
+        ],
+        [
+          "Kill 3 Bell Bearing Hunters",
+          "Kill 3 Dragon Heart Bosses",
+          "Kill 2 Black Knife Assassins",
+          "Invade and defeat Magnus the Beast Claw",
+          "10 Sacred Flask charges"
+        ],
+        [
+          "Kill a boss Spirit Ashes only",
+          "Kill a Black Blade Kindred",
+          "Acquire 4 different Remembrances",
+          "Learn 12 different sorceries",
+          "Kill Godfrey (Gold Spirit)"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:20"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:37",
+          "video_timestamp": "00:05:57"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a boss Consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:50",
+          "video_timestamp": "00:09:10"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:12:41",
+          "video_timestamp": "00:13:01"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:12",
+          "video_timestamp": "00:16:32"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:59",
+          "video_timestamp": "00:24:19"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 3 Whetblades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:32",
+          "video_timestamp": "00:32:52"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:58",
+          "video_timestamp": "00:44:18"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:25",
+          "video_timestamp": "00:50:45"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss colossal weapons only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:16",
+          "video_timestamp": "00:54:36"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:23",
+          "video_timestamp": "00:59:43"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 4 Memory Stones",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:13",
+          "video_timestamp": "01:03:33"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:55",
+          "video_timestamp": "01:04:15"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:34",
+          "video_timestamp": "01:10:54"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Invade and defeat Magnus the Beast Claw",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:15:20",
+          "video_timestamp": "01:15:40"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "10 Sacred Flask charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:01",
+          "video_timestamp": "01:17:21"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:29",
+          "video_timestamp": "01:22:49"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Godfrey (Gold Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:26:55",
+          "video_timestamp": "01:27:15"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:28:31",
+          "video_timestamp": "01:28:51"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:34:37",
+          "video_timestamp": "01:34:57"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:37:51",
+          "video_timestamp": "01:38:11"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Learn 12 different sorceries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:43:11",
+          "video_timestamp": "01:43:31"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Mohg (Sewers)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:46:21",
+          "video_timestamp": "01:46:41"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Black Blade Kindred",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:53:20",
+          "video_timestamp": "01:53:40"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:00",
+          "video_timestamp": "02:00:21"
+        }
+      ]
+    }
+  ]
+}
