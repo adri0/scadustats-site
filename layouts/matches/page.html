@@ -3,7 +3,7 @@
 {{ partial "breadcrumb.html" . }}
 
 <article class="match">
-  <header class="scoreboard">
+  <header class="scoreboard{{ with $p.claim_class }} {{ . }}{{ end }}">
     <div class="scoreboard-meta">
       <span>{{ $p.match_date }}</span>
       <a class="pill pill-sm pill-outline" href="{{ printf "/seasons/%s/" $p.season_id | relURL }}">Season {{ $p.season_id }}</a>
@@ -62,7 +62,7 @@
   {{- end }}
   <div class="spoiler-hide">
   {{- range $p.games }}
-  <section class="game" id="game-{{ .index }}">
+  <section class="game{{ with .claim_class }} {{ . }}{{ end }}" id="game-{{ .index }}">
     <div class="section-head">
       <h2>Game {{ .index }}</h2>
       <div class="game-badges">
@@ -81,7 +81,9 @@
         <div class="game-fact">
           <span class="game-fact-label">Result</span>
           {{- if .winner_color }}
-          <span class="pill pill-sm pill-{{ .winner_color }}">{{ if eq .winner_color "red" }}Red{{ else }}Blue{{ end }} wins</span>
+          {{- /* Named by the colour the winner claimed in: Season 1's own, else red/blue. */}}
+          {{- $winColor := cond (eq .winner_color "red") (.red_color | default "red") (.blue_color | default "blue") }}
+          <span class="pill pill-sm pill-{{ .winner_color }}">{{ humanize $winColor }} wins</span>
           {{- else if eq .win_type "tie" }}
           <span class="pill pill-sm pill-outline">tie</span>
           {{- else }}

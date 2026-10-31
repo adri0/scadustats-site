@@ -1,0 +1,209 @@
+{
+  "match_id": "2023-03-04-Ainrun-vs-Mitchriz",
+  "match_date": "2023-03-04",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "Ainrun",
+  "player_blue_name": "Mitchriz",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=MIxT4JcGxIk",
+    "duration_s": 5472.933333333333,
+    "published_at": "2023-03-06",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 80.0,
+      "end_video_ts_s": 5371.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "green",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "row_2",
+      "square_texts": [
+        [
+          "Kill Elemer of the Briar",
+          "Kill an Omenkiller boss",
+          "Kill Rennala after she summons all 4 different spirits",
+          "Kill Rykard and discard Serpent Hunter +0",
+          "10 Sacred Flask charges"
+        ],
+        [
+          "Kill 3 Duo/Trio Bosses",
+          "Spirit Ash +4 summon",
+          "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+          "Kill Agheel with a +0 weapon",
+          "Kill 3 Dragon Heart Bosses"
+        ],
+        [
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Take Rya's hand to Volcano Manor",
+          "Kill a Remembrance boss sorcery only",
+          "Acquire Fingerslayer Blade",
+          "Kill 3 Tibia Mariners"
+        ],
+        [
+          "Kill a Black Blade Kindred",
+          "Kill Mohg (Sewers)",
+          "Kill 6 bosses in Liurnia",
+          "Kill a Godskin Apostle",
+          "Kill Radahn without summoning NPCs"
+        ],
+        [
+          "Kill Mohg, Lord of Blood",
+          "Kill a Remembrance boss incantations only",
+          "Learn 14 different incantations",
+          "Finish off a Boss with the Explosive Physick",
+          "Acquire 4 different Sacred Seals"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:01:20"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Agheel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:03:39",
+          "video_timestamp": "00:04:59"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:57",
+          "video_timestamp": "00:30:17"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:07",
+          "video_timestamp": "00:39:27"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:23",
+          "video_timestamp": "00:50:43"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:04",
+          "video_timestamp": "00:53:24"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:09",
+          "video_timestamp": "01:04:29"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:38",
+          "video_timestamp": "01:06:58"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:08",
+          "video_timestamp": "01:12:28"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire 4 different Sacred Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:12",
+          "video_timestamp": "01:12:32"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:54",
+          "video_timestamp": "01:13:14"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:16",
+          "video_timestamp": "01:14:36"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss incantations only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:29",
+          "video_timestamp": "01:17:49"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:42",
+          "video_timestamp": "01:20:02"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:18:42",
+          "video_timestamp": "01:20:02"
+        }
+      ]
+    }
+  ]
+}
