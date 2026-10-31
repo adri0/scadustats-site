@@ -1,0 +1,227 @@
+{
+  "match_id": "2023-03-18-YoJoSherino-vs-parkenharbor",
+  "match_date": "2023-03-18",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "YoJoSherino",
+  "player_blue_name": "parkenharbor",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=gTedDj2NaFg",
+    "duration_s": 5649.95,
+    "published_at": "2023-03-19",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 5649.0,
+      "game_type": "base",
+      "red_color": "purple",
+      "blue_color": "orange",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "diagonal_tl_br",
+      "square_texts": [
+        [
+          "Acquire 10 Physick Flask tears",
+          "Sacred Flask +7",
+          "Kill 3 Erdtree Avatars",
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Kill Agheel with a +0 weapon"
+        ],
+        [
+          "Acquire 4 Memory Stones",
+          "Kill Greyoll without Status Effects",
+          "Kill Morgott",
+          "10 Sacred Flask charges",
+          "Memory of Grace with 50k+ Runes"
+        ],
+        [
+          "Kill a Remembrance boss colossal weapons only",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill a Godskin Apostle",
+          "Somber +9 weapon",
+          "Kill a Black Blade Kindred"
+        ],
+        [
+          "Learn 14 different incantations",
+          "Dupe a Remembrance at a Mausoleum",
+          "Kill a Magma Wyrm boss",
+          "Acquire 2 legendary armaments",
+          "Acquire 5 Ritual Pots"
+        ],
+        [
+          "Kill Elemer of the Briar",
+          "Kill Tree Sentinel Duo",
+          "Spirit Ash +4 summon",
+          "Acquire full Dectus Medallion",
+          "Kill 3 Bell Bearing Hunters"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:11"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill Agheel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:22",
+          "video_timestamp": "00:06:33"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:58",
+          "video_timestamp": "00:15:09"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire 2 legendary armaments",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:37",
+          "video_timestamp": "00:16:48"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:25:25",
+          "video_timestamp": "00:25:36"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:05",
+          "video_timestamp": "00:33:16"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss colossal weapons only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:24",
+          "video_timestamp": "00:36:35"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:08",
+          "video_timestamp": "00:42:19"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:25",
+          "video_timestamp": "00:42:36"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 10 Physick Flask tears",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:04",
+          "video_timestamp": "00:54:15"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:49",
+          "video_timestamp": "00:57:00"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 4 Memory Stones",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:15",
+          "video_timestamp": "00:58:26"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:05:17",
+          "video_timestamp": "01:05:28"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:06:11",
+          "video_timestamp": "01:06:22"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:44",
+          "video_timestamp": "01:08:55"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:08",
+          "video_timestamp": "01:19:19"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:19:08",
+          "video_timestamp": "01:19:19"
+        }
+      ]
+    }
+  ]
+}
