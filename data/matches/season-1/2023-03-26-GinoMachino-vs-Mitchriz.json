@@ -1,0 +1,209 @@
+{
+  "match_id": "2023-03-26-GinoMachino-vs-Mitchriz",
+  "match_date": "2023-03-26",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "GinoMachino",
+  "player_blue_name": "Mitchriz",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=0Foskg0hIb8",
+    "duration_s": 4343.983333333334,
+    "published_at": "2023-03-28",
+    "extracted_at": "2026-11-03"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 10.0,
+      "end_video_ts_s": 4343.0,
+      "game_type": "base",
+      "red_color": "purple",
+      "blue_color": "green",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_3",
+      "square_texts": [
+        [
+          "Kill a Remembrance boss bow only",
+          "Kill Rennala after she summons all 4 different spirits",
+          "Kill 6 bosses in Liurnia",
+          "Restore Rykard's Great Rune",
+          "Kill Mimic Tear consumables only"
+        ],
+        [
+          "Kill an Omenkiller boss",
+          "Restore Radahn's Great Rune",
+          "10 Sacred Flask charges",
+          "Kill a boss Consumables only",
+          "Kill Mohg (Sewers)"
+        ],
+        [
+          "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+          "Kill 2 Black Knife Assassins",
+          "Kill 3 NPC invaders",
+          "Kill a Magma Wyrm boss",
+          "Finish off a Boss with the Explosive Physick"
+        ],
+        [
+          "Kill Agheel with a +0 weapon",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Kill a Fallingstar Beast",
+          "Kill a Remembrance Boss Hitless",
+          "Complete 4 Evergaols"
+        ],
+        [
+          "Kill an Ancestor Spirit",
+          "Kill 3 Dragon Heart Bosses",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Acquire Both Scarseal Talismans",
+          "Kill Rykard and discard Serpent Hunter +0"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:10"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a boss Consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:03",
+          "video_timestamp": "00:04:13"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:07:41",
+          "video_timestamp": "00:07:50"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Agheel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:58",
+          "video_timestamp": "00:09:08"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 NPC invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:08",
+          "video_timestamp": "00:23:18"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:31:16",
+          "video_timestamp": "00:31:26"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:31:37",
+          "video_timestamp": "00:31:47"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:40:03",
+          "video_timestamp": "00:40:12"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:40",
+          "video_timestamp": "00:48:49"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:41",
+          "video_timestamp": "00:48:50"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:02",
+          "video_timestamp": "00:53:11"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "10 Sacred Flask charges",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:06",
+          "video_timestamp": "01:00:15"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Complete 4 Evergaols",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:54",
+          "video_timestamp": "01:04:03"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 6 bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:10",
+          "video_timestamp": "01:04:19"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:04:10",
+          "video_timestamp": "01:04:19"
+        }
+      ]
+    }
+  ]
+}
