@@ -1,0 +1,146 @@
+{
+  "match_id": "2023-04-01-parkenharbor-vs-LilAggy",
+  "match_date": "2023-04-01",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "parkenharbor",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=idNtroWrq2c",
+    "duration_s": 4864.916666666667,
+    "published_at": "2023-04-03",
+    "extracted_at": "2026-11-03"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 9.0,
+      "end_video_ts_s": 4864.0,
+      "game_type": "base",
+      "red_color": "orange",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_3",
+      "square_texts": [
+        [
+          "Kill Crucible Knight & Misbegotten Warrior duo",
+          "Kill 2 Duelist Bosses",
+          "Kill 3 Dragon Heart Bosses",
+          "Acquire 2 legendary armaments",
+          "Finish off a Boss with the Explosive Physick"
+        ],
+        [
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Kill Valiant Gargoyles",
+          "Kill a Godskin Apostle",
+          "Complete 2 catacomb dungeons",
+          "Kill 3 Erdtree Avatars"
+        ],
+        [
+          "Memory of Grace with 50k+ Runes",
+          "Kill Rennala after she summons all 4 different spirits",
+          "Kill Mimic Tear consumables only",
+          "Kill Rykard and discard Serpent Hunter +0",
+          "Kill a boss Consumables only"
+        ],
+        [
+          "Restore Radahn's Great Rune",
+          "Acquire 4 different Sacred Seals",
+          "Kill 5 Bosses that Ride a Horse",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Complete an Altus Plateau Hero's Grave"
+        ],
+        [
+          "Kill 2 Black Knife Assassins",
+          "Kill Loretta (Blue Spirit)",
+          "Kill 5 bosses with 'tree' in their name",
+          "Acquire 4 different Remembrances",
+          "Acquire 5 Ritual Pots"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:09"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill a boss Consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:27",
+          "video_timestamp": "00:04:36"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Rennala after she summons all 4 different spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:31",
+          "video_timestamp": "00:33:40"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:34:07",
+          "video_timestamp": "00:34:16"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Rykard and discard Serpent Hunter +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:49",
+          "video_timestamp": "00:43:58"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:08",
+          "video_timestamp": "01:04:17"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Mimic Tear consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:50",
+          "video_timestamp": "01:11:59"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:11:50",
+          "video_timestamp": "01:11:59"
+        }
+      ]
+    }
+  ]
+}
