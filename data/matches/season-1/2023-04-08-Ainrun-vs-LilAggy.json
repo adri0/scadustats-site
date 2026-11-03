@@ -1,0 +1,299 @@
+{
+  "match_id": "2023-04-08-Ainrun-vs-LilAggy",
+  "match_date": "2023-04-08",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "Ainrun",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=owocWo1ibPw",
+    "duration_s": 5713.916666666667,
+    "published_at": "2023-04-10",
+    "extracted_at": "2026-11-04"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 5713.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill a Godskin Apostle",
+          "Kill a boss Spirit Ashes only",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Kill Commander O'Neil",
+          "Restore Radahn's Great Rune"
+        ],
+        [
+          "Return Thop's academy key",
+          "Complete 4 Evergaols",
+          "Kill a Fallingstar Beast",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill Mohg, Lord of Blood"
+        ],
+        [
+          "Kill 3 Bell Bearing Hunters",
+          "Acquire 4 Memory Stones",
+          "Kill Wormface",
+          "Kill a boss on Torrent the whole fight",
+          "Complete 2 tunnel or precipice dungeons"
+        ],
+        [
+          "Kill 2 Black Knife Assassins",
+          "Kill Valiant Gargoyles",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Acquire full Dectus Medallion",
+          "Kill a Remembrance boss incantations only"
+        ],
+        [
+          "Kill 5 bosses in Caelid",
+          "Kill a boss Consumables only",
+          "Kill a Remembrance Boss Hitless",
+          "Kill 8 bosses in Limgrave",
+          "Kill Leonine Misbegotten"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:21"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Valiant Gargoyles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:01:27",
+          "video_timestamp": "00:01:48"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:01:30",
+          "video_timestamp": "00:01:51"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Valiant Gargoyles",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:01:31",
+          "video_timestamp": "00:01:52"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a boss Consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:12",
+          "video_timestamp": "00:05:33"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:07:52",
+          "video_timestamp": "00:08:13"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:15:20",
+          "video_timestamp": "00:15:41"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:00",
+          "video_timestamp": "00:24:21"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:37",
+          "video_timestamp": "00:24:58"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Complete 4 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:16",
+          "video_timestamp": "00:37:37"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:03",
+          "video_timestamp": "00:39:24"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:13",
+          "video_timestamp": "00:47:34"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill Commander O'Neil",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:52",
+          "video_timestamp": "00:53:13"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:58:45",
+          "video_timestamp": "00:59:06"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill a Remembrance Boss Hitless",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:30",
+          "video_timestamp": "01:03:51"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Restore Radahn's Great Rune",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:06:28",
+          "video_timestamp": "01:06:49"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 5 bosses in Caelid",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:07",
+          "video_timestamp": "01:07:28"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:22",
+          "video_timestamp": "01:10:43"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:10:22",
+          "video_timestamp": "01:10:43"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:12",
+          "video_timestamp": "01:12:33"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:16:05",
+          "video_timestamp": "01:16:26"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 4 Memory Stones",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:52",
+          "video_timestamp": "01:20:13"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:15",
+          "video_timestamp": "01:23:36"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:25:54",
+          "video_timestamp": "01:26:15"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:25:54",
+          "video_timestamp": "01:26:15"
+        }
+      ]
+    }
+  ]
+}
