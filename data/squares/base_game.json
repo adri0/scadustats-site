@@ -620,6 +620,11 @@
     "game_type": "base"
   },
   {
+    "id": "legendary_armaments_2",
+    "text": "Acquire 2 legendary armaments",
+    "game_type": "base"
+  },
+  {
     "id": "legendary_talismans_3",
     "text": "Acquire 3 Legendary Talismans",
     "game_type": "base"
