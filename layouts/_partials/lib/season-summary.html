@@ -2,7 +2,7 @@
   Input: a season id. Output: {matches, games, base_games, dlc_games, coop_games,
   untranscribed, champion, qualified, phases}, counting every match file of the season
   (lib/season-matches.html, by each match's `season` field) plus the hand-entered (untranscribed) matches of
-  data/brackets/season-<N>.yaml. base_games/dlc_games/coop_games (Season 5's mixed boards) count transcribed games
+  data/brackets/season-<N>.yaml and of data/groups/season-<N>.yaml's `results`. base_games/dlc_games/coop_games (Season 5's mixed boards) count transcribed games
   only, since hand-entered matches carry no game types. `champion` is the
   Grand Final winner (or, in a bracket with no `final`, the winner of the
   upper-bracket match with no `next`) as a slot (lib/season-slots.html) or
@@ -42,6 +42,19 @@
   {{- end -}}
 {{- end -}}
 
+{{- /* Hand-entered round-robin results (the groups file's `results`, matches
+       with no VOD): count them and their decided games, like the bracket's. */ -}}
+{{- $untranscribed := 0 -}}
+{{- with $groupsCfg -}}
+  {{- range .results -}}
+    {{- $games := add .red_score .blue_score -}}
+    {{- $untranscribed = add $untranscribed 1 -}}
+    {{- $total = dict "matches" (add $total.matches 1) "games" (add $total.games $games) -}}
+    {{- $rr = dict "matches" (add $rr.matches 1) "games" (add $rr.games $games)
+        "dates" ($rr.dates | append (.date | default slice)) -}}
+  {{- end -}}
+{{- end -}}
+
 {{- $phases := slice -}}
 {{- with $groupsCfg -}}
   {{- $span := partial "lib/date-span.html" $rr.dates -}}
@@ -51,7 +64,6 @@
 
 {{- $champion := "" -}}
 {{- $qualified := slice -}}
-{{- $untranscribed := 0 -}}
 {{- with $bracket -}}
   {{- $results := partial "lib/bracket-results.html" (dict "season_id" $sid "bracket" .) -}}
   {{- $hasFinal := gt (len (where .matches "bracket" "final")) 0 -}}

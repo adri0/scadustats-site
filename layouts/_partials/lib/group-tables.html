@@ -4,12 +4,16 @@
   data/brackets/season-<N>.yaml entry (or nil).
   Output: {results, groups, halves}. `results` holds every non-playoff match keyed
   "slugA|slugB" (both directions) as {for, against, path, date} from slugA's
-  side, where slugs are slot slugs (lib/season-slots.html: players sharing a
+  side (`path` "" and a `note` for a hand-entered result, see below), where slugs are slot slugs (lib/season-slots.html: players sharing a
   slot count as one); playoff matches (those named in the bracket) are left out even when
   both players share a group. `groups` is one {name, rows} per group, rows
   sorted by points as {player, points, w, d, l}; `player` is the
   slot, with `members` for linking each player in it. The sort is
   stable, so ties keep the curated (final placing) order of the YAML.
+
+  The groups file's `results` adds hand-entered results for round-robin matches
+  with no VOD: {red, blue, red_score, blue_score, date, note}, as in a bracket
+  file. They count like transcribed ones.
 
   Points are games won, and a drawn game (`win_type: tie`, possible when the
   clock runs out on equal squares: Seasons 1 and 2) is worth ½ to each side;
@@ -51,6 +55,21 @@
         (printf "%s|%s" $r $b) (dict "for" $redFor "against" $blueFor "path" $path "date" $s.match_date)
         (printf "%s|%s" $b $r) (dict "for" $blueFor "against" $redFor "path" $path "date" $s.match_date)) -}}
   {{- end -}}
+{{- end -}}
+
+{{- /* Hand-entered round-robin results (`results` in the groups file): a
+       match with no VOD to transcribe, from the league's own records. They
+       have no `path`, and carry their `note`. */ -}}
+{{- range .groups.results -}}
+  {{- $red := partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .red) -}}
+  {{- $blue := partial "lib/entrant-lookup.html" (dict "season_id" $sid "name" .blue) -}}
+  {{- $r := (index $slots $red.slug | default $red).slug -}}
+  {{- $b := (index $slots $blue.slug | default $blue).slug -}}
+  {{- $note := .note | default "" -}}
+  {{- $date := .date | default "" -}}
+  {{- $results = merge $results (dict
+      (printf "%s|%s" $r $b) (dict "for" .red_score "against" .blue_score "path" "" "date" $date "note" $note)
+      (printf "%s|%s" $b $r) (dict "for" .blue_score "against" .red_score "path" "" "date" $date "note" $note)) -}}
 {{- end -}}
 
 {{- $groups := slice -}}
