@@ -1,0 +1,191 @@
+{
+  "match_id": "2023-04-09-GinoMachino-vs-dinossindgeil",
+  "match_date": "2023-04-09",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "GinoMachino",
+  "player_blue_name": "dinossindgeil",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=6ORu7PRjwxM",
+    "duration_s": 3148.9166666666665,
+    "published_at": "2023-04-10",
+    "extracted_at": "2026-11-04"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 8.0,
+      "end_video_ts_s": 3148.0,
+      "game_type": "base",
+      "red_color": "purple",
+      "blue_color": "blue",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_5",
+      "square_texts": [
+        [
+          "Kill Morgott",
+          "Kill Gurranq",
+          "Acquire 10 Physick Flask tears",
+          "Kill a boss on Torrent the whole fight",
+          "Kill a Red Wolf Boss"
+        ],
+        [
+          "Acquire 4 Memory Stones",
+          "Kill 3 Dragon Heart Bosses",
+          "Kill Wormface",
+          "Kill a Godskin Apostle",
+          "Kill 3 Erdtree Avatars"
+        ],
+        [
+          "Kill a Remembrance boss bow only",
+          "Invade and defeat Magnus the Beast Claw",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Restore Morgott's Great Rune",
+          "Kill 3 Duo/Trio Bosses"
+        ],
+        [
+          "Kill Crucible Knight & Misbegotten Warrior duo",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Complete 4 Evergaols",
+          "Acquire Both Scarseal Talismans",
+          "Kill Leonine Misbegotten"
+        ],
+        [
+          "Smithing-stone +12 weapon",
+          "Kill a Fallingstar Beast",
+          "Kill Royal Revenant (Kingsrealm Ruins)",
+          "Kill a Remembrance boss incantations only",
+          "Kill a boss Consumables only"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:08"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a boss Consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:00",
+          "video_timestamp": "00:04:09"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:25",
+          "video_timestamp": "00:11:34"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "00:11:30",
+          "video_timestamp": "00:11:38"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:37",
+          "video_timestamp": "00:11:46"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:09",
+          "video_timestamp": "00:14:17"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:03",
+          "video_timestamp": "00:17:12"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Royal Revenant (Kingsrealm Ruins)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:03",
+          "video_timestamp": "00:17:12"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:47",
+          "video_timestamp": "00:28:55"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:15",
+          "video_timestamp": "00:35:24"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:38",
+          "video_timestamp": "00:41:47"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:43:35",
+          "video_timestamp": "00:43:44"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:43:35",
+          "video_timestamp": "00:43:44"
+        }
+      ]
+    }
+  ]
+}
