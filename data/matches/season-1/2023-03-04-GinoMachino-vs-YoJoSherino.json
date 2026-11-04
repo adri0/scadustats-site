@@ -1,0 +1,281 @@
+{
+  "match_id": "2023-03-04-GinoMachino-vs-YoJoSherino",
+  "match_date": "2023-03-04",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "GinoMachino",
+  "player_blue_name": "YoJoSherino",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=PkiG9ogobkI",
+    "duration_s": 7168.95,
+    "published_at": "2023-03-06",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 7153.0,
+      "game_type": "base",
+      "red_color": "purple",
+      "blue_color": "blue",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Watchdogs",
+          "Acquire 3 Whetblades",
+          "Acquire 4 different Sacred Seals",
+          "Complete 2 cave or grotto dungeons",
+          "Acquire 5 Ritual Pots"
+        ],
+        [
+          "Kill a boss Spirit Ashes only",
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Restore Morgott's Great Rune",
+          "Learn 12 different sorceries",
+          "Kill Godrick while Summoning Nepheli Loux"
+        ],
+        [
+          "Acquire full Dectus Medallion",
+          "Acquire 10 Physick Flask tears",
+          "Smithing-stone +12 weapon",
+          "Kill 5 Bosses that Ride a Horse",
+          "Kill Commander O'Neil"
+        ],
+        [
+          "Complete 4 Evergaols",
+          "Kill a boss Consumables only",
+          "Kill Mimic Tear consumables only",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill 3 Duo/Trio Bosses"
+        ],
+        [
+          "Kill Mohg, Lord of Blood",
+          "Kill an Omenkiller boss",
+          "Invade and defeat Magnus the Beast Claw",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Acquire Both Scarseal Talismans"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:01:28"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:05",
+          "video_timestamp": "00:09:33"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 2 cave or grotto dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:11:12",
+          "video_timestamp": "00:12:40"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire full Dectus Medallion",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:41",
+          "video_timestamp": "00:21:09"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:26:04",
+          "video_timestamp": "00:27:32"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire 10 Physick Flask tears",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:35:28",
+          "video_timestamp": "00:36:56"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill a boss Consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:34",
+          "video_timestamp": "00:39:02"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Smithing-stone +12 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:38:51",
+          "video_timestamp": "00:40:19"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:42:15",
+          "video_timestamp": "00:43:43"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire 3 Whetblades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:50:01",
+          "video_timestamp": "00:51:29"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:54:07",
+          "video_timestamp": "00:55:35"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 4 different Sacred Seals",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:59:26",
+          "video_timestamp": "01:00:54"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 5 Ritual Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:04:00",
+          "video_timestamp": "01:05:28"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Watchdogs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:27",
+          "video_timestamp": "01:10:55"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Complete 4 Evergaols",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:19:13",
+          "video_timestamp": "01:20:41"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:26:35",
+          "video_timestamp": "01:28:03"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Invade and defeat Magnus the Beast Claw",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:30:45",
+          "video_timestamp": "01:32:13"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:42:44",
+          "video_timestamp": "01:44:12"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:44:52",
+          "video_timestamp": "01:46:20"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:45:22",
+          "video_timestamp": "01:46:50"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Mimic Tear consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:48:01",
+          "video_timestamp": "01:49:29"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:49:25",
+          "video_timestamp": "01:50:53"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:49:25",
+          "video_timestamp": "01:50:53"
+        }
+      ]
+    }
+  ]
+}
