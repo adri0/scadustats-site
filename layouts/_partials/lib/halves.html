@@ -1,0 +1,10 @@
+{{- /*
+  Input: a number of points, whole or ending in a half (a drawn game is worth
+  ½, see lib/group-tables.html). Output: it as text, with "½" for the half:
+  4 → "4", 4.5 → "4½", 0.5 → "½".
+*/ -}}
+{{- $n := float . -}}
+{{- $whole := math.Floor $n -}}
+{{- $out := printf "%d" (int $whole) -}}
+{{- if ne $n $whole }}{{ $out = cond (eq $whole 0.0) "½" (printf "%d½" (int $whole)) }}{{ end -}}
+{{- return $out -}}
