@@ -13,7 +13,16 @@
 # theirs, and the archive has dinossindgeil 7th (more squares, 34 to 33). The
 # top four went to the playoffs (data/brackets/season-1.yaml): 1st vs 4th and
 # 2nd vs 3rd.
+#
+# `results` hand-enters a round-robin match with no VOD (see
+# lib/group-tables.html), scores in games won. Round 7's LilAggy vs Mitchriz
+# (2023-04-15) has no VOD in the playlist or on the archive, so it isn't
+# transcribed. Its result follows from the leaderboard's wins: LilAggy has 6,
+# five of them in VODs 1-21 and no other match left, and the two half wins
+# each of them has are matches 3 and 26, so it isn't a draw.
 title: Round robin
 qualify: [playoffs, playoffs, playoffs, playoffs]
 groups:
   - players: [GinoMachino, LilAggy, star0chris, Ainrun, YoJoSherino, Mitchriz, dinossindgeil, parkenharbor]
+results:
+  - { red: LilAggy, blue: Mitchriz, red_score: 1, blue_score: 0, date: "2023-04-15", note: "LilAggy's win follows from the league's leaderboard" }
