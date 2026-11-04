@@ -1,0 +1,19 @@
+# Hand-curated round robin for season 1 (1v1, base game): eight players in one
+# group, each playing every other player once in a single game (videos 1-28 of
+# the playlist; 24 is the Halftime Show, not a match). See
+# data/groups/season-6.yaml for the field reference.
+#
+# A win is a point and a draw half a point: a game still level on squares at
+# the two-hour limit is a draw (match 3, dinossindgeil vs parkenharbor).
+#
+# Players are listed in their final placing, which matches the archived
+# bingobrawlers.com leaderboard (GinoMachino 6½, LilAggy 6, star0chris 4,
+# Ainrun 3½, Yojo 3, Mitchriz 2, dinossindgeil 1½, parkenharbor 1½). The
+# archive breaks joint wins head to head; dinossindgeil and parkenharbor drew
+# theirs, and the archive has dinossindgeil 7th (more squares, 34 to 33). The
+# top four went to the playoffs (data/brackets/season-1.yaml): 1st vs 4th and
+# 2nd vs 3rd.
+title: Round robin
+qualify: [playoffs, playoffs, playoffs, playoffs]
+groups:
+  - players: [GinoMachino, LilAggy, star0chris, Ainrun, YoJoSherino, Mitchriz, dinossindgeil, parkenharbor]
