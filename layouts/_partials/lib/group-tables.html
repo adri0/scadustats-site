@@ -6,14 +6,18 @@
   "slugA|slugB" (both directions) as {for, against, path, date} from slugA's
   side (`path` "" and a `note` for a hand-entered result, see below), where slugs are slot slugs (lib/season-slots.html: players sharing a
   slot count as one); playoff matches (those named in the bracket) are left out even when
-  both players share a group. `groups` is one {name, rows} per group, rows
-  sorted by points as {player, points, w, d, l}; `player` is the
+  both players share a group. `groups` is one {name, rows, played, total} per group,
+  rows sorted by points as {player, points, w, d, l}; `player` is the
   slot, with `members` for linking each player in it. The sort is
   stable, so ties keep the curated (final placing) order of the YAML.
 
   The groups file's `results` adds hand-entered results for round-robin matches
   with no VOD: {red, blue, red_score, blue_score, date, note}, as in a bracket
   file. They count like transcribed ones.
+
+  A group's `played` and `total` are the pairs in it that have a result and
+  all its pairs. While played < total (a round robin still being
+  transcribed), its standings are provisional.
 
   Points are games won, and a drawn game (`win_type: tie`, possible when the
   clock runs out on equal squares: Seasons 1 and 2) is worth ½ to each side;
@@ -82,6 +86,12 @@
     {{- $players = $players | append (index $slots $first.slug) -}}
   {{- end -}}
   {{- $rows := slice -}}
+  {{- $played := 0 -}}
+  {{- range $i, $p := $players -}}
+    {{- range $j, $o := $players -}}
+      {{- if and (lt $i $j) (index $results (printf "%s|%s" $p.slug $o.slug)) }}{{ $played = add $played 1 }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
   {{- range $p := $players -}}
     {{- $pts := 0 }}{{ $w := 0 }}{{ $d := 0 }}{{ $l := 0 -}}
     {{- range $o := $players -}}
@@ -92,6 +102,7 @@
     {{- end -}}
     {{- $rows = $rows | append (dict "player" $p "points" $pts "w" $w "d" $d "l" $l) -}}
   {{- end -}}
-  {{- $groups = $groups | append (dict "name" $g.name "rows" (sort $rows "points" "desc")) -}}
+  {{- $groups = $groups | append (dict "name" $g.name "rows" (sort $rows "points" "desc")
+      "played" $played "total" (div (mul (len $players) (sub (len $players) 1)) 2)) -}}
 {{- end -}}
 {{- return (dict "results" $results "groups" $groups "halves" $halves) -}}
