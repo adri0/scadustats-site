@@ -1,0 +1,173 @@
+{
+  "match_id": "2023-03-25-star0chris-vs-dinossindgeil",
+  "match_date": "2023-03-25",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "star0chris",
+  "player_blue_name": "dinossindgeil",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=-M8HOOu2bzg",
+    "duration_s": 3081.9166666666665,
+    "published_at": "2023-03-27",
+    "extracted_at": "2026-11-03"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 3081.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "orange",
+      "winner_color": "red",
+      "win_type": "line",
+      "win_line": "col_3",
+      "square_texts": [
+        [
+          "Kill 2 Black Knife Assassins",
+          "Complete 2 catacomb dungeons",
+          "Kill an Omenkiller boss",
+          "Kill Morgott",
+          "Kill a Fallingstar Beast"
+        ],
+        [
+          "Kill a Magma Wyrm boss",
+          "Restore Godrick's Great Rune",
+          "Kill 3 Watchdogs",
+          "Kill Grafted Scion (Chapel of Anticipation)",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]"
+        ],
+        [
+          "Kill Commander O'Neil",
+          "Kill Rykard and discard Serpent Hunter +0",
+          "Kill 5 bosses with 'tree' in their name",
+          "Kill 5 bosses in Caelid",
+          "Kill Rennala after she summons all 4 different spirits"
+        ],
+        [
+          "Acquire Margit's and Mohg's Shackles",
+          "Acquire 4 different Sacred Seals",
+          "Kill Margit with 4+ parries",
+          "Kill Leonine Misbegotten",
+          "Kill 1 Deathbird and 1 Death Rite Bird"
+        ],
+        [
+          "Complete 2 cave or grotto dungeons",
+          "Kill Godskin Noble (Volcano Manor) without Status Effects",
+          "Kill 5 Bosses that Ride a Horse",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Kill a Red Wolf Boss"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:33"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:01:19",
+          "video_timestamp": "00:01:52"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill Margit with 4+ parries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:06:15",
+          "video_timestamp": "00:06:48"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:19:16",
+          "video_timestamp": "00:19:49"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:22:47",
+          "video_timestamp": "00:23:20"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill 3 Watchdogs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:27:58",
+          "video_timestamp": "00:28:31"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:28:34",
+          "video_timestamp": "00:29:07"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:32:19",
+          "video_timestamp": "00:32:52"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 5 bosses with 'tree' in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:41",
+          "video_timestamp": "00:35:14"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:41:36",
+          "video_timestamp": "00:42:09"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "00:41:36",
+          "video_timestamp": "00:42:09"
+        }
+      ]
+    }
+  ]
+}
