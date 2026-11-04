@@ -1,0 +1,245 @@
+{
+  "match_id": "2023-03-11-star0chris-vs-Mitchriz",
+  "match_date": "2023-03-11",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "star0chris",
+  "player_blue_name": "Mitchriz",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=xzzNBtDG4yc",
+    "duration_s": 5823.916666666667,
+    "published_at": "2023-03-12",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 5823.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "green",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Restore Rykard's Great Rune",
+          "Kill 3 Night's Cavalry",
+          "Kill an Ancestor Spirit",
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]"
+        ],
+        [
+          "Kill a Magma Wyrm boss",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Dupe a Remembrance at a Mausoleum",
+          "Kill a Remembrance boss bow only",
+          "Kill Agheel with a +0 weapon"
+        ],
+        [
+          "Kill Putrid Crystalian trio",
+          "Somber +9 weapon",
+          "Kill Greyoll without Status Effects",
+          "Kill 2 Black Knife Assassins",
+          "Sacred Flask +7"
+        ],
+        [
+          "Kill Morgott",
+          "Complete an Altus Plateau Hero's Grave",
+          "Kill a Remembrance boss colossal weapons only",
+          "Kill Gurranq",
+          "Kill a boss Spirit Ashes only"
+        ],
+        [
+          "Kill 3 Crucible Knights",
+          "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "Restore Godrick's Great Rune",
+          "Kill Wormface",
+          "Kill 3 Erdtree Avatars"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:17"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Agheel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:04:07",
+          "video_timestamp": "00:04:24"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Friendly NPCs (No Hermit Merchants)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:08:40",
+          "video_timestamp": "00:08:57"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:14",
+          "video_timestamp": "00:13:31"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:47",
+          "video_timestamp": "00:16:04"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:56",
+          "video_timestamp": "00:18:13"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill 3 Night's Cavalry",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:29:55",
+          "video_timestamp": "00:30:12"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Sacred Flask +7",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:44:10",
+          "video_timestamp": "00:44:27"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:16",
+          "video_timestamp": "00:48:33"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:52:06",
+          "video_timestamp": "00:52:23"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss colossal weapons only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:01:19",
+          "video_timestamp": "01:01:36"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:08:49",
+          "video_timestamp": "01:09:06"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:21",
+          "video_timestamp": "01:12:38"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Complete an Altus Plateau Hero's Grave",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:30",
+          "video_timestamp": "01:14:47"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill Gurranq",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:15:57",
+          "video_timestamp": "01:16:14"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Putrid Crystalian trio",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:24",
+          "video_timestamp": "01:20:41"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:22:47",
+          "video_timestamp": "01:23:04"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Wormface",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:25:43",
+          "video_timestamp": "01:26:00"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:25:43",
+          "video_timestamp": "01:26:00"
+        }
+      ]
+    }
+  ]
+}
