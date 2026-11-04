@@ -1,0 +1,236 @@
+{
+  "match_id": "2023-03-25-parkenharbor-vs-dinossindgeil",
+  "match_date": "2023-03-25",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "parkenharbor",
+  "player_blue_name": "dinossindgeil",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=8TDu2PW4nOQ",
+    "duration_s": 7818.916666666667,
+    "published_at": "2023-03-27",
+    "extracted_at": "2026-10-31"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 0,
+  "winner": "draw",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 0.0,
+      "end_video_ts_s": 7818.0,
+      "game_type": "base",
+      "red_color": "orange",
+      "blue_color": "blue",
+      "winner_color": null,
+      "win_type": "tie",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Kill Agheel with a +0 weapon",
+          "Kill Fia's Champions",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill a boss Spirit Ashes only"
+        ],
+        [
+          "Kill 2 Cemetery Shades",
+          "Acquire 6 different Glintstone Staves",
+          "10 Sacred Flask charges",
+          "Kill a Fallingstar Beast",
+          "Kill 5 Bosses that Ride a Horse"
+        ],
+        [
+          "Sell Bloodhound's Fang +0",
+          "Kill 3 Duo/Trio Bosses",
+          "Kill 3 Tibia Mariners",
+          "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+          "Kill a Remembrance boss daggers, claws, or fists only"
+        ],
+        [
+          "Kill 3 Crucible Knights",
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Kill Crucible Knight & Misbegotten Warrior duo",
+          "Kill 3 Erdtree Avatars",
+          "Kill Grafted Scion (Chapel of Anticipation)"
+        ],
+        [
+          "Acquire Margit's and Mohg's Shackles",
+          "Kill a Remembrance boss sorcery only",
+          "Restore Morgott's Great Rune",
+          "Acquire 8 different Talismans",
+          "Kill Mohg, Lord of Blood"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:17"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Agheel with a +0 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:34",
+          "video_timestamp": "00:05:51"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Sell Bloodhound's Fang +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:08:29",
+          "video_timestamp": "00:08:46"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:29:02",
+          "video_timestamp": "00:29:19"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Acquire 6 different Glintstone Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:48:14",
+          "video_timestamp": "00:48:31"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:01",
+          "video_timestamp": "00:50:18"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:55:26",
+          "video_timestamp": "00:55:43"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:10",
+          "video_timestamp": "00:58:27"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:01:04",
+          "video_timestamp": "01:01:21"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Acquire 8 different Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:02",
+          "video_timestamp": "01:07:19"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:17",
+          "video_timestamp": "01:11:34"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:13",
+          "video_timestamp": "01:18:30"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Grafted Scion (Chapel of Anticipation)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:18:22",
+          "video_timestamp": "01:18:39"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 2 Cemetery Shades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:38:44",
+          "video_timestamp": "01:39:01"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:46:20",
+          "video_timestamp": "01:46:37"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "10 Sacred Flask charges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:52:43",
+          "video_timestamp": "01:53:00"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:55:52",
+          "video_timestamp": "01:56:09"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:00",
+          "video_timestamp": "02:00:18"
+        }
+      ]
+    }
+  ]
+}

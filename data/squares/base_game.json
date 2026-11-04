@@ -249,7 +249,8 @@
     "text": "Kill Crucible Knight and Misbegotten Warrior Duo",
     "game_type": "base",
     "aliases": [
-      "Kill Crucible Knight Misbegotten Warrior duo"
+      "Kill Crucible Knight Misbegotten Warrior duo",
+      "Kill Crucible Knight & Misbegotten Warrior duo"
     ]
   },
   {
@@ -1100,6 +1101,11 @@
     "game_type": "base"
   },
   {
+    "id": "sell_bloodhounds_fang",
+    "text": "Sell Bloodhound's Fang +0",
+    "game_type": "base"
+  },
+  {
     "id": "shackles",
     "text": "Acquire Margit's and Mohg's Shackles",
     "game_type": "base"
@@ -1163,7 +1169,8 @@
     "text": "Acquire 6 Unique Staves",
     "game_type": "base",
     "aliases": [
-      "Collect 6 unique Staves"
+      "Collect 6 unique Staves",
+      "Acquire 6 different Glintstone Staves"
     ]
   },
   {
