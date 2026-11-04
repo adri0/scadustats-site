@@ -60,6 +60,9 @@ Each entry in `games` is a 5x5 board:
   the sides are still red (left) and blue (right). The match page draws such a game, and the
   scoreboard (from game 1), in them through the `claims-red-<colour>`/`claims-blue-<colour>`
   classes in `_scadu.scss`, which re-point `--red`/`--blue`.
+- `video_url` (only in a match spread over several videos, e.g. Season 1's playoffs, one VOD per game):
+  the game's own video. Its `video_ts_s`/`video_timestamp`s are times in it. The match page links it
+  next to the game's heading, and the board's mark times use it; other games use `metadata.video_url`.
 - `square_texts`: a 5x5 array of arrays — the bingo goal text for each cell, indexed `[row][col]`
   with 1-based `row`/`col` used elsewhere to reference cells
 - `events`: a chronological list of everything that happened in the game. Each event has

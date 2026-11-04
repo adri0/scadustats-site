@@ -8,6 +8,8 @@
   A Season 1 game records the colour each side claimed in (red_color,
   blue_color); claim_class turns them into the claims-* classes that draw the
   game in them, and the match's own claim_class is game 1's (see _scadu.scss).
+  A game recorded in its own VOD (Season 1's playoffs: one video per game)
+  has its own video_url; every other game's video_url is the match's.
 */ -}}
 {{- $match := . -}}
 {{- $meta := $match.metadata -}}
@@ -50,6 +52,8 @@
       "red_color" ($g.red_color | default "")
       "blue_color" ($g.blue_color | default "")
       "claim_class" $claimClass
+      "video_url" ($g.video_url | default $meta.video_url | default "")
+      "own_video" (isset $g "video_url")
       "board" $board
       "events" (sort ($g.events | default slice) "video_ts_s")) -}}
 {{- end -}}
