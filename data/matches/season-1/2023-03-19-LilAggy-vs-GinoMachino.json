@@ -1,0 +1,299 @@
+{
+  "match_id": "2023-03-19-LilAggy-vs-GinoMachino",
+  "match_date": "2023-03-19",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "LilAggy",
+  "player_blue_name": "GinoMachino",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=qqs2KqU5Sfo",
+    "duration_s": 6610.983333333334,
+    "published_at": "2023-03-20",
+    "extracted_at": "2026-11-03"
+  },
+  "num_games": 1,
+  "red_score": 0,
+  "blue_score": 1,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 7.0,
+      "end_video_ts_s": 6549.0,
+      "game_type": "base",
+      "red_color": "red",
+      "blue_color": "purple",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill 3 Watchdogs",
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Kill a boss Spirit Ashes only",
+          "Acquire 3 Imbued Sword Keys",
+          "Restore Rykard's Great Rune"
+        ],
+        [
+          "Acquire 8 different Talismans",
+          "Kill a Remembrance boss sorcery only",
+          "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "Acquire 10 Cracked Pots",
+          "Kill Margit with 4+ parries"
+        ],
+        [
+          "Kill a Remembrance boss daggers, claws, or fists only",
+          "Kill an Ancestor Spirit",
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Acquire Fingerslayer Blade",
+          "Kill 3 Tibia Mariners"
+        ],
+        [
+          "Smithing-stone +12 weapon",
+          "Kill Mohg (Sewers)",
+          "Kill 3 Erdtree Avatars",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Kill Leonine Misbegotten"
+        ],
+        [
+          "Kill a Remembrance boss colossal weapons only",
+          "Kill Commander O'Neil",
+          "Kill Valiant Gargoyles",
+          "Kill 3 NPC invaders",
+          "Kill a boss on Torrent the whole fight"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:07"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:10",
+          "video_timestamp": "00:05:17"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Margit with 4+ parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:42",
+          "video_timestamp": "00:05:49"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:11:25",
+          "video_timestamp": "00:11:32"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:12:05",
+          "video_timestamp": "00:12:12"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a boss Spirit Ashes only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:17:41",
+          "video_timestamp": "00:17:48"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill Leonine Misbegotten",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:21:15",
+          "video_timestamp": "00:21:22"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:21:25",
+          "video_timestamp": "00:21:32"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill 3 NPC invaders",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:28:08",
+          "video_timestamp": "00:28:15"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:33:19",
+          "video_timestamp": "00:33:26"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 8 different Talismans",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:34:18",
+          "video_timestamp": "00:34:25"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill a Remembrance boss colossal weapons only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:36:44",
+          "video_timestamp": "00:36:51"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:04",
+          "video_timestamp": "00:47:11"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:01",
+          "video_timestamp": "00:53:08"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill 3 Watchdogs",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:53:08",
+          "video_timestamp": "00:53:15"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:58:52",
+          "video_timestamp": "00:58:59"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 3 Tibia Mariners",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:06:52",
+          "video_timestamp": "01:06:59"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Smithing-stone +12 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:07:32",
+          "video_timestamp": "01:07:39"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:17:40",
+          "video_timestamp": "01:17:47"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:55",
+          "video_timestamp": "01:18:02"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:12",
+          "video_timestamp": "01:21:19"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill an Ancestor Spirit",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:30:07",
+          "video_timestamp": "01:30:14"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Valiant Gargoyles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:33:17",
+          "video_timestamp": "01:33:24"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Fingerslayer Blade",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:37:11",
+          "video_timestamp": "01:37:18"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:37:11",
+          "video_timestamp": "01:37:18"
+        }
+      ]
+    }
+  ]
+}
