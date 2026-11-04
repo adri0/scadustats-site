@@ -132,6 +132,11 @@
     "game_type": "base"
   },
   {
+    "id": "boc_tailoring_tools",
+    "text": "Return the Tailoring Tools to Boc",
+    "game_type": "base"
+  },
+  {
     "id": "boiled_crab_20",
     "text": "Buy 20 Boiled Crab from Boggart",
     "game_type": "base"
@@ -503,6 +508,11 @@
     "aliases": [
       "Kill 4 Bosses with the word God in it"
     ]
+  },
+  {
+    "id": "godrick_godefroy",
+    "text": "Kill Godrick and Godefroy",
+    "game_type": "base"
   },
   {
     "id": "godrick_great_rune",
