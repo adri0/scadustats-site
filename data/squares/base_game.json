@@ -12,7 +12,10 @@
   {
     "id": "agheel_plus_0",
     "text": "Kill Agheel with a +0 Weapon Only",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Kill Agheel with a +0 weapon"
+    ]
   },
   {
     "id": "altus_bosses_4",
@@ -29,6 +32,11 @@
     "aliases": [
       "Kill 5 bosses in Altus Plateau and Mt. Gelmir"
     ]
+  },
+  {
+    "id": "altus_bosses_5_no_volcano",
+    "text": "Kill 5 bosses in Altus Plateau (no Volcano Manor)",
+    "game_type": "base"
   },
   {
     "id": "altus_bosses_6",
@@ -1038,6 +1046,11 @@
     "game_type": "base"
   },
   {
+    "id": "rykard_discard_serpent_hunter",
+    "text": "Kill Rykard and discard Serpent Hunter +0",
+    "game_type": "base"
+  },
+  {
     "id": "rykard_great_rune",
     "text": "Restore Rykard's Great Rune",
     "game_type": "base"
@@ -1057,6 +1070,11 @@
     "aliases": [
       "Sacred Flask +7"
     ]
+  },
+  {
+    "id": "sacred_seals_4",
+    "text": "Acquire 4 different Sacred Seals",
+    "game_type": "base"
   },
   {
     "id": "scarseals",

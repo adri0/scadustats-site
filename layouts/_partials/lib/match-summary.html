@@ -5,6 +5,9 @@
   num_games/red_score/blue_score/winner are never trusted (some files omit
   them entirely; the extraction tool itself treats them as derived values).
   A 2v2 match's sides are teams (see lib/side-lookup.html).
+  A Season 1 game records the colour each side claimed in (red_color,
+  blue_color); claim_class turns them into the claims-* classes that draw the
+  game in them, and the match's own claim_class is game 1's (see _scadu.scss).
 */ -}}
 {{- $match := . -}}
 {{- $meta := $match.metadata -}}
@@ -16,7 +19,13 @@
 {{- $redWins := 0 -}}
 {{- $blueWins := 0 -}}
 {{- $undetermined := false -}}
-{{- range $g := ($match.games | default slice) -}}
+{{- $matchClaimClass := "" -}}
+{{- range $i, $g := ($match.games | default slice) -}}
+  {{- $claimClass := slice -}}
+  {{- with $g.red_color }}{{ $claimClass = $claimClass | append (printf "claims-red-%s" .) }}{{ end -}}
+  {{- with $g.blue_color }}{{ $claimClass = $claimClass | append (printf "claims-blue-%s" .) }}{{ end -}}
+  {{- $claimClass = delimit $claimClass " " -}}
+  {{- if eq $i 0 }}{{ $matchClaimClass = $claimClass }}{{ end -}}
   {{- $board := partial "lib/board-state.html" $g -}}
   {{- $wt := $g.win_type -}}
   {{- $wc := $g.winner_color -}}
@@ -38,6 +47,9 @@
       "red_points" $g.red_points
       "blue_points" $g.blue_points
       "winner_color" ($wc | default "")
+      "red_color" ($g.red_color | default "")
+      "blue_color" ($g.blue_color | default "")
+      "claim_class" $claimClass
       "board" $board
       "events" (sort ($g.events | default slice) "video_ts_s")) -}}
 {{- end -}}
@@ -70,4 +82,5 @@
     "red_score" $redWins
     "blue_score" $blueWins
     "winner" $winner
+    "claim_class" $matchClaimClass
     "games" $games) -}}

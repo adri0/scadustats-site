@@ -2,7 +2,8 @@
    Built on the Land of Shadow theme's tokens (its palette re-points kopi's
    --bg-body, --text-main, --text-muted, --accent, --border, --radius-*, and
    adds --surface*, --gold-soft/--gold-glow, --link and the font stacks).
-   Only the red/blue player colours are added here, in both themes.
+   Only the red/blue player colours (and Season 1's claim colours) are added
+   here, in both themes.
 ---------------------------------------------------------------------------- */
 
 :root {
@@ -18,6 +19,48 @@
     --red-soft: rgba(219, 106, 100, 0.14);
     --blue-soft: rgba(111, 163, 220, 0.14);
 }
+
+/* Season 1's players claimed in their own bingosync colours, which a match file
+   records per game (red_color/blue_color). A game's section (and the match's
+   scoreboard, from game 1) carries claims-red-<colour> and claims-blue-<colour>,
+   which re-point --red/--blue at that colour; red and blue have their own tokens
+   too, so a swapped pair (red side in blue) doesn't refer back to itself. */
+:root {
+    --claim-red: #a3313d;
+    --claim-red-soft: rgba(163, 49, 61, 0.1);
+    --claim-orange: #b25f12;
+    --claim-orange-soft: rgba(178, 95, 18, 0.1);
+    --claim-green: #2f7d32;
+    --claim-green-soft: rgba(47, 125, 50, 0.1);
+    --claim-blue: #2a5d92;
+    --claim-blue-soft: rgba(42, 93, 146, 0.1);
+    --claim-purple: #6f3a96;
+    --claim-purple-soft: rgba(111, 58, 150, 0.1);
+}
+
+[data-theme="dark"] {
+    --claim-red: #db6a64;
+    --claim-red-soft: rgba(219, 106, 100, 0.14);
+    --claim-orange: #e8a04f;
+    --claim-orange-soft: rgba(232, 160, 79, 0.14);
+    --claim-green: #6cc070;
+    --claim-green-soft: rgba(108, 192, 112, 0.14);
+    --claim-blue: #6fa3dc;
+    --claim-blue-soft: rgba(111, 163, 220, 0.14);
+    --claim-purple: #b48ad8;
+    --claim-purple-soft: rgba(180, 138, 216, 0.14);
+}
+
+.claims-red-red { --red: var(--claim-red); --red-soft: var(--claim-red-soft); }
+.claims-blue-red { --blue: var(--claim-red); --blue-soft: var(--claim-red-soft); }
+.claims-red-orange { --red: var(--claim-orange); --red-soft: var(--claim-orange-soft); }
+.claims-blue-orange { --blue: var(--claim-orange); --blue-soft: var(--claim-orange-soft); }
+.claims-red-green { --red: var(--claim-green); --red-soft: var(--claim-green-soft); }
+.claims-blue-green { --blue: var(--claim-green); --blue-soft: var(--claim-green-soft); }
+.claims-red-blue { --red: var(--claim-blue); --red-soft: var(--claim-blue-soft); }
+.claims-blue-blue { --blue: var(--claim-blue); --blue-soft: var(--claim-blue-soft); }
+.claims-red-purple { --red: var(--claim-purple); --red-soft: var(--claim-purple-soft); }
+.claims-blue-purple { --blue: var(--claim-purple); --blue-soft: var(--claim-purple-soft); }
 
 /* The theme sets headings in the display face; the home hero's title too. */
 .hero-title {
