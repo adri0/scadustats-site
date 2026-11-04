@@ -1,0 +1,308 @@
+{
+  "match_id": "2023-04-02-YoJoSherino-vs-Mitchriz",
+  "match_date": "2023-04-02",
+  "season": "1",
+  "match_type": "round_robin",
+  "player_red_name": "YoJoSherino",
+  "player_blue_name": "Mitchriz",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=IeS_85bwcEk",
+    "duration_s": 7914.916666666667,
+    "published_at": "2023-04-03",
+    "extracted_at": "2026-11-04"
+  },
+  "num_games": 1,
+  "red_score": 1,
+  "blue_score": 0,
+  "winner": "red",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 6.0,
+      "end_video_ts_s": 7914.0,
+      "game_type": "base",
+      "red_color": "purple",
+      "blue_color": "green",
+      "winner_color": "red",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Learn 12 different sorceries",
+          "Kill Margit with 4+ parries",
+          "Kill 2 Duelist Bosses",
+          "Memory of Grace with 50k+ Runes",
+          "Acquire 4 different Sacred Seals"
+        ],
+        [
+          "Kill 2 Cemetery Shades",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Acquire 10 Cracked Pots",
+          "Sell Bloodhound's Fang +0",
+          "Complete 2 tunnel or precipice dungeons"
+        ],
+        [
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Take Rya's hand to Volcano Manor",
+          "Use AoW Lightning Ram to kill 10 sheep",
+          "Kill 3 Bell Bearing Hunters",
+          "Kill 8 bosses in Limgrave"
+        ],
+        [
+          "Kill a boss on Torrent the whole fight",
+          "Acquire Both Scarseal Talismans",
+          "Complete 2 cave or grotto dungeons",
+          "Kill 3 Erdtree Avatars",
+          "Finish off a Boss with the Explosive Physick"
+        ],
+        [
+          "Kill 3 Dragon Heart Bosses",
+          "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "Learn 14 different incantations",
+          "Sacred Flask +7",
+          "Kill 6 bosses in Liurnia"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:06"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:10:17",
+          "video_timestamp": "00:10:23"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Sell Bloodhound's Fang +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:13:12",
+          "video_timestamp": "00:13:18"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:05",
+          "video_timestamp": "00:14:11"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Complete 2 cave or grotto dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:18:09",
+          "video_timestamp": "00:18:15"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Margit with 4+ parries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:16",
+          "video_timestamp": "00:33:22"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill 8 bosses in Limgrave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:33:29",
+          "video_timestamp": "00:33:35"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Finish off a Boss with the Explosive Physick",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:36:27",
+          "video_timestamp": "00:36:33"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill 2 Duelist Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:47:15",
+          "video_timestamp": "00:47:21"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:29",
+          "video_timestamp": "00:50:35"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:54:20",
+          "video_timestamp": "00:54:26"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:30",
+          "video_timestamp": "01:00:36"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Kill 2 Cemetery Shades",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:17",
+          "video_timestamp": "01:12:23"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:17:18",
+          "video_timestamp": "01:17:24"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:23:48",
+          "video_timestamp": "01:23:54"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 6 bosses in Liurnia",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:47",
+          "video_timestamp": "01:24:53"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Learn 12 different sorceries",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:27:06",
+          "video_timestamp": "01:27:12"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:29:17",
+          "video_timestamp": "01:29:23"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:33:24",
+          "video_timestamp": "01:33:30"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:41:40",
+          "video_timestamp": "01:41:46"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Learn 14 different incantations",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "01:44:42",
+          "video_timestamp": "01:44:48"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Learn 14 different incantations",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:44:46",
+          "video_timestamp": "01:44:52"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Sacred Flask +7",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:46:24",
+          "video_timestamp": "01:46:30"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill 1 Deathbird and 1 Death Rite Bird",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:50:47",
+          "video_timestamp": "01:50:53"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Acquire 4 different Sacred Seals",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:53:52",
+          "video_timestamp": "01:53:58"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:00",
+          "video_timestamp": "02:00:07"
+        }
+      ]
+    }
+  ]
+}
