@@ -1,0 +1,512 @@
+{
+  "match_id": "2023-04-29-Ainrun-vs-GinoMachino",
+  "match_date": "2023-04-29",
+  "season": "1",
+  "match_type": "double_elimination",
+  "player_red_name": "Ainrun",
+  "player_blue_name": "GinoMachino",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=eV09iHbepmQ",
+    "duration_s": 6130.95,
+    "published_at": "2023-05-01",
+    "extracted_at": "2026-11-04"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 1.0,
+      "end_video_ts_s": 6130.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Kill Greyoll without Status Effects",
+          "Kill Mimic Tear consumables only",
+          "Restore Morgott's Great Rune",
+          "Complete 2 tunnel or precipice dungeons",
+          "Kill a boss on Torrent the whole fight"
+        ],
+        [
+          "Somber +9 weapon",
+          "Kill 5 Bosses that Ride a Horse",
+          "Acquire 3 Imbued Sword Keys",
+          "Kill an Omenkiller boss",
+          "Kill Loretta (Blue Spirit)"
+        ],
+        [
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Kill 1 Deathbird and 1 Death Rite Bird",
+          "Acquire two prattling pate's",
+          "Kill a Remembrance boss sorcery only",
+          "Dupe a Remembrance at a Mausoleum"
+        ],
+        [
+          "Acquire 4 different Remembrances",
+          "Acquire Margit's and Mohg's Shackles",
+          "Spirit Ash +4 summon",
+          "Kill 3 Bell Bearing Hunters",
+          "Return Thop's academy key"
+        ],
+        [
+          "Kill Rennala after she summons all 4 different spirits",
+          "Acquire Both Scarseal Talismans",
+          "Kill Gurranq",
+          "Kill a Magma Wyrm boss",
+          "Acquire Fingerslayer Blade"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:01"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:39",
+          "video_timestamp": "00:04:40"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:15:22",
+          "video_timestamp": "00:15:23"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Dupe a Remembrance at a Mausoleum",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:16:07",
+          "video_timestamp": "00:16:08"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:24:16",
+          "video_timestamp": "00:24:17"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:40",
+          "video_timestamp": "00:26:41"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Complete 2 tunnel or precipice dungeons",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:35:19",
+          "video_timestamp": "00:35:20"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Acquire two prattling pate's",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:32",
+          "video_timestamp": "00:39:23"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:41:30",
+          "video_timestamp": "00:41:21"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Rennala after she summons all 4 different spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:46",
+          "video_timestamp": "00:46:37"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Acquire 3 Imbued Sword Keys",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:48:41",
+          "video_timestamp": "00:48:32"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill Loretta (Blue Spirit)",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:52:44",
+          "video_timestamp": "00:52:35"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "Kill 5 Bosses that Ride a Horse",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:40",
+          "video_timestamp": "01:00:31"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Acquire Margit's and Mohg's Shackles",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:32",
+          "video_timestamp": "01:07:23"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Somber +9 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:09:54",
+          "video_timestamp": "01:09:45"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:12:11",
+          "video_timestamp": "01:12:02"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill 1 Deathbird and 1 Death Rite Bird",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:12:53",
+          "video_timestamp": "01:12:44"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Kill Gurranq",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:13:56",
+          "video_timestamp": "01:13:47"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Kill Mimic Tear consumables only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:24:19",
+          "video_timestamp": "01:24:10"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Kill Greyoll without Status Effects",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:24",
+          "video_timestamp": "01:24:15"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:29:49",
+          "video_timestamp": "01:29:40"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:35:17",
+          "video_timestamp": "01:35:08"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:35:17",
+          "video_timestamp": "01:35:08"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "video_url": "https://www.youtube.com/watch?v=bdaGE4d5Yo0",
+      "start_video_ts_s": 9.0,
+      "end_video_ts_s": 5716.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Acquire 6 different Glintstone Staves",
+          "Kill Fia's Champions",
+          "Kill a Red Wolf Boss",
+          "Sacred Flask +7",
+          "Use AoW Lightning Ram to kill 10 sheep"
+        ],
+        [
+          "Return Thop's academy key",
+          "Kill Morgott",
+          "Sell Bloodhound's Fang +0",
+          "Kill an Ancestor Spirit",
+          "Somber +9 weapon"
+        ],
+        [
+          "Kill a Magma Wyrm boss",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Kill 5 bosses with the word \"Knight\" in their name",
+          "Kill Tree Sentinel Duo",
+          "Kill Commander O'Neil"
+        ],
+        [
+          "Kill a Remembrance boss w/ remembrance weapon only",
+          "Kill Margit with 4+ parries",
+          "Kill a Remembrance boss sorcery only",
+          "Kill a Fallingstar Beast",
+          "Kill a Godskin Apostle"
+        ],
+        [
+          "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "Acquire 3 Whetblades",
+          "Kill Crucible Knight & Misbegotten Warrior duo",
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Kill 2 Black Knife Assassins"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:10"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Margit with 4+ parries",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:05:55",
+          "video_timestamp": "00:06:05"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:14:48",
+          "video_timestamp": "00:14:58"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:18:18",
+          "video_timestamp": "00:18:28"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Acquire 3 Whetblades",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:19",
+          "video_timestamp": "00:19:29"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Acquire 6 different Glintstone Staves",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:23:46",
+          "video_timestamp": "00:23:56"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:24:07",
+          "video_timestamp": "00:24:17"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Sell Bloodhound's Fang +0",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:32:49",
+          "video_timestamp": "00:32:59"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill a Magma Wyrm boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:13",
+          "video_timestamp": "00:37:23"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Acquire Smithing-stone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:43:52",
+          "video_timestamp": "00:44:02"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Kill a Fallingstar Beast",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:46:53",
+          "video_timestamp": "00:47:03"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:50:15",
+          "video_timestamp": "00:50:25"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:53",
+          "video_timestamp": "00:57:03"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:57:29",
+          "video_timestamp": "00:57:39"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill Tree Sentinel Duo",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:02",
+          "video_timestamp": "01:00:12"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill 5 bosses with the word \"Knight\" in their name",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:48",
+          "video_timestamp": "01:11:58"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "Kill Commander O'Neil",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:14:35",
+          "video_timestamp": "01:14:45"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Use AoW Lightning Ram to kill 10 sheep",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:04",
+          "video_timestamp": "01:20:14"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:24:00",
+          "video_timestamp": "01:24:10"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:24:00",
+          "video_timestamp": "01:24:10"
+        }
+      ]
+    }
+  ]
+}
