@@ -20,7 +20,7 @@ Rerun it after changing match data.
 
 ## Community
 
-Want to contribute, report something or just talk about the site or [scadustats](https://github.com/adri0/scadustats)? Join the [scadustats Discord server](https://discord.gg/eYtbyN4fbp).
+Want to contribute, report something or just talk about the site or [scadustats](https://github.com/adri0/scadustats)? Join the [scadustats Discord server](https://discord.gg/xtdu28QBRd).
 
 ## Credits
 
