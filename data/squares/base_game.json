@@ -129,12 +129,10 @@
   {
     "id": "boc_needle",
     "text": "Give boc his needle back",
-    "game_type": "base"
-  },
-  {
-    "id": "boc_tailoring_tools",
-    "text": "Return the Tailoring Tools to Boc",
-    "game_type": "base"
+    "game_type": "base",
+    "aliases": [
+      "Return the Tailoring Tools to Boc"
+    ]
   },
   {
     "id": "boiled_crab_20",
