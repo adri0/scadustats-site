@@ -76,7 +76,7 @@ title = "Scadustats"
 
 [[menus.footer]]
   name = "Discord"
-  url = "https://discord.gg/eYtbyN4fbp"
+  url = "https://discord.gg/xtdu28QBRd"
   weight = 40
   # The Discord mark (Simple Icons, CC0), as in _partials/icon-discord.html. land-of-shadow from
   # v0.4.0 puts it before the name.
