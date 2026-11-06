@@ -153,9 +153,12 @@ Hand-curated tournament structure, which the match files don't carry (`scadustat
 these). `groups` lists each round-robin group's players in final placing order (used only to break
 ties on points) plus `qualify`, where each placing went next; an entry written as a list or as
 `{players, note}` is one slot shared by several players (e.g. a replacement), summed into one row
-via `lib/season-slots.html`. Points are games won, unless the groups file says `scoring: points`
+via `lib/season-slots.html`. Points are games won, a drawn game (`win_type: tie`, Seasons 1 and 2) ½ to
+each side, unless the groups file says `scoring: points`
 (Season 3): then the grid shows each game's points (a square each, two more per line) and teams are
-ranked on the points they scored. `brackets` places each playoff match on a col/row grid with its `next`
+ranked on the points they scored. A groups file's `results` hand-enters round-robin matches with no VOD
+(`{red, blue, red_score, blue_score, date, note}`, as in a bracket file; Season 2): the grid shows them
+unlinked, marked "no VOD", and the season overview counts them as not transcribed. `brackets` places each playoff match on a col/row grid with its `next`
 match and the match file it refers to (or hand-entered scores when there is no transcription).
 A bracket match can also have `loser_next` (where its loser dropped to, drawn dashed), `lane` (where
 elbows into it turn) and `qualifies` (its winner qualified for a later season: framed, and listed in

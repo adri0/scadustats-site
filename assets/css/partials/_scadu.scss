@@ -1037,6 +1037,8 @@
 
 .rr-cell {
     a { display: block; color: inherit; font-weight: 600; }
+    /* A hand-entered result (no VOD): not a link, so no match page. */
+    &.rr-novod > span { display: block; font-weight: 600; cursor: help; }
 
     .rr-date {
         display: block;

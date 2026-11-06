@@ -1,0 +1,42 @@
+# Hand-curated round robin for season 2 (1v1, base game): eight players in one
+# group, each playing every other player once in a single game (videos 41-67).
+# See data/groups/season-6.yaml for the field reference.
+#
+# A game won is 1 point and a drawn game (the two-hour limit on equal squares)
+# ½ to each player: Season 2 has two, blueberrybrioche vs Bushy and
+# NuclearPastaTom vs blueberrybrioche.
+#
+# Players are listed in their round-robin placing, from the leaderboard in the
+# 2023-12-09 capture of bingobrawlers.com, which has wins, draws and losses:
+# catalystz 6-0-1, Bushy and NuclearPastaTom 4-1-2, Puppery 4-0-3, LilAggy and
+# Zoodle 3-0-4, blueberrybrioche 1-2-4, itzCBD 1-0-6. Bushy is above
+# NuclearPastaTom there (and beat him); the 2025 capture of the Season 2 page
+# lists NuclearPastaTom first (more squares). LilAggy is above Zoodle in both
+# (and beat him). The top three went to the playoffs
+# (data/brackets/season-2.yaml): 2nd vs 3rd in the semi-final, the winner
+# against 1st in the final.
+#
+# One place in the round robin was shared: DomsRoundtable played its
+# week 1 match (against catalystz, video 44), the slot shows "-" in week 2, and
+# Zoodle played it from week 3. The leaderboard puts all seven results under
+# Zoodle, so the slot is shared.
+#
+# `results` holds the round-robin match with no VOD: the slot's week 2 match
+# against Puppery (2023-09-09), which the leaderboard counts as a Puppery win
+# (Puppery's one win, line and 7 squares more than the VODs show; the slot's
+# one loss more).
+title: Round robin
+qualify: [playoffs, playoffs, playoffs]
+groups:
+  - players:
+      - catalystz
+      - Bushy
+      - NuclearPastaTom
+      - Puppery
+      - LilAggy
+      - players: [Zoodle, DomsRoundtable]
+        note: "DomsRoundtable played this place's week 1 match (against catalystz) and Zoodle played from week 3. Its week 2 match, against Puppery, has no VOD."
+      - blueberrybrioche
+      - itzCBD
+results:
+  - { red: Zoodle, blue: Puppery, red_score: 0, blue_score: 1, date: "2023-09-09", note: "the league's schedule shows no opponent (\"-\") for Puppery that week, and its leaderboard counts the match as a Puppery win" }
