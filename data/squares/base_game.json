@@ -155,6 +155,11 @@
     "game_type": "base"
   },
   {
+    "id": "boss_status_effects_3",
+    "text": "Kill a boss after applying 3 different status effects",
+    "game_type": "base"
+  },
+  {
     "id": "both_astels",
     "text": "Kill Both Astel Bosses",
     "game_type": "base",
@@ -963,6 +968,11 @@
     "aliases": [
       "Collect 3 Painting rewards"
     ]
+  },
+  {
+    "id": "perfume_bottles_3",
+    "text": "Collect 3 Perfume Bottles",
+    "game_type": "base"
   },
   {
     "id": "physick_tears_10",

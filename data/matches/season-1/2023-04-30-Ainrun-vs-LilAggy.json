@@ -1,0 +1,566 @@
+{
+  "match_id": "2023-04-30-Ainrun-vs-LilAggy",
+  "match_date": "2023-04-30",
+  "season": "1",
+  "match_type": "double_elimination",
+  "player_red_name": "Ainrun",
+  "player_blue_name": "LilAggy",
+  "commentators": [
+    "Zoodle",
+    "Captain_Domo"
+  ],
+  "metadata": {
+    "video_url": "https://www.youtube.com/watch?v=n_quzIQBYPo",
+    "duration_s": 7295.933333333333,
+    "published_at": "2023-05-03",
+    "extracted_at": "2026-11-06"
+  },
+  "num_games": 2,
+  "red_score": 0,
+  "blue_score": 2,
+  "winner": "blue",
+  "games": [
+    {
+      "game_index": 1,
+      "start_video_ts_s": 8.0,
+      "end_video_ts_s": 7295.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "majority",
+      "win_line": null,
+      "square_texts": [
+        [
+          "Restore Godrick's Great Rune",
+          "Restore Morgott's Great Rune",
+          "Acquire 6 different Glintstone Staves",
+          "Acquire 4 different Remembrances",
+          "Kill a Remembrance boss sorcery only"
+        ],
+        [
+          "Complete 2 catacomb dungeons",
+          "Kill 3 Crucible Knights",
+          "Kill Radahn without summoning NPCs",
+          "Kill 3 Erdtree Avatars",
+          "Kill a Red Wolf Boss"
+        ],
+        [
+          "Kill Morgott",
+          "Sell Bloodhound's Fang +0",
+          "Kill a boss after applying 3 different status effects",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "10 Sacred Flask charges"
+        ],
+        [
+          "Acquire Both Scarseal Talismans",
+          "Somber +9 weapon",
+          "Kill 2 Black Knife Assassins",
+          "Take Rya's hand to Volcano Manor",
+          "Kill a Remembrance boss daggers, claws, or fists only"
+        ],
+        [
+          "Kill Godrick while Summoning Nepheli Loux",
+          "Spirit Ash +4 summon",
+          "Acquire 10 Cracked Pots",
+          "Kill a Dragonkin Soldier",
+          "Kill a Remembrance boss w/ remembrance weapon only"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:08"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Sell Bloodhound's Fang +0",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:59",
+          "video_timestamp": "00:06:07"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill Godrick while Summoning Nepheli Loux",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:14:26",
+          "video_timestamp": "00:14:34"
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "square_text": "Acquire 10 Cracked Pots",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:19:35",
+          "video_timestamp": "00:19:43"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Complete 2 catacomb dungeons",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:27",
+          "video_timestamp": "00:22:35"
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "square_text": "Restore Godrick's Great Rune",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:23:11",
+          "video_timestamp": "00:23:19"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Kill a boss after applying 3 different status effects",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:26:18",
+          "video_timestamp": "00:26:26"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill a Red Wolf Boss",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:37:58",
+          "video_timestamp": "00:38:06"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Spirit Ash +4 summon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:39:02",
+          "video_timestamp": "00:39:10"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Take Rya's hand to Volcano Manor",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:40:19",
+          "video_timestamp": "00:40:27"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Kill 2 Black Knife Assassins",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:51:07",
+          "video_timestamp": "00:51:15"
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "square_text": "Kill Radahn without summoning NPCs",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:59:58",
+          "video_timestamp": "01:00:06"
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss w/ remembrance weapon only",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:00:29",
+          "video_timestamp": "01:00:37"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss daggers, claws, or fists only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:02:29",
+          "video_timestamp": "01:02:37"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:03:32",
+          "video_timestamp": "01:03:40"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "01:03:57",
+          "video_timestamp": "01:04:05"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:04:04",
+          "video_timestamp": "01:04:12"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill 3 Erdtree Avatars",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:07:05",
+          "video_timestamp": "01:07:13"
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "square_text": "Kill a Dragonkin Soldier",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:09:44",
+          "video_timestamp": "01:09:52"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Acquire Both Scarseal Talismans",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:11:26",
+          "video_timestamp": "01:11:34"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "blue",
+          "event_type": "unmark",
+          "game_timer": "01:11:37",
+          "video_timestamp": "01:11:44"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:11:40",
+          "video_timestamp": "01:11:48"
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "square_text": "10 Sacred Flask charges",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:20:00",
+          "video_timestamp": "01:20:08"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Acquire 6 different Glintstone Staves",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:20:37",
+          "video_timestamp": "01:20:45"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Somber +9 weapon",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:34:55",
+          "video_timestamp": "01:35:03"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Kill Morgott",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:43:45",
+          "video_timestamp": "01:43:53"
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "square_text": "Acquire 4 different Remembrances",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:53:08",
+          "video_timestamp": "01:53:16"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Remembrance boss sorcery only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:53:08",
+          "video_timestamp": "01:53:16"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "02:00:00",
+          "video_timestamp": "02:00:08"
+        }
+      ]
+    },
+    {
+      "game_index": 2,
+      "video_url": "https://www.youtube.com/watch?v=idCBm6HN128",
+      "start_video_ts_s": 34.0,
+      "end_video_ts_s": 5759.0,
+      "game_type": "base",
+      "red_color": "blue",
+      "blue_color": "red",
+      "winner_color": "blue",
+      "win_type": "line",
+      "win_line": "row_4",
+      "square_texts": [
+        [
+          "Kill Godfrey (Gold Spirit)",
+          "Complete an Altus Plateau Hero's Grave",
+          "Kill a boss on Torrent the whole fight",
+          "Invade and defeat Magnus the Beast Claw",
+          "Kill a Godskin Apostle"
+        ],
+        [
+          "Acquire 2 legendary armaments",
+          "30 Faith (no rebirth or buffs)",
+          "Kill Mohg (Sewers)",
+          "Kill a boss Consumables only",
+          "Kill an Omenkiller boss"
+        ],
+        [
+          "Memory of Grace with 50k+ Runes",
+          "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "Collect 3 Perfume Bottles",
+          "Kill 3 Bell Bearing Hunters",
+          "Kill a Black Blade Kindred"
+        ],
+        [
+          "Kill Rennala after she summons all 4 different spirits",
+          "Kill Putrid Crystalian trio",
+          "Rune Level 60",
+          "Acquire Somberstone Bell Bearing [1] and [2]",
+          "Return Thop's academy key"
+        ],
+        [
+          "Kill 3 Duo/Trio Bosses",
+          "Kill 3 Dragon Heart Bosses",
+          "Acquire Grave and Ghost Glovewort Bell Bearings [1]",
+          "Acquire Both Scarseal Talismans",
+          "Spirit Ash +4 summon"
+        ]
+      ],
+      "events": [
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_start",
+          "game_timer": "00:00:00",
+          "video_timestamp": "00:00:34"
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "square_text": "Kill a boss Consumables only",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:04:05",
+          "video_timestamp": "00:04:39"
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "square_text": "Kill Limgrave Tree Sentinel with a +0 weapon",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:05:54",
+          "video_timestamp": "00:06:28"
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "square_text": "Kill a boss on Torrent the whole fight",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:06:38",
+          "video_timestamp": "00:07:12"
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "square_text": "Acquire 2 legendary armaments",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:17:17",
+          "video_timestamp": "00:17:51"
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "square_text": "Kill an Omenkiller boss",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:22:30",
+          "video_timestamp": "00:23:04"
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "square_text": "Memory of Grace with 50k+ Runes",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:30:55",
+          "video_timestamp": "00:31:29"
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "square_text": "Collect 3 Perfume Bottles",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:37:01",
+          "video_timestamp": "00:37:35"
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "square_text": "Kill a Godskin Apostle",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:45:46",
+          "video_timestamp": "00:46:20"
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "square_text": "Kill Putrid Crystalian trio",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:49:17",
+          "video_timestamp": "00:49:51"
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "square_text": "Kill 3 Duo/Trio Bosses",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:53:21",
+          "video_timestamp": "00:53:55"
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "square_text": "Acquire Somberstone Bell Bearing [1] and [2]",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "00:56:24",
+          "video_timestamp": "00:56:58"
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "square_text": "30 Faith (no rebirth or buffs)",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "00:56:49",
+          "video_timestamp": "00:57:23"
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "square_text": "Return Thop's academy key",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:00:50",
+          "video_timestamp": "01:01:24"
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "square_text": "Kill 3 Dragon Heart Bosses",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:03:23",
+          "video_timestamp": "01:03:57"
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "square_text": "Kill Rennala after she summons all 4 different spirits",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:05:56",
+          "video_timestamp": "01:06:30"
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "square_text": "Complete an Altus Plateau Hero's Grave",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:10:16",
+          "video_timestamp": "01:10:50"
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "square_text": "Kill 3 Bell Bearing Hunters",
+          "color": "red",
+          "event_type": "mark",
+          "game_timer": "01:18:30",
+          "video_timestamp": "01:19:04"
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "square_text": "Rune Level 60",
+          "color": "blue",
+          "event_type": "mark",
+          "game_timer": "01:21:17",
+          "video_timestamp": "01:21:51"
+        },
+        {
+          "row": null,
+          "col": null,
+          "square_text": null,
+          "color": null,
+          "event_type": "game_end",
+          "game_timer": "01:21:17",
+          "video_timestamp": "01:21:51"
+        }
+      ]
+    }
+  ]
+}
