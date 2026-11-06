@@ -611,6 +611,11 @@
     "game_type": "base"
   },
   {
+    "id": "knight_bosses_5",
+    "text": "Kill 5 bosses with the word \"Knight\" in their name",
+    "game_type": "base"
+  },
+  {
     "id": "lansseax",
     "text": "Kill Ancient Dragon Lansseax",
     "game_type": "base",
@@ -962,6 +967,11 @@
   {
     "id": "physick_tears_10",
     "text": "Acquire 10 Physick Flask tears",
+    "game_type": "base"
+  },
+  {
+    "id": "prattling_pates_2",
+    "text": "Acquire two prattling pate's",
     "game_type": "base"
   },
   {
