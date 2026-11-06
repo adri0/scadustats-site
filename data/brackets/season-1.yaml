@@ -19,6 +19,6 @@ title: Playoffs
 phase: Single elimination
 matches:
   - { id: 1, label: Semi-final 1, bracket: semifinal, col: 0, row: 0, date: "2023-04-22", next: 3, loser_next: 4, match: 2023-04-22-star0chris-vs-LilAggy }
-  - { id: 2, label: Semi-final 2, bracket: semifinal, col: 0, row: 1, date: "2023-04-29", next: 3, loser_next: 4, red: GinoMachino, blue: Ainrun, red_score: 2, blue_score: 0 }
+  - { id: 2, label: Semi-final 2, bracket: semifinal, col: 0, row: 1, date: "2023-04-29", next: 3, loser_next: 4, match: 2023-04-29-Ainrun-vs-GinoMachino }
   - { id: 3, label: Final, bracket: final, col: 1, row: 0.5, date: "2023-05-06", red: star0chris, blue: GinoMachino, red_score: 0, blue_score: 2 }
   - { id: 4, label: 3rd place, bracket: third, col: 1, row: 1.75, date: "2023-04-30", red: LilAggy, blue: Ainrun, red_score: 2, blue_score: 0 }
