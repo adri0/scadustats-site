@@ -566,6 +566,11 @@
     "game_type": "base"
   },
   {
+    "id": "gurranq_deathroot_3",
+    "text": "Feed Gurranq 3 deathroot",
+    "game_type": "base"
+  },
+  {
     "id": "haligtree_medallion",
     "text": "Acquire the Full Haligtree Medallion",
     "game_type": "base",
@@ -625,7 +630,8 @@
     "text": "Kill Ancient Dragon Lansseax",
     "game_type": "base",
     "aliases": [
-      "Kill Lansseax"
+      "Kill Lansseax",
+      "Kill Lansseax in altus"
     ]
   },
   {
