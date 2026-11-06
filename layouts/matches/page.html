@@ -65,6 +65,8 @@
   <section class="game{{ with .claim_class }} {{ . }}{{ end }}" id="game-{{ .index }}">
     <div class="section-head">
       <h2>Game {{ .index }}</h2>
+      {{- /* A game in its own VOD (one video per game) links it here too. */}}
+      {{- if .own_video }}{{ partial "vod-link.html" .video_url }}{{ end }}
       <div class="game-badges">
         {{- $red := 0 }}{{ $blue := 0 }}
         {{- range .board }}{{ if eq .color "red" }}{{ $red = add $red 1 }}{{ else if eq .color "blue" }}{{ $blue = add $blue 1 }}{{ end }}{{ end }}
@@ -105,7 +107,7 @@
       </div>
     </div>
 
-    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line "game_type" .game_type "video_url" $p.video_url "events" .events) }}
+    {{ partial "board-grid.html" (dict "board" .board "win_line" .win_line "game_type" .game_type "video_url" .video_url "events" .events) }}
 
     {{- with .events }}
     <details class="timeline-toggle">
