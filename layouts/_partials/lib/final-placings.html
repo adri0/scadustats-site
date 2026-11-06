@@ -16,7 +16,9 @@
        loser 4th. With no third-place match, the semi-final losers
        (`bracket: semifinal`, Season 3) share the next placing;
     2. lower-bracket losers, by column, rightmost (latest round) first;
-    3. players who didn't qualify from the groups, by their group position.
+    3. players who didn't qualify from the groups, by their group position,
+       once every match of their group is in (lib/group-tables.html's
+       `played`/`total`): until then they get no placing.
   Players still in a bracket that isn't finished get no placing, and there
   are no placings at all until the champion is known.
 */ -}}
@@ -92,6 +94,7 @@
   {{- range $pos := cond (lt $first $maxSize) (seq $first (sub $maxSize 1)) slice -}}
     {{- $tier := slice -}}
     {{- range $tables.groups -}}
+      {{- if lt .played .total }}{{ continue }}{{ end -}}
       {{- with index .rows $pos }}{{ $tier = $tier | append .player.slug }}{{ end -}}
     {{- end -}}
     {{- with $tier }}{{ $tiers = $tiers | append (dict "slugs" .) }}{{ end -}}

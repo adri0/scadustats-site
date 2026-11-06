@@ -6,7 +6,9 @@
   match's score from the row player's side, linked to the match page unless
   it was hand-entered (`results`, no VOD) (a drawn game counts ½ to each,
   shown as "½–½"). Results and points come from
-  lib/group-tables.html.
+  lib/group-tables.html. While a group's round robin isn't complete (some
+  of its matches aren't transcribed yet), a note above its grid says how many
+  are in, as its order isn't final.
 */ -}}
 {{- $cfg := .groups -}}
 {{- $byPoints := eq $cfg.scoring "points" -}}
@@ -21,6 +23,9 @@
   <div class="rr-group">
     {{- with $g.name }}
     <h3>{{ . }}</h3>
+    {{- end }}
+    {{- if lt $g.played $g.total }}
+    <p class="rr-provisional">Not complete yet: {{ $g.played }} of {{ $g.total }} round-robin matches are in, so this order isn't final.</p>
     {{- end }}
     <div class="table-wrap">
       <table class="stats-table rr-table">
