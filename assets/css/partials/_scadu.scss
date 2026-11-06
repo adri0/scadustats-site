@@ -126,29 +126,6 @@
     font-style: italic;
 }
 
-/* The home page's "under construction" disclaimer, just below the hero. */
-/* Under-construction notice: a one-line strip across the full width,
-   right under the header (the "banner" block in baseof.html). */
-.construction-banner {
-    padding: 0.45rem 1rem;
-    border-bottom: 1px solid var(--border);
-    background-color: var(--gold-soft);
-    color: var(--text-muted);
-    font-size: 0.85rem;
-    text-align: center;
-
-    p { margin: 0; }
-    strong { color: var(--text-main); }
-
-    /* Inline like the footer's icons, so the link keeps the text's baseline. */
-    .icon-discord {
-        width: 1em;
-        height: 1em;
-        margin-right: 0.3em;
-        vertical-align: -0.125em;
-    }
-}
-
 /* --- Tables --- */
 
 .square-table {
