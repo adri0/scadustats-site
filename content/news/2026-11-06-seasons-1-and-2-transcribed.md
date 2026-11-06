@@ -18,6 +18,8 @@ Both season pages show the standings under that season's own rules (draws were p
 
 Playoff games that were streamed as separate videos now link to their own VOD from the [match page](/matches/season-1/2023-05-06-ginomachino-vs-star0chris/).
 
+There are 2 matches though that we couldn't find the VOD, thus not transcribed. 
+
 ### New calendar
 
 The [calendar](/calendar/) shows every match played, the start and end of each season, and upcoming matches, as a month grid and a list. It's also on the home page.
@@ -31,3 +33,10 @@ The [calendar](/calendar/) shows every match played, the start and end of each s
 
 - Season 6 players have their country flag next to their name on the [Season 6](/seasons/6/) page and its matches.
 - scadustats now has a Discord server: [come and say hi](https://discord.gg/xtdu28QBRd), whether you want to help out or just talk about the site.
+
+### What's next?
+
+There are still a lot of ideas in the back of mind for the site. I'd hope to find fellow Bingo Brawlers fans that would wish to exchange ideas on what to improve next. 
+For example, I'd love at some point include info that currently can't be easily extracted, such as weapons used by players on each match, or skip counts (success/failed), etc. This would like require a community effort to label all matches.
+
+In any case, I'm grateful already if you're reading this far :) 
