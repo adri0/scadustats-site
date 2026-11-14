@@ -1,52 +1,99 @@
 {{ define "main" }}
-{{ partial "edit-link.html" . }}
+{{- /*
+  The home page: a short introduction with the league's totals, then the
+  upcoming matches, the calendar and the latest news, with the seasons and the
+  most claimed squares in a narrow column beside them.
+*/ -}}
 {{- $matches := sort (where site.RegularPages "Section" "matches") "Date" "desc" }}
+{{- $players := where site.RegularPages "Section" "players" }}
+{{- $seasons := sort (sort (where site.RegularPages "Section" "seasons") ".Params.start_date" "desc") ".Params.end_date" "desc" }}
+{{- $games := 0 }}
+{{- range $matches }}{{ $games = add $games (.Params.num_games | default 0) }}{{ end }}
+{{- /* Upcoming matches: data/schedule.yaml's entries, as the calendar has
+  them (lib/calendar-data.html leaves out any already transcribed), from
+  today on, soonest first. */}}
+{{- $calendar := partialCached "lib/calendar-data.html" "" "" }}
+{{- $today := now.UTC.Format "2006-01-02" }}
+{{- $upcoming := where (where $calendar.events "kind" "scheduled") "date" "ge" $today }}
+
+<section class="home-intro">
+  <div class="home-title">
+    <h1><span>Elden Ring Bingo Brawlers</span> <span class="home-title-sub">Match by Match</span></h1>
+    <div class="home-logos" aria-hidden="true">
+      {{- with resources.Get "images/logo.png" }}{{ $img := .Resize "192x png" }}
+      <img class="home-logo" src="{{ $img.RelPermalink }}" width="96" height="96" alt="">
+      {{- end }}
+      {{- with resources.Get "images/bingo-brawlers.png" }}{{ $img := .Resize "x192 png" }}
+      <img class="home-wordmark brand-wordmark" src="{{ $img.RelPermalink }}" width="{{ div $img.Width 2 }}" height="96" alt="">
+      {{- end }}
+    </div>
+  </div>
+  {{- with .Content }}<div class="home-lede">{{ . }}</div>{{ end }}
+  <ul class="home-figures">
+    <li><strong>{{ len $matches }}</strong> <a href="{{ "/matches/" | relURL }}">matches</a></li>
+    <li><strong>{{ $games }}</strong> games</li>
+    <li><strong>{{ len $players }}</strong> <a href="{{ "/players/" | relURL }}">players</a></li>
+    <li><strong>{{ len $seasons }}</strong> <a href="{{ "/seasons/" | relURL }}">seasons</a></li>
+  </ul>
+</section>
+
 <div class="content-grid">
-  <main>
-    <section class="hero">
-      {{- $logo := resources.Get "images/logo.png" }}
-      {{- $wordmark := (resources.Get "images/bingo-brawlers.png").Resize "x280 png" }}
-      <h1 class="hero-title">
-        <img class="hero-logo" src="{{ $logo.RelPermalink }}" width="140" height="140" alt="">
-        <img class="hero-wordmark brand-wordmark" src="{{ $wordmark.RelPermalink }}" width="{{ div $wordmark.Width 2 }}" height="140" alt="Bingo Brawlers">
-      </h1>
-      {{- with site.Params.subtitle }}<p class="hero-subtitle">{{ . }}</p>{{ end }}
-      <div class="ornament" aria-hidden="true"><span></span></div>
-      {{- with .Content }}<div class="article-body hero-body">{{ . }}</div>{{ end }}
-    </section>
-
-    {{- partial "latest-news.html" (dict "count" 3) }}
-
+  <div>
     <section>
       <div class="section-head">
         <h2>Upcoming matches</h2>
       </div>
-      <p class="prose-links">The arena's quiet for now, Tarnished: no matches on the schedule yet. Why not relive the chaos of <a href="{{ "/seasons/6/" | relURL }}">Season 6</a>, dig up a player's record in <a href="{{ "/players/" | relURL }}">Players</a>, or find out which squares everyone dreads in <a href="{{ "/squares/" | relURL }}">Squares</a>?</p>
+      {{- with $upcoming }}
+      <ul class="upcoming-list">
+        {{- range . }}
+        <li>
+          <time datetime="{{ .date }}">{{ time.Format "Mon, Jan 2" (time.AsTime .date) }}</time>
+          <ul>{{ partial "calendar-event.html" (dict "event" . "full" true) }}</ul>
+        </li>
+        {{- end }}
+      </ul>
+      {{- else }}
+      <p class="empty-note">No upcoming matches scheduled.</p>
+      {{- end }}
     </section>
 
     <section>
       <div class="section-head">
         <h2>Calendar</h2>
-        <a href="{{ "/calendar/" | relURL }}">Calendar →</a>
+        <a href="{{ "/calendar/" | relURL }}">Full calendar →</a>
       </div>
-      {{ partial "calendar.html" (merge (partialCached "lib/calendar-data.html" "" "") (dict "heading" "h3")) }}
+      {{ partial "calendar.html" (merge $calendar (dict "heading" "h3")) }}
+    </section>
+
+    {{- partial "latest-news.html" (dict "count" 3) }}
+  </div>
+
+  <aside class="sidebar">
+    <section>
+      <div class="section-head">
+        <h2>Seasons</h2>
+        <a href="{{ "/seasons/" | relURL }}">All →</a>
+      </div>
+      <ul class="season-list">
+        {{- range $seasons }}
+        {{- $s := .Params }}
+        <li><a href="{{ .RelPermalink }}"><span class="season-list-name">{{ $s.name | default .Title }}</span>
+          {{- with $s.start_date }}<span class="season-list-dates">{{ partial "date-range.html" (dict "start" . "end" $s.end_date "year" true) }}</span>{{ end }}</a></li>
+        {{- end }}
+      </ul>
     </section>
 
     <section>
       <div class="section-head">
-        <h2>Latest matches</h2>
-        <a href="{{ "/matches/" | relURL }}">All matches →</a>
+        <h2>Most claimed squares</h2>
+        <a href="{{ "/squares/" | relURL }}">All →</a>
       </div>
-      <ul class="match-history">
-        {{- range first 6 $matches }}
-          {{ partial "match-row.html" . }}
+      <ul class="widget-list widget-list-plain">
+        {{- range first 6 (sort (partialCached "lib/square-stats.html" "") "marks" "desc") }}
+        <li>{{ $text := .text }}{{ with partial "lib/square-path.html" . }}<a class="goal-text" href="{{ . | relURL }}">{{ $text }}</a>{{ else }}<span class="goal-text{{ if not .known }} square-unknown{{ end }}">{{ .text }}</span>{{ end }}<span>{{ .marks }}</span></li>
         {{- end }}
       </ul>
     </section>
-  </main>
-
-  <div id="persistent-sidebar" data-turbo-permanent>
-    {{ partial "sidebar.html" . }}
-  </div>
+  </aside>
 </div>
 {{ end }}
